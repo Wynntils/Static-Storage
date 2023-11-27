@@ -1,0 +1,31 @@
+# Github actions runner will run this script on a schedule
+
+name: Update Labels
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight
+
+jobs:
+  update-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update Gear Data
+        run: |
+          ./Generators/extract_labels.sh
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+            labels: auto-generated
+            committer: 'WynntilsBot <admin@wynntils.com>'
+            commit-message: "chore: [auto-generated] Update label data from upstream"
+            title: "chore: [auto-generated] Update label data from upstream"
+            body: |
+              Upstream Wynncraft API has been updated with new label data.
+
+              This PR has been automatically generated.
+            branch: update-labels

@@ -1,0 +1,33 @@
+# Github actions runner will run this script on a schedule
+
+name: Update Ingredient Data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+
+jobs:
+  update-gear-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update Ingredient Data
+        run: |
+          ./Generators/update_ingredient_data.sh
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+            labels: auto-generated
+            committer: 'WynntilsBot <admin@wynntils.com>'
+            commit-message: "chore: [auto-generated] Update ingredient data from upstream"
+            title: "chore: [auto-generated] Update ingredient data from upstream"
+            body: |
+              Upstream Wynncraft API has been updated with new ingredient data.
+
+              If new field types are introduced, please to not merge this PR until the Wynntils mod has been updated to support these changes.
+
+              This PR has been automatically generated.
+            branch: update-ingredient-data
