@@ -1,0 +1,154 @@
+[
+    {
+        "destination": "Bear Zoo Island",
+        "combatLevel": 15,
+        "startX": -409,
+        "startZ": -2539,
+        "endX": -283,
+        "endZ": -2414
+    },
+    {
+        "destination": "Dead Island",
+        "combatLevel": 70,
+        "startX": 745,
+        "startZ": -4040,
+        "endX": 1000,
+        "endZ": -3810
+    },
+    {
+        "destination": "Durum Isles",
+        "combatLevel": 20,
+        "startX": 347,
+        "startZ": -2988,
+        "endX": 595,
+        "endZ": -2791
+    },
+    {
+        "destination": "Galleon's Graveyard",
+        "combatLevel": 60,
+        "startX": -688,
+        "startZ": -3615,
+        "endX": -472,
+        "endZ": -3385
+    },
+    {
+        "destination": "Half Moon Island",
+        "combatLevel": 30,
+        "startX": 900,
+        "startZ": -2660,
+        "endX": 1100,
+        "endZ": -2480
+    },
+    {
+        "destination": "Isles of Fiction",
+        "combatLevel": 35,
+        "startX": -435,
+        "startZ": -4139,
+        "endX": -115,
+        "endZ": -3938
+    },
+    {
+        "destination": "Jofash Docks",
+        "combatLevel": 90,
+        "startX": 1178,
+        "startZ": -4175,
+        "endX": 1445,
+        "endZ": -4012
+    },
+    {
+        "destination": "Llevigar",
+        "combatLevel": 40,
+        "startX": -2048,
+        "startZ": -4403,
+        "endX": -1910,
+        "endZ": -4206
+    },
+    {
+        "destination": "Mage Island",
+        "combatLevel": 30,
+        "startX": 805,
+        "startZ": -2960,
+        "endX": 983,
+        "endZ": -2787
+    },
+    {
+        "destination": "Maro Peaks",
+        "combatLevel": 60,
+        "startX": -41,
+        "startZ": -4174,
+        "endX": 453,
+        "endZ": -3788
+    },
+    {
+        "destination": "Nemract",
+        "combatLevel": 20,
+        "startX": 10,
+        "startZ": -2300,
+        "endX": 210,
+        "endZ": -2070
+    },
+    {
+        "destination": "Nesaak",
+        "combatLevel": 40,
+        "startX": 20,
+        "startZ": -960,
+        "endX": 100,
+        "endZ": -880
+    },
+    {
+        "destination": "Nodguj Island",
+        "combatLevel": 45,
+        "startX": 695,
+        "startZ": -3470,
+        "endX": 917,
+        "endZ": -3210
+    },
+    {
+        "destination": "Pirate Cove",
+        "combatLevel": 60,
+        "startX": -750,
+        "startZ": -3251,
+        "endX": -580,
+        "endZ": -3006
+    },
+    {
+        "destination": "Rooster Island",
+        "combatLevel": 20,
+        "startX": -128,
+        "startZ": -2538,
+        "endX": -30,
+        "endZ": -2448
+    },
+    {
+        "destination": "Selchar",
+        "combatLevel": 25,
+        "startX": -100,
+        "startZ": -3290,
+        "endX": 210,
+        "endZ": -3046
+    },
+    {
+        "destination": "Skiens Island",
+        "combatLevel": 55,
+        "startX": 297,
+        "startZ": -3739,
+        "endX": 577,
+        "endZ": -3367
+    },
+    {
+        "destination": "Volcanic Isles",
+        "combatLevel": 55,
+        "startX": -1164,
+        "startZ": -3870,
+        "endX": -722,
+        "endZ": -3530
+    },
+    {
+        "destination": "Zhight Island",
+        "combatLevel": 55,
+        "startX": -727,
+        "startZ": -2990,
+        "endX": -440,
+        "endZ": -2629
+    }
+]

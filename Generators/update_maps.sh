@@ -1,0 +1,222 @@
+#!/bin/bash
+# This script helps the user update the map for Artemis, using journeymap and
+# ImageMagick.
+# Please install journeymap 5.7, found in the bin directory.
+#
+# Made by magicus (https://github.com/magicus)
+#
+
+base_dir="$(cd $(dirname "$0")/.. 2>/dev/null && pwd)"
+WYNNDATA_DIR=${WYNNDATA_DIR:-$base_dir}
+BASE_URL="https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/maps"
+JSON_METADATA_FILE="$WYNNDATA_DIR/Reference/maps.json"
+
+# ImageMagick respects SOURCE_DATE_EPOCH, and will make consistent timestamps if it is set
+export SOURCE_DATE_EPOCH=946684800
+
+if [ "$(uname -s)" == "Linux" ]; then
+    HEAD=head
+else # Use GNU head, macOS BSD head is too stupid
+    HEAD=ghead
+fi
+
+mkdir -p $WYNNDATA_DIR/tmp/rawmap
+TMPDIR=$(mktemp -dt wynntils-map.XXXXX)
+if [[ ! -e $TMPDIR ]]; then
+  echo "Failed to create temporary directory"
+  exit 1
+fi
+
+function do_map() {
+  NAME="$1"
+  FILE="$2"
+  X1=$3
+  X2=$4
+  Z1=$5
+  Z2=$6
+  MASK_X1=$7
+  MASK_X2=$8
+  MASK_Z1=$9
+  MASK_Z2=${10}
+  MASK_FILE_OVERRIDE=${11}
+
+  echo "===================="
+  echo "Processing $NAME..."
+
+  mkdir -p $WYNNDATA_DIR/tmp
+
+  OUTPUT_MAP=raw-map-$FILE.png
+  SOURCE_TILES=""
+  for ((x = $X1; x <= $X2; x++)); do
+    for ((z = $Z1; z <= $Z2; z++)); do
+      region="$x,$z"
+      region_file="$WYNNDATA_DIR/Data-Storage/raw/map/raw_map/$region.png"
+
+      # If the region file does not exist, we need to create one so the chunk imagine is full
+      if [[ ! -e $region_file ]]; 
+        then
+          echo "Region was not found, using hack: $region"
+          # This is a hack to convince JourneyMapTools to create the correct image size, the map mask takes care of hiding this
+          cp "$WYNNDATA_DIR/Data-Storage/raw/map/raw_map/0,0.png" $WYNNDATA_DIR/tmp/$region.png
+          SOURCE_TILES="$SOURCE_TILES $WYNNDATA_DIR/tmp/$region.png"
+        else
+          echo "Including region: $region"
+          SOURCE_TILES="$SOURCE_TILES $region_file"
+      fi
+
+    done
+  done
+
+  rm -rf $TMPDIR/DIM0/day
+  mkdir -p $TMPDIR/DIM0/day
+  # journeymaptools need to have exactly the regions we want to process, no
+  # more, no less
+  cp -a $SOURCE_TILES $TMPDIR/DIM0/day/
+
+  RAW_FILE_NAME="$WYNNDATA_DIR/tmp/rawmap/$OUTPUT_MAP"
+
+  # for syntax regarding journeymaptools-0.3.jar, see https://journeymap.info/JourneyMapTools
+  java -Djava.awt.headless=true -jar $WYNNDATA_DIR/Generators/bin/journeymaptools-0.3.jar MapSaver $TMPDIR $RAW_FILE_NAME 512 512 -1 0 false day
+
+  echo
+
+  MASK_FILE_NAME="$WYNNDATA_DIR/Data-Storage/raw/map/masks/map-mask-$FILE.png"
+
+  if [ "$#" -eq 11 ]
+    then
+      echo "Splitting mask for override: $MASK_FILE_OVERRIDE.png"
+      MASK_WIDTH=$((($X2-$X1+1)*512))
+      MASK_HEIGHT=$((($Z2-$Z1+1)*512))
+
+      MASK_OFFSET_X=$((($X1-$MASK_X1)*512))
+      MASK_OFFSET_Z=$((($Z1-$MASK_Z1)*512))
+
+      magick "$WYNNDATA_DIR/Data-Storage/raw/map/masks/map-mask-$MASK_FILE_OVERRIDE.png" -crop "$MASK_WIDTH x $MASK_HEIGHT + $MASK_OFFSET_X + $MASK_OFFSET_Z" "$WYNNDATA_DIR/tmp/map-mask-$MASK_FILE_OVERRIDE-$X1-$Z1-$X2-$Z2-cropped.png"
+
+      MASK_FILE_NAME="$WYNNDATA_DIR/tmp/map-mask-$MASK_FILE_OVERRIDE-$X1-$Z1-$X2-$Z2-cropped.png"
+  fi
+
+  OUTPUT_FILE_DIR="$WYNNDATA_DIR/Reference/maps/"
+  OUTPUT_FILE_NAME="$OUTPUT_FILE_DIR/map-$FILE.png"
+  FULLCOLOR_FILE_NAME="$WYNNDATA_DIR/tmp/fullcolor-$FILE.png"
+  INDEXED_FILE_NAME="$WYNNDATA_DIR/tmp/indexed-$FILE.png"
+
+  mkdir -p $OUTPUT_FILE_DIR
+
+  # If we have a mask: First start by procecting all areas covered by the mask,
+  # and make all other areas black, and then reapply the mask as an alpha
+  # channel
+
+  # Always:
+  # Then do "vibrance", turning up the saturation of unsaturated colors
+  # (Inspired by http://www.fmwconcepts.com/imagemagick/vibrance3/index.php)
+  # Finally store as max commpressed png, using -quality 94 == max zlib compression
+  # with the Paeth filter.
+
+  if [ -e $MASK_FILE_NAME ]; then
+    echo Using mask $MASK_FILE_NAME
+    magick $RAW_FILE_NAME -alpha off -write-mask $MASK_FILE_NAME -fill black -colorize 100% +write-mask $MASK_FILE_NAME -compose copy-opacity -composite -colorspace HCL -channel g -sigmoidal-contrast 2,0% +channel -colorspace sRGB -quality 94 $FULLCOLOR_FILE_NAME
+
+  else
+    echo No mask file found
+    magick $RAW_FILE_NAME -colorspace HCL -channel g -sigmoidal-contrast 2,0% +channel -colorspace sRGB -quality 94 $FULLCOLOR_FILE_NAME
+  fi
+
+  echo Will now compress using pngquant and zopflipng
+  pngquant --nofs --quality 100 --speed 1 --force --strip -o  $INDEXED_FILE_NAME $FULLCOLOR_FILE_NAME
+  zopflipng -y --iterations=5 --filters=0 $INDEXED_FILE_NAME $OUTPUT_FILE_NAME
+
+  echo
+
+  x_min=$(expr $X1 '*' 512)
+  x_max=$(expr $X2 '*' 512 + 511)
+  z_min=$(expr $Z1 '*' 512)
+  z_max=$(expr $Z2 '*' 512 + 511)
+  MD5=$(md5sum $OUTPUT_FILE_NAME | cut -d' ' -f1)
+  cat <<EOT >> $JSON_METADATA_FILE
+  {
+    "name": "$NAME",
+    "url": "$BASE_URL/map-$FILE.png",
+    "x1": $x_min,
+    "z1": $z_min,
+    "x2": $x_max,
+    "z2": $z_max,
+    "md5": "$MD5"
+  },
+EOT
+}
+
+echo "[" > $JSON_METADATA_FILE
+
+#### Create all maps
+# syntax: do_map "Nice name" "short-name" x1 x2 z1 z2, where x1 <= x2 and z1 <= z2
+
+## Split the main map into 3 columns and 6 rows
+## Name is "Main row-col"
+
+do_map "Main 1-1" "main-1-1" -5 -3 -12 -11 -5 3 -12 -1 "main"
+do_map "Main 1-2" "main-1-2" -2 1 -12 -11 -5 3 -12 -1 "main"
+do_map "Main 1-3" "main-1-3" 2 3 -12 -11 -5 3 -12 -1 "main"
+
+do_map "Main 2-1" "main-2-1" -5 -3 -10 -9 -5 3 -12 -1 "main"
+do_map "Main 2-2" "main-2-2" -2 1 -10 -9 -5 3 -12 -1 "main"
+do_map "Main 2-3" "main-2-3" 2 3 -10 -9 -5 3 -12 -1 "main"
+
+do_map "Main 3-1" "main-3-1" -5 -3 -8 -7 -5 3 -12 -1 "main"
+do_map "Main 3-2" "main-3-2" -2 1 -8 -7 -5 3 -12 -1 "main"
+do_map "Main 3-3" "main-3-3" 2 3 -8 -7 -5 3 -12 -1 "main"
+
+do_map "Main 4-1" "main-4-1" -5 -3 -6 -5 -5 3 -12 -1 "main"
+do_map "Main 4-2" "main-4-2" -2 1 -6 -5 -5 3 -12 -1 "main"
+do_map "Main 4-3" "main-4-3" 2 3 -6 -5 -5 3 -12 -1 "main"
+
+do_map "Main 5-1" "main-5-1" -5 -3 -4 -3 -5 3 -12 -1 "main"
+do_map "Main 5-2" "main-5-2" -2 1 -4 -3 -5 3 -12 -1 "main"
+do_map "Main 5-3" "main-5-3" 2 3 -4 -3 -5 3 -12 -1 "main"
+
+do_map "Main 6-1" "main-6-1" -5 -3 -2 -1 -5 3 -12 -1 "main"
+do_map "Main 6-2" "main-6-2" -2 1 -2 -1 -5 3 -12 -1 "main"
+do_map "Main 6-3" "main-6-3" 2 3 -2 -1 -5 3 -12 -1 "main"
+
+do_map "Ceralus Farm 1" "ceralus-1" -10 -7 -3 -3
+do_map "Ceralus Farm 2" "ceralus-2" -17 -16 -3 -3
+do_map "Deja Vu" "deja-vu" -9 -8 2 2
+do_map "King's Recruit" "kings-recruit" -21 -21 -5 -4
+do_map "Misadventure on the Sea" "misadventure-on-the-sea" -7 -5 30 32
+do_map "Realm of Light" "realm-of-light" -3 -2 -13 -12
+do_map "Seaskipper" "seaskipper" 31 32 30 30
+do_map "Sunset Valley" "sunset-valley" -4 -3 19 19
+do_map "The Void" "void" 26 27 -10 -7
+do_map "Wynnter Fair" "wynnter-fair" -3 -2 31 32
+do_map "Wynnter Fair Parkour" "wynnter-fair-parkour" -4 -4 35 36
+do_map "A Sandy Scandal 1" "sandy-scandal-1" -28 -27 40 41
+do_map "A Sandy Scandal 2" "sandy-scandal-2" -30 -29 40 40
+do_map "A Sandy Scandal 3" "sandy-scandal-3" -34 -33 41 42
+do_map "Kingdom of Sand 1" "kingdom-of-sand-1" 3 4 -4 -4
+do_map "Kingdom of Sand 2" "kingdom-of-sand-2" 4 5 1 1
+do_map "Kingdom of Sand 3" "kingdom-of-sand-3" 6 6 -3 -3
+do_map "Kingdom of Sand 4" "kingdom-of-sand-4" 11 11 -5 -4
+do_map "Kingdom of Sand 5" "kingdom-of-sand-5" 15 16 -4 -4
+do_map "Talespun Citadel" "talespun-citadel" -3 -3 19 20
+do_map "Ozoth's Nest" "ozoths-nest" -32 -32 2 3
+do_map "Death's Realm" "deaths-realm" 0 1 -16 -15
+do_map "Little Wing Navigation" "little-wing-navigation" 6 6 -10 -9
+do_map "On Board Little Wing" "on-board-little-wing" 4 5 -9 -8
+do_map "Gateway Island" "gateway-island" 38 39 -10 -9
+do_map "Gateway Island Crash" "gateway-island-crash" 41 41 -9 -9
+do_map "The Feathers Fly Part II, Corkus City Plant" "feathers-fly-corkus-city-plant" -1 0 40 41
+
+# Remove the trailing comma
+$HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp
+mv $JSON_METADATA_FILE.tmp $JSON_METADATA_FILE
+echo "  }" >> $JSON_METADATA_FILE
+echo "]" >> $JSON_METADATA_FILE
+
+# Calculate md5sum of the new maps.json
+MD5=$(md5sum $JSON_METADATA_FILE | cut -d' ' -f1)
+
+# Update urls.json with the new md5sum for dataStaticMaps
+jq '. = [.[] | if (.id == "dataStaticMaps") then (.md5 = "'$MD5'") else . end]' < $WYNNDATA_DIR/Data-Storage/urls.json > $WYNNDATA_DIR/Data-Storage/urls.json.tmp
+mv $WYNNDATA_DIR/Data-Storage/urls.json.tmp $WYNNDATA_DIR/Data-Storage/urls.json
+
+rm -rf $WYNNDATA_DIR/tmp

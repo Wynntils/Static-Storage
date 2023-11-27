@@ -1,0 +1,187 @@
+[
+  {
+    "id": 165,
+    "type": 0,
+    "name": "slime_block"
+  },
+  {
+    "id": 168,
+    "type": 0,
+    "name": "prismarine"
+  },
+  {
+    "id": 168,
+    "type": 1,
+    "name": "prismarine_bricks"
+  },
+  {
+    "id": 168,
+    "type": 2,
+    "name": "dark_prismarine"
+  },
+  {
+    "id": 169,
+    "type": 0,
+    "name": "sea_lantern"
+  },
+  {
+    "id": 198,
+    "type": 0,
+    "name": "end_rod"
+  },
+  {
+    "id": 199,
+    "type": 0,
+    "name": "chorus_plant"
+  },
+  {
+    "id": 200,
+    "type": 0,
+    "name": "chorus_flower"
+  },
+  {
+    "id": 213,
+    "type": 0,
+    "name": "magma_block"
+  },
+  {
+    "id": 235,
+    "type": 0,
+    "name": "white_glazed_terracotta"
+  },
+  {
+    "id": 238,
+    "type": 0,
+    "name": "light_blue_glazed_terracotta"
+  },
+  {
+    "id": 239,
+    "type": 0,
+    "name": "yellow_glazed_terracotta"
+  },
+  {
+    "id": 245,
+    "type": 0,
+    "name": "purple_glazed_terracotta"
+  },
+  {
+    "id": 246,
+    "type": 0,
+    "name": "blue_glazed_terracotta"
+  },
+  {
+    "id": 250,
+    "type": 0,
+    "name": "black_glazed_terracotta"
+  },
+  {
+    "id": 251,
+    "type": 15,
+    "name": "black_concrete"
+  },
+  {
+    "id": 252,
+    "type": 15,
+    "name": "black_concrete_powder"
+  },
+  {
+    "id": 350,
+    "type": 0,
+    "name": "cooked_cod"
+  },
+  {
+    "id": 350,
+    "type": 1,
+    "name": "cooked_salmon"
+  },
+  {
+    "id": 382,
+    "type": 0,
+    "name": "glistering_melon_slice"
+  },
+  {
+    "id": 383,
+    "type": 0,
+    "name": "wolf_spawn_egg"
+  },
+  {
+    "id": 383,
+    "type": 5,
+    "name": "wither_skeleton_spawn_egg"
+  },
+  {
+    "id": 383,
+    "type": 58,
+    "name": "enderman_spawn_egg"
+  },
+  {
+    "id": 383,
+    "type": 120,
+    "name": "villager_spawn_egg"
+  },
+  {
+    "id": 409,
+    "type": 0,
+    "name": "prismarine_shard"
+  },
+  {
+    "id": 410,
+    "type": 0,
+    "name": "prismarine_crystals"
+  },
+  {
+    "id": 411,
+    "type": 0,
+    "name": "rabbit"
+  },
+  {
+    "id": 412,
+    "type": 0,
+    "name": "cooked_rabbit"
+  },
+  {
+    "id": 423,
+    "type": 0,
+    "name": "mutton"
+  },
+  {
+    "id": 424,
+    "type": 0,
+    "name": "cooked_mutton"
+  },
+  {
+    "id": 432,
+    "type": 0,
+    "name": "chorus_fruit"
+  },
+  {
+    "id": 433,
+    "type": 0,
+    "name": "popped_chorus_fruit"
+  },
+  {
+    "id": 434,
+    "type": 0,
+    "name": "beetroot"
+  },
+  {
+    "id": 435,
+    "type": 0,
+    "name": "beetroot_seeds"
+  },
+  {
+    "id": 437,
+    "type": 0,
+    "name": "dragon_breath"
+  },
+  {
+    "id": 441,
+    "type": 0,
+    "name": "lingering_potion"
+  },
+  {
+    "id": 449,
+    "type": 0,
+    "name": "totem_of_undying"
+  }
+]

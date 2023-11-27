@@ -1,0 +1,202 @@
+[
+  {
+    "id": "PLAGUE",
+    "name": "Plague",
+    "lore": "Poisoned mobs spread their poison to nearby mobs"
+  },
+  {
+    "id": "HAWKEYE",
+    "name": "Hawkeye",
+    "lore": "Condense Arrow Storm into a tight beam. Arrows deal §6✢ §r10%, §e✦ §r1%, and §f❋ §r1%"
+  },
+  {
+    "id": "GREED",
+    "name": "Greed",
+    "lore": "Picking up emeralds heals you and nearby players for 15% max health"
+  },
+  {
+    "id": "CAVALRYMAN",
+    "name": "Cavalryman",
+    "lore": "You may cast spells and attack with a -70% damage penalty while on a horse"
+  },
+  {
+    "id": "GUARDIAN",
+    "name": "Guardian",
+    "lore": "20% of damage taken by nearby allies is redirected to you"
+  },
+  {
+    "id": "ALTRUISM",
+    "name": "Heart of the Pack",
+    "lore": "Nearby players gain 35% of the health you naturally regenerate"
+  },
+  {
+    "id": "HERO",
+    "name": "Saviour's Sacrifice",
+    "lore": "While under 50% maximum health, nearby allies gain 20% bonus damage and defence"
+  },
+  {
+    "id": "ARCANES",
+    "name": "Transcendence",
+    "lore": "30% chance for spells to cost no mana when casted"
+  },
+  {
+    "id": "ENTROPY",
+    "name": "Entropy",
+    "lore": "Meteor falls three times faster"
+  },
+  {
+    "id": "ROVINGASSASSIN",
+    "name": "Roving Assassin",
+    "lore": "Vanish will no longer block mana and health regeneration"
+  },
+  {
+    "id": "MAGNET",
+    "name": "Magnet",
+    "lore": "Pulls items dropped by mobs towards you"
+  },
+  {
+    "id": "MADNESS",
+    "name": "Madness",
+    "lore": "Casts a random spell of your class every 3 seconds"
+  },
+  {
+    "id": "LIGHTWEIGHT",
+    "name": "Lightweight",
+    "lore": "You no longer take fall damage"
+  },
+  {
+    "id": "SORCERY",
+    "name": "Sorcery",
+    "lore": "30% chance for spells and attacks to cast a second time at no additional cost"
+  },
+  {
+    "id": "TAUNT",
+    "name": "Taunt",
+    "lore": "Mobs within 12 blocks target you upon casting War Scream"
+  },
+  {
+    "id": "FREERUNNER",
+    "name": "Freerunner",
+    "lore": "When your sprint bar is under 30% full, increase your sprint speed by +150%"
+  },
+  {
+    "id": "RALLY",
+    "name": "Rally",
+    "lore": "Charge heals you by 10% and nearby allies by 15% on impact, but becomes harmless"
+  },
+  {
+    "id": "CHERRY_BOMBS",
+    "name": "Cherry Bombs",
+    "lore": "Your Smoke Bombs explode instantly, and increases their Neutral Damage by +90%"
+  },
+  {
+    "id": "PEACEFUL_EFFIGY",
+    "name": "Peaceful Effigy",
+    "lore": "Your Totem will last twice as long"
+  },
+  {
+    "id": "FURIOUS_EFFIGY",
+    "name": "Furious Effigy",
+    "lore": "Totem effects are twice as fast, but duration is halved"
+  },
+  {
+    "id": "FLASHFREEZE",
+    "name": "Flash Freeze",
+    "lore": "Ice Snake is instant and freezes for +1s"
+  },
+  {
+    "id": "FISSION",
+    "name": "Fission",
+    "lore": "Explosions from your Exploding ID are twice as big and twice as strong"
+  },
+  {
+    "id": "EXPLOSIVE_IMPACT",
+    "name": "Explosive Impact",
+    "lore": "Your Exploding ID can trigger when hitting mobs with your Main Attack"
+  },
+  {
+    "id": "GEOCENTRISM",
+    "name": "Geocentrism",
+    "lore": "Aura radiates from you instead of your Totem and can be cast any time"
+  },
+  {
+    "id": "GRAVITYWELL",
+    "name": "Gravity Well",
+    "lore": "Meteor has increased blast radius and pulls enemies instead"
+  },
+  {
+    "id": "ALTEREGO",
+    "name": "Alter Ego",
+    "lore": "Awakened can be activated after saving 40% less mana, but its duration is reduced by -25%"
+  },
+  {
+    "id": "DIVINE_HONOR",
+    "name": "Divine Honor",
+    "lore": "Increases the bonus from Radiance by 5%. Bash deals §2✤ §3-15% per hit."
+  },
+  {
+    "id": "ESCAPE_ROUTE",
+    "name": "Escape Route",
+    "lore": "Frenzy and Time Dilation charge twice as fast, but to a halved maximum"
+  },
+  {
+    "id": "FOREST_BLESSING",
+    "name": "Forest's Blessing",
+    "lore": "Your archer summons have increased movement speed, attack speed, and vision. Bomb Arrow's damage is reduced by §6✢ §3-30%."
+  },
+  {
+    "id": "GENTLE_GLOW",
+    "name": "Gentle Glow",
+    "lore": "Orphion's Pulse restores more health, with an increased rate to allies and Fluid Healing effectiveness. Health is restored much slower"
+  },
+  {
+    "id": "GEOCENTRISM",
+    "name": "Geocentrism",
+    "lore": "Aura radiates from you instead of your Totem and can be cast at any time"
+  },
+  {
+    "id": "JUGGLE",
+    "name": "Juggle",
+    "lore": "Stronger Multihit adds an additional 12 hits. All hits are reduced by §6✢ §r-10%."
+  },
+  {
+    "id": "OVERWHELM",
+    "name": "Overwhelm",
+    "lore": "Bash will hit +2 times"
+  },
+  {
+    "id": "PERFECT_RECALL",
+    "name": "Perfect Recall",
+    "lore": "Memory Recollection adds 1 extra spell. Increases Chaos Explosion's mana bank requirement to 150"
+  },
+  {
+    "id": "RECKLESS_ABANDON",
+    "name": "Reckless Abandon",
+    "lore": "Tempest deals §c✹ §3+15% and gains one additional charge. War Scream no longer grants a defence bonus."
+  },
+  {
+    "id": "SOUL_EATER",
+    "name": "Soul Eater",
+    "lore": "Devour and Harvester grant double mana. Decreases maximum marks by 1"
+  },
+  {
+    "id": "STRINGS_OF_FATE",
+    "name": "Strings of Fate",
+    "lore": "Your puppets have a lifetime of 3 seconds, and deal double damage with attacks and explosions"
+  },
+  {
+    "id": "TEMBLOR",
+    "name": "Temblor",
+    "lore": "Bash gains +1 Area of Effect and is 20% faster"
+  },
+  {
+    "id": "DESC_SNOWYSTEPS",
+    "name": "Snowy Steps",
+    "lore": "Leaves a trail of snow behind you"
+  },
+  {
+    "id": "DESC_FESTIVESPIRIT",
+    "name": "Festive Spirit",
+    "lore": "Plays wintery tunes"
+  }
+]
