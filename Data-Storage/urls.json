@@ -104,6 +104,11 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/gear.json"
   },
   {
+    "id": "dataStaticGearAdvanced",
+    "md5": "49b5c0cdaad480682d4525d622fd89fd",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/advanced_gear.json"
+  },
+  {
     "id": "dataStaticIngredientSkins",
     "md5": "04c5e1ee6dcd78bc0939ec7b5a6d6dd0",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/ingredient_skins.json"
@@ -112,6 +117,11 @@
     "id": "dataStaticIngredients",
     "md5": "a8c172255d36d9df381fc590d506ce49",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/ingredients.json"
+  },
+  {
+    "id": "dataStaticIngredientsAdvanced",
+    "md5": "7fbf8487021f322f7318158831805e43",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/advanced_ingredients.json"
   },
   {
     "id": "dataStaticItemObtain",
