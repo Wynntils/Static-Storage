@@ -94,6 +94,11 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/caves.json"
   },
   {
+    "id": "dataStaticCharms",
+    "md5": "f24b846fd406e657a761635c7f0b8714",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/charms.json"
+  },
+  {
     "id": "dataStaticCombatLocations",
     "md5": "f8d2b16d8cd33181b6a3857fa5e390a9",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/combat_locations.json"
@@ -149,6 +154,11 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/material_conversions.json"
   },
   {
+    "id": "dataStaticMaterials",
+    "md5": "06adca1899d08d2d0b8067e1f5e02591",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/materials.json"
+  },
+  {
     "id": "dataStaticPlaces",
     "md5": "c1907ba6d7c8851be2c6cf3062d17de5",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/places.json"
@@ -172,6 +182,16 @@
     "id": "dataStaticSplashes",
     "md5": "262f3c73093a1f0979beedb8b25e9420",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/splashes.json"
+  },
+  {
+    "id": "dataStaticTomes",
+    "md5": "70f44a441875e5ccd9685ba0a195f923",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
+  },
+  {
+    "id": "dataStaticTools",
+    "md5": "38eb67ba7aa9b463a4e08e690dd14a9a",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
   },
   {
     "id": "dataStaticUrls",
