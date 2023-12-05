@@ -2463,13 +2463,13 @@
     "attackSpeed": "very_fast",
     "base": {
       "airDamage": {
-        "max": 60,
-        "min": 35
+        "max": 66,
+        "min": 39
       },
-      "averageDPS": 295,
+      "averageDPS": 326,
       "damage": {
-        "max": 60,
-        "min": 35
+        "max": 66,
+        "min": 39
       }
     },
     "dropRestriction": "never",
@@ -2506,11 +2506,11 @@
         "raw": 15
       }
     },
-    "internalName": "Air Relic Daggers",
+    "internalName": "Air Relic Dagger",
     "material": "359:12",
     "powderSlots": 3,
     "requirements": {
-      "agility": 25,
+      "agility": 30,
       "level": 65
     },
     "tier": "rare",
@@ -42247,12 +42247,12 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "material": "359:3",
     "powderSlots": 3,
     "requirements": {
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "tier": "rare",
     "type": "dagger"
@@ -49936,11 +49936,11 @@
         "raw": 15
       }
     },
-    "internalName": "Fire Relic Daggers",
+    "internalName": "Fire Relic Dagger",
     "material": "359:9",
     "powderSlots": 3,
     "requirements": {
-      "defence": 25,
+      "defence": 30,
       "level": 65
     },
     "tier": "rare",
@@ -150532,11 +150532,11 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Daggers",
+    "internalName": "Water Relic Dagger",
     "material": "359:15",
     "powderSlots": 3,
     "requirements": {
-      "intelligence": 25,
+      "intelligence": 30,
       "level": 65
     },
     "tier": "rare",
