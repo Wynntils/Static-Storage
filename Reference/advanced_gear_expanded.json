@@ -2463,13 +2463,13 @@
     "attackSpeed": "very_fast",
     "base": {
       "airDamage": {
-        "max": 66,
-        "min": 39
+        "max": 60,
+        "min": 35
       },
-      "averageDPS": 326,
+      "averageDPS": 295,
       "damage": {
-        "max": 66,
-        "min": 39
+        "max": 60,
+        "min": 35
       }
     },
     "dropRestriction": "never",
@@ -2506,11 +2506,11 @@
         "raw": 15
       }
     },
-    "internalName": "Air Relic Dagger",
+    "internalName": "Air Relic Daggers",
     "material": "359:12",
     "powderSlots": 3,
     "requirements": {
-      "agility": 30,
+      "agility": 25,
       "level": 65
     },
     "tier": "rare",
@@ -140396,14 +140396,14 @@
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
     "base": {
-      "averageDPS": 375,
+      "averageDPS": 341,
       "damage": {
-        "max": 99,
-        "min": 22
+        "max": 90,
+        "min": 20
       },
       "thunderDamage": {
-        "max": 99,
-        "min": 22
+        "max": 90,
+        "min": 20
       }
     },
     "dropRestriction": "never",
@@ -140440,11 +140440,11 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Dagger",
-    "material": "261:6",
+    "internalName": "Thunder Relic Daggers",
+    "material": "359:6",
     "powderSlots": 3,
     "requirements": {
-      "dexterity": 30,
+      "dexterity": 25,
       "level": 65
     },
     "tier": "rare",
