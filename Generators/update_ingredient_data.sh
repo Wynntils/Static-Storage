@@ -7,7 +7,7 @@ cd $TARGET_DIR
 
 # Download the json file from Wynncraft API
 # FIXME Use prod API
-curl -X POST -d '{"type":["ingredients"]}' -H "Content-Type: application/json" -o ingredients.json.tmp "https://api.wynncraft.com/v3-dev/item/search?fullResult=True"
+curl -X POST -d '{"type":["ingredients"]}' -H "Content-Type: application/json" -o ingredients.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult=True"
 
 if [ ! -s ingredients.json.tmp ]; then
     rm ingredients.json.tmp

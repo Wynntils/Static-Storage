@@ -14,6 +14,7 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "internalName": "Charm of the Light",
     "material": "6:2",
     "raidReward": true,
     "requirements": {
@@ -41,6 +42,7 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "internalName": "Charm of the Stone",
     "material": "337:0",
     "raidReward": true,
     "requirements": {
@@ -79,6 +81,7 @@
         "raw": 20
       }
     },
+    "internalName": "Charm of the Void",
     "material": "351:0",
     "raidReward": true,
     "requirements": {
@@ -106,6 +109,7 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "internalName": "Charm of the Worm",
     "material": "350:1",
     "raidReward": true,
     "requirements": {

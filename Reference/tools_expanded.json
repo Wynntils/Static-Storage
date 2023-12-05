@@ -2,6 +2,7 @@
   "Ⓑ Gathering Pickaxe T1": {
     "gatheringSpeed": 8,
     "identified": true,
+    "internalName": "Gathering Pickaxe 1",
     "material": "270:0",
     "requirements": {
       "level": 1
@@ -12,6 +13,7 @@
   "Ⓑ Gathering Pickaxe T10": {
     "gatheringSpeed": 230,
     "identified": true,
+    "internalName": "Gathering Pickaxe 10",
     "material": "257:0",
     "requirements": {
       "level": 85
@@ -22,6 +24,7 @@
   "Ⓑ Gathering Pickaxe T11": {
     "gatheringSpeed": 275,
     "identified": true,
+    "internalName": "Gathering Pickaxe 11",
     "material": "278:0",
     "requirements": {
       "level": 95
@@ -32,6 +35,7 @@
   "Ⓑ Gathering Pickaxe T12": {
     "gatheringSpeed": 330,
     "identified": true,
+    "internalName": "Gathering Pickaxe 12",
     "material": "278:0",
     "requirements": {
       "level": 105
@@ -42,6 +46,7 @@
   "Ⓑ Gathering Pickaxe T2": {
     "gatheringSpeed": 16,
     "identified": true,
+    "internalName": "Gathering Pickaxe 2",
     "material": "270:0",
     "requirements": {
       "level": 5
@@ -52,6 +57,7 @@
   "Ⓑ Gathering Pickaxe T3": {
     "gatheringSpeed": 28,
     "identified": true,
+    "internalName": "Gathering Pickaxe 3",
     "material": "270:0",
     "requirements": {
       "level": 15
@@ -62,6 +68,7 @@
   "Ⓑ Gathering Pickaxe T4": {
     "gatheringSpeed": 45,
     "identified": true,
+    "internalName": "Gathering Pickaxe 4",
     "material": "274:0",
     "requirements": {
       "level": 25
@@ -72,6 +79,7 @@
   "Ⓑ Gathering Pickaxe T5": {
     "gatheringSpeed": 65,
     "identified": true,
+    "internalName": "Gathering Pickaxe 5",
     "material": "274:0",
     "requirements": {
       "level": 35
@@ -82,6 +90,7 @@
   "Ⓑ Gathering Pickaxe T6": {
     "gatheringSpeed": 90,
     "identified": true,
+    "internalName": "Gathering Pickaxe 6",
     "material": "274:0",
     "requirements": {
       "level": 45
@@ -92,6 +101,7 @@
   "Ⓑ Gathering Pickaxe T7": {
     "gatheringSpeed": 120,
     "identified": true,
+    "internalName": "Gathering Pickaxe 7",
     "material": "285:0",
     "requirements": {
       "level": 55
@@ -102,6 +112,7 @@
   "Ⓑ Gathering Pickaxe T8": {
     "gatheringSpeed": 150,
     "identified": true,
+    "internalName": "Gathering Pickaxe 8",
     "material": "285:0",
     "requirements": {
       "level": 65
@@ -112,6 +123,7 @@
   "Ⓑ Gathering Pickaxe T9": {
     "gatheringSpeed": 190,
     "identified": true,
+    "internalName": "Gathering Pickaxe 9",
     "material": "257:0",
     "requirements": {
       "level": 75
@@ -122,6 +134,7 @@
   "Ⓒ Gathering Axe T1": {
     "gatheringSpeed": 8,
     "identified": true,
+    "internalName": "Gathering Axe 1",
     "material": "271:0",
     "requirements": {
       "level": 1
@@ -132,6 +145,7 @@
   "Ⓒ Gathering Axe T10": {
     "gatheringSpeed": 230,
     "identified": true,
+    "internalName": "Gathering Axe 10",
     "material": "258:0",
     "requirements": {
       "level": 85
@@ -142,6 +156,7 @@
   "Ⓒ Gathering Axe T11": {
     "gatheringSpeed": 275,
     "identified": true,
+    "internalName": "Gathering Axe 11",
     "material": "279:0",
     "requirements": {
       "level": 95
@@ -152,6 +167,7 @@
   "Ⓒ Gathering Axe T12": {
     "gatheringSpeed": 330,
     "identified": true,
+    "internalName": "Gathering Axe 12",
     "material": "279:0",
     "requirements": {
       "level": 105
@@ -162,6 +178,7 @@
   "Ⓒ Gathering Axe T2": {
     "gatheringSpeed": 16,
     "identified": true,
+    "internalName": "Gathering Axe 2",
     "material": "271:0",
     "requirements": {
       "level": 5
@@ -172,6 +189,7 @@
   "Ⓒ Gathering Axe T3": {
     "gatheringSpeed": 28,
     "identified": true,
+    "internalName": "Gathering Axe 3",
     "material": "271:0",
     "requirements": {
       "level": 15
@@ -182,6 +200,7 @@
   "Ⓒ Gathering Axe T4": {
     "gatheringSpeed": 45,
     "identified": true,
+    "internalName": "Gathering Axe 4",
     "material": "275:0",
     "requirements": {
       "level": 25
@@ -192,6 +211,7 @@
   "Ⓒ Gathering Axe T5": {
     "gatheringSpeed": 65,
     "identified": true,
+    "internalName": "Gathering Axe 5",
     "material": "275:0",
     "requirements": {
       "level": 35
@@ -202,6 +222,7 @@
   "Ⓒ Gathering Axe T6": {
     "gatheringSpeed": 90,
     "identified": true,
+    "internalName": "Gathering Axe 6",
     "material": "275:0",
     "requirements": {
       "level": 45
@@ -212,6 +233,7 @@
   "Ⓒ Gathering Axe T7": {
     "gatheringSpeed": 120,
     "identified": true,
+    "internalName": "Gathering Axe 7",
     "material": "286:0",
     "requirements": {
       "level": 55
@@ -222,6 +244,7 @@
   "Ⓒ Gathering Axe T8": {
     "gatheringSpeed": 150,
     "identified": true,
+    "internalName": "Gathering Axe 8",
     "material": "286:0",
     "requirements": {
       "level": 65
@@ -232,6 +255,7 @@
   "Ⓒ Gathering Axe T9": {
     "gatheringSpeed": 190,
     "identified": true,
+    "internalName": "Gathering Axe 9",
     "material": "258:0",
     "requirements": {
       "level": 75
@@ -242,6 +266,7 @@
   "Ⓙ Gathering Scythe T1": {
     "gatheringSpeed": 8,
     "identified": true,
+    "internalName": "Gathering Scythe 1",
     "material": "290:0",
     "requirements": {
       "level": 1
@@ -252,6 +277,7 @@
   "Ⓙ Gathering Scythe T10": {
     "gatheringSpeed": 230,
     "identified": true,
+    "internalName": "Gathering Scythe 10",
     "material": "292:0",
     "requirements": {
       "level": 85
@@ -262,6 +288,7 @@
   "Ⓙ Gathering Scythe T11": {
     "gatheringSpeed": 275,
     "identified": true,
+    "internalName": "Gathering Scythe 11",
     "material": "293:0",
     "requirements": {
       "level": 95
@@ -272,6 +299,7 @@
   "Ⓙ Gathering Scythe T12": {
     "gatheringSpeed": 330,
     "identified": true,
+    "internalName": "Gathering Scythe 12",
     "material": "293:0",
     "requirements": {
       "level": 105
@@ -282,6 +310,7 @@
   "Ⓙ Gathering Scythe T2": {
     "gatheringSpeed": 16,
     "identified": true,
+    "internalName": "Gathering Scythe 2",
     "material": "290:0",
     "requirements": {
       "level": 5
@@ -292,6 +321,7 @@
   "Ⓙ Gathering Scythe T3": {
     "gatheringSpeed": 28,
     "identified": true,
+    "internalName": "Gathering Scythe 3",
     "material": "290:0",
     "requirements": {
       "level": 15
@@ -302,6 +332,7 @@
   "Ⓙ Gathering Scythe T4": {
     "gatheringSpeed": 45,
     "identified": true,
+    "internalName": "Gathering Scythe 4",
     "material": "291:0",
     "requirements": {
       "level": 25
@@ -312,6 +343,7 @@
   "Ⓙ Gathering Scythe T5": {
     "gatheringSpeed": 65,
     "identified": true,
+    "internalName": "Gathering Scythe 5",
     "material": "291:0",
     "requirements": {
       "level": 35
@@ -322,6 +354,7 @@
   "Ⓙ Gathering Scythe T6": {
     "gatheringSpeed": 90,
     "identified": true,
+    "internalName": "Gathering Scythe 6",
     "material": "291:0",
     "requirements": {
       "level": 45
@@ -332,6 +365,7 @@
   "Ⓙ Gathering Scythe T7": {
     "gatheringSpeed": 120,
     "identified": true,
+    "internalName": "Gathering Scythe 7",
     "material": "294:0",
     "requirements": {
       "level": 55
@@ -342,6 +376,7 @@
   "Ⓙ Gathering Scythe T8": {
     "gatheringSpeed": 150,
     "identified": true,
+    "internalName": "Gathering Scythe 8",
     "material": "294:0",
     "requirements": {
       "level": 65
@@ -352,6 +387,7 @@
   "Ⓙ Gathering Scythe T9": {
     "gatheringSpeed": 190,
     "identified": true,
+    "internalName": "Gathering Scythe 9",
     "material": "292:0",
     "requirements": {
       "level": 75
@@ -362,6 +398,7 @@
   "Ⓚ Gathering Rod T1": {
     "gatheringSpeed": 8,
     "identified": true,
+    "internalName": "Gathering Rod 1",
     "material": "279:76",
     "requirements": {
       "level": 1
@@ -372,6 +409,7 @@
   "Ⓚ Gathering Rod T10": {
     "gatheringSpeed": 230,
     "identified": true,
+    "internalName": "Gathering Rod 10",
     "material": "279:78",
     "requirements": {
       "level": 85
@@ -382,6 +420,7 @@
   "Ⓚ Gathering Rod T11": {
     "gatheringSpeed": 275,
     "identified": true,
+    "internalName": "Gathering Rod 11",
     "material": "279:80",
     "requirements": {
       "level": 95
@@ -392,6 +431,7 @@
   "Ⓚ Gathering Rod T12": {
     "gatheringSpeed": 330,
     "identified": true,
+    "internalName": "Gathering Rod 12",
     "material": "279:80",
     "requirements": {
       "level": 105
@@ -402,6 +442,7 @@
   "Ⓚ Gathering Rod T2": {
     "gatheringSpeed": 16,
     "identified": true,
+    "internalName": "Gathering Rod 2",
     "material": "279:76",
     "requirements": {
       "level": 5
@@ -412,6 +453,7 @@
   "Ⓚ Gathering Rod T3": {
     "gatheringSpeed": 28,
     "identified": true,
+    "internalName": "Gathering Rod 3",
     "material": "279:76",
     "requirements": {
       "level": 15
@@ -422,6 +464,7 @@
   "Ⓚ Gathering Rod T4": {
     "gatheringSpeed": 45,
     "identified": true,
+    "internalName": "Gathering Rod 4",
     "material": "279:77",
     "requirements": {
       "level": 25
@@ -432,6 +475,7 @@
   "Ⓚ Gathering Rod T5": {
     "gatheringSpeed": 65,
     "identified": true,
+    "internalName": "Gathering Rod 5",
     "material": "279:77",
     "requirements": {
       "level": 35
@@ -442,6 +486,7 @@
   "Ⓚ Gathering Rod T6": {
     "gatheringSpeed": 90,
     "identified": true,
+    "internalName": "Gathering Rod 6",
     "material": "279:77",
     "requirements": {
       "level": 45
@@ -452,6 +497,7 @@
   "Ⓚ Gathering Rod T7": {
     "gatheringSpeed": 120,
     "identified": true,
+    "internalName": "Gathering Rod 7",
     "material": "279:79",
     "requirements": {
       "level": 55
@@ -462,6 +508,7 @@
   "Ⓚ Gathering Rod T8": {
     "gatheringSpeed": 150,
     "identified": true,
+    "internalName": "Gathering Rod 8",
     "material": "279:79",
     "requirements": {
       "level": 65
@@ -472,6 +519,7 @@
   "Ⓚ Gathering Rod T9": {
     "gatheringSpeed": 190,
     "identified": true,
+    "internalName": "Gathering Rod 9",
     "material": "279:78",
     "requirements": {
       "level": 75

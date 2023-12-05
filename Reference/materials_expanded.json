@@ -5,6 +5,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Acacia Paper 1",
     "material": "279:40",
     "requirements": {
       "level": 30,
@@ -18,6 +19,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Acacia Paper 2",
     "material": "279:40",
     "requirements": {
       "level": 30,
@@ -31,6 +33,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Acacia Paper 3",
     "material": "279:40",
     "requirements": {
       "level": 30,
@@ -45,6 +48,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Acacia Wood 1",
     "requirements": {
       "level": 30,
       "skills": "woodcutting"
@@ -59,6 +63,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Acacia Wood 2",
     "requirements": {
       "level": 30,
       "skills": "woodcutting"
@@ -73,6 +78,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Acacia Wood 3",
     "requirements": {
       "level": 30,
       "skills": "woodcutting"
@@ -86,6 +92,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Avo Paper 1",
     "material": "279:40",
     "requirements": {
       "level": 90,
@@ -99,6 +106,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Avo Paper 2",
     "material": "279:40",
     "requirements": {
       "level": 90,
@@ -112,6 +120,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Avo Paper 3",
     "material": "279:40",
     "requirements": {
       "level": 90,
@@ -126,6 +135,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Avo Wood 1",
     "requirements": {
       "level": 90,
       "skills": "woodcutting"
@@ -140,6 +150,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Avo Wood 2",
     "requirements": {
       "level": 90,
       "skills": "woodcutting"
@@ -154,6 +165,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Avo Wood 3",
     "requirements": {
       "level": 90,
       "skills": "woodcutting"
@@ -166,6 +178,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Barley Grains 1",
     "material": "279:14",
     "requirements": {
       "level": 10,
@@ -178,6 +191,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Barley Grains 2",
     "material": "279:14",
     "requirements": {
       "level": 10,
@@ -190,6 +204,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Barley Grains 3",
     "material": "279:14",
     "requirements": {
       "level": 10,
@@ -204,6 +219,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Barley String 1",
     "material": "279:13",
     "requirements": {
       "level": 10,
@@ -218,6 +234,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Barley String 2",
     "material": "279:13",
     "requirements": {
       "level": 10,
@@ -232,6 +249,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Barley String 3",
     "material": "279:13",
     "requirements": {
       "level": 10,
@@ -243,6 +261,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Bass Meat 1",
     "material": "279:30",
     "requirements": {
       "level": 80,
@@ -254,6 +273,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Bass Meat 2",
     "material": "279:30",
     "requirements": {
       "level": 80,
@@ -265,6 +285,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Bass Meat 3",
     "material": "279:30",
     "requirements": {
       "level": 80,
@@ -280,6 +301,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Bass Oil 1",
     "material": "279:39",
     "requirements": {
       "level": 80,
@@ -295,6 +317,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Bass Oil 2",
     "material": "279:39",
     "requirements": {
       "level": 80,
@@ -310,6 +333,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Bass Oil 3",
     "material": "279:39",
     "requirements": {
       "level": 80,
@@ -323,6 +347,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Birch Paper 1",
     "material": "339:0",
     "requirements": {
       "level": 10,
@@ -336,6 +361,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Birch Paper 2",
     "material": "339:0",
     "requirements": {
       "level": 10,
@@ -349,6 +375,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Birch Paper 3",
     "material": "339:0",
     "requirements": {
       "level": 10,
@@ -363,6 +390,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Birch Wood 1",
     "requirements": {
       "level": 10,
       "skills": "woodcutting"
@@ -377,6 +405,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Birch Wood 2",
     "requirements": {
       "level": 10,
       "skills": "woodcutting"
@@ -391,6 +420,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Birch Wood 3",
     "requirements": {
       "level": 10,
       "skills": "woodcutting"
@@ -402,6 +432,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Carp Meat 1",
     "material": "279:33",
     "requirements": {
       "level": 30,
@@ -413,6 +444,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Carp Meat 2",
     "material": "279:33",
     "requirements": {
       "level": 30,
@@ -424,6 +456,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Carp Meat 3",
     "material": "279:33",
     "requirements": {
       "level": 30,
@@ -439,6 +472,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Carp Oil 1",
     "material": "279:38",
     "requirements": {
       "level": 30,
@@ -454,6 +488,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Carp Oil 2",
     "material": "279:38",
     "requirements": {
       "level": 30,
@@ -469,6 +504,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Carp Oil 3",
     "material": "279:38",
     "requirements": {
       "level": 30,
@@ -482,6 +518,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Cobalt Gem 1",
     "material": "279:62",
     "requirements": {
       "level": 60,
@@ -495,6 +532,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Cobalt Gem 2",
     "material": "279:62",
     "requirements": {
       "level": 60,
@@ -508,6 +546,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Cobalt Gem 3",
     "material": "279:62",
     "requirements": {
       "level": 60,
@@ -524,6 +563,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Cobalt Ingot 1",
     "material": "279:51",
     "requirements": {
       "level": 60,
@@ -540,6 +580,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Cobalt Ingot 2",
     "material": "279:51",
     "requirements": {
       "level": 60,
@@ -556,6 +597,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Cobalt Ingot 3",
     "material": "279:51",
     "requirements": {
       "level": 60,
@@ -569,6 +611,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Copper Gem 1",
     "material": "279:57",
     "requirements": {
       "level": 1,
@@ -582,6 +625,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Copper Gem 2",
     "material": "279:57",
     "requirements": {
       "level": 1,
@@ -595,6 +639,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Copper Gem 3",
     "material": "279:57",
     "requirements": {
       "level": 1,
@@ -611,6 +656,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Copper Ingot 1",
     "material": "279:45",
     "requirements": {
       "level": 1,
@@ -627,6 +673,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Copper Ingot 2",
     "material": "279:45",
     "requirements": {
       "level": 1,
@@ -643,6 +690,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Copper Ingot 3",
     "material": "279:45",
     "requirements": {
       "level": 1,
@@ -656,6 +704,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dark Paper 1",
     "material": "279:41",
     "requirements": {
       "level": 60,
@@ -669,6 +718,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dark Paper 2",
     "material": "279:41",
     "requirements": {
       "level": 60,
@@ -682,6 +732,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dark Paper 3",
     "material": "279:41",
     "requirements": {
       "level": 60,
@@ -696,6 +747,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dark Wood 1",
     "requirements": {
       "level": 60,
       "skills": "woodcutting"
@@ -710,6 +762,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dark Wood 2",
     "requirements": {
       "level": 60,
       "skills": "woodcutting"
@@ -724,6 +777,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dark Wood 3",
     "requirements": {
       "level": 60,
       "skills": "woodcutting"
@@ -736,6 +790,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Decay Grains 1",
     "material": "279:16",
     "requirements": {
       "level": 70,
@@ -748,6 +803,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Decay Grains 2",
     "material": "279:16",
     "requirements": {
       "level": 70,
@@ -760,6 +816,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Decay Grains 3",
     "material": "279:16",
     "requirements": {
       "level": 70,
@@ -774,6 +831,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Decay String 1",
     "material": "279:12",
     "requirements": {
       "level": 70,
@@ -788,6 +846,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Decay String 2",
     "material": "279:12",
     "requirements": {
       "level": 70,
@@ -802,6 +861,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Decay String 3",
     "material": "279:12",
     "requirements": {
       "level": 70,
@@ -815,6 +875,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Dernic Gem 1",
     "material": "279:67",
     "requirements": {
       "level": 110,
@@ -828,6 +889,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Dernic Gem 2",
     "material": "279:67",
     "requirements": {
       "level": 110,
@@ -841,6 +903,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Dernic Gem 3",
     "material": "279:67",
     "requirements": {
       "level": 110,
@@ -853,6 +916,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Dernic Grains 1",
     "material": "279:17",
     "requirements": {
       "level": 110,
@@ -865,6 +929,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Dernic Grains 2",
     "material": "279:17",
     "requirements": {
       "level": 110,
@@ -877,6 +942,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Dernic Grains 3",
     "material": "279:17",
     "requirements": {
       "level": 110,
@@ -893,6 +959,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dernic Ingot 1",
     "material": "279:56",
     "requirements": {
       "level": 110,
@@ -909,6 +976,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dernic Ingot 2",
     "material": "279:56",
     "requirements": {
       "level": 110,
@@ -925,6 +993,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dernic Ingot 3",
     "material": "279:56",
     "requirements": {
       "level": 110,
@@ -936,6 +1005,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Dernic Meat 1",
     "material": "279:30",
     "requirements": {
       "level": 110,
@@ -947,6 +1017,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Dernic Meat 2",
     "material": "279:30",
     "requirements": {
       "level": 110,
@@ -958,6 +1029,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Dernic Meat 3",
     "material": "279:30",
     "requirements": {
       "level": 110,
@@ -973,6 +1045,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Dernic Oil 1",
     "material": "279:35",
     "requirements": {
       "level": 110,
@@ -988,6 +1061,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Dernic Oil 2",
     "material": "279:35",
     "requirements": {
       "level": 110,
@@ -1003,6 +1077,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Dernic Oil 3",
     "material": "279:35",
     "requirements": {
       "level": 110,
@@ -1016,6 +1091,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dernic Paper 1",
     "material": "279:41",
     "requirements": {
       "level": 110,
@@ -1029,6 +1105,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dernic Paper 2",
     "material": "279:41",
     "requirements": {
       "level": 110,
@@ -1042,6 +1119,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Dernic Paper 3",
     "material": "279:41",
     "requirements": {
       "level": 110,
@@ -1056,6 +1134,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dernic String 1",
     "material": "279:12",
     "requirements": {
       "level": 110,
@@ -1070,6 +1149,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dernic String 2",
     "material": "279:12",
     "requirements": {
       "level": 110,
@@ -1084,6 +1164,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dernic String 3",
     "material": "279:12",
     "requirements": {
       "level": 110,
@@ -1098,6 +1179,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dernic Wood 1",
     "requirements": {
       "level": 110,
       "skills": "woodcutting"
@@ -1112,6 +1194,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dernic Wood 2",
     "requirements": {
       "level": 110,
       "skills": "woodcutting"
@@ -1126,6 +1209,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Dernic Wood 3",
     "requirements": {
       "level": 110,
       "skills": "woodcutting"
@@ -1139,6 +1223,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Diamond Gem 1",
     "material": "279:64",
     "requirements": {
       "level": 80,
@@ -1152,6 +1237,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Diamond Gem 2",
     "material": "279:64",
     "requirements": {
       "level": 80,
@@ -1165,6 +1251,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Diamond Gem 3",
     "material": "279:64",
     "requirements": {
       "level": 80,
@@ -1181,6 +1268,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Diamond Ingot 1",
     "material": "279:53",
     "requirements": {
       "level": 80,
@@ -1197,6 +1285,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Diamond Ingot 2",
     "material": "279:53",
     "requirements": {
       "level": 80,
@@ -1213,6 +1302,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Diamond Ingot 3",
     "material": "279:53",
     "requirements": {
       "level": 80,
@@ -1226,6 +1316,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Gold Gem 1",
     "material": "279:59",
     "requirements": {
       "level": 20,
@@ -1239,6 +1330,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Gold Gem 2",
     "material": "279:59",
     "requirements": {
       "level": 20,
@@ -1252,6 +1344,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Gold Gem 3",
     "material": "279:59",
     "requirements": {
       "level": 20,
@@ -1268,6 +1361,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Gold Ingot 1",
     "material": "279:47",
     "requirements": {
       "level": 20,
@@ -1284,6 +1378,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Gold Ingot 2",
     "material": "279:47",
     "requirements": {
       "level": 20,
@@ -1300,6 +1395,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Gold Ingot 3",
     "material": "279:47",
     "requirements": {
       "level": 20,
@@ -1313,6 +1409,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Granite Gem 1",
     "material": "279:58",
     "requirements": {
       "level": 10,
@@ -1326,6 +1423,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Granite Gem 2",
     "material": "279:58",
     "requirements": {
       "level": 10,
@@ -1339,6 +1437,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Granite Gem 3",
     "material": "279:58",
     "requirements": {
       "level": 10,
@@ -1355,6 +1454,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Granite Ingot 1",
     "material": "279:46",
     "requirements": {
       "level": 10,
@@ -1371,6 +1471,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Granite Ingot 2",
     "material": "279:46",
     "requirements": {
       "level": 10,
@@ -1387,6 +1488,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Granite Ingot 3",
     "material": "279:46",
     "requirements": {
       "level": 10,
@@ -1398,6 +1500,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Gudgeon Meat 1",
     "material": "279:31",
     "requirements": {
       "level": 1,
@@ -1409,6 +1512,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Gudgeon Meat 2",
     "material": "279:31",
     "requirements": {
       "level": 1,
@@ -1420,6 +1524,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Gudgeon Meat 3",
     "material": "279:31",
     "requirements": {
       "level": 1,
@@ -1435,6 +1540,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Gudgeon Oil 1",
     "material": "279:35",
     "requirements": {
       "level": 1,
@@ -1450,6 +1556,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Gudgeon Oil 2",
     "material": "279:35",
     "requirements": {
       "level": 1,
@@ -1465,6 +1572,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Gudgeon Oil 3",
     "material": "279:35",
     "requirements": {
       "level": 1,
@@ -1476,6 +1584,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Gylia Meat 1",
     "material": "279:31",
     "requirements": {
       "level": 70,
@@ -1487,6 +1596,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Gylia Meat 2",
     "material": "279:31",
     "requirements": {
       "level": 70,
@@ -1498,6 +1608,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Gylia Meat 3",
     "material": "279:31",
     "requirements": {
       "level": 70,
@@ -1513,6 +1624,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Gylia Oil 1",
     "material": "279:36",
     "requirements": {
       "level": 70,
@@ -1528,6 +1640,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Gylia Oil 2",
     "material": "279:36",
     "requirements": {
       "level": 70,
@@ -1543,6 +1656,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Gylia Oil 3",
     "material": "279:36",
     "requirements": {
       "level": 70,
@@ -1555,6 +1669,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Hemp Grains 1",
     "material": "279:15",
     "requirements": {
       "level": 100,
@@ -1567,6 +1682,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Hemp Grains 2",
     "material": "279:15",
     "requirements": {
       "level": 100,
@@ -1579,6 +1695,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Hemp Grains 3",
     "material": "279:15",
     "requirements": {
       "level": 100,
@@ -1593,6 +1710,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Hemp String 1",
     "material": "279:11",
     "requirements": {
       "level": 100,
@@ -1607,6 +1725,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Hemp String 2",
     "material": "279:11",
     "requirements": {
       "level": 100,
@@ -1621,6 +1740,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Hemp String 3",
     "material": "279:11",
     "requirements": {
       "level": 100,
@@ -1633,6 +1753,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Hops Grains 1",
     "material": "279:15",
     "requirements": {
       "level": 40,
@@ -1645,6 +1766,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Hops Grains 2",
     "material": "279:15",
     "requirements": {
       "level": 40,
@@ -1657,6 +1779,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Hops Grains 3",
     "material": "279:15",
     "requirements": {
       "level": 40,
@@ -1671,6 +1794,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Hops String 1",
     "material": "279:11",
     "requirements": {
       "level": 40,
@@ -1685,6 +1809,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Hops String 2",
     "material": "279:11",
     "requirements": {
       "level": 40,
@@ -1699,6 +1824,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Hops String 3",
     "material": "279:11",
     "requirements": {
       "level": 40,
@@ -1710,6 +1836,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Icefish Meat 1",
     "material": "279:34",
     "requirements": {
       "level": 40,
@@ -1721,6 +1848,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Icefish Meat 2",
     "material": "279:34",
     "requirements": {
       "level": 40,
@@ -1732,6 +1860,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Icefish Meat 3",
     "material": "279:34",
     "requirements": {
       "level": 40,
@@ -1747,6 +1876,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Icefish Oil 1",
     "material": "279:39",
     "requirements": {
       "level": 40,
@@ -1762,6 +1892,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Icefish Oil 2",
     "material": "279:39",
     "requirements": {
       "level": 40,
@@ -1777,6 +1908,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Icefish Oil 3",
     "material": "279:39",
     "requirements": {
       "level": 40,
@@ -1790,6 +1922,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Iron Gem 1",
     "material": "279:60",
     "requirements": {
       "level": 40,
@@ -1803,6 +1936,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Iron Gem 2",
     "material": "279:60",
     "requirements": {
       "level": 40,
@@ -1816,6 +1950,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Iron Gem 3",
     "material": "279:60",
     "requirements": {
       "level": 40,
@@ -1832,6 +1967,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Iron Ingot 1",
     "material": "279:49",
     "requirements": {
       "level": 40,
@@ -1848,6 +1984,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Iron Ingot 2",
     "material": "279:49",
     "requirements": {
       "level": 40,
@@ -1864,6 +2001,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Iron Ingot 3",
     "material": "279:49",
     "requirements": {
       "level": 40,
@@ -1877,6 +2015,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Jungle Paper 1",
     "material": "279:40",
     "requirements": {
       "level": 50,
@@ -1890,6 +2029,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Jungle Paper 2",
     "material": "279:40",
     "requirements": {
       "level": 50,
@@ -1903,6 +2043,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Jungle Paper 3",
     "material": "279:40",
     "requirements": {
       "level": 50,
@@ -1917,6 +2058,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Jungle Wood 1",
     "requirements": {
       "level": 50,
       "skills": "woodcutting"
@@ -1931,6 +2073,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Jungle Wood 2",
     "requirements": {
       "level": 50,
       "skills": "woodcutting"
@@ -1945,6 +2088,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Jungle Wood 3",
     "requirements": {
       "level": 50,
       "skills": "woodcutting"
@@ -1958,6 +2102,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Kanderstone Gem 1",
     "material": "279:63",
     "requirements": {
       "level": 70,
@@ -1971,6 +2116,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Kanderstone Gem 2",
     "material": "279:63",
     "requirements": {
       "level": 70,
@@ -1984,6 +2130,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Kanderstone Gem 3",
     "material": "279:63",
     "requirements": {
       "level": 70,
@@ -2000,6 +2147,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Kanderstone Ingot 1",
     "material": "279:52",
     "requirements": {
       "level": 70,
@@ -2016,6 +2164,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Kanderstone Ingot 2",
     "material": "279:52",
     "requirements": {
       "level": 70,
@@ -2032,6 +2181,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Kanderstone Ingot 3",
     "material": "279:52",
     "requirements": {
       "level": 70,
@@ -2043,6 +2193,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Koi Meat 1",
     "material": "279:31",
     "requirements": {
       "level": 60,
@@ -2054,6 +2205,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Koi Meat 2",
     "material": "279:31",
     "requirements": {
       "level": 60,
@@ -2065,6 +2217,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Koi Meat 3",
     "material": "279:31",
     "requirements": {
       "level": 60,
@@ -2080,6 +2233,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Koi Oil 1",
     "material": "279:36",
     "requirements": {
       "level": 60,
@@ -2095,6 +2249,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Koi Oil 2",
     "material": "279:36",
     "requirements": {
       "level": 60,
@@ -2110,6 +2265,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Koi Oil 3",
     "material": "279:36",
     "requirements": {
       "level": 60,
@@ -2123,6 +2279,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Light Paper 1",
     "material": "339:0",
     "requirements": {
       "level": 70,
@@ -2136,6 +2293,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Light Paper 2",
     "material": "339:0",
     "requirements": {
       "level": 70,
@@ -2149,6 +2307,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Light Paper 3",
     "material": "339:0",
     "requirements": {
       "level": 70,
@@ -2163,6 +2322,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Light Wood 1",
     "requirements": {
       "level": 70,
       "skills": "woodcutting"
@@ -2177,6 +2337,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Light Wood 2",
     "requirements": {
       "level": 70,
       "skills": "woodcutting"
@@ -2191,6 +2352,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Light Wood 3",
     "requirements": {
       "level": 70,
       "skills": "woodcutting"
@@ -2203,6 +2365,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Malt Grains 1",
     "material": "279:14",
     "requirements": {
       "level": 30,
@@ -2215,6 +2378,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Malt Grains 2",
     "material": "279:14",
     "requirements": {
       "level": 30,
@@ -2227,6 +2391,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Malt Grains 3",
     "material": "279:14",
     "requirements": {
       "level": 30,
@@ -2241,6 +2406,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Malt String 1",
     "material": "279:13",
     "requirements": {
       "level": 30,
@@ -2255,6 +2421,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Malt String 2",
     "material": "279:13",
     "requirements": {
       "level": 30,
@@ -2269,6 +2436,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Malt String 3",
     "material": "279:13",
     "requirements": {
       "level": 30,
@@ -2281,6 +2449,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Millet Grains 1",
     "material": "279:14",
     "requirements": {
       "level": 60,
@@ -2293,6 +2462,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Millet Grains 2",
     "material": "279:14",
     "requirements": {
       "level": 60,
@@ -2305,6 +2475,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Millet Grains 3",
     "material": "279:14",
     "requirements": {
       "level": 60,
@@ -2319,6 +2490,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Millet String 1",
     "material": "279:13",
     "requirements": {
       "level": 60,
@@ -2333,6 +2505,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Millet String 2",
     "material": "279:13",
     "requirements": {
       "level": 60,
@@ -2347,6 +2520,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Millet String 3",
     "material": "279:13",
     "requirements": {
       "level": 60,
@@ -2360,6 +2534,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Molten Gem 1",
     "material": "279:65",
     "requirements": {
       "level": 90,
@@ -2373,6 +2548,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Molten Gem 2",
     "material": "279:65",
     "requirements": {
       "level": 90,
@@ -2386,6 +2562,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Molten Gem 3",
     "material": "279:65",
     "requirements": {
       "level": 90,
@@ -2402,6 +2579,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Molten Ingot 1",
     "material": "279:54",
     "requirements": {
       "level": 90,
@@ -2418,6 +2596,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Molten Ingot 2",
     "material": "279:54",
     "requirements": {
       "level": 90,
@@ -2434,6 +2613,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Molten Ingot 3",
     "material": "279:54",
     "requirements": {
       "level": 90,
@@ -2445,6 +2625,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Molten Meat 1",
     "material": "279:32",
     "requirements": {
       "level": 90,
@@ -2456,6 +2637,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Molten Meat 2",
     "material": "279:32",
     "requirements": {
       "level": 90,
@@ -2467,6 +2649,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Molten Meat 3",
     "material": "279:32",
     "requirements": {
       "level": 90,
@@ -2482,6 +2665,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Molten Oil 1",
     "material": "279:37",
     "requirements": {
       "level": 90,
@@ -2497,6 +2681,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Molten Oil 2",
     "material": "279:37",
     "requirements": {
       "level": 90,
@@ -2512,6 +2697,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Molten Oil 3",
     "material": "279:37",
     "requirements": {
       "level": 90,
@@ -2525,6 +2711,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Oak Paper 1",
     "material": "339:0",
     "requirements": {
       "level": 1,
@@ -2538,6 +2725,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Oak Paper 2",
     "material": "339:0",
     "requirements": {
       "level": 1,
@@ -2551,6 +2739,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Oak Paper 3",
     "material": "339:0",
     "requirements": {
       "level": 1,
@@ -2565,6 +2754,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Oak Wood 1",
     "requirements": {
       "level": 1,
       "skills": "woodcutting"
@@ -2579,6 +2769,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Oak Wood 2",
     "requirements": {
       "level": 1,
       "skills": "woodcutting"
@@ -2593,6 +2784,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Oak Wood 3",
     "requirements": {
       "level": 1,
       "skills": "woodcutting"
@@ -2605,6 +2797,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Oat Grains 1",
     "material": "279:15",
     "requirements": {
       "level": 20,
@@ -2617,6 +2810,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Oat Grains 2",
     "material": "279:15",
     "requirements": {
       "level": 20,
@@ -2629,6 +2823,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Oat Grains 3",
     "material": "279:15",
     "requirements": {
       "level": 20,
@@ -2643,6 +2838,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Oat String 1",
     "material": "279:11",
     "requirements": {
       "level": 20,
@@ -2657,6 +2853,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Oat String 2",
     "material": "279:11",
     "requirements": {
       "level": 20,
@@ -2671,6 +2868,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Oat String 3",
     "material": "279:11",
     "requirements": {
       "level": 20,
@@ -2684,6 +2882,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Pine Paper 1",
     "material": "279:41",
     "requirements": {
       "level": 80,
@@ -2697,6 +2896,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Pine Paper 2",
     "material": "279:41",
     "requirements": {
       "level": 80,
@@ -2710,6 +2910,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Pine Paper 3",
     "material": "279:41",
     "requirements": {
       "level": 80,
@@ -2724,6 +2925,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Pine Wood 1",
     "requirements": {
       "level": 80,
       "skills": "woodcutting"
@@ -2738,6 +2940,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Pine Wood 2",
     "requirements": {
       "level": 80,
       "skills": "woodcutting"
@@ -2752,6 +2955,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Pine Wood 3",
     "requirements": {
       "level": 80,
       "skills": "woodcutting"
@@ -2763,6 +2967,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Piranha Meat 1",
     "material": "279:34",
     "requirements": {
       "level": 50,
@@ -2774,6 +2979,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Piranha Meat 2",
     "material": "279:34",
     "requirements": {
       "level": 50,
@@ -2785,6 +2991,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Piranha Meat 3",
     "material": "279:34",
     "requirements": {
       "level": 50,
@@ -2800,6 +3007,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Piranha Oil 1",
     "material": "279:37",
     "requirements": {
       "level": 50,
@@ -2815,6 +3023,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Piranha Oil 2",
     "material": "279:37",
     "requirements": {
       "level": 50,
@@ -2830,6 +3039,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Piranha Oil 3",
     "material": "279:37",
     "requirements": {
       "level": 50,
@@ -2842,6 +3052,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Rice Grains 1",
     "material": "279:14",
     "requirements": {
       "level": 80,
@@ -2854,6 +3065,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Rice Grains 2",
     "material": "279:14",
     "requirements": {
       "level": 80,
@@ -2866,6 +3078,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Rice Grains 3",
     "material": "279:14",
     "requirements": {
       "level": 80,
@@ -2880,6 +3093,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Rice String 1",
     "material": "279:13",
     "requirements": {
       "level": 80,
@@ -2894,6 +3108,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Rice String 2",
     "material": "279:13",
     "requirements": {
       "level": 80,
@@ -2908,6 +3123,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Rice String 3",
     "material": "279:13",
     "requirements": {
       "level": 80,
@@ -2920,6 +3136,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Rye Grains 1",
     "material": "279:14",
     "requirements": {
       "level": 50,
@@ -2932,6 +3149,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Rye Grains 2",
     "material": "279:14",
     "requirements": {
       "level": 50,
@@ -2944,6 +3162,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Rye Grains 3",
     "material": "279:14",
     "requirements": {
       "level": 50,
@@ -2958,6 +3177,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Rye String 1",
     "material": "279:13",
     "requirements": {
       "level": 50,
@@ -2972,6 +3192,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Rye String 2",
     "material": "279:13",
     "requirements": {
       "level": 50,
@@ -2986,6 +3207,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Rye String 3",
     "material": "279:13",
     "requirements": {
       "level": 50,
@@ -2997,6 +3219,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Salmon Meat 1",
     "material": "279:32",
     "requirements": {
       "level": 20,
@@ -3008,6 +3231,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Salmon Meat 2",
     "material": "279:32",
     "requirements": {
       "level": 20,
@@ -3019,6 +3243,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Salmon Meat 3",
     "material": "279:32",
     "requirements": {
       "level": 20,
@@ -3034,6 +3259,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Salmon Oil 1",
     "material": "279:36",
     "requirements": {
       "level": 20,
@@ -3049,6 +3275,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Salmon Oil 2",
     "material": "279:36",
     "requirements": {
       "level": 20,
@@ -3064,6 +3291,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Salmon Oil 3",
     "material": "279:36",
     "requirements": {
       "level": 20,
@@ -3077,6 +3305,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Sandstone Gem 1",
     "material": "279:68",
     "requirements": {
       "level": 30,
@@ -3090,6 +3319,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Sandstone Gem 2",
     "material": "279:68",
     "requirements": {
       "level": 30,
@@ -3103,6 +3333,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Sandstone Gem 3",
     "material": "279:68",
     "requirements": {
       "level": 30,
@@ -3119,6 +3350,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Sandstone Ingot 1",
     "material": "279:48",
     "requirements": {
       "level": 30,
@@ -3135,6 +3367,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Sandstone Ingot 2",
     "material": "279:48",
     "requirements": {
       "level": 30,
@@ -3151,6 +3384,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Sandstone Ingot 3",
     "material": "279:48",
     "requirements": {
       "level": 30,
@@ -3164,6 +3398,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Silver Gem 1",
     "material": "279:61",
     "requirements": {
       "level": 50,
@@ -3177,6 +3412,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Silver Gem 2",
     "material": "279:61",
     "requirements": {
       "level": 50,
@@ -3190,6 +3426,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Silver Gem 3",
     "material": "279:61",
     "requirements": {
       "level": 50,
@@ -3206,6 +3443,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Silver Ingot 1",
     "material": "279:50",
     "requirements": {
       "level": 50,
@@ -3222,6 +3460,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Silver Ingot 2",
     "material": "279:50",
     "requirements": {
       "level": 50,
@@ -3238,6 +3477,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Silver Ingot 3",
     "material": "279:50",
     "requirements": {
       "level": 50,
@@ -3251,6 +3491,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Sky Paper 1",
     "material": "339:0",
     "requirements": {
       "level": 100,
@@ -3264,6 +3505,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Sky Paper 2",
     "material": "339:0",
     "requirements": {
       "level": 100,
@@ -3277,6 +3519,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Sky Paper 3",
     "material": "339:0",
     "requirements": {
       "level": 100,
@@ -3291,6 +3534,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Sky Wood 1",
     "requirements": {
       "level": 100,
       "skills": "woodcutting"
@@ -3305,6 +3549,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Sky Wood 2",
     "requirements": {
       "level": 100,
       "skills": "woodcutting"
@@ -3319,6 +3564,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Sky Wood 3",
     "requirements": {
       "level": 100,
       "skills": "woodcutting"
@@ -3331,6 +3577,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Sorghum Grains 1",
     "material": "279:17",
     "requirements": {
       "level": 90,
@@ -3343,6 +3590,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Sorghum Grains 2",
     "material": "279:17",
     "requirements": {
       "level": 90,
@@ -3355,6 +3603,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Sorghum Grains 3",
     "material": "279:17",
     "requirements": {
       "level": 90,
@@ -3369,6 +3618,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Sorghum String 1",
     "material": "279:12",
     "requirements": {
       "level": 90,
@@ -3383,6 +3633,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Sorghum String 2",
     "material": "279:12",
     "requirements": {
       "level": 90,
@@ -3397,6 +3648,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Sorghum String 3",
     "material": "279:12",
     "requirements": {
       "level": 90,
@@ -3410,6 +3662,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Spruce Paper 1",
     "material": "279:41",
     "requirements": {
       "level": 40,
@@ -3423,6 +3676,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Spruce Paper 2",
     "material": "279:41",
     "requirements": {
       "level": 40,
@@ -3436,6 +3690,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Spruce Paper 3",
     "material": "279:41",
     "requirements": {
       "level": 40,
@@ -3450,6 +3705,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Spruce Wood 1",
     "requirements": {
       "level": 40,
       "skills": "woodcutting"
@@ -3464,6 +3720,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Spruce Wood 2",
     "requirements": {
       "level": 40,
       "skills": "woodcutting"
@@ -3478,6 +3735,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Spruce Wood 3",
     "requirements": {
       "level": 40,
       "skills": "woodcutting"
@@ -3489,6 +3747,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Starfish Meat 1",
     "material": "279:33",
     "requirements": {
       "level": 100,
@@ -3500,6 +3759,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Starfish Meat 2",
     "material": "279:33",
     "requirements": {
       "level": 100,
@@ -3511,6 +3771,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Starfish Meat 3",
     "material": "279:33",
     "requirements": {
       "level": 100,
@@ -3526,6 +3787,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Starfish Oil 1",
     "material": "279:38",
     "requirements": {
       "level": 100,
@@ -3541,6 +3803,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Starfish Oil 2",
     "material": "279:38",
     "requirements": {
       "level": 100,
@@ -3556,6 +3819,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Starfish Oil 3",
     "material": "279:38",
     "requirements": {
       "level": 100,
@@ -3567,6 +3831,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Trout Meat 1",
     "material": "279:34",
     "requirements": {
       "level": 10,
@@ -3578,6 +3843,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Trout Meat 2",
     "material": "279:34",
     "requirements": {
       "level": 10,
@@ -3589,6 +3855,7 @@
     "craftable": [
       "food"
     ],
+    "internalName": "Refined Trout Meat 3",
     "material": "279:34",
     "requirements": {
       "level": 10,
@@ -3604,6 +3871,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Trout Oil 1",
     "material": "279:39",
     "requirements": {
       "level": 10,
@@ -3619,6 +3887,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Trout Oil 2",
     "material": "279:39",
     "requirements": {
       "level": 10,
@@ -3634,6 +3903,7 @@
       "necklaces",
       "potions"
     ],
+    "internalName": "Refined Trout Oil 3",
     "material": "279:39",
     "requirements": {
       "level": 10,
@@ -3647,6 +3917,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Voidstone Gem 1",
     "material": "279:66",
     "requirements": {
       "level": 100,
@@ -3660,6 +3931,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Voidstone Gem 2",
     "material": "279:66",
     "requirements": {
       "level": 100,
@@ -3673,6 +3945,7 @@
       "bracelets",
       "necklaces"
     ],
+    "internalName": "Refined Voidstone Gem 3",
     "material": "279:66",
     "requirements": {
       "level": 100,
@@ -3689,6 +3962,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Voidstone Ingot 1",
     "material": "279:55",
     "requirements": {
       "level": 100,
@@ -3705,6 +3979,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Voidstone Ingot 2",
     "material": "279:55",
     "requirements": {
       "level": 100,
@@ -3721,6 +3996,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Voidstone Ingot 3",
     "material": "279:55",
     "requirements": {
       "level": 100,
@@ -3733,6 +4009,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Wheat Grains 1",
     "material": "279:14",
     "requirements": {
       "level": 1,
@@ -3745,6 +4022,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Wheat Grains 2",
     "material": "279:14",
     "requirements": {
       "level": 1,
@@ -3757,6 +4035,7 @@
       "potions",
       "food"
     ],
+    "internalName": "Refined Wheat Grains 3",
     "material": "279:14",
     "requirements": {
       "level": 1,
@@ -3771,6 +4050,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Wheat String 1",
     "material": "279:13",
     "requirements": {
       "level": 1,
@@ -3785,6 +4065,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Wheat String 2",
     "material": "279:13",
     "requirements": {
       "level": 1,
@@ -3799,6 +4080,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Wheat String 3",
     "material": "279:13",
     "requirements": {
       "level": 1,
@@ -3812,6 +4094,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Willow Paper 1",
     "material": "279:40",
     "requirements": {
       "level": 20,
@@ -3825,6 +4108,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Willow Paper 2",
     "material": "279:40",
     "requirements": {
       "level": 20,
@@ -3838,6 +4122,7 @@
       "helmets",
       "chestplates"
     ],
+    "internalName": "Refined Willow Paper 3",
     "material": "279:40",
     "requirements": {
       "level": 20,
@@ -3852,6 +4137,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Willow Wood 1",
     "requirements": {
       "level": 20,
       "skills": "woodcutting"
@@ -3866,6 +4152,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Willow Wood 2",
     "requirements": {
       "level": 20,
       "skills": "woodcutting"
@@ -3880,6 +4167,7 @@
       "bows",
       "wands"
     ],
+    "internalName": "Refined Willow Wood 3",
     "requirements": {
       "level": 20,
       "skills": "woodcutting"

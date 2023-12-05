@@ -6,8 +6,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 # Download the json file from Wynncraft API
-# FIXME: Use release v3 API
-curl -X POST -d '{"type":["materials"]}' -H "Content-Type: application/json" -o materials.json.tmp "https://api.wynncraft.com/v3-dev/item/search?fullResult=True"
+curl -X POST -d '{"type":["materials"]}' -H "Content-Type: application/json" -o materials.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult=True"
 
 if [ ! -s materials.json.tmp ]; then
     rm materials.json.tmp
