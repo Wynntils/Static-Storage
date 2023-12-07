@@ -15,6 +15,7 @@ jobs:
 
       - name: Update Ingredient Data
         run: |
+          chmod +x ./Generators/update_ingredient_data.sh
           ./Generators/update_ingredient_data.sh
 
       - name: Create Pull Request

@@ -15,6 +15,7 @@ jobs:
 
       - name: Update Charm Data
         run: |
+          chmod +x ./Generators/update_charm_data.sh
           ./Generators/update_charm_data.sh
 
       - name: Create Pull Request

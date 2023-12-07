@@ -15,6 +15,7 @@ jobs:
 
       - name: Update Tool Data
         run: |
+          chmod +x ./Generators/update_tool_data.sh
           ./Generators/update_tool_data.sh
 
       - name: Create Pull Request

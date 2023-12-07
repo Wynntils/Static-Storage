@@ -15,6 +15,7 @@ jobs:
 
       - name: Update Tome Data
         run: |
+          chmod +x ./Generators/update_tome_data.sh
           ./Generators/update_tome_data.sh
 
       - name: Create Pull Request

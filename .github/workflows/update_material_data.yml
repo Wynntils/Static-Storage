@@ -15,6 +15,7 @@ jobs:
 
       - name: Update Material Data
         run: |
+          chmod +x ./Generators/update_material_data.sh
           ./Generators/update_material_data.sh
 
       - name: Create Pull Request

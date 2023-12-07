@@ -15,6 +15,7 @@ jobs:
 
       - name: Update Gear Data
         run: |
+          chmod +x ./Generators/update_gear_data.sh
           ./Generators/update_gear_data.sh
 
       - name: Create Pull Request
