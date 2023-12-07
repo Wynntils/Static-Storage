@@ -15,7 +15,6 @@ if [ ! -s gear.json.tmp ]; then
 fi
 
 # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
-# This will also get rid of the timestamp, which would mess up the md5sum
 jq --sort-keys -r '.' < gear.json.tmp > gear.json.tmp2
 # Minimalize the json file
 jq -c < gear.json.tmp2 > advanced_gear.json

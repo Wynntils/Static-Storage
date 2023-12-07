@@ -15,7 +15,6 @@ if [ ! -s materials.json.tmp ]; then
 fi
 
 # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
-# This will also get rid of the timestamp, which would mess up the md5sum
 jq --sort-keys -r '.' < materials.json.tmp > materials.json.tmp2
 # Minimalize the json file
 jq -c < materials.json.tmp2 > materials.json
