@@ -46,3 +46,9 @@ jq --sort-keys '.' < id_keys.json > id_keys.json.tmp
 mv id_keys.json.tmp id_keys.json
 
 rm ids.tmp
+
+MD5=$(md5sum $TARGET_DIR/id_keys.json | cut -d' ' -f1)
+
+# Update ulrs.json with the new md5sum for dataStaticIdentificationKeys
+jq '. = [.[] | if (.id == "dataStaticIdentificationKeys") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
+mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json
