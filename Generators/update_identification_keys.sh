@@ -22,11 +22,12 @@ if [ ! -f id_keys.json ]; then
     echo "{}" > id_keys.json
 fi
 
-# Get the last id in the file, calculate the next id
-next_id=$(($(jq '[.| to_entries[] | .value | tonumber] | max' < id_keys.json) + 1))
+# Get the last id in the file
+last_id=$(jq '[.| to_entries[] | .value | tonumber] | max' < id_keys.json)
+next_id=$((last_id + 1))
 
 # If the file is empty, set the next_id to 0
-if [ "$next_id" == "null" ]; then
+if [ "$last_id" == "null" ]; then
     next_id=0
 fi
 
