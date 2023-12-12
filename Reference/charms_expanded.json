@@ -1,125 +1,143 @@
 {
-  "Charm of the Light": {
-    "base": {
-      "damageFromMobs": 30,
-      "leveledXpBonus": 30
+  "controller": {
+    "count": 4,
+    "current": 1,
+    "links": {
+      "next": null,
+      "previous": null
     },
-    "dropMeta": {
-      "coordinates": [
-        -732,
-        100,
-        -6412
-      ],
-      "name": "Orphion's Nexus of Light",
-      "type": "raid"
+    "next": null,
+    "pages": 1,
+    "payload": {
+      "type": [
+        "charms"
+      ]
     },
-    "dropRestriction": "never",
-    "internalName": "Charm of the Light",
-    "material": "6:2",
-    "raidReward": true,
-    "requirements": {
-      "level": 80,
-      "levelRange": {
-        "max": 100,
-        "min": 80
-      }
-    },
-    "restrictions": "Soulbound",
-    "tier": "fabled"
+    "previous": null
   },
-  "Charm of the Stone": {
-    "base": {
-      "damageFromMobs": 70,
-      "leveledLootBonus": 30
-    },
-    "dropMeta": {
-      "coordinates": [
-        662,
-        49,
-        -4448
-      ],
-      "name": "The Canyon Colossus",
-      "type": "raid"
-    },
-    "dropRestriction": "never",
-    "internalName": "Charm of the Stone",
-    "material": "337:0",
-    "raidReward": true,
-    "requirements": {
-      "level": 100,
-      "levelRange": {
-        "max": 110,
-        "min": 90
-      }
-    },
-    "restrictions": "Soulbound",
-    "tier": "fabled"
-  },
-  "Charm of the Void": {
-    "base": {
-      "damageFromMobs": 12
-    },
-    "dropMeta": {
-      "coordinates": [
-        1193,
-        64,
-        -947
-      ],
-      "name": "The Nameless Anomaly",
-      "type": "raid"
-    },
-    "dropRestriction": "never",
-    "identifications": {
-      "sprint": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+  "results": {
+    "Charm of the Light": {
+      "base": {
+        "damageFromMobs": 30,
+        "leveledXpBonus": 30
       },
-      "sprintRegen": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      }
+      "dropMeta": {
+        "coordinates": [
+          -732,
+          100,
+          -6412
+        ],
+        "name": "Orphion's Nexus of Light",
+        "type": "raid"
+      },
+      "dropRestriction": "never",
+      "internalName": "Charm of the Light",
+      "material": "6:2",
+      "raidReward": true,
+      "requirements": {
+        "level": 80,
+        "levelRange": {
+          "max": 100,
+          "min": 80
+        }
+      },
+      "restrictions": "Soulbound",
+      "tier": "fabled"
     },
-    "internalName": "Charm of the Void",
-    "material": "351:0",
-    "raidReward": true,
-    "requirements": {
-      "level": 105,
-      "levelRange": {
-        "max": 110,
-        "min": 100
-      }
+    "Charm of the Stone": {
+      "base": {
+        "damageFromMobs": 70,
+        "leveledLootBonus": 30
+      },
+      "dropMeta": {
+        "coordinates": [
+          662,
+          49,
+          -4448
+        ],
+        "name": "The Canyon Colossus",
+        "type": "raid"
+      },
+      "dropRestriction": "never",
+      "internalName": "Charm of the Stone",
+      "material": "337:0",
+      "raidReward": true,
+      "requirements": {
+        "level": 100,
+        "levelRange": {
+          "max": 110,
+          "min": 90
+        }
+      },
+      "restrictions": "Soulbound",
+      "tier": "fabled"
     },
-    "restrictions": "Soulbound",
-    "tier": "fabled"
-  },
-  "Charm of the Worm": {
-    "base": {
-      "damageFromMobs": 20,
-      "leveledXpBonus": 30
+    "Charm of the Void": {
+      "base": {
+        "damageFromMobs": 12
+      },
+      "dropMeta": {
+        "coordinates": [
+          1193,
+          64,
+          -947
+        ],
+        "name": "The Nameless Anomaly",
+        "type": "raid"
+      },
+      "dropRestriction": "never",
+      "identifications": {
+        "sprint": {
+          "max": 26,
+          "min": 6,
+          "raw": 20
+        },
+        "sprintRegen": {
+          "max": 26,
+          "min": 6,
+          "raw": 20
+        }
+      },
+      "internalName": "Charm of the Void",
+      "material": "351:0",
+      "raidReward": true,
+      "requirements": {
+        "level": 105,
+        "levelRange": {
+          "max": 110,
+          "min": 100
+        }
+      },
+      "restrictions": "Soulbound",
+      "tier": "fabled"
     },
-    "dropMeta": {
-      "coordinates": [
-        -1977,
-        63,
-        -5615
-      ],
-      "name": "Nest of the Grootslangs",
-      "type": "raid"
-    },
-    "dropRestriction": "never",
-    "internalName": "Charm of the Worm",
-    "material": "350:1",
-    "raidReward": true,
-    "requirements": {
-      "level": 60,
-      "levelRange": {
-        "max": 80,
-        "min": 60
-      }
-    },
-    "restrictions": "Soulbound",
-    "tier": "fabled"
+    "Charm of the Worm": {
+      "base": {
+        "damageFromMobs": 20,
+        "leveledXpBonus": 30
+      },
+      "dropMeta": {
+        "coordinates": [
+          -1977,
+          63,
+          -5615
+        ],
+        "name": "Nest of the Grootslangs",
+        "type": "raid"
+      },
+      "dropRestriction": "never",
+      "internalName": "Charm of the Worm",
+      "material": "350:1",
+      "raidReward": true,
+      "requirements": {
+        "level": 60,
+        "levelRange": {
+          "max": 80,
+          "min": 60
+        }
+      },
+      "restrictions": "Soulbound",
+      "tier": "fabled"
+    }
   }
 }
