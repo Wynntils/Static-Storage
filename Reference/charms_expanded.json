@@ -1,9 +1,5 @@
 {
   "Charm of the Light": {
-    "base": {
-      "damageFromMobs": 30,
-      "leveledXpBonus": 30
-    },
     "dropMeta": {
       "coordinates": [
         -732,
@@ -14,6 +10,18 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "identifications": {
+      "damageFromMobs": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "leveledXpBonus": {
+        "max": 35,
+        "min": 24,
+        "raw": 30
+      }
+    },
     "internalName": "Charm of the Light",
     "material": "6:2",
     "raidReward": true,
@@ -28,10 +36,6 @@
     "tier": "fabled"
   },
   "Charm of the Stone": {
-    "base": {
-      "damageFromMobs": 70,
-      "leveledLootBonus": 30
-    },
     "dropMeta": {
       "coordinates": [
         662,
@@ -42,6 +46,18 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "identifications": {
+      "damageFromMobs": {
+        "max": 91,
+        "min": 21,
+        "raw": 70
+      },
+      "leveledLootBonus": {
+        "max": 35,
+        "min": 24,
+        "raw": 30
+      }
+    },
     "internalName": "Charm of the Stone",
     "material": "337:0",
     "raidReward": true,
@@ -56,9 +72,6 @@
     "tier": "fabled"
   },
   "Charm of the Void": {
-    "base": {
-      "damageFromMobs": 12
-    },
     "dropMeta": {
       "coordinates": [
         1193,
@@ -70,14 +83,19 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "damageFromMobs": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "sprint": {
-        "max": 26,
-        "min": 6,
+        "max": 23,
+        "min": 16,
         "raw": 20
       },
       "sprintRegen": {
-        "max": 26,
-        "min": 6,
+        "max": 23,
+        "min": 16,
         "raw": 20
       }
     },
@@ -95,10 +113,6 @@
     "tier": "fabled"
   },
   "Charm of the Worm": {
-    "base": {
-      "damageFromMobs": 20,
-      "leveledXpBonus": 30
-    },
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -109,6 +123,18 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "identifications": {
+      "damageFromMobs": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "leveledXpBonus": {
+        "max": 35,
+        "min": 24,
+        "raw": 30
+      }
+    },
     "internalName": "Charm of the Worm",
     "material": "350:1",
     "raidReward": true,
