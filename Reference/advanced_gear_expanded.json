@@ -150726,11 +150726,11 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "material": "359:15",
     "powderSlots": 3,
     "requirements": {
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "tier": "rare",
