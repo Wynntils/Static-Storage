@@ -2459,6 +2459,63 @@
     "tier": "set",
     "type": "chestplate"
   },
+  "Air Relic Dagger": {
+    "attackSpeed": "very_fast",
+    "base": {
+      "airDamage": {
+        "max": 66,
+        "min": 39
+      },
+      "averageDPS": 326,
+      "damage": {
+        "max": 66,
+        "min": 39
+      }
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "airDamage": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "airDefence": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "lootBonus": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "rawAgility": 7,
+      "rawSpellDamage": {
+        "max": 111,
+        "min": 26,
+        "raw": 85
+      },
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "xpBonus": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      }
+    },
+    "internalName": "Air Relic Dagger",
+    "material": "359:12",
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 30,
+      "level": 65
+    },
+    "tier": "rare",
+    "type": "dagger"
+  },
   "Air Relic Daggers": {
     "attackSpeed": "very_fast",
     "base": {
@@ -11861,6 +11918,22 @@
     "tier": "unique",
     "type": "spear"
   },
+  "Beige Wynnter Sweater": {
+    "armorColor": "160,101,64",
+    "armorType": "leather",
+    "base": {
+      "airDefence": 3,
+      "health": 25
+    },
+    "dropRestriction": "never",
+    "internalName": "Beige Wynnter Sweater",
+    "lore": "The sweater has the quote \"All STOCKINGED up for the season\" knitted onto the front.",
+    "requirements": {
+      "level": 1
+    },
+    "tier": "unique",
+    "type": "chestplate"
+  },
   "Bejeweled Bracelet": {
     "accessoryType": "bracelet",
     "base": {
@@ -14469,7 +14542,7 @@
         "min": 2,
         "raw": 8
       },
-      "healingPercent": {
+      "healingEfficiency": {
         "max": 7,
         "min": 2,
         "raw": 5
@@ -16216,7 +16289,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "bonusElementalDefense": 15,
+      "elementalDefence": 15,
       "rawStrength": 8,
       "spellDamage": -10
     },
@@ -42247,12 +42320,12 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "material": "359:3",
     "powderSlots": 3,
     "requirements": {
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "tier": "rare",
     "type": "dagger"
@@ -44680,7 +44753,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "bonusElementalDefense": {
+      "elementalDefence": {
         "max": 13,
         "min": 3,
         "raw": 10
@@ -49888,6 +49961,63 @@
     "restrictions": "Untradable",
     "tier": "set",
     "type": "chestplate"
+  },
+  "Fire Relic Dagger": {
+    "attackSpeed": "fast",
+    "base": {
+      "averageDPS": 313,
+      "damage": {
+        "max": 70,
+        "min": 55
+      },
+      "fireDamage": {
+        "max": 70,
+        "min": 55
+      }
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "fireDamage": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "fireDefence": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "healthRegenRaw": {
+        "max": 104,
+        "min": 24,
+        "raw": 80
+      },
+      "lootBonus": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "rawDefence": 7,
+      "rawHealth": {
+        "max": 1196,
+        "min": 276,
+        "raw": 920
+      },
+      "xpBonus": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      }
+    },
+    "internalName": "Fire Relic Dagger",
+    "material": "359:9",
+    "powderSlots": 3,
+    "requirements": {
+      "defence": 30,
+      "level": 65
+    },
+    "tier": "rare",
+    "type": "dagger"
   },
   "Fire Relic Daggers": {
     "attackSpeed": "fast",
@@ -55369,7 +55499,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "bonusElementalDefense": -33,
+      "elementalDefence": -33,
       "raw1stSpellCost": -6,
       "raw2ndSpellCost": -6,
       "raw3rdSpellCost": -6,
@@ -69906,6 +70036,22 @@
     },
     "tier": "unique",
     "type": "bow"
+  },
+  "Indigo Wynnter Sweater": {
+    "armorColor": "160,101,64",
+    "armorType": "leather",
+    "base": {
+      "health": 25,
+      "waterDefence": 3
+    },
+    "dropRestriction": "never",
+    "internalName": "Indigo Wynnter Sweater",
+    "lore": "The sweater has the quote \"GRAUPELING with a second helping of Craftmas feast\" knitted onto the front.",
+    "requirements": {
+      "level": 1
+    },
+    "tier": "unique",
+    "type": "chestplate"
   },
   "Infatuation": {
     "attackSpeed": "slow",
@@ -94443,6 +94589,22 @@
     "tier": "legendary",
     "type": "bow"
   },
+  "Orange Wynnter Sweater": {
+    "armorColor": "160,101,64",
+    "armorType": "leather",
+    "base": {
+      "health": 25,
+      "thunderDefence": 3
+    },
+    "dropRestriction": "never",
+    "internalName": "Orange Wynnter Sweater",
+    "lore": "The sweater has the quote \"ORANGE you glad I showed up for Craftmas\" knitted onto the front.",
+    "requirements": {
+      "level": 1
+    },
+    "tier": "unique",
+    "type": "chestplate"
+  },
   "Orc Mask": {
     "armorColor": "160,101,64",
     "armorType": "leather",
@@ -98991,6 +99153,22 @@
     },
     "tier": "rare",
     "type": "bow"
+  },
+  "Pine Wynnter Sweater": {
+    "armorColor": "160,101,64",
+    "armorType": "leather",
+    "base": {
+      "earthDefence": 3,
+      "health": 25
+    },
+    "dropRestriction": "never",
+    "internalName": "Pine Wynnter Sweater",
+    "lore": "The sweater has the quote \"Let me NICK a few extra cookies for Craftmas\" knitted onto the front.",
+    "requirements": {
+      "level": 1
+    },
+    "tier": "unique",
+    "type": "chestplate"
   },
   "Pink Wynnter Sweater": {
     "armorColor": "160,101,64",
@@ -109410,7 +109588,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "bonusElementalDefense": {
+      "elementalDefence": {
         "max": 8,
         "min": 2,
         "raw": 6
@@ -115300,6 +115478,22 @@
     },
     "tier": "fabled",
     "type": "helmet"
+  },
+  "Scarlet Wynnter Sweater": {
+    "armorColor": "160,101,64",
+    "armorType": "leather",
+    "base": {
+      "fireDefence": 3,
+      "health": 25
+    },
+    "dropRestriction": "never",
+    "internalName": "Scarlet Wynnter Sweater",
+    "lore": "The sweater has the quote \"Why be merry? CLAUS I said so\" knitted onto the front.",
+    "requirements": {
+      "level": 1
+    },
+    "tier": "unique",
+    "type": "chestplate"
   },
   "Schist": {
     "accessoryType": "necklace",
@@ -140396,14 +140590,14 @@
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
     "base": {
-      "averageDPS": 341,
+      "averageDPS": 375,
       "damage": {
-        "max": 90,
-        "min": 20
+        "max": 99,
+        "min": 22
       },
       "thunderDamage": {
-        "max": 90,
-        "min": 20
+        "max": 99,
+        "min": 22
       }
     },
     "dropRestriction": "never",
@@ -140440,11 +140634,11 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Daggers",
-    "material": "359:6",
+    "internalName": "Thunder Relic Dagger",
+    "material": "261:6",
     "powderSlots": 3,
     "requirements": {
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65
     },
     "tier": "rare",
@@ -147739,7 +147933,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "elementalDefense": {
+      "elementalDefence": {
         "max": 46,
         "min": 11,
         "raw": 35
@@ -150532,11 +150726,11 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Daggers",
+    "internalName": "Water Relic Dagger",
     "material": "359:15",
     "powderSlots": 3,
     "requirements": {
-      "intelligence": 25,
+      "intelligence": 30,
       "level": 65
     },
     "tier": "rare",
