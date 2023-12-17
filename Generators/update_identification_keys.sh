@@ -43,7 +43,7 @@ while IFS= read -r id; do
 done < ids.tmp
 
 # Sort id_keys.json
-jq --sort-keys '.' < id_keys.json > id_keys.json.tmp
+jq -s 'sort_by(.| to_entries[] | .value) | .[]' < id_keys.json > id_keys.json.tmp
 mv id_keys.json.tmp id_keys.json
 
 rm ids.tmp
