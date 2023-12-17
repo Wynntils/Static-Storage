@@ -83,5 +83,9 @@
   "waterDefence": 81,
   "waterSpellDamage": 82,
   "weakenEnemy": 83,
-  "xpBonus": 84
+  "xpBonus": 84,
+  "damageFromMobs": 85,
+  "elementalDefence": 86,
+  "leveledLootBonus": 87,
+  "leveledXpBonus": 88
 }
