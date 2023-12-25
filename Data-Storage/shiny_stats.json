@@ -40,5 +40,11 @@
     "key": "deaths",
     "displayName": "Deaths",
     "statUnit": "raw"
+  },
+  {
+    "id": 8,
+    "key": "lootrunsCompleted",
+    "displayName": "Lootruns Completed",
+    "statUnit": "raw"
   }
 ]
