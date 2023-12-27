@@ -50,14 +50,14 @@ function do_map() {
   for ((x = $X1; x <= $X2; x++)); do
     for ((z = $Z1; z <= $Z2; z++)); do
       region="$x,$z"
-      region_file="$WYNNDATA_DIR/Data-Storage/raw/map/raw_map/$region.png"
+      region_file="$WYNNDATA_DIR/Data-Storage/raw/map/journeymap-data/DIM0/day/$region.png"
 
       # If the region file does not exist, we need to create one so the chunk imagine is full
       if [[ ! -e $region_file ]]; 
         then
           echo "Region was not found, using hack: $region"
           # This is a hack to convince JourneyMapTools to create the correct image size, the map mask takes care of hiding this
-          cp "$WYNNDATA_DIR/Data-Storage/raw/map/raw_map/0,0.png" $WYNNDATA_DIR/tmp/$region.png
+          cp "$WYNNDATA_DIR/Data-Storage/raw/map/journeymap-data/DIM0/day/0,0.png" $WYNNDATA_DIR/tmp/$region.png
           SOURCE_TILES="$SOURCE_TILES $WYNNDATA_DIR/tmp/$region.png"
         else
           echo "Including region: $region"
