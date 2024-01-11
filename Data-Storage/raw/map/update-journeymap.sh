@@ -7,7 +7,7 @@
 
 base_dir="$(cd $(dirname "$0")/.. 2>/dev/null && pwd)"
 WYNNCRAFT_WORLD_NAME=${WYNNCRAFT_WORLD_NAME:-Wynncraft}
-WYNNDATA_DIR=${WYNNDATA_DIR:-$base_dir/worldmap}
+WYNNDATA_DIR=${WYNNDATA_DIR:-$base_dir/map}
 COMMAND=$1
 
 if [[ ! -e options.txt ]]; then
