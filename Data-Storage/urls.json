@@ -106,7 +106,7 @@
   {
     "id": "dataStaticDestinations",
     "md5": "6c68932a8cacb3d1a1469bb8b3d35665",
-    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/tp-scroll-loc/Data-Storage/destinations.json"
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/destinations.json"
   },
   {
     "id": "dataStaticGear",
@@ -210,7 +210,7 @@
   },
   {
     "id": "dataStaticUrls",
-    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/tp-scroll-loc/Data-Storage/urls.json"
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/urls.json"
   },
   {
     "id": "dataWynncraftTerritoryListV3",
