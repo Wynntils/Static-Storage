@@ -627,6 +627,15 @@
         "speed": 10,
         "thorns": 12,
         "xpBonus": 75
+      },
+      {
+        "emeraldStealing": 12,
+        "healthBonus": 720,
+        "lootBonus": 120,
+        "reflection": 30,
+        "speed": 25,
+        "thorns": 30,
+        "xpBonus": 120
       }
     ],
     "items": [
