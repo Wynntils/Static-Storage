@@ -1313,8 +1313,8 @@
       {},
       {
         "mainAttackDamageBonus": -15,
-        "manaRegen": 12,
-        "spellCostPct2": -35,
+        "manaRegen": 14,
+        "spellCostPct2": -50,
         "spellDamageBonus": 15,
         "spellDamageBonusRaw": 30
       }
