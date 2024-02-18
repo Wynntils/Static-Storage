@@ -1,0 +1,112 @@
+{
+  "destinations": [
+    {
+      "location": "Ragni",
+      "abbreviation": "Ra"
+    },
+    {
+      "location": "Detlas",
+      "abbreviation": "De"
+    },
+    {
+      "location": "Nemract",
+      "abbreviation": "Nr"
+    },
+    {
+      "location": "Almuj",
+      "abbreviation": "Aj"
+    },
+    {
+      "location": "Rymek",
+      "abbreviation": "Ry"
+    },
+    {
+      "location": "Nesaak",
+      "abbreviation": "Ns"
+    },
+    {
+      "location": "Troms",
+      "abbreviation": "Tr"
+    },
+    {
+      "location": "Tempo Town",
+      "abbreviation": "TT"
+    },
+    {
+      "location": "Lutho",
+      "abbreviation": "Lu"
+    },
+    {
+      "location": "Selchar",
+      "abbreviation": "Se"
+    },
+    {
+      "location": "Mage Island",
+      "abbreviation": "MI"
+    },
+    {
+      "location": "Pirate Cove",
+      "abbreviation": "PC"
+    },
+    {
+      "location": "Llevigar",
+      "abbreviation": "Ll"
+    },
+    {
+      "location": "Bucie",
+      "abbreviation": "Bu"
+    },
+    {
+      "location": "Olux",
+      "abbreviation": "Ol"
+    },
+    {
+      "location": "Gelibord",
+      "abbreviation": "Ge"
+    },
+    {
+      "location": "Cinfras",
+      "abbreviation": "Ci"
+    },
+    {
+      "location": "Thanos",
+      "abbreviation": "Tn"
+    },
+    {
+      "location": "Eltom",
+      "abbreviation": "El"
+    },
+    {
+      "location": "Aldorei Town",
+      "abbreviation": "AT"
+    },
+    {
+      "location": "Thesead",
+      "abbreviation": "Ts"
+    },
+    {
+      "location": "Maex",
+      "abbreviation": "Mx"
+    },
+    {
+      "location": "Rodoroc",
+      "abbreviation": "Ro"
+    },
+    {
+      "location": "Kandon-Beda",
+      "abbreviation": "KB"
+    },
+    {
+      "location": "Ahmsord",
+      "abbreviation": "Ah"
+    },
+    {
+      "location": "Corkus City",
+      "abbreviation": "CC"
+    },
+    {
+      "location": "Legendary Island",
+      "abbreviation": "LI"
+    }
+  ]
+}
