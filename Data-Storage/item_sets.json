@@ -130,19 +130,19 @@
         "rawDexterity": 2,
         "rawMainAttackDamage": 5,
         "manaSteal": 4,
-        "spellDamageRaw": 15
+        "rawSpellDamage": 15
       },
       {
         "rawDexterity": 6,
         "rawMainAttackDamage": 10,
         "manaSteal": 4,
-        "spellDamageRaw": 35
+        "rawSpellDamage": 35
       },
       {
         "rawDexterity": 20,
         "rawMainAttackDamage": 70,
         "manaSteal": 12,
-        "spellDamageRaw": 65
+        "rawSpellDamage": 65
       }
     ],
     "items": [
@@ -521,7 +521,7 @@
         "earthDamage": -34,
         "manaRegen": -6,
         "manaSteal": 8,
-        "spellDamageRaw": 40,
+        "rawSpellDamage": 40,
         "thunderDamage": 5,
         "waterDamage": 5
       },
@@ -529,7 +529,7 @@
         "earthDamage": -67,
         "manaRegen": -12,
         "manaSteal": 16,
-        "spellDamageRaw": 115,
+        "rawSpellDamage": 115,
         "thunderDamage": 10,
         "waterDamage": 10
       },
@@ -538,7 +538,7 @@
         "earthDamage": -100,
         "manaRegen": -18,
         "manaSteal": 24,
-        "spellDamageRaw": 230,
+        "rawSpellDamage": 230,
         "thunderDamage": 32,
         "waterDamage": 32
       }
@@ -556,14 +556,14 @@
         "mainAttackDamage": -5,
         "rawMainAttackDamage": 25,
         "spellDamage": -5,
-        "spellDamageRaw": 27
+        "rawSpellDamage": 27
       },
       {
         "lifeSteal": 30,
         "mainAttackDamage": -13,
         "rawMainAttackDamage": 70,
         "spellDamage": -13,
-        "spellDamageRaw": 55
+        "rawSpellDamage": 55
       },
       {
         "rawAttackSpeed": 1,
@@ -572,7 +572,7 @@
         "rawMainAttackDamage": 105,
         "manaSteal": 8,
         "spellDamage": -33,
-        "spellDamageRaw": 160
+        "rawSpellDamage": 160
       }
     ],
     "items": [
@@ -707,39 +707,39 @@
         "rawHealth": 125,
         "lootBonus": 10,
         "manaRegen": 6,
-        "spellCostRaw2": -5,
+        "raw2ndSpellCost": -5,
         "xpBonus": 10
       },
       {
         "rawHealth": 425,
         "lootBonus": 15,
         "manaRegen": 8,
-        "spellCostRaw2": -5,
+        "raw2ndSpellCost": -5,
         "xpBonus": 15
       },
       {
         "rawHealth": 1325,
         "lootBonus": 35,
         "manaRegen": 12,
-        "spellCostRaw2": -5,
-        "spellCostRaw4": -5,
+        "raw2ndSpellCost": -5,
+        "raw4thSpellCost": -5,
         "xpBonus": 35
       },
       {
         "rawHealth": 2275,
         "lootBonus": 55,
         "manaRegen": 14,
-        "spellCostRaw2": -5,
-        "spellCostRaw4": -5,
+        "raw2ndSpellCost": -5,
+        "raw4thSpellCost": -5,
         "xpBonus": 55
       },
       {
         "rawHealth": 3850,
         "lootBonus": 80,
         "manaRegen": 18,
-        "spellCostRaw1": -5,
-        "spellCostRaw2": -5,
-        "spellCostRaw4": -5,
+        "raw1stSpellCost": -5,
+        "raw2ndSpellCost": -5,
+        "raw4thSpellCost": -5,
         "xpBonus": 80
       },
       {
@@ -750,10 +750,10 @@
         "rawIntelligence": 15,
         "lootBonus": 100,
         "manaRegen": 24,
-        "spellCostRaw1": -5,
-        "spellCostRaw2": -5,
-        "spellCostRaw3": -5,
-        "spellCostRaw4": -5,
+        "raw1stSpellCost": -5,
+        "raw2ndSpellCost": -5,
+        "raw3rdSpellCost": -5,
+        "raw4thSpellCost": -5,
         "rawStrength": 15,
         "xpBonus": 100
       }
@@ -966,7 +966,7 @@
         "mainAttackDamage": 12,
         "rawMainAttackDamage": 60,
         "spellDamage": -12,
-        "spellDamageRaw": -50
+        "rawSpellDamage": -50
       },
       {
         "rawDexterity": 30,
@@ -974,7 +974,7 @@
         "rawMainAttackDamage": 180,
         "walkSpeed": 11,
         "spellDamage": -35,
-        "spellDamageRaw": -150
+        "rawSpellDamage": -150
       }
     ],
     "items": [
@@ -1132,16 +1132,16 @@
         "mainAttackDamage": 14,
         "manaRegen": -6,
         "manaSteal": -4,
-        "spellDamageBonus": 14,
+        "spellDamage": 14,
         "sprint": -35,
         "walkSpeed": 16
       },
       {
-        "bonusAirDefense": 8,
-        "bonusEarthDefense": 8,
-        "bonusFireDefense": 8,
-        "bonusThunderDefense": 8,
-        "bonusWaterDefense": 8,
+        "airDefence": 8,
+        "earthDefence": 8,
+        "fireDefence": 8,
+        "thunderDefence": 8,
+        "waterDefence": 8,
         "healthBonus": 666,
         "healthRegenRaw": 50,
         "jumpHeight": 1,
@@ -1316,7 +1316,7 @@
         "manaRegen": 14,
         "2ndSpellCost": -50,
         "spellDamage": 15,
-        "spellDamageRaw": 30
+        "rawSpellDamage": 30
       }
     ],
     "items": [
