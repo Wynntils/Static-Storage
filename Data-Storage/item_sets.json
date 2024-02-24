@@ -1142,7 +1142,7 @@
         "fireDefence": 8,
         "thunderDefence": 8,
         "waterDefence": 8,
-        "healthBonus": 666,
+        "rawHealth": 666,
         "healthRegenRaw": 50,
         "jumpHeight": 1,
         "mainAttackDamage": 7,
