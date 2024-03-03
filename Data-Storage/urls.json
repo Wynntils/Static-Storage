@@ -194,11 +194,6 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/shiny_stats.json"
   },
   {
-    "id": "dataStaticShinyStats",
-    "md5": "2dbc0fdde50512b64828d5642bb480b6",
-    "url": "https://raw.githubusercontent.com/Wynntils/WynntilsWebsite-API/master/shiny_stats.json"
-  },
-  {
     "id": "dataStaticSplashes",
     "md5": "262f3c73093a1f0979beedb8b25e9420",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/splashes.json"
