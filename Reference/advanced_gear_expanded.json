@@ -13016,19 +13016,19 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 100
+      "health": 210
     },
     "dropRestriction": "never",
     "identifications": {
-      "lifeSteal": 8,
-      "lootBonus": 10,
-      "stealing": 2,
-      "thunderDamage": 10
+      "lifeSteal": 18,
+      "lootBonus": 12,
+      "stealing": 3,
+      "thunderDamage": 14
     },
     "identified": true,
     "internalName": "Black Mask",
     "requirements": {
-      "level": 18,
+      "level": 29,
       "quest": "Creeper Infiltration"
     },
     "tier": "rare",
@@ -18886,20 +18886,21 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
+      "airDefence": 5,
       "earthDefence": 10,
-      "fireDefence": -10,
-      "health": 55
+      "fireDefence": -8,
+      "health": 125
     },
     "dropRestriction": "never",
     "identifications": {
       "rawStrength": 4,
-      "thorns": 8,
-      "walkSpeed": 8
+      "thorns": 20,
+      "walkSpeed": 12
     },
     "identified": true,
     "internalName": "Bush Mask",
     "requirements": {
-      "level": 16,
+      "level": 27,
       "quest": "Creeper Infiltration"
     },
     "skin": "3795edeeb6b7ed41c268cefeafbe960b7c49550daeb631b56156bf5feb9847",
@@ -30666,17 +30667,17 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 50
+      "health": 120
     },
     "dropRestriction": "never",
     "identifications": {
-      "exploding": 5,
-      "thorns": 5
+      "exploding": 12,
+      "thorns": 10
     },
     "identified": true,
     "internalName": "Creeper Mask",
     "requirements": {
-      "level": 14
+      "level": 25
     },
     "restrictions": "Untradable",
     "tier": "unique",
@@ -42320,12 +42321,12 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Dagger",
+    "internalName": "Earth Relic Daggers",
     "material": "359:3",
     "powderSlots": 3,
     "requirements": {
       "level": 65,
-      "strength": 30
+      "strength": 25
     },
     "tier": "rare",
     "type": "dagger"
@@ -67807,19 +67808,19 @@
     "base": {
       "airDefence": 12,
       "fireDefence": -8,
-      "health": 60
+      "health": 130
     },
     "dropRestriction": "never",
     "identifications": {
       "airDamage": 10,
-      "manaSteal": 4,
-      "rawMainAttackDamage": 20,
+      "manaSteal": 5,
+      "rawMainAttackDamage": 50,
       "reflection": 12
     },
     "identified": true,
     "internalName": "Ice Mask",
     "requirements": {
-      "level": 17,
+      "level": 28,
       "quest": "Creeper Infiltration"
     },
     "skin": "56aab58fa01fce9af469ed747aed811d7ba18c476f5a7f9088e129c31b45f3",
@@ -84631,17 +84632,19 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 80
+      "fireDefence": 10,
+      "health": 185
     },
     "dropRestriction": "never",
     "identifications": {
-      "rawDefence": 7
+      "healthRegenRaw": 7,
+      "rawDefence": 8
     },
     "identified": true,
     "internalName": "Metal Mask",
     "powderSlots": 1,
     "requirements": {
-      "level": 16,
+      "level": 27,
       "quest": "Creeper Infiltration"
     },
     "skin": "bba8459145d83ffc44ad58c3260e74ca5a0f634c7eeb59a1ad3234849c933c",
@@ -87935,21 +87938,21 @@
     "armorType": "leather",
     "base": {
       "airDefence": -10,
-      "earthDefence": 5,
-      "health": 65,
-      "waterDefence": 5
+      "earthDefence": 8,
+      "health": 150,
+      "waterDefence": 8
     },
     "dropRestriction": "never",
     "identifications": {
-      "mainAttackDamage": 6,
-      "poison": 15,
-      "spellDamage": 6,
+      "mainAttackDamage": 9,
+      "poison": 90,
+      "spellDamage": 9,
       "walkSpeed": -8
     },
     "identified": true,
     "internalName": "Mud Mask",
     "requirements": {
-      "level": 16,
+      "level": 27,
       "quest": "Creeper Infiltration"
     },
     "skin": "1ea6f932b45fdf3b693d9e44bd05bca364eb5b9aff497226fdb52abb2436422",
@@ -102253,9 +102256,6 @@
   },
   "Prowess": {
     "accessoryType": "bracelet",
-    "base": {
-      "health": 425
-    },
     "dropMeta": {
       "coordinates": [
         373,
@@ -111546,20 +111546,19 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "earthDefence": 5,
-      "health": 60
+      "earthDefence": 8,
+      "health": 145
     },
     "dropRestriction": "never",
     "identifications": {
-      "earthDamage": 5,
-      "mainAttackDamage": 10,
-      "rawStrength": 3,
-      "spellDamage": -5
+      "earthDamage": 8,
+      "mainAttackDamage": 17,
+      "spellDamage": -8
     },
     "identified": true,
     "internalName": "Rock Mask",
     "requirements": {
-      "level": 15,
+      "level": 26,
       "quest": "Creeper Infiltration"
     },
     "skin": "454d9c488c3fbde5454e38619f9cc5b5ba8c6c0186f8aa1da60900fcbc3ea6",
@@ -119344,18 +119343,18 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": 50
+      "health": 115
     },
     "dropRestriction": "never",
     "identifications": {
-      "rawSpellDamage": 10,
-      "soulPointRegen": 5,
+      "lootBonus": 15,
+      "rawSpellDamage": 16,
       "xpBonus": 15
     },
     "identified": true,
     "internalName": "Shiny Mask",
     "requirements": {
-      "level": 15,
+      "level": 26,
       "quest": "Creeper Infiltration"
     },
     "skin": "65d7bed8df714cea063e457ba5e87931141de293dd1d9b9146b0f5ab383866",
@@ -140590,14 +140589,14 @@
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
     "base": {
-      "averageDPS": 375,
+      "averageDPS": 341,
       "damage": {
-        "max": 99,
-        "min": 22
+        "max": 90,
+        "min": 20
       },
       "thunderDamage": {
-        "max": 99,
-        "min": 22
+        "max": 90,
+        "min": 20
       }
     },
     "dropRestriction": "never",
@@ -140634,11 +140633,11 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Dagger",
-    "material": "261:6",
+    "internalName": "Thunder Relic Daggers",
+    "material": "359:6",
     "powderSlots": 3,
     "requirements": {
-      "dexterity": 30,
+      "dexterity": 25,
       "level": 65
     },
     "tier": "rare",
@@ -150540,12 +150539,13 @@
     "armorColor": "160,101,64",
     "armorType": "leather",
     "base": {
-      "health": -25,
-      "waterDefence": 10
+      "health": -40,
+      "waterDefence": 15
     },
     "dropRestriction": "never",
     "identifications": {
-      "manaRegen": 6,
+      "healing": 10,
+      "manaRegen": 10,
       "rawIntelligence": 5,
       "spellDamage": 10,
       "waterDamage": 10
@@ -150553,7 +150553,7 @@
     "identified": true,
     "internalName": "Water Mask",
     "requirements": {
-      "level": 17,
+      "level": 28,
       "quest": "Creeper Infiltration"
     },
     "skin": "5c7ecbfd6d33e873a1cf9a92f57f146152b52d9d7311694602671111a302f",
@@ -154760,7 +154760,6 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "manaRegen": -10,
       "raw1stSpellCost": -2,
       "raw2ndSpellCost": -2,
       "raw3rdSpellCost": -2,
