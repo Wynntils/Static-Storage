@@ -85,5 +85,7 @@
   "waterDefence": 83,
   "waterSpellDamage": 84,
   "weakenEnemy": 85,
-  "xpBonus": 86
+  "xpBonus": 86,
+  "healing": 87,
+  "rawEarthMainAttackDamage": 88
 }
