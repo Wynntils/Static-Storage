@@ -253,6 +253,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 130,
+        "min": 30,
+        "raw": 100
+      },
       "manaRegen": {
         "max": 21,
         "min": 5,
@@ -277,11 +282,6 @@
         "max": 59,
         "min": 14,
         "raw": 45
-      },
-      "waterDamage": {
-        "max": 260,
-        "min": 60,
-        "raw": 200
       }
     },
     "internalName": "Absolution",
@@ -2340,12 +2340,79 @@
     "tier": "unique",
     "type": "chestplate"
   },
+  "Air In A Can": {
+    "attackSpeed": "super_fast",
+    "base": {
+      "airDamage": {
+        "max": 235,
+        "min": 115
+      },
+      "averageDPS": 753
+    },
+    "dropMeta": {
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "name": "Lootrun Rewards",
+      "type": "lootrun"
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "1stSpellCost": {
+        "max": -32,
+        "min": -7,
+        "raw": -25
+      },
+      "2ndSpellCost": {
+        "max": -65,
+        "min": -15,
+        "raw": -50
+      },
+      "jumpHeight": {
+        "max": 7,
+        "min": 2,
+        "raw": 5
+      },
+      "sprint": {
+        "max": 78,
+        "min": 18,
+        "raw": 60
+      },
+      "stealing": {
+        "max": 7,
+        "min": 2,
+        "raw": 5
+      }
+    },
+    "internalName": "Air In A Can",
+    "lore": "Contents under pressure.",
+    "material": "261:13",
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 75,
+      "level": 97
+    },
+    "tier": "fabled",
+    "type": "bow"
+  },
   "Air Relic Boots": {
     "armorColor": "51,153,255",
     "armorType": "leather",
     "base": {
       "airDefence": 5,
       "health": 145
+    },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2383,6 +2450,16 @@
         "max": 70,
         "min": 45
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2434,6 +2511,16 @@
     "base": {
       "airDefence": 15,
       "health": 275
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2529,6 +2616,16 @@
         "min": 35
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "airDamage": {
@@ -2580,6 +2677,16 @@
       "airDefence": 10,
       "health": 205
     },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "airDamage": {
@@ -2610,6 +2717,16 @@
     "base": {
       "airDefence": 20,
       "health": 355
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2647,6 +2764,16 @@
         "max": 65,
         "min": 25
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2705,6 +2832,16 @@
         "min": 40
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "airDamage": {
@@ -2761,6 +2898,16 @@
         "max": 35,
         "min": 20
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -3276,6 +3423,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "lifeSteal": {
         "max": -105,
         "min": -195,
@@ -3287,31 +3439,16 @@
         "raw": 6
       },
       "raw1stSpellCost": {
-        "max": -8,
-        "min": -2,
-        "raw": -6
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "rawAgility": 7,
       "rawIntelligence": 7,
-      "rawSpellDamage": {
-        "max": -70,
-        "min": -130,
-        "raw": -100
-      },
       "reflection": {
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "soulPointRegen": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "spellDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       },
       "walkSpeed": {
         "max": 20,
@@ -5256,6 +5393,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": -6,
+        "min": -12,
+        "raw": -9
+      },
       "healthRegen": {
         "max": -10,
         "min": -19,
@@ -5280,11 +5422,6 @@
         "max": 52,
         "min": 12,
         "raw": 40
-      },
-      "waterDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
       }
     },
     "internalName": "Aneurysm",
@@ -6332,27 +6469,32 @@
   "Apocalypse": {
     "attackSpeed": "super_slow",
     "base": {
-      "averageDPS": 467,
+      "averageDPS": 536,
       "damage": {
-        "max": 680,
-        "min": 420
+        "max": 525,
+        "min": 315
       },
       "fireDamage": {
-        "max": 475,
-        "min": 255
+        "max": 820,
+        "min": 440
       }
     },
     "dropRestriction": "normal",
     "identifications": {
+      "3rdSpellCost": {
+        "max": 14,
+        "min": 26,
+        "raw": 20
+      },
       "exploding": {
-        "max": 195,
-        "min": 45,
-        "raw": 150
+        "max": 801,
+        "min": 185,
+        "raw": 616
       },
       "fireDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 325,
+        "min": 75,
+        "raw": 250
       },
       "healthRegen": {
         "max": -87,
@@ -6360,30 +6502,28 @@
         "raw": -125
       },
       "lifeSteal": {
-        "max": 866,
-        "min": 200,
-        "raw": 666
+        "max": 1200,
+        "min": 277,
+        "raw": 923
       },
       "rawDefence": 35,
-      "rawIntelligence": -20,
-      "soulPointRegen": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "waterDamage": {
         "max": -35,
         "min": -65,
         "raw": -50
       },
       "waterDefence": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+        "max": -49,
+        "min": -91,
+        "raw": -70
       }
     },
     "internalName": "Apocalypse",
-    "lore": "Forged from the tooth of the fallen one, this spear was bargained to a human for his soul, not knowing that the weapon itself would claim all life.",
+    "lore": "To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.",
+    "majorIds": {
+      "description": "&b+Hellfire: &3Boiling Blood always activates and becomes much stronger, but does not slow enemies and steals Bash's power",
+      "name": "Hellfire"
+    },
     "material": "256:10",
     "powderSlots": 3,
     "requirements": {
@@ -6860,6 +7000,11 @@
         "min": 12,
         "raw": 40
       },
+      "healingEfficiency": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "mainAttackDamage": {
         "max": -21,
         "min": -39,
@@ -6870,11 +7015,6 @@
         "max": 260,
         "min": 60,
         "raw": 200
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Arbalest",
@@ -7868,6 +8008,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "healthRegenRaw": {
         "max": 104,
         "min": 24,
@@ -7887,11 +8032,6 @@
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "waterDamage": {
-        "max": 65,
-        "min": 15,
-        "raw": 50
       }
     },
     "internalName": "Ashes Anew",
@@ -10141,15 +10281,20 @@
         "min": 9,
         "raw": 30
       },
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "healthRegenRaw": {
         "max": -84,
         "min": -156,
         "raw": -120
       },
       "lifeSteal": {
-        "max": 182,
-        "min": 42,
-        "raw": 140
+        "max": 215,
+        "min": 50,
+        "raw": 165
       },
       "poison": {
         "max": 2678,
@@ -10165,11 +10310,6 @@
         "max": 59,
         "min": 14,
         "raw": 45
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "Bakteri",
@@ -10951,6 +11091,11 @@
         "min": 6,
         "raw": 19
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "mainAttackDamage": {
         "max": -8,
         "min": -14,
@@ -11336,16 +11481,21 @@
   "Battle Bishop": {
     "armorType": "chain",
     "base": {
-      "health": 430,
+      "health": 475,
       "thunderDefence": -30,
       "waterDefence": 60
     },
     "dropRestriction": "normal",
     "identifications": {
-      "mainAttackDamage": {
-        "max": 7,
+      "healingEfficiency": {
+        "max": 10,
         "min": 2,
-        "raw": 5
+        "raw": 8
+      },
+      "mainAttackDamage": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
       },
       "rawIntelligence": 4,
       "rawSpellDamage": {
@@ -11358,11 +11508,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Battle Bishop",
@@ -11494,41 +11639,41 @@
   "Beachside Conch": {
     "attackSpeed": "slow",
     "base": {
-      "averageDPS": 68,
+      "averageDPS": 81,
       "damage": {
-        "max": 48,
-        "min": 42
+        "max": 57,
+        "min": 51
       }
     },
     "dropRestriction": "normal",
     "identifications": {
-      "mainAttackDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
-      "spellDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
+      "healthRegenRaw": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
       },
       "waterDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
-      "waterDefence": {
         "max": 10,
         "min": 2,
         "raw": 8
+      },
+      "waterDefence": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
       }
     },
     "internalName": "Beachside Conch",
     "material": "273:21",
-    "powderSlots": 1,
+    "powderSlots": 2,
     "requirements": {
       "intelligence": 8,
-      "level": 19
+      "level": 25
     },
     "tier": "set",
     "type": "relik"
@@ -11537,7 +11682,7 @@
     "armorColor": "232,212,139",
     "armorType": "leather",
     "base": {
-      "health": 75,
+      "health": 130,
       "waterDefence": 6
     },
     "dropRestriction": "normal",
@@ -11549,16 +11694,16 @@
       },
       "rawIntelligence": 3,
       "waterDefence": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Beachside Headwrap",
     "powderSlots": 2,
     "requirements": {
       "intelligence": 5,
-      "level": 17
+      "level": 23
     },
     "tier": "set",
     "type": "helmet"
@@ -12474,21 +12619,21 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "mainAttackDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "rawIntelligence": 5,
       "spellDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
-      },
-      "waterDamage": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": -7,
+        "min": -13,
+        "raw": -10
       }
     },
     "internalName": "Bishop",
@@ -13367,6 +13512,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -3,
+        "min": -6,
+        "raw": -5
+      },
       "manaSteal": {
         "max": 5,
         "min": 1,
@@ -13392,11 +13542,6 @@
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       }
     },
     "internalName": "Blackened Boots",
@@ -14935,20 +15080,20 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "manaSteal": {
         "max": 5,
         "min": 1,
         "raw": 4
       },
       "reflection": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
-      },
-      "waterDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "xpBonus": {
         "max": 21,
@@ -16194,6 +16339,11 @@
         "max": -10,
         "min": -19,
         "raw": -15
+      },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "lootBonus": {
         "max": 21,
@@ -22163,22 +22313,22 @@
         "min": 4,
         "raw": 12
       },
+      "healingEfficiency": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "rawAgility": 8,
       "rawIntelligence": -12,
       "spellDamage": {
-        "max": -28,
-        "min": -52,
-        "raw": -40
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "walkSpeed": {
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
       }
     },
     "internalName": "Ceramic Shell Greaves",
@@ -25404,6 +25554,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "manaRegen": {
         "max": 8,
         "min": 2,
@@ -25424,11 +25579,6 @@
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Cleansing Flame",
@@ -25614,10 +25764,15 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
       "mainAttackDamage": {
-        "max": -42,
-        "min": -78,
-        "raw": -60
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "manaRegen": {
         "max": 8,
@@ -25631,9 +25786,9 @@
         "raw": 25
       },
       "spellDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "thorns": {
         "max": 33,
@@ -25644,11 +25799,6 @@
         "max": -17,
         "min": -32,
         "raw": -25
-      },
-      "waterDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
       },
       "waterDefence": {
         "max": 33,
@@ -26970,32 +27120,37 @@
   "Cognizance": {
     "armorType": "chain",
     "base": {
-      "health": 360
+      "health": 425
     },
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": -5,
-        "min": -9,
-        "raw": -7
+        "max": -10,
+        "min": -19,
+        "raw": -15
       },
       "fireDefence": {
-        "max": -5,
-        "min": -9,
-        "raw": -7
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "rawDefence": -4,
-      "rawIntelligence": 10,
+      "rawIntelligence": 12,
       "rawStrength": -4,
       "waterDamage": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "waterDefence": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Cognizance",
@@ -29150,6 +29305,11 @@
         "min": 4,
         "raw": 12
       },
+      "healingEfficiency": {
+        "max": -3,
+        "min": -6,
+        "raw": -5
+      },
       "healthRegen": {
         "max": -6,
         "min": -10,
@@ -29160,11 +29320,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       },
       "xpBonus": {
         "max": 10,
@@ -32204,11 +32359,16 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "rawAgility": 8,
       "walkSpeed": {
-        "max": 12,
+        "max": 13,
         "min": 3,
-        "raw": 9
+        "raw": 10
       },
       "waterDamage": {
         "max": 13,
@@ -35449,6 +35609,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "mainAttackDamage": {
         "max": -28,
         "min": -52,
@@ -35466,9 +35631,9 @@
         "raw": 10
       },
       "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Demon Tide",
@@ -36380,28 +36545,23 @@
   "Detlas' Skin": {
     "armorType": "golden",
     "base": {
-      "health": 172,
+      "health": 175,
       "thunderDefence": -15,
       "waterDefence": 20
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
       "fireDefence": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "healingEfficiency": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
       },
       "lootBonus": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
-      "waterDamage": {
         "max": 7,
         "min": 2,
         "raw": 5
@@ -36761,6 +36921,11 @@
         "max": 33,
         "min": 8,
         "raw": 25
+      },
+      "healingEfficiency": {
+        "max": -16,
+        "min": -30,
+        "raw": -23
       },
       "mainAttackDamage": {
         "max": 47,
@@ -39373,6 +39538,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "mainAttackDamage": {
         "max": 13,
         "min": 3,
@@ -39388,12 +39558,7 @@
         "min": 1,
         "raw": 4
       },
-      "rawDexterity": 8,
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      }
+      "rawDexterity": 8
     },
     "internalName": "Doomsday",
     "material": "269:3",
@@ -40600,20 +40765,20 @@
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": -1,
-        "min": -3,
-        "raw": -2
-      },
       "earthDamage": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": -6,
+        "min": -10,
+        "raw": -8
       },
       "fireDamage": {
         "max": -6,
         "min": -10,
         "raw": -8
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "healthRegen": {
         "max": 26,
@@ -40634,11 +40799,6 @@
         "max": -6,
         "min": -10,
         "raw": -8
-      },
-      "waterDamage": {
-        "max": -1,
-        "min": -3,
-        "raw": -2
       }
     },
     "internalName": "Dreamcloud",
@@ -41584,40 +41744,40 @@
     "armorType": "golden",
     "base": {
       "fireDefence": 10,
-      "health": 125,
+      "health": 150,
       "waterDefence": -7
     },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": 8,
+        "min": 2,
+        "raw": 6
       },
       "fireDefence": {
-        "max": 7,
+        "max": 9,
         "min": 2,
-        "raw": 5
+        "raw": 7
+      },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "reflection": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "thorns": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "waterDefence": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": -5,
+        "min": -9,
+        "raw": -7
       }
     },
     "internalName": "DuskHelm",
@@ -41916,6 +42076,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "lifeSteal": {
         "max": -152,
         "min": -282,
@@ -42027,6 +42192,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "healthRegen": {
         "max": -28,
         "min": -52,
@@ -42041,11 +42211,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Dysnomia",
@@ -42162,6 +42327,16 @@
       "earthDefence": 4,
       "health": 150
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
@@ -42198,6 +42373,16 @@
         "max": 200,
         "min": 150
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42249,6 +42434,16 @@
     "base": {
       "earthDefence": 12,
       "health": 285
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42321,12 +42516,12 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "material": "359:3",
     "powderSlots": 3,
     "requirements": {
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "tier": "rare",
     "type": "dagger"
@@ -42337,6 +42532,16 @@
     "base": {
       "earthDefence": 8,
       "health": 212
+    },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42368,6 +42573,16 @@
     "base": {
       "earthDefence": 16,
       "health": 375
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42405,6 +42620,16 @@
         "max": 100,
         "min": 55
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42463,6 +42688,16 @@
         "min": 140
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "earthDamage": {
@@ -42519,6 +42754,16 @@
         "max": 70,
         "min": 50
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -43065,12 +43310,12 @@
       "airDefence": 30,
       "fireDamage": 5,
       "fireDefence": 30,
+      "healingEfficiency": 25,
       "healthRegen": 50,
       "healthRegenRaw": 325,
       "manaRegen": 24,
       "rawDexterity": -30,
       "rawStrength": -30,
-      "soulPointRegen": 25,
       "waterDamage": 5,
       "waterDefence": 30
     },
@@ -45008,6 +45253,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "healthRegenRaw": {
         "max": 85,
         "min": 20,
@@ -46739,6 +46989,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
       "mainAttackDamage": {
         "max": -28,
         "min": -52,
@@ -47450,6 +47705,11 @@
         "min": -99,
         "raw": -76
       },
+      "healingEfficiency": {
+        "max": -13,
+        "min": -23,
+        "raw": -18
+      },
       "rawHealth": {
         "max": 6500,
         "min": 1500,
@@ -47459,11 +47719,6 @@
         "max": -53,
         "min": -99,
         "raw": -76
-      },
-      "waterDamage": {
-        "max": -24,
-        "min": -45,
-        "raw": -35
       },
       "waterDefence": {
         "max": -53,
@@ -48483,7 +48738,11 @@
         "min": -15,
         "raw": -49
       },
-      "manaSteal": 1,
+      "manaSteal": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "rawDexterity": 25,
       "spellDamage": {
         "max": 33,
@@ -48946,14 +49205,19 @@
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "healthRegen": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
       "manaRegen": {
         "max": 8,
@@ -48971,9 +49235,9 @@
         "raw": 80
       },
       "waterDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 18,
+        "min": 4,
+        "raw": 14
       }
     },
     "internalName": "Fenmask",
@@ -49851,6 +50115,16 @@
       "fireDefence": 5,
       "health": 170
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
@@ -49887,6 +50161,16 @@
         "max": 100,
         "min": 70
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -49938,6 +50222,16 @@
     "base": {
       "fireDefence": 15,
       "health": 330
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50033,6 +50327,16 @@
         "min": 55
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "fireDamage": {
@@ -50084,6 +50388,16 @@
       "fireDefence": 10,
       "health": 245
     },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
@@ -50114,6 +50428,16 @@
     "base": {
       "fireDefence": 20,
       "health": 425
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50151,6 +50475,16 @@
         "max": 70,
         "min": 40
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50209,6 +50543,16 @@
         "min": 70
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "fireDamage": {
@@ -50265,6 +50609,16 @@
         "max": 40,
         "min": 30
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -55124,6 +55478,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "manaRegen": {
         "max": 8,
         "min": 2,
@@ -55150,11 +55509,6 @@
         "max": -14,
         "min": -26,
         "raw": -20
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
       },
       "waterDefence": {
         "max": 20,
@@ -55813,9 +56167,9 @@
         "raw": 575
       },
       "rawSpellDamage": {
-        "max": -192,
-        "min": -357,
-        "raw": -275
+        "max": -115,
+        "min": -214,
+        "raw": -165
       },
       "rawStrength": 25,
       "thorns": {
@@ -56549,13 +56903,13 @@
         "min": -19,
         "raw": -15
       },
+      "healingEfficiency": {
+        "max": 9,
+        "min": 2,
+        "raw": 7
+      },
       "rawAgility": 4,
       "walkSpeed": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "waterDamage": {
         "max": 20,
         "min": 5,
         "raw": 15
@@ -57303,10 +57657,10 @@
     "dropRestriction": "never",
     "identifications": {
       "airDamage": 30,
+      "healingEfficiency": -10,
       "mainAttackDamage": 30,
       "spellDamage": -45,
-      "walkSpeed": 7,
-      "waterDamage": -20
+      "walkSpeed": 7
     },
     "identified": true,
     "internalName": "Gert Wand",
@@ -61705,7 +62059,11 @@
         "min": 176,
         "raw": 585
       },
-      "manaRegen": 1,
+      "manaRegen": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
       "rawDefence": 20,
       "rawHealth": {
         "max": 7800,
@@ -68485,9 +68843,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "3rdSpellCost": {
-        "max": -18,
-        "min": -4,
-        "raw": -14
+        "max": -26,
+        "min": -6,
+        "raw": -20
       },
       "airDamage": {
         "max": 59,
@@ -68499,22 +68857,22 @@
         "min": 14,
         "raw": 45
       },
+      "healingEfficiency": {
+        "max": -350,
+        "min": -650,
+        "raw": -500
+      },
       "healthRegen": {
         "max": -126,
         "min": -234,
         "raw": -180
       },
-      "rawAgility": 50,
-      "rawDefence": 50,
+      "rawAgility": 70,
+      "rawDefence": 70,
       "rawHealth": {
         "max": -1925,
         "min": -3575,
         "raw": -2750
-      },
-      "waterDamage": {
-        "max": -700,
-        "min": -1300,
-        "raw": -1000
       }
     },
     "internalName": "Immolation",
@@ -70158,6 +70516,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
       "healthRegenRaw": {
         "max": -140,
         "min": -260,
@@ -70177,11 +70540,6 @@
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "waterDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
       },
       "waterDefence": {
         "max": -21,
@@ -70215,6 +70573,11 @@
         "min": -18,
         "raw": -14
       },
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "jumpHeight": 1,
       "manaRegen": {
         "max": -4,
@@ -70230,11 +70593,6 @@
         "max": 23,
         "min": 5,
         "raw": 18
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "Infernal Impulse",
@@ -71459,6 +71817,61 @@
     "tier": "unique",
     "type": "helmet"
   },
+  "Iosis": {
+    "armorType": "diamond",
+    "base": {
+      "fireDefence": 165,
+      "health": 3050,
+      "waterDefence": -100
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "earthSpellDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "fireSpellDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "healthRegenRaw": {
+        "max": -91,
+        "min": -169,
+        "raw": -130
+      },
+      "manaSteal": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "rawDefence": 8,
+      "thunderSpellDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "waterDefence": {
+        "max": -24,
+        "min": -45,
+        "raw": -35
+      }
+    },
+    "internalName": "Iosis",
+    "lore": "The last step towards purity. Dissolve and coagulate. Be anew.",
+    "majorIds": {
+      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 20% faster",
+      "name": "Temblor"
+    },
+    "powderSlots": 2,
+    "requirements": {
+      "defence": 80,
+      "level": 84
+    },
+    "tier": "fabled",
+    "type": "helmet"
+  },
   "Iris": {
     "attackSpeed": "slow",
     "base": {
@@ -71967,6 +72380,11 @@
         "max": -10,
         "min": -19,
         "raw": -15
+      },
+      "healingEfficiency": {
+        "max": -8,
+        "min": -14,
+        "raw": -11
       },
       "healthRegen": {
         "max": -16,
@@ -72729,31 +73147,25 @@
   "Jewel": {
     "armorType": "iron",
     "base": {
-      "fireDefence": 100,
-      "health": 1645,
-      "waterDefence": -80
+      "fireDefence": 80,
+      "health": 1750
     },
     "dropRestriction": "normal",
     "identifications": {
       "fireDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
-      "reflection": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
-      "spellDamage": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
-      },
-      "waterDamage": {
+      "healingEfficiency": {
         "max": 13,
         "min": 3,
         "raw": 10
+      },
+      "reflection": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "xpBonus": {
         "max": 13,
@@ -72762,7 +73174,7 @@
       }
     },
     "internalName": "Jewel",
-    "powderSlots": 1,
+    "powderSlots": 2,
     "requirements": {
       "level": 76
     },
@@ -73207,6 +73619,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": -35,
       "lifeSteal": -1085,
       "lootBonus": 30,
       "mainAttackDamage": 33,
@@ -73214,8 +73627,7 @@
       "rawDexterity": 10,
       "rawSpellDamage": 125,
       "soulPointRegen": -30,
-      "thunderDamage": 20,
-      "waterDamage": -70
+      "thunderDamage": 20
     },
     "identified": true,
     "internalName": "Judas",
@@ -75217,6 +75629,11 @@
     "attackSpeed": "normal",
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 55,
+        "min": 13,
+        "raw": 42
+      },
       "healthRegenRaw": {
         "max": 260,
         "min": 60,
@@ -75251,11 +75668,6 @@
         "max": -17500,
         "min": -32500,
         "raw": -25000
-      },
-      "waterDamage": {
-        "max": 105,
-        "min": 24,
-        "raw": 81
       }
     },
     "internalName": "King of Hearts",
@@ -75334,6 +75746,11 @@
         "max": 40,
         "min": 9,
         "raw": 31
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "healthRegen": {
         "max": 20,
@@ -76019,6 +76436,11 @@
         "max": -45,
         "min": -10,
         "raw": -35
+      },
+      "healingEfficiency": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "lifeSteal": {
         "max": -350,
@@ -77199,6 +77621,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
       "healthRegen": {
         "max": -14,
         "min": -26,
@@ -77233,11 +77660,6 @@
         "max": 26,
         "min": 6,
         "raw": 20
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Leggings of Desolation",
@@ -79942,6 +80364,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "healthRegen": {
         "max": 13,
         "min": 3,
@@ -80460,6 +80887,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "lifeSteal": {
         "max": 350,
         "min": 81,
@@ -80484,11 +80916,6 @@
         "max": -17,
         "min": -32,
         "raw": -25
-      },
-      "waterDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
       }
     },
     "internalName": "Luto Aquarum",
@@ -80842,11 +81269,11 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": 8,
       "healthRegen": 12,
       "mainAttackDamage": -20,
       "rawIntelligence": 4,
-      "reflection": 5,
-      "waterDamage": 15
+      "reflection": 5
     },
     "identified": true,
     "internalName": "Mage-Crafted Staff",
@@ -86651,6 +87078,11 @@
         "min": 4,
         "raw": 12
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "manaRegen": {
         "max": 16,
         "min": 4,
@@ -86663,14 +87095,9 @@
         "raw": 12
       },
       "spellDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "waterDefence": {
         "max": 16,
@@ -88879,6 +89306,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": -8,
+        "min": -16,
+        "raw": -12
+      },
       "rawDefence": 8,
       "rawDexterity": 8,
       "rawIntelligence": -6,
@@ -88891,11 +89323,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       },
       "waterDefence": {
         "max": -14,
@@ -92999,6 +93426,11 @@
         "min": 12,
         "raw": 40
       },
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "healthRegenRaw": {
         "max": 117,
         "min": 27,
@@ -93024,11 +93456,6 @@
         "max": 72,
         "min": 17,
         "raw": 55
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "October Fires",
@@ -93359,6 +93786,11 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "healthRegen": {
         "max": 33,
         "min": 8,
@@ -93386,14 +93818,9 @@
         "raw": 25
       },
       "spellDamage": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
-      },
-      "waterDamage": {
-        "max": 59,
-        "min": 14,
-        "raw": 45
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "xpBonus": {
         "max": 13,
@@ -97393,6 +97820,7 @@
       "airDefence": 25,
       "earthDefence": 25,
       "fireDefence": 40,
+      "healingEfficiency": 14,
       "rawAttackSpeed": -30,
       "rawIntelligence": 8,
       "soulPointRegen": 100,
@@ -97659,6 +98087,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 7,
+        "min": 2,
+        "raw": 5
+      },
       "waterDamage": {
         "max": 20,
         "min": 5,
@@ -97668,7 +98101,6 @@
     "internalName": "Perfumed Chestplate",
     "powderSlots": 1,
     "requirements": {
-      "intelligence": 2,
       "level": 32
     },
     "tier": "unique",
@@ -98369,6 +98801,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "healthRegen": {
         "max": 20,
         "min": 5,
@@ -98394,11 +98831,6 @@
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Philosopher",
@@ -99442,6 +99874,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "mainAttackDamage": {
         "max": -8,
         "min": -16,
@@ -99453,11 +99890,6 @@
         "raw": 6
       },
       "rawIntelligence": 7,
-      "soulPointRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "spellDamage": {
         "max": 13,
         "min": 3,
@@ -101274,6 +101706,11 @@
         "min": -13,
         "raw": -10
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
       "mainAttackDamage": {
         "max": -17,
         "min": -32,
@@ -101299,11 +101736,6 @@
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       }
     },
     "internalName": "Predposledni",
@@ -105240,6 +105672,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -28,
+        "min": -52,
+        "raw": -40
+      },
       "jumpHeight": {
         "max": 3,
         "min": 1,
@@ -105264,11 +105701,6 @@
         "max": 36,
         "min": 8,
         "raw": 28
-      },
-      "waterDamage": {
-        "max": -56,
-        "min": -104,
-        "raw": -80
       }
     },
     "internalName": "Quetzalcoatl",
@@ -108531,6 +108963,16 @@
       "thunderDefence": 4,
       "waterDefence": 4
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "airDefence": {
@@ -108602,6 +109044,16 @@
         "min": 27
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108639,6 +109091,16 @@
       "health": 285,
       "thunderDefence": 12,
       "waterDefence": 12
+    },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -108711,6 +109173,16 @@
         "min": 24
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108748,6 +109220,16 @@
       "health": 215,
       "thunderDefence": 8,
       "waterDefence": 8
+    },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -108801,6 +109283,16 @@
       "health": 375,
       "thunderDefence": 14,
       "waterDefence": 14
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -108873,6 +109365,16 @@
         "min": 20
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108929,6 +109431,16 @@
         "min": 30
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -108984,6 +109496,16 @@
         "max": 17,
         "min": 12
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -110492,6 +111014,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
       "healthRegenRaw": {
         "max": -462,
         "min": -858,
@@ -110507,11 +111034,6 @@
         "max": 2340,
         "min": 540,
         "raw": 1800
-      },
-      "waterDamage": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
       }
     },
     "internalName": "Rhythm of the Seasons",
@@ -112440,13 +112962,12 @@
     "dropRestriction": "never",
     "identifications": {
       "1stSpellCost": -150,
-      "airDamage": -25,
+      "healingEfficiency": -13,
       "manaRegen": 12,
       "rawAgility": 25,
       "rawIntelligence": 15,
       "reflection": 50,
-      "spellDamage": 65,
-      "waterDamage": -25
+      "spellDamage": 40
     },
     "identified": true,
     "internalName": "Royal Hydrangea",
@@ -113121,16 +113642,17 @@
     "armorType": "chain",
     "base": {
       "airDefence": 10,
-      "health": 305,
+      "health": 310,
       "waterDefence": 15
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDamage": 5,
+      "airDamage": 7,
+      "healingEfficiency": 5,
       "manaRegen": 6,
       "rawAgility": 3,
-      "waterDamage": 5,
-      "xpBonus": 6
+      "waterDamage": 7,
+      "xpBonus": 10
     },
     "identified": true,
     "internalName": "Sacred",
@@ -113925,6 +114447,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
       "healthRegen": {
         "max": 33,
         "min": 8,
@@ -113940,11 +114467,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": 35,
-        "min": 8,
-        "raw": 27
       }
     },
     "internalName": "Sanare",
@@ -114980,6 +115502,11 @@
         "min": 3,
         "raw": 10
       },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "mainAttackDamage": {
         "max": -17,
         "min": -32,
@@ -115638,48 +116165,51 @@
   "Scorpio": {
     "armorType": "diamond",
     "base": {
-      "earthDefence": 160,
-      "fireDefence": 80,
-      "health": 3000,
-      "waterDefence": -200
+      "earthDefence": 120,
+      "fireDefence": 120,
+      "health": 3300
     },
     "dropRestriction": "normal",
     "identifications": {
-      "earthDamage": {
-        "max": -98,
-        "min": -182,
-        "raw": -140
+      "airDefence": {
+        "max": -45,
+        "min": -84,
+        "raw": -65
       },
-      "exploding": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "healthRegenRaw": {
-        "max": 163,
-        "min": 38,
-        "raw": 125
+        "max": 241,
+        "min": 56,
+        "raw": 185
       },
       "poison": {
-        "max": 5070,
-        "min": 1170,
-        "raw": 3900
+        "max": 12675,
+        "min": 2925,
+        "raw": 9750
       },
-      "rawStrength": 25,
+      "rawDefence": 8,
       "thorns": {
-        "max": 31,
-        "min": 7,
-        "raw": 24
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "walkSpeed": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
       }
     },
     "internalName": "Scorpio",
     "lore": "The carapace of the common Maexi pet fire scarabs, while alone, only cause minor burns to the touch. However, when woven together, they produce a variety of cumulative effects.",
     "powderSlots": 2,
     "requirements": {
-      "defence": 15,
-      "dexterity": 15,
+      "defence": 55,
       "level": 90,
-      "strength": 65
+      "strength": 35
     },
     "tier": "legendary",
     "type": "boots"
@@ -117260,6 +117790,11 @@
         "min": 6,
         "raw": 20
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "poison": {
         "max": 20475,
         "min": 4725,
@@ -117285,11 +117820,6 @@
         "max": -21,
         "min": -39,
         "raw": -30
-      },
-      "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       },
       "waterDefence": {
         "max": 20,
@@ -122550,7 +123080,7 @@
     "type": "bow"
   },
   "Skipjack": {
-    "accessoryType": "bracelet",
+    "accessoryType": "ring",
     "dropMeta": {
       "coordinates": [
         -861,
@@ -122568,7 +123098,7 @@
     },
     "identified": true,
     "internalName": "Skipjack",
-    "material": "259:35",
+    "material": "259:1",
     "requirements": {
       "level": 98
     },
@@ -127494,10 +128024,10 @@
         "min": -19,
         "raw": -15
       },
-      "fireDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "manaRegen": {
         "max": 8,
@@ -127519,11 +128049,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
       }
     },
     "internalName": "Spiritdancer",
@@ -132930,6 +133455,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
       "lifeSteal": {
         "max": 813,
         "min": 188,
@@ -132954,11 +133484,6 @@
         "max": 26,
         "min": 6,
         "raw": 20
-      },
-      "waterDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
       }
     },
     "internalName": "Sunstar",
@@ -134149,10 +134674,15 @@
         "min": 3,
         "raw": 9
       },
+      "healingEfficiency": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      },
       "lifeSteal": {
-        "max": 150,
-        "min": 35,
-        "raw": 115
+        "max": 156,
+        "min": 36,
+        "raw": 120
       },
       "rawDefence": 4,
       "rawDexterity": 5,
@@ -134163,14 +134693,9 @@
         "raw": 75
       },
       "thunderDamage": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
-      },
-      "waterDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+        "max": 12,
+        "min": 3,
+        "raw": 9
       }
     },
     "internalName": "Takeover",
@@ -135268,6 +135793,15 @@
     "base": {
       "thunderDefence": 30
     },
+    "dropMeta": {
+      "coordinates": [
+        -565,
+        125,
+        -1357
+      ],
+      "name": "Temporal Rift",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "healthRegenRaw": {
@@ -135324,6 +135858,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "healthRegenRaw": {
         "max": 46,
         "min": 11,
@@ -135343,11 +135882,6 @@
         "max": -10,
         "min": -19,
         "raw": -15
-      },
-      "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       }
     },
     "internalName": "Temporal Lantern",
@@ -136797,10 +137331,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": -20,
       "manaRegen": -12,
-      "rawSpellDamage": 425,
-      "soulPointRegen": 10,
-      "waterDamage": -20
+      "rawSpellDamage": 500
     },
     "identified": true,
     "internalName": "The Crossing",
@@ -138081,6 +138614,11 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": -4,
+        "min": -8,
+        "raw": -6
+      },
       "lootBonus": {
         "max": 13,
         "min": 3,
@@ -138101,11 +138639,6 @@
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       }
     },
     "internalName": "The Mark",
@@ -138227,6 +138760,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "healingEfficiency": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "healthRegen": {
         "max": 26,
         "min": 6,
@@ -138251,11 +138789,6 @@
         "max": -10,
         "min": -19,
         "raw": -15
-      },
-      "waterDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
       }
     },
     "internalName": "The Medic",
@@ -138985,6 +139518,7 @@
     "dropRestriction": "never",
     "identifications": {
       "earthDefence": 15,
+      "healingEfficiency": 10,
       "raw3rdSpellCost": -10,
       "spellDamage": -12,
       "waterDamage": 20,
@@ -140474,6 +141008,16 @@
       "health": 135,
       "thunderDefence": 3
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawDexterity": 4,
@@ -140510,6 +141054,16 @@
         "max": 100,
         "min": 35
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -140562,6 +141116,16 @@
       "health": 260,
       "thunderDefence": 9
     },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawDexterity": 7,
@@ -140589,14 +141153,14 @@
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
     "base": {
-      "averageDPS": 341,
+      "averageDPS": 375,
       "damage": {
-        "max": 90,
-        "min": 20
+        "max": 99,
+        "min": 22
       },
       "thunderDamage": {
-        "max": 90,
-        "min": 20
+        "max": 99,
+        "min": 22
       }
     },
     "dropRestriction": "never",
@@ -140633,11 +141197,11 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Daggers",
-    "material": "359:6",
+    "internalName": "Thunder Relic Dagger",
+    "material": "261:6",
     "powderSlots": 3,
     "requirements": {
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65
     },
     "tier": "rare",
@@ -140649,6 +141213,16 @@
     "base": {
       "health": 190,
       "thunderDefence": 6
+    },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -140680,6 +141254,16 @@
     "base": {
       "health": 335,
       "thunderDefence": 12
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -140717,6 +141301,16 @@
         "max": 80,
         "min": 10
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -140775,6 +141369,16 @@
         "min": 30
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -140831,6 +141435,16 @@
         "max": 55,
         "min": 10
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -142796,6 +143410,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": 18,
       "manaRegen": -5,
       "manaSteal": -5,
       "rawHealth": -100,
@@ -145681,6 +146296,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "healingEfficiency": 5,
       "healthRegen": 8,
       "mainAttackDamage": -7,
       "spellDamage": 10,
@@ -150567,6 +151183,16 @@
       "health": 130,
       "waterDefence": 6
     },
+    "dropMeta": {
+      "coordinates": [
+        707,
+        75,
+        -1819,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawIntelligence": 4,
@@ -150603,6 +151229,16 @@
         "max": 80,
         "min": 70
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -170,
+        76,
+        -694,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -150655,6 +151291,16 @@
       "health": 245,
       "waterDefence": 18
     },
+    "dropMeta": {
+      "coordinates": [
+        1091,
+        116,
+        -1476,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "normal",
     "identifications": {
       "rawIntelligence": 7,
@@ -150692,6 +151338,16 @@
         "min": 55
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -150726,11 +151382,11 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "material": "359:15",
     "powderSlots": 3,
     "requirements": {
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "tier": "rare",
@@ -150742,6 +151398,16 @@
     "base": {
       "health": 185,
       "waterDefence": 12
+    },
+    "dropMeta": {
+      "coordinates": [
+        1328,
+        80,
+        -2084,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -150773,6 +151439,16 @@
     "base": {
       "health": 320,
       "waterDefence": 24
+    },
+    "dropMeta": {
+      "coordinates": [
+        -103,
+        80,
+        -869,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -150810,6 +151486,16 @@
         "max": 60,
         "min": 50
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -289,
+        23,
+        -471,
+        100
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -150868,6 +151554,16 @@
         "min": 70
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -805,
+        23,
+        -497,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
@@ -150924,6 +151620,16 @@
         "max": 35,
         "min": 30
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -654,
+        88,
+        -738,
+        80
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "identifications": {
