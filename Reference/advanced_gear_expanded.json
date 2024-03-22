@@ -2412,7 +2412,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2459,7 +2459,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2520,7 +2520,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2624,7 +2624,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2685,7 +2685,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2726,7 +2726,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -2773,7 +2773,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2840,7 +2840,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -2907,7 +2907,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42335,7 +42335,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42382,7 +42382,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42443,7 +42443,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42541,7 +42541,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42582,7 +42582,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -42629,7 +42629,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42696,7 +42696,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -42763,7 +42763,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50123,7 +50123,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50170,7 +50170,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50231,7 +50231,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50335,7 +50335,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50396,7 +50396,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50437,7 +50437,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -50484,7 +50484,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50551,7 +50551,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -50618,7 +50618,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -108971,7 +108971,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -109052,7 +109052,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -109100,7 +109100,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -109181,7 +109181,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -109229,7 +109229,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -109292,7 +109292,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -109373,7 +109373,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -109439,7 +109439,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -109505,7 +109505,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -135800,7 +135800,7 @@
         -1357
       ],
       "name": "Temporal Rift",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -141016,7 +141016,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -141063,7 +141063,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -141124,7 +141124,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -141222,7 +141222,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -141263,7 +141263,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -141310,7 +141310,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -141377,7 +141377,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -141444,7 +141444,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -151191,7 +151191,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -151238,7 +151238,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -151299,7 +151299,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -151346,7 +151346,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -151407,7 +151407,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -151448,7 +151448,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -151495,7 +151495,7 @@
         100
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -151562,7 +151562,7 @@
         120
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
@@ -151629,7 +151629,7 @@
         80
       ],
       "name": "Relic Guardian",
-      "type": "miniboss"
+      "type": "specialdrop"
     },
     "dropRestriction": "never",
     "identifications": {
