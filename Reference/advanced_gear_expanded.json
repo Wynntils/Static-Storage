@@ -2344,10 +2344,10 @@
     "attackSpeed": "super_fast",
     "base": {
       "airDamage": {
-        "max": 235,
-        "min": 115
+        "max": 220,
+        "min": 100
       },
-      "averageDPS": 753
+      "averageDPS": 688
     },
     "dropMeta": {
       "coordinates": [
@@ -2361,9 +2361,9 @@
     "dropRestriction": "never",
     "identifications": {
       "1stSpellCost": {
-        "max": -32,
-        "min": -7,
-        "raw": -25
+        "max": -25,
+        "min": -6,
+        "raw": -19
       },
       "2ndSpellCost": {
         "max": -65,
@@ -2371,9 +2371,9 @@
         "raw": -50
       },
       "jumpHeight": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 5,
+        "min": 1,
+        "raw": 4
       },
       "sprint": {
         "max": 78,
@@ -2388,6 +2388,10 @@
     },
     "internalName": "Air In A Can",
     "lore": "Contents under pressure.",
+    "majorIds": {
+      "description": "&b+Freerunner: &3When your sprint bar is under 30% full, increase your sprint speed by +150%",
+      "name": "Freerunner"
+    },
     "material": "261:13",
     "powderSlots": 3,
     "requirements": {
@@ -21431,19 +21435,23 @@
   "Cataclysm": {
     "attackSpeed": "super_fast",
     "base": {
-      "averageDPS": 1054,
+      "averageDPS": 903,
       "damage": {
-        "max": 120,
-        "min": 30
+        "max": 110,
+        "min": 25
       },
       "thunderDamage": {
-        "max": 295,
-        "min": 45
+        "max": 245,
+        "min": 40
       }
     },
     "dropRestriction": "normal",
     "identifications": {
-      "raw1stSpellCost": -1,
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
       "rawDexterity": 20,
       "rawHealth": {
         "max": -4200,
@@ -42482,6 +42490,16 @@
         "min": 85
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "specialdrop"
+    },
     "dropRestriction": "never",
     "identifications": {
       "earthDamage": {
@@ -42516,12 +42534,12 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Dagger",
+    "internalName": "Earth Relic Daggers",
     "material": "359:3",
     "powderSlots": 3,
     "requirements": {
       "level": 65,
-      "strength": 30
+      "strength": 25
     },
     "tier": "rare",
     "type": "dagger"
@@ -46502,12 +46520,20 @@
         "raw": 825
       },
       "manaSteal": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
+        "max": -4,
+        "min": -8,
+        "raw": -6
       },
-      "raw1stSpellCost": -1,
-      "raw4thSpellCost": -1,
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
+      "raw4thSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
       "rawMainAttackDamage": {
         "max": 1000,
         "min": 231,
@@ -61608,9 +61634,9 @@
         "raw": 10000
       },
       "raw2ndSpellCost": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
+        "max": 3,
+        "min": 5,
+        "raw": 4
       },
       "raw4thSpellCost": {
         "max": -13,
@@ -62084,7 +62110,7 @@
     "internalName": "Guardian",
     "lore": "A vow of protection hangs over this spear, now inhabited by the spirit of a legendary heroine. Even simply a glimpse of the burning blade will instill a feeling of protection and security, and that feeling will hold true if one is brave enough to wield it.",
     "majorIds": {
-      "description": "&b+Guardian: &320% of damage taken by nearby allies is redirected to you",
+      "description": "&b+Guardian: &335% of damage taken by nearby allies is redirected to you",
       "name": "Guardian"
     },
     "material": "256:10",
@@ -70637,11 +70663,15 @@
         "raw": 25
       },
       "manaRegen": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
+        "max": -4,
+        "min": -8,
+        "raw": -6
       },
-      "raw1stSpellCost": -1,
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
       "rawDefence": 15,
       "rawHealth": {
         "max": 1950,
