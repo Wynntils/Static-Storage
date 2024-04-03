@@ -5889,7 +5889,7 @@
     },
     "internalName": "Anti-Causality",
     "majorIds": {
-      "description": "&b+Reckless Abandon: &3Tempest deals &c✹ &3+15% and gains one additional charge. War Scream no longer grants a defence bonus.",
+      "description": "&b+Reckless Abandon: &3Sacrifice War Scream's defense bonus to give Tempest two extra hits, extra damage, and extra speed",
       "name": "Reckless Abandon"
     },
     "powderSlots": 3,
@@ -6525,7 +6525,7 @@
     "internalName": "Apocalypse",
     "lore": "To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.",
     "majorIds": {
-      "description": "&b+Hellfire: &3Boiling Blood always activates and becomes much stronger, but does not slow enemies and steals Bash's power",
+      "description": "&b+Hellfire: &3Boiling Blood has no cooldown, is stronger, and does not slow. Cuts Bash's power and disables Discombobulate",
       "name": "Hellfire"
     },
     "material": "256:10",
@@ -14859,10 +14859,10 @@
   "Blossom Haze": {
     "attackSpeed": "fast",
     "base": {
-      "averageDPS": 575,
+      "averageDPS": 638,
       "damage": {
-        "max": 75,
-        "min": 55
+        "max": 100,
+        "min": 80
       },
       "earthDamage": {
         "max": 185,
@@ -14881,15 +14881,10 @@
         "min": 8,
         "raw": 25
       },
-      "exploding": {
-        "max": 29,
-        "min": 7,
-        "raw": 22
-      },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "raw4thSpellCost": {
         "max": -6,
@@ -14901,21 +14896,16 @@
         "min": -1,
         "raw": -1
       },
-      "walkSpeed": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "waterDefence": {
-        "max": 34,
-        "min": 8,
-        "raw": 26
+        "max": 39,
+        "min": 9,
+        "raw": 30
       }
     },
     "internalName": "Blossom Haze",
     "lore": "And as the spring bursts, the blossom petals flutter in the wind amongst the ashes of your enemies.",
     "majorIds": {
-      "description": "&b+Cherry Bombs: &3Your Smoke Bombs explodes instantly, and increase their Neutral Damage by +90%",
+      "description": "&b+Cherry Bombs: &3Turn Smoke Bomb into three firecrackers that fly farther, tighter, and deal high damage instantly",
       "name": "Cherry Bombs"
     },
     "material": "359:4",
@@ -28346,57 +28336,47 @@
   "Conspirator's Trickpockets": {
     "armorType": "iron",
     "base": {
-      "earthDefence": -80,
-      "fireDefence": -80,
-      "health": 2000
+      "earthDefence": -90,
+      "fireDefence": -90,
+      "health": 2550
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": 25,
-        "min": 6,
-        "raw": 19
+      "elementalDefence": {
+        "max": -24,
+        "min": -45,
+        "raw": -35
       },
-      "exploding": {
-        "max": 30,
-        "min": 7,
-        "raw": 23
+      "lifeSteal": {
+        "max": 234,
+        "min": 54,
+        "raw": 180
       },
-      "manaRegen": {
+      "manaSteal": {
         "max": 8,
         "min": 2,
         "raw": 6
       },
-      "raw4thSpellCost": {
-        "max": 4,
-        "min": 7,
-        "raw": 5
-      },
       "rawSpellDamage": {
-        "max": 182,
-        "min": 42,
-        "raw": 140
+        "max": 221,
+        "min": 51,
+        "raw": 170
+      },
+      "sprintRegen": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
       "stealing": {
         "max": 7,
         "min": 2,
         "raw": 5
-      },
-      "thunderDamage": {
-        "max": -41,
-        "min": -75,
-        "raw": -58
-      },
-      "waterDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       }
     },
     "internalName": "Conspirator's Trickpockets",
     "lore": "No reign lasts forever. Not while your schemes remain unnoticed.",
     "majorIds": {
-      "description": "&b+Cherry Bombs: &3Your Smoke Bombs explodes instantly, and increase their Neutral Damage by +90%",
+      "description": "&b+Cherry Bombs: &3Turn Smoke Bomb into three firecrackers that fly farther, tighter, and deal high damage instantly",
       "name": "Cherry Bombs"
     },
     "requirements": {
@@ -42490,16 +42470,6 @@
         "min": 85
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "specialdrop"
-    },
     "dropRestriction": "never",
     "identifications": {
       "earthDamage": {
@@ -42534,12 +42504,12 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "material": "359:3",
     "powderSlots": 3,
     "requirements": {
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "tier": "rare",
     "type": "dagger"
@@ -51432,7 +51402,7 @@
     "internalName": "Fissure",
     "lore": "Dwarven folklore tells of this mighty maul, used by gods to break mountains, shape continents, and crack the earth to form caverns.",
     "majorIds": {
-      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 20% faster",
+      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 25% faster",
       "name": "Temblor"
     },
     "material": "256:3",
@@ -68402,25 +68372,25 @@
   "Idol": {
     "attackSpeed": "normal",
     "base": {
-      "averageDPS": 577,
+      "averageDPS": 520,
       "waterDamage": {
-        "max": 330,
-        "min": 230
+        "max": 300,
+        "min": 205
       }
     },
     "dropRestriction": "normal",
     "identifications": {
       "manaRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "raw2ndSpellCost": {
-        "max": -65,
-        "min": -15,
-        "raw": -50
+        "max": -39,
+        "min": -9,
+        "raw": -30
       },
-      "rawIntelligence": 26,
+      "rawIntelligence": 20,
       "rawSpellDamage": {
         "max": 343,
         "min": 79,
@@ -68857,13 +68827,13 @@
     "attackSpeed": "slow",
     "base": {
       "airDamage": {
-        "max": 330,
-        "min": 310
+        "max": 375,
+        "min": 350
       },
-      "averageDPS": 960,
+      "averageDPS": 1088,
       "fireDamage": {
-        "max": 440,
-        "min": 200
+        "max": 495,
+        "min": 230
       }
     },
     "dropRestriction": "normal",
@@ -68893,20 +68863,15 @@
         "min": -234,
         "raw": -180
       },
-      "rawAgility": 70,
-      "rawDefence": 70,
-      "rawHealth": {
-        "max": -1925,
-        "min": -3575,
-        "raw": -2750
-      }
+      "rawAgility": 75,
+      "rawDefence": 75
     },
     "internalName": "Immolation",
     "material": "273:17",
     "powderSlots": 3,
     "requirements": {
-      "agility": 80,
-      "defence": 80,
+      "agility": 75,
+      "defence": 75,
       "level": 101
     },
     "tier": "mythic",
@@ -71891,7 +71856,7 @@
     "internalName": "Iosis",
     "lore": "The last step towards purity. Dissolve and coagulate. Be anew.",
     "majorIds": {
-      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 20% faster",
+      "description": "&b+Temblor: &3Bash gains +1 Area of Effect and is 25% faster",
       "name": "Temblor"
     },
     "powderSlots": 2,
