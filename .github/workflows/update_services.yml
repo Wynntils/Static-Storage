@@ -1,22 +1,22 @@
 # Github actions runner will run this script on a schedule
 
-name: Update Gear Data
+name: Update Services
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 * * * *' # Runs every hour
 
 jobs:
-  update-gear-data:
+  update-services-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
 
-      - name: Update Gear Data
+      - name: Update Services Data
         run: |
-          chmod +x ./Generators/update_gear_data.sh
-          ./Generators/update_gear_data.sh
+          chmod +x ./Generators/extract_services.sh
+          ./Generators/extract_services.sh
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6.0.2
@@ -25,12 +25,10 @@ jobs:
             labels: auto-generated
             committer: 'WynntilsBot <admin@wynntils.com>'
             author: 'WynntilsBot <admin@wynntils.com>'
-            commit-message: "chore: [auto-generated] Update gear data from upstream"
-            title: "chore: [auto-generated] Update gear data from upstream"
+            commit-message: "chore: [auto-generated] Update services data from upstream"
+            title: "chore: [auto-generated] Update services data from upstream"
             body: |
               Upstream Wynncraft API has been updated with new gear data.
 
-              If new field types are introduced, please to not merge this PR until the Wynntils mod has been updated to support these changes.
-
               This PR has been automatically generated.
-            branch: update-gear-data
+            branch: update-services-data
