@@ -1,0 +1,2599 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Arrow Bomb",
+      "formattedName": "§a§lArrow Bomb",
+      "description": [
+        "§6Click Combo: §d§lLEFT§7-§d§lRIGHT§7-§d§lRIGHT",
+        "§7 ",
+        "§7Shoots a long-ranged arrow that explodes",
+        "§7and deals high damage over a large area.",
+        "§8(Self-damage for 10% of your DPS)",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f45",
+        "§c⚔ §7Total Damage: §f180% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 160%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 20%)",
+        "§2➼ §7Range: §f±26 Blocks",
+        "§3☀ §7Area of Effect: §f4.5 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 64
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 0,
+        "col": 4
+      },
+      "connections": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bow Proficiency",
+      "formattedName": "§f§lBow Proficiency",
+      "description": [
+        "§7 ",
+        "§7Improve your §nMain Attack§r§7\u0027s damage",
+        "§7and range when using a bow.",
+        "§7 ",
+        "§c⚔ §7Main Attack Damage: §f+5%",
+        "§2➼ §7Main Attack Range: §f+6 Blocks"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cheaper Arrow Bomb",
+      "formattedName": "§f§lCheaper Arrow Bomb",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nArrow Bomb§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-10"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 2,
+        "col": 6
+      },
+      "connections": []
+    },
+    {
+      "id": 4,
+      "name": "Heart Shatter",
+      "formattedName": "§6§lHeart Shatter",
+      "description": [
+        "§7 ",
+        "§7Hitting a mob directly with §nArrow Bomb§r§7,",
+        "§7will shatter its heart and deal additional damage.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+100% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +100%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        6
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Double Shots",
+      "formattedName": "§f§lDouble Shots",
+      "description": [
+        "§7 ",
+        "§7Doubles §nMain Attack§r§7 arrows",
+        "§7and reduces their damage.",
+        "§8(Harder to hit distant enemies)",
+        "",
+        "§c⚔ §7Main Attack Damage: §c-30% §8(per arrow)",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Power Shots",
+        "",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Power Shots"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 2,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        8
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Escape",
+      "formattedName": "§a§lEscape",
+      "description": [
+        "§6Click Combo: §d§lLEFT§7-§d§lLEFT§7-§d§lLEFT",
+        "§7 ",
+        "§7Throw yourself backward to avoid danger.",
+        "§8(Hold shift while escaping to cancel)",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f20"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 64
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Power Shots",
+      "formattedName": "§f§lPower Shots",
+      "description": [
+        "§7 ",
+        "§7Your §nMain Attack§r§7 arrows have",
+        "§7increased speed and knockback.",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Double Shots",
+        "",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Double Shots"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 2,
+        "row": 1,
+        "col": 6
+      },
+      "connections": [
+        10
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Arrow Storm",
+      "formattedName": "§a§lArrow Storm",
+      "description": [
+        "§6Click Combo: §d§lLEFT§7-§d§lRIGHT§7-§d§lLEFT",
+        "§7 ",
+        "§7Shoots a stream of §f8 §7arrows,",
+        "§7dealing significant damage to close",
+        "§7mobs and pushing them away.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f35",
+        "§c⚔ §7Total Damage: §f40% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 30%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: 10%)",
+        "§2➼ §7Range: §f±16 Blocks"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 64
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 3,
+        "col": 2
+      },
+      "connections": [
+        11,
+        12,
+        13,
+        9
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cheaper Escape",
+      "formattedName": "§f§lCheaper Escape",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nEscape§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Escape",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 3,
+        "col": 4
+      },
+      "connections": [
+        16
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Arrow Shield",
+      "formattedName": "§a§lArrow Shield",
+      "description": [
+        "§6Click Combo: §d§lLEFT§7-§d§lLEFT§7-§d§lRIGHT",
+        "§7 ",
+        "§7Forms a shield around you that deals damage and",
+        "§7knocks mobs away when they touch it. (2 charges)",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f30",
+        "§c⚔ §7Total Damage: §f100% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 90%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 10%)",
+        "§3☀ §7Area of Effect: §f2.3 Blocks §7(Circle-Shaped)",
+        "§d⌛À §7Duration: §f60s"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 64
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 3,
+        "col": 6
+      },
+      "connections": [
+        9,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Windy Feet",
+      "formattedName": "§6§lWindy Feet",
+      "description": [
+        "§7 ",
+        "§7Casting §nEscape§r§7 grants a speed buff",
+        "§7to you and nearby players.",
+        "§7 ",
+        "§e🛡 §7Effect: §f+20% §7Walk Speed to Allies",
+        "§d⌛À §7Duration: §f120s",
+        "§3☀ §7Area of Effect: §f8 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 4,
+        "col": 1
+      },
+      "connections": []
+    },
+    {
+      "id": 12,
+      "name": "Air Mastery",
+      "formattedName": "§f§lAir Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Air attacks.",
+        "§7 ",
+        "§f❋ §7Air Damage: §f+3-4",
+        "§f❋ §7Air Damage: §f+15%",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 0
+      },
+      "connections": [
+        17
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Thunder Mastery",
+      "formattedName": "§f§lThunder Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Thunder attacks.",
+        "§7 ",
+        "§e✦ §7Thunder Damage: §f+1-8",
+        "§e✦ §7Thunder Damage: §f+10%",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        18,
+        16,
+        14
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Fire Mastery",
+      "formattedName": "§f§lFire Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Fire attacks.",
+        "§7 ",
+        "§c✹ §7Fire Damage: §f+3-5",
+        "§c✹ §7Fire Damage: §f+15%",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 6
+      },
+      "connections": [
+        16,
+        20
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Water Mastery",
+      "formattedName": "§f§lWater Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Water attacks.",
+        "§7 ",
+        "§b❉ §7Water Damage: §f+2-4",
+        "§b❉ §7Water Damage: §f+15%",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 8
+      },
+      "connections": [
+        21
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Earth Mastery",
+      "formattedName": "§f§lEarth Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Earth attacks.",
+        "§7 ",
+        "§2✤ §7Earth Damage: §f+2-4",
+        "§2✤ §7Earth Damage: §f+20%",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 3,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        19
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Nimble String",
+      "formattedName": "§6§lNimble String",
+      "description": [
+        "§7 ",
+        "§7Doubles the speed of §nArrow Storm§r§7 and",
+        "§7shoots §f+6§7 arrows per stream.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-10% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -5%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: -5%)",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Phantom Ray"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [
+        "Phantom Ray"
+      ],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 3,
+        "row": 3,
+        "col": 0
+      },
+      "connections": [
+        22,
+        18
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Arrow Rain",
+      "formattedName": "§f§lArrow Rain",
+      "description": [
+        "§7 ",
+        "§7When §nArrow Shield§r§7 loses its last charge, spew",
+        "§f150§7 arrows around you to rain down on enemies.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f250% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 150%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 100%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 3,
+        "row": 3,
+        "col": 2
+      },
+      "connections": [
+        23
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Bryophyte Roots",
+      "formattedName": "§6§lBryophyte Roots",
+      "description": [
+        "§7 ",
+        "§7Hitting an enemy with §nArrow Storm§r§7 will",
+        "§7create an area of effect that slows them",
+        "§7down and deals damage every §f0.4s§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 30%)",
+        "§7  ÀÀÀÀ§8(§2✤ §8Earth: 10%)",
+        "§e🛡 §7Effect: §f40% §7Slowness (§c⬤§7) to Enemies",
+        "§d⌛À §7Duration: §f5s",
+        "§3☀ §7Area of Effect: §f2 Blocks §7(Circle-Shaped)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 1
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 3,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        25
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Fire Creep",
+      "formattedName": "§6§lFire Creep",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7 will leave a trail of",
+        "§7fire for §f6s§7. (3s Cooldown) Enemies that",
+        "§7walk into it take damage every §f0.4s§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f50% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 30%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 20%)",
+        "§d⌛À §7Duration: §f6s"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 3,
+        "row": 4,
+        "col": 6
+      },
+      "connections": [
+        19,
+        21
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Phantom Ray",
+      "formattedName": "§d§lPhantom Ray",
+      "description": [
+        "§7 ",
+        "§7Condense §nArrow Storm§r§7 into a single ray",
+        "§7that damages enemies §f10 §7times per second.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5",
+        "§c⚔ §7Total Damage: §f30% §8(of your DPS, per hit)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 25%)",
+        "§7  ÀÀÀÀ§8(§b❉ §8Water: 5%)",
+        "§2➼ §7Range: §f16 Blocks",
+        "§d⌛À §7Duration: §f1.2s",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Windstorm",
+        "§c- §7Nimble String",
+        "§c- §7Arrow Hurricane"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [
+        "Windstorm",
+        "Nimble String",
+        "Arrow Hurricane"
+      ],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 3,
+        "row": 4,
+        "col": 8
+      },
+      "connections": [
+        26
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Triple Shots",
+      "formattedName": "§f§lTriple Shots",
+      "description": [
+        "§7 ",
+        "§7Triples §nMain Attack§r§7 arrows but they deal",
+        "§f-20% §7of normal §nMain Attack§r§7 arrow damage.",
+        "",
+        "§c⚔ §7Main Attack Damage: §c-20%",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Double Shots",
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 3,
+        "row": 5,
+        "col": 0
+      },
+      "connections": [
+        23,
+        24
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Frenzy",
+      "formattedName": "§6§lFrenzy",
+      "description": [
+        "§7 ",
+        "§7Hitting an enemy will give you a brief buff",
+        "§7of §f+3% §7Walk Speed. (Max +70%) §f-10%§7 of",
+        "§7the bonus decays every second.",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 3,
+        "row": 5,
+        "col": 2
+      },
+      "connections": [
+        24
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Guardian Angels",
+      "formattedName": "§c§lGuardian Angels",
+      "description": [
+        "§7 ",
+        "§7Your §nArrow Shield§r§7 arrows turn into sentient bows",
+        "§7that attack nearby enemies up to §f8§7 times each.",
+        "§8(Arrow Shield will no longer knock mobs away)",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f40% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 30%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 10%)",
+        "§2➼ §7Range: §f6 Blocks",
+        "§d⌛À §7Duration: §f60s",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": {
+        "name": "Boltslinger",
+        "required": 3
+      },
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 4,
+        "row": 1,
+        "col": 1
+      },
+      "connections": [
+        27
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Basaltic Trap",
+      "formattedName": "§c§lBasaltic Trap",
+      "description": [
+        "§7 ",
+        "§7When you hit the ground with §nArrow Bomb§r§7, leave",
+        "§7a §bTrap§7 that damages enemies. (Max 2 Traps)",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f250% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 210%)",
+        "§7  ÀÀÀÀ§8(§2✤ §8Earth: 20%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 20%)",
+        "§2➼ §7Range: §f2 Blocks §7(Circle-Shaped)",
+        "§3☀ §7Area of Effect: §f7 Blocks §7(Circle-Shaped)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 2
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 4,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Focus",
+      "formattedName": "§c§lFocus",
+      "description": [
+        "§7 ",
+        "§7When hitting an aggressive enemy §f5+ §7blocks",
+        "§7away, gain §b+1 Focus §e➽§7. (Max 3, 1.1s Cooldown)",
+        "§8(Focus resets if you miss once)",
+        "§7 ",
+        "§c⚔ §7Damage Bonus: §f+15% §8(per focus)",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Sharpshooter",
+        "required": 2
+      },
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 4,
+        "row": 1,
+        "col": 8
+      },
+      "connections": [
+        30
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Windstorm",
+      "formattedName": "§d§lWindstorm",
+      "description": [
+        "§7 ",
+        "§7§nArrow Storm§r§7 will shoot §f+1 §7stream",
+        "§7of arrows and §f+2§7 extra arrows per stream.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-10% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -9%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: -3%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: +2%)",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Phantom Ray"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [
+        "Phantom Ray"
+      ],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 3,
+        "col": 1
+      },
+      "connections": [
+        36,
+        34,
+        28
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Cheaper Arrow Storm",
+      "formattedName": "§f§lCheaper Arrow Storm",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nArrow Storm§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 3,
+        "col": 3
+      },
+      "connections": [
+        29,
+        31
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Implosion",
+      "formattedName": "§f§lImplosion",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7 pulls enemies",
+        "§7towards you. If a §bTrap§7 is nearby,",
+        "§7it will pull them towards it instead.",
+        "§7Increases §nHeart Shatter§r§7\u0027s damage.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +40%)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 4,
+        "row": 3,
+        "col": 5
+      },
+      "connections": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": 30,
+      "name": "More Shields",
+      "formattedName": "§f§lMore Shields",
+      "description": [
+        "§7 ",
+        "§7Gives §nArrow Shield§r§7 and §nGuardian Angels§r§7 §f+2 §7extra charges.",
+        "§7Reduces §nGuardian Angels§r§7\u0027 damage.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-18% §8(of your DPS, for §nGuardian Angels§r§8, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -13%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: -5%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 3,
+        "col": 7
+      },
+      "connections": [
+        32,
+        29,
+        33
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Patient Hunter",
+      "formattedName": "§6§lPatient Hunter",
+      "description": [
+        "§7 ",
+        "§7Your §bTraps§7 will deal §f+20%§7 more damage",
+        "§7for every second it\u0027s active. (Max +100%)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Basaltic Trap",
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        35,
+        38
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Grappling Hook",
+      "formattedName": "§f§lGrappling Hook",
+      "description": [
+        "§7 ",
+        "§7When casting §nEscape§r§7, throw a hook",
+        "§7that pulls you when hitting a block. If you",
+        "§7hit an enemy, pull them towards you instead.",
+        "§8(Escape will not throw you backward anymore)",
+        "§7 ",
+        "§2➼ §7Range: §f30 Blocks",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Escape Artist",
+        "",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Escape Artist"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 6
+      },
+      "connections": [
+        31
+      ]
+    },
+    {
+      "id": 33,
+      "name": "More Focus",
+      "formattedName": "§f§lMore Focus",
+      "description": [
+        "§7 ",
+        "§7Increase your maximum §bFocus §e➽ §7by §f+2§7.",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Focus",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 8
+      },
+      "connections": [
+        40
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Stormy Feet",
+      "formattedName": "§f§lStormy Feet",
+      "description": [
+        "§7 ",
+        "§7§nWindy Feet§r§7 will last longer and grant a stronger",
+        "§7speed buff.",
+        "",
+        "§e🛡 §7Effect: §f+20% §7Walk Speed to Allies",
+        "§d⌛À §7Duration: §f+60s",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Windy Feet",
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 4,
+        "row": 5,
+        "col": 1
+      },
+      "connections": []
+    },
+    {
+      "id": 35,
+      "name": "Call of the Hound",
+      "formattedName": "§d§lCall of the Hound",
+      "description": [
+        "§7 ",
+        "§7§nArrow Shield§r§7 summons a §bHound§7 that will",
+        "§7attack aggressive enemies every §f0.25s",
+        "§7and drag them towards your traps.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 40%)",
+        "§3☀ §7Vision: §f18 Blocks §7(Circle-Shaped)",
+        "§d⌛À §7Duration: §f60s",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 4,
+        "row": 5,
+        "col": 3
+      },
+      "connections": []
+    },
+    {
+      "id": 36,
+      "name": "Leap",
+      "formattedName": "§6§lLeap",
+      "description": [
+        "§7 ",
+        "§7Leap forward when you double jump.",
+        "§7(2s Cooldown)",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Boltslinger",
+        "required": 4
+      },
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 0
+      },
+      "connections": [
+        44,
+        37
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Traveler",
+      "formattedName": "§f§lTraveler",
+      "description": [
+        "§7 ",
+        "§7For every §f1%§7 Walk Speed",
+        "§7you have from items, gain",
+        "§f+1 Raw§7 Spell Damage (Max 100)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        38,
+        43
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Bouncing Bomb",
+      "formattedName": "§d§lBouncing Bomb",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7 will bounce once",
+        "§7when hitting a block or enemy."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        43,
+        39,
+        41
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Ivyroot Mamba",
+      "formattedName": "§6§lIvyroot Mamba",
+      "description": [
+        "§7 ",
+        "§7§nBryophyte Roots§r§7 summons a §bSnake§7 after",
+        "§7disappearing that will spit weakening",
+        "§7venom at aggressive enemies. (Max 1)",
+        "§7Enemies will be weakened for §f1.5s§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f100% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 80%)",
+        "§7  ÀÀÀÀ§8(§2✤ §8Earth: 20%)",
+        "§e🛡 §7Effects: §f-15% §7Damage Bonus (§c⚔§7) to Enemies",
+        "§3☀ §7Vision: §f12 Blocks §7(Circle-Shaped)",
+        "§d⌛À §7Duration: §f18s",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Bryophyte Roots",
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 3
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 6
+      },
+      "connections": [
+        41,
+        47,
+        42
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Twain\u0027s Arc",
+      "formattedName": "§d§lTwain\u0027s Arc",
+      "description": [
+        "§7 ",
+        "§7If you have §b2+ Focus §e➽§7, holding shift will",
+        "§7summon the Twain\u0027s Arc. Charge it up to",
+        "§7shoot a destructive long-range beam.",
+        "§8(Damage is dealt as §nMain Attack§r§8 Damage)",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f220%",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 220%)",
+        "§2➼ §7Range: §f64 Blocks",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Focus",
+      "requiredArchetype": {
+        "name": "Sharpshooter",
+        "required": 4
+      },
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 8
+      },
+      "connections": [
+        42,
+        39,
+        48
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Rocket Jump",
+      "formattedName": "§f§lRocket Jump",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7\u0027s recoil is increased, and",
+        "§7its self-damage is reduced to §f1%§7."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 2,
+        "col": 5
+      },
+      "connections": []
+    },
+    {
+      "id": 42,
+      "name": "Scorched Earth",
+      "formattedName": "§f§lScorched Earth",
+      "description": [
+        "§7 ",
+        "§7§nFire Creep§r§7 becomes much stronger.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+15% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +10%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: +5%)",
+        "§d⌛À §7Duration: §f+2s",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Fire Creep",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 5,
+        "row": 2,
+        "col": 7
+      },
+      "connections": []
+    },
+    {
+      "id": 43,
+      "name": "More Traps",
+      "formattedName": "§f§lMore Traps",
+      "description": [
+        "§7 ",
+        "§7Increase the maximum amount of",
+        "§7active §bTraps§7 you can have by §f+2§7.",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Basaltic Trap",
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 5,
+        "row": 3,
+        "col": 3
+      },
+      "connections": [
+        46
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Refined Gunpowder",
+      "formattedName": "§f§lRefined Gunpowder",
+      "description": [
+        "§7 ",
+        "§7Increase the damage of §nArrow Bomb§r§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+50% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +50%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 0
+      },
+      "connections": [
+        54,
+        45,
+        49
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Fierce Stomp",
+      "formattedName": "§6§lFierce Stomp",
+      "description": [
+        "§7 ",
+        "§7When using §nEscape§r§7, hold shift to",
+        "§7quickly drop down and deal damage.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f120% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 120%)",
+        "§3☀ §7Area of Effect: §f4 Blocks §7(Circle-Shaped)",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 2
+      },
+      "connections": [
+        49,
+        55,
+        46,
+        51
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Cheaper Arrow Shield",
+      "formattedName": "§f§lCheaper Arrow Shield",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nArrow Shield§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        51,
+        50
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Better Arrow Shield",
+      "formattedName": "§f§lBetter Arrow Shield",
+      "description": [
+        "§7 ",
+        "§7§nArrow Shield§r§7\u0027s radius, knockback,",
+        "§7and damage is increased.",
+        "§7§nGuardian Angels§r§7\u0027 damage is increased.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+40% §8(of your DPS, for §nArrow Shield§r§8)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +40%)",
+        "§3☀ §7Area of Effect: §f+1 Blocks §7(Circle-Shaped)",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+3% §8(of your DPS, for §nGuardian Angels§r§8, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +3%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 6
+      },
+      "connections": [
+        50,
+        46,
+        53
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Shocking Bomb",
+      "formattedName": "§6§lShocking Bomb",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7 will be unaffected by",
+        "§7gravity and increase its explosion damage.",
+        "",
+        "§c⚔ §7Total Damage: §f+40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +20%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: +20%)",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Arrow Bomb",
+      "requiredArchetype": {
+        "name": "Sharpshooter",
+        "required": 4
+      },
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 8
+      },
+      "connections": [
+        47,
+        53
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Better Leap",
+      "formattedName": "§f§lBetter Leap",
+      "description": [
+        "§7 ",
+        "§7Reduce §nLeap§r§7\u0027s cooldown by §f-1s§7.",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Leap",
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 5,
+        "row": 5,
+        "col": 1
+      },
+      "connections": []
+    },
+    {
+      "id": 50,
+      "name": "Homing Shots",
+      "formattedName": "§d§lHoming Shots",
+      "description": [
+        "§7 ",
+        "§7Your §nMain Attack§r§7 arrows will follow nearby",
+        "§7enemies and will be unaffected by gravity.",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Sharpshooter",
+        "required": 2
+      },
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 5,
+        "row": 5,
+        "col": 5
+      },
+      "connections": []
+    },
+    {
+      "id": 51,
+      "name": "Mana Trap",
+      "formattedName": "§c§lMana Trap",
+      "description": [
+        "§7 ",
+        "§7Your §bTraps§7 will give you §f0.5 §7Mana",
+        "§7per second and §f10 §7Mana",
+        "§7when they explode.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §c+10",
+        "§2➼ §7Range: §f16 Blocks",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 6
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 3
+      },
+      "connections": [
+        52,
+        56
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Cheaper Arrow Storm",
+      "formattedName": "§f§lCheaper Arrow Storm",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nArrow Storm§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 5
+      },
+      "connections": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Initiator",
+      "formattedName": "§d§lInitiator",
+      "description": [
+        "",
+        "§7If you do not damage an enemy for",
+        "§f4s§7 or more, your next successful hit",
+        "§7will deal §f+60%§7 damage and add §b+1 Focus §e➽§7.",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Focus",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 7
+      },
+      "connections": [
+        57,
+        52,
+        58
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Better Guardian Angels",
+      "formattedName": "§f§lBetter Guardian Angels",
+      "description": [
+        "§7 ",
+        "§7Your §nGuardian Angels§r§7 gain increased range and",
+        "§7can shoot §f+4 §7extra arrows before disappearing.",
+        "§7 ",
+        "§2➼ §7Range: §f+2 Blocks",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Guardian Angels",
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 6,
+        "row": 2,
+        "col": 0
+      },
+      "connections": [
+        59,
+        55
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Escape Artist",
+      "formattedName": "§f§lEscape Artist",
+      "description": [
+        "§7 ",
+        "§7When casting §nEscape§r§7, release",
+        "§f100§7 arrows towards the ground.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f150% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 100%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: 50%)",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Grappling Hook"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Grappling Hook"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 2,
+        "col": 2
+      },
+      "connections": [
+        60,
+        56
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Murder Flock",
+      "formattedName": "§6§lMurder Flock",
+      "description": [
+        "§7 ",
+        "§7§nBasaltic Trap§r§7 summons a §bCrow§7 upon detonation that",
+        "§7will peck at aggressive enemies every §f0.9s§7. (Max 2)",
+        "§7Damaged enemies will be distracted for §f0.2s§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f60% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 60%)",
+        "§e🛡 §7Effect: §fBlindness (§c⬣§f) to Enemies",
+        "§3☀ §7Vision: §f18 Blocks §7(Circle-Shaped)",
+        "§d⌛À §7Duration: §f12s",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Basaltic Trap",
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 5
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 6,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        61
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Decimator",
+      "formattedName": "§6§lDecimator",
+      "description": [
+        "§7 ",
+        "§7§nPhantom Ray§r§7 will increase its damage by §f10%",
+        "§7everytime you do not miss with it. (Max 70%)",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Phantom Ray",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 6,
+        "row": 2,
+        "col": 6
+      },
+      "connections": [
+        58,
+        62
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Phasing Beam",
+      "formattedName": "§6§lPhasing Beam",
+      "description": [
+        "§7 ",
+        "§7§nTwain\u0027s Arc§r§7 charges §f20%§7 faster, and",
+        "§7can now pierce through up to §f5§7 enemies,",
+        "§7dealing reduced damage after piercing.",
+        "§8(Damage is dealt as §nMain Attack§r§8 Damage)",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-110% §8(after piercing)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -110%)",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Twain\u0027s Arc",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 6,
+        "row": 2,
+        "col": 8
+      },
+      "connections": [
+        62
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Recycling",
+      "formattedName": "§d§lRecycling",
+      "description": [
+        "§7 ",
+        "§7When any of your projectiles miss, gain §f+0.08 §7Mana.",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 0
+      },
+      "connections": [
+        60,
+        65
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Shrapnel Bomb",
+      "formattedName": "§6§lShrapnel Bomb",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7\u0027s explosion will fling §f30",
+        "§7shrapnel, dealing damage in a large area.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f60% §8(of your DPS, per shrapnel)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 40%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 20%)",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Boltslinger",
+        "required": 2
+      },
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 2
+      },
+      "connections": [
+        65,
+        61,
+        66
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Cheaper Escape",
+      "formattedName": "§f§lCheaper Escape",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nEscape§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Escape",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        66,
+        63
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Cheaper Arrow Shield",
+      "formattedName": "§f§lCheaper Arrow Shield",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nArrow Shield§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Shield",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 7
+      },
+      "connections": [
+        63,
+        61,
+        68,
+        64
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Stronger Hook",
+      "formattedName": "§f§lStronger Hook",
+      "description": [
+        "§7 ",
+        "§7Increases your §nGrappling Hook§r§7\u0027s",
+        "§7range, speed and strength.",
+        "§7 ",
+        "§2➼ §7Range: §f+8 Blocks",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Grappling Hook",
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 2
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 6,
+        "row": 5,
+        "col": 5
+      },
+      "connections": []
+    },
+    {
+      "id": 64,
+      "name": "Coursing Restraints",
+      "formattedName": "§d§lCoursing Restraints",
+      "description": [
+        "§7 ",
+        "§7§nShocking Bomb§r§7 will temporarily shock enemies,",
+        "§7reducing their defences. (12s Cooldown)",
+        "",
+        "§e🛡 §7Effect: §f-15% §7Resistance Bonus (§c✃§7) to Enemies",
+        "§d⌛À §7Duration: §f6s",
+        "",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Shocking Bomb",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 6,
+        "row": 5,
+        "col": 8
+      },
+      "connections": []
+    },
+    {
+      "id": 65,
+      "name": "Arrow Hurricane",
+      "formattedName": "§c§lArrow Hurricane",
+      "description": [
+        "§7 ",
+        "§7§nArrow Storm§r§7 will shoot §f+2§7 extra streams of arrows.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-5% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -3%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: -1%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: -1%)",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Phantom Ray",
+        "",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [
+        "Phantom Ray"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Boltslinger",
+        "required": 10
+      },
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 1
+      },
+      "connections": [
+        70,
+        75,
+        74
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Tangled Traps",
+      "formattedName": "§6§lTangled Traps",
+      "description": [
+        "§7 ",
+        "§7Your §bTraps§7 will be connected by a rope",
+        "§7that deals damage to enemies every §f0.2s§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 20%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 20%)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Basaltic Trap",
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 3
+      },
+      "connections": [
+        67,
+        69
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Beast Lore",
+      "formattedName": "§f§lBeast Lore",
+      "description": [
+        "§7 ",
+        "§7Increase your maximum §bSnakes§7 by §f+1§7.",
+        "§7Increase your maximum §bCrows§7 by §f+2§7.",
+        "§7Increase the damage of your §bHound§7.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +40%)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Call of the Hound",
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 7
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 5
+      },
+      "connections": [
+        69
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Crepuscular Ray",
+      "formattedName": "§c§lCrepuscular Ray",
+      "description": [
+        "§7 ",
+        "§7If you have §b5+ Focus §e➽§7, casting",
+        "§7§nArrow Storm§r§7 while §f4+ §7blocks above",
+        "§7the ground will cause you to levitate",
+        "§7and shoot §f20§7 homing arrows per second",
+        "§7until you run out of §bFocus §e➽§7.",
+        "§7 ",
+        "§7While in this state, you will",
+        "§7lose §b1 Focus §e➽ §7per second.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f45% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 35%)",
+        "§7  ÀÀÀÀ§8(§b❉ §8Water: 10%)",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Arrow Storm",
+      "requiredArchetype": {
+        "name": "Sharpshooter",
+        "required": 10
+      },
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 7
+      },
+      "connections": [
+        73
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Minefield",
+      "formattedName": "§c§lMinefield",
+      "description": [
+        "§7 ",
+        "§7Allows you to place §b+6 Traps§7,",
+        "§7but with reduced range and damage.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-50% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -50%)",
+        "§3☀ §7Area of Effect: §c-1 Blocks §7(Circle-Shaped)",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Basaltic Trap",
+      "requiredArchetype": {
+        "name": "Trapper",
+        "required": 11
+      },
+      "archetype": "Trapper",
+      "location": {
+        "page": 7,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        71,
+        72
+      ]
+    },
+    {
+      "id": 70,
+      "name": "All-Seeing Panoptes",
+      "formattedName": "§d§lAll-Seeing Panoptes",
+      "description": [
+        "§7 ",
+        "§7Your bows from §nGuardian Angels§r§7 become",
+        "§7all-seeing, increasing their range, damage and",
+        "§7letting them shoot up to §f+4§7 times each.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+7% §8(of your DPS, per arrow)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +2%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: +5%)",
+        "§2➼ §7Range: §f+4 Blocks",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Guardian Angels",
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 0
+      },
+      "connections": []
+    },
+    {
+      "id": 71,
+      "name": "Stronger Patient Hunter",
+      "formattedName": "§f§lStronger Patient Hunter",
+      "description": [
+        "§7 ",
+        "§7§nPatient Hunter§r§7 will increase its damage by §f+10%",
+        "§7per second, and increase its Max Damage by §f+100%§7.",
+        "§7 ",
+        "§2§lTrapper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Patient Hunter",
+      "requiredArchetype": null,
+      "archetype": "Trapper",
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 3
+      },
+      "connections": [
+        76
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Grape Bomb",
+      "formattedName": "§d§lGrape Bomb",
+      "description": [
+        "§7 ",
+        "§7§nArrow Bomb§r§7 will throw §f2 §7additional",
+        "§7smaller bombs when exploding.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f80% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 60%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 20%)",
+        "§3☀ §7Area of Effect: §f2 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 5
+      },
+      "connections": [
+        77
+      ]
+    },
+    {
+      "id": 73,
+      "name": "More Focus",
+      "formattedName": "§f§lMore Focus",
+      "description": [
+        "§7 ",
+        "§7Increase your maximum §bFocus §e➽ §7by §f+2§7.",
+        "§7 ",
+        "§d§lSharpshooter Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Focus",
+      "requiredArchetype": null,
+      "archetype": "Sharpshooter",
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 7
+      },
+      "connections": [
+        72,
+        77
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Elusive",
+      "formattedName": "§6§lElusive",
+      "description": [
+        "§7 ",
+        "§7If you do not get hit for §f4+§7 seconds, become",
+        "§7immune to self-damage and §nArrow Storm",
+        "§7loses its recoil.",
+        "§8(Agility dodging counts as not getting hit)",
+        "§7 ",
+        "§e§lBoltslinger Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Boltslinger",
+      "location": {
+        "page": 7,
+        "row": 4,
+        "col": 2
+      },
+      "connections": []
+    },
+    {
+      "id": 75,
+      "name": "Geyser Stomp",
+      "formattedName": "§6§lGeyser Stomp",
+      "description": [
+        "§7 ",
+        "§7§nFierce Stomp§r§7 will create geysers, dealing",
+        "§7more damage and pushing enemies away vertically.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+80% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +50%)",
+        "§7  ÀÀÀÀ§8(§b❉ §8Water: +30%)",
+        "§3☀ §7Area of Effect: §f+1 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Fierce Stomp",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 5,
+        "col": 1
+      },
+      "connections": [
+        76
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Snow Storm",
+      "formattedName": "§d§lSnow Storm",
+      "description": [
+        "§7 ",
+        "§7Enemies near you will be slowed down.",
+        "§7 ",
+        "§e🛡 §7Effect: §f30% §7Slowness (§c⬤§7) to Enemies",
+        "§2➼ §7Range: §f3 Blocks"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 5,
+        "col": 3
+      },
+      "connections": [
+        77
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Cheaper Arrow Bomb",
+      "formattedName": "§f§lCheaper Arrow Bomb",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nArrow Bomb§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Arrow Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 5,
+        "col": 6
+      },
+      "connections": []
+    }
+  ],
+  "archetypeInfoMap": {
+    "Sharpshooter": {
+      "name": "Sharpshooter",
+      "formattedName": "§d§lSharpshooter Archetype",
+      "description": [
+        "",
+        "§7Sharpshooters excel at aiming",
+        "§7and can deal brutal hits.",
+        "§8(Range, Power Shots)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 82
+      }
+    },
+    "Boltslinger": {
+      "name": "Boltslinger",
+      "formattedName": "§e§lBoltslinger Archetype",
+      "description": [
+        "",
+        "§7Boltslingers deal massive",
+        "§7amounts of hits and excel at close",
+        "§7range. §8(Speed, Damage Burst)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 78
+      }
+    },
+    "Trapper": {
+      "name": "Trapper",
+      "formattedName": "§2§lTrapper Archetype",
+      "description": [
+        "",
+        "§7Trappers can trap enemies and",
+        "§7use beasts. §8(Delayed Damage,",
+        "§8CC)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 81
+      }
+    }
+  }
+}

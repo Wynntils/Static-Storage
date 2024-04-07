@@ -1,0 +1,2557 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Spin Attack",
+      "formattedName": "§a§lSpin Attack",
+      "description": [
+        "§6Click Combo: §d§lRIGHT§7-§d§lLEFT§7-§d§lRIGHT",
+        "§7 ",
+        "§7Slashes rapidly around you,",
+        "§7damaging enemies over a large area.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f40",
+        "§c⚔ §7Total Damage: §f150% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 120%)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: 30%)",
+        "§3☀ §7Area of Effect: §f4.5 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 67
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 0,
+        "col": 4
+      },
+      "connections": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cheaper Spin Attack",
+      "formattedName": "§f§lCheaper Spin Attack",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nSpin Attack§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-10"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Spin Attack",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 2,
+        "col": 2
+      },
+      "connections": []
+    },
+    {
+      "id": 3,
+      "name": "Dagger Proficiency I",
+      "formattedName": "§f§lDagger Proficiency I",
+      "description": [
+        "§7 ",
+        "§7Increases your Walk Speed and",
+        "§7§nMain Attack§r§7\u0027s damage by §f+5%§7."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Double Spin",
+      "formattedName": "§6§lDouble Spin",
+      "description": [
+        "§7 ",
+        "§7§nSpin Attack§r§7 will activate twice, with a",
+        "§7larger area of effect on the second hit.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -40%)",
+        "§3☀ §7Area of Effect: §f+2 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 1,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        6
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Poisoned Blade",
+      "formattedName": "§f§lPoisoned Blade",
+      "description": [
+        "§7 ",
+        "§7For every §f2%§7 or §f2 Raw §7Main Attack Damage you have",
+        "§7from items, gain §f+5/3s§7 Poison Damage. (Max 50/3s)",
+        "",
+        "§7Your §nMain Attack§r§7 gain additional range.",
+        "§7 ",
+        "§2➼ §7Range: §f+1 Block",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Double Slice",
+        "",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Double Slice"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 2,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        8
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dash",
+      "formattedName": "§a§lDash",
+      "description": [
+        "§6Click Combo: §d§lRIGHT§7-§d§lRIGHT§7-§d§lRIGHT",
+        "§7 ",
+        "§7Dash in the direction",
+        "§7you\u0027re facing.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f20"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 67
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Double Slice",
+      "formattedName": "§f§lDouble Slice",
+      "description": [
+        "§7 ",
+        "§7Your §nMain Attack§r§7 will hit twice,",
+        "§7but deal §f-40% §7damage per hit.",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Poisoned Blade",
+        "",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Poisoned Blade"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 2,
+        "row": 1,
+        "col": 6
+      },
+      "connections": [
+        10
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Smoke Bomb",
+      "formattedName": "§a§lSmoke Bomb",
+      "description": [
+        "§6Click Combo: §d§lRIGHT§7-§d§lRIGHT§7-§d§lLEFT",
+        "§7 ",
+        "§7Throws a bomb that slowly emanates smoke,",
+        "§7damaging all enemies in it every §f0.5s§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f35",
+        "§c⚔ §7Total Damage: §f35% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 25%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 5%)",
+        "§7  ÀÀÀÀ§8(§2✤ §8Earth: 5%)",
+        "§2➼ §7Range: §f10 Blocks",
+        "§d⌛À §7Duration: §f5s",
+        "§3☀ §7Area of Effect: §f3 Blocks §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 67
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 3,
+        "col": 2
+      },
+      "connections": [
+        11,
+        12,
+        9
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cheaper Dash",
+      "formattedName": "§f§lCheaper Dash",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nDash§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Dash",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 3,
+        "col": 4
+      },
+      "connections": [
+        15
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Multihit",
+      "formattedName": "§a§lMultihit",
+      "description": [
+        "§6Click Combo: §d§lRIGHT§7-§d§lLEFT§7-§d§lLEFT",
+        "§7 ",
+        "§7Unleashes a rapid flurry of §f8 §7hits to enemies",
+        "§7facing you, dealing heavy damage.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f40",
+        "§c⚔ §7Total Damage: §f40% §8(of your DPS, per hit)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 30%)",
+        "§7  ÀÀÀÀ§8(§b❉ §8Water: 10%)",
+        "§2➼ §7Range: §f3 Blocks §7(Cone-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 67
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 2,
+        "row": 3,
+        "col": 6
+      },
+      "connections": [
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Earth Mastery",
+      "formattedName": "§f§lEarth Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Earth attacks.",
+        "§7 ",
+        "§2✤ §7Earth Damage: §f+2-4",
+        "§2✤ §7Earth Damage: §f+20%",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 0
+      },
+      "connections": [
+        12,
+        16
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Thunder Mastery",
+      "formattedName": "§f§lThunder Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Thunder attacks.",
+        "§7 ",
+        "§e✦ §7Thunder Damage: §f+1-8",
+        "§e✦ §7Thunder Damage: §f+10%",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        16
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Water Mastery",
+      "formattedName": "§f§lWater Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Water attacks.",
+        "§7 ",
+        "§b❉ §7Water Damage: §f+2-4",
+        "§b❉ §7Water Damage: §f+15%",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 6
+      },
+      "connections": [
+        15,
+        14,
+        17
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Air Mastery",
+      "formattedName": "§f§lAir Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Air attacks.",
+        "§7 ",
+        "§f❋ §7Air Damage: §f+3-4",
+        "§f❋ §7Air Damage: §f+15%",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 3,
+        "row": 1,
+        "col": 8
+      },
+      "connections": [
+        17
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Fire Mastery",
+      "formattedName": "§f§lFire Mastery",
+      "description": [
+        "§7 ",
+        "§7Increase your base damage",
+        "§7from all Fire attacks.",
+        "§7 ",
+        "§c✹ §7Fire Damage: §f+3-5",
+        "§c✹ §7Fire Damage: §f+15%",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 3,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        19
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Backstab",
+      "formattedName": "§6§lBackstab",
+      "description": [
+        "§7 ",
+        "§7Makes §nMultihit§r§7 a single devastating hit.",
+        "§7If you strike an enemy from behind, it",
+        "§7deals §fdouble §7the damage.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5",
+        "§c⚔ §7Total Damage: §f250% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 200%)",
+        "§7  ÀÀÀÀ§8(§2✤ §8Earth: 50%)",
+        "",
+        "§cUnlocking will block:",
+        "§c- §7Stronger Multihit",
+        "§c- §7Fatality",
+        "",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [
+        "Stronger Multihit",
+        "Fatality"
+      ],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": {
+        "name": "Shadestepper",
+        "required": 2
+      },
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 3,
+        "row": 3,
+        "col": 1
+      },
+      "connections": [
+        18
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Fatality",
+      "formattedName": "§6§lFatality",
+      "description": [
+        "§7 ",
+        "§7§nMultihit§r§7 will deal an",
+        "§7additional final slash.",
+        "",
+        "§c⚔ §7Total Damage: §f+150% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +100%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: +50%)",
+        "",
+        "§cUnlocking will block:",
+        "§c- §7Backstab"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [
+        "Backstab"
+      ],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 3,
+        "row": 3,
+        "col": 7
+      },
+      "connections": [
+        20,
+        23
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Vanish",
+      "formattedName": "§d§lVanish",
+      "description": [
+        "§7 ",
+        "§7§nDash§r§7 will hide you into the shadows. (5s Cooldown)",
+        "§7You cannot heal or gain mana while in that state.",
+        "§8(Attack or get hit to cancel)",
+        "§7 ",
+        "§e🛡 §7Effect: §fInvisibility to Self",
+        "§d⌛À §7Duration: §f5s"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Dash",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 3,
+        "row": 4,
+        "col": 2
+      },
+      "connections": [
+        21,
+        19
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Sticky Bomb",
+      "formattedName": "§6§lSticky Bomb",
+      "description": [
+        "§7 ",
+        "§7§nSmoke Bomb§r§7 will stick to enemies",
+        "§7and deal additional damage.",
+        "",
+        "§c⚔ §7Total Damage: §f+10% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: +10%)",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Smoke Bomb",
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 3,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        22
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Righting Reflex",
+      "formattedName": "§6§lRighting Reflex",
+      "description": [
+        "§7 ",
+        "§7When you hold shift while airborne, slowly",
+        "§7glide and become immune to fall damage. (Max 5s)",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 3,
+        "row": 4,
+        "col": 6
+      },
+      "connections": []
+    },
+    {
+      "id": 21,
+      "name": "Surprise Strike",
+      "formattedName": "§c§lSurprise Strike",
+      "description": [
+        "",
+        "§7Your first hit after casting §nVanish",
+        "§7will deal §f+80%§7 more damage.",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Vanish",
+      "requiredArchetype": {
+        "name": "Shadestepper",
+        "required": 3
+      },
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 4,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        24
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Mirror Image",
+      "formattedName": "§c§lMirror Image",
+      "description": [
+        "§7 ",
+        "§7Summon §b3 Clones §5⁂§7 after reappearing from §nVanish",
+        "§7that will follow and protect you. (15s Cooldown)",
+        "§7 ",
+        "§7When hit, you take §f60%§7 less damage.",
+        "§bClones §5⁂§7 can take §f2§7 hits before dying.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Vanish",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 2
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 4,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        25,
+        27
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Lacerate",
+      "formattedName": "§c§lLacerate",
+      "description": [
+        "§7 ",
+        "§7§nSpin Attack§r§7 will lunge you forward,",
+        "§7deal §f3 §7strikes and then lunge you upward.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f90% §8(of your DPS, per strike)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 60%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 20%)",
+        "§7  ÀÀÀÀ§8(§b❉ §8Water: 10%)",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Echo",
+        "",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [
+        "Echo"
+      ],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 2
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 4,
+        "row": 1,
+        "col": 7
+      },
+      "connections": [
+        26
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Silent Killer",
+      "formattedName": "§d§lSilent Killer",
+      "description": [
+        "§7 ",
+        "§7Resets §nVanish§r§7\u0027s cooldown",
+        "§7after killing an enemy."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Vanish",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 2,
+        "col": 1
+      },
+      "connections": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Last Laugh",
+      "formattedName": "§f§lLast Laugh",
+      "description": [
+        "§7 ",
+        "§7When losing a §bClone §5⁂§7, it will",
+        "§7cast §nSpin Attack§r§7 before dying.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Mirror Image",
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 4,
+        "row": 2,
+        "col": 3
+      },
+      "connections": []
+    },
+    {
+      "id": 26,
+      "name": "Wall of Smoke",
+      "formattedName": "§6§lWall of Smoke",
+      "description": [
+        "§7 ",
+        "§7§nSmoke Bomb§r§7 will throw §f+2§7 bombs.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §c-10% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: -10%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Smoke Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 2,
+        "col": 8
+      },
+      "connections": [
+        28,
+        32
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Shenanigans",
+      "formattedName": "§f§lShenanigans",
+      "description": [
+        "§7 ",
+        "§7For every §f2%§7 Stealing you have",
+        "§7from items, gain §f+1/3s§7 Mana Steal. (Max 8/3s)",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 4,
+        "row": 3,
+        "col": 4
+      },
+      "connections": [
+        31,
+        28
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Psithurism",
+      "formattedName": "§f§lPsithurism",
+      "description": [
+        "§7 ",
+        "§7Increase your Walk Speed by §f+20%",
+        "§7and your Jump Height by §f+1§7."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 3,
+        "col": 7
+      },
+      "connections": [
+        31
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Better Smoke Bomb",
+      "formattedName": "§f§lBetter Smoke Bomb",
+      "description": [
+        "§7 ",
+        "§7Increase §nSmoke Bomb§r§7\u0027s range",
+        "§7and area of effect.",
+        "§7 ",
+        "§2➼ §7Range: §f+10 Blocks",
+        "§3☀ §7Area of Effect: §f+1 Block §7(Circle-Shaped)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Smoke Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 0
+      },
+      "connections": [
+        35,
+        30
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Shadow Travel",
+      "formattedName": "§6§lShadow Travel",
+      "description": [
+        "§7 ",
+        "§7Increases your Walk Speed",
+        "§7by §f+120%§7 when in §nVanish§r§7.",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Vanish",
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 2
+      },
+      "connections": [
+        36,
+        31,
+        33
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Cheaper Multihit",
+      "formattedName": "§f§lCheaper Multihit",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nMultihit§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 5
+      },
+      "connections": [
+        33,
+        36,
+        34,
+        37
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Dagger Proficiency II",
+      "formattedName": "§f§lDagger Proficiency II",
+      "description": [
+        "§7 ",
+        "§7Increases your §nMain Attack§r§7\u0027s range and",
+        "§7increase the raw damage to all attacks.",
+        "§7 ",
+        "§c⚔ §7Damage Bonus: §f+5 §7(Raw)",
+        "§2➼ §7Range: §f+1 Block"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 4,
+        "row": 4,
+        "col": 8
+      },
+      "connections": [
+        34,
+        31,
+        37
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Bamboozle",
+      "formattedName": "§d§lBamboozle",
+      "description": [
+        "§7 ",
+        "§7When §bClones §5⁂ §7are active, casting §nMultihit§r§7 while",
+        "§7holding shift will instead slay §b1 Clone §5⁂ §7and",
+        "§7teleport you forwards with a brutal fiery slash.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f400% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 360%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 40%)",
+        "§2➼ §7Range: §f6 Blocks",
+        "§3☀ §7Area of Effect: §f5 Blocks §7(Circle-Shaped)",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Mirror Image",
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 4,
+        "row": 5,
+        "col": 4
+      },
+      "connections": []
+    },
+    {
+      "id": 34,
+      "name": "Distraction",
+      "formattedName": "§6§lDistraction",
+      "description": [
+        "§7 ",
+        "§7When hitting enemies, reduce their",
+        "§7damage by §f-0.1%§7 per hit. (Max -15%)",
+        "§7The debuff decays at §f-0.3% §7per second.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 4,
+        "row": 5,
+        "col": 6
+      },
+      "connections": []
+    },
+    {
+      "id": 35,
+      "name": "Cheaper Smoke Bomb",
+      "formattedName": "§f§lCheaper Smoke Bomb",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nSmoke Bomb§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Smoke Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 0
+      },
+      "connections": [
+        42,
+        38,
+        36
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Blazing Powder",
+      "formattedName": "§6§lBlazing Powder",
+      "description": [
+        "§7 ",
+        "§7§nSpin Attack§r§7 and §nLacerate§r§7 will blind",
+        "§7enemies and deal additional damage.",
+        "",
+        "§c⚔ §7Total Damage: §f+20% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: +20%)",
+        "§e🛡 §7Effect: §fBlindness (§c⬣§f) to Enemies",
+        "§d⌛À §7Duration: §f1s"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 3
+      },
+      "connections": [
+        38,
+        39
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Weightless",
+      "formattedName": "§d§lWeightless",
+      "description": [
+        "§7 ",
+        "§7You gain §f+0.35 §7Mana if you",
+        "§7hit an enemy while airborne.",
+        "§8(1.25+ blocks off the",
+        "§8ground to be airborne)",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 3
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 5,
+        "row": 1,
+        "col": 7
+      },
+      "connections": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Black Hole",
+      "formattedName": "§6§lBlack Hole",
+      "description": [
+        "§7 ",
+        "§7§nSmoke Bomb§r§7 will pull nearby enemies.",
+        "",
+        "§2➼ §7Range: §f6 Blocks"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 2,
+        "col": 1
+      },
+      "connections": []
+    },
+    {
+      "id": 39,
+      "name": "Sandbagging",
+      "formattedName": "§6§lSandbagging",
+      "description": [
+        "§7 ",
+        "§7Reduces the cooldown on all of",
+        "§7your abilities by §f-3s§7 every",
+        "§7time you get hit for less than §f5%",
+        "§7of your max health. (1s Cooldown)",
+        "",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 5,
+        "row": 2,
+        "col": 4
+      },
+      "connections": [
+        43,
+        46,
+        44
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Hop",
+      "formattedName": "§6§lHop",
+      "description": [
+        "§7 ",
+        "§7Leap forward when you double jump. (2s Cooldown)",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 5,
+        "row": 2,
+        "col": 6
+      },
+      "connections": [
+        44,
+        39
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Flow State",
+      "formattedName": "§c§lFlow State",
+      "description": [
+        "§7 ",
+        "§7Landing §f60 §7hits without stopping for",
+        "§7over §f2s §7will greatly increase your",
+        "§7damage for a short time. (10s Cooldown)",
+        "§7 ",
+        "§e🛡 §7Effect: §f+50% §7Damage Bonus (§f☀§7) to Self",
+        "§d⌛À §7Duration: §f5s",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 5
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 5,
+        "row": 2,
+        "col": 8
+      },
+      "connections": [
+        48
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Violent Vortex",
+      "formattedName": "§6§lViolent Vortex",
+      "description": [
+        "§7 ",
+        "§7Dealing over §f1.5x§7 of your max health as",
+        "§7damage in a single hit will deal §f30%§7 of the",
+        "§7damage to other nearby enemies. (2s Cooldown)",
+        "§7 ",
+        "§3☀ §7Area of Effect: §f10 Blocks §7(Circle-Shaped)",
+        "",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 5,
+        "row": 3,
+        "col": 0
+      },
+      "connections": [
+        45
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Delirious Gas",
+      "formattedName": "§d§lDelirious Gas",
+      "description": [
+        "§7 ",
+        "§7While you\u0027re inside §nSmoke Bomb§r§7,",
+        "§7increase your damage by §f+40%",
+        "§7and gain §bLuring §d❤ §7for §f20s§7.",
+        "§7 ",
+        "§7While under §bLuring §d❤§7, enemies within a §f16 §7block",
+        "§7radius of you will become §bLured §d❥§7, causing",
+        "§7them to move §f30% §7faster and target only you.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Smoke Bomb",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 4
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 5,
+        "row": 3,
+        "col": 3
+      },
+      "connections": []
+    },
+    {
+      "id": 44,
+      "name": "Stronger Multihit",
+      "formattedName": "§f§lStronger Multihit",
+      "description": [
+        "§7 ",
+        "§7Increase §nMultihit§r§7\u0027s amount of hits by §f+3§7.",
+        "",
+        "§cUnlocking will block:",
+        "§c- §7Backstab"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [
+        "Backstab"
+      ],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 3,
+        "col": 5
+      },
+      "connections": []
+    },
+    {
+      "id": 45,
+      "name": "Marked",
+      "formattedName": "§c§lMarked",
+      "description": [
+        "§7 ",
+        "§7§nSmoke Bomb§r§7 will add §b+1 Mark §c✜ §7to",
+        "§7enemies it hits. (Max 4, 0.4s Cooldown)",
+        "§7 ",
+        "§bMarked §c✜ §7enemies will take §f+6% §7damage",
+        "§7from attacks for each mark they have.",
+        "§7 ",
+        "§bMarked §c✜ §7will decay once every §f10s§7.",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Shadestepper",
+        "required": 5
+      },
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 1
+      },
+      "connections": [
+        50,
+        51
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Echo",
+      "formattedName": "§c§lEcho",
+      "description": [
+        "§7 ",
+        "§7Your §bClones §5⁂§7 will mimic your spells and",
+        "§7abilities, and you deal §f-65%§7 of your",
+        "§7normal damage while they are active.",
+        "§7 ",
+        "§7§nBamboozle§r§7 ignores §nEcho§r§7\u0027s damage reduction.",
+        "§7 ",
+        "§cUnlocking will block:",
+        "§c- §7Lacerate",
+        "",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [
+        "Lacerate"
+      ],
+      "requiredAbility": "Mirror Image",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 6
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 4
+      },
+      "connections": [
+        52,
+        47
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Shurikens",
+      "formattedName": "§d§lShurikens",
+      "description": [
+        "",
+        "§7After using §nDash§r§7, your next",
+        "§7§nMain Attack§r§7 will throw §f3 §7shurikens.",
+        "",
+        "§c⚔ §7Total Damage: §f120% §8(of your DPS, per shuriken)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 100%)",
+        "§7  ÀÀÀÀ§8(§c✹ §8Fire: 20%)",
+        "§2➼ §7Range: §f50 Blocks",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 6
+      },
+      "connections": [
+        49
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Far Reach",
+      "formattedName": "§f§lFar Reach",
+      "description": [
+        "§7 ",
+        "§7Increase the range of §nMultihit§r§7.",
+        "§7 ",
+        "§2➼ §7Range: §f+2 Blocks"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 5,
+        "row": 4,
+        "col": 8
+      },
+      "connections": [
+        49,
+        47,
+        54
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Dancing Blade",
+      "formattedName": "§f§lDancing Blade",
+      "description": [
+        "",
+        "§7Deal damage to enemies you §nDash§r§7 through.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f80% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 70%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: 10%)",
+        "",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Dash",
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 5,
+        "row": 5,
+        "col": 7
+      },
+      "connections": []
+    },
+    {
+      "id": 50,
+      "name": "Ambush",
+      "formattedName": "§f§lAmbush",
+      "description": [
+        "",
+        "§7Increases §nSurprise Strike§r§7\u0027s",
+        "§7damage by §f+40%§7."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Surprise Strike",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 0
+      },
+      "connections": [
+        55
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Death Magnet",
+      "formattedName": "§6§lDeath Magnet",
+      "description": [
+        "",
+        "§7When exiting §nVanish§r§7, pull all",
+        "§7nearby §bMarked §c✜ §7mobs towards",
+        "§7where you entered §nVanish§r§7.",
+        "",
+        "§2➼ §7Range: §f20 Blocks",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Marked",
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 2
+      },
+      "connections": [
+        56,
+        52
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Cheaper Dash",
+      "formattedName": "§f§lCheaper Dash",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nDash§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Dash",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        57
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Parry",
+      "formattedName": "§d§lParry",
+      "description": [
+        "§7 ",
+        "§7After dodging damage with Agility, gain",
+        "§7a brief damage buff, and make your next",
+        "§7spell within §f1.5s §7free. (3s Cooldown)",
+        "§7 ",
+        "§e🛡 §7Effect: §f+30% §7Damage Bonus (§f⚔§7) to Self",
+        "§d⌛À §7Duration: §f1.5s",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 5
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 6
+      },
+      "connections": [
+        58
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Cheaper Spin Attack",
+      "formattedName": "§f§lCheaper Spin Attack",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nSpin Attack§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Spin Attack",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 1,
+        "col": 8
+      },
+      "connections": [
+        53,
+        59
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Nightcloak Knife",
+      "formattedName": "§d§lNightcloak Knife",
+      "description": [
+        "§7 ",
+        "§7If cast while in §nVanish§r§7,",
+        "§7§nSpin Attack§r§7 will consume all",
+        "§bMarks §c✜ §7from nearby enemies to",
+        "§7summon the §bNightcloak Knife§7.",
+        "",
+        "§7The §bKnife §7will copy your",
+        "§7attacks on enemies near you,",
+        "§7dealing §f4% §7of your damage for every",
+        "§b1 Mark §c✜ §7consumed. (Max 10 Marks)",
+        "§7 ",
+        "§2➼ §7Range: §f6 Blocks §7(Circle-Shaped)",
+        "§d⌛À §7Duration: §f40s",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Marked",
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 6,
+        "row": 3,
+        "col": 0
+      },
+      "connections": [
+        56,
+        60
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Cheaper Multihit",
+      "formattedName": "§f§lCheaper Multihit",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nMultihit§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 3,
+        "col": 2
+      },
+      "connections": [
+        60,
+        57,
+        61
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Hoodwink",
+      "formattedName": "§6§lHoodwink",
+      "description": [
+        "§7 ",
+        "§7When hitting enemies with §nSpin Attack§r§7, reduce",
+        "§7the duration of your negative effects by",
+        "§f30%§7 per hit and transfer them onto enemies.",
+        "",
+        "§bLuring §d❤ §7can be transferred to most enemies.",
+        "§8(Bosses and special enemies are immune)",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Spin Attack",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 1
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 6,
+        "row": 3,
+        "col": 4
+      },
+      "connections": [
+        61,
+        66,
+        58,
+        62
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Choke Bomb",
+      "formattedName": "§6§lChoke Bomb",
+      "description": [
+        "§7 ",
+        "§7§nSmoke Bomb§r§7 will slow down",
+        "§7enemies while in the smoke.",
+        "§7 ",
+        "§e🛡 §7Effect: §f40% §7Slowness (§c⬤§7) to Enemies",
+        "§d⌛À §7Duration: §f1s",
+        "",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 6,
+        "row": 3,
+        "col": 6
+      },
+      "connections": [
+        62,
+        63
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Wall Jump",
+      "formattedName": "§6§lWall Jump",
+      "description": [
+        "§7 ",
+        "§7Reduces §nHop§r§7\u0027s cooldown by",
+        "§f-1s§7. Using §nHop§r§7 into a wall",
+        "§7will bounce you backward.",
+        "§8(Hold shift to cancel)",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Hop",
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 5
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 6,
+        "row": 3,
+        "col": 8
+      },
+      "connections": [
+        63,
+        58
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Fatal Spin",
+      "formattedName": "§6§lFatal Spin",
+      "description": [
+        "§7 ",
+        "§7Increases §nSpin Attack§r§7 and §nLacerate§r§7\u0027s range",
+        "§7and damage, and adds §b+1 Mark §c✜ §7to enemies hit.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+20% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +20%)",
+        "§3☀ §7Area of Effect: §f+1 Block §7(Circle-Shaped)",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Marked",
+      "requiredArchetype": {
+        "name": "Shadestepper",
+        "required": 8
+      },
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 1
+      },
+      "connections": [
+        64,
+        65,
+        61
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Dissolution",
+      "formattedName": "§f§lDissolution",
+      "description": [
+        "§7 ",
+        "§7When entering §nVanish§r§7, become immune to knockback",
+        "§7and gain resistance for a brief moment.",
+        "§7 ",
+        "§e🛡 §7Effect: §f+75% §7Resistance Bonus (§8✾§7) to Self",
+        "§d⌛À §7Duration: §f0.5s",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Vanish",
+      "requiredArchetype": {
+        "name": "Shadestepper",
+        "required": 2
+      },
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 3
+      },
+      "connections": []
+    },
+    {
+      "id": 62,
+      "name": "Pirouette",
+      "formattedName": "§f§lPirouette",
+      "description": [
+        "§7 ",
+        "§7When hitting an enemy with §nDancing Blade§r§7,",
+        "§7you will deal extra damage and vault upwards,",
+        "§7resetting §nDash§r§7 as if you touched the ground.",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f+40% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: +30%)",
+        "§7  ÀÀÀÀ§8(§f❋ §8Air: +10%)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Dancing Blade",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 5
+      },
+      "connections": []
+    },
+    {
+      "id": 63,
+      "name": "Stronger Lacerate",
+      "formattedName": "§f§lStronger Lacerate",
+      "description": [
+        "§7 ",
+        "§7§nLacerate§r§7 will deal §f+1 §7slash.",
+        "§7 ",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Lacerate",
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 6,
+        "row": 4,
+        "col": 7
+      },
+      "connections": [
+        62,
+        67
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Stronger Vortex",
+      "formattedName": "§f§lStronger Vortex",
+      "description": [
+        "",
+        "§7Increases §nViolent Vortex§r§7\u0027s damage ",
+        "§7by §f+40%§7 and increases the damage",
+        "§7requirement to be §f2.5x§7 your max health.",
+        "",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Violent Vortex",
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 6,
+        "row": 5,
+        "col": 0
+      },
+      "connections": []
+    },
+    {
+      "id": 65,
+      "name": "Harvester",
+      "formattedName": "§d§lHarvester",
+      "description": [
+        "§7 ",
+        "§7After killing an enemy, gain §f+5 §7Mana",
+        "§7for each leftover §bMark §c✜ §7it had.",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Marked",
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 1
+      },
+      "connections": [
+        71,
+        68
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Cheaper Smoke Bomb",
+      "formattedName": "§f§lCheaper Smoke Bomb",
+      "description": [
+        "§7 ",
+        "§7Reduce the Mana cost of §nSmoke Bomb§r§7.",
+        "§7 ",
+        "§b✺ §7Mana Cost: §f-5"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Smoke Bomb",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 4
+      },
+      "connections": [
+        68,
+        65,
+        72,
+        69,
+        67
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Blade Fury",
+      "formattedName": "§6§lBlade Fury",
+      "description": [
+        "",
+        "§7While using §nMultihit§r§7 on an enemy, lock",
+        "§7their position in front of you.",
+        "",
+        "§7§nMultihit§r§7 gains extra damage and",
+        "§7can be aimed in all directions.",
+        "",
+        "§c⚔ §7Total Damage: §f+15% §8(of your DPS, per hit)",
+        "§7  ÀÀÀÀ§8(§e✦ §8Thunder: +15%)",
+        "",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Multihit",
+      "requiredArchetype": null,
+      "archetype": "Acrobat",
+      "location": {
+        "page": 7,
+        "row": 1,
+        "col": 7
+      },
+      "connections": [
+        69,
+        73,
+        70
+      ]
+    },
+    {
+      "id": 68,
+      "name": "More Marks",
+      "formattedName": "§f§lMore Marks",
+      "description": [
+        "§7 ",
+        "§7Increase your maximum §bMarks §c✜ §7by §f+2§7.",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Marked",
+      "requiredArchetype": null,
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 7,
+        "row": 2,
+        "col": 2
+      },
+      "connections": []
+    },
+    {
+      "id": 69,
+      "name": "Stronger Clones",
+      "formattedName": "§6§lStronger Clones",
+      "description": [
+        "§7 ",
+        "§7Improves your damage by §f+15%",
+        "§7while your §bClones §5⁂§7 are active.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 49
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Echo",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 7
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 7,
+        "row": 2,
+        "col": 5
+      },
+      "connections": []
+    },
+    {
+      "id": 70,
+      "name": "Ricochets",
+      "formattedName": "§6§lRicochets",
+      "description": [
+        "",
+        "§7Your §nShurikens§r§7 will bounce §f2 §7times",
+        "§7between enemies upon impact.",
+        "§7 ",
+        "§2➼ §7Range: §f12 Blocks",
+        "",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Shurikens",
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 8
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 7,
+        "row": 2,
+        "col": 8
+      },
+      "connections": []
+    },
+    {
+      "id": 71,
+      "name": "Satsujin",
+      "formattedName": "§c§lSatsujin",
+      "description": [
+        "§7 ",
+        "§7If an enemy has §b4+ Marks §c✜§7, your next §nMultihit",
+        "§7or §nPowder Special§r§7 will deal §f+100%§7 damage.",
+        "§7(15s Cooldown, per enemy)",
+        "§7 ",
+        "§4§lShadestepper Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Shadestepper",
+        "required": 12
+      },
+      "archetype": "Shadestepper",
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 1
+      },
+      "connections": [
+        76,
+        77
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Forbidden Art",
+      "formattedName": "§d§lForbidden Art",
+      "description": [
+        "§7 ",
+        "§7Summon §f+3 §7additional §bClones §5⁂§7, but",
+        "§7reduce your damage by §f-10%§7 while your",
+        "§bClones §5⁂§7 are active. (+15s Cooldown)",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 53
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Mirror Image",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 8
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 4
+      },
+      "connections": [
+        74
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Jasmine Bloom",
+      "formattedName": "§c§lJasmine Bloom",
+      "description": [
+        "§7 ",
+        "§7After spending §f40 §7Mana, an area underneath",
+        "§7you blooms and damages enemies below it every §f0.3s§7.",
+        "",
+        "§7The duration is reset and the radius is",
+        "§7increased after every bloom. (Max 10 Blocks)",
+        "§7 ",
+        "§c⚔ §7Total Damage: §f80% §8(of your DPS)",
+        "§7  ÀÀÀÀ§8(§6✢ §8Damage: 60%)",
+        "§7  ÀÀÀÀ§8(§b❉ §8Water: 15%)",
+        "§7  ÀÀÀÀ§8(§2✤ §8Earth: 5%)",
+        "§d⌛À §7Duration: §f5s",
+        "§3☀ §7Area of Effect: §f+2 Blocks §8(per bloom)",
+        "",
+        "§f§lAcrobat Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": {
+        "name": "Acrobat",
+        "required": 12
+      },
+      "archetype": "Acrobat",
+      "location": {
+        "page": 7,
+        "row": 3,
+        "col": 7
+      },
+      "connections": [
+        75
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Diversion",
+      "formattedName": "§c§lDiversion",
+      "description": [
+        "§7 ",
+        "§7Grants allies within §f16 §7blocks §f+10%§7 §bOverhealth §6❤",
+        "§7whenever you hit a §bLured §d❥ §7enemy. (9s Cooldown)",
+        "§7The bonus health decays over §f10s§7.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 57
+      },
+      "cost": 2,
+      "blocks": [],
+      "requiredAbility": "Delirious Gas",
+      "requiredArchetype": {
+        "name": "Trickster",
+        "required": 12
+      },
+      "archetype": "Trickster",
+      "location": {
+        "page": 7,
+        "row": 4,
+        "col": 5
+      },
+      "connections": [
+        78
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Better Weightless",
+      "formattedName": "§f§lBetter Weightless",
+      "description": [
+        "§7 ",
+        "§7§nWeightless§r§7 will grant §f+0.25§7 more mana."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Weightless",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 4,
+        "col": 8
+      },
+      "connections": []
+    },
+    {
+      "id": 76,
+      "name": "Devour",
+      "formattedName": "§f§lDevour",
+      "description": [
+        "§7 ",
+        "§7§nHarvester§r§7 will give §f+5 §7Mana."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Harvester",
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 5,
+        "col": 0
+      },
+      "connections": []
+    },
+    {
+      "id": 77,
+      "name": "Better Marked",
+      "formattedName": "§f§lBetter Marked",
+      "description": [
+        "§7 ",
+        "§7Increases §nMarked§r§7\u0027s damage",
+        "§7bonus by §f+4%§7."
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": null,
+      "requiredArchetype": null,
+      "archetype": null,
+      "location": {
+        "page": 7,
+        "row": 5,
+        "col": 2
+      },
+      "connections": []
+    },
+    {
+      "id": 78,
+      "name": "Even Stronger Clones",
+      "formattedName": "§f§lEven Stronger Clones",
+      "description": [
+        "§7 ",
+        "§7Improves your damage by §f+10%",
+        "§7while your §bClones §5⁂§7 are active.",
+        "§7 ",
+        "§d§lTrickster Archetype"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 45
+      },
+      "cost": 1,
+      "blocks": [],
+      "requiredAbility": "Echo",
+      "requiredArchetype": null,
+      "archetype": "Trickster",
+      "location": {
+        "page": 7,
+        "row": 5,
+        "col": 4
+      },
+      "connections": []
+    }
+  ],
+  "archetypeInfoMap": {
+    "Trickster": {
+      "name": "Trickster",
+      "formattedName": "§d§lTrickster Archetype",
+      "description": [
+        "",
+        "§7Tricksters summon clones and",
+        "§7confuse enemies with various",
+        "§7tricks. §8(CC, Tricks)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 82
+      }
+    },
+    "Acrobat": {
+      "name": "Acrobat",
+      "formattedName": "§f§lAcrobat Archetype",
+      "description": [
+        "",
+        "§7Acrobats are agile and",
+        "§7combo-heavy fighters.",
+        "§8(Combos, Speed)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 77
+      }
+    },
+    "Shadestepper": {
+      "name": "Shadestepper",
+      "formattedName": "§4§lShadestepper Archetype",
+      "description": [
+        "",
+        "§7Shadesteppers hide themselves",
+        "§7and deal devastating damage at the",
+        "§7right time. §8(Glass Cannon,",
+        "§8Burst Damage)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 79
+      }
+    }
+  }
+}
