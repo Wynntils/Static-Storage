@@ -1,0 +1,121 @@
+I need a script to transform data.
+
+My output json has different types:
+```
+"Alchemism Station"
+"Armour Merchant"
+"Armouring Station"
+"Blacksmith"
+"Booth Shop"
+"Cooking Station"
+"Dungeon Scroll Merchant"
+"Emerald Merchant"
+"Fast Travel"
+"Housing Balloon"
+"Item Identifier"
+"Jeweling Station"
+"Liquid Merchant"
+"Party Finder"
+"Potion Merchant"
+"Powder Master"
+"Scribing Station"
+"Scroll Merchant"
+"Seaskipper"
+"Tailoring Station"
+"Tool Merchant"
+"Trade Market"
+"Weapon Merchant"
+"Weaponsmithing Station"
+"Woodworking Station"
+```
+
+I have an input file I want to map to the output file by mapping "icon" to "type". The input data has a lot of other data that should be ignored.
+
+Input format
+```
+[
+    {
+        "name": "Dungeon Merchant",
+        "icon": "Merchant_Dungeon.png",
+        "x": "1304",
+        "y": "85",
+        "z": "-749"
+    },
+    {
+        "name": "Potion Merchant",
+        "icon": "Merchant_Potion.png",
+        "x": "1278",
+        "y": "85",
+        "z": "-749"
+    },
+    {
+        "name": "Pink Wool Merchant",
+        "icon": "Merchant_Other.png",
+        "x": "1329",
+        "y": "29",
+        "z": "-1272"
+    },
+    ...
+]
+```
+
+Output format:
+```
+[
+  {
+    "type": "Alchemism Station",
+    "locations": [
+      {
+        "x": -2011,
+        "y": 80,
+        "z": -4450
+      },
+      {
+        "x": -1850,
+        "y": 66,
+        "z": -4515
+      },
+      ...
+ },
+ ...
+]
+
+
+
+
+
+
+
+
+
+
+```plaintext
+"Merchant_Armour.png": "Armour Merchant"
+"Merchant_Dungeon.png": "Dungeon Scroll Merchant"
+"Merchant_Emerald.png": "Emerald Merchant"
+"Merchant_Liquid.png": "Liquid Merchant"
+"Merchant_Potion.png": "Potion Merchant"
+"Merchant_Scroll.png": "Scroll Merchant"
+"Merchant_Tool.png": "Tool Merchant"
+"Merchant_Weapon.png": "Weapon Merchant"
+"NPC_Blacksmith.png": "Blacksmith"
+"NPC_ItemIdentifier.png": "Item Identifier"
+"NPC_PowderMaster.png": "Powder Master"
+"NPC_TradeMarket.png": "Trade Market"
+"Profession_Alchemism.png": "Alchemism Station"
+"Profession_Armouring.png": "Armouring Station"
+"Profession_Cooking.png": "Cooking Station"
+"Profession_Jeweling.png": "Jeweling Station"
+"Profession_Scribing.png": "Scribing Station"
+"Profession_Tailoring.png": "Tailoring Station"
+"Profession_Weaponsmithing.png": "Weaponsmithing Station"
+"Profession_Woodworking.png": "Woodworking Station"
+"Special_FastTravel.png": "Fast Travel"
+"Special_HousingAirBalloon.png": "Housing Balloon"
+"Special_SeaskipperFastTravel.png": "Seaskipper"
+```
+
+Types without a match:
+
+- "Booth Shop"
+- "Party Finder"
