@@ -1,0 +1,33 @@
+# Github actions runner will run this script on a schedule
+
+name: Update Dialogues from Voices of Wynn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight
+
+jobs:
+  update-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Update Dialogues from Voices of Wynn
+        run: |
+          ./Generators/update_voices_dialogues.sh
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6.0.2
+        with:
+            token: ${{ secrets.PRIVATE_TOKEN }}
+            labels: auto-generated
+            committer: 'WynntilsBot <admin@wynntils.com>'
+            author: 'WynntilsBot <admin@wynntils.com>'
+            commit-message: "chore: [auto-generated] Update dialogues from Voices of Wynn"
+            title: "chore: [auto-generated] Update dialogues from Voices of Wynn"
+            body: |
+              The Voices of Wynn repository has been updated with new dialogue data.
+
+              This PR has been automatically generated.
+            branch: update-dialogues
