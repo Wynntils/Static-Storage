@@ -2390,20 +2390,6 @@
     }
   ],
   "archetypeInfoMap": {
-    "Battle Monk": {
-      "name": "Battle Monk",
-      "formattedName": "§e§lBattle Monk Archetype",
-      "description": [
-        "",
-        "§7Battle Monks are swift holy",
-        "§7warriors who excel at close",
-        "§7combat. §8(Combos, Knockback)"
-      ],
-      "itemInformation": {
-        "itemId": 785,
-        "damage": 78
-      }
-    },
     "Fallen": {
       "name": "Fallen",
       "formattedName": "§c§lFallen Archetype",
@@ -2416,6 +2402,20 @@
       "itemInformation": {
         "itemId": 785,
         "damage": 79
+      }
+    },
+    "Battle Monk": {
+      "name": "Battle Monk",
+      "formattedName": "§e§lBattle Monk Archetype",
+      "description": [
+        "",
+        "§7Battle Monks are swift holy",
+        "§7warriors who excel at close",
+        "§7combat. §8(Combos, Knockback)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 78
       }
     },
     "Paladin": {

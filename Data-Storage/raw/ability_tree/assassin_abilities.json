@@ -2510,6 +2510,21 @@
     }
   ],
   "archetypeInfoMap": {
+    "Shadestepper": {
+      "name": "Shadestepper",
+      "formattedName": "§4§lShadestepper Archetype",
+      "description": [
+        "",
+        "§7Shadesteppers hide themselves",
+        "§7and deal devastating damage at the",
+        "§7right time. §8(Glass Cannon,",
+        "§8Burst Damage)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 79
+      }
+    },
     "Trickster": {
       "name": "Trickster",
       "formattedName": "§d§lTrickster Archetype",
@@ -2536,21 +2551,6 @@
       "itemInformation": {
         "itemId": 785,
         "damage": 77
-      }
-    },
-    "Shadestepper": {
-      "name": "Shadestepper",
-      "formattedName": "§4§lShadestepper Archetype",
-      "description": [
-        "",
-        "§7Shadesteppers hide themselves",
-        "§7and deal devastating damage at the",
-        "§7right time. §8(Glass Cannon,",
-        "§8Burst Damage)"
-      ],
-      "itemInformation": {
-        "itemId": 785,
-        "damage": 79
       }
     }
   }

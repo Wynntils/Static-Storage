@@ -2554,20 +2554,6 @@
       }
     ],
     "archetypeInfoMap": {
-      "Sharpshooter": {
-        "name": "Sharpshooter",
-        "formattedName": "§d§lSharpshooter Archetype",
-        "description": [
-          "",
-          "§7Sharpshooters excel at aiming",
-          "§7and can deal brutal hits.",
-          "§8(Range, Power Shots)"
-        ],
-        "itemInformation": {
-          "itemId": 785,
-          "damage": 82
-        }
-      },
       "Boltslinger": {
         "name": "Boltslinger",
         "formattedName": "§e§lBoltslinger Archetype",
@@ -2594,6 +2580,20 @@
         "itemInformation": {
           "itemId": 785,
           "damage": 81
+        }
+      },
+      "Sharpshooter": {
+        "name": "Sharpshooter",
+        "formattedName": "§d§lSharpshooter Archetype",
+        "description": [
+          "",
+          "§7Sharpshooters excel at aiming",
+          "§7and can deal brutal hits.",
+          "§8(Range, Power Shots)"
+        ],
+        "itemInformation": {
+          "itemId": 785,
+          "damage": 82
         }
       }
     }
@@ -5110,6 +5110,21 @@
       }
     ],
     "archetypeInfoMap": {
+      "Shadestepper": {
+        "name": "Shadestepper",
+        "formattedName": "§4§lShadestepper Archetype",
+        "description": [
+          "",
+          "§7Shadesteppers hide themselves",
+          "§7and deal devastating damage at the",
+          "§7right time. §8(Glass Cannon,",
+          "§8Burst Damage)"
+        ],
+        "itemInformation": {
+          "itemId": 785,
+          "damage": 79
+        }
+      },
       "Trickster": {
         "name": "Trickster",
         "formattedName": "§d§lTrickster Archetype",
@@ -5136,21 +5151,6 @@
         "itemInformation": {
           "itemId": 785,
           "damage": 77
-        }
-      },
-      "Shadestepper": {
-        "name": "Shadestepper",
-        "formattedName": "§4§lShadestepper Archetype",
-        "description": [
-          "",
-          "§7Shadesteppers hide themselves",
-          "§7and deal devastating damage at the",
-          "§7right time. §8(Glass Cannon,",
-          "§8Burst Damage)"
-        ],
-        "itemInformation": {
-          "itemId": 785,
-          "damage": 79
         }
       }
     }
@@ -7534,6 +7534,20 @@
       }
     ],
     "archetypeInfoMap": {
+      "Riftwalker": {
+        "name": "Riftwalker",
+        "formattedName": "§b§lRiftwalker Archetype",
+        "description": [
+          "",
+          "§7Riftwalkers bend time and",
+          "§7become stronger as fights drag on.",
+          "§8(Mobility, Stack Damage)"
+        ],
+        "itemInformation": {
+          "itemId": 785,
+          "damage": 76
+        }
+      },
       "Light Bender": {
         "name": "Light Bender",
         "formattedName": "§f§lLight Bender Archetype",
@@ -7560,20 +7574,6 @@
         "itemInformation": {
           "itemId": 785,
           "damage": 82
-        }
-      },
-      "Riftwalker": {
-        "name": "Riftwalker",
-        "formattedName": "§b§lRiftwalker Archetype",
-        "description": [
-          "",
-          "§7Riftwalkers bend time and",
-          "§7become stronger as fights drag on.",
-          "§8(Mobility, Stack Damage)"
-        ],
-        "itemInformation": {
-          "itemId": 785,
-          "damage": 76
         }
       }
     }
@@ -9916,20 +9916,6 @@
           "damage": 80
         }
       },
-      "Acolyte": {
-        "name": "Acolyte",
-        "formattedName": "§c§lAcolyte Archetype",
-        "description": [
-          "",
-          "§7Acolytes use their own health to",
-          "§7support others and deal damage.",
-          "§8(Support, Damage)"
-        ],
-        "itemInformation": {
-          "itemId": 785,
-          "damage": 79
-        }
-      },
       "Ritualist": {
         "name": "Ritualist",
         "formattedName": "§a§lRitualist Archetype",
@@ -9943,6 +9929,20 @@
         "itemInformation": {
           "itemId": 785,
           "damage": 81
+        }
+      },
+      "Acolyte": {
+        "name": "Acolyte",
+        "formattedName": "§c§lAcolyte Archetype",
+        "description": [
+          "",
+          "§7Acolytes use their own health to",
+          "§7support others and deal damage.",
+          "§8(Support, Damage)"
+        ],
+        "itemInformation": {
+          "itemId": 785,
+          "damage": 79
         }
       }
     }
@@ -12339,20 +12339,6 @@
       }
     ],
     "archetypeInfoMap": {
-      "Battle Monk": {
-        "name": "Battle Monk",
-        "formattedName": "§e§lBattle Monk Archetype",
-        "description": [
-          "",
-          "§7Battle Monks are swift holy",
-          "§7warriors who excel at close",
-          "§7combat. §8(Combos, Knockback)"
-        ],
-        "itemInformation": {
-          "itemId": 785,
-          "damage": 78
-        }
-      },
       "Fallen": {
         "name": "Fallen",
         "formattedName": "§c§lFallen Archetype",
@@ -12365,6 +12351,20 @@
         "itemInformation": {
           "itemId": 785,
           "damage": 79
+        }
+      },
+      "Battle Monk": {
+        "name": "Battle Monk",
+        "formattedName": "§e§lBattle Monk Archetype",
+        "description": [
+          "",
+          "§7Battle Monks are swift holy",
+          "§7warriors who excel at close",
+          "§7combat. §8(Combos, Knockback)"
+        ],
+        "itemInformation": {
+          "itemId": 785,
+          "damage": 78
         }
       },
       "Paladin": {

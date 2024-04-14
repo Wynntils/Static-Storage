@@ -2377,6 +2377,20 @@
     }
   ],
   "archetypeInfoMap": {
+    "Riftwalker": {
+      "name": "Riftwalker",
+      "formattedName": "§b§lRiftwalker Archetype",
+      "description": [
+        "",
+        "§7Riftwalkers bend time and",
+        "§7become stronger as fights drag on.",
+        "§8(Mobility, Stack Damage)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 76
+      }
+    },
     "Light Bender": {
       "name": "Light Bender",
       "formattedName": "§f§lLight Bender Archetype",
@@ -2403,20 +2417,6 @@
       "itemInformation": {
         "itemId": 785,
         "damage": 82
-      }
-    },
-    "Riftwalker": {
-      "name": "Riftwalker",
-      "formattedName": "§b§lRiftwalker Archetype",
-      "description": [
-        "",
-        "§7Riftwalkers bend time and",
-        "§7become stronger as fights drag on.",
-        "§8(Mobility, Stack Damage)"
-      ],
-      "itemInformation": {
-        "itemId": 785,
-        "damage": 76
       }
     }
   }

@@ -2336,20 +2336,6 @@
         "damage": 80
       }
     },
-    "Acolyte": {
-      "name": "Acolyte",
-      "formattedName": "§c§lAcolyte Archetype",
-      "description": [
-        "",
-        "§7Acolytes use their own health to",
-        "§7support others and deal damage.",
-        "§8(Support, Damage)"
-      ],
-      "itemInformation": {
-        "itemId": 785,
-        "damage": 79
-      }
-    },
     "Ritualist": {
       "name": "Ritualist",
       "formattedName": "§a§lRitualist Archetype",
@@ -2363,6 +2349,20 @@
       "itemInformation": {
         "itemId": 785,
         "damage": 81
+      }
+    },
+    "Acolyte": {
+      "name": "Acolyte",
+      "formattedName": "§c§lAcolyte Archetype",
+      "description": [
+        "",
+        "§7Acolytes use their own health to",
+        "§7support others and deal damage.",
+        "§8(Support, Damage)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 79
       }
     }
   }

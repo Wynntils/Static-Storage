@@ -2553,20 +2553,6 @@
     }
   ],
   "archetypeInfoMap": {
-    "Sharpshooter": {
-      "name": "Sharpshooter",
-      "formattedName": "§d§lSharpshooter Archetype",
-      "description": [
-        "",
-        "§7Sharpshooters excel at aiming",
-        "§7and can deal brutal hits.",
-        "§8(Range, Power Shots)"
-      ],
-      "itemInformation": {
-        "itemId": 785,
-        "damage": 82
-      }
-    },
     "Boltslinger": {
       "name": "Boltslinger",
       "formattedName": "§e§lBoltslinger Archetype",
@@ -2593,6 +2579,20 @@
       "itemInformation": {
         "itemId": 785,
         "damage": 81
+      }
+    },
+    "Sharpshooter": {
+      "name": "Sharpshooter",
+      "formattedName": "§d§lSharpshooter Archetype",
+      "description": [
+        "",
+        "§7Sharpshooters excel at aiming",
+        "§7and can deal brutal hits.",
+        "§8(Range, Power Shots)"
+      ],
+      "itemInformation": {
+        "itemId": 785,
+        "damage": 82
       }
     }
   }
