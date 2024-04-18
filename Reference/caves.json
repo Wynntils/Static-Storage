@@ -79,7 +79,7 @@
   {
     "type": "cave",
     "name": "Avos Animation Totem",
-    "specialInfo": "",
+    "specialInfo": "Boss Cave",
     "description": "§7Beware what lives at §f[-1759, 37, -2450]",
     "length": "long",
     "lengthInfo": "3m",
@@ -160,9 +160,9 @@
     "length": "medium",
     "lengthInfo": "1m30s",
     "difficulty": "hard",
-    "requirements": 60,
+    "requirements": 72,
     "rewards": [
-      "15000 XP",
+      "50000 XP",
       "Various Items"
     ],
     "location": {
@@ -1013,6 +1013,25 @@
   },
   {
     "type": "cave",
+    "name": "Fallen Passage",
+    "specialInfo": "",
+    "description": "§7A bug infested passage has fallen on itself around §f[1301, 86, -2144]",
+    "length": "medium",
+    "lengthInfo": "50s",
+    "difficulty": "easy",
+    "requirements": 32,
+    "rewards": [
+      "1200 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 1301,
+      "y": 86,
+      "z": -2144
+    }
+  },
+  {
+    "type": "cave",
     "name": "Fire & Water",
     "specialInfo": "",
     "description": "§7A corrupted cave of opposing elements located at §f[-502, 71, -1722]",
@@ -1030,6 +1049,25 @@
       "x": -502,
       "y": 71,
       "z": -1722
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Fire Swamp",
+    "specialInfo": "",
+    "description": "§7A swampy cliffside cave has been seen alight at §f[-2098, 59, -5117]",
+    "length": "long",
+    "lengthInfo": "2m20s",
+    "difficulty": "hard",
+    "requirements": 57,
+    "rewards": [
+      "40000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2098,
+      "y": 59,
+      "z": -5117
     }
   },
   {
@@ -1186,6 +1224,25 @@
   },
   {
     "type": "cave",
+    "name": "Gorgon Gorge",
+    "specialInfo": "",
+    "description": "§7Cut into the mountains at §f[715, 47, -5495]§7 you will find the watery home of these terrifying creatures.",
+    "length": "medium",
+    "lengthInfo": "1m20s",
+    "difficulty": "easy",
+    "requirements": 80,
+    "rewards": [
+      "300000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 715,
+      "y": 47,
+      "z": -5495
+    }
+  },
+  {
+    "type": "cave",
     "name": "Guardians Cove",
     "specialInfo": "",
     "description": "§7Those who wish nature harm beware of it's guardians that reside at §f[129, 45, -5565]",
@@ -1239,6 +1296,25 @@
       "x": 948,
       "y": 93,
       "z": -1049
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Headless Hollow",
+    "specialInfo": "",
+    "description": "§7Most do not even speak of what lurks inside that creepy hollow at §f[-22, 76, -297]",
+    "length": "medium",
+    "lengthInfo": "1m10s",
+    "difficulty": "hard",
+    "requirements": 45,
+    "rewards": [
+      "15000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -22,
+      "y": 76,
+      "z": -297
     }
   },
   {
@@ -1512,13 +1588,13 @@
     "type": "cave",
     "name": "Lion's Lair",
     "specialInfo": "",
-    "description": "§7Enter the Lion's Lair §f[768, 93, -2211]",
-    "length": "medium",
-    "lengthInfo": "1m10s",
-    "difficulty": "medium",
-    "requirements": 19,
+    "description": "§7Extremely dangerous lion poachers have overtaken a mining operation at §f[768, 93, -2211]§7.",
+    "length": "long",
+    "lengthInfo": "4m",
+    "difficulty": "hard",
+    "requirements": 30,
     "rewards": [
-      "1250 XP",
+      "2000 XP",
       "Various Items"
     ],
     "location": {
@@ -1715,6 +1791,25 @@
       "x": -754,
       "y": 53,
       "z": -5299
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Naga Dugout",
+    "specialInfo": "Boss Cave",
+    "description": "§7A sneaky Naga Commander has made camp in a dugout at §f[-2025, 59, -5081]",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "medium",
+    "requirements": 58,
+    "rewards": [
+      "40000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2025,
+      "y": 59,
+      "z": -5081
     }
   },
   {
@@ -2177,6 +2272,25 @@
   },
   {
     "type": "cave",
+    "name": "Secret Mine",
+    "specialInfo": "",
+    "description": "§7Some unscrupulous individuals have taken to an illegal mining operation around §f[-1490, 48, -4990]",
+    "length": "medium",
+    "lengthInfo": "50s",
+    "difficulty": "easy",
+    "requirements": 46,
+    "rewards": [
+      "14000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1490,
+      "y": 48,
+      "z": -4990
+    }
+  },
+  {
+    "type": "cave",
     "name": "Seismic Bore Hole",
     "specialInfo": "",
     "description": "§7Earth-boring insects chew away the canyon stone at §f[635, 54, -4716]§7, and...?",
@@ -2253,6 +2367,25 @@
   },
   {
     "type": "cave",
+    "name": "Shock Shrine",
+    "specialInfo": "",
+    "description": "§7Elves worshiping thunder can be found at §f[-647, 50, -4419]",
+    "length": "medium",
+    "lengthInfo": "1m",
+    "difficulty": "medium",
+    "requirements": 75,
+    "rewards": [
+      "100000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -647,
+      "y": 50,
+      "z": -4419
+    }
+  },
+  {
+    "type": "cave",
     "name": "Shroom Sleeper Dugout",
     "specialInfo": "",
     "description": "§7Nothing but Shroom Sleepers lie at §f[-551, 45, -4689]",
@@ -2268,6 +2401,25 @@
       "x": -551,
       "y": 45,
       "z": -4689
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Sink Hole",
+    "specialInfo": "",
+    "description": "§7Some eerie houses have sunken into the mud at §f[-1512, 50, -5243]",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 55,
+    "rewards": [
+      "40000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1512,
+      "y": 50,
+      "z": -5243
     }
   },
   {
@@ -2652,6 +2804,25 @@
   },
   {
     "type": "cave",
+    "name": "The Place Conglomerated",
+    "specialInfo": "",
+    "description": "§7In a place stolen by nothingness, life is conglomerated, mutated, and sent to grow over the stolen world from §f[1313, 144, -1048]",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "medium",
+    "requirements": 100,
+    "rewards": [
+      "1000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 1313,
+      "y": 144,
+      "z": -1048
+    }
+  },
+  {
+    "type": "cave",
     "name": "The Sacrificial Altar",
     "specialInfo": "Boss Cave",
     "description": "§7Dark Cultists have gathered around an Altar in a cliffside cave around §f[-298, 38, -969]",
@@ -2711,9 +2882,9 @@
     "type": "cave",
     "name": "Tidepool Terrace",
     "specialInfo": "",
-    "description": "§7Some trouble is brewing in some underground tidepools at §f[-437, 9, -2060]",
-    "length": "short",
-    "lengthInfo": "20s",
+    "description": "§7Some trouble is brewing in some underground tidepools at §f[-512, 35, -2015]",
+    "length": "medium",
+    "lengthInfo": "1m",
     "difficulty": "easy",
     "requirements": 4,
     "rewards": [
@@ -2721,9 +2892,9 @@
       "Various Items"
     ],
     "location": {
-      "x": -437,
-      "y": 9,
-      "z": -2060
+      "x": -512,
+      "y": 35,
+      "z": -2015
     }
   },
   {
