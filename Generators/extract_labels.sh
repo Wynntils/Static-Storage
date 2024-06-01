@@ -115,7 +115,7 @@ jq '.labels[] | {
 ' < "$TARGET" > "$TARGET_MAPDATA"
 
 
-# Calculate md5sum of the new maps.json
+# Calculate md5sum of the new places.json
 MD5=$(md5sum $TARGET | cut -d' ' -f1)
 
 # Update urls.json with the new md5sum for dataStaticPlaces
@@ -124,7 +124,7 @@ mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
 
 echo Finished updating "$TARGET"
 
-# Calculate md5sum of the new maps.json
+# Calculate md5sum of the new places_mapdata.json
 MD5=$(md5sum $TARGET_MAPDATA | cut -d' ' -f1)
 
 # Update urls.json with the new md5sum for dataStaticMapdataPlaces
