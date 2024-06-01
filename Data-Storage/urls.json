@@ -160,12 +160,12 @@
   },
   {
     "id": "dataStaticMapdataCaveInfo",
-    "md5": "a9970c35743a44b1b1cc3b36182a3860",
+    "md5": "e84107e36e5533b2d5522dc3dd7e59d0",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/caves_mapdata.json"
   },
   {
     "id": "dataStaticMapdataPlaces",
-    "md5": "16019a546e317268cdc1e1db428d45e7",
+    "md5": "feec214529dcf318085d3978098f87c8",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/places_mapdata.json"
   },
   {

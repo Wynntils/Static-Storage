@@ -98,7 +98,7 @@ mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
 echo Finished updating "$TARGET"
 
 jq '.labels[] | {
-    featureId: ("labels-" + (.name | gsub("[^a-zA-Z0-9]+"; "-") | ascii_downcase)),
+    featureId: ("labels-" + (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase)),
     categoryId: ("wynntils:place:" + (if .layer == 1 then "province"
                                       elif .layer == 2 then "city"
                                       else "town-or-place" end)),

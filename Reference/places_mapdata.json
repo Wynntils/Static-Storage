@@ -659,7 +659,7 @@
   "level": 70
 }
 {
-  "featureId": "labels-light-s-secret",
+  "featureId": "labels-lights-secret",
   "categoryId": "wynntils:place:town-or-place",
   "attributes": {
     "label": "Light's Secret"
@@ -801,7 +801,7 @@
   "level": 20
 }
 {
-  "featureId": "labels-mummy-s-tomb",
+  "featureId": "labels-mummys-tomb",
   "categoryId": "wynntils:place:town-or-place",
   "attributes": {
     "label": "Mummy's Tomb"
@@ -892,7 +892,7 @@
   "level": 60
 }
 {
-  "featureId": "labels-ozoth-s-spire",
+  "featureId": "labels-ozoths-spire",
   "categoryId": "wynntils:place:town-or-place",
   "attributes": {
     "label": "Ozoth's Spire"
@@ -917,7 +917,7 @@
   "level": 110
 }
 {
-  "featureId": "labels-pigmen-s-ravines",
+  "featureId": "labels-pigmens-ravines",
   "categoryId": "wynntils:place:town-or-place",
   "attributes": {
     "label": "Pigmen's Ravines"
@@ -1072,7 +1072,7 @@
   "level": 35
 }
 {
-  "featureId": "labels-saint-s-row",
+  "featureId": "labels-saints-row",
   "categoryId": "wynntils:place:town-or-place",
   "attributes": {
     "label": "Saint's Row"

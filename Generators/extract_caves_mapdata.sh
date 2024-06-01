@@ -11,7 +11,7 @@ cat $CONTENT_DIR/content_book_dump.json | jq '.cave' | jq '.[].requirements |= .
 jq '
 map(
     {
-        featureId: ("caves-" + (.name | gsub("[^a-zA-Z ]"; "") | gsub(" "; "-") | ascii_downcase)),
+        featureId: ("caves-" + (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase)),
         categoryId: "wynntils:content:caves",
         attributes: {
             label: .name,

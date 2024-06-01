@@ -93,7 +93,7 @@ mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json
 
 jq '
 def to_feature_id(type; index):
-  (type | ascii_downcase | gsub("[^a-z0-9]+"; "-")) + "-" + (index|tostring);
+  (type | ascii_downcase | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "")) + "-" + (index|tostring);
 
 def map_type(type):
   {

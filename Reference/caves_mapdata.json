@@ -221,7 +221,7 @@
     }
   },
   {
-    "featureId": "caves-builderbot-central",
+    "featureId": "caves-builder-bot-central",
     "categoryId": "wynntils:content:caves",
     "attributes": {
       "label": "Builder-Bot Central",
