@@ -94,11 +94,6 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/caves.json"
   },
   {
-    "id": "dataStaticMapdataCaveInfo",
-    "md5": "a9970c35743a44b1b1cc3b36182a3860",
-    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/caves_mapdata.json"
-  },
-  {
     "id": "dataStaticCharms",
     "md5": "3eaf21f82216f1084e332e42f85e36f7",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/charms.json"
@@ -162,6 +157,11 @@
     "id": "dataStaticMajorIds",
     "md5": "38bb5299f66016271f5bf3a1f49ec0ae",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/major_ids.json"
+  },
+  {
+    "id": "dataStaticMapdataCaveInfo",
+    "md5": "a9970c35743a44b1b1cc3b36182a3860",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/caves_mapdata.json"
   },
   {
     "id": "dataStaticMaps",
