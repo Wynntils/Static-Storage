@@ -149,7 +149,11 @@
       "label": "Galleon's Graveyard",
       "level": 63
     },
-    "location": null
+    "location": {
+      "x": -587,
+      "y": 39,
+      "z": -3522
+    }
   },
   {
     "featureId": "dungeon-ice-barrows",

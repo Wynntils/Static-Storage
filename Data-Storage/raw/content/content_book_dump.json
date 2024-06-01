@@ -20661,7 +20661,11 @@
         "3 Galleon\u0027s Graveyard Fragments",
         "Various Items"
       ],
-      "location": null
+      "location": {
+        "x": -587,
+        "y": 39,
+        "z": -3522
+      }
     },
     {
       "type": "dungeon",
