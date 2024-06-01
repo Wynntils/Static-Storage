@@ -7,6 +7,7 @@
 #
 MYDIR=$(cd $(dirname "$0") >/dev/null 2>&1 && pwd)
 TARGET="$MYDIR/../Reference/places.json"
+TARGET_MAPDATA="$MYDIR/../Reference/places_mapdata.json"
 
 # This file contain additional labels that are not provided by upstread.
 MISSING="$MYDIR/../Data-Storage/map-labels-missing.json"
@@ -87,6 +88,33 @@ case 14:
 cat "$TARGET.tmp" "$MISSING" | jq -s '{labels: .}' | jq --sort-keys ".labels|=sort_by(.name)" > "$TARGET"
 rm "$TARGET.tmp"
 
+jq '.labels[] | {
+    featureId: ("labels-" + (.name | gsub("[^a-zA-Z0-9]+"; "-") | ascii_downcase)),
+    categoryId: ("wynntils:place:" + (if .layer == 1 then "province"
+                                      elif .layer == 2 then "city"
+                                      else "town-or-place" end)),
+    attributes: {
+      label: .name
+    },
+    location: {
+      x: .x,
+      y: 0,
+      z: .z
+    }
+} + (if .level != null then {level: (
+        if .level | test("^\\d+$") then
+          (.level | tonumber)
+        elif .level | test("^\\d+-\\d+$") then
+          (.level | split("-")[0] | tonumber)
+        elif .level | test("^\\d+\\+$") then
+          (.level | gsub("\\+"; "") | tonumber)
+        else
+          null  # Default value in case of unexpected format
+        end
+      )} else {} end)
+' < "$TARGET" > "$TARGET_MAPDATA"
+
+
 # Calculate md5sum of the new maps.json
 MD5=$(md5sum $TARGET | cut -d' ' -f1)
 
@@ -95,3 +123,12 @@ jq '. = [.[] | if (.id == "dataStaticPlaces") then (.md5 = "'$MD5'") else . end]
 mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
 
 echo Finished updating "$TARGET"
+
+# Calculate md5sum of the new maps.json
+MD5=$(md5sum $TARGET_MAPDATA | cut -d' ' -f1)
+
+# Update urls.json with the new md5sum for dataStaticMapdataPlaces
+jq '. = [.[] | if (.id == "dataStaticMapdataPlaces") then (.md5 = "'$MD5'") else . end]' < $MYDIR/../Data-Storage/urls.json > $MYDIR/../Data-Storage/urls.json.tmp
+mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
+
+echo Finished updating "$TARGET_MAPDATA"
