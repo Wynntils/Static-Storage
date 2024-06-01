@@ -88,6 +88,15 @@ case 14:
 cat "$TARGET.tmp" "$MISSING" | jq -s '{labels: .}' | jq --sort-keys ".labels|=sort_by(.name)" > "$TARGET"
 rm "$TARGET.tmp"
 
+# Calculate md5sum of the new places.json
+MD5=$(md5sum $TARGET | cut -d' ' -f1)
+
+# Update urls.json with the new md5sum for dataStaticPlaces
+jq '. = [.[] | if (.id == "dataStaticPlaces") then (.md5 = "'$MD5'") else . end]' < $MYDIR/../Data-Storage/urls.json > $MYDIR/../Data-Storage/urls.json.tmp
+mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
+
+echo Finished updating "$TARGET"
+
 jq '.labels[] | {
     featureId: ("labels-" + (.name | gsub("[^a-zA-Z0-9]+"; "-") | ascii_downcase)),
     categoryId: ("wynntils:place:" + (if .layer == 1 then "province"
@@ -113,16 +122,6 @@ jq '.labels[] | {
         end
       )} else {} end)
 ' < "$TARGET" > "$TARGET_MAPDATA"
-
-
-# Calculate md5sum of the new places.json
-MD5=$(md5sum $TARGET | cut -d' ' -f1)
-
-# Update urls.json with the new md5sum for dataStaticPlaces
-jq '. = [.[] | if (.id == "dataStaticPlaces") then (.md5 = "'$MD5'") else . end]' < $MYDIR/../Data-Storage/urls.json > $MYDIR/../Data-Storage/urls.json.tmp
-mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
-
-echo Finished updating "$TARGET"
 
 # Calculate md5sum of the new places_mapdata.json
 MD5=$(md5sum $TARGET_MAPDATA | cut -d' ' -f1)

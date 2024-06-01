@@ -169,6 +169,11 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/places_mapdata.json"
   },
   {
+    "id": "dataStaticMapdataServices",
+    "md5": "c84ea9dfea44549d579c376fc904be35",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/services_mapdata.json"
+  },
+  {
     "id": "dataStaticMaps",
     "md5": "3d1825eee8011ca34fce25a5a3597fc0",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/maps.json"

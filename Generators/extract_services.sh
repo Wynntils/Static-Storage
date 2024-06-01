@@ -5,6 +5,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 TARGET="services.json"
+TARGET_MAPDATA="services_mapdata.json"
 
 # Download the json file from Wynncraft API
 wget -O markers.json.tmp "https://api.wynncraft.com/v3/map/locations/markers"
@@ -88,4 +89,53 @@ MD5=$(md5sum $TARGET_DIR/$TARGET | cut -d' ' -f1)
 
 # Update urls.json with the new md5sum for dataStaticServices
 jq '. = [.[] | if (.id == "dataStaticServices") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
+mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json
+
+jq '
+def to_feature_id(type; index):
+  (type | ascii_downcase | gsub("[^a-z0-9]+"; "-")) + "-" + (index|tostring);
+
+def map_type(type):
+  {
+    "Alchemism Station": "profession:alchemism",
+    "Armour Merchant": "merchant:armor",
+    "Armouring Station": "profession:armoring",
+    "Blacksmith": "blacksmith",
+    "Booth Shop": "booth-shop",
+    "Cooking Station": "profession:cooking",
+    "Dungeon Scroll Merchant": "merchant:dungeon-scroll",
+    "Emerald Merchant": "merchant:emerald",
+    "Fast Travel": "fast-travel",
+    "Housing Balloon": "housing-balloon",
+    "Item Identifier": "identifier",
+    "Jeweling Station": "profession:jeweling",
+    "Liquid Merchant": "merchant:liquid-emerald",
+    "Party Finder": "party-finder",
+    "Potion Merchant": "merchant:potion",
+    "Powder Master": "powder-master",
+    "Scribing Station": "profession:scribing",
+    "Scroll Merchant": "merchant:scroll",
+    "Seaskipper": "seaskipper",
+    "Tailoring Station": "profession:tailoring",
+    "Tool Merchant": "merchant:tool",
+    "Trade Market": "trade-market",
+    "Weapon Merchant": "merchant:weapon",
+    "Weaponsmithing Station": "profession:weaponsmithing",
+    "Woodworking Station": "profession:woodworking"
+  }[type];
+
+[.[] | .type as $type | .locations | to_entries | .[] |
+  {
+    featureId: to_feature_id($type; .key),
+    categoryId: ("wynntils:service:" + map_type($type)),
+    location: .value
+  }
+]
+' < $TARGET > $TARGET_MAPDATA
+
+# Calculate md5sum of the new gear data
+MD5=$(md5sum $TARGET_DIR/$TARGET_MAPDATA | cut -d' ' -f1)
+
+# Update urls.json with the new md5sum for dataStaticMapdataServices
+jq '. = [.[] | if (.id == "dataStaticMapdataServices") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
 mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json
