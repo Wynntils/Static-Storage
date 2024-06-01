@@ -15,8 +15,6 @@ transform_data() {
   jq 'def map_category(type): 
       if type == "bossAltar" then "boss-altar"
       elif type == "lootrunCamp" then "lootrun-camp"
-      elif type == "grindSpots" then "grind-spots"
-      elif type == "runeShrines" then "shrine"
       elif type == "dungeon" then "dungeon"
       elif type == "raid" then "raid"
       elif type == "Rune Shrines" then "shrine"
