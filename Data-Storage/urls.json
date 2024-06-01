@@ -164,6 +164,11 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/caves_mapdata.json"
   },
   {
+    "id": "dataStaticMapdataCombatLocations",
+    "md5": "fbbc2138f396b7c0970c2a968af3546d",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/combat_locations_mapdata.json"
+  },
+  {
     "id": "dataStaticMapdataPlaces",
     "md5": "feec214529dcf318085d3978098f87c8",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/places_mapdata.json"

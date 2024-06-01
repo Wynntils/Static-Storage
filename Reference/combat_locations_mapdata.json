@@ -1,0 +1,878 @@
+[
+  {
+    "featureId": "dungeon-corrupted-decrepit-sewers",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Decrepit Sewers",
+      "level": 70
+    },
+    "location": {
+      "x": 3554,
+      "y": 61,
+      "z": 2373
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-galleons-graveyard",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Galleon's Graveyard",
+      "level": 98
+    },
+    "location": {
+      "x": 4279,
+      "y": 39,
+      "z": -18365
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-ice-barrows",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Ice Barrows",
+      "level": 90
+    },
+    "location": {
+      "x": 2952,
+      "y": 74,
+      "z": 8111
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-infested-pit",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Infested Pit",
+      "level": 74
+    },
+    "location": {
+      "x": 3435,
+      "y": 35,
+      "z": 3510
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-lost-sanctuary",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Lost Sanctuary",
+      "level": 78
+    },
+    "location": {
+      "x": 3028,
+      "y": 80,
+      "z": 6322
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-sand-swept-tomb",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Sand-Swept Tomb",
+      "level": 86
+    },
+    "location": {
+      "x": 3320,
+      "y": 33,
+      "z": 4184
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-undergrowth-ruins",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Undergrowth Ruins",
+      "level": 94
+    },
+    "location": {
+      "x": 2861,
+      "y": 81,
+      "z": 8990
+    }
+  },
+  {
+    "featureId": "dungeon-corrupted-underworld-crypt",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Corrupted Underworld Crypt",
+      "level": 82
+    },
+    "location": {
+      "x": 3306,
+      "y": 16,
+      "z": 5344
+    }
+  },
+  {
+    "featureId": "dungeon-decrepit-sewers",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Decrepit Sewers",
+      "level": 9
+    },
+    "location": {
+      "x": -922,
+      "y": 65,
+      "z": -1885
+    }
+  },
+  {
+    "featureId": "dungeon-eldritch-outlook",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Eldritch Outlook",
+      "level": 100
+    },
+    "location": {
+      "x": 1285,
+      "y": 87,
+      "z": -753
+    }
+  },
+  {
+    "featureId": "dungeon-fallen-factory",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Fallen Factory",
+      "level": 90
+    },
+    "location": {
+      "x": -1655,
+      "y": 81,
+      "z": -2603
+    }
+  },
+  {
+    "featureId": "dungeon-galleons-graveyard",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Galleon's Graveyard",
+      "level": 63
+    },
+    "location": null
+  },
+  {
+    "featureId": "dungeon-ice-barrows",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Ice Barrows",
+      "level": 45
+    },
+    "location": {
+      "x": 134,
+      "y": 84,
+      "z": -639
+    }
+  },
+  {
+    "featureId": "dungeon-infested-pit",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Infested Pit",
+      "level": 18
+    },
+    "location": {
+      "x": -282,
+      "y": 35,
+      "z": -1829
+    }
+  },
+  {
+    "featureId": "dungeon-sand-swept-tomb",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Sand-Swept Tomb",
+      "level": 36
+    },
+    "location": {
+      "x": 1428,
+      "y": 95,
+      "z": -1830
+    }
+  },
+  {
+    "featureId": "dungeon-timelost-sanctum",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Timelost Sanctum",
+      "level": 27
+    },
+    "location": {
+      "x": -261,
+      "y": 28,
+      "z": -1063
+    }
+  },
+  {
+    "featureId": "dungeon-undergrowth-ruins",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Undergrowth Ruins",
+      "level": 54
+    },
+    "location": {
+      "x": -635,
+      "y": 59,
+      "z": -864
+    }
+  },
+  {
+    "featureId": "dungeon-underworld-crypt",
+    "categoryId": "wynntils:content:dungeon",
+    "attributes": {
+      "label": "Underworld Crypt",
+      "level": 24
+    },
+    "location": {
+      "x": 288,
+      "y": 16,
+      "z": -1952
+    }
+  },
+  {
+    "featureId": "raid-nest-of-the-grootslangs",
+    "categoryId": "wynntils:content:raid",
+    "attributes": {
+      "label": "Nest of the Grootslangs",
+      "level": 55
+    },
+    "location": {
+      "x": -1977,
+      "y": 63,
+      "z": -5614
+    }
+  },
+  {
+    "featureId": "raid-orphions-nexus-of-light",
+    "categoryId": "wynntils:content:raid",
+    "attributes": {
+      "label": "Orphion's Nexus of Light",
+      "level": 80
+    },
+    "location": {
+      "x": -731,
+      "y": 100,
+      "z": -6411
+    }
+  },
+  {
+    "featureId": "raid-the-canyon-colossus",
+    "categoryId": "wynntils:content:raid",
+    "attributes": {
+      "label": "The Canyon Colossus",
+      "level": 90
+    },
+    "location": {
+      "x": 656,
+      "y": 48,
+      "z": -4447
+    }
+  },
+  {
+    "featureId": "raid-the-nameless-anomaly",
+    "categoryId": "wynntils:content:raid",
+    "attributes": {
+      "label": "The Nameless Anomaly",
+      "level": 105
+    },
+    "location": {
+      "x": 1116,
+      "y": 84,
+      "z": -907
+    }
+  },
+  {
+    "featureId": "boss-altar-aerie-of-the-recluse",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Aerie of the Recluse",
+      "level": 95
+    },
+    "location": {
+      "x": -1748,
+      "y": 64,
+      "z": -3073
+    }
+  },
+  {
+    "featureId": "boss-altar-altar-of-sanctification",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Altar of Sanctification",
+      "level": 70
+    },
+    "location": {
+      "x": -911,
+      "y": 24,
+      "z": -623
+    }
+  },
+  {
+    "featureId": "boss-altar-arena-of-the-legends",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Arena of the Legends",
+      "level": 68
+    },
+    "location": {
+      "x": -692,
+      "y": 73,
+      "z": -1068
+    }
+  },
+  {
+    "featureId": "boss-altar-bottomless-pit",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Bottomless Pit",
+      "level": 101
+    },
+    "location": {
+      "x": 1322,
+      "y": 12,
+      "z": -528
+    }
+  },
+  {
+    "featureId": "boss-altar-bovine-barn",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Bovine Barn",
+      "level": 20
+    },
+    "location": {
+      "x": 471,
+      "y": 43,
+      "z": -2911
+    }
+  },
+  {
+    "featureId": "boss-altar-challenge-of-the-blades",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Challenge of the Blades",
+      "level": 70
+    },
+    "location": {
+      "x": -807,
+      "y": 75,
+      "z": -5390
+    }
+  },
+  {
+    "featureId": "boss-altar-geyser-pit",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Geyser Pit",
+      "level": 90
+    },
+    "location": {
+      "x": -1573,
+      "y": 27,
+      "z": -3204
+    }
+  },
+  {
+    "featureId": "boss-altar-magmastream-core",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Magmastream Core",
+      "level": 60
+    },
+    "location": {
+      "x": -1034,
+      "y": 97,
+      "z": -3651
+    }
+  },
+  {
+    "featureId": "boss-altar-plague-laboratory",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Plague Laboratory",
+      "level": 55
+    },
+    "location": {
+      "x": -1833,
+      "y": 46,
+      "z": -5266
+    }
+  },
+  {
+    "featureId": "boss-altar-prison-of-souls",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Prison of Souls",
+      "level": 45
+    },
+    "location": {
+      "x": 50,
+      "y": 68,
+      "z": -486
+    }
+  },
+  {
+    "featureId": "boss-altar-rotten-passage",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Rotten Passage",
+      "level": 25
+    },
+    "location": {
+      "x": 337,
+      "y": 38,
+      "z": -2038
+    }
+  },
+  {
+    "featureId": "boss-altar-sunrise-canyon",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Sunrise Canyon",
+      "level": 40
+    },
+    "location": {
+      "x": 1412,
+      "y": 99,
+      "z": -1462
+    }
+  },
+  {
+    "featureId": "boss-altar-tribal-sanctuary",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Tribal Sanctuary",
+      "level": 57
+    },
+    "location": {
+      "x": -708,
+      "y": 57,
+      "z": -660
+    }
+  },
+  {
+    "featureId": "boss-altar-unknown-area",
+    "categoryId": "wynntils:content:boss-altar",
+    "attributes": {
+      "label": "Unknown Area",
+      "level": 99
+    },
+    "location": {
+      "x": 1323,
+      "y": 33,
+      "z": -4611
+    }
+  },
+  {
+    "featureId": "lootrun-camp-molten-heights-hike",
+    "categoryId": "wynntils:content:lootrun-camp",
+    "attributes": {
+      "label": "Molten Heights Hike",
+      "level": 95
+    },
+    "location": {
+      "x": 1272,
+      "y": 10,
+      "z": -5135
+    }
+  },
+  {
+    "featureId": "lootrun-camp-silent-expanse-expedition",
+    "categoryId": "wynntils:content:lootrun-camp",
+    "attributes": {
+      "label": "Silent Expanse Expedition",
+      "level": 101
+    },
+    "location": {
+      "x": 991,
+      "y": 77,
+      "z": -781
+    }
+  },
+  {
+    "featureId": "lootrun-camp-sky-islands-exploration",
+    "categoryId": "wynntils:content:lootrun-camp",
+    "attributes": {
+      "label": "Sky Islands Exploration",
+      "level": 96
+    },
+    "location": {
+      "x": 1034,
+      "y": 135,
+      "z": -4419
+    }
+  },
+  {
+    "featureId": "lootrun-camp-the-corkus-traversal",
+    "categoryId": "wynntils:content:lootrun-camp",
+    "attributes": {
+      "label": "The Corkus Traversal",
+      "level": 90
+    },
+    "location": {
+      "x": -1555,
+      "y": 97,
+      "z": -2668
+    }
+  },
+  {
+    "featureId": "shrine-uth-shrine",
+    "categoryId": "wynntils:content:shrine",
+    "attributes": {
+      "label": "Uth Shrine"
+    },
+    "location": {
+      "x": -216,
+      "y": 137,
+      "z": -4460
+    }
+  },
+  {
+    "featureId": "shrine-uth-shrine",
+    "categoryId": "wynntils:content:shrine",
+    "attributes": {
+      "label": "Uth Shrine"
+    },
+    "location": {
+      "x": -1911,
+      "y": 109,
+      "z": -3235
+    }
+  },
+  {
+    "featureId": "grind-spots-witness-church",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Witness Church"
+    },
+    "location": {
+      "x": 1055,
+      "y": 117,
+      "z": -390
+    }
+  },
+  {
+    "featureId": "grind-spots-frozen-fort",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Frozen Fort"
+    },
+    "location": {
+      "x": 1538,
+      "y": 190,
+      "z": -4563
+    }
+  },
+  {
+    "featureId": "grind-spots-angel-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Angel Cave"
+    },
+    "location": {
+      "x": 1155,
+      "y": 160,
+      "z": -4365
+    }
+  },
+  {
+    "featureId": "grind-spots-the-scrapyard",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "The Scrapyard"
+    },
+    "location": {
+      "x": -1445,
+      "y": 72,
+      "z": -2522
+    }
+  },
+  {
+    "featureId": "grind-spots-ancient-nemract",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Ancient Nemract"
+    },
+    "location": {
+      "x": 309,
+      "y": 46,
+      "z": -2029
+    }
+  },
+  {
+    "featureId": "grind-spots-element-temple",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Element Temple"
+    },
+    "location": {
+      "x": -829,
+      "y": 119,
+      "z": -5852
+    }
+  },
+  {
+    "featureId": "grind-spots-zombie-tree",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Zombie Tree"
+    },
+    "location": {
+      "x": -355,
+      "y": 64,
+      "z": -1413
+    }
+  },
+  {
+    "featureId": "grind-spots-mt-wynn-spider-pit",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Mt. Wynn Spider Pit"
+    },
+    "location": {
+      "x": -54,
+      "y": 66,
+      "z": -1977
+    }
+  },
+  {
+    "featureId": "grind-spots-llevigar-spider-nest",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Llevigar Spider Nest"
+    },
+    "location": {
+      "x": -2147,
+      "y": 56,
+      "z": -4721
+    }
+  },
+  {
+    "featureId": "grind-spots-mushroom-plain",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Mushroom Plain"
+    },
+    "location": {
+      "x": 647,
+      "y": 61,
+      "z": -1530
+    }
+  },
+  {
+    "featureId": "grind-spots-evergreen-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Evergreen Cave"
+    },
+    "location": {
+      "x": 36,
+      "y": 20,
+      "z": -4714
+    }
+  },
+  {
+    "featureId": "grind-spots-mirror-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Mirror Cave"
+    },
+    "location": {
+      "x": 1324,
+      "y": 99,
+      "z": -4267
+    }
+  },
+  {
+    "featureId": "grind-spots-defiled-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Defiled Cave"
+    },
+    "location": {
+      "x": -571,
+      "y": 25,
+      "z": -595
+    }
+  },
+  {
+    "featureId": "grind-spots-abandoned-passage",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Abandoned Passage"
+    },
+    "location": {
+      "x": 753,
+      "y": 30,
+      "z": -1245
+    }
+  },
+  {
+    "featureId": "grind-spots-idol-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Idol Cave"
+    },
+    "location": {
+      "x": -701,
+      "y": 23,
+      "z": -298
+    }
+  },
+  {
+    "featureId": "grind-spots-teak-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Teak Cave"
+    },
+    "location": {
+      "x": -843,
+      "y": 67,
+      "z": -242
+    }
+  },
+  {
+    "featureId": "grind-spots-herb-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Herb Cave"
+    },
+    "location": {
+      "x": -510,
+      "y": 63,
+      "z": -839
+    }
+  },
+  {
+    "featureId": "grind-spots-myconid-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Myconid Cave"
+    },
+    "location": {
+      "x": -722,
+      "y": 10,
+      "z": -4642
+    }
+  },
+  {
+    "featureId": "grind-spots-frozen-fort",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Frozen Fort"
+    },
+    "location": {
+      "x": 1528,
+      "y": 231,
+      "z": -4586
+    }
+  },
+  {
+    "featureId": "grind-spots-dullahans-castle",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Dullahan's Castle"
+    },
+    "location": {
+      "x": -1175,
+      "y": 65,
+      "z": -5659
+    }
+  },
+  {
+    "featureId": "grind-spots-ice-wraith-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Ice Wraith Cave"
+    },
+    "location": {
+      "x": -347,
+      "y": 21,
+      "z": -251
+    }
+  },
+  {
+    "featureId": "grind-spots-time-valley",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Time Valley"
+    },
+    "location": {
+      "x": -469,
+      "y": 74,
+      "z": -1031
+    }
+  },
+  {
+    "featureId": "grind-spots-desert-altar",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Desert Altar"
+    },
+    "location": {
+      "x": 1306,
+      "y": 85,
+      "z": -2014
+    }
+  },
+  {
+    "featureId": "grind-spots-bandits-base",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Bandit's Base"
+    },
+    "location": {
+      "x": 229,
+      "y": 83,
+      "z": -5061
+    }
+  },
+  {
+    "featureId": "grind-spots-living-scrap-waterfall",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Living Scrap Waterfall"
+    },
+    "location": {
+      "x": -106,
+      "y": 47,
+      "z": -4592
+    }
+  },
+  {
+    "featureId": "grind-spots-basalt-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Basalt Cave"
+    },
+    "location": {
+      "x": 1538,
+      "y": 88,
+      "z": -5670
+    }
+  },
+  {
+    "featureId": "grind-spots-demon-cave",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Demon Cave"
+    },
+    "location": {
+      "x": 1413,
+      "y": 5,
+      "z": -4951
+    }
+  },
+  {
+    "featureId": "grind-spots-dragonling-nest",
+    "categoryId": "wynntils:content:grind-spots",
+    "attributes": {
+      "label": "Dragonling Nest"
+    },
+    "location": {
+      "x": 939,
+      "y": 65,
+      "z": -5010
+    }
+  }
+]
