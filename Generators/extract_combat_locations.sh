@@ -17,6 +17,7 @@ transform_data() {
       elif type == "lootrunCamp" then "lootrun-camp"
       elif type == "dungeon" then "dungeon"
       elif type == "raid" then "raid"
+      elif type == "cave" then "cave"
       elif type == "Rune Shrines" then "shrine"
       elif type == "Grind Spots" then "grind-spots"
       else type
@@ -37,7 +38,7 @@ transform_data() {
 
 # Read, transform, and write the JSON data from the primary source
 primary_data=$(cat $CONTENT_DIR/raw/content/content_book_dump.json | jq '[
-  .dungeon[], .raid[], .bossAltar[], .lootrunCamp[]
+  .dungeon[], .raid[], .bossAltar[], .lootrunCamp[], .cave[]
 ]' | transform_data)
 
 # Read, transform, and write the JSON data from the secondary source, filtering for 'Rune Shrines' and 'Grind Spots'

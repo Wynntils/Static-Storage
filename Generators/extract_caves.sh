@@ -14,28 +14,3 @@ MD5=$(md5sum $OUTPUT_DIR/caves.json | cut -d' ' -f1)
 # Update urls.json with the new md5sum for dataStaticCaveInfo
 jq '. = [.[] | if (.id == "dataStaticCaveInfo") then (.md5 = "'$MD5'") else . end]' < $BASE_DIR/Data-Storage/urls.json > $BASE_DIR/Data-Storage/urls.json.tmp
 mv $BASE_DIR/Data-Storage/urls.json.tmp $BASE_DIR/Data-Storage/urls.json
-
-jq '
-map(
-    {
-        featureId: ("caves-" + (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase)),
-        categoryId: "wynntils:content:caves",
-        attributes: {
-            label: .name,
-            level: .requirements
-        },
-        location: {
-            x: .location.x,
-            y: .location.y,
-            z: .location.z
-        }
-    }
-)
-' < $OUTPUT_DIR/caves.json > $OUTPUT_DIR/caves_mapdata.json
-
-# Calculate md5sum of the new cave data
-MD5=$(md5sum $OUTPUT_DIR/caves_mapdata.json | cut -d' ' -f1)
-
-# Update urls.json with the new md5sum for dataStaticMapdataCaveInfo
-jq '. = [.[] | if (.id == "dataStaticMapdataCaveInfo") then (.md5 = "'$MD5'") else . end]' < $BASE_DIR/Data-Storage/urls.json > $BASE_DIR/Data-Storage/urls.json.tmp
-mv $BASE_DIR/Data-Storage/urls.json.tmp $BASE_DIR/Data-Storage/urls.json

@@ -520,6 +520,2216 @@
     }
   },
   {
+    "featureId": "cave-abyssal-shine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Abyssal Shine",
+      "level": 87
+    },
+    "location": {
+      "x": 605,
+      "y": 27,
+      "z": -5072
+    }
+  },
+  {
+    "featureId": "cave-ancestor-grotto",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Ancestor Grotto",
+      "level": 2
+    },
+    "location": {
+      "x": -628,
+      "y": 48,
+      "z": -1953
+    }
+  },
+  {
+    "featureId": "cave-angel-falls",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Angel Falls",
+      "level": 97
+    },
+    "location": {
+      "x": 1026,
+      "y": 109,
+      "z": -4697
+    }
+  },
+  {
+    "featureId": "cave-aquaculture-aquifer",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Aquaculture Aquifer",
+      "level": 100
+    },
+    "location": {
+      "x": -1930,
+      "y": 83,
+      "z": -3325
+    }
+  },
+  {
+    "featureId": "cave-avos-animation-totem",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Avos Animation Totem",
+      "level": 98
+    },
+    "location": {
+      "x": -1759,
+      "y": 37,
+      "z": -2450
+    }
+  },
+  {
+    "featureId": "cave-azer-athenaeum",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Azer Athenaeum",
+      "level": 92
+    },
+    "location": {
+      "x": 1511,
+      "y": 48,
+      "z": -5176
+    }
+  },
+  {
+    "featureId": "cave-azurite-island",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Azurite Island",
+      "level": 94
+    },
+    "location": {
+      "x": 953,
+      "y": 141,
+      "z": -4761
+    }
+  },
+  {
+    "featureId": "cave-bandit-groundbreaking",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Bandit Groundbreaking",
+      "level": 75
+    },
+    "location": {
+      "x": -287,
+      "y": 45,
+      "z": -5552
+    }
+  },
+  {
+    "featureId": "cave-basalt-basin",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Basalt Basin",
+      "level": 72
+    },
+    "location": {
+      "x": -557,
+      "y": 31,
+      "z": -460
+    }
+  },
+  {
+    "featureId": "cave-bird-sanctuary",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Bird Sanctuary",
+      "level": 60
+    },
+    "location": {
+      "x": -928,
+      "y": 30,
+      "z": -410
+    }
+  },
+  {
+    "featureId": "cave-blaze-springs",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Blaze Springs",
+      "level": 85
+    },
+    "location": {
+      "x": 830,
+      "y": 45,
+      "z": -5350
+    }
+  },
+  {
+    "featureId": "cave-blazing-oasis",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Blazing Oasis",
+      "level": 30
+    },
+    "location": {
+      "x": 924,
+      "y": 75,
+      "z": -1348
+    }
+  },
+  {
+    "featureId": "cave-blind-burrow",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Blind Burrow",
+      "level": 100
+    },
+    "location": {
+      "x": 1393,
+      "y": 163,
+      "z": -1055
+    }
+  },
+  {
+    "featureId": "cave-boar-burrow",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Boar Burrow",
+      "level": 23
+    },
+    "location": {
+      "x": -227,
+      "y": 56,
+      "z": -2097
+    }
+  },
+  {
+    "featureId": "cave-bovine-bedrock",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Bovine Bedrock",
+      "level": 71
+    },
+    "location": {
+      "x": -608,
+      "y": 48,
+      "z": -4904
+    }
+  },
+  {
+    "featureId": "cave-breaking-ice",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Breaking Ice",
+      "level": 46
+    },
+    "location": {
+      "x": -134,
+      "y": 73,
+      "z": -797
+    }
+  },
+  {
+    "featureId": "cave-broodmothers-bestiary",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Broodmother's Bestiary",
+      "level": 85
+    },
+    "location": {
+      "x": 645,
+      "y": 91,
+      "z": -5328
+    }
+  },
+  {
+    "featureId": "cave-builder-bot-central",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Builder-Bot Central",
+      "level": 90
+    },
+    "location": {
+      "x": -1674,
+      "y": 52,
+      "z": -3060
+    }
+  },
+  {
+    "featureId": "cave-burning-bog",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Burning Bog",
+      "level": 79
+    },
+    "location": {
+      "x": -411,
+      "y": 37,
+      "z": -5205
+    }
+  },
+  {
+    "featureId": "cave-burning-delve",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Burning Delve",
+      "level": 87
+    },
+    "location": {
+      "x": 346,
+      "y": 34,
+      "z": -4606
+    }
+  },
+  {
+    "featureId": "cave-caged-creatures",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Caged Creatures",
+      "level": 100
+    },
+    "location": {
+      "x": 1134,
+      "y": 135,
+      "z": -1121
+    }
+  },
+  {
+    "featureId": "cave-cannibal-walkways",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cannibal Walkways",
+      "level": 71
+    },
+    "location": {
+      "x": -956,
+      "y": 43,
+      "z": -525
+    }
+  },
+  {
+    "featureId": "cave-captains-quarters",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Captain's Quarters",
+      "level": 19
+    },
+    "location": {
+      "x": 561,
+      "y": 38,
+      "z": -2085
+    }
+  },
+  {
+    "featureId": "cave-carnadile-den",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Carnadile Den",
+      "level": 53
+    },
+    "location": {
+      "x": -725,
+      "y": 64,
+      "z": -731
+    }
+  },
+  {
+    "featureId": "cave-cave-springs",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cave Springs",
+      "level": 17
+    },
+    "location": {
+      "x": 310,
+      "y": 59,
+      "z": -1851
+    }
+  },
+  {
+    "featureId": "cave-cave-of-doom",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cave of Doom",
+      "level": 95
+    },
+    "location": {
+      "x": 1405,
+      "y": 28,
+      "z": -5067
+    }
+  },
+  {
+    "featureId": "cave-cave-of-the-seasons",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cave of the Seasons",
+      "level": 82
+    },
+    "location": {
+      "x": -864,
+      "y": 51,
+      "z": -6131
+    }
+  },
+  {
+    "featureId": "cave-chiselers-cavern",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Chiseler's Cavern",
+      "level": 89
+    },
+    "location": {
+      "x": 622,
+      "y": 31,
+      "z": -4695
+    }
+  },
+  {
+    "featureId": "cave-corkus-quarry",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Corkus Quarry",
+      "level": 90
+    },
+    "location": {
+      "x": -1365,
+      "y": 93,
+      "z": -2736
+    }
+  },
+  {
+    "featureId": "cave-corrupt-time-warp",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Corrupt Time Warp",
+      "level": 22
+    },
+    "location": {
+      "x": -332,
+      "y": 68,
+      "z": -1301
+    }
+  },
+  {
+    "featureId": "cave-corrupted-passageway",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Corrupted Passageway",
+      "level": 9
+    },
+    "location": {
+      "x": -497,
+      "y": 67,
+      "z": -1629
+    }
+  },
+  {
+    "featureId": "cave-corruption-mines",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Corruption Mines",
+      "level": 28
+    },
+    "location": {
+      "x": 170,
+      "y": 70,
+      "z": -1187
+    }
+  },
+  {
+    "featureId": "cave-crab-fighters",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Crab Fighters",
+      "level": 6
+    },
+    "location": {
+      "x": -799,
+      "y": 37,
+      "z": -1965
+    }
+  },
+  {
+    "featureId": "cave-cryovern-covert",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cryovern Covert",
+      "level": 94
+    },
+    "location": {
+      "x": 1526,
+      "y": 67,
+      "z": -5427
+    }
+  },
+  {
+    "featureId": "cave-crypt-excavation",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Crypt Excavation",
+      "level": 6
+    },
+    "location": {
+      "x": -32,
+      "y": 69,
+      "z": -1432
+    }
+  },
+  {
+    "featureId": "cave-crystal-caverns",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Crystal Caverns",
+      "level": 30
+    },
+    "location": {
+      "x": 1120,
+      "y": 75,
+      "z": -2177
+    }
+  },
+  {
+    "featureId": "cave-crystalline-polynya",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Crystalline Polynya",
+      "level": 39
+    },
+    "location": {
+      "x": 1203,
+      "y": 36,
+      "z": -2937
+    }
+  },
+  {
+    "featureId": "cave-cultists-passage",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cultists Passage",
+      "level": 63
+    },
+    "location": {
+      "x": -1261,
+      "y": 45,
+      "z": -4460
+    }
+  },
+  {
+    "featureId": "cave-cyclonic-spirit-trap",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cyclonic Spirit Trap",
+      "level": 83
+    },
+    "location": {
+      "x": 600,
+      "y": 38,
+      "z": -5266
+    }
+  },
+  {
+    "featureId": "cave-cyclopes-shrine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Cyclopes' Shrine",
+      "level": 88
+    },
+    "location": {
+      "x": 51,
+      "y": 46,
+      "z": -4456
+    }
+  },
+  {
+    "featureId": "cave-demolition-derby",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Demolition Derby",
+      "level": 85
+    },
+    "location": {
+      "x": 590,
+      "y": 29,
+      "z": -4625
+    }
+  },
+  {
+    "featureId": "cave-derelict-mine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Derelict Mine",
+      "level": 6
+    },
+    "location": {
+      "x": -627,
+      "y": 69,
+      "z": -1760
+    }
+  },
+  {
+    "featureId": "cave-deserters-refuge",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Deserter's Refuge",
+      "level": 85
+    },
+    "location": {
+      "x": 499,
+      "y": 79,
+      "z": -5299
+    }
+  },
+  {
+    "featureId": "cave-detlas-salt-mine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Detlas Salt Mine",
+      "level": 10
+    },
+    "location": {
+      "x": 21,
+      "y": 63,
+      "z": -1767
+    }
+  },
+  {
+    "featureId": "cave-dragon-delta",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Dragon Delta",
+      "level": 93
+    },
+    "location": {
+      "x": 1259,
+      "y": 47,
+      "z": -5343
+    }
+  },
+  {
+    "featureId": "cave-dragonkin-nest",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Dragonkin Nest",
+      "level": 95
+    },
+    "location": {
+      "x": 1464,
+      "y": 172,
+      "z": -5529
+    }
+  },
+  {
+    "featureId": "cave-drones-retreat",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Drone's Retreat",
+      "level": 80
+    },
+    "location": {
+      "x": 234,
+      "y": 123,
+      "z": -5422
+    }
+  },
+  {
+    "featureId": "cave-dullahan-gardens",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Dullahan Gardens",
+      "level": 65
+    },
+    "location": {
+      "x": -1132,
+      "y": 82,
+      "z": -5684
+    }
+  },
+  {
+    "featureId": "cave-dust-bowl",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Dust Bowl",
+      "level": 30
+    },
+    "location": {
+      "x": 1003,
+      "y": 73,
+      "z": -1704
+    }
+  },
+  {
+    "featureId": "cave-earth-eaters",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Earth Eaters",
+      "level": 68
+    },
+    "location": {
+      "x": -1388,
+      "y": 45,
+      "z": -4981
+    }
+  },
+  {
+    "featureId": "cave-elemental-hollow",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Elemental Hollow",
+      "level": 66
+    },
+    "location": {
+      "x": -1110,
+      "y": 47,
+      "z": -5290
+    }
+  },
+  {
+    "featureId": "cave-emerald-knives-hideout",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Emerald Knives Hideout",
+      "level": 35
+    },
+    "location": {
+      "x": 1338,
+      "y": 79,
+      "z": -1705
+    }
+  },
+  {
+    "featureId": "cave-eyeball-gauntlet",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Eyeball Gauntlet",
+      "level": 100
+    },
+    "location": {
+      "x": 1088,
+      "y": 137,
+      "z": -345
+    }
+  },
+  {
+    "featureId": "cave-fallen-passage",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Fallen Passage",
+      "level": 32
+    },
+    "location": {
+      "x": 1301,
+      "y": 86,
+      "z": -2144
+    }
+  },
+  {
+    "featureId": "cave-fire--water",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Fire & Water",
+      "level": 7
+    },
+    "location": {
+      "x": -502,
+      "y": 71,
+      "z": -1722
+    }
+  },
+  {
+    "featureId": "cave-fire-swamp",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Fire Swamp",
+      "level": 57
+    },
+    "location": {
+      "x": -2098,
+      "y": 59,
+      "z": -5117
+    }
+  },
+  {
+    "featureId": "cave-flesh-mesh",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Flesh Mesh",
+      "level": 72
+    },
+    "location": {
+      "x": -751,
+      "y": 38,
+      "z": -5503
+    }
+  },
+  {
+    "featureId": "cave-forgotten-excavation",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Forgotten Excavation",
+      "level": 95
+    },
+    "location": {
+      "x": 987,
+      "y": 67,
+      "z": -4977
+    }
+  },
+  {
+    "featureId": "cave-fortress-catacombs",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Fortress Catacombs",
+      "level": 64
+    },
+    "location": {
+      "x": -1336,
+      "y": 45,
+      "z": -5079
+    }
+  },
+  {
+    "featureId": "cave-frog-hole",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Frog Hole",
+      "level": 50
+    },
+    "location": {
+      "x": -1756,
+      "y": 57,
+      "z": -5133
+    }
+  },
+  {
+    "featureId": "cave-fungas-log",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Fungas Log",
+      "level": 5
+    },
+    "location": {
+      "x": -142,
+      "y": 74,
+      "z": -1679
+    }
+  },
+  {
+    "featureId": "cave-gator-range",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Gator Range",
+      "level": 37
+    },
+    "location": {
+      "x": 1306,
+      "y": 31,
+      "z": -1452
+    }
+  },
+  {
+    "featureId": "cave-geodesic",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Geodesic",
+      "level": 90
+    },
+    "location": {
+      "x": -1369,
+      "y": 121,
+      "z": -3060
+    }
+  },
+  {
+    "featureId": "cave-gold-rush",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Gold Rush",
+      "level": 38
+    },
+    "location": {
+      "x": 1440,
+      "y": 33,
+      "z": -1369
+    }
+  },
+  {
+    "featureId": "cave-gorgon-gorge",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Gorgon Gorge",
+      "level": 80
+    },
+    "location": {
+      "x": 715,
+      "y": 47,
+      "z": -5495
+    }
+  },
+  {
+    "featureId": "cave-guardians-cove",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Guardians Cove",
+      "level": 85
+    },
+    "location": {
+      "x": 129,
+      "y": 45,
+      "z": -5565
+    }
+  },
+  {
+    "featureId": "cave-half-moon-island",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Half Moon Island",
+      "level": 37
+    },
+    "location": {
+      "x": 1085,
+      "y": 37,
+      "z": -2566
+    }
+  },
+  {
+    "featureId": "cave-haze-cave",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Haze Cave",
+      "level": 100
+    },
+    "location": {
+      "x": 948,
+      "y": 93,
+      "z": -1049
+    }
+  },
+  {
+    "featureId": "cave-headless-hollow",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Headless Hollow",
+      "level": 45
+    },
+    "location": {
+      "x": -22,
+      "y": 76,
+      "z": -297
+    }
+  },
+  {
+    "featureId": "cave-hex-keep-gateway",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Hex Keep Gateway",
+      "level": 7
+    },
+    "location": {
+      "x": -433,
+      "y": 66,
+      "z": -1691
+    }
+  },
+  {
+    "featureId": "cave-hill-hovel",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Hill Hovel",
+      "level": 11
+    },
+    "location": {
+      "x": 241,
+      "y": 70,
+      "z": -1559
+    }
+  },
+  {
+    "featureId": "cave-holehold-orc-camp",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Holehold Orc Camp",
+      "level": 45
+    },
+    "location": {
+      "x": -1767,
+      "y": 48,
+      "z": -4778
+    }
+  },
+  {
+    "featureId": "cave-ice-doors",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Ice Doors",
+      "level": 41
+    },
+    "location": {
+      "x": -118,
+      "y": 70,
+      "z": -923
+    }
+  },
+  {
+    "featureId": "cave-jade-well",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Jade Well",
+      "level": 60
+    },
+    "location": {
+      "x": -799,
+      "y": 43,
+      "z": -608
+    }
+  },
+  {
+    "featureId": "cave-jungle-fetish-camp",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Jungle Fetish Camp",
+      "level": 64
+    },
+    "location": {
+      "x": -698,
+      "y": 33,
+      "z": -607
+    }
+  },
+  {
+    "featureId": "cave-jungle-horrors",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Jungle Horrors",
+      "level": 54
+    },
+    "location": {
+      "x": -609,
+      "y": 108,
+      "z": -579
+    }
+  },
+  {
+    "featureId": "cave-jungle-labyrinth",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Jungle Labyrinth",
+      "level": 66
+    },
+    "location": {
+      "x": -667,
+      "y": 59,
+      "z": -926
+    }
+  },
+  {
+    "featureId": "cave-junk-pit",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Junk Pit",
+      "level": 90
+    },
+    "location": {
+      "x": -1782,
+      "y": 64,
+      "z": -2569
+    }
+  },
+  {
+    "featureId": "cave-kander-crypt",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Kander Crypt",
+      "level": 72
+    },
+    "location": {
+      "x": -406,
+      "y": 47,
+      "z": -5444
+    }
+  },
+  {
+    "featureId": "cave-lake-pit",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lake Pit",
+      "level": 24
+    },
+    "location": {
+      "x": 477,
+      "y": 68,
+      "z": -1226
+    }
+  },
+  {
+    "featureId": "cave-lamprophis-lair",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lamprophis Lair",
+      "level": 95
+    },
+    "location": {
+      "x": 1054,
+      "y": 46,
+      "z": -4961
+    }
+  },
+  {
+    "featureId": "cave-ledant-hill",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Ledant Hill",
+      "level": 72
+    },
+    "location": {
+      "x": -1222,
+      "y": 74,
+      "z": -4856
+    }
+  },
+  {
+    "featureId": "cave-lily-pad-parkour",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lily Pad Parkour",
+      "level": 55
+    },
+    "location": {
+      "x": -1834,
+      "y": 57,
+      "z": -5172
+    }
+  },
+  {
+    "featureId": "cave-lions-lair",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lion's Lair",
+      "level": 30
+    },
+    "location": {
+      "x": 768,
+      "y": 93,
+      "z": -2211
+    }
+  },
+  {
+    "featureId": "cave-loot-symposium",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Loot Symposium",
+      "level": 100
+    },
+    "location": {
+      "x": 775,
+      "y": 153,
+      "z": -950
+    }
+  },
+  {
+    "featureId": "cave-lovers-cavern",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lovers' Cavern",
+      "level": 20
+    },
+    "location": {
+      "x": 394,
+      "y": 44,
+      "z": -1990
+    }
+  },
+  {
+    "featureId": "cave-lower-abandoned-mines",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lower Abandoned Mines",
+      "level": 22
+    },
+    "location": {
+      "x": 769,
+      "y": 27,
+      "z": -1280
+    }
+  },
+  {
+    "featureId": "cave-lush-grotto",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Lush Grotto",
+      "level": 28
+    },
+    "location": {
+      "x": 719,
+      "y": 36,
+      "z": -2853
+    }
+  },
+  {
+    "featureId": "cave-maddening-mud",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Maddening Mud",
+      "level": 53
+    },
+    "location": {
+      "x": -1544,
+      "y": 48,
+      "z": -5337
+    }
+  },
+  {
+    "featureId": "cave-mesquis-tower",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Mesquis Tower",
+      "level": 72
+    },
+    "location": {
+      "x": -785,
+      "y": 58,
+      "z": -5036
+    }
+  },
+  {
+    "featureId": "cave-mossy-grotto",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Mossy Grotto",
+      "level": 16
+    },
+    "location": {
+      "x": -449,
+      "y": 67,
+      "z": -1394
+    }
+  },
+  {
+    "featureId": "cave-muddy-cavern",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Muddy Cavern",
+      "level": 20
+    },
+    "location": {
+      "x": 112,
+      "y": 48,
+      "z": -1945
+    }
+  },
+  {
+    "featureId": "cave-mycolite-mountain",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Mycolite Mountain",
+      "level": 96
+    },
+    "location": {
+      "x": 1015,
+      "y": 103,
+      "z": -4358
+    }
+  },
+  {
+    "featureId": "cave-mystifying-stump",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Mystifying Stump",
+      "level": 72
+    },
+    "location": {
+      "x": -754,
+      "y": 53,
+      "z": -5299
+    }
+  },
+  {
+    "featureId": "cave-naga-dugout",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Naga Dugout",
+      "level": 58
+    },
+    "location": {
+      "x": -2025,
+      "y": 59,
+      "z": -5081
+    }
+  },
+  {
+    "featureId": "cave-nest--bones",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Nest & Bones",
+      "level": 90
+    },
+    "location": {
+      "x": 1467,
+      "y": 46,
+      "z": -5559
+    }
+  },
+  {
+    "featureId": "cave-nymph-towers",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Nymph Towers",
+      "level": 69
+    },
+    "location": {
+      "x": -1052,
+      "y": 46,
+      "z": -4768
+    }
+  },
+  {
+    "featureId": "cave-old-growth-rot",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Old Growth Rot",
+      "level": 7
+    },
+    "location": {
+      "x": -265,
+      "y": 71,
+      "z": -1529
+    }
+  },
+  {
+    "featureId": "cave-orc-cove",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Orc Cove",
+      "level": 46
+    },
+    "location": {
+      "x": -1827,
+      "y": 53,
+      "z": -4899
+    }
+  },
+  {
+    "featureId": "cave-overgrown-rubble",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Overgrown Rubble",
+      "level": 96
+    },
+    "location": {
+      "x": 742,
+      "y": 87,
+      "z": -4890
+    }
+  },
+  {
+    "featureId": "cave-ovine-spire",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Ovine Spire",
+      "level": 96
+    },
+    "location": {
+      "x": 778,
+      "y": 81,
+      "z": -4721
+    }
+  },
+  {
+    "featureId": "cave-pigman-outpost",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Pigman Outpost",
+      "level": 1
+    },
+    "location": {
+      "x": -622,
+      "y": 69,
+      "z": -1570
+    }
+  },
+  {
+    "featureId": "cave-pirate-hold",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Pirate Hold",
+      "level": 18
+    },
+    "location": {
+      "x": 489,
+      "y": 39,
+      "z": -2067
+    }
+  },
+  {
+    "featureId": "cave-pirate-lattice",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Pirate Lattice",
+      "level": 90
+    },
+    "location": {
+      "x": -1394,
+      "y": 66,
+      "z": -2393
+    }
+  },
+  {
+    "featureId": "cave-pirate-sloop",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Pirate Sloop",
+      "level": 90
+    },
+    "location": {
+      "x": -1341,
+      "y": 35,
+      "z": -2229
+    }
+  },
+  {
+    "featureId": "cave-plasmatic-gouge",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Plasmatic Gouge",
+      "level": 89
+    },
+    "location": {
+      "x": 411,
+      "y": 40,
+      "z": -5166
+    }
+  },
+  {
+    "featureId": "cave-quicksand-carvers-den",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Quicksand Carvers' Den",
+      "level": 34
+    },
+    "location": {
+      "x": 974,
+      "y": 64,
+      "z": -2109
+    }
+  },
+  {
+    "featureId": "cave-raging-survivor",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Raging Survivor",
+      "level": 45
+    },
+    "location": {
+      "x": -287,
+      "y": 26,
+      "z": -555
+    }
+  },
+  {
+    "featureId": "cave-raging-tower",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Raging Tower",
+      "level": 10
+    },
+    "location": {
+      "x": 144,
+      "y": 68,
+      "z": -1680
+    }
+  },
+  {
+    "featureId": "cave-raiders-hideout",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Raiders' Hideout",
+      "level": 44
+    },
+    "location": {
+      "x": -252,
+      "y": 34,
+      "z": -291
+    }
+  },
+  {
+    "featureId": "cave-raiders-rockhill",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Raiders' Rockhill",
+      "level": 73
+    },
+    "location": {
+      "x": -111,
+      "y": 37,
+      "z": -4621
+    }
+  },
+  {
+    "featureId": "cave-recluse-nest",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Recluse Nest",
+      "level": 70
+    },
+    "location": {
+      "x": -755,
+      "y": 46,
+      "z": -4830
+    }
+  },
+  {
+    "featureId": "cave-rocky-peril",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Rocky Peril",
+      "level": 85
+    },
+    "location": {
+      "x": 330,
+      "y": 67,
+      "z": -4916
+    }
+  },
+  {
+    "featureId": "cave-root-slingers-rut",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Root Slingers' Rut",
+      "level": 75
+    },
+    "location": {
+      "x": -177,
+      "y": 34,
+      "z": -4864
+    }
+  },
+  {
+    "featureId": "cave-roots-of-infestation",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Roots of Infestation",
+      "level": 7
+    },
+    "location": {
+      "x": -209,
+      "y": 70,
+      "z": -1570
+    }
+  },
+  {
+    "featureId": "cave-rotten-altar",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Rotten Altar",
+      "level": 54
+    },
+    "location": {
+      "x": -570,
+      "y": 68,
+      "z": -612
+    }
+  },
+  {
+    "featureId": "cave-runaway-fleris-cranny",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Runaway Fleris Cranny",
+      "level": 88
+    },
+    "location": {
+      "x": 323,
+      "y": 68,
+      "z": -4633
+    }
+  },
+  {
+    "featureId": "cave-scarred-ingress",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Scarred Ingress",
+      "level": 93
+    },
+    "location": {
+      "x": 1264,
+      "y": 148,
+      "z": -4647
+    }
+  },
+  {
+    "featureId": "cave-scorched-earth",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Scorched Earth",
+      "level": 94
+    },
+    "location": {
+      "x": 1603,
+      "y": 154,
+      "z": -5069
+    }
+  },
+  {
+    "featureId": "cave-secret-mine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Secret Mine",
+      "level": 46
+    },
+    "location": {
+      "x": -1490,
+      "y": 48,
+      "z": -4990
+    }
+  },
+  {
+    "featureId": "cave-seismic-bore-hole",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Seismic Bore Hole",
+      "level": 85
+    },
+    "location": {
+      "x": 635,
+      "y": 54,
+      "z": -4716
+    }
+  },
+  {
+    "featureId": "cave-sewer-herps",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Sewer Herps",
+      "level": 57
+    },
+    "location": {
+      "x": -1983,
+      "y": 65,
+      "z": -5234
+    }
+  },
+  {
+    "featureId": "cave-shadow-altar",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Shadow Altar",
+      "level": 92
+    },
+    "location": {
+      "x": 1271,
+      "y": 95,
+      "z": -5427
+    }
+  },
+  {
+    "featureId": "cave-shadow-spears-refuge",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Shadow Spears Refuge",
+      "level": 35
+    },
+    "location": {
+      "x": 1339,
+      "y": 33,
+      "z": -1552
+    }
+  },
+  {
+    "featureId": "cave-shock-shrine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Shock Shrine",
+      "level": 75
+    },
+    "location": {
+      "x": -647,
+      "y": 50,
+      "z": -4419
+    }
+  },
+  {
+    "featureId": "cave-shroom-sleeper-dugout",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Shroom Sleeper Dugout",
+      "level": 71
+    },
+    "location": {
+      "x": -551,
+      "y": 45,
+      "z": -4689
+    }
+  },
+  {
+    "featureId": "cave-sink-hole",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Sink Hole",
+      "level": 55
+    },
+    "location": {
+      "x": -1512,
+      "y": 50,
+      "z": -5243
+    }
+  },
+  {
+    "featureId": "cave-skiens-prison-block",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Skien's Prison Block",
+      "level": 55
+    },
+    "location": {
+      "x": 405,
+      "y": 9,
+      "z": -3468
+    }
+  },
+  {
+    "featureId": "cave-sky-shroom",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Sky Shroom",
+      "level": 95
+    },
+    "location": {
+      "x": 1199,
+      "y": 108,
+      "z": -4289
+    }
+  },
+  {
+    "featureId": "cave-sol-hive",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Sol Hive",
+      "level": 46
+    },
+    "location": {
+      "x": -2203,
+      "y": 93,
+      "z": -4929
+    }
+  },
+  {
+    "featureId": "cave-spiteful-crossing",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Spiteful Crossing",
+      "level": 100
+    },
+    "location": {
+      "x": 854,
+      "y": 81,
+      "z": -668
+    }
+  },
+  {
+    "featureId": "cave-spore-spiral",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Spore Spiral",
+      "level": 12
+    },
+    "location": {
+      "x": 670,
+      "y": 71,
+      "z": -1617
+    }
+  },
+  {
+    "featureId": "cave-statue-opening",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Statue Opening",
+      "level": 100
+    },
+    "location": {
+      "x": 826,
+      "y": 79,
+      "z": -429
+    }
+  },
+  {
+    "featureId": "cave-steamworks",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Steamworks",
+      "level": 95
+    },
+    "location": {
+      "x": -1471,
+      "y": 63,
+      "z": -2376
+    }
+  },
+  {
+    "featureId": "cave-submerged-coal-mine",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Submerged Coal Mine",
+      "level": 45
+    },
+    "location": {
+      "x": -120,
+      "y": 30,
+      "z": -294
+    }
+  },
+  {
+    "featureId": "cave-subterranean-mire",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Subterranean Mire",
+      "level": 60
+    },
+    "location": {
+      "x": -809,
+      "y": 23,
+      "z": -448
+    }
+  },
+  {
+    "featureId": "cave-sunken-ship",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Sunken Ship",
+      "level": 18
+    },
+    "location": {
+      "x": 215,
+      "y": 34,
+      "z": -2410
+    }
+  },
+  {
+    "featureId": "cave-swamp-hill",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Swamp Hill",
+      "level": 50
+    },
+    "location": {
+      "x": -2059,
+      "y": 58,
+      "z": -5241
+    }
+  },
+  {
+    "featureId": "cave-temple-entrance",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Temple Entrance",
+      "level": 68
+    },
+    "location": {
+      "x": -675,
+      "y": 32,
+      "z": -306
+    }
+  },
+  {
+    "featureId": "cave-termite-mounds",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Termite Mounds",
+      "level": 24
+    },
+    "location": {
+      "x": 727,
+      "y": 76,
+      "z": -1707
+    }
+  },
+  {
+    "featureId": "cave-the-alcazar",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Alcazar",
+      "level": 27
+    },
+    "location": {
+      "x": -499,
+      "y": 76,
+      "z": -1024
+    }
+  },
+  {
+    "featureId": "cave-the-donjon",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Donjon",
+      "level": 95
+    },
+    "location": {
+      "x": 900,
+      "y": 97,
+      "z": -4408
+    }
+  },
+  {
+    "featureId": "cave-the-gwanari",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Gwanari",
+      "level": 100
+    },
+    "location": {
+      "x": 983,
+      "y": 75,
+      "z": -470
+    }
+  },
+  {
+    "featureId": "cave-the-heartwood",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Heartwood",
+      "level": 69
+    },
+    "location": {
+      "x": -625,
+      "y": 66,
+      "z": -289
+    }
+  },
+  {
+    "featureId": "cave-the-lantern-keepers-abode",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Lantern Keeper's Abode",
+      "level": 100
+    },
+    "location": {
+      "x": 1285,
+      "y": 103,
+      "z": -1060
+    }
+  },
+  {
+    "featureId": "cave-the-place-coalesced",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Place Coalesced",
+      "level": 100
+    },
+    "location": {
+      "x": 879,
+      "y": 79,
+      "z": -803
+    }
+  },
+  {
+    "featureId": "cave-the-place-condensed",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Place Condensed",
+      "level": 100
+    },
+    "location": {
+      "x": 1038,
+      "y": 84,
+      "z": -692
+    }
+  },
+  {
+    "featureId": "cave-the-place-conglomerated",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Place Conglomerated",
+      "level": 100
+    },
+    "location": {
+      "x": 1313,
+      "y": 144,
+      "z": -1048
+    }
+  },
+  {
+    "featureId": "cave-the-sacrificial-altar",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Sacrificial Altar",
+      "level": 22
+    },
+    "location": {
+      "x": -298,
+      "y": 38,
+      "z": -969
+    }
+  },
+  {
+    "featureId": "cave-the-warehouse",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "The Warehouse",
+      "level": 90
+    },
+    "location": {
+      "x": -1847,
+      "y": 41,
+      "z": -2641
+    }
+  },
+  {
+    "featureId": "cave-thunder-grub-nest",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Thunder Grub Nest",
+      "level": 53
+    },
+    "location": {
+      "x": -618,
+      "y": 62,
+      "z": -728
+    }
+  },
+  {
+    "featureId": "cave-tidepool-terrace",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Tidepool Terrace",
+      "level": 4
+    },
+    "location": {
+      "x": -512,
+      "y": 35,
+      "z": -2015
+    }
+  },
+  {
+    "featureId": "cave-time-valley-aquifer",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Time Valley Aquifer",
+      "level": 26
+    },
+    "location": {
+      "x": -377,
+      "y": 74,
+      "z": -1167
+    }
+  },
+  {
+    "featureId": "cave-treasure-tomb",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Treasure Tomb",
+      "level": 30
+    },
+    "location": {
+      "x": 1030,
+      "y": 68,
+      "z": -2169
+    }
+  },
+  {
+    "featureId": "cave-tree-of-light",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Tree of Light",
+      "level": 77
+    },
+    "location": {
+      "x": -893,
+      "y": 54,
+      "z": -6217
+    }
+  },
+  {
+    "featureId": "cave-troll-burrows",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Troll Burrows",
+      "level": 80
+    },
+    "location": {
+      "x": 858,
+      "y": 80,
+      "z": -5198
+    }
+  },
+  {
+    "featureId": "cave-troll-tower",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Troll Tower",
+      "level": 30
+    },
+    "location": {
+      "x": 1106,
+      "y": 85,
+      "z": -2870
+    }
+  },
+  {
+    "featureId": "cave-trunk-garrison",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Trunk Garrison",
+      "level": 51
+    },
+    "location": {
+      "x": -560,
+      "y": 79,
+      "z": -959
+    }
+  },
+  {
+    "featureId": "cave-visceral-remnant",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Visceral Remnant",
+      "level": 74
+    },
+    "location": {
+      "x": -997,
+      "y": 45,
+      "z": -5559
+    }
+  },
+  {
+    "featureId": "cave-volcanus-pit",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Volcanus Pit",
+      "level": 58
+    },
+    "location": {
+      "x": -830,
+      "y": 40,
+      "z": -3794
+    }
+  },
+  {
+    "featureId": "cave-voltaic-crag",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Voltaic Crag",
+      "level": 81
+    },
+    "location": {
+      "x": 630,
+      "y": 44,
+      "z": -4945
+    }
+  },
+  {
+    "featureId": "cave-vortex-complex",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Vortex Complex",
+      "level": 22
+    },
+    "location": {
+      "x": -182,
+      "y": 71,
+      "z": -1210
+    }
+  },
+  {
+    "featureId": "cave-watery-waterfall",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Watery Waterfall",
+      "level": 85
+    },
+    "location": {
+      "x": 536,
+      "y": 30,
+      "z": -5363
+    }
+  },
+  {
+    "featureId": "cave-wave-cult-temple",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Wave Cult Temple",
+      "level": 32
+    },
+    "location": {
+      "x": -251,
+      "y": 36,
+      "z": -2725
+    }
+  },
+  {
+    "featureId": "cave-weird-wilds",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Weird Wilds",
+      "level": 72
+    },
+    "location": {
+      "x": -967,
+      "y": 65,
+      "z": -4353
+    }
+  },
+  {
+    "featureId": "cave-weirding-ring",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Weirding Ring",
+      "level": 75
+    },
+    "location": {
+      "x": -498,
+      "y": 41,
+      "z": -5293
+    }
+  },
+  {
+    "featureId": "cave-willow-crypt",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Willow Crypt",
+      "level": 16
+    },
+    "location": {
+      "x": 591,
+      "y": 81,
+      "z": -1866
+    }
+  },
+  {
+    "featureId": "cave-windwalker-temple",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Windwalker Temple",
+      "level": 96
+    },
+    "location": {
+      "x": 1358,
+      "y": 121,
+      "z": -4745
+    }
+  },
+  {
+    "featureId": "cave-winery-infestation",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Winery Infestation",
+      "level": 11
+    },
+    "location": {
+      "x": 282,
+      "y": 70,
+      "z": -1392
+    }
+  },
+  {
+    "featureId": "cave-wolf-den",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Wolf Den",
+      "level": 43
+    },
+    "location": {
+      "x": 175,
+      "y": 72,
+      "z": -715
+    }
+  },
+  {
     "featureId": "shrine-uth-shrine",
     "categoryId": "wynntils:content:shrine",
     "attributes": {
