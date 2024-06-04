@@ -22,7 +22,7 @@ transform_data() {
         elif type == "raid" then "raid"
         elif type == "cave" then "cave"
         elif type == "Rune Shrines" then "shrine"
-        elif type == "Grind Spots" then "grind-spots"
+        elif type == "Grind Spots" then "grind-spot"
         else type
         end;
 

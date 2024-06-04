@@ -2754,8 +2754,8 @@
     }
   },
   {
-    "featureId": "grind-spots-witness-church",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-witness-church",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Witness Church"
     },
@@ -2766,8 +2766,8 @@
     }
   },
   {
-    "featureId": "grind-spots-frozen-fort",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-frozen-fort",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Frozen Fort"
     },
@@ -2778,8 +2778,8 @@
     }
   },
   {
-    "featureId": "grind-spots-angel-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-angel-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Angel Cave"
     },
@@ -2790,8 +2790,8 @@
     }
   },
   {
-    "featureId": "grind-spots-the-scrapyard",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-the-scrapyard",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "The Scrapyard"
     },
@@ -2802,8 +2802,8 @@
     }
   },
   {
-    "featureId": "grind-spots-ancient-nemract",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-ancient-nemract",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Ancient Nemract"
     },
@@ -2814,8 +2814,8 @@
     }
   },
   {
-    "featureId": "grind-spots-element-temple",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-element-temple",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Element Temple"
     },
@@ -2826,8 +2826,8 @@
     }
   },
   {
-    "featureId": "grind-spots-zombie-tree",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-zombie-tree",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Zombie Tree"
     },
@@ -2838,8 +2838,8 @@
     }
   },
   {
-    "featureId": "grind-spots-mt-wynn-spider-pit",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-mt-wynn-spider-pit",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Mt. Wynn Spider Pit"
     },
@@ -2850,8 +2850,8 @@
     }
   },
   {
-    "featureId": "grind-spots-llevigar-spider-nest",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-llevigar-spider-nest",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Llevigar Spider Nest"
     },
@@ -2862,8 +2862,8 @@
     }
   },
   {
-    "featureId": "grind-spots-mushroom-plain",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-mushroom-plain",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Mushroom Plain"
     },
@@ -2874,8 +2874,8 @@
     }
   },
   {
-    "featureId": "grind-spots-evergreen-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-evergreen-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Evergreen Cave"
     },
@@ -2886,8 +2886,8 @@
     }
   },
   {
-    "featureId": "grind-spots-mirror-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-mirror-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Mirror Cave"
     },
@@ -2898,8 +2898,8 @@
     }
   },
   {
-    "featureId": "grind-spots-defiled-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-defiled-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Defiled Cave"
     },
@@ -2910,8 +2910,8 @@
     }
   },
   {
-    "featureId": "grind-spots-abandoned-passage",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-abandoned-passage",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Abandoned Passage"
     },
@@ -2922,8 +2922,8 @@
     }
   },
   {
-    "featureId": "grind-spots-idol-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-idol-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Idol Cave"
     },
@@ -2934,8 +2934,8 @@
     }
   },
   {
-    "featureId": "grind-spots-teak-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-teak-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Teak Cave"
     },
@@ -2946,8 +2946,8 @@
     }
   },
   {
-    "featureId": "grind-spots-herb-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-herb-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Herb Cave"
     },
@@ -2958,8 +2958,8 @@
     }
   },
   {
-    "featureId": "grind-spots-myconid-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-myconid-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Myconid Cave"
     },
@@ -2970,8 +2970,8 @@
     }
   },
   {
-    "featureId": "grind-spots-frozen-fort",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-frozen-fort",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Frozen Fort"
     },
@@ -2982,8 +2982,8 @@
     }
   },
   {
-    "featureId": "grind-spots-dullahans-castle",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-dullahans-castle",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Dullahan's Castle"
     },
@@ -2994,8 +2994,8 @@
     }
   },
   {
-    "featureId": "grind-spots-ice-wraith-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-ice-wraith-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Ice Wraith Cave"
     },
@@ -3006,8 +3006,8 @@
     }
   },
   {
-    "featureId": "grind-spots-time-valley",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-time-valley",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Time Valley"
     },
@@ -3018,8 +3018,8 @@
     }
   },
   {
-    "featureId": "grind-spots-desert-altar",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-desert-altar",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Desert Altar"
     },
@@ -3030,8 +3030,8 @@
     }
   },
   {
-    "featureId": "grind-spots-bandits-base",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-bandits-base",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Bandit's Base"
     },
@@ -3042,8 +3042,8 @@
     }
   },
   {
-    "featureId": "grind-spots-living-scrap-waterfall",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-living-scrap-waterfall",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Living Scrap Waterfall"
     },
@@ -3054,8 +3054,8 @@
     }
   },
   {
-    "featureId": "grind-spots-basalt-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-basalt-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Basalt Cave"
     },
@@ -3066,8 +3066,8 @@
     }
   },
   {
-    "featureId": "grind-spots-demon-cave",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-demon-cave",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Demon Cave"
     },
@@ -3078,8 +3078,8 @@
     }
   },
   {
-    "featureId": "grind-spots-dragonling-nest",
-    "categoryId": "wynntils:content:grind-spots",
+    "featureId": "grind-spot-dragonling-nest",
+    "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Dragonling Nest"
     },
