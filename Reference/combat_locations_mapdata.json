@@ -1,7 +1,7 @@
 [
   {
     "featureId": "dungeon-corrupted-decrepit-sewers",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Decrepit Sewers",
       "level": 70
@@ -14,7 +14,7 @@
   },
   {
     "featureId": "dungeon-corrupted-galleons-graveyard",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Galleon's Graveyard",
       "level": 98
@@ -27,7 +27,7 @@
   },
   {
     "featureId": "dungeon-corrupted-ice-barrows",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Ice Barrows",
       "level": 90
@@ -40,7 +40,7 @@
   },
   {
     "featureId": "dungeon-corrupted-infested-pit",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Infested Pit",
       "level": 74
@@ -53,7 +53,7 @@
   },
   {
     "featureId": "dungeon-corrupted-lost-sanctuary",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Lost Sanctuary",
       "level": 78
@@ -66,7 +66,7 @@
   },
   {
     "featureId": "dungeon-corrupted-sand-swept-tomb",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Sand-Swept Tomb",
       "level": 86
@@ -79,7 +79,7 @@
   },
   {
     "featureId": "dungeon-corrupted-undergrowth-ruins",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Undergrowth Ruins",
       "level": 94
@@ -92,7 +92,7 @@
   },
   {
     "featureId": "dungeon-corrupted-underworld-crypt",
-    "categoryId": "wynntils:content:dungeon",
+    "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Underworld Crypt",
       "level": 82

@@ -12,20 +12,23 @@ mkdir -p $OUTPUT_DIR
 
 # Function to map and transform data
 transform_data() {
-  jq 'def map_category(type): 
-      if type == "bossAltar" then "boss-altar"
-      elif type == "lootrunCamp" then "lootrun-camp"
-      elif type == "dungeon" then "dungeon"
-      elif type == "raid" then "raid"
-      elif type == "cave" then "cave"
-      elif type == "Rune Shrines" then "shrine"
-      elif type == "Grind Spots" then "grind-spots"
-      else type
-      end;
+  jq 'def map_category(type; name):
+        if type == "bossAltar" then "boss-altar"
+        elif type == "lootrunCamp" then "lootrun-camp"
+        elif type == "dungeon" then
+          if (name | startswith("Corrupted ")) then "dungeon:corrupted"
+          else "dungeon"
+          end
+        elif type == "raid" then "raid"
+        elif type == "cave" then "cave"
+        elif type == "Rune Shrines" then "shrine"
+        elif type == "Grind Spots" then "grind-spots"
+        else type
+        end;
 
       map({
-        featureId: (map_category(.type) + "-" + (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase)),
-        categoryId: ("wynntils:content:" + map_category(.type)),
+        featureId: (map_category(.type; "") + "-" + (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase)),
+        categoryId: ("wynntils:content:" + map_category(.type; .name)),
         attributes: (if .requirements.level then {
             label: .name,
             level: .requirements.level
@@ -38,12 +41,12 @@ transform_data() {
 
 # Read, transform, and write the JSON data from the primary source
 primary_data=$(cat $CONTENT_DIR/raw/content/content_book_dump.json | jq '[
-  .dungeon[], .raid[], .bossAltar[], .lootrunCamp[], .cave[]
+.dungeon[], .raid[], .bossAltar[], .lootrunCamp[], .cave[]
 ]' | transform_data)
 
 # Read, transform, and write the JSON data from the secondary source, filtering for 'Rune Shrines' and 'Grind Spots'
 secondary_data=$(cat "$CONTENT_DIR/combat_locations.json" | jq '[
-  .[] | select(.type == "Rune Shrines" or .type == "Grind Spots") | 
+.[] | select(.type == "Rune Shrines" or .type == "Grind Spots") |
 {type, locations} | (.locations[] | 
 {
     name: .name,
