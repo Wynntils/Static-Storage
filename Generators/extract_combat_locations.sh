@@ -59,11 +59,11 @@ secondary_data=$(cat "$CONTENT_DIR/combat_locations.json" | jq '[
 combined_data=$(echo "$primary_data" "$secondary_data" | jq -s add)
 
 # Write the combined data to the output file
-echo "$combined_data" > $OUTPUT_DIR/combat_locations_mapdata.json
+echo "$combined_data" > $OUTPUT_DIR/combat_mapfeatures.json
 
 # Calculate md5sum of the new cave data
-MD5=$(md5sum $OUTPUT_DIR/combat_locations_mapdata.json | cut -d' ' -f1)
+MD5=$(md5sum $OUTPUT_DIR/combat_mapfeatures.json | cut -d' ' -f1)
 
-# Update urls.json with the new md5sum for dataStaticMapdataCombatLocations
-jq '. = [.[] | if (.id == "dataStaticMapdataCombatLocations") then (.md5 = "'$MD5'") else . end]' < $BASE_DIR/Data-Storage/urls.json > $BASE_DIR/Data-Storage/urls.json.tmp
+# Update urls.json with the new md5sum for dataStaticCombatMapFeatures
+jq '. = [.[] | if (.id == "dataStaticCombatMapFeatures") then (.md5 = "'$MD5'") else . end]' < $BASE_DIR/Data-Storage/urls.json > $BASE_DIR/Data-Storage/urls.json.tmp
 mv $BASE_DIR/Data-Storage/urls.json.tmp $BASE_DIR/Data-Storage/urls.json

@@ -5,7 +5,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 TARGET="services.json"
-TARGET_MAPDATA="services_mapdata.json"
+TARGET_MAPFEATURES="service_mapfeatures.json"
 
 # Download the json file from Wynncraft API
 wget -O markers.json.tmp "https://api.wynncraft.com/v3/map/locations/markers"
@@ -131,11 +131,11 @@ def map_type(type):
     location: .value
   }
 ]
-' < $TARGET > $TARGET_MAPDATA
+' < $TARGET > $TARGET_MAPFEATURES
 
 # Calculate md5sum of the new gear data
-MD5=$(md5sum $TARGET_DIR/$TARGET_MAPDATA | cut -d' ' -f1)
+MD5=$(md5sum $TARGET_DIR/$TARGET_MAPFEATURES | cut -d' ' -f1)
 
-# Update urls.json with the new md5sum for dataStaticMapdataServices
-jq '. = [.[] | if (.id == "dataStaticMapdataServices") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
+# Update urls.json with the new md5sum for dataStaticServicesMapFeatures
+jq '. = [.[] | if (.id == "dataStaticServicesMapFeatures") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
 mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json

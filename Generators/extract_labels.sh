@@ -7,7 +7,7 @@
 #
 MYDIR=$(cd $(dirname "$0") >/dev/null 2>&1 && pwd)
 TARGET="$MYDIR/../Reference/places.json"
-TARGET_MAPDATA="$MYDIR/../Reference/places_mapdata.json"
+TARGET_MAPFEATURES="$MYDIR/../Reference/place_mapfeatures.json"
 
 # This file contain additional labels that are not provided by upstread.
 MISSING="$MYDIR/../Data-Storage/map-labels-missing.json"
@@ -123,13 +123,13 @@ jq '[
         end
       )} else {} end)
 ]
-' < "$TARGET" > "$TARGET_MAPDATA"
+' < "$TARGET" > "$TARGET_MAPFEATURES"
 
-# Calculate md5sum of the new places_mapdata.json
-MD5=$(md5sum $TARGET_MAPDATA | cut -d' ' -f1)
+# Calculate md5sum of the new place_mapfeatures.json
+MD5=$(md5sum $TARGET_MAPFEATURES | cut -d' ' -f1)
 
-# Update urls.json with the new md5sum for dataStaticMapdataPlaces
-jq '. = [.[] | if (.id == "dataStaticMapdataPlaces") then (.md5 = "'$MD5'") else . end]' < $MYDIR/../Data-Storage/urls.json > $MYDIR/../Data-Storage/urls.json.tmp
+# Update urls.json with the new md5sum for dataStaticPlaceMapFeatures
+jq '. = [.[] | if (.id == "dataStaticPlaceMapFeatures") then (.md5 = "'$MD5'") else . end]' < $MYDIR/../Data-Storage/urls.json > $MYDIR/../Data-Storage/urls.json.tmp
 mv $MYDIR/../Data-Storage/urls.json.tmp $MYDIR/../Data-Storage/urls.json
 
-echo Finished updating "$TARGET_MAPDATA"
+echo Finished updating "$TARGET_MAPFEATURES"
