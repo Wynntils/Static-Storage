@@ -27,7 +27,7 @@ transform_data() {
         end;
 
       map({
-        featureId: (map_category(.type; "") + "-" + (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase)),
+        featureId: (.name | gsub(" "; "-") | gsub("[^a-zA-Z0-9\\-]+"; "") | ascii_downcase),
         categoryId: ("wynntils:content:" + map_category(.type; .name)),
         attributes: (if .requirements.level then {
             label: .name,

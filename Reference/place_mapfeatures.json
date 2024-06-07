@@ -1,6 +1,6 @@
 [
   {
-    "featureId": "labels-abandoned-mines",
+    "featureId": "abandoned-mines",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Abandoned Mines"
@@ -13,7 +13,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-ahmsord",
+    "featureId": "ahmsord",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Ahmsord"
@@ -26,7 +26,7 @@
     "level": 100
   },
   {
-    "featureId": "labels-aldorei",
+    "featureId": "aldorei",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Aldorei"
@@ -39,7 +39,7 @@
     "level": 75
   },
   {
-    "featureId": "labels-almuj",
+    "featureId": "almuj",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Almuj"
@@ -52,7 +52,7 @@
     "level": 30
   },
   {
-    "featureId": "labels-ancient-nemract",
+    "featureId": "ancient-nemract",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Ancient Nemract"
@@ -65,7 +65,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-avos-territory",
+    "featureId": "avos-territory",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Avos Territory"
@@ -78,7 +78,7 @@
     "level": 90
   },
   {
-    "featureId": "labels-bantisu-air-temple",
+    "featureId": "bantisu-air-temple",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Bantisu Air Temple"
@@ -91,7 +91,7 @@
     "level": 85
   },
   {
-    "featureId": "labels-black-road",
+    "featureId": "black-road",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Black Road"
@@ -104,7 +104,7 @@
     "level": 12
   },
   {
-    "featureId": "labels-bremminglar",
+    "featureId": "bremminglar",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Bremminglar"
@@ -117,7 +117,7 @@
     "level": 15
   },
   {
-    "featureId": "labels-bucie",
+    "featureId": "bucie",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Bucie"
@@ -130,7 +130,7 @@
     "level": 40
   },
   {
-    "featureId": "labels-canyon-of-the-lost",
+    "featureId": "canyon-of-the-lost",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Canyon of the Lost"
@@ -143,7 +143,7 @@
     "level": 85
   },
   {
-    "featureId": "labels-caritat-mansion",
+    "featureId": "caritat-mansion",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Caritat Mansion"
@@ -156,7 +156,7 @@
     "level": 65
   },
   {
-    "featureId": "labels-cinfras",
+    "featureId": "cinfras",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Cinfras"
@@ -169,7 +169,7 @@
     "level": 75
   },
   {
-    "featureId": "labels-coastal-trail",
+    "featureId": "coastal-trail",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Coastal Trail"
@@ -182,7 +182,7 @@
     "level": 5
   },
   {
-    "featureId": "labels-corkus-city",
+    "featureId": "corkus-city",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Corkus City"
@@ -195,7 +195,7 @@
     "level": 85
   },
   {
-    "featureId": "labels-corkus-island",
+    "featureId": "corkus-island",
     "categoryId": "wynntils:place:province",
     "attributes": {
       "label": "Corkus Island"
@@ -207,7 +207,7 @@
     }
   },
   {
-    "featureId": "labels-corrupted-village",
+    "featureId": "corrupted-village",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Corrupted Village"
@@ -220,7 +220,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-dark-forest",
+    "featureId": "dark-forest",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Dark Forest"
@@ -233,7 +233,7 @@
     "level": 60
   },
   {
-    "featureId": "labels-dead-island",
+    "featureId": "dead-island",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Dead Island"
@@ -246,7 +246,7 @@
     "level": 75
   },
   {
-    "featureId": "labels-dernel-jungle",
+    "featureId": "dernel-jungle",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Dernel Jungle"
@@ -259,7 +259,7 @@
     "level": 60
   },
   {
-    "featureId": "labels-detlas",
+    "featureId": "detlas",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Detlas"
@@ -272,7 +272,7 @@
     "level": 10
   },
   {
-    "featureId": "labels-detlas-suburb",
+    "featureId": "detlas-suburb",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Detlas Suburb"
@@ -285,7 +285,7 @@
     "level": 10
   },
   {
-    "featureId": "labels-devastated-swamp",
+    "featureId": "devastated-swamp",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Devastated Swamp"
@@ -298,7 +298,7 @@
     "level": 55
   },
   {
-    "featureId": "labels-door-of-time",
+    "featureId": "door-of-time",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Door of Time"
@@ -311,7 +311,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-dujgon-nation",
+    "featureId": "dujgon-nation",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Dujgon Nation"
@@ -324,7 +324,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-dullahan-castle",
+    "featureId": "dullahan-castle",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Dullahan Castle"
@@ -337,7 +337,7 @@
     "level": 65
   },
   {
-    "featureId": "labels-durum-isles",
+    "featureId": "durum-isles",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Durum Isles"
@@ -350,7 +350,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-efilim",
+    "featureId": "efilim",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Efilim"
@@ -363,7 +363,7 @@
     "level": 70
   },
   {
-    "featureId": "labels-elkurn",
+    "featureId": "elkurn",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Elkurn"
@@ -376,7 +376,7 @@
     "level": 5
   },
   {
-    "featureId": "labels-eltom",
+    "featureId": "eltom",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Eltom"
@@ -389,7 +389,7 @@
     "level": 85
   },
   {
-    "featureId": "labels-emerald-trail",
+    "featureId": "emerald-trail",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Emerald Trail"
@@ -402,7 +402,7 @@
     "level": 1
   },
   {
-    "featureId": "labels-fallen-meteor",
+    "featureId": "fallen-meteor",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Fallen Meteor"
@@ -415,7 +415,7 @@
     "level": 40
   },
   {
-    "featureId": "labels-gelibord",
+    "featureId": "gelibord",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Gelibord"
@@ -428,7 +428,7 @@
     "level": 60
   },
   {
-    "featureId": "labels-gert-camp",
+    "featureId": "gert-camp",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Gert Camp"
@@ -441,7 +441,7 @@
     "level": 75
   },
   {
-    "featureId": "labels-ghost-ship",
+    "featureId": "ghost-ship",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Ghost Ship"
@@ -454,7 +454,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-guild-hall",
+    "featureId": "guild-hall",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Guild Hall"
@@ -466,7 +466,7 @@
     }
   },
   {
-    "featureId": "labels-half-moon-island",
+    "featureId": "half-moon-island",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Half Moon Island"
@@ -479,7 +479,7 @@
     "level": 30
   },
   {
-    "featureId": "labels-house-of-twain",
+    "featureId": "house-of-twain",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "House of Twain"
@@ -492,7 +492,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-iboju-village",
+    "featureId": "iboju-village",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Iboju Village"
@@ -505,7 +505,7 @@
     "level": 50
   },
   {
-    "featureId": "labels-ice-islands",
+    "featureId": "ice-islands",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Ice Islands"
@@ -518,7 +518,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-invaded-barracks",
+    "featureId": "invaded-barracks",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Invaded Barracks"
@@ -531,7 +531,7 @@
     "level": 30
   },
   {
-    "featureId": "labels-jofash-dock",
+    "featureId": "jofash-dock",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Jofash Dock"
@@ -544,7 +544,7 @@
     "level": 90
   },
   {
-    "featureId": "labels-kander-forest",
+    "featureId": "kander-forest",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Kander Forest"
@@ -557,7 +557,7 @@
     "level": 70
   },
   {
-    "featureId": "labels-kandon-beda",
+    "featureId": "kandon-beda",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Kandon-Beda"
@@ -570,7 +570,7 @@
     "level": 95
   },
   {
-    "featureId": "labels-karoc-quarry",
+    "featureId": "karoc-quarry",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Karoc Quarry"
@@ -583,7 +583,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-katoa-ranch",
+    "featureId": "katoa-ranch",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Katoa Ranch"
@@ -596,7 +596,7 @@
     "level": 5
   },
   {
-    "featureId": "labels-lake-gylia",
+    "featureId": "lake-gylia",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Lake Gylia"
@@ -609,7 +609,7 @@
     "level": 75
   },
   {
-    "featureId": "labels-legendary-island",
+    "featureId": "legendary-island",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Legendary Island"
@@ -622,7 +622,7 @@
     "level": 90
   },
   {
-    "featureId": "labels-letvus-airbase",
+    "featureId": "letvus-airbase",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Letvus Airbase"
@@ -634,7 +634,7 @@
     }
   },
   {
-    "featureId": "labels-lexdale",
+    "featureId": "lexdale",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Lexdale"
@@ -647,7 +647,7 @@
     "level": 70
   },
   {
-    "featureId": "labels-light-forest",
+    "featureId": "light-forest",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Light Forest"
@@ -660,7 +660,7 @@
     "level": 70
   },
   {
-    "featureId": "labels-lights-secret",
+    "featureId": "lights-secret",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Light's Secret"
@@ -672,7 +672,7 @@
     }
   },
   {
-    "featureId": "labels-lion-lair",
+    "featureId": "lion-lair",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Lion Lair"
@@ -685,7 +685,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-llevigar",
+    "featureId": "llevigar",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Llevigar"
@@ -698,7 +698,7 @@
     "level": 40
   },
   {
-    "featureId": "labels-lusuco",
+    "featureId": "lusuco",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Lusuco"
@@ -711,7 +711,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-lutho",
+    "featureId": "lutho",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Lutho"
@@ -724,7 +724,7 @@
     "level": 105
   },
   {
-    "featureId": "labels-maex",
+    "featureId": "maex",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Maex"
@@ -737,7 +737,7 @@
     "level": 90
   },
   {
-    "featureId": "labels-mage-island",
+    "featureId": "mage-island",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Mage Island"
@@ -750,7 +750,7 @@
     "level": 30
   },
   {
-    "featureId": "labels-maltic",
+    "featureId": "maltic",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Maltic"
@@ -763,7 +763,7 @@
     "level": 10
   },
   {
-    "featureId": "labels-maro-peaks",
+    "featureId": "maro-peaks",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Maro Peaks"
@@ -776,7 +776,7 @@
     "level": 60
   },
   {
-    "featureId": "labels-molten-heights",
+    "featureId": "molten-heights",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Molten Heights"
@@ -789,7 +789,7 @@
     "level": 90
   },
   {
-    "featureId": "labels-mt-wynn",
+    "featureId": "mt-wynn",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Mt. Wynn"
@@ -802,7 +802,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-mummys-tomb",
+    "featureId": "mummys-tomb",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Mummy's Tomb"
@@ -815,7 +815,7 @@
     "level": 35
   },
   {
-    "featureId": "labels-nemract",
+    "featureId": "nemract",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Nemract"
@@ -828,7 +828,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-nesaak",
+    "featureId": "nesaak",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Nesaak"
@@ -841,7 +841,7 @@
     "level": 40
   },
   {
-    "featureId": "labels-nivla-woods",
+    "featureId": "nivla-woods",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Nivla Woods"
@@ -854,7 +854,7 @@
     "level": 5
   },
   {
-    "featureId": "labels-nodguj-nation",
+    "featureId": "nodguj-nation",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Nodguj Nation"
@@ -867,7 +867,7 @@
     "level": 45
   },
   {
-    "featureId": "labels-olux",
+    "featureId": "olux",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Olux"
@@ -880,7 +880,7 @@
     "level": 50
   },
   {
-    "featureId": "labels-overtaken-outpost",
+    "featureId": "overtaken-outpost",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Overtaken Outpost"
@@ -893,7 +893,7 @@
     "level": 60
   },
   {
-    "featureId": "labels-ozoths-spire",
+    "featureId": "ozoths-spire",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Ozoth's Spire"
@@ -905,7 +905,7 @@
     }
   },
   {
-    "featureId": "labels-path-to-darkness",
+    "featureId": "path-to-darkness",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Path to Darkness"
@@ -918,7 +918,7 @@
     "level": 110
   },
   {
-    "featureId": "labels-pigmens-ravines",
+    "featureId": "pigmens-ravines",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Pigmen's Ravines"
@@ -931,7 +931,7 @@
     "level": 15
   },
   {
-    "featureId": "labels-pirate-bay",
+    "featureId": "pirate-bay",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Pirate Bay"
@@ -944,7 +944,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-pirate-town",
+    "featureId": "pirate-town",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Pirate Town"
@@ -957,7 +957,7 @@
     "level": 60
   },
   {
-    "featureId": "labels-pre-light-forest",
+    "featureId": "pre-light-forest",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Pre-Light Forest"
@@ -970,7 +970,7 @@
     "level": 65
   },
   {
-    "featureId": "labels-qira-hive",
+    "featureId": "qira-hive",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Qira Hive"
@@ -983,7 +983,7 @@
     "level": 80
   },
   {
-    "featureId": "labels-ragni",
+    "featureId": "ragni",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Ragni"
@@ -996,7 +996,7 @@
     "level": 1
   },
   {
-    "featureId": "labels-relos",
+    "featureId": "relos",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Relos"
@@ -1009,7 +1009,7 @@
     "level": 85
   },
   {
-    "featureId": "labels-rodoroc",
+    "featureId": "rodoroc",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Rodoroc"
@@ -1022,7 +1022,7 @@
     "level": 90
   },
   {
-    "featureId": "labels-rooster-island",
+    "featureId": "rooster-island",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Rooster Island"
@@ -1035,7 +1035,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-roots-of-corruption",
+    "featureId": "roots-of-corruption",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Roots of Corruption"
@@ -1047,7 +1047,7 @@
     }
   },
   {
-    "featureId": "labels-ruined-olmic-city",
+    "featureId": "ruined-olmic-city",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Ruined Olmic City"
@@ -1060,7 +1060,7 @@
     "level": 100
   },
   {
-    "featureId": "labels-rymek",
+    "featureId": "rymek",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Rymek"
@@ -1073,7 +1073,7 @@
     "level": 35
   },
   {
-    "featureId": "labels-saints-row",
+    "featureId": "saints-row",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Saint's Row"
@@ -1086,7 +1086,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-seavale-reef",
+    "featureId": "seavale-reef",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Seavale Reef"
@@ -1099,7 +1099,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-selchar",
+    "featureId": "selchar",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Selchar"
@@ -1112,7 +1112,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-skiens-island",
+    "featureId": "skiens-island",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Skiens Island"
@@ -1125,7 +1125,7 @@
     "level": 55
   },
   {
-    "featureId": "labels-sky-islands",
+    "featureId": "sky-islands",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Sky Islands"
@@ -1138,7 +1138,7 @@
     "level": 95
   },
   {
-    "featureId": "labels-swamp",
+    "featureId": "swamp",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Swamp"
@@ -1151,7 +1151,7 @@
     "level": 50
   },
   {
-    "featureId": "labels-temple-of-legends",
+    "featureId": "temple-of-legends",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Temple of Legends"
@@ -1164,7 +1164,7 @@
     "level": 70
   },
   {
-    "featureId": "labels-tempo-town",
+    "featureId": "tempo-town",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Tempo Town"
@@ -1177,7 +1177,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-ternaves",
+    "featureId": "ternaves",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Ternaves"
@@ -1190,7 +1190,7 @@
     "level": 15
   },
   {
-    "featureId": "labels-thanos",
+    "featureId": "thanos",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Thanos"
@@ -1203,7 +1203,7 @@
     "level": 80
   },
   {
-    "featureId": "labels-the-bear-zoo",
+    "featureId": "the-bear-zoo",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Bear Zoo"
@@ -1216,7 +1216,7 @@
     "level": 15
   },
   {
-    "featureId": "labels-the-colossus",
+    "featureId": "the-colossus",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Colossus"
@@ -1229,7 +1229,7 @@
     "level": 95
   },
   {
-    "featureId": "labels-the-eldritch-outlook",
+    "featureId": "the-eldritch-outlook",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Eldritch Outlook"
@@ -1242,7 +1242,7 @@
     "level": 100
   },
   {
-    "featureId": "labels-the-forgery",
+    "featureId": "the-forgery",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Forgery"
@@ -1255,7 +1255,7 @@
     "level": 70
   },
   {
-    "featureId": "labels-the-great-bridge",
+    "featureId": "the-great-bridge",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Great Bridge"
@@ -1268,7 +1268,7 @@
     "level": 50
   },
   {
-    "featureId": "labels-the-maiden-tower",
+    "featureId": "the-maiden-tower",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Maiden Tower"
@@ -1281,7 +1281,7 @@
     "level": 50
   },
   {
-    "featureId": "labels-the-province-of-gavel",
+    "featureId": "the-province-of-gavel",
     "categoryId": "wynntils:place:province",
     "attributes": {
       "label": "The Province of Gavel"
@@ -1293,7 +1293,7 @@
     }
   },
   {
-    "featureId": "labels-the-province-of-wynn",
+    "featureId": "the-province-of-wynn",
     "categoryId": "wynntils:place:province",
     "attributes": {
       "label": "The Province of Wynn"
@@ -1305,7 +1305,7 @@
     }
   },
   {
-    "featureId": "labels-the-realm-of-light",
+    "featureId": "the-realm-of-light",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "The Realm of Light"
@@ -1318,7 +1318,7 @@
     "level": 80
   },
   {
-    "featureId": "labels-the-silent-expanse",
+    "featureId": "the-silent-expanse",
     "categoryId": "wynntils:place:province",
     "attributes": {
       "label": "The Silent Expanse"
@@ -1330,7 +1330,7 @@
     }
   },
   {
-    "featureId": "labels-the-tower-of-amnesia",
+    "featureId": "the-tower-of-amnesia",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "The Tower of Amnesia"
@@ -1343,7 +1343,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-thesead",
+    "featureId": "thesead",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Thesead"
@@ -1356,7 +1356,7 @@
     "level": 85
   },
   {
-    "featureId": "labels-time-valley",
+    "featureId": "time-valley",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Time Valley"
@@ -1369,7 +1369,7 @@
     "level": 25
   },
   {
-    "featureId": "labels-tower-of-ascension",
+    "featureId": "tower-of-ascension",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Tower of Ascension"
@@ -1381,7 +1381,7 @@
     }
   },
   {
-    "featureId": "labels-toxic-wastes",
+    "featureId": "toxic-wastes",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Toxic Wastes"
@@ -1394,7 +1394,7 @@
     "level": 105
   },
   {
-    "featureId": "labels-troms",
+    "featureId": "troms",
     "categoryId": "wynntils:place:city",
     "attributes": {
       "label": "Troms"
@@ -1407,7 +1407,7 @@
     "level": 55
   },
   {
-    "featureId": "labels-underground-squid-village",
+    "featureId": "underground-squid-village",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Underground Squid Village"
@@ -1420,7 +1420,7 @@
     "level": 40
   },
   {
-    "featureId": "labels-underwater-route",
+    "featureId": "underwater-route",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Underwater Route"
@@ -1433,7 +1433,7 @@
     "level": 20
   },
   {
-    "featureId": "labels-void-valley",
+    "featureId": "void-valley",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Void Valley"
@@ -1446,7 +1446,7 @@
     "level": 105
   },
   {
-    "featureId": "labels-volcanic-isles",
+    "featureId": "volcanic-isles",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Volcanic Isles"
@@ -1459,7 +1459,7 @@
     "level": 55
   },
   {
-    "featureId": "labels-zhight-island",
+    "featureId": "zhight-island",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Zhight Island"

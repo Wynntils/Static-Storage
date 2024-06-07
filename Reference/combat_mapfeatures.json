@@ -1,6 +1,6 @@
 [
   {
-    "featureId": "dungeon-corrupted-decrepit-sewers",
+    "featureId": "corrupted-decrepit-sewers",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Decrepit Sewers",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-galleons-graveyard",
+    "featureId": "corrupted-galleons-graveyard",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Galleon's Graveyard",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-ice-barrows",
+    "featureId": "corrupted-ice-barrows",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Ice Barrows",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-infested-pit",
+    "featureId": "corrupted-infested-pit",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Infested Pit",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-lost-sanctuary",
+    "featureId": "corrupted-lost-sanctuary",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Lost Sanctuary",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-sand-swept-tomb",
+    "featureId": "corrupted-sand-swept-tomb",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Sand-Swept Tomb",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-undergrowth-ruins",
+    "featureId": "corrupted-undergrowth-ruins",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Undergrowth Ruins",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "featureId": "dungeon-corrupted-underworld-crypt",
+    "featureId": "corrupted-underworld-crypt",
     "categoryId": "wynntils:content:dungeon:corrupted",
     "attributes": {
       "label": "Corrupted Underworld Crypt",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "featureId": "dungeon-decrepit-sewers",
+    "featureId": "decrepit-sewers",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Decrepit Sewers",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "featureId": "dungeon-eldritch-outlook",
+    "featureId": "eldritch-outlook",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Eldritch Outlook",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "featureId": "dungeon-fallen-factory",
+    "featureId": "fallen-factory",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Fallen Factory",
@@ -143,7 +143,7 @@
     }
   },
   {
-    "featureId": "dungeon-galleons-graveyard",
+    "featureId": "galleons-graveyard",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Galleon's Graveyard",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "featureId": "dungeon-ice-barrows",
+    "featureId": "ice-barrows",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Ice Barrows",
@@ -169,7 +169,7 @@
     }
   },
   {
-    "featureId": "dungeon-infested-pit",
+    "featureId": "infested-pit",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Infested Pit",
@@ -182,7 +182,7 @@
     }
   },
   {
-    "featureId": "dungeon-sand-swept-tomb",
+    "featureId": "sand-swept-tomb",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Sand-Swept Tomb",
@@ -195,7 +195,7 @@
     }
   },
   {
-    "featureId": "dungeon-timelost-sanctum",
+    "featureId": "timelost-sanctum",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Timelost Sanctum",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "featureId": "dungeon-undergrowth-ruins",
+    "featureId": "undergrowth-ruins",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Undergrowth Ruins",
@@ -221,7 +221,7 @@
     }
   },
   {
-    "featureId": "dungeon-underworld-crypt",
+    "featureId": "underworld-crypt",
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Underworld Crypt",
@@ -234,7 +234,7 @@
     }
   },
   {
-    "featureId": "raid-nest-of-the-grootslangs",
+    "featureId": "nest-of-the-grootslangs",
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "Nest of the Grootslangs",
@@ -247,7 +247,7 @@
     }
   },
   {
-    "featureId": "raid-orphions-nexus-of-light",
+    "featureId": "orphions-nexus-of-light",
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "Orphion's Nexus of Light",
@@ -260,7 +260,7 @@
     }
   },
   {
-    "featureId": "raid-the-canyon-colossus",
+    "featureId": "the-canyon-colossus",
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "The Canyon Colossus",
@@ -273,7 +273,7 @@
     }
   },
   {
-    "featureId": "raid-the-nameless-anomaly",
+    "featureId": "the-nameless-anomaly",
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "The Nameless Anomaly",
@@ -286,7 +286,7 @@
     }
   },
   {
-    "featureId": "boss-altar-aerie-of-the-recluse",
+    "featureId": "aerie-of-the-recluse",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Aerie of the Recluse",
@@ -299,7 +299,7 @@
     }
   },
   {
-    "featureId": "boss-altar-altar-of-sanctification",
+    "featureId": "altar-of-sanctification",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Altar of Sanctification",
@@ -312,7 +312,7 @@
     }
   },
   {
-    "featureId": "boss-altar-arena-of-the-legends",
+    "featureId": "arena-of-the-legends",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Arena of the Legends",
@@ -325,7 +325,7 @@
     }
   },
   {
-    "featureId": "boss-altar-bottomless-pit",
+    "featureId": "bottomless-pit",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Bottomless Pit",
@@ -338,7 +338,7 @@
     }
   },
   {
-    "featureId": "boss-altar-bovine-barn",
+    "featureId": "bovine-barn",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Bovine Barn",
@@ -351,7 +351,7 @@
     }
   },
   {
-    "featureId": "boss-altar-challenge-of-the-blades",
+    "featureId": "challenge-of-the-blades",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Challenge of the Blades",
@@ -364,7 +364,7 @@
     }
   },
   {
-    "featureId": "boss-altar-geyser-pit",
+    "featureId": "geyser-pit",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Geyser Pit",
@@ -377,7 +377,7 @@
     }
   },
   {
-    "featureId": "boss-altar-magmastream-core",
+    "featureId": "magmastream-core",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Magmastream Core",
@@ -390,7 +390,7 @@
     }
   },
   {
-    "featureId": "boss-altar-plague-laboratory",
+    "featureId": "plague-laboratory",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Plague Laboratory",
@@ -403,7 +403,7 @@
     }
   },
   {
-    "featureId": "boss-altar-prison-of-souls",
+    "featureId": "prison-of-souls",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Prison of Souls",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "featureId": "boss-altar-rotten-passage",
+    "featureId": "rotten-passage",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Rotten Passage",
@@ -429,7 +429,7 @@
     }
   },
   {
-    "featureId": "boss-altar-sunrise-canyon",
+    "featureId": "sunrise-canyon",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Sunrise Canyon",
@@ -442,7 +442,7 @@
     }
   },
   {
-    "featureId": "boss-altar-tribal-sanctuary",
+    "featureId": "tribal-sanctuary",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Tribal Sanctuary",
@@ -455,7 +455,7 @@
     }
   },
   {
-    "featureId": "boss-altar-unknown-area",
+    "featureId": "unknown-area",
     "categoryId": "wynntils:content:boss-altar",
     "attributes": {
       "label": "Unknown Area",
@@ -468,7 +468,7 @@
     }
   },
   {
-    "featureId": "lootrun-camp-molten-heights-hike",
+    "featureId": "molten-heights-hike",
     "categoryId": "wynntils:content:lootrun-camp",
     "attributes": {
       "label": "Molten Heights Hike",
@@ -481,7 +481,7 @@
     }
   },
   {
-    "featureId": "lootrun-camp-silent-expanse-expedition",
+    "featureId": "silent-expanse-expedition",
     "categoryId": "wynntils:content:lootrun-camp",
     "attributes": {
       "label": "Silent Expanse Expedition",
@@ -494,7 +494,7 @@
     }
   },
   {
-    "featureId": "lootrun-camp-sky-islands-exploration",
+    "featureId": "sky-islands-exploration",
     "categoryId": "wynntils:content:lootrun-camp",
     "attributes": {
       "label": "Sky Islands Exploration",
@@ -507,7 +507,7 @@
     }
   },
   {
-    "featureId": "lootrun-camp-the-corkus-traversal",
+    "featureId": "the-corkus-traversal",
     "categoryId": "wynntils:content:lootrun-camp",
     "attributes": {
       "label": "The Corkus Traversal",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "featureId": "cave-abyssal-shine",
+    "featureId": "abyssal-shine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Abyssal Shine",
@@ -533,7 +533,7 @@
     }
   },
   {
-    "featureId": "cave-ancestor-grotto",
+    "featureId": "ancestor-grotto",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Ancestor Grotto",
@@ -546,7 +546,7 @@
     }
   },
   {
-    "featureId": "cave-angel-falls",
+    "featureId": "angel-falls",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Angel Falls",
@@ -559,7 +559,7 @@
     }
   },
   {
-    "featureId": "cave-aquaculture-aquifer",
+    "featureId": "aquaculture-aquifer",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Aquaculture Aquifer",
@@ -572,7 +572,7 @@
     }
   },
   {
-    "featureId": "cave-avos-animation-totem",
+    "featureId": "avos-animation-totem",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Avos Animation Totem",
@@ -585,7 +585,7 @@
     }
   },
   {
-    "featureId": "cave-azer-athenaeum",
+    "featureId": "azer-athenaeum",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Azer Athenaeum",
@@ -598,7 +598,7 @@
     }
   },
   {
-    "featureId": "cave-azurite-island",
+    "featureId": "azurite-island",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Azurite Island",
@@ -611,7 +611,7 @@
     }
   },
   {
-    "featureId": "cave-bandit-groundbreaking",
+    "featureId": "bandit-groundbreaking",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Bandit Groundbreaking",
@@ -624,7 +624,7 @@
     }
   },
   {
-    "featureId": "cave-basalt-basin",
+    "featureId": "basalt-basin",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Basalt Basin",
@@ -637,7 +637,7 @@
     }
   },
   {
-    "featureId": "cave-bird-sanctuary",
+    "featureId": "bird-sanctuary",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Bird Sanctuary",
@@ -650,7 +650,7 @@
     }
   },
   {
-    "featureId": "cave-blaze-springs",
+    "featureId": "blaze-springs",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Blaze Springs",
@@ -663,7 +663,7 @@
     }
   },
   {
-    "featureId": "cave-blazing-oasis",
+    "featureId": "blazing-oasis",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Blazing Oasis",
@@ -676,7 +676,7 @@
     }
   },
   {
-    "featureId": "cave-blind-burrow",
+    "featureId": "blind-burrow",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Blind Burrow",
@@ -689,7 +689,7 @@
     }
   },
   {
-    "featureId": "cave-boar-burrow",
+    "featureId": "boar-burrow",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Boar Burrow",
@@ -702,7 +702,7 @@
     }
   },
   {
-    "featureId": "cave-bovine-bedrock",
+    "featureId": "bovine-bedrock",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Bovine Bedrock",
@@ -715,7 +715,7 @@
     }
   },
   {
-    "featureId": "cave-breaking-ice",
+    "featureId": "breaking-ice",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Breaking Ice",
@@ -728,7 +728,7 @@
     }
   },
   {
-    "featureId": "cave-broodmothers-bestiary",
+    "featureId": "broodmothers-bestiary",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Broodmother's Bestiary",
@@ -741,7 +741,7 @@
     }
   },
   {
-    "featureId": "cave-builder-bot-central",
+    "featureId": "builder-bot-central",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Builder-Bot Central",
@@ -754,7 +754,7 @@
     }
   },
   {
-    "featureId": "cave-burning-bog",
+    "featureId": "burning-bog",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Burning Bog",
@@ -767,7 +767,7 @@
     }
   },
   {
-    "featureId": "cave-burning-delve",
+    "featureId": "burning-delve",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Burning Delve",
@@ -780,7 +780,7 @@
     }
   },
   {
-    "featureId": "cave-caged-creatures",
+    "featureId": "caged-creatures",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Caged Creatures",
@@ -793,7 +793,7 @@
     }
   },
   {
-    "featureId": "cave-cannibal-walkways",
+    "featureId": "cannibal-walkways",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cannibal Walkways",
@@ -806,7 +806,7 @@
     }
   },
   {
-    "featureId": "cave-captains-quarters",
+    "featureId": "captains-quarters",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Captain's Quarters",
@@ -819,7 +819,7 @@
     }
   },
   {
-    "featureId": "cave-carnadile-den",
+    "featureId": "carnadile-den",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Carnadile Den",
@@ -832,7 +832,7 @@
     }
   },
   {
-    "featureId": "cave-cave-springs",
+    "featureId": "cave-springs",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cave Springs",
@@ -845,7 +845,7 @@
     }
   },
   {
-    "featureId": "cave-cave-of-doom",
+    "featureId": "cave-of-doom",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cave of Doom",
@@ -858,7 +858,7 @@
     }
   },
   {
-    "featureId": "cave-cave-of-the-seasons",
+    "featureId": "cave-of-the-seasons",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cave of the Seasons",
@@ -871,7 +871,7 @@
     }
   },
   {
-    "featureId": "cave-chiselers-cavern",
+    "featureId": "chiselers-cavern",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Chiseler's Cavern",
@@ -884,7 +884,7 @@
     }
   },
   {
-    "featureId": "cave-corkus-quarry",
+    "featureId": "corkus-quarry",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Corkus Quarry",
@@ -897,7 +897,7 @@
     }
   },
   {
-    "featureId": "cave-corrupt-time-warp",
+    "featureId": "corrupt-time-warp",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Corrupt Time Warp",
@@ -910,7 +910,7 @@
     }
   },
   {
-    "featureId": "cave-corrupted-passageway",
+    "featureId": "corrupted-passageway",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Corrupted Passageway",
@@ -923,7 +923,7 @@
     }
   },
   {
-    "featureId": "cave-corruption-mines",
+    "featureId": "corruption-mines",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Corruption Mines",
@@ -936,7 +936,7 @@
     }
   },
   {
-    "featureId": "cave-crab-fighters",
+    "featureId": "crab-fighters",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Crab Fighters",
@@ -949,7 +949,7 @@
     }
   },
   {
-    "featureId": "cave-cryovern-covert",
+    "featureId": "cryovern-covert",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cryovern Covert",
@@ -962,7 +962,7 @@
     }
   },
   {
-    "featureId": "cave-crypt-excavation",
+    "featureId": "crypt-excavation",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Crypt Excavation",
@@ -975,7 +975,7 @@
     }
   },
   {
-    "featureId": "cave-crystal-caverns",
+    "featureId": "crystal-caverns",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Crystal Caverns",
@@ -988,7 +988,7 @@
     }
   },
   {
-    "featureId": "cave-crystalline-polynya",
+    "featureId": "crystalline-polynya",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Crystalline Polynya",
@@ -1001,7 +1001,7 @@
     }
   },
   {
-    "featureId": "cave-cultists-passage",
+    "featureId": "cultists-passage",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cultists Passage",
@@ -1014,7 +1014,7 @@
     }
   },
   {
-    "featureId": "cave-cyclonic-spirit-trap",
+    "featureId": "cyclonic-spirit-trap",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cyclonic Spirit Trap",
@@ -1027,7 +1027,7 @@
     }
   },
   {
-    "featureId": "cave-cyclopes-shrine",
+    "featureId": "cyclopes-shrine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Cyclopes' Shrine",
@@ -1040,7 +1040,7 @@
     }
   },
   {
-    "featureId": "cave-demolition-derby",
+    "featureId": "demolition-derby",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Demolition Derby",
@@ -1053,7 +1053,7 @@
     }
   },
   {
-    "featureId": "cave-derelict-mine",
+    "featureId": "derelict-mine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Derelict Mine",
@@ -1066,7 +1066,7 @@
     }
   },
   {
-    "featureId": "cave-deserters-refuge",
+    "featureId": "deserters-refuge",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Deserter's Refuge",
@@ -1079,7 +1079,7 @@
     }
   },
   {
-    "featureId": "cave-detlas-salt-mine",
+    "featureId": "detlas-salt-mine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Detlas Salt Mine",
@@ -1092,7 +1092,7 @@
     }
   },
   {
-    "featureId": "cave-dragon-delta",
+    "featureId": "dragon-delta",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Dragon Delta",
@@ -1105,7 +1105,7 @@
     }
   },
   {
-    "featureId": "cave-dragonkin-nest",
+    "featureId": "dragonkin-nest",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Dragonkin Nest",
@@ -1118,7 +1118,7 @@
     }
   },
   {
-    "featureId": "cave-drones-retreat",
+    "featureId": "drones-retreat",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Drone's Retreat",
@@ -1131,7 +1131,7 @@
     }
   },
   {
-    "featureId": "cave-dullahan-gardens",
+    "featureId": "dullahan-gardens",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Dullahan Gardens",
@@ -1144,7 +1144,7 @@
     }
   },
   {
-    "featureId": "cave-dust-bowl",
+    "featureId": "dust-bowl",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Dust Bowl",
@@ -1157,7 +1157,7 @@
     }
   },
   {
-    "featureId": "cave-earth-eaters",
+    "featureId": "earth-eaters",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Earth Eaters",
@@ -1170,7 +1170,7 @@
     }
   },
   {
-    "featureId": "cave-elemental-hollow",
+    "featureId": "elemental-hollow",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Elemental Hollow",
@@ -1183,7 +1183,7 @@
     }
   },
   {
-    "featureId": "cave-emerald-knives-hideout",
+    "featureId": "emerald-knives-hideout",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Emerald Knives Hideout",
@@ -1196,7 +1196,7 @@
     }
   },
   {
-    "featureId": "cave-eyeball-gauntlet",
+    "featureId": "eyeball-gauntlet",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Eyeball Gauntlet",
@@ -1209,7 +1209,7 @@
     }
   },
   {
-    "featureId": "cave-fallen-passage",
+    "featureId": "fallen-passage",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Fallen Passage",
@@ -1222,7 +1222,7 @@
     }
   },
   {
-    "featureId": "cave-fire--water",
+    "featureId": "fire--water",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Fire & Water",
@@ -1235,7 +1235,7 @@
     }
   },
   {
-    "featureId": "cave-fire-swamp",
+    "featureId": "fire-swamp",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Fire Swamp",
@@ -1248,7 +1248,7 @@
     }
   },
   {
-    "featureId": "cave-flesh-mesh",
+    "featureId": "flesh-mesh",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Flesh Mesh",
@@ -1261,7 +1261,7 @@
     }
   },
   {
-    "featureId": "cave-forgotten-excavation",
+    "featureId": "forgotten-excavation",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Forgotten Excavation",
@@ -1274,7 +1274,7 @@
     }
   },
   {
-    "featureId": "cave-fortress-catacombs",
+    "featureId": "fortress-catacombs",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Fortress Catacombs",
@@ -1287,7 +1287,7 @@
     }
   },
   {
-    "featureId": "cave-frog-hole",
+    "featureId": "frog-hole",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Frog Hole",
@@ -1300,7 +1300,7 @@
     }
   },
   {
-    "featureId": "cave-fungas-log",
+    "featureId": "fungas-log",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Fungas Log",
@@ -1313,7 +1313,7 @@
     }
   },
   {
-    "featureId": "cave-gator-range",
+    "featureId": "gator-range",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Gator Range",
@@ -1326,7 +1326,7 @@
     }
   },
   {
-    "featureId": "cave-geodesic",
+    "featureId": "geodesic",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Geodesic",
@@ -1339,7 +1339,7 @@
     }
   },
   {
-    "featureId": "cave-gold-rush",
+    "featureId": "gold-rush",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Gold Rush",
@@ -1352,7 +1352,7 @@
     }
   },
   {
-    "featureId": "cave-gorgon-gorge",
+    "featureId": "gorgon-gorge",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Gorgon Gorge",
@@ -1365,7 +1365,7 @@
     }
   },
   {
-    "featureId": "cave-guardians-cove",
+    "featureId": "guardians-cove",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Guardians Cove",
@@ -1378,7 +1378,7 @@
     }
   },
   {
-    "featureId": "cave-half-moon-island",
+    "featureId": "half-moon-island",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Half Moon Island",
@@ -1391,7 +1391,7 @@
     }
   },
   {
-    "featureId": "cave-haze-cave",
+    "featureId": "haze-cave",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Haze Cave",
@@ -1404,7 +1404,7 @@
     }
   },
   {
-    "featureId": "cave-headless-hollow",
+    "featureId": "headless-hollow",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Headless Hollow",
@@ -1417,7 +1417,7 @@
     }
   },
   {
-    "featureId": "cave-hex-keep-gateway",
+    "featureId": "hex-keep-gateway",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Hex Keep Gateway",
@@ -1430,7 +1430,7 @@
     }
   },
   {
-    "featureId": "cave-hill-hovel",
+    "featureId": "hill-hovel",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Hill Hovel",
@@ -1443,7 +1443,7 @@
     }
   },
   {
-    "featureId": "cave-holehold-orc-camp",
+    "featureId": "holehold-orc-camp",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Holehold Orc Camp",
@@ -1456,7 +1456,7 @@
     }
   },
   {
-    "featureId": "cave-ice-doors",
+    "featureId": "ice-doors",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Ice Doors",
@@ -1469,7 +1469,7 @@
     }
   },
   {
-    "featureId": "cave-jade-well",
+    "featureId": "jade-well",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Jade Well",
@@ -1482,7 +1482,7 @@
     }
   },
   {
-    "featureId": "cave-jungle-fetish-camp",
+    "featureId": "jungle-fetish-camp",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Jungle Fetish Camp",
@@ -1495,7 +1495,7 @@
     }
   },
   {
-    "featureId": "cave-jungle-horrors",
+    "featureId": "jungle-horrors",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Jungle Horrors",
@@ -1508,7 +1508,7 @@
     }
   },
   {
-    "featureId": "cave-jungle-labyrinth",
+    "featureId": "jungle-labyrinth",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Jungle Labyrinth",
@@ -1521,7 +1521,7 @@
     }
   },
   {
-    "featureId": "cave-junk-pit",
+    "featureId": "junk-pit",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Junk Pit",
@@ -1534,7 +1534,7 @@
     }
   },
   {
-    "featureId": "cave-kander-crypt",
+    "featureId": "kander-crypt",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Kander Crypt",
@@ -1547,7 +1547,7 @@
     }
   },
   {
-    "featureId": "cave-lake-pit",
+    "featureId": "lake-pit",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lake Pit",
@@ -1560,7 +1560,7 @@
     }
   },
   {
-    "featureId": "cave-lamprophis-lair",
+    "featureId": "lamprophis-lair",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lamprophis Lair",
@@ -1573,7 +1573,7 @@
     }
   },
   {
-    "featureId": "cave-ledant-hill",
+    "featureId": "ledant-hill",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Ledant Hill",
@@ -1586,7 +1586,7 @@
     }
   },
   {
-    "featureId": "cave-lily-pad-parkour",
+    "featureId": "lily-pad-parkour",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lily Pad Parkour",
@@ -1599,7 +1599,7 @@
     }
   },
   {
-    "featureId": "cave-lions-lair",
+    "featureId": "lions-lair",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lion's Lair",
@@ -1612,7 +1612,7 @@
     }
   },
   {
-    "featureId": "cave-loot-symposium",
+    "featureId": "loot-symposium",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Loot Symposium",
@@ -1625,7 +1625,7 @@
     }
   },
   {
-    "featureId": "cave-lovers-cavern",
+    "featureId": "lovers-cavern",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lovers' Cavern",
@@ -1638,7 +1638,7 @@
     }
   },
   {
-    "featureId": "cave-lower-abandoned-mines",
+    "featureId": "lower-abandoned-mines",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lower Abandoned Mines",
@@ -1651,7 +1651,7 @@
     }
   },
   {
-    "featureId": "cave-lush-grotto",
+    "featureId": "lush-grotto",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Lush Grotto",
@@ -1664,7 +1664,7 @@
     }
   },
   {
-    "featureId": "cave-maddening-mud",
+    "featureId": "maddening-mud",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Maddening Mud",
@@ -1677,7 +1677,7 @@
     }
   },
   {
-    "featureId": "cave-mesquis-tower",
+    "featureId": "mesquis-tower",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Mesquis Tower",
@@ -1690,7 +1690,7 @@
     }
   },
   {
-    "featureId": "cave-mossy-grotto",
+    "featureId": "mossy-grotto",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Mossy Grotto",
@@ -1703,7 +1703,7 @@
     }
   },
   {
-    "featureId": "cave-muddy-cavern",
+    "featureId": "muddy-cavern",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Muddy Cavern",
@@ -1716,7 +1716,7 @@
     }
   },
   {
-    "featureId": "cave-mycolite-mountain",
+    "featureId": "mycolite-mountain",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Mycolite Mountain",
@@ -1729,7 +1729,7 @@
     }
   },
   {
-    "featureId": "cave-mystifying-stump",
+    "featureId": "mystifying-stump",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Mystifying Stump",
@@ -1742,7 +1742,7 @@
     }
   },
   {
-    "featureId": "cave-naga-dugout",
+    "featureId": "naga-dugout",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Naga Dugout",
@@ -1755,7 +1755,7 @@
     }
   },
   {
-    "featureId": "cave-nest--bones",
+    "featureId": "nest--bones",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Nest & Bones",
@@ -1768,7 +1768,7 @@
     }
   },
   {
-    "featureId": "cave-nymph-towers",
+    "featureId": "nymph-towers",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Nymph Towers",
@@ -1781,7 +1781,7 @@
     }
   },
   {
-    "featureId": "cave-old-growth-rot",
+    "featureId": "old-growth-rot",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Old Growth Rot",
@@ -1794,7 +1794,7 @@
     }
   },
   {
-    "featureId": "cave-orc-cove",
+    "featureId": "orc-cove",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Orc Cove",
@@ -1807,7 +1807,7 @@
     }
   },
   {
-    "featureId": "cave-overgrown-rubble",
+    "featureId": "overgrown-rubble",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Overgrown Rubble",
@@ -1820,7 +1820,7 @@
     }
   },
   {
-    "featureId": "cave-ovine-spire",
+    "featureId": "ovine-spire",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Ovine Spire",
@@ -1833,7 +1833,7 @@
     }
   },
   {
-    "featureId": "cave-pigman-outpost",
+    "featureId": "pigman-outpost",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Pigman Outpost",
@@ -1846,7 +1846,7 @@
     }
   },
   {
-    "featureId": "cave-pirate-hold",
+    "featureId": "pirate-hold",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Pirate Hold",
@@ -1859,7 +1859,7 @@
     }
   },
   {
-    "featureId": "cave-pirate-lattice",
+    "featureId": "pirate-lattice",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Pirate Lattice",
@@ -1872,7 +1872,7 @@
     }
   },
   {
-    "featureId": "cave-pirate-sloop",
+    "featureId": "pirate-sloop",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Pirate Sloop",
@@ -1885,7 +1885,7 @@
     }
   },
   {
-    "featureId": "cave-plasmatic-gouge",
+    "featureId": "plasmatic-gouge",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Plasmatic Gouge",
@@ -1898,7 +1898,7 @@
     }
   },
   {
-    "featureId": "cave-quicksand-carvers-den",
+    "featureId": "quicksand-carvers-den",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Quicksand Carvers' Den",
@@ -1911,7 +1911,7 @@
     }
   },
   {
-    "featureId": "cave-raging-survivor",
+    "featureId": "raging-survivor",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Raging Survivor",
@@ -1924,7 +1924,7 @@
     }
   },
   {
-    "featureId": "cave-raging-tower",
+    "featureId": "raging-tower",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Raging Tower",
@@ -1937,7 +1937,7 @@
     }
   },
   {
-    "featureId": "cave-raiders-hideout",
+    "featureId": "raiders-hideout",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Raiders' Hideout",
@@ -1950,7 +1950,7 @@
     }
   },
   {
-    "featureId": "cave-raiders-rockhill",
+    "featureId": "raiders-rockhill",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Raiders' Rockhill",
@@ -1963,7 +1963,7 @@
     }
   },
   {
-    "featureId": "cave-recluse-nest",
+    "featureId": "recluse-nest",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Recluse Nest",
@@ -1976,7 +1976,7 @@
     }
   },
   {
-    "featureId": "cave-rocky-peril",
+    "featureId": "rocky-peril",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Rocky Peril",
@@ -1989,7 +1989,7 @@
     }
   },
   {
-    "featureId": "cave-root-slingers-rut",
+    "featureId": "root-slingers-rut",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Root Slingers' Rut",
@@ -2002,7 +2002,7 @@
     }
   },
   {
-    "featureId": "cave-roots-of-infestation",
+    "featureId": "roots-of-infestation",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Roots of Infestation",
@@ -2015,7 +2015,7 @@
     }
   },
   {
-    "featureId": "cave-rotten-altar",
+    "featureId": "rotten-altar",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Rotten Altar",
@@ -2028,7 +2028,7 @@
     }
   },
   {
-    "featureId": "cave-runaway-fleris-cranny",
+    "featureId": "runaway-fleris-cranny",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Runaway Fleris Cranny",
@@ -2041,7 +2041,7 @@
     }
   },
   {
-    "featureId": "cave-scarred-ingress",
+    "featureId": "scarred-ingress",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Scarred Ingress",
@@ -2054,7 +2054,7 @@
     }
   },
   {
-    "featureId": "cave-scorched-earth",
+    "featureId": "scorched-earth",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Scorched Earth",
@@ -2067,7 +2067,7 @@
     }
   },
   {
-    "featureId": "cave-secret-mine",
+    "featureId": "secret-mine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Secret Mine",
@@ -2080,7 +2080,7 @@
     }
   },
   {
-    "featureId": "cave-seismic-bore-hole",
+    "featureId": "seismic-bore-hole",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Seismic Bore Hole",
@@ -2093,7 +2093,7 @@
     }
   },
   {
-    "featureId": "cave-sewer-herps",
+    "featureId": "sewer-herps",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Sewer Herps",
@@ -2106,7 +2106,7 @@
     }
   },
   {
-    "featureId": "cave-shadow-altar",
+    "featureId": "shadow-altar",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Shadow Altar",
@@ -2119,7 +2119,7 @@
     }
   },
   {
-    "featureId": "cave-shadow-spears-refuge",
+    "featureId": "shadow-spears-refuge",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Shadow Spears Refuge",
@@ -2132,7 +2132,7 @@
     }
   },
   {
-    "featureId": "cave-shock-shrine",
+    "featureId": "shock-shrine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Shock Shrine",
@@ -2145,7 +2145,7 @@
     }
   },
   {
-    "featureId": "cave-shroom-sleeper-dugout",
+    "featureId": "shroom-sleeper-dugout",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Shroom Sleeper Dugout",
@@ -2158,7 +2158,7 @@
     }
   },
   {
-    "featureId": "cave-sink-hole",
+    "featureId": "sink-hole",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Sink Hole",
@@ -2171,7 +2171,7 @@
     }
   },
   {
-    "featureId": "cave-skiens-prison-block",
+    "featureId": "skiens-prison-block",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Skien's Prison Block",
@@ -2184,7 +2184,7 @@
     }
   },
   {
-    "featureId": "cave-sky-shroom",
+    "featureId": "sky-shroom",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Sky Shroom",
@@ -2197,7 +2197,7 @@
     }
   },
   {
-    "featureId": "cave-sol-hive",
+    "featureId": "sol-hive",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Sol Hive",
@@ -2210,7 +2210,7 @@
     }
   },
   {
-    "featureId": "cave-spiteful-crossing",
+    "featureId": "spiteful-crossing",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Spiteful Crossing",
@@ -2223,7 +2223,7 @@
     }
   },
   {
-    "featureId": "cave-spore-spiral",
+    "featureId": "spore-spiral",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Spore Spiral",
@@ -2236,7 +2236,7 @@
     }
   },
   {
-    "featureId": "cave-statue-opening",
+    "featureId": "statue-opening",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Statue Opening",
@@ -2249,7 +2249,7 @@
     }
   },
   {
-    "featureId": "cave-steamworks",
+    "featureId": "steamworks",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Steamworks",
@@ -2262,7 +2262,7 @@
     }
   },
   {
-    "featureId": "cave-submerged-coal-mine",
+    "featureId": "submerged-coal-mine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Submerged Coal Mine",
@@ -2275,7 +2275,7 @@
     }
   },
   {
-    "featureId": "cave-subterranean-mire",
+    "featureId": "subterranean-mire",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Subterranean Mire",
@@ -2288,7 +2288,7 @@
     }
   },
   {
-    "featureId": "cave-sunken-ship",
+    "featureId": "sunken-ship",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Sunken Ship",
@@ -2301,7 +2301,7 @@
     }
   },
   {
-    "featureId": "cave-swamp-hill",
+    "featureId": "swamp-hill",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Swamp Hill",
@@ -2314,7 +2314,7 @@
     }
   },
   {
-    "featureId": "cave-temple-entrance",
+    "featureId": "temple-entrance",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Temple Entrance",
@@ -2327,7 +2327,7 @@
     }
   },
   {
-    "featureId": "cave-termite-mounds",
+    "featureId": "termite-mounds",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Termite Mounds",
@@ -2340,7 +2340,7 @@
     }
   },
   {
-    "featureId": "cave-the-alcazar",
+    "featureId": "the-alcazar",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Alcazar",
@@ -2353,7 +2353,7 @@
     }
   },
   {
-    "featureId": "cave-the-donjon",
+    "featureId": "the-donjon",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Donjon",
@@ -2366,7 +2366,7 @@
     }
   },
   {
-    "featureId": "cave-the-gwanari",
+    "featureId": "the-gwanari",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Gwanari",
@@ -2379,7 +2379,7 @@
     }
   },
   {
-    "featureId": "cave-the-heartwood",
+    "featureId": "the-heartwood",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Heartwood",
@@ -2392,7 +2392,7 @@
     }
   },
   {
-    "featureId": "cave-the-lantern-keepers-abode",
+    "featureId": "the-lantern-keepers-abode",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Lantern Keeper's Abode",
@@ -2405,7 +2405,7 @@
     }
   },
   {
-    "featureId": "cave-the-place-coalesced",
+    "featureId": "the-place-coalesced",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Place Coalesced",
@@ -2418,7 +2418,7 @@
     }
   },
   {
-    "featureId": "cave-the-place-condensed",
+    "featureId": "the-place-condensed",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Place Condensed",
@@ -2431,7 +2431,7 @@
     }
   },
   {
-    "featureId": "cave-the-place-conglomerated",
+    "featureId": "the-place-conglomerated",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Place Conglomerated",
@@ -2444,7 +2444,7 @@
     }
   },
   {
-    "featureId": "cave-the-sacrificial-altar",
+    "featureId": "the-sacrificial-altar",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Sacrificial Altar",
@@ -2457,7 +2457,7 @@
     }
   },
   {
-    "featureId": "cave-the-warehouse",
+    "featureId": "the-warehouse",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Warehouse",
@@ -2470,7 +2470,7 @@
     }
   },
   {
-    "featureId": "cave-thunder-grub-nest",
+    "featureId": "thunder-grub-nest",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Thunder Grub Nest",
@@ -2483,7 +2483,7 @@
     }
   },
   {
-    "featureId": "cave-tidepool-terrace",
+    "featureId": "tidepool-terrace",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Tidepool Terrace",
@@ -2496,7 +2496,7 @@
     }
   },
   {
-    "featureId": "cave-time-valley-aquifer",
+    "featureId": "time-valley-aquifer",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Time Valley Aquifer",
@@ -2509,7 +2509,7 @@
     }
   },
   {
-    "featureId": "cave-treasure-tomb",
+    "featureId": "treasure-tomb",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Treasure Tomb",
@@ -2522,7 +2522,7 @@
     }
   },
   {
-    "featureId": "cave-tree-of-light",
+    "featureId": "tree-of-light",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Tree of Light",
@@ -2535,7 +2535,7 @@
     }
   },
   {
-    "featureId": "cave-troll-burrows",
+    "featureId": "troll-burrows",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Troll Burrows",
@@ -2548,7 +2548,7 @@
     }
   },
   {
-    "featureId": "cave-troll-tower",
+    "featureId": "troll-tower",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Troll Tower",
@@ -2561,7 +2561,7 @@
     }
   },
   {
-    "featureId": "cave-trunk-garrison",
+    "featureId": "trunk-garrison",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Trunk Garrison",
@@ -2574,7 +2574,7 @@
     }
   },
   {
-    "featureId": "cave-visceral-remnant",
+    "featureId": "visceral-remnant",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Visceral Remnant",
@@ -2587,7 +2587,7 @@
     }
   },
   {
-    "featureId": "cave-volcanus-pit",
+    "featureId": "volcanus-pit",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Volcanus Pit",
@@ -2600,7 +2600,7 @@
     }
   },
   {
-    "featureId": "cave-voltaic-crag",
+    "featureId": "voltaic-crag",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Voltaic Crag",
@@ -2613,7 +2613,7 @@
     }
   },
   {
-    "featureId": "cave-vortex-complex",
+    "featureId": "vortex-complex",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Vortex Complex",
@@ -2626,7 +2626,7 @@
     }
   },
   {
-    "featureId": "cave-watery-waterfall",
+    "featureId": "watery-waterfall",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Watery Waterfall",
@@ -2639,7 +2639,7 @@
     }
   },
   {
-    "featureId": "cave-wave-cult-temple",
+    "featureId": "wave-cult-temple",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Wave Cult Temple",
@@ -2652,7 +2652,7 @@
     }
   },
   {
-    "featureId": "cave-weird-wilds",
+    "featureId": "weird-wilds",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Weird Wilds",
@@ -2665,7 +2665,7 @@
     }
   },
   {
-    "featureId": "cave-weirding-ring",
+    "featureId": "weirding-ring",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Weirding Ring",
@@ -2678,7 +2678,7 @@
     }
   },
   {
-    "featureId": "cave-willow-crypt",
+    "featureId": "willow-crypt",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Willow Crypt",
@@ -2691,7 +2691,7 @@
     }
   },
   {
-    "featureId": "cave-windwalker-temple",
+    "featureId": "windwalker-temple",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Windwalker Temple",
@@ -2704,7 +2704,7 @@
     }
   },
   {
-    "featureId": "cave-winery-infestation",
+    "featureId": "winery-infestation",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Winery Infestation",
@@ -2717,7 +2717,7 @@
     }
   },
   {
-    "featureId": "cave-wolf-den",
+    "featureId": "wolf-den",
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Wolf Den",
@@ -2730,7 +2730,7 @@
     }
   },
   {
-    "featureId": "shrine-uth-shrine",
+    "featureId": "uth-shrine",
     "categoryId": "wynntils:content:shrine",
     "attributes": {
       "label": "Uth Shrine"
@@ -2742,7 +2742,7 @@
     }
   },
   {
-    "featureId": "shrine-uth-shrine",
+    "featureId": "uth-shrine",
     "categoryId": "wynntils:content:shrine",
     "attributes": {
       "label": "Uth Shrine"
@@ -2754,7 +2754,7 @@
     }
   },
   {
-    "featureId": "grind-spot-witness-church",
+    "featureId": "witness-church",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Witness Church"
@@ -2766,7 +2766,7 @@
     }
   },
   {
-    "featureId": "grind-spot-frozen-fort",
+    "featureId": "frozen-fort",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Frozen Fort"
@@ -2778,7 +2778,7 @@
     }
   },
   {
-    "featureId": "grind-spot-angel-cave",
+    "featureId": "angel-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Angel Cave"
@@ -2790,7 +2790,7 @@
     }
   },
   {
-    "featureId": "grind-spot-the-scrapyard",
+    "featureId": "the-scrapyard",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "The Scrapyard"
@@ -2802,7 +2802,7 @@
     }
   },
   {
-    "featureId": "grind-spot-ancient-nemract",
+    "featureId": "ancient-nemract",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Ancient Nemract"
@@ -2814,7 +2814,7 @@
     }
   },
   {
-    "featureId": "grind-spot-element-temple",
+    "featureId": "element-temple",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Element Temple"
@@ -2826,7 +2826,7 @@
     }
   },
   {
-    "featureId": "grind-spot-zombie-tree",
+    "featureId": "zombie-tree",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Zombie Tree"
@@ -2838,7 +2838,7 @@
     }
   },
   {
-    "featureId": "grind-spot-mt-wynn-spider-pit",
+    "featureId": "mt-wynn-spider-pit",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Mt. Wynn Spider Pit"
@@ -2850,7 +2850,7 @@
     }
   },
   {
-    "featureId": "grind-spot-llevigar-spider-nest",
+    "featureId": "llevigar-spider-nest",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Llevigar Spider Nest"
@@ -2862,7 +2862,7 @@
     }
   },
   {
-    "featureId": "grind-spot-mushroom-plain",
+    "featureId": "mushroom-plain",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Mushroom Plain"
@@ -2874,7 +2874,7 @@
     }
   },
   {
-    "featureId": "grind-spot-evergreen-cave",
+    "featureId": "evergreen-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Evergreen Cave"
@@ -2886,7 +2886,7 @@
     }
   },
   {
-    "featureId": "grind-spot-mirror-cave",
+    "featureId": "mirror-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Mirror Cave"
@@ -2898,7 +2898,7 @@
     }
   },
   {
-    "featureId": "grind-spot-defiled-cave",
+    "featureId": "defiled-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Defiled Cave"
@@ -2910,7 +2910,7 @@
     }
   },
   {
-    "featureId": "grind-spot-abandoned-passage",
+    "featureId": "abandoned-passage",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Abandoned Passage"
@@ -2922,7 +2922,7 @@
     }
   },
   {
-    "featureId": "grind-spot-idol-cave",
+    "featureId": "idol-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Idol Cave"
@@ -2934,7 +2934,7 @@
     }
   },
   {
-    "featureId": "grind-spot-teak-cave",
+    "featureId": "teak-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Teak Cave"
@@ -2946,7 +2946,7 @@
     }
   },
   {
-    "featureId": "grind-spot-herb-cave",
+    "featureId": "herb-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Herb Cave"
@@ -2958,7 +2958,7 @@
     }
   },
   {
-    "featureId": "grind-spot-myconid-cave",
+    "featureId": "myconid-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Myconid Cave"
@@ -2970,7 +2970,7 @@
     }
   },
   {
-    "featureId": "grind-spot-frozen-fort",
+    "featureId": "frozen-fort",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Frozen Fort"
@@ -2982,7 +2982,7 @@
     }
   },
   {
-    "featureId": "grind-spot-dullahans-castle",
+    "featureId": "dullahans-castle",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Dullahan's Castle"
@@ -2994,7 +2994,7 @@
     }
   },
   {
-    "featureId": "grind-spot-ice-wraith-cave",
+    "featureId": "ice-wraith-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Ice Wraith Cave"
@@ -3006,7 +3006,7 @@
     }
   },
   {
-    "featureId": "grind-spot-time-valley",
+    "featureId": "time-valley",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Time Valley"
@@ -3018,7 +3018,7 @@
     }
   },
   {
-    "featureId": "grind-spot-desert-altar",
+    "featureId": "desert-altar",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Desert Altar"
@@ -3030,7 +3030,7 @@
     }
   },
   {
-    "featureId": "grind-spot-bandits-base",
+    "featureId": "bandits-base",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Bandit's Base"
@@ -3042,7 +3042,7 @@
     }
   },
   {
-    "featureId": "grind-spot-living-scrap-waterfall",
+    "featureId": "living-scrap-waterfall",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Living Scrap Waterfall"
@@ -3054,7 +3054,7 @@
     }
   },
   {
-    "featureId": "grind-spot-basalt-cave",
+    "featureId": "basalt-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Basalt Cave"
@@ -3066,7 +3066,7 @@
     }
   },
   {
-    "featureId": "grind-spot-demon-cave",
+    "featureId": "demon-cave",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Demon Cave"
@@ -3078,7 +3078,7 @@
     }
   },
   {
-    "featureId": "grind-spot-dragonling-nest",
+    "featureId": "dragonling-nest",
     "categoryId": "wynntils:content:grind-spot",
     "attributes": {
       "label": "Dragonling Nest"
