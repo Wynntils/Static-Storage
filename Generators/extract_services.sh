@@ -16,6 +16,13 @@ if [ ! -s markers.json.tmp ]; then
     exit
 fi
 
+# Check if the file is a JSON with a single "message" key
+if jq -e 'length == 1 and has("message")' markers.json.tmp > /dev/null; then
+    rm markers.json.tmp
+    echo "Error: Wynncraft API returned an error message, aborting"
+    exit
+fi
+
 # Input JSON file name
 inputFile="markers.json.tmp"
 

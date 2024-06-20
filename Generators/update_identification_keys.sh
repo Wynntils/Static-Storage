@@ -13,6 +13,13 @@ if [ ! -s metadata.json.tmp ]; then
     exit
 fi
 
+# Check if the file is a JSON with a single "message" key
+if jq -e 'length == 1 and has("message")' metadata.json.tmp > /dev/null; then
+    rm metadata.json.tmp
+    echo "Error: Wynncraft API returned an error message, aborting"
+    exit
+fi
+
 jq --sort-keys '.identifications | sort | values[]' < metadata.json.tmp > ids.tmp
 
 rm metadata.json.tmp

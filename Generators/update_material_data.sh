@@ -14,6 +14,13 @@ if [ ! -s materials.json.tmp ]; then
     exit
 fi
 
+# Check if the file is a JSON with a single "message" key
+if jq -e 'length == 1 and has("message")' materials.json.tmp > /dev/null; then
+    rm materials.json.tmp
+    echo "Error: Wynncraft API returned an error message, aborting"
+    exit
+fi
+
 # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
 jq --sort-keys -r '.' < materials.json.tmp > materials.json.tmp2
 # Minimalize the json file
