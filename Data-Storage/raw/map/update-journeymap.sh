@@ -24,14 +24,14 @@ fi
 if [[ $COMMAND = "get-from-journeymap" ]]; then
   mkdir -p $WYNNDATA_DIR/journeymap-data/DIM0/day
   echo "Changed files:"
-  diff -q journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day $WYNNDATA_DIR/journeymap-data/DIM0/day
-  cp -f journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day/* $WYNNDATA_DIR/journeymap-data/DIM0/day
+  diff -q journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day $WYNNDATA_DIR/raw_map
+  cp -f journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day/* $WYNNDATA_DIR/raw_map
   echo "Please go to $WYNNDATA_DIR and commit and push your changes"
 elif [[ $COMMAND == "install-in-journeymap" ]]; then
   mkdir -p journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day
   echo "Changed files:"
-  diff -q $WYNNDATA_DIR/journeymap-data/DIM0/day journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day
-  cp -f $WYNNDATA_DIR/journeymap-data/DIM0/day/* journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day
+  diff -q $WYNNDATA_DIR/raw_map journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day
+  cp -f $WYNNDATA_DIR/raw_map/* journeymap/data/mp/$WYNNCRAFT_WORLD_NAME/DIM0/day
   echo "Your journeymap installation now has the latest map data"
 elif [[ $COMMAND == "install-wynntils-config" ]]; then
   if [[ ! -d journeymap/config/6.0 ]]; then
