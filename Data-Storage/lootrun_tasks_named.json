@@ -119,6 +119,15 @@
     },
     {
       "location": {
+        "x": -1565,
+        "y": 75,
+        "z": -2206
+      },
+      "name": "War Machine",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
         "x": -1471,
         "y": 0,
         "z": -2376
@@ -164,9 +173,9 @@
     },
     {
       "location": {
-        "x": -1310,
-        "y": 0,
-        "z": -2259
+        "x": -1317,
+        "y": 104,
+        "z": -2252
       },
       "name": "Fort Corkia",
       "taskType": "slay"
@@ -420,9 +429,9 @@
     },
     {
       "location": {
-        "x": 911,
+        "x": 895,
         "y": 78,
-        "z": -560
+        "z": -527
       },
       "name": "Reject Grove",
       "taskType": "slay"
@@ -533,6 +542,15 @@
         "z": -1060
       },
       "name": "The Lantern Keeper's Abode",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1313,
+        "y": 144,
+        "z": -1048
+      },
+      "name": "The Place Conglomerated",
       "taskType": "loot"
     },
     {
