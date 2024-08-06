@@ -29,7 +29,7 @@
     "requirements": 2,
     "rewards": [
       "40 XP",
-      "1 Unidentified Leggings",
+      "1 §dUnidentified Leggings",
       "Various Items"
     ],
     "location": {
@@ -79,7 +79,7 @@
   {
     "type": "cave",
     "name": "Avos Animation Totem",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7Beware what lives at §f[-1759, 37, -2450]",
     "length": "long",
     "lengthInfo": "3m",
@@ -269,7 +269,7 @@
   {
     "type": "cave",
     "name": "Bovine Bedrock",
-    "specialInfo": "Tower",
+    "specialInfo": "§eTower",
     "description": "§7Bedrock has shot out the ground, and some strange bovine creatures have made it home at §f[-608, 48, -4904]",
     "length": "medium",
     "lengthInfo": "1m45s",
@@ -307,7 +307,7 @@
   {
     "type": "cave",
     "name": "Broodmother's Bestiary",
-    "specialInfo": "Tower",
+    "specialInfo": "§eTower",
     "description": "§7Harpies have taken to the mountaintops with a path beginning near §f[645, 91, -5328]",
     "length": "long",
     "lengthInfo": "1m50s",
@@ -345,7 +345,7 @@
   {
     "type": "cave",
     "name": "Burning Bog",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7Kandrekk warlocks have claimed a bog hidden behind ancient Gylia Ruins at §f[-411, 37, -5205]§7, and seek to watch the world burn",
     "length": "long",
     "lengthInfo": "2m30s",
@@ -397,25 +397,6 @@
       "x": 1134,
       "y": 135,
       "z": -1121
-    }
-  },
-  {
-    "type": "cave",
-    "name": "Cannibal Walkways",
-    "specialInfo": "",
-    "description": "§7On the walkways and platforms of a cliffside at §f[-956, 43, -525] §7Cannibals have made their camp",
-    "length": "long",
-    "lengthInfo": "2m30s",
-    "difficulty": "hard",
-    "requirements": 71,
-    "rewards": [
-      "14000 XP",
-      "Various Items"
-    ],
-    "location": {
-      "x": -956,
-      "y": 43,
-      "z": -525
     }
   },
   {
@@ -497,7 +478,7 @@
   {
     "type": "cave",
     "name": "Cave of the Seasons",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7Light and the seasons have taken physical form under a strange tree growing out of §f[-864, 51, -6131]",
     "length": "long",
     "lengthInfo": "5m",
@@ -573,7 +554,7 @@
   {
     "type": "cave",
     "name": "Corrupted Passageway",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7A Passageway with a Mysterious door §f[-497, 67, -1629]§7 Perhaps a key could be found on some nearby structure.",
     "length": "medium",
     "lengthInfo": "1m20s",
@@ -582,7 +563,7 @@
     "rewards": [
       "340 XP",
       "64 Emeralds",
-      "1 Unidentified Helmet",
+      "1 §bUnidentified Helmet",
       "Various Items"
     ],
     "location": {
@@ -1032,6 +1013,25 @@
   },
   {
     "type": "cave",
+    "name": "Fallen Salient",
+    "specialInfo": "",
+    "description": "§7On the walkways and platforms of a cliffside at §f[-956, 43, -525]§7, and old camp to fend against corruption has been overrun.",
+    "length": "long",
+    "lengthInfo": "2m30s",
+    "difficulty": "hard",
+    "requirements": 71,
+    "rewards": [
+      "14000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -956,
+      "y": 43,
+      "z": -525
+    }
+  },
+  {
+    "type": "cave",
     "name": "Fire & Water",
     "specialInfo": "",
     "description": "§7A corrupted cave of opposing elements located at §f[-502, 71, -1722]",
@@ -1062,6 +1062,7 @@
     "requirements": 57,
     "rewards": [
       "40000 XP",
+      "3 Az Runes",
       "Various Items"
     ],
     "location": {
@@ -1092,7 +1093,7 @@
   {
     "type": "cave",
     "name": "Forgotten Excavation",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7A lost Golem stands guard over the spoils of an excavation at §f[987, 67, -4977]",
     "length": "medium",
     "lengthInfo": "1m",
@@ -1112,7 +1113,7 @@
     "type": "cave",
     "name": "Fortress Catacombs",
     "specialInfo": "",
-    "description": "§7Some say if you crawl through the catacombs at §f[-1336, 45, -5079] §7you can find great rewards.",
+    "description": "§7Some say if you crawl through the catacombs at §f[-1336, 45, -5079]§7 you can find great rewards.",
     "length": "medium",
     "lengthInfo": "1m10s",
     "difficulty": "medium",
@@ -1138,6 +1139,7 @@
     "requirements": 50,
     "rewards": [
       "40000 XP",
+      "2 Az Runes",
       "Various Items"
     ],
     "location": {
@@ -1187,8 +1189,8 @@
   {
     "type": "cave",
     "name": "Geodesic",
-    "specialInfo": "Cave Complex",
-    "description": "§7Fall into a great cavern at §f[-1369, 121, -3060]",
+    "specialInfo": "§eCave Complex",
+    "description": "§7Fall into a great cavern at §f[-1369, 121, -3060]§7 and behold the crystalline formations therein.",
     "length": "long",
     "lengthInfo": "5m",
     "difficulty": "hard",
@@ -1263,11 +1265,11 @@
   {
     "type": "cave",
     "name": "Half Moon Island",
-    "specialInfo": "Island",
+    "specialInfo": "§eIsland",
     "description": "§7Explore the strange Half Moon Island and find all its treasure and danger at §f[1085, 37, -2566]",
     "length": "long",
     "lengthInfo": "5m",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "requirements": 37,
     "rewards": [
       "20000 XP",
@@ -1320,11 +1322,11 @@
   {
     "type": "cave",
     "name": "Hex Keep Gateway",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7The entrance to a great subterranean keep; many more dangers await deeper in the keep §f[-433, 66, -1691]",
     "length": "medium",
     "lengthInfo": "1m30s",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "requirements": 7,
     "rewards": [
       "1500 XP",
@@ -1367,6 +1369,7 @@
     "requirements": 45,
     "rewards": [
       "14000 XP",
+      "1 Az Rune",
       "Various Items"
     ],
     "location": {
@@ -1576,6 +1579,7 @@
     "requirements": 55,
     "rewards": [
       "40000 XP",
+      "2 Az Runes",
       "Various Items"
     ],
     "location": {
@@ -1690,6 +1694,7 @@
     "requirements": 53,
     "rewards": [
       "40000 XP",
+      "1 Az Rune",
       "Various Items"
     ],
     "location": {
@@ -1701,7 +1706,7 @@
   {
     "type": "cave",
     "name": "Mesquis Tower",
-    "specialInfo": "Tower",
+    "specialInfo": "§eTower",
     "description": "§7Great danger lies atop this tower at §f[-785, 58, -5036]",
     "length": "medium",
     "lengthInfo": "1m30s",
@@ -1777,7 +1782,7 @@
   {
     "type": "cave",
     "name": "Mystifying Stump",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7Find your way though the stump at §f[-754, 53, -5299]",
     "length": "long",
     "lengthInfo": "3m",
@@ -1796,7 +1801,7 @@
   {
     "type": "cave",
     "name": "Naga Dugout",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7A sneaky Naga Commander has made camp in a dugout at §f[-2025, 59, -5081]",
     "length": "long",
     "lengthInfo": "2m",
@@ -1804,6 +1809,7 @@
     "requirements": 58,
     "rewards": [
       "40000 XP",
+      "2 Az Runes",
       "Various Items"
     ],
     "location": {
@@ -1834,7 +1840,7 @@
   {
     "type": "cave",
     "name": "Nymph Towers",
-    "specialInfo": "Rock Towers",
+    "specialInfo": "§eRock Towers",
     "description": "§7Climb the earthen towers and find what treasure the nymphs have at §f[-1052, 46, -4768]",
     "length": "medium",
     "lengthInfo": "1m45s",
@@ -1871,25 +1877,6 @@
   },
   {
     "type": "cave",
-    "name": "Orc Cove",
-    "specialInfo": "",
-    "description": "§7Ridiculous rumors state an orc camp full of ruin-seekers lies beneath a lake §f[-1827, 53, -4899]",
-    "length": "short",
-    "lengthInfo": "40s",
-    "difficulty": "easy",
-    "requirements": 46,
-    "rewards": [
-      "14000 XP",
-      "Various Items"
-    ],
-    "location": {
-      "x": -1827,
-      "y": 53,
-      "z": -4899
-    }
-  },
-  {
-    "type": "cave",
     "name": "Overgrown Rubble",
     "specialInfo": "",
     "description": "§7An overgrown cave has gone to rubble and caved in! Trek through the rubble and find what's inside at §f[742, 87, -4890]",
@@ -1910,7 +1897,7 @@
   {
     "type": "cave",
     "name": "Ovine Spire",
-    "specialInfo": "Tower",
+    "specialInfo": "§eTower",
     "description": "§7A cabal of fluffy jumbucks have established a Guard Tower at §f[778, 81, -4721]",
     "length": "long",
     "lengthInfo": "2m30s",
@@ -1928,7 +1915,7 @@
   },
   {
     "type": "cave",
-    "name": "Pigman Outpost",
+    "name": "Pigman Barbeque",
     "specialInfo": "",
     "description": "§7Pigmen are cooking up something outside Ragni at §f[-622, 69, -1570]",
     "length": "short",
@@ -1938,7 +1925,7 @@
     "rewards": [
       "30 XP",
       "13 Emeralds",
-      "1 Blank",
+      "1 §eBlank",
       "Various Items"
     ],
     "location": {
@@ -1988,7 +1975,7 @@
   {
     "type": "cave",
     "name": "Pirate Sloop",
-    "specialInfo": "Dock",
+    "specialInfo": "§eDock",
     "description": "§7Find the pirates dock to their hideout at §f[-1341, 35, -2229]",
     "length": "medium",
     "lengthInfo": "1m",
@@ -2064,7 +2051,7 @@
   {
     "type": "cave",
     "name": "Raging Tower",
-    "specialInfo": "Tower",
+    "specialInfo": "§eTower",
     "description": "§7An old tower overtaken by fiery corrupt with a powerful being looming overtop at §f[144, 68, -1680]",
     "length": "medium",
     "lengthInfo": "1m10s",
@@ -2319,6 +2306,7 @@
     "requirements": 57,
     "rewards": [
       "40000 XP",
+      "3 Az Runes",
       "Various Items"
     ],
     "location": {
@@ -2330,7 +2318,7 @@
   {
     "type": "cave",
     "name": "Shadow Altar",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7Fill the altar and fight what lives inside at §f[1271, 95, -5427]",
     "length": "medium",
     "lengthInfo": "1m40s",
@@ -2363,6 +2351,26 @@
       "x": 1339,
       "y": 33,
       "z": -1552
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Shineridge Orc Camp",
+    "specialInfo": "§eCamp",
+    "description": "§7The Orcish traders and jewelers gather riches at Shineridge, enough to make Llevigar traders jealous §f[-1621, 47, -4664]",
+    "length": "long",
+    "lengthInfo": "3m",
+    "difficulty": "hard",
+    "requirements": 45,
+    "rewards": [
+      "20000 XP",
+      "2 Az Runes",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1621,
+      "y": 47,
+      "z": -4664
     }
   },
   {
@@ -2414,6 +2422,7 @@
     "requirements": 55,
     "rewards": [
       "40000 XP",
+      "2 Az Runes",
       "Various Items"
     ],
     "location": {
@@ -2444,7 +2453,7 @@
   {
     "type": "cave",
     "name": "Sky Shroom",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7A strange shroom grows up around §f[1199, 108, -4289]",
     "length": "medium",
     "lengthInfo": "1m30s",
@@ -2595,6 +2604,26 @@
   },
   {
     "type": "cave",
+    "name": "Sundial Sanctum",
+    "specialInfo": "§eCave Complex",
+    "description": "§7Enter The Sanctum at §f[1062, 73, -1726]§7 if you dare §d󐀄§bSailers",
+    "length": "long",
+    "lengthInfo": "15m",
+    "difficulty": "hard",
+    "requirements": 35,
+    "rewards": [
+      "10000 XP",
+      "1 §bUnidentified Solar",
+      "Various Items"
+    ],
+    "location": {
+      "x": 1062,
+      "y": 73,
+      "z": -1726
+    }
+  },
+  {
+    "type": "cave",
     "name": "Sunken Ship",
     "specialInfo": "",
     "description": "§7Off Nemract's coast lies treasure sunken under a shipwreck at §f[215, 34, -2410]§7, too far underwater to reach without special equipment",
@@ -2623,6 +2652,7 @@
     "requirements": 50,
     "rewards": [
       "40000 XP",
+      "1 Az Rune",
       "Various Items"
     ],
     "location": {
@@ -2653,7 +2683,7 @@
   {
     "type": "cave",
     "name": "Termite Mounds",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7Termite Mounds across the Savannah! Find one of the entrances to their maze of tunnels and treasures at §f[727, 76, -1707]",
     "length": "long",
     "lengthInfo": "3m",
@@ -2734,9 +2764,9 @@
     "length": "medium",
     "lengthInfo": "1m",
     "difficulty": "hard",
-    "requirements": 69,
+    "requirements": 72,
     "rewards": [
-      "15000 XP",
+      "50000 XP",
       "Various Items"
     ],
     "location": {
@@ -2824,7 +2854,7 @@
   {
     "type": "cave",
     "name": "The Sacrificial Altar",
-    "specialInfo": "Boss Cave",
+    "specialInfo": "§eBoss Cave",
     "description": "§7Dark Cultists have gathered around an Altar in a cliffside cave around §f[-298, 38, -969]",
     "length": "medium",
     "lengthInfo": "1m30s",
@@ -2843,7 +2873,7 @@
   {
     "type": "cave",
     "name": "The Warehouse",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7Bots manage a complex warehouse deep in the ground at §f[-1847, 41, -2641]",
     "length": "long",
     "lengthInfo": "3m",
@@ -3000,9 +3030,9 @@
     "length": "medium",
     "lengthInfo": "1m",
     "difficulty": "easy",
-    "requirements": 51,
+    "requirements": 60,
     "rewards": [
-      "14000 XP",
+      "45000 XP",
       "Various Items"
     ],
     "location": {
@@ -3071,7 +3101,7 @@
   {
     "type": "cave",
     "name": "Vortex Complex",
-    "specialInfo": "Cave Complex",
+    "specialInfo": "§eCave Complex",
     "description": "§7Enter this deep and confusing complex and find what treasure lies within §f[-182, 71, -1210]",
     "length": "long",
     "lengthInfo": "3m",
@@ -3147,7 +3177,7 @@
   {
     "type": "cave",
     "name": "Weirding Ring",
-    "specialInfo": "Tower",
+    "specialInfo": "§eTower",
     "description": "§7Instead of fae spirits, Weirds have congealed in a ring of giant climbable mushrooms at §f[-498, 41, -5293]",
     "length": "long",
     "lengthInfo": "2m",
