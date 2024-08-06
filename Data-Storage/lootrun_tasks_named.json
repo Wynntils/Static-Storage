@@ -766,12 +766,12 @@
   "canyonOfTheLostExcursion": [
     {
       "location": {
-        "x": 438,
-        "y": 72,
-        "z": -4391
+        "x": 292,
+        "y": 136,
+        "z": -4686
       },
-      "name": "Task #1",
-      "taskType": "slay"
+      "name": "Canyon Fortress",
+      "taskType": "destroy"
     },
     {
       "location": {
@@ -779,61 +779,25 @@
         "y": 93,
         "z": -4980
       },
-      "name": "Task #2",
+      "name": "Wizard Tower",
       "taskType": "slay"
     },
     {
       "location": {
-        "x": 292,
-        "y": 136,
-        "z": -4686
+        "x": 323,
+        "y": 65,
+        "z": -4633
       },
-      "name": "Task #3",
-      "taskType": "destroy"
-    },
-    {
-      "location": {
-        "x": 385,
-        "y": 28,
-        "z": -4896
-      },
-      "name": "Task #4",
-      "taskType": "defend"
-    },
-    {
-      "location": {
-        "x": 346,
-        "y": 31,
-        "z": -4606
-      },
-      "name": "Task #5",
+      "name": "Runaway Fleris Cranny",
       "taskType": "loot"
     },
     {
       "location": {
-        "x": 632,
-        "y": 44,
-        "z": -4947
+        "x": 330,
+        "y": 64,
+        "z": -4916
       },
-      "name": "Task #6",
-      "taskType": "loot"
-    },
-    {
-      "location": {
-        "x": 638,
-        "y": 54,
-        "z": -4719
-      },
-      "name": "Task #7",
-      "taskType": "loot"
-    },
-    {
-      "location": {
-        "x": 622,
-        "y": 28,
-        "z": -4695
-      },
-      "name": "Task #8",
+      "name": "Rocky Peril",
       "taskType": "loot"
     },
     {
@@ -842,25 +806,34 @@
         "y": 81,
         "z": -4515
       },
-      "name": "Task #9",
+      "name": "The Pit",
       "taskType": "slay"
     },
     {
       "location": {
-        "x": 330,
-        "y": 64,
-        "z": -4916
+        "x": 346,
+        "y": 31,
+        "z": -4606
       },
-      "name": "Task #10",
+      "name": "Burning Delve",
       "taskType": "loot"
     },
     {
       "location": {
-        "x": 537,
-        "y": 24,
-        "z": -4932
+        "x": 385,
+        "y": 28,
+        "z": -4896
       },
-      "name": "Task #11",
+      "name": "Farmland",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 438,
+        "y": 72,
+        "z": -4391
+      },
+      "name": "Mountain Edge",
       "taskType": "slay"
     },
     {
@@ -869,7 +842,7 @@
         "y": 28,
         "z": -4995
       },
-      "name": "Task #12",
+      "name": "Krolton's Cave",
       "taskType": "destroy"
     },
     {
@@ -878,17 +851,8 @@
         "y": 110,
         "z": -4801
       },
-      "name": "Task #13",
+      "name": "Bantisu Temple",
       "taskType": "defend"
-    },
-    {
-      "location": {
-        "x": 323,
-        "y": 65,
-        "z": -4633
-      },
-      "name": "Task #14",
-      "taskType": "loot"
     },
     {
       "location": {
@@ -896,8 +860,53 @@
         "y": 50,
         "z": -4448
       },
-      "name": "Task #15",
+      "name": "The Colossus",
       "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 537,
+        "y": 24,
+        "z": -4932
+      },
+      "name": "Air Temple Cavern",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 590,
+        "y": 25,
+        "z": -4625
+      },
+      "name": "Demolition Derby",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 622,
+        "y": 28,
+        "z": -4695
+      },
+      "name": "Chiseler's Cavern",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 632,
+        "y": 44,
+        "z": -4947
+      },
+      "name": "Voltaic Crag",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 638,
+        "y": 54,
+        "z": -4719
+      },
+      "name": "Seismic Bore Hole",
+      "taskType": "loot"
     }
   ]
 }
