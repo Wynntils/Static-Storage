@@ -108,12 +108,12 @@
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Decrepit Sewers",
-      "level": 9
+      "level": 8
     },
     "location": {
-      "x": -922,
-      "y": 65,
-      "z": -1885
+      "x": -926,
+      "y": 62,
+      "z": -1888
     }
   },
   {
@@ -173,12 +173,12 @@
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Infested Pit",
-      "level": 18
+      "level": 17
     },
     "location": {
-      "x": -282,
-      "y": 35,
-      "z": -1829
+      "x": -199,
+      "y": 53,
+      "z": -1854
     }
   },
   {
@@ -215,9 +215,9 @@
       "level": 54
     },
     "location": {
-      "x": -635,
-      "y": 59,
-      "z": -864
+      "x": -642,
+      "y": 73,
+      "z": -854
     }
   },
   {
@@ -225,7 +225,7 @@
     "categoryId": "wynntils:content:dungeon",
     "attributes": {
       "label": "Underworld Crypt",
-      "level": 24
+      "level": 23
     },
     "location": {
       "x": 288,
@@ -238,12 +238,12 @@
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "Nest of the Grootslangs",
-      "level": 55
+      "level": 54
     },
     "location": {
       "x": -1977,
       "y": 63,
-      "z": -5614
+      "z": -5635
     }
   },
   {
@@ -251,12 +251,12 @@
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "Orphion's Nexus of Light",
-      "level": 80
+      "level": 79
     },
     "location": {
-      "x": -731,
+      "x": -732,
       "y": 100,
-      "z": -6411
+      "z": -6435
     }
   },
   {
@@ -264,12 +264,12 @@
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "The Canyon Colossus",
-      "level": 90
+      "level": 95
     },
     "location": {
-      "x": 656,
-      "y": 48,
-      "z": -4447
+      "x": 693,
+      "y": 44,
+      "z": -4448
     }
   },
   {
@@ -277,12 +277,12 @@
     "categoryId": "wynntils:content:raid",
     "attributes": {
       "label": "The Nameless Anomaly",
-      "level": 105
+      "level": 103
     },
     "location": {
-      "x": 1116,
-      "y": 84,
-      "z": -907
+      "x": 1068,
+      "y": 106,
+      "z": -824
     }
   },
   {
@@ -465,6 +465,19 @@
       "x": 1323,
       "y": 33,
       "z": -4611
+    }
+  },
+  {
+    "featureId": "canyon-of-the-lost-excursion-south",
+    "categoryId": "wynntils:content:lootrun-camp",
+    "attributes": {
+      "label": "Canyon of the Lost Excursion (South)",
+      "level": 85
+    },
+    "location": {
+      "x": 578,
+      "y": 79,
+      "z": -5018
     }
   },
   {
@@ -790,19 +803,6 @@
       "x": 1134,
       "y": 135,
       "z": -1121
-    }
-  },
-  {
-    "featureId": "cannibal-walkways",
-    "categoryId": "wynntils:content:cave",
-    "attributes": {
-      "label": "Cannibal Walkways",
-      "level": 71
-    },
-    "location": {
-      "x": -956,
-      "y": 43,
-      "z": -525
     }
   },
   {
@@ -1219,6 +1219,19 @@
       "x": 1301,
       "y": 86,
       "z": -2144
+    }
+  },
+  {
+    "featureId": "fallen-salient",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Fallen Salient",
+      "level": 71
+    },
+    "location": {
+      "x": -956,
+      "y": 43,
+      "z": -525
     }
   },
   {
@@ -1794,19 +1807,6 @@
     }
   },
   {
-    "featureId": "orc-cove",
-    "categoryId": "wynntils:content:cave",
-    "attributes": {
-      "label": "Orc Cove",
-      "level": 46
-    },
-    "location": {
-      "x": -1827,
-      "y": 53,
-      "z": -4899
-    }
-  },
-  {
     "featureId": "overgrown-rubble",
     "categoryId": "wynntils:content:cave",
     "attributes": {
@@ -1833,10 +1833,10 @@
     }
   },
   {
-    "featureId": "pigman-outpost",
+    "featureId": "pigman-barbeque",
     "categoryId": "wynntils:content:cave",
     "attributes": {
-      "label": "Pigman Outpost",
+      "label": "Pigman Barbeque",
       "level": 1
     },
     "location": {
@@ -2132,6 +2132,19 @@
     }
   },
   {
+    "featureId": "shineridge-orc-camp",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Shineridge Orc Camp",
+      "level": 45
+    },
+    "location": {
+      "x": -1621,
+      "y": 47,
+      "z": -4664
+    }
+  },
+  {
     "featureId": "shock-shrine",
     "categoryId": "wynntils:content:cave",
     "attributes": {
@@ -2288,6 +2301,19 @@
     }
   },
   {
+    "featureId": "sundial-sanctum",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Sundial Sanctum",
+      "level": 35
+    },
+    "location": {
+      "x": 1062,
+      "y": 73,
+      "z": -1726
+    }
+  },
+  {
     "featureId": "sunken-ship",
     "categoryId": "wynntils:content:cave",
     "attributes": {
@@ -2383,7 +2409,7 @@
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "The Heartwood",
-      "level": 69
+      "level": 72
     },
     "location": {
       "x": -625,
@@ -2565,7 +2591,7 @@
     "categoryId": "wynntils:content:cave",
     "attributes": {
       "label": "Trunk Garrison",
-      "level": 51
+      "level": 60
     },
     "location": {
       "x": -560,
