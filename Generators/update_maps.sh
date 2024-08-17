@@ -217,6 +217,12 @@ MD5=$(md5sum $JSON_METADATA_FILE | cut -d' ' -f1)
 
 # Update urls.json with the new md5sum for dataStaticMaps
 jq '. = [.[] | if (.id == "dataStaticMaps") then (.md5 = "'$MD5'") else . end]' < $WYNNDATA_DIR/Data-Storage/urls.json > $WYNNDATA_DIR/Data-Storage/urls.json.tmp
-mv $WYNNDATA_DIR/Data-Storage/urls.json.tmp $WYNNDATA_DIR/Data-Storage/urls.json
+
+# If the temp file is different from the original, bump the version number
+if ! cmp -s ../Data-Storage/urls.json ../Data-Storage/urls.json.tmp; then
+    jq 'map(if has("version") then .version += 1 else . end)' < $WYNNDATA_DIR/Data-Storage/urls.json.tmp > $WYNNDATA_DIR/Data-Storage/urls.json
+fi
+
+rm $WYNNDATA_DIR/Data-Storage/urls.json.tmp
 
 rm -rf $WYNNDATA_DIR/tmp

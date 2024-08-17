@@ -35,4 +35,10 @@ MD5=$(md5sum $TARGET_DIR/tomes.json | cut -d' ' -f1)
 
 # Update urls.json with the new md5sum for dataStaticTomes
 jq '. = [.[] | if (.id == "dataStaticTomes") then (.md5 = "'$MD5'") else . end]' < ../Data-Storage/urls.json > ../Data-Storage/urls.json.tmp
-mv ../Data-Storage/urls.json.tmp ../Data-Storage/urls.json
+
+# If the temp file is different from the original, bump the version number
+if ! cmp -s ../Data-Storage/urls.json ../Data-Storage/urls.json.tmp; then
+    jq 'map(if has("version") then .version += 1 else . end)' < ../Data-Storage/urls.json.tmp > ../Data-Storage/urls.json
+fi
+
+rm ../Data-Storage/urls.json.tmp
