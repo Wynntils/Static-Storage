@@ -1,6 +1,6 @@
 [
   {
-    "version": 11
+    "version": 12
   },
   {
     "id": "apiAthenaAuthPublicKey",
@@ -115,7 +115,7 @@
   },
   {
     "id": "dataStaticGear",
-    "md5": "43752a252ba67b8491945ad648dea931",
+    "md5": "34ea35f18453ffb25d3b398069ab2cf6",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/gear.json"
   },
   {
