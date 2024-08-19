@@ -5,7 +5,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 # Download the json file from Wynncraft API
-wget -O metadata.json.tmp "https://api.wynncraft.com/v3/item/metadata"
+wget -O metadata.json.tmp "https://beta-api.wynncraft.com/v3/item/metadata"
 
 if [ ! -s metadata.json.tmp ]; then
     rm metadata.json.tmp

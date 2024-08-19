@@ -1,6 +1,6 @@
 [
   {
-    "version": 12
+    "version": 19
   },
   {
     "id": "apiAthenaAuthPublicKey",
@@ -95,7 +95,7 @@
   },
   {
     "id": "dataStaticCharms",
-    "md5": "3eaf21f82216f1084e332e42f85e36f7",
+    "md5": "38cf949c0d1e9e7a7fccd61d6d9cce62",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/charms.json"
   },
   {
@@ -140,7 +140,7 @@
   },
   {
     "id": "dataStaticIngredientsAdvanced",
-    "md5": "db6bd17b8d83e532567e92ad5164c94a",
+    "md5": "f0244d7c5658d7093eb0650b0f29a657",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/advanced_ingredients.json"
   },
   {
@@ -175,7 +175,7 @@
   },
   {
     "id": "dataStaticMaterials",
-    "md5": "09758a52d4317cd67bbdd439b110e90d",
+    "md5": "1deb57e9ac975ab3548e33ef90717ae1",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/materials.json"
   },
   {
@@ -215,12 +215,12 @@
   },
   {
     "id": "dataStaticTomes",
-    "md5": "41bfd7ed5453320ca299e9a5ebb7cb1d",
+    "md5": "836db6b7b14fa72b94fe0df35c162a66",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
   },
   {
     "id": "dataStaticTools",
-    "md5": "da5c6b5f3d1d44033e13a93e2dd8ca6e",
+    "md5": "bf396c7e9520e46c101bf8cb13be6dd6",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
   },
   {
