@@ -159832,8 +159832,8 @@
     "tier": "mythic",
     "material": "359:13",
     "majorIds": {
-        "name": "Efflorescence",
-        "description": "Jasmine Bloom deals increased damage but requires more mana"
+      "name": "Efflorescence",
+      "description": "Jasmine Bloom deals increased damage but requires more mana"
     }
   },
   "Hecatomb": {
@@ -161250,8 +161250,8 @@
     "tier": "mythic",
     "material": "261:4",
     "majorIds": {
-        "name": "Twisting Threads",
-        "description": "Tangled Trap ropes are much stronger and max traps increase by 12, but trap and bomb effects are weakened."
+      "name": "Twisting Threads",
+      "description": "Tangled Trap ropes are much stronger and max traps increase by 12, but trap and bomb effects are weakened."
     }
   },
   "Light Birch Wood Shears": {
@@ -163668,8 +163668,8 @@
     "tier": "mythic",
     "material": "273:8",
     "majorIds": {
-        "name": "Lifestream",
-        "description": "Increases Blood Sorrow's damage and overhealth, but shortens its duration by 75%."
+      "name": "Lifestream",
+      "description": "Increases Blood Sorrow's damage and overhealth, but shortens its duration by 75%."
     }
   },
   "Rigor Mortis": {
@@ -165597,8 +165597,8 @@
     "tier": "mythic",
     "material": "269:10",
     "majorIds": {
-        "name": "Fixate",
-        "description": "All Winded effects are stronger, but Winded applies slowly"
+      "name": "Fixate",
+      "description": "All Winded effects are stronger, but Winded applies slowly"
     }
   },
   "Traumerei": {

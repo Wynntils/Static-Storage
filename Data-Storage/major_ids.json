@@ -198,5 +198,25 @@
     "id": "DESC_FESTIVESPIRIT",
     "name": "Festive Spirit",
     "lore": "Plays wintery tunes"
+  },
+  {
+    "id": "LIFESTREAM",
+    "name": "Lifestream",
+    "lore": "Increases Blood Sorrow's damage and overhealth, but shortens its duration by 75%."
+  },
+  {
+    "id": "EFFLORESCENCE",
+    "name": "Efflorescence",
+    "lore": "Jasmine Bloom deals increased damage but requires more mana"
+  },
+  {
+    "id": "TWISTING_THREADS",
+    "name": "Twisting Threads",
+    "lore": "Tangled Trap ropes are much stronger and max traps increase by 12, but trap and bomb effects are weakened."
+  },
+  {
+    "id": "FIXATE",
+    "name": "Fixate",
+    "lore": "All Winded effects are stronger, but Winded applies slowly"
   }
 ]

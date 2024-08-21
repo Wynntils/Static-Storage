@@ -207,8 +207,6 @@ const nestedDelete = (object: any, path: string) => {
         delete lastObject[lastKey]
 }
 
-// bun run start item1 item2 item3
-// bun run start -> takes all items
 const filter = process.argv.length > 2 ? process.argv.slice(2) : undefined
 
 console.log(Object.keys(GearJson).length)
@@ -217,8 +215,8 @@ for (const itemName of Object.keys(GearJson)) {
     const newData = wynnFormatToAdvancedFormat(GearJson[itemName])
     if (itemName in AdvancedGearJson) {
         AdvancedGearJson[itemName] = {
-            ...AdvancedGearJson[itemName],
             ...newData,
+            ...AdvancedGearJson[itemName],
         }
 
     console.log(`Updated ${itemName}`)
@@ -228,23 +226,11 @@ for (const itemName of Object.keys(GearJson)) {
     }
 }
 
-await Bun.write("Reference/new/advanced_gear.json", JSON.stringify(AdvancedGearJson))
-await Bun.write("Reference/new/advanced_gear_expanded.json", JSON.stringify(AdvancedGearJson, null, 2))
+await Bun.write("Reference/tmp/advanced_gear.json", JSON.stringify(AdvancedGearJson))
+await Bun.write("Reference/tmp/advanced_gear_expanded.json", JSON.stringify(AdvancedGearJson, null, 2))
 
 console.log("Done")
 
-const a = {
-    b: {
-        c: {
-            f: 15,
-            e: 12
-        }
-    }
-}
-
-
-
-/*
 let md5 = (await Bun.$`md5sum Reference/advanced_gear.json | cut -d' ' -f1`.text()).replace("\n", "")
 
 const URLJson: {md5: string; id: string}[] = await Bun.file("Data-Storage/urls.json").json()
@@ -254,4 +240,4 @@ URLJson.forEach(item => {
     }
 })
 
-await Bun.write("Data-Storage/urls.json", JSON.stringify(URLJson, null, 2)) */
+await Bun.write("Data-Storage/urls.json", JSON.stringify(URLJson, null, 2))
