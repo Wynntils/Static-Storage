@@ -21,7 +21,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6.0.2
         with:
-            token: ${{ secrets.PRIVATE_TOKEN }}
+            token: ${{ secrets.GITHUB_TOKEN }}
             labels: auto-generated
             committer: 'WynntilsBot <admin@wynntils.com>'
             author: 'WynntilsBot <admin@wynntils.com>'
@@ -30,7 +30,7 @@ jobs:
             body: |
               Upstream Wynncraft API has been updated with new identification keys.
 
-              Please verify that the ids are correctly incremented, old ids are not removed, and the new ids are incrementing from the last id. 
+              Please verify that the ids are correctly incremented, old ids are not removed, and the new ids are incrementing from the last id.
               If the ids reach 255, please reach out to the Artemis team to discuss how to handle this. Most likely the gear chat encoding needs to have a new version created.
 
               This PR has been automatically generated.
