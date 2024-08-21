@@ -228,8 +228,8 @@ for (const itemName of Object.keys(GearJson)) {
     }
 }
 
-await Bun.write("Reference/test/new_advanced_gear.json", JSON.stringify(AdvancedGearJson))
-await Bun.write("Reference/test/new_advanced_gear_expanded.json", JSON.stringify(AdvancedGearJson, null, 2))
+await Bun.write("Reference/new/advanced_gear.json", JSON.stringify(AdvancedGearJson))
+await Bun.write("Reference/new/advanced_gear_expanded.json", JSON.stringify(AdvancedGearJson, null, 2))
 
 console.log("Done")
 
