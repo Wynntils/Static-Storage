@@ -149,6 +149,22 @@ const TRANSFORMERS: Record<string, {from: string | undefined; to: string | undef
         from: "requirements.classRequirement",
         to: undefined,
         delete: true,
+    },
+    fixMinOrMaxMissing: {
+        from: undefined,
+        to: undefined,
+        delete: false,
+        processor(to, value, object) {
+            if(!object["identifications"]) return;
+            for(let identification of Object.keys(value["identifications"])) {
+                if (object["identifications"][identification].min !== undefined && object["identifications"][identification].max === undefined) {
+                    object["identifications"][identification]["max"] = object["identifications"][identification].min;
+                }
+                if(object["identifications"][identification].max !== undefined && object["identifications"][identification].min === undefined) {
+                    object["identifications"][identification]["min"] = object["identifications"][identification].max;
+                }
+            }
+        }
     }
 }
 
@@ -201,14 +217,15 @@ for (const itemName of Object.keys(GearJson)) {
     const newData = wynnFormatToAdvancedFormat(GearJson[itemName])
     if (itemName in AdvancedGearJson) {
         AdvancedGearJson[itemName] = {
-            ...newData,
             ...AdvancedGearJson[itemName],
+            ...newData,
         }
-    } else {
-        AdvancedGearJson[itemName] = newData
-    }
 
     console.log(`Updated ${itemName}`)
+    } else {
+        AdvancedGearJson[itemName] = newData
+        console.log(`Added ${itemName}`)
+    }
 }
 
 await Bun.write("Reference/test/new_advanced_gear.json", JSON.stringify(AdvancedGearJson))
