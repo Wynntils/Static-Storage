@@ -1,4 +1,4 @@
-name: Format urls.json
+name: Hash and Format urls.json
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ on:
       - main
         
 jobs:
-  format:
+  hash-format:
     if: '! github.event.pull_request.draft'
     runs-on: ubuntu-latest
     steps:
@@ -23,6 +23,11 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
+      - name: Hash urls.json
+        run: |
+          chmod +x ./Utils/hash_urls.sh
+          ./Utils/hash_urls.sh
+
       - name: Format urls.json
         run: |
           chmod +x ./Utils/format_urls.sh
@@ -32,4 +37,4 @@ jobs:
         with:
           commit_user_name: 'WynntilsBot'
           commit_user_email: 'admin@wynntils.com'
-          commit_message: 'ci: urls.json formatting'
+          commit_message: 'ci: update urls.json hashes and formatting [skip ci]'

@@ -8,7 +8,7 @@ echo '[git hook] executing format_urls.sh before commit'
 # Get list of staged files
 stagedFiles=$(git diff --staged --name-only)
 
-# Run spotlessApply with the gradle wrapper
+./Utils/hash_urls.sh
 ./Utils/format_urls.sh
 
 # Store the last exit code
