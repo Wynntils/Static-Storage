@@ -14,7 +14,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -25,7 +25,7 @@
         "raw": 3
       },
       "waterDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -55,7 +55,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -96,21 +96,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDefence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawIntelligence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawDefence": 2,
+      "rawIntelligence": 2
     },
     "internalName": "Alchemist's Tome of Allegiance",
     "raidReward": true,
@@ -137,16 +129,12 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDefence": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      }
+      "rawDefence": 4
     },
     "internalName": "Arsonist's Tome of Allegiance",
     "raidReward": true,
@@ -173,31 +161,16 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawAgility": {
-        "max": 1,
-        "raw": 1
-      },
-      "rawDefence": {
-        "max": 1,
-        "raw": 1
-      },
-      "rawDexterity": {
-        "max": 1,
-        "raw": 1
-      },
-      "rawIntelligence": {
-        "max": 1,
-        "raw": 1
-      },
-      "rawStrength": {
-        "max": 1,
-        "raw": 1
-      }
+      "rawAgility": 1,
+      "rawDefence": 1,
+      "rawDexterity": 1,
+      "rawIntelligence": 1,
+      "rawStrength": 1
     },
     "internalName": "Assimilator's Tome of Allegiance",
     "raidReward": true,
@@ -224,21 +197,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawAgility": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawStrength": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawAgility": 2,
+      "rawStrength": 2
     },
     "internalName": "Barbarian's Tome of Allegiance",
     "raidReward": true,
@@ -265,7 +230,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -276,7 +241,7 @@
         "raw": 6
       },
       "rawHealth": {
-        "max": 214,
+        "max": 215,
         "min": 50,
         "raw": 165
       }
@@ -306,7 +271,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -317,7 +282,7 @@
         "raw": 8
       },
       "rawHealth": {
-        "max": 344,
+        "max": 345,
         "min": 80,
         "raw": 265
       }
@@ -347,16 +312,12 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawStrength": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      }
+      "rawStrength": 4
     },
     "internalName": "Brute's Tome of Allegiance",
     "raidReward": true,
@@ -383,7 +344,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -394,7 +355,7 @@
         "raw": 6
       },
       "rawHealth": {
-        "max": 214,
+        "max": 215,
         "min": 50,
         "raw": 165
       }
@@ -424,7 +385,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -435,7 +396,7 @@
         "raw": 8
       },
       "rawHealth": {
-        "max": 344,
+        "max": 345,
         "min": 80,
         "raw": 265
       }
@@ -465,7 +426,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -476,7 +437,7 @@
         "raw": 6
       },
       "rawHealth": {
-        "max": 214,
+        "max": 215,
         "min": 50,
         "raw": 165
       }
@@ -506,7 +467,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -517,7 +478,7 @@
         "raw": 8
       },
       "rawHealth": {
-        "max": 344,
+        "max": 345,
         "min": 80,
         "raw": 265
       }
@@ -547,13 +508,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       },
@@ -588,7 +549,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -629,21 +590,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDefence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawStrength": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawDefence": 2,
+      "rawStrength": 2
     },
     "internalName": "Destroyer's Tome of Allegiance",
     "raidReward": true,
@@ -670,21 +623,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDefence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawDexterity": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawDefence": 2,
+      "rawDexterity": 2
     },
     "internalName": "Devil's Tome of Allegiance",
     "raidReward": true,
@@ -711,14 +656,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
     "identifications": {
       "3rdSpellCost": {
-        "max": -2,
-        "min": -4,
+        "max": -4,
+        "min": -1,
         "raw": -3
       }
     },
@@ -747,7 +692,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
@@ -783,7 +728,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
@@ -819,7 +764,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -855,7 +800,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -891,7 +836,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -927,13 +872,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 58,
+        "max": 59,
         "min": 14,
         "raw": 45
       },
@@ -968,14 +913,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
     "identifications": {
       "1stSpellCost": {
-        "max": -2,
-        "min": -4,
+        "max": -4,
+        "min": -1,
         "raw": -3
       }
     },
@@ -1004,21 +949,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawAgility": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawDefence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawAgility": 2,
+      "rawDefence": 2
     },
     "internalName": "Fanatic's Tome of Allegiance",
     "raidReward": true,
@@ -1045,13 +982,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
     "identifications": {
       "mainAttackDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -1081,7 +1018,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -1117,7 +1054,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -1153,13 +1090,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "80",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.movement"
       }
     },
     "identifications": {
       "walkSpeed": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -1189,7 +1126,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "80",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.movement"
       }
     },
@@ -1225,21 +1162,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawAgility": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawDexterity": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawAgility": 2,
+      "rawDexterity": 2
     },
     "internalName": "Freelancer's Tome of Allegiance",
     "raidReward": true,
@@ -1266,16 +1195,12 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawAgility": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      }
+      "rawAgility": 4
     },
     "internalName": "Ghost's Tome of Allegiance",
     "raidReward": true,
@@ -1302,14 +1227,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
     "identifications": {
       "4thSpellCost": {
-        "max": -2,
-        "min": -4,
+        "max": -4,
+        "min": -1,
         "raw": -3
       }
     },
@@ -1338,7 +1263,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
@@ -1374,7 +1299,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
@@ -1410,7 +1335,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -1421,7 +1346,7 @@
         "raw": 3
       },
       "fireDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -1451,7 +1376,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -1492,21 +1417,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawIntelligence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawStrength": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawIntelligence": 2,
+      "rawStrength": 2
     },
     "internalName": "Loner's Tome of Allegiance",
     "raidReward": true,
@@ -1533,16 +1450,12 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawIntelligence": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      }
+      "rawIntelligence": 4
     },
     "internalName": "Mastermind's Tome of Allegiance",
     "raidReward": true,
@@ -1569,13 +1482,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
     "identifications": {
       "rawMainAttackDamage": {
-        "max": 58,
+        "max": 59,
         "min": 14,
         "raw": 45
       }
@@ -1605,13 +1518,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
     "identifications": {
       "rawMainAttackDamage": {
-        "max": 84,
+        "max": 85,
         "min": 20,
         "raw": 65
       }
@@ -1641,7 +1554,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -1677,13 +1590,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
     "identifications": {
       "rawHealth": {
-        "max": 214,
+        "max": 215,
         "min": 50,
         "raw": 165
       },
@@ -1718,13 +1631,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
     "identifications": {
       "rawHealth": {
-        "max": 344,
+        "max": 345,
         "min": 80,
         "raw": 265
       },
@@ -1759,14 +1672,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": -2,
-        "min": -4,
+        "max": -4,
+        "min": -1,
         "raw": -3
       }
     },
@@ -1786,14 +1699,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "79",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.mana"
       }
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": -3,
-        "min": -5,
+        "max": -5,
+        "min": -1,
         "raw": -4
       }
     },
@@ -1822,21 +1735,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDexterity": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawStrength": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawDexterity": 2,
+      "rawStrength": 2
     },
     "internalName": "Psychopath's Tome of Allegiance",
     "raidReward": true,
@@ -1863,13 +1768,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
     "identifications": {
       "rawHealth": {
-        "max": 214,
+        "max": 215,
         "min": 50,
         "raw": 165
       },
@@ -1904,13 +1809,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
     "identifications": {
       "rawHealth": {
-        "max": 344,
+        "max": 345,
         "min": 80,
         "raw": 265
       },
@@ -1945,16 +1850,12 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDexterity": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      }
+      "rawDexterity": 4
     },
     "internalName": "Sadist's Tome of Allegiance",
     "raidReward": true,
@@ -1981,7 +1882,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -1992,7 +1893,7 @@
         "raw": 3
       },
       "earthDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -2022,7 +1923,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -2063,13 +1964,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
     "identifications": {
       "spellDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -2099,7 +2000,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -2135,7 +2036,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -2171,7 +2072,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "80",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.movement"
       }
     },
@@ -2212,7 +2113,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "80",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.movement"
       }
     },
@@ -2253,21 +2154,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawAgility": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawIntelligence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawAgility": 2,
+      "rawIntelligence": 2
     },
     "internalName": "Sycophant's Tome of Allegiance",
     "raidReward": true,
@@ -2294,7 +2187,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "78",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.lootrun"
       }
     },
@@ -2306,7 +2199,7 @@
       },
       "lootBonus": {
         "max": 20,
-        "min": 4,
+        "min": 5,
         "raw": 15
       }
     },
@@ -2335,14 +2228,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "78",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.lootrun"
       }
     },
     "identifications": {
       "lootBonus": {
         "max": 20,
-        "min": 4,
+        "min": 5,
         "raw": 15
       },
       "reflection": {
@@ -2376,14 +2269,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "78",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.lootrun"
       }
     },
     "identifications": {
       "lootBonus": {
         "max": 20,
-        "min": 4,
+        "min": 5,
         "raw": 15
       },
       "stealing": {
@@ -2417,19 +2310,19 @@
       "format": "attribute",
       "value": {
         "customModelData": "78",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.lootrun"
       }
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       },
       "lootBonus": {
         "max": 20,
-        "min": 4,
+        "min": 5,
         "raw": 15
       }
     },
@@ -2458,14 +2351,14 @@
       "format": "attribute",
       "value": {
         "customModelData": "78",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.lootrun"
       }
     },
     "identifications": {
       "lootBonus": {
         "max": 20,
-        "min": 4,
+        "min": 5,
         "raw": 15
       },
       "thorns": {
@@ -2499,7 +2392,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -2535,7 +2428,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2571,7 +2464,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2607,7 +2500,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2643,13 +2536,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
     "identifications": {
       "rawHealth": {
-        "max": 188,
+        "max": 189,
         "min": 44,
         "raw": 145
       }
@@ -2679,7 +2572,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2715,7 +2608,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2751,7 +2644,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2787,13 +2680,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -2823,7 +2716,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2859,7 +2752,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2895,7 +2788,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2931,7 +2824,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -2967,7 +2860,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -3003,7 +2896,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -3039,7 +2932,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "81",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.utility"
       }
     },
@@ -3075,7 +2968,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "76",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.armour"
       }
     },
@@ -3116,7 +3009,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -3127,7 +3020,7 @@
         "raw": 3
       },
       "thunderDamage": {
-        "max": 6,
+        "max": 7,
         "min": 2,
         "raw": 5
       }
@@ -3157,7 +3050,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "82",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.weapon"
       }
     },
@@ -3198,21 +3091,13 @@
       "format": "attribute",
       "value": {
         "customModelData": "77",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "tome.guild"
       }
     },
     "identifications": {
-      "rawDexterity": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      },
-      "rawIntelligence": {
-        "max": 3,
-        "min": 1,
-        "raw": 2
-      }
+      "rawDexterity": 2,
+      "rawIntelligence": 2
     },
     "internalName": "Warlock's Tome of Allegiance",
     "raidReward": true,

@@ -5,7 +5,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "39",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe1"
       }
     },
@@ -24,7 +24,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "42",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe10"
       }
     },
@@ -43,7 +43,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "43",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe11"
       }
     },
@@ -62,7 +62,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "43",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe12"
       }
     },
@@ -81,7 +81,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "39",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe2"
       }
     },
@@ -100,7 +100,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "39",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe3"
       }
     },
@@ -119,7 +119,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "40",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe4"
       }
     },
@@ -138,7 +138,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "40",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe5"
       }
     },
@@ -157,7 +157,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "40",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe6"
       }
     },
@@ -176,7 +176,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "41",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe7"
       }
     },
@@ -195,7 +195,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "41",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe8"
       }
     },
@@ -214,7 +214,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "42",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.axe9"
       }
     },
@@ -233,7 +233,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "44",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe1"
       }
     },
@@ -252,7 +252,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "47",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe10"
       }
     },
@@ -271,7 +271,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "48",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe11"
       }
     },
@@ -290,7 +290,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "48",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe12"
       }
     },
@@ -309,7 +309,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "44",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe2"
       }
     },
@@ -328,7 +328,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "44",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe3"
       }
     },
@@ -347,7 +347,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "45",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe4"
       }
     },
@@ -366,7 +366,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "45",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe5"
       }
     },
@@ -385,7 +385,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "45",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe6"
       }
     },
@@ -404,7 +404,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "46",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe7"
       }
     },
@@ -423,7 +423,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "46",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe8"
       }
     },
@@ -442,7 +442,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "47",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.pickaxe9"
       }
     },
@@ -461,7 +461,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "49",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod1"
       }
     },
@@ -480,7 +480,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "52",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod10"
       }
     },
@@ -499,7 +499,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "53",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod11"
       }
     },
@@ -518,7 +518,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "53",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod12"
       }
     },
@@ -537,7 +537,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "49",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod2"
       }
     },
@@ -550,32 +550,13 @@
     "toolType": "rod",
     "type": "tool"
   },
-  "Gathering Rod 2.5": {
-    "gatheringSpeed": 20,
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "49",
-        "id": "minecraft:iron_barding",
-        "name": "gatheringTool.rod1"
-      }
-    },
-    "identified": true,
-    "internalName": "Gathering Rod 2.5",
-    "rarity": "common",
-    "requirements": {
-      "level": 1
-    },
-    "toolType": "rod",
-    "type": "tool"
-  },
   "Gathering Rod 3": {
     "gatheringSpeed": 28,
     "icon": {
       "format": "attribute",
       "value": {
         "customModelData": "49",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod3"
       }
     },
@@ -594,7 +575,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "50",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod4"
       }
     },
@@ -613,7 +594,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "50",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod5"
       }
     },
@@ -632,7 +613,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "50",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod6"
       }
     },
@@ -651,7 +632,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "51",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod7"
       }
     },
@@ -670,7 +651,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "51",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod8"
       }
     },
@@ -689,7 +670,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "52",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.rod9"
       }
     },
@@ -708,7 +689,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "54",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe1"
       }
     },
@@ -727,7 +708,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "57",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe10"
       }
     },
@@ -746,7 +727,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "58",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe11"
       }
     },
@@ -765,7 +746,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "58",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe12"
       }
     },
@@ -784,7 +765,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "54",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe2"
       }
     },
@@ -803,7 +784,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "54",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe3"
       }
     },
@@ -822,7 +803,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "55",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe4"
       }
     },
@@ -841,7 +822,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "55",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe5"
       }
     },
@@ -860,7 +841,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "55",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe6"
       }
     },
@@ -879,7 +860,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "56",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe7"
       }
     },
@@ -898,7 +879,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "56",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe8"
       }
     },
@@ -917,7 +898,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "57",
-        "id": "minecraft:iron_barding",
+        "id": "minecraft:iron_horse_armor",
         "name": "gatheringTool.scythe9"
       }
     },
