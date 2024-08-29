@@ -586,6 +586,11 @@
 	},
 	{
 		"id": 273,
+		"type": 7,
+		"name": "stone_shovel"
+	},
+	{
+		"id": 273,
 		"type": 36,
 		"name": "stone_shovel"
 	},
