@@ -15,10 +15,10 @@
     },
     "identified": true,
     "internalName": "Refined Acacia Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Acacia Paper 2": {
@@ -37,10 +37,10 @@
     },
     "identified": true,
     "internalName": "Refined Acacia Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Acacia Paper 3": {
@@ -59,10 +59,10 @@
     },
     "identified": true,
     "internalName": "Refined Acacia Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Acacia Wood 1": {
@@ -78,10 +78,10 @@
     },
     "identified": true,
     "internalName": "Refined Acacia Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Acacia Wood 2": {
@@ -97,10 +97,10 @@
     },
     "identified": true,
     "internalName": "Refined Acacia Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Acacia Wood 3": {
@@ -116,10 +116,10 @@
     },
     "identified": true,
     "internalName": "Refined Acacia Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Avo Paper 1": {
@@ -138,10 +138,10 @@
     },
     "identified": true,
     "internalName": "Refined Avo Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Avo Paper 2": {
@@ -160,10 +160,10 @@
     },
     "identified": true,
     "internalName": "Refined Avo Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Avo Paper 3": {
@@ -182,10 +182,10 @@
     },
     "identified": true,
     "internalName": "Refined Avo Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Avo Wood 1": {
@@ -201,10 +201,10 @@
     },
     "identified": true,
     "internalName": "Refined Avo Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Avo Wood 2": {
@@ -220,10 +220,10 @@
     },
     "identified": true,
     "internalName": "Refined Avo Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Avo Wood 3": {
@@ -239,10 +239,10 @@
     },
     "identified": true,
     "internalName": "Refined Avo Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Barley Grains 1": {
@@ -260,10 +260,10 @@
     },
     "identified": true,
     "internalName": "Refined Barley Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Barley Grains 2": {
@@ -281,10 +281,10 @@
     },
     "identified": true,
     "internalName": "Refined Barley Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Barley Grains 3": {
@@ -302,10 +302,10 @@
     },
     "identified": true,
     "internalName": "Refined Barley Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Barley String 1": {
@@ -325,10 +325,10 @@
     },
     "identified": true,
     "internalName": "Refined Barley String 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Barley String 2": {
@@ -348,10 +348,10 @@
     },
     "identified": true,
     "internalName": "Refined Barley String 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Barley String 3": {
@@ -371,10 +371,10 @@
     },
     "identified": true,
     "internalName": "Refined Barley String 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Bass Meat 1": {
@@ -391,10 +391,10 @@
     },
     "identified": true,
     "internalName": "Refined Bass Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Bass Meat 2": {
@@ -411,10 +411,10 @@
     },
     "identified": true,
     "internalName": "Refined Bass Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Bass Meat 3": {
@@ -431,10 +431,10 @@
     },
     "identified": true,
     "internalName": "Refined Bass Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Bass Oil 1": {
@@ -455,10 +455,10 @@
     },
     "identified": true,
     "internalName": "Refined Bass Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Bass Oil 2": {
@@ -479,10 +479,10 @@
     },
     "identified": true,
     "internalName": "Refined Bass Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Bass Oil 3": {
@@ -503,10 +503,10 @@
     },
     "identified": true,
     "internalName": "Refined Bass Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Birch Paper 1": {
@@ -525,10 +525,10 @@
     },
     "identified": true,
     "internalName": "Refined Birch Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Birch Paper 2": {
@@ -547,10 +547,10 @@
     },
     "identified": true,
     "internalName": "Refined Birch Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Birch Paper 3": {
@@ -569,10 +569,10 @@
     },
     "identified": true,
     "internalName": "Refined Birch Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Birch Wood 1": {
@@ -588,10 +588,10 @@
     },
     "identified": true,
     "internalName": "Refined Birch Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Birch Wood 2": {
@@ -607,10 +607,10 @@
     },
     "identified": true,
     "internalName": "Refined Birch Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Birch Wood 3": {
@@ -626,10 +626,10 @@
     },
     "identified": true,
     "internalName": "Refined Birch Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Carp Meat 1": {
@@ -646,10 +646,10 @@
     },
     "identified": true,
     "internalName": "Refined Carp Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Carp Meat 2": {
@@ -666,10 +666,10 @@
     },
     "identified": true,
     "internalName": "Refined Carp Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Carp Meat 3": {
@@ -686,10 +686,10 @@
     },
     "identified": true,
     "internalName": "Refined Carp Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Carp Oil 1": {
@@ -710,10 +710,10 @@
     },
     "identified": true,
     "internalName": "Refined Carp Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Carp Oil 2": {
@@ -734,10 +734,10 @@
     },
     "identified": true,
     "internalName": "Refined Carp Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Carp Oil 3": {
@@ -758,10 +758,10 @@
     },
     "identified": true,
     "internalName": "Refined Carp Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Cobalt Gem 1": {
@@ -780,10 +780,10 @@
     },
     "identified": true,
     "internalName": "Refined Cobalt Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Cobalt Gem 2": {
@@ -802,10 +802,10 @@
     },
     "identified": true,
     "internalName": "Refined Cobalt Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Cobalt Gem 3": {
@@ -824,10 +824,10 @@
     },
     "identified": true,
     "internalName": "Refined Cobalt Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Cobalt Ingot 1": {
@@ -849,10 +849,10 @@
     },
     "identified": true,
     "internalName": "Refined Cobalt Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Cobalt Ingot 2": {
@@ -874,10 +874,10 @@
     },
     "identified": true,
     "internalName": "Refined Cobalt Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Cobalt Ingot 3": {
@@ -899,10 +899,10 @@
     },
     "identified": true,
     "internalName": "Refined Cobalt Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Copper Gem 1": {
@@ -921,10 +921,10 @@
     },
     "identified": true,
     "internalName": "Refined Copper Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Copper Gem 2": {
@@ -943,10 +943,10 @@
     },
     "identified": true,
     "internalName": "Refined Copper Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Copper Gem 3": {
@@ -965,10 +965,10 @@
     },
     "identified": true,
     "internalName": "Refined Copper Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Copper Ingot 1": {
@@ -990,10 +990,10 @@
     },
     "identified": true,
     "internalName": "Refined Copper Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Copper Ingot 2": {
@@ -1015,10 +1015,10 @@
     },
     "identified": true,
     "internalName": "Refined Copper Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Copper Ingot 3": {
@@ -1040,10 +1040,10 @@
     },
     "identified": true,
     "internalName": "Refined Copper Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Dark Paper 1": {
@@ -1062,10 +1062,10 @@
     },
     "identified": true,
     "internalName": "Refined Dark Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Dark Paper 2": {
@@ -1084,10 +1084,10 @@
     },
     "identified": true,
     "internalName": "Refined Dark Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Dark Paper 3": {
@@ -1106,10 +1106,10 @@
     },
     "identified": true,
     "internalName": "Refined Dark Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Dark Wood 1": {
@@ -1125,10 +1125,10 @@
     },
     "identified": true,
     "internalName": "Refined Dark Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Dark Wood 2": {
@@ -1144,10 +1144,10 @@
     },
     "identified": true,
     "internalName": "Refined Dark Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Dark Wood 3": {
@@ -1163,10 +1163,10 @@
     },
     "identified": true,
     "internalName": "Refined Dark Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Decay Grains 1": {
@@ -1184,10 +1184,10 @@
     },
     "identified": true,
     "internalName": "Refined Decay Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Decay Grains 2": {
@@ -1205,10 +1205,10 @@
     },
     "identified": true,
     "internalName": "Refined Decay Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Decay Grains 3": {
@@ -1226,10 +1226,10 @@
     },
     "identified": true,
     "internalName": "Refined Decay Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Decay String 1": {
@@ -1249,10 +1249,10 @@
     },
     "identified": true,
     "internalName": "Refined Decay String 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Decay String 2": {
@@ -1272,10 +1272,10 @@
     },
     "identified": true,
     "internalName": "Refined Decay String 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Decay String 3": {
@@ -1295,10 +1295,10 @@
     },
     "identified": true,
     "internalName": "Refined Decay String 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Gem 1": {
@@ -1317,10 +1317,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Gem 2": {
@@ -1339,10 +1339,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Gem 3": {
@@ -1361,10 +1361,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Grains 1": {
@@ -1382,10 +1382,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Grains 2": {
@@ -1403,10 +1403,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Grains 3": {
@@ -1424,10 +1424,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Ingot 1": {
@@ -1449,10 +1449,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Ingot 2": {
@@ -1474,10 +1474,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Ingot 3": {
@@ -1499,10 +1499,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Meat 1": {
@@ -1519,10 +1519,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Meat 2": {
@@ -1539,10 +1539,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Meat 3": {
@@ -1559,10 +1559,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Oil 1": {
@@ -1583,10 +1583,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Oil 2": {
@@ -1607,10 +1607,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Oil 3": {
@@ -1631,10 +1631,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Paper 1": {
@@ -1653,10 +1653,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Paper 2": {
@@ -1675,10 +1675,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Paper 3": {
@@ -1697,10 +1697,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic String 1": {
@@ -1720,10 +1720,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic String 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic String 2": {
@@ -1743,10 +1743,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic String 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic String 3": {
@@ -1766,10 +1766,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic String 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Dernic Wood 1": {
@@ -1785,10 +1785,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 110
     },
+    "tier": 1,
     "type": "material"
   },
   "Dernic Wood 2": {
@@ -1804,10 +1804,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 110
     },
+    "tier": 2,
     "type": "material"
   },
   "Dernic Wood 3": {
@@ -1823,10 +1823,10 @@
     },
     "identified": true,
     "internalName": "Refined Dernic Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 110
     },
+    "tier": 3,
     "type": "material"
   },
   "Diamond Gem 1": {
@@ -1845,10 +1845,10 @@
     },
     "identified": true,
     "internalName": "Refined Diamond Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Diamond Gem 2": {
@@ -1867,10 +1867,10 @@
     },
     "identified": true,
     "internalName": "Refined Diamond Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Diamond Gem 3": {
@@ -1889,10 +1889,10 @@
     },
     "identified": true,
     "internalName": "Refined Diamond Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Diamond Ingot 1": {
@@ -1914,10 +1914,10 @@
     },
     "identified": true,
     "internalName": "Refined Diamond Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Diamond Ingot 2": {
@@ -1939,10 +1939,10 @@
     },
     "identified": true,
     "internalName": "Refined Diamond Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Diamond Ingot 3": {
@@ -1964,10 +1964,10 @@
     },
     "identified": true,
     "internalName": "Refined Diamond Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Gold Gem 1": {
@@ -1986,10 +1986,10 @@
     },
     "identified": true,
     "internalName": "Refined Gold Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Gold Gem 2": {
@@ -2008,10 +2008,10 @@
     },
     "identified": true,
     "internalName": "Refined Gold Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Gold Gem 3": {
@@ -2030,10 +2030,10 @@
     },
     "identified": true,
     "internalName": "Refined Gold Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Gold Ingot 1": {
@@ -2055,10 +2055,10 @@
     },
     "identified": true,
     "internalName": "Refined Gold Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Gold Ingot 2": {
@@ -2080,10 +2080,10 @@
     },
     "identified": true,
     "internalName": "Refined Gold Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Gold Ingot 3": {
@@ -2105,10 +2105,10 @@
     },
     "identified": true,
     "internalName": "Refined Gold Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Granite Gem 1": {
@@ -2127,10 +2127,10 @@
     },
     "identified": true,
     "internalName": "Refined Granite Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Granite Gem 2": {
@@ -2149,10 +2149,10 @@
     },
     "identified": true,
     "internalName": "Refined Granite Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Granite Gem 3": {
@@ -2171,10 +2171,10 @@
     },
     "identified": true,
     "internalName": "Refined Granite Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Granite Ingot 1": {
@@ -2196,10 +2196,10 @@
     },
     "identified": true,
     "internalName": "Refined Granite Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Granite Ingot 2": {
@@ -2221,10 +2221,10 @@
     },
     "identified": true,
     "internalName": "Refined Granite Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Granite Ingot 3": {
@@ -2246,10 +2246,10 @@
     },
     "identified": true,
     "internalName": "Refined Granite Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Gudgeon Meat 1": {
@@ -2266,10 +2266,10 @@
     },
     "identified": true,
     "internalName": "Refined Gudgeon Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Gudgeon Meat 2": {
@@ -2286,10 +2286,10 @@
     },
     "identified": true,
     "internalName": "Refined Gudgeon Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Gudgeon Meat 3": {
@@ -2306,10 +2306,10 @@
     },
     "identified": true,
     "internalName": "Refined Gudgeon Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Gudgeon Oil 1": {
@@ -2330,10 +2330,10 @@
     },
     "identified": true,
     "internalName": "Refined Gudgeon Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Gudgeon Oil 2": {
@@ -2354,10 +2354,10 @@
     },
     "identified": true,
     "internalName": "Refined Gudgeon Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Gudgeon Oil 3": {
@@ -2378,10 +2378,10 @@
     },
     "identified": true,
     "internalName": "Refined Gudgeon Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Gylia Meat 1": {
@@ -2398,10 +2398,10 @@
     },
     "identified": true,
     "internalName": "Refined Gylia Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Gylia Meat 2": {
@@ -2418,10 +2418,10 @@
     },
     "identified": true,
     "internalName": "Refined Gylia Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Gylia Meat 3": {
@@ -2438,10 +2438,10 @@
     },
     "identified": true,
     "internalName": "Refined Gylia Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Gylia Oil 1": {
@@ -2462,10 +2462,10 @@
     },
     "identified": true,
     "internalName": "Refined Gylia Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Gylia Oil 2": {
@@ -2486,10 +2486,10 @@
     },
     "identified": true,
     "internalName": "Refined Gylia Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Gylia Oil 3": {
@@ -2510,10 +2510,10 @@
     },
     "identified": true,
     "internalName": "Refined Gylia Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Hemp Grains 1": {
@@ -2531,10 +2531,10 @@
     },
     "identified": true,
     "internalName": "Refined Hemp Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Hemp Grains 2": {
@@ -2552,10 +2552,10 @@
     },
     "identified": true,
     "internalName": "Refined Hemp Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Hemp Grains 3": {
@@ -2573,10 +2573,10 @@
     },
     "identified": true,
     "internalName": "Refined Hemp Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Hemp String 1": {
@@ -2596,10 +2596,10 @@
     },
     "identified": true,
     "internalName": "Refined Hemp String 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Hemp String 2": {
@@ -2619,10 +2619,10 @@
     },
     "identified": true,
     "internalName": "Refined Hemp String 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Hemp String 3": {
@@ -2642,10 +2642,10 @@
     },
     "identified": true,
     "internalName": "Refined Hemp String 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Hops Grains 1": {
@@ -2663,10 +2663,10 @@
     },
     "identified": true,
     "internalName": "Refined Hops Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Hops Grains 2": {
@@ -2684,10 +2684,10 @@
     },
     "identified": true,
     "internalName": "Refined Hops Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Hops Grains 3": {
@@ -2705,10 +2705,10 @@
     },
     "identified": true,
     "internalName": "Refined Hops Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Hops String 1": {
@@ -2728,10 +2728,10 @@
     },
     "identified": true,
     "internalName": "Refined Hops String 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Hops String 2": {
@@ -2751,10 +2751,10 @@
     },
     "identified": true,
     "internalName": "Refined Hops String 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Hops String 3": {
@@ -2774,10 +2774,10 @@
     },
     "identified": true,
     "internalName": "Refined Hops String 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Icefish Meat 1": {
@@ -2794,10 +2794,10 @@
     },
     "identified": true,
     "internalName": "Refined Icefish Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Icefish Meat 2": {
@@ -2814,10 +2814,10 @@
     },
     "identified": true,
     "internalName": "Refined Icefish Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Icefish Meat 3": {
@@ -2834,10 +2834,10 @@
     },
     "identified": true,
     "internalName": "Refined Icefish Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Icefish Oil 1": {
@@ -2858,10 +2858,10 @@
     },
     "identified": true,
     "internalName": "Refined Icefish Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Icefish Oil 2": {
@@ -2882,10 +2882,10 @@
     },
     "identified": true,
     "internalName": "Refined Icefish Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Icefish Oil 3": {
@@ -2906,10 +2906,10 @@
     },
     "identified": true,
     "internalName": "Refined Icefish Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Iron Gem 1": {
@@ -2928,10 +2928,10 @@
     },
     "identified": true,
     "internalName": "Refined Iron Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Iron Gem 2": {
@@ -2950,10 +2950,10 @@
     },
     "identified": true,
     "internalName": "Refined Iron Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Iron Gem 3": {
@@ -2972,10 +2972,10 @@
     },
     "identified": true,
     "internalName": "Refined Iron Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Iron Ingot 1": {
@@ -2997,10 +2997,10 @@
     },
     "identified": true,
     "internalName": "Refined Iron Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Iron Ingot 2": {
@@ -3022,10 +3022,10 @@
     },
     "identified": true,
     "internalName": "Refined Iron Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Iron Ingot 3": {
@@ -3047,10 +3047,10 @@
     },
     "identified": true,
     "internalName": "Refined Iron Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Jungle Paper 1": {
@@ -3069,10 +3069,10 @@
     },
     "identified": true,
     "internalName": "Refined Jungle Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Jungle Paper 2": {
@@ -3091,10 +3091,10 @@
     },
     "identified": true,
     "internalName": "Refined Jungle Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Jungle Paper 3": {
@@ -3113,10 +3113,10 @@
     },
     "identified": true,
     "internalName": "Refined Jungle Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Jungle Wood 1": {
@@ -3132,10 +3132,10 @@
     },
     "identified": true,
     "internalName": "Refined Jungle Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Jungle Wood 2": {
@@ -3151,10 +3151,10 @@
     },
     "identified": true,
     "internalName": "Refined Jungle Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Jungle Wood 3": {
@@ -3170,10 +3170,10 @@
     },
     "identified": true,
     "internalName": "Refined Jungle Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Kanderstone Gem 1": {
@@ -3192,10 +3192,10 @@
     },
     "identified": true,
     "internalName": "Refined Kanderstone Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Kanderstone Gem 2": {
@@ -3214,10 +3214,10 @@
     },
     "identified": true,
     "internalName": "Refined Kanderstone Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Kanderstone Gem 3": {
@@ -3236,10 +3236,10 @@
     },
     "identified": true,
     "internalName": "Refined Kanderstone Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Kanderstone Ingot 1": {
@@ -3261,10 +3261,10 @@
     },
     "identified": true,
     "internalName": "Refined Kanderstone Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Kanderstone Ingot 2": {
@@ -3286,10 +3286,10 @@
     },
     "identified": true,
     "internalName": "Refined Kanderstone Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Kanderstone Ingot 3": {
@@ -3311,10 +3311,10 @@
     },
     "identified": true,
     "internalName": "Refined Kanderstone Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Koi Meat 1": {
@@ -3331,10 +3331,10 @@
     },
     "identified": true,
     "internalName": "Refined Koi Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Koi Meat 2": {
@@ -3351,10 +3351,10 @@
     },
     "identified": true,
     "internalName": "Refined Koi Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Koi Meat 3": {
@@ -3371,10 +3371,10 @@
     },
     "identified": true,
     "internalName": "Refined Koi Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Koi Oil 1": {
@@ -3395,10 +3395,10 @@
     },
     "identified": true,
     "internalName": "Refined Koi Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Koi Oil 2": {
@@ -3419,10 +3419,10 @@
     },
     "identified": true,
     "internalName": "Refined Koi Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Koi Oil 3": {
@@ -3443,10 +3443,10 @@
     },
     "identified": true,
     "internalName": "Refined Koi Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Light Paper 1": {
@@ -3465,10 +3465,10 @@
     },
     "identified": true,
     "internalName": "Refined Light Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Light Paper 2": {
@@ -3487,10 +3487,10 @@
     },
     "identified": true,
     "internalName": "Refined Light Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Light Paper 3": {
@@ -3509,10 +3509,10 @@
     },
     "identified": true,
     "internalName": "Refined Light Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Light Wood 1": {
@@ -3528,10 +3528,10 @@
     },
     "identified": true,
     "internalName": "Refined Light Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 70
     },
+    "tier": 1,
     "type": "material"
   },
   "Light Wood 2": {
@@ -3547,10 +3547,10 @@
     },
     "identified": true,
     "internalName": "Refined Light Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 70
     },
+    "tier": 2,
     "type": "material"
   },
   "Light Wood 3": {
@@ -3566,10 +3566,10 @@
     },
     "identified": true,
     "internalName": "Refined Light Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 70
     },
+    "tier": 3,
     "type": "material"
   },
   "Malt Grains 1": {
@@ -3587,10 +3587,10 @@
     },
     "identified": true,
     "internalName": "Refined Malt Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Malt Grains 2": {
@@ -3608,10 +3608,10 @@
     },
     "identified": true,
     "internalName": "Refined Malt Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Malt Grains 3": {
@@ -3629,10 +3629,10 @@
     },
     "identified": true,
     "internalName": "Refined Malt Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Malt String 1": {
@@ -3652,10 +3652,10 @@
     },
     "identified": true,
     "internalName": "Refined Malt String 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Malt String 2": {
@@ -3675,10 +3675,10 @@
     },
     "identified": true,
     "internalName": "Refined Malt String 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Malt String 3": {
@@ -3698,10 +3698,10 @@
     },
     "identified": true,
     "internalName": "Refined Malt String 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Millet Grains 1": {
@@ -3719,10 +3719,10 @@
     },
     "identified": true,
     "internalName": "Refined Millet Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Millet Grains 2": {
@@ -3740,10 +3740,10 @@
     },
     "identified": true,
     "internalName": "Refined Millet Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Millet Grains 3": {
@@ -3761,10 +3761,10 @@
     },
     "identified": true,
     "internalName": "Refined Millet Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Millet String 1": {
@@ -3784,10 +3784,10 @@
     },
     "identified": true,
     "internalName": "Refined Millet String 1",
-    "rarity": 1,
     "requirements": {
       "level": 60
     },
+    "tier": 1,
     "type": "material"
   },
   "Millet String 2": {
@@ -3807,10 +3807,10 @@
     },
     "identified": true,
     "internalName": "Refined Millet String 2",
-    "rarity": 2,
     "requirements": {
       "level": 60
     },
+    "tier": 2,
     "type": "material"
   },
   "Millet String 3": {
@@ -3830,10 +3830,10 @@
     },
     "identified": true,
     "internalName": "Refined Millet String 3",
-    "rarity": 3,
     "requirements": {
       "level": 60
     },
+    "tier": 3,
     "type": "material"
   },
   "Molten Gem 1": {
@@ -3852,10 +3852,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Molten Gem 2": {
@@ -3874,10 +3874,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Molten Gem 3": {
@@ -3896,10 +3896,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Molten Ingot 1": {
@@ -3921,10 +3921,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Molten Ingot 2": {
@@ -3946,10 +3946,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Molten Ingot 3": {
@@ -3971,10 +3971,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Molten Meat 1": {
@@ -3991,10 +3991,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Molten Meat 2": {
@@ -4011,10 +4011,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Molten Meat 3": {
@@ -4031,10 +4031,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Molten Oil 1": {
@@ -4055,10 +4055,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Molten Oil 2": {
@@ -4079,10 +4079,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Molten Oil 3": {
@@ -4103,10 +4103,10 @@
     },
     "identified": true,
     "internalName": "Refined Molten Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Oak Paper 1": {
@@ -4125,10 +4125,10 @@
     },
     "identified": true,
     "internalName": "Refined Oak Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Oak Paper 2": {
@@ -4147,10 +4147,10 @@
     },
     "identified": true,
     "internalName": "Refined Oak Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Oak Paper 3": {
@@ -4169,10 +4169,10 @@
     },
     "identified": true,
     "internalName": "Refined Oak Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Oak Wood 1": {
@@ -4188,10 +4188,10 @@
     },
     "identified": true,
     "internalName": "Refined Oak Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Oak Wood 2": {
@@ -4207,10 +4207,10 @@
     },
     "identified": true,
     "internalName": "Refined Oak Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Oak Wood 3": {
@@ -4226,10 +4226,10 @@
     },
     "identified": true,
     "internalName": "Refined Oak Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Oat Grains 1": {
@@ -4247,10 +4247,10 @@
     },
     "identified": true,
     "internalName": "Refined Oat Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Oat Grains 2": {
@@ -4268,10 +4268,10 @@
     },
     "identified": true,
     "internalName": "Refined Oat Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Oat Grains 3": {
@@ -4289,10 +4289,10 @@
     },
     "identified": true,
     "internalName": "Refined Oat Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Oat String 1": {
@@ -4312,10 +4312,10 @@
     },
     "identified": true,
     "internalName": "Refined Oat String 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Oat String 2": {
@@ -4335,10 +4335,10 @@
     },
     "identified": true,
     "internalName": "Refined Oat String 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Oat String 3": {
@@ -4358,10 +4358,10 @@
     },
     "identified": true,
     "internalName": "Refined Oat String 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Pine Paper 1": {
@@ -4380,10 +4380,10 @@
     },
     "identified": true,
     "internalName": "Refined Pine Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Pine Paper 2": {
@@ -4402,10 +4402,10 @@
     },
     "identified": true,
     "internalName": "Refined Pine Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Pine Paper 3": {
@@ -4424,10 +4424,10 @@
     },
     "identified": true,
     "internalName": "Refined Pine Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Pine Wood 1": {
@@ -4443,10 +4443,10 @@
     },
     "identified": true,
     "internalName": "Refined Pine Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Pine Wood 2": {
@@ -4462,10 +4462,10 @@
     },
     "identified": true,
     "internalName": "Refined Pine Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Pine Wood 3": {
@@ -4481,10 +4481,10 @@
     },
     "identified": true,
     "internalName": "Refined Pine Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Piranha Meat 1": {
@@ -4501,10 +4501,10 @@
     },
     "identified": true,
     "internalName": "Refined Piranha Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Piranha Meat 2": {
@@ -4521,10 +4521,10 @@
     },
     "identified": true,
     "internalName": "Refined Piranha Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Piranha Meat 3": {
@@ -4541,10 +4541,10 @@
     },
     "identified": true,
     "internalName": "Refined Piranha Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Piranha Oil 1": {
@@ -4565,10 +4565,10 @@
     },
     "identified": true,
     "internalName": "Refined Piranha Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Piranha Oil 2": {
@@ -4589,10 +4589,10 @@
     },
     "identified": true,
     "internalName": "Refined Piranha Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Piranha Oil 3": {
@@ -4613,10 +4613,10 @@
     },
     "identified": true,
     "internalName": "Refined Piranha Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Rice Grains 1": {
@@ -4634,10 +4634,10 @@
     },
     "identified": true,
     "internalName": "Refined Rice Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Rice Grains 2": {
@@ -4655,10 +4655,10 @@
     },
     "identified": true,
     "internalName": "Refined Rice Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Rice Grains 3": {
@@ -4676,10 +4676,10 @@
     },
     "identified": true,
     "internalName": "Refined Rice Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Rice String 1": {
@@ -4699,10 +4699,10 @@
     },
     "identified": true,
     "internalName": "Refined Rice String 1",
-    "rarity": 1,
     "requirements": {
       "level": 80
     },
+    "tier": 1,
     "type": "material"
   },
   "Rice String 2": {
@@ -4722,10 +4722,10 @@
     },
     "identified": true,
     "internalName": "Refined Rice String 2",
-    "rarity": 2,
     "requirements": {
       "level": 80
     },
+    "tier": 2,
     "type": "material"
   },
   "Rice String 3": {
@@ -4745,10 +4745,10 @@
     },
     "identified": true,
     "internalName": "Refined Rice String 3",
-    "rarity": 3,
     "requirements": {
       "level": 80
     },
+    "tier": 3,
     "type": "material"
   },
   "Rye Grains 1": {
@@ -4766,10 +4766,10 @@
     },
     "identified": true,
     "internalName": "Refined Rye Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Rye Grains 2": {
@@ -4787,10 +4787,10 @@
     },
     "identified": true,
     "internalName": "Refined Rye Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Rye Grains 3": {
@@ -4808,10 +4808,10 @@
     },
     "identified": true,
     "internalName": "Refined Rye Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Rye String 1": {
@@ -4831,10 +4831,10 @@
     },
     "identified": true,
     "internalName": "Refined Rye String 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Rye String 2": {
@@ -4854,10 +4854,10 @@
     },
     "identified": true,
     "internalName": "Refined Rye String 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Rye String 3": {
@@ -4877,10 +4877,10 @@
     },
     "identified": true,
     "internalName": "Refined Rye String 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Salmon Meat 1": {
@@ -4897,10 +4897,10 @@
     },
     "identified": true,
     "internalName": "Refined Salmon Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Salmon Meat 2": {
@@ -4917,10 +4917,10 @@
     },
     "identified": true,
     "internalName": "Refined Salmon Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Salmon Meat 3": {
@@ -4937,10 +4937,10 @@
     },
     "identified": true,
     "internalName": "Refined Salmon Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Salmon Oil 1": {
@@ -4961,10 +4961,10 @@
     },
     "identified": true,
     "internalName": "Refined Salmon Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Salmon Oil 2": {
@@ -4985,10 +4985,10 @@
     },
     "identified": true,
     "internalName": "Refined Salmon Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Salmon Oil 3": {
@@ -5009,10 +5009,10 @@
     },
     "identified": true,
     "internalName": "Refined Salmon Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Sandstone Gem 1": {
@@ -5031,10 +5031,10 @@
     },
     "identified": true,
     "internalName": "Refined Sandstone Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Sandstone Gem 2": {
@@ -5053,10 +5053,10 @@
     },
     "identified": true,
     "internalName": "Refined Sandstone Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Sandstone Gem 3": {
@@ -5075,10 +5075,10 @@
     },
     "identified": true,
     "internalName": "Refined Sandstone Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Sandstone Ingot 1": {
@@ -5100,10 +5100,10 @@
     },
     "identified": true,
     "internalName": "Refined Sandstone Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 30
     },
+    "tier": 1,
     "type": "material"
   },
   "Sandstone Ingot 2": {
@@ -5125,10 +5125,10 @@
     },
     "identified": true,
     "internalName": "Refined Sandstone Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 30
     },
+    "tier": 2,
     "type": "material"
   },
   "Sandstone Ingot 3": {
@@ -5150,10 +5150,10 @@
     },
     "identified": true,
     "internalName": "Refined Sandstone Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 30
     },
+    "tier": 3,
     "type": "material"
   },
   "Silver Gem 1": {
@@ -5172,10 +5172,10 @@
     },
     "identified": true,
     "internalName": "Refined Silver Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Silver Gem 2": {
@@ -5194,10 +5194,10 @@
     },
     "identified": true,
     "internalName": "Refined Silver Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Silver Gem 3": {
@@ -5216,10 +5216,10 @@
     },
     "identified": true,
     "internalName": "Refined Silver Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Silver Ingot 1": {
@@ -5241,10 +5241,10 @@
     },
     "identified": true,
     "internalName": "Refined Silver Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 50
     },
+    "tier": 1,
     "type": "material"
   },
   "Silver Ingot 2": {
@@ -5266,10 +5266,10 @@
     },
     "identified": true,
     "internalName": "Refined Silver Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 50
     },
+    "tier": 2,
     "type": "material"
   },
   "Silver Ingot 3": {
@@ -5291,10 +5291,10 @@
     },
     "identified": true,
     "internalName": "Refined Silver Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 50
     },
+    "tier": 3,
     "type": "material"
   },
   "Sky Paper 1": {
@@ -5313,10 +5313,10 @@
     },
     "identified": true,
     "internalName": "Refined Sky Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Sky Paper 2": {
@@ -5335,10 +5335,10 @@
     },
     "identified": true,
     "internalName": "Refined Sky Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Sky Paper 3": {
@@ -5357,10 +5357,10 @@
     },
     "identified": true,
     "internalName": "Refined Sky Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Sky Wood 1": {
@@ -5376,10 +5376,10 @@
     },
     "identified": true,
     "internalName": "Refined Sky Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Sky Wood 2": {
@@ -5395,10 +5395,10 @@
     },
     "identified": true,
     "internalName": "Refined Sky Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Sky Wood 3": {
@@ -5414,10 +5414,10 @@
     },
     "identified": true,
     "internalName": "Refined Sky Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Sorghum Grains 1": {
@@ -5435,10 +5435,10 @@
     },
     "identified": true,
     "internalName": "Refined Sorghum Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Sorghum Grains 2": {
@@ -5456,10 +5456,10 @@
     },
     "identified": true,
     "internalName": "Refined Sorghum Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Sorghum Grains 3": {
@@ -5477,10 +5477,10 @@
     },
     "identified": true,
     "internalName": "Refined Sorghum Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Sorghum String 1": {
@@ -5500,10 +5500,10 @@
     },
     "identified": true,
     "internalName": "Refined Sorghum String 1",
-    "rarity": 1,
     "requirements": {
       "level": 90
     },
+    "tier": 1,
     "type": "material"
   },
   "Sorghum String 2": {
@@ -5523,10 +5523,10 @@
     },
     "identified": true,
     "internalName": "Refined Sorghum String 2",
-    "rarity": 2,
     "requirements": {
       "level": 90
     },
+    "tier": 2,
     "type": "material"
   },
   "Sorghum String 3": {
@@ -5546,10 +5546,10 @@
     },
     "identified": true,
     "internalName": "Refined Sorghum String 3",
-    "rarity": 3,
     "requirements": {
       "level": 90
     },
+    "tier": 3,
     "type": "material"
   },
   "Spruce Paper 1": {
@@ -5568,10 +5568,10 @@
     },
     "identified": true,
     "internalName": "Refined Spruce Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Spruce Paper 2": {
@@ -5590,10 +5590,10 @@
     },
     "identified": true,
     "internalName": "Refined Spruce Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Spruce Paper 3": {
@@ -5612,10 +5612,10 @@
     },
     "identified": true,
     "internalName": "Refined Spruce Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Spruce Wood 1": {
@@ -5631,10 +5631,10 @@
     },
     "identified": true,
     "internalName": "Refined Spruce Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 40
     },
+    "tier": 1,
     "type": "material"
   },
   "Spruce Wood 2": {
@@ -5650,10 +5650,10 @@
     },
     "identified": true,
     "internalName": "Refined Spruce Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 40
     },
+    "tier": 2,
     "type": "material"
   },
   "Spruce Wood 3": {
@@ -5669,10 +5669,10 @@
     },
     "identified": true,
     "internalName": "Refined Spruce Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 40
     },
+    "tier": 3,
     "type": "material"
   },
   "Starfish Meat 1": {
@@ -5689,10 +5689,10 @@
     },
     "identified": true,
     "internalName": "Refined Starfish Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Starfish Meat 2": {
@@ -5709,10 +5709,10 @@
     },
     "identified": true,
     "internalName": "Refined Starfish Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Starfish Meat 3": {
@@ -5729,10 +5729,10 @@
     },
     "identified": true,
     "internalName": "Refined Starfish Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Starfish Oil 1": {
@@ -5753,10 +5753,10 @@
     },
     "identified": true,
     "internalName": "Refined Starfish Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Starfish Oil 2": {
@@ -5777,10 +5777,10 @@
     },
     "identified": true,
     "internalName": "Refined Starfish Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Starfish Oil 3": {
@@ -5801,10 +5801,10 @@
     },
     "identified": true,
     "internalName": "Refined Starfish Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Trout Meat 1": {
@@ -5821,10 +5821,10 @@
     },
     "identified": true,
     "internalName": "Refined Trout Meat 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Trout Meat 2": {
@@ -5841,10 +5841,10 @@
     },
     "identified": true,
     "internalName": "Refined Trout Meat 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Trout Meat 3": {
@@ -5861,10 +5861,10 @@
     },
     "identified": true,
     "internalName": "Refined Trout Meat 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Trout Oil 1": {
@@ -5885,10 +5885,10 @@
     },
     "identified": true,
     "internalName": "Refined Trout Oil 1",
-    "rarity": 1,
     "requirements": {
       "level": 10
     },
+    "tier": 1,
     "type": "material"
   },
   "Trout Oil 2": {
@@ -5909,10 +5909,10 @@
     },
     "identified": true,
     "internalName": "Refined Trout Oil 2",
-    "rarity": 2,
     "requirements": {
       "level": 10
     },
+    "tier": 2,
     "type": "material"
   },
   "Trout Oil 3": {
@@ -5933,10 +5933,10 @@
     },
     "identified": true,
     "internalName": "Refined Trout Oil 3",
-    "rarity": 3,
     "requirements": {
       "level": 10
     },
+    "tier": 3,
     "type": "material"
   },
   "Voidstone Gem 1": {
@@ -5955,10 +5955,10 @@
     },
     "identified": true,
     "internalName": "Refined Voidstone Gem 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Voidstone Gem 2": {
@@ -5977,10 +5977,10 @@
     },
     "identified": true,
     "internalName": "Refined Voidstone Gem 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Voidstone Gem 3": {
@@ -5999,10 +5999,10 @@
     },
     "identified": true,
     "internalName": "Refined Voidstone Gem 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Voidstone Ingot 1": {
@@ -6024,10 +6024,10 @@
     },
     "identified": true,
     "internalName": "Refined Voidstone Ingot 1",
-    "rarity": 1,
     "requirements": {
       "level": 100
     },
+    "tier": 1,
     "type": "material"
   },
   "Voidstone Ingot 2": {
@@ -6049,10 +6049,10 @@
     },
     "identified": true,
     "internalName": "Refined Voidstone Ingot 2",
-    "rarity": 2,
     "requirements": {
       "level": 100
     },
+    "tier": 2,
     "type": "material"
   },
   "Voidstone Ingot 3": {
@@ -6074,10 +6074,10 @@
     },
     "identified": true,
     "internalName": "Refined Voidstone Ingot 3",
-    "rarity": 3,
     "requirements": {
       "level": 100
     },
+    "tier": 3,
     "type": "material"
   },
   "Wheat Grains 1": {
@@ -6095,10 +6095,10 @@
     },
     "identified": true,
     "internalName": "Refined Wheat Grains 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Wheat Grains 2": {
@@ -6116,10 +6116,10 @@
     },
     "identified": true,
     "internalName": "Refined Wheat Grains 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Wheat Grains 3": {
@@ -6137,10 +6137,10 @@
     },
     "identified": true,
     "internalName": "Refined Wheat Grains 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Wheat String 1": {
@@ -6160,10 +6160,10 @@
     },
     "identified": true,
     "internalName": "Refined Wheat String 1",
-    "rarity": 1,
     "requirements": {
       "level": 1
     },
+    "tier": 1,
     "type": "material"
   },
   "Wheat String 2": {
@@ -6183,10 +6183,10 @@
     },
     "identified": true,
     "internalName": "Refined Wheat String 2",
-    "rarity": 2,
     "requirements": {
       "level": 1
     },
+    "tier": 2,
     "type": "material"
   },
   "Wheat String 3": {
@@ -6206,10 +6206,10 @@
     },
     "identified": true,
     "internalName": "Refined Wheat String 3",
-    "rarity": 3,
     "requirements": {
       "level": 1
     },
+    "tier": 3,
     "type": "material"
   },
   "Willow Paper 1": {
@@ -6228,10 +6228,10 @@
     },
     "identified": true,
     "internalName": "Refined Willow Paper 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Willow Paper 2": {
@@ -6250,10 +6250,10 @@
     },
     "identified": true,
     "internalName": "Refined Willow Paper 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Willow Paper 3": {
@@ -6272,10 +6272,10 @@
     },
     "identified": true,
     "internalName": "Refined Willow Paper 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   },
   "Willow Wood 1": {
@@ -6291,10 +6291,10 @@
     },
     "identified": true,
     "internalName": "Refined Willow Wood 1",
-    "rarity": 1,
     "requirements": {
       "level": 20
     },
+    "tier": 1,
     "type": "material"
   },
   "Willow Wood 2": {
@@ -6310,10 +6310,10 @@
     },
     "identified": true,
     "internalName": "Refined Willow Wood 2",
-    "rarity": 2,
     "requirements": {
       "level": 20
     },
+    "tier": 2,
     "type": "material"
   },
   "Willow Wood 3": {
@@ -6329,10 +6329,10 @@
     },
     "identified": true,
     "internalName": "Refined Willow Wood 3",
-    "rarity": 3,
     "requirements": {
       "level": 20
     },
+    "tier": 3,
     "type": "material"
   }
 }

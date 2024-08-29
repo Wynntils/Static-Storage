@@ -115,7 +115,7 @@
   },
   {
     "id": "dataStaticGear",
-    "md5": "fc841313ef1e505ee050b2ecc46b7e05",
+    "md5": "d54310b6ec70dfd06226250301fa3de3",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/gear.json"
   },
   {
@@ -135,7 +135,7 @@
   },
   {
     "id": "dataStaticIngredients",
-    "md5": "73ecf79dbe700a190f13ae64a45cedb6",
+    "md5": "7e68e88c927ab269690c70cb31b15f52",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/ingredients.json"
   },
   {
@@ -175,7 +175,7 @@
   },
   {
     "id": "dataStaticMaterials",
-    "md5": "16e7c67047a7df9024e1de748e84e5ca",
+    "md5": "b5eadd251d028089eff303ee5b66f41a",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/materials.json"
   },
   {
@@ -220,7 +220,7 @@
   },
   {
     "id": "dataStaticTools",
-    "md5": "47cf621d071ab85fe341b6c8d8b14330",
+    "md5": "43083c51f817af099cbfa90eb3cec874",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/tools.json"
   },
   {
