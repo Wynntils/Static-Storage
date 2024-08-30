@@ -5,13 +5,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Acacia Paper 1",
-    "material": "279:40",
-    "requirements": {
-      "level": 30,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperAcacia"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Acacia Paper 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Acacia Paper 2": {
     "craftable": [
@@ -19,13 +27,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Acacia Paper 2",
-    "material": "279:40",
-    "requirements": {
-      "level": 30,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperAcacia"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Acacia Paper 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Acacia Paper 3": {
     "craftable": [
@@ -33,13 +49,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Acacia Paper 3",
-    "material": "279:40",
-    "requirements": {
-      "level": 30,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperAcacia"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Acacia Paper 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Acacia Wood 1": {
     "craftable": [
@@ -48,13 +72,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "cc7ab4ee36cdf2949b42e16c2cd768fe921c7092cd5f5e9095be7473c2886609"
+    },
+    "identified": true,
     "internalName": "Refined Acacia Wood 1",
     "requirements": {
-      "level": 30,
-      "skills": "woodcutting"
+      "level": 30
     },
-    "skin": "cc7ab4ee36cdf2949b42e16c2cd768fe921c7092cd5f5e9095be7473c2886609",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Acacia Wood 2": {
     "craftable": [
@@ -63,13 +91,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "cc7ab4ee36cdf2949b42e16c2cd768fe921c7092cd5f5e9095be7473c2886609"
+    },
+    "identified": true,
     "internalName": "Refined Acacia Wood 2",
     "requirements": {
-      "level": 30,
-      "skills": "woodcutting"
+      "level": 30
     },
-    "skin": "cc7ab4ee36cdf2949b42e16c2cd768fe921c7092cd5f5e9095be7473c2886609",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Acacia Wood 3": {
     "craftable": [
@@ -78,13 +110,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "cc7ab4ee36cdf2949b42e16c2cd768fe921c7092cd5f5e9095be7473c2886609"
+    },
+    "identified": true,
     "internalName": "Refined Acacia Wood 3",
     "requirements": {
-      "level": 30,
-      "skills": "woodcutting"
+      "level": 30
     },
-    "skin": "cc7ab4ee36cdf2949b42e16c2cd768fe921c7092cd5f5e9095be7473c2886609",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Avo Paper 1": {
     "craftable": [
@@ -92,13 +128,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Avo Paper 1",
-    "material": "279:40",
-    "requirements": {
-      "level": 90,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperAvo"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Avo Paper 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Avo Paper 2": {
     "craftable": [
@@ -106,13 +150,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Avo Paper 2",
-    "material": "279:40",
-    "requirements": {
-      "level": 90,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperAvo"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Avo Paper 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Avo Paper 3": {
     "craftable": [
@@ -120,13 +172,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Avo Paper 3",
-    "material": "279:40",
-    "requirements": {
-      "level": 90,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperAvo"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Avo Paper 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Avo Wood 1": {
     "craftable": [
@@ -135,13 +195,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "8c1ba63d5660511e5414d90f7ce6cef6875b66850429fe241f0bdf5e77e9d62c"
+    },
+    "identified": true,
     "internalName": "Refined Avo Wood 1",
     "requirements": {
-      "level": 90,
-      "skills": "woodcutting"
+      "level": 90
     },
-    "skin": "8c1ba63d5660511e5414d90f7ce6cef6875b66850429fe241f0bdf5e77e9d62c",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Avo Wood 2": {
     "craftable": [
@@ -150,13 +214,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "8c1ba63d5660511e5414d90f7ce6cef6875b66850429fe241f0bdf5e77e9d62c"
+    },
+    "identified": true,
     "internalName": "Refined Avo Wood 2",
     "requirements": {
-      "level": 90,
-      "skills": "woodcutting"
+      "level": 90
     },
-    "skin": "8c1ba63d5660511e5414d90f7ce6cef6875b66850429fe241f0bdf5e77e9d62c",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Avo Wood 3": {
     "craftable": [
@@ -165,52 +233,80 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "8c1ba63d5660511e5414d90f7ce6cef6875b66850429fe241f0bdf5e77e9d62c"
+    },
+    "identified": true,
     "internalName": "Refined Avo Wood 3",
     "requirements": {
-      "level": 90,
-      "skills": "woodcutting"
+      "level": 90
     },
-    "skin": "8c1ba63d5660511e5414d90f7ce6cef6875b66850429fe241f0bdf5e77e9d62c",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Barley Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Barley Grains 1",
-    "material": "279:14",
-    "requirements": {
-      "level": 10,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainBarley"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Barley Grains 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Barley Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Barley Grains 2",
-    "material": "279:14",
-    "requirements": {
-      "level": 10,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainBarley"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Barley Grains 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Barley Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Barley Grains 3",
-    "material": "279:14",
-    "requirements": {
-      "level": 10,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainBarley"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Barley Grains 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Barley String 1": {
     "craftable": [
@@ -219,13 +315,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Barley String 1",
-    "material": "279:13",
-    "requirements": {
-      "level": 10,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringBarley"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Barley String 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Barley String 2": {
     "craftable": [
@@ -234,13 +338,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Barley String 2",
-    "material": "279:13",
-    "requirements": {
-      "level": 10,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringBarley"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Barley String 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Barley String 3": {
     "craftable": [
@@ -249,49 +361,81 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Barley String 3",
-    "material": "279:13",
-    "requirements": {
-      "level": 10,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringBarley"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Barley String 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Bass Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Bass Meat 1",
-    "material": "279:30",
-    "requirements": {
-      "level": 80,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "93",
+        "id": "minecraft:paper",
+        "name": "profession.meatBass"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Bass Meat 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Bass Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Bass Meat 2",
-    "material": "279:30",
-    "requirements": {
-      "level": 80,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "93",
+        "id": "minecraft:paper",
+        "name": "profession.meatBass"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Bass Meat 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Bass Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Bass Meat 3",
-    "material": "279:30",
-    "requirements": {
-      "level": 80,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "93",
+        "id": "minecraft:paper",
+        "name": "profession.meatBass"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Bass Meat 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Bass Oil 1": {
     "craftable": [
@@ -301,13 +445,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Bass Oil 1",
-    "material": "279:39",
-    "requirements": {
-      "level": 80,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilBass"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Bass Oil 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Bass Oil 2": {
     "craftable": [
@@ -317,13 +469,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Bass Oil 2",
-    "material": "279:39",
-    "requirements": {
-      "level": 80,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilBass"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Bass Oil 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Bass Oil 3": {
     "craftable": [
@@ -333,13 +493,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Bass Oil 3",
-    "material": "279:39",
-    "requirements": {
-      "level": 80,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilBass"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Bass Oil 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Birch Paper 1": {
     "craftable": [
@@ -347,13 +515,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Birch Paper 1",
-    "material": "339:0",
-    "requirements": {
-      "level": 10,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperBirch"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Birch Paper 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Birch Paper 2": {
     "craftable": [
@@ -361,13 +537,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Birch Paper 2",
-    "material": "339:0",
-    "requirements": {
-      "level": 10,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperBirch"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Birch Paper 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Birch Paper 3": {
     "craftable": [
@@ -375,13 +559,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Birch Paper 3",
-    "material": "339:0",
-    "requirements": {
-      "level": 10,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperBirch"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Birch Paper 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Birch Wood 1": {
     "craftable": [
@@ -390,13 +582,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "fe035f5cc75de266d5e69f8a509afccf4af0ead9f3ee856ab163b9119dbeca2"
+    },
+    "identified": true,
     "internalName": "Refined Birch Wood 1",
     "requirements": {
-      "level": 10,
-      "skills": "woodcutting"
+      "level": 10
     },
-    "skin": "fe035f5cc75de266d5e69f8a509afccf4af0ead9f3ee856ab163b9119dbeca2",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Birch Wood 2": {
     "craftable": [
@@ -405,13 +601,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "fe035f5cc75de266d5e69f8a509afccf4af0ead9f3ee856ab163b9119dbeca2"
+    },
+    "identified": true,
     "internalName": "Refined Birch Wood 2",
     "requirements": {
-      "level": 10,
-      "skills": "woodcutting"
+      "level": 10
     },
-    "skin": "fe035f5cc75de266d5e69f8a509afccf4af0ead9f3ee856ab163b9119dbeca2",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Birch Wood 3": {
     "craftable": [
@@ -420,49 +620,77 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "fe035f5cc75de266d5e69f8a509afccf4af0ead9f3ee856ab163b9119dbeca2"
+    },
+    "identified": true,
     "internalName": "Refined Birch Wood 3",
     "requirements": {
-      "level": 10,
-      "skills": "woodcutting"
+      "level": 10
     },
-    "skin": "fe035f5cc75de266d5e69f8a509afccf4af0ead9f3ee856ab163b9119dbeca2",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Carp Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Carp Meat 1",
-    "material": "279:33",
-    "requirements": {
-      "level": 30,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "92",
+        "id": "minecraft:paper",
+        "name": "profession.meatCarp"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Carp Meat 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Carp Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Carp Meat 2",
-    "material": "279:33",
-    "requirements": {
-      "level": 30,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "92",
+        "id": "minecraft:paper",
+        "name": "profession.meatCarp"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Carp Meat 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Carp Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Carp Meat 3",
-    "material": "279:33",
-    "requirements": {
-      "level": 30,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "92",
+        "id": "minecraft:paper",
+        "name": "profession.meatCarp"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Carp Meat 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Carp Oil 1": {
     "craftable": [
@@ -472,13 +700,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Carp Oil 1",
-    "material": "279:38",
-    "requirements": {
-      "level": 30,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilCarp"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Carp Oil 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Carp Oil 2": {
     "craftable": [
@@ -488,13 +724,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Carp Oil 2",
-    "material": "279:38",
-    "requirements": {
-      "level": 30,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilCarp"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Carp Oil 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Carp Oil 3": {
     "craftable": [
@@ -504,13 +748,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Carp Oil 3",
-    "material": "279:38",
-    "requirements": {
-      "level": 30,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilCarp"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Carp Oil 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Cobalt Gem 1": {
     "craftable": [
@@ -518,13 +770,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Cobalt Gem 1",
-    "material": "279:62",
-    "requirements": {
-      "level": 60,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "66",
+        "id": "minecraft:paper",
+        "name": "profession.gemCobalt"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Cobalt Gem 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Cobalt Gem 2": {
     "craftable": [
@@ -532,13 +792,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Cobalt Gem 2",
-    "material": "279:62",
-    "requirements": {
-      "level": 60,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "66",
+        "id": "minecraft:paper",
+        "name": "profession.gemCobalt"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Cobalt Gem 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Cobalt Gem 3": {
     "craftable": [
@@ -546,13 +814,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Cobalt Gem 3",
-    "material": "279:62",
-    "requirements": {
-      "level": 60,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "66",
+        "id": "minecraft:paper",
+        "name": "profession.gemCobalt"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Cobalt Gem 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Cobalt Ingot 1": {
     "craftable": [
@@ -563,13 +839,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Cobalt Ingot 1",
-    "material": "279:51",
-    "requirements": {
-      "level": 60,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "54",
+        "id": "minecraft:paper",
+        "name": "profession.ingotCobalt"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Cobalt Ingot 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Cobalt Ingot 2": {
     "craftable": [
@@ -580,13 +864,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Cobalt Ingot 2",
-    "material": "279:51",
-    "requirements": {
-      "level": 60,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "54",
+        "id": "minecraft:paper",
+        "name": "profession.ingotCobalt"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Cobalt Ingot 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Cobalt Ingot 3": {
     "craftable": [
@@ -597,13 +889,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Cobalt Ingot 3",
-    "material": "279:51",
-    "requirements": {
-      "level": 60,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "54",
+        "id": "minecraft:paper",
+        "name": "profession.ingotCobalt"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Cobalt Ingot 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Copper Gem 1": {
     "craftable": [
@@ -611,13 +911,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Copper Gem 1",
-    "material": "279:57",
-    "requirements": {
-      "level": 1,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "60",
+        "id": "minecraft:paper",
+        "name": "profession.gemCopper"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Copper Gem 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Copper Gem 2": {
     "craftable": [
@@ -625,13 +933,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Copper Gem 2",
-    "material": "279:57",
-    "requirements": {
-      "level": 1,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "60",
+        "id": "minecraft:paper",
+        "name": "profession.gemCopper"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Copper Gem 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Copper Gem 3": {
     "craftable": [
@@ -639,13 +955,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Copper Gem 3",
-    "material": "279:57",
-    "requirements": {
-      "level": 1,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "60",
+        "id": "minecraft:paper",
+        "name": "profession.gemCopper"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Copper Gem 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Copper Ingot 1": {
     "craftable": [
@@ -656,13 +980,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Copper Ingot 1",
-    "material": "279:45",
-    "requirements": {
-      "level": 1,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "48",
+        "id": "minecraft:paper",
+        "name": "profession.ingotCopper"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Copper Ingot 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Copper Ingot 2": {
     "craftable": [
@@ -673,13 +1005,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Copper Ingot 2",
-    "material": "279:45",
-    "requirements": {
-      "level": 1,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "48",
+        "id": "minecraft:paper",
+        "name": "profession.ingotCopper"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Copper Ingot 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Copper Ingot 3": {
     "craftable": [
@@ -690,13 +1030,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Copper Ingot 3",
-    "material": "279:45",
-    "requirements": {
-      "level": 1,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "48",
+        "id": "minecraft:paper",
+        "name": "profession.ingotCopper"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Copper Ingot 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dark Paper 1": {
     "craftable": [
@@ -704,13 +1052,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dark Paper 1",
-    "material": "279:41",
-    "requirements": {
-      "level": 60,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperDark"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dark Paper 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dark Paper 2": {
     "craftable": [
@@ -718,13 +1074,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dark Paper 2",
-    "material": "279:41",
-    "requirements": {
-      "level": 60,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperDark"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dark Paper 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dark Paper 3": {
     "craftable": [
@@ -732,13 +1096,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dark Paper 3",
-    "material": "279:41",
-    "requirements": {
-      "level": 60,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperDark"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dark Paper 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dark Wood 1": {
     "craftable": [
@@ -747,13 +1119,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "ad297b1c2e43bfca511cb279e5f631f6201fb1cf40de6ebbf7da7c60a506a366"
+    },
+    "identified": true,
     "internalName": "Refined Dark Wood 1",
     "requirements": {
-      "level": 60,
-      "skills": "woodcutting"
+      "level": 60
     },
-    "skin": "ad297b1c2e43bfca511cb279e5f631f6201fb1cf40de6ebbf7da7c60a506a366",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Dark Wood 2": {
     "craftable": [
@@ -762,13 +1138,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "ad297b1c2e43bfca511cb279e5f631f6201fb1cf40de6ebbf7da7c60a506a366"
+    },
+    "identified": true,
     "internalName": "Refined Dark Wood 2",
     "requirements": {
-      "level": 60,
-      "skills": "woodcutting"
+      "level": 60
     },
-    "skin": "ad297b1c2e43bfca511cb279e5f631f6201fb1cf40de6ebbf7da7c60a506a366",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Dark Wood 3": {
     "craftable": [
@@ -777,52 +1157,80 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "ad297b1c2e43bfca511cb279e5f631f6201fb1cf40de6ebbf7da7c60a506a366"
+    },
+    "identified": true,
     "internalName": "Refined Dark Wood 3",
     "requirements": {
-      "level": 60,
-      "skills": "woodcutting"
+      "level": 60
     },
-    "skin": "ad297b1c2e43bfca511cb279e5f631f6201fb1cf40de6ebbf7da7c60a506a366",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Decay Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Decay Grains 1",
-    "material": "279:16",
-    "requirements": {
-      "level": 70,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainDecay"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Decay Grains 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Decay Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Decay Grains 2",
-    "material": "279:16",
-    "requirements": {
-      "level": 70,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainDecay"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Decay Grains 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Decay Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Decay Grains 3",
-    "material": "279:16",
-    "requirements": {
-      "level": 70,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainDecay"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Decay Grains 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Decay String 1": {
     "craftable": [
@@ -831,13 +1239,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Decay String 1",
-    "material": "279:12",
-    "requirements": {
-      "level": 70,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringDecay"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Decay String 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Decay String 2": {
     "craftable": [
@@ -846,13 +1262,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Decay String 2",
-    "material": "279:12",
-    "requirements": {
-      "level": 70,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringDecay"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Decay String 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Decay String 3": {
     "craftable": [
@@ -861,13 +1285,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Decay String 3",
-    "material": "279:12",
-    "requirements": {
-      "level": 70,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringDecay"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Decay String 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Gem 1": {
     "craftable": [
@@ -875,13 +1307,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Dernic Gem 1",
-    "material": "279:67",
-    "requirements": {
-      "level": 110,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "71",
+        "id": "minecraft:paper",
+        "name": "profession.gemDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic Gem 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Gem 2": {
     "craftable": [
@@ -889,13 +1329,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Dernic Gem 2",
-    "material": "279:67",
-    "requirements": {
-      "level": 110,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "71",
+        "id": "minecraft:paper",
+        "name": "profession.gemDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic Gem 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Gem 3": {
     "craftable": [
@@ -903,52 +1351,84 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Dernic Gem 3",
-    "material": "279:67",
-    "requirements": {
-      "level": 110,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "71",
+        "id": "minecraft:paper",
+        "name": "profession.gemDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic Gem 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Dernic Grains 1",
-    "material": "279:17",
-    "requirements": {
-      "level": 110,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic Grains 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Dernic Grains 2",
-    "material": "279:17",
-    "requirements": {
-      "level": 110,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic Grains 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Dernic Grains 3",
-    "material": "279:17",
-    "requirements": {
-      "level": 110,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic Grains 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Ingot 1": {
     "craftable": [
@@ -959,13 +1439,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dernic Ingot 1",
-    "material": "279:56",
-    "requirements": {
-      "level": 110,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "59",
+        "id": "minecraft:paper",
+        "name": "profession.ingotDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic Ingot 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Ingot 2": {
     "craftable": [
@@ -976,13 +1464,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dernic Ingot 2",
-    "material": "279:56",
-    "requirements": {
-      "level": 110,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "59",
+        "id": "minecraft:paper",
+        "name": "profession.ingotDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic Ingot 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Ingot 3": {
     "craftable": [
@@ -993,49 +1489,81 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dernic Ingot 3",
-    "material": "279:56",
-    "requirements": {
-      "level": 110,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "59",
+        "id": "minecraft:paper",
+        "name": "profession.ingotDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic Ingot 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Dernic Meat 1",
-    "material": "279:30",
-    "requirements": {
-      "level": 110,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "93",
+        "id": "minecraft:paper",
+        "name": "profession.meatDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic Meat 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Dernic Meat 2",
-    "material": "279:30",
-    "requirements": {
-      "level": 110,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "93",
+        "id": "minecraft:paper",
+        "name": "profession.meatDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic Meat 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Dernic Meat 3",
-    "material": "279:30",
-    "requirements": {
-      "level": 110,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "93",
+        "id": "minecraft:paper",
+        "name": "profession.meatDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic Meat 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Oil 1": {
     "craftable": [
@@ -1045,13 +1573,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Dernic Oil 1",
-    "material": "279:35",
-    "requirements": {
-      "level": 110,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "id": "minecraft:paper",
+        "name": "profession.oilDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic Oil 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Oil 2": {
     "craftable": [
@@ -1061,13 +1597,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Dernic Oil 2",
-    "material": "279:35",
-    "requirements": {
-      "level": 110,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "id": "minecraft:paper",
+        "name": "profession.oilDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic Oil 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Oil 3": {
     "craftable": [
@@ -1077,13 +1621,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Dernic Oil 3",
-    "material": "279:35",
-    "requirements": {
-      "level": 110,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "id": "minecraft:paper",
+        "name": "profession.oilDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic Oil 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Paper 1": {
     "craftable": [
@@ -1091,13 +1643,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dernic Paper 1",
-    "material": "279:41",
-    "requirements": {
-      "level": 110,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic Paper 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Paper 2": {
     "craftable": [
@@ -1105,13 +1665,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dernic Paper 2",
-    "material": "279:41",
-    "requirements": {
-      "level": 110,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic Paper 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Paper 3": {
     "craftable": [
@@ -1119,13 +1687,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Dernic Paper 3",
-    "material": "279:41",
-    "requirements": {
-      "level": 110,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic Paper 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic String 1": {
     "craftable": [
@@ -1134,13 +1710,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Dernic String 1",
-    "material": "279:12",
-    "requirements": {
-      "level": 110,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringDernic"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Dernic String 1",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Dernic String 2": {
     "craftable": [
@@ -1149,13 +1733,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Dernic String 2",
-    "material": "279:12",
-    "requirements": {
-      "level": 110,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringDernic"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Dernic String 2",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Dernic String 3": {
     "craftable": [
@@ -1164,13 +1756,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Dernic String 3",
-    "material": "279:12",
-    "requirements": {
-      "level": 110,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringDernic"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Dernic String 3",
+    "requirements": {
+      "level": 110
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Dernic Wood 1": {
     "craftable": [
@@ -1179,13 +1779,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "ea9072622fbf8c6ff05c896968bd16bd903563836af682d3b544f0534c3da387"
+    },
+    "identified": true,
     "internalName": "Refined Dernic Wood 1",
     "requirements": {
-      "level": 110,
-      "skills": "woodcutting"
+      "level": 110
     },
-    "skin": "ea9072622fbf8c6ff05c896968bd16bd903563836af682d3b544f0534c3da387",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Dernic Wood 2": {
     "craftable": [
@@ -1194,13 +1798,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "ea9072622fbf8c6ff05c896968bd16bd903563836af682d3b544f0534c3da387"
+    },
+    "identified": true,
     "internalName": "Refined Dernic Wood 2",
     "requirements": {
-      "level": 110,
-      "skills": "woodcutting"
+      "level": 110
     },
-    "skin": "ea9072622fbf8c6ff05c896968bd16bd903563836af682d3b544f0534c3da387",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Dernic Wood 3": {
     "craftable": [
@@ -1209,13 +1817,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "ea9072622fbf8c6ff05c896968bd16bd903563836af682d3b544f0534c3da387"
+    },
+    "identified": true,
     "internalName": "Refined Dernic Wood 3",
     "requirements": {
-      "level": 110,
-      "skills": "woodcutting"
+      "level": 110
     },
-    "skin": "ea9072622fbf8c6ff05c896968bd16bd903563836af682d3b544f0534c3da387",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Diamond Gem 1": {
     "craftable": [
@@ -1223,13 +1835,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Diamond Gem 1",
-    "material": "279:64",
-    "requirements": {
-      "level": 80,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "68",
+        "id": "minecraft:paper",
+        "name": "profession.gemDiamond"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Diamond Gem 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Diamond Gem 2": {
     "craftable": [
@@ -1237,13 +1857,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Diamond Gem 2",
-    "material": "279:64",
-    "requirements": {
-      "level": 80,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "68",
+        "id": "minecraft:paper",
+        "name": "profession.gemDiamond"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Diamond Gem 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Diamond Gem 3": {
     "craftable": [
@@ -1251,13 +1879,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Diamond Gem 3",
-    "material": "279:64",
-    "requirements": {
-      "level": 80,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "68",
+        "id": "minecraft:paper",
+        "name": "profession.gemDiamond"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Diamond Gem 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Diamond Ingot 1": {
     "craftable": [
@@ -1268,13 +1904,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Diamond Ingot 1",
-    "material": "279:53",
-    "requirements": {
-      "level": 80,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "56",
+        "id": "minecraft:paper",
+        "name": "profession.ingotDiamond"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Diamond Ingot 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Diamond Ingot 2": {
     "craftable": [
@@ -1285,13 +1929,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Diamond Ingot 2",
-    "material": "279:53",
-    "requirements": {
-      "level": 80,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "56",
+        "id": "minecraft:paper",
+        "name": "profession.ingotDiamond"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Diamond Ingot 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Diamond Ingot 3": {
     "craftable": [
@@ -1302,13 +1954,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Diamond Ingot 3",
-    "material": "279:53",
-    "requirements": {
-      "level": 80,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "56",
+        "id": "minecraft:paper",
+        "name": "profession.ingotDiamond"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Diamond Ingot 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Gold Gem 1": {
     "craftable": [
@@ -1316,13 +1976,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Gold Gem 1",
-    "material": "279:59",
-    "requirements": {
-      "level": 20,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "62",
+        "id": "minecraft:paper",
+        "name": "profession.gemGold"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Gold Gem 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Gold Gem 2": {
     "craftable": [
@@ -1330,13 +1998,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Gold Gem 2",
-    "material": "279:59",
-    "requirements": {
-      "level": 20,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "62",
+        "id": "minecraft:paper",
+        "name": "profession.gemGold"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Gold Gem 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Gold Gem 3": {
     "craftable": [
@@ -1344,13 +2020,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Gold Gem 3",
-    "material": "279:59",
-    "requirements": {
-      "level": 20,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "62",
+        "id": "minecraft:paper",
+        "name": "profession.gemGold"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Gold Gem 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Gold Ingot 1": {
     "craftable": [
@@ -1361,13 +2045,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Gold Ingot 1",
-    "material": "279:47",
-    "requirements": {
-      "level": 20,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "50",
+        "id": "minecraft:paper",
+        "name": "profession.ingotGold"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Gold Ingot 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Gold Ingot 2": {
     "craftable": [
@@ -1378,13 +2070,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Gold Ingot 2",
-    "material": "279:47",
-    "requirements": {
-      "level": 20,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "50",
+        "id": "minecraft:paper",
+        "name": "profession.ingotGold"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Gold Ingot 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Gold Ingot 3": {
     "craftable": [
@@ -1395,13 +2095,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Gold Ingot 3",
-    "material": "279:47",
-    "requirements": {
-      "level": 20,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "50",
+        "id": "minecraft:paper",
+        "name": "profession.ingotGold"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Gold Ingot 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Granite Gem 1": {
     "craftable": [
@@ -1409,13 +2117,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Granite Gem 1",
-    "material": "279:58",
-    "requirements": {
-      "level": 10,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "61",
+        "id": "minecraft:paper",
+        "name": "profession.gemGranite"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Granite Gem 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Granite Gem 2": {
     "craftable": [
@@ -1423,13 +2139,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Granite Gem 2",
-    "material": "279:58",
-    "requirements": {
-      "level": 10,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "61",
+        "id": "minecraft:paper",
+        "name": "profession.gemGranite"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Granite Gem 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Granite Gem 3": {
     "craftable": [
@@ -1437,13 +2161,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Granite Gem 3",
-    "material": "279:58",
-    "requirements": {
-      "level": 10,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "61",
+        "id": "minecraft:paper",
+        "name": "profession.gemGranite"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Granite Gem 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Granite Ingot 1": {
     "craftable": [
@@ -1454,13 +2186,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Granite Ingot 1",
-    "material": "279:46",
-    "requirements": {
-      "level": 10,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "49",
+        "id": "minecraft:paper",
+        "name": "profession.ingotGranite"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Granite Ingot 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Granite Ingot 2": {
     "craftable": [
@@ -1471,13 +2211,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Granite Ingot 2",
-    "material": "279:46",
-    "requirements": {
-      "level": 10,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "49",
+        "id": "minecraft:paper",
+        "name": "profession.ingotGranite"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Granite Ingot 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Granite Ingot 3": {
     "craftable": [
@@ -1488,49 +2236,81 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Granite Ingot 3",
-    "material": "279:46",
-    "requirements": {
-      "level": 10,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "49",
+        "id": "minecraft:paper",
+        "name": "profession.ingotGranite"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Granite Ingot 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Gudgeon Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Gudgeon Meat 1",
-    "material": "279:31",
-    "requirements": {
-      "level": 1,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatGudgeon"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Gudgeon Meat 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Gudgeon Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Gudgeon Meat 2",
-    "material": "279:31",
-    "requirements": {
-      "level": 1,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatGudgeon"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Gudgeon Meat 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Gudgeon Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Gudgeon Meat 3",
-    "material": "279:31",
-    "requirements": {
-      "level": 1,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatGudgeon"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Gudgeon Meat 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Gudgeon Oil 1": {
     "craftable": [
@@ -1540,13 +2320,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Gudgeon Oil 1",
-    "material": "279:35",
-    "requirements": {
-      "level": 1,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "id": "minecraft:paper",
+        "name": "profession.oilGudgeon"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Gudgeon Oil 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Gudgeon Oil 2": {
     "craftable": [
@@ -1556,13 +2344,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Gudgeon Oil 2",
-    "material": "279:35",
-    "requirements": {
-      "level": 1,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "id": "minecraft:paper",
+        "name": "profession.oilGudgeon"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Gudgeon Oil 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Gudgeon Oil 3": {
     "craftable": [
@@ -1572,49 +2368,81 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Gudgeon Oil 3",
-    "material": "279:35",
-    "requirements": {
-      "level": 1,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "84",
+        "id": "minecraft:paper",
+        "name": "profession.oilGudgeon"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Gudgeon Oil 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Gylia Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Gylia Meat 1",
-    "material": "279:31",
-    "requirements": {
-      "level": 70,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatGylia"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Gylia Meat 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Gylia Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Gylia Meat 2",
-    "material": "279:31",
-    "requirements": {
-      "level": 70,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatGylia"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Gylia Meat 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Gylia Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Gylia Meat 3",
-    "material": "279:31",
-    "requirements": {
-      "level": 70,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatGylia"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Gylia Meat 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Gylia Oil 1": {
     "craftable": [
@@ -1624,13 +2452,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Gylia Oil 1",
-    "material": "279:36",
-    "requirements": {
-      "level": 70,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilGylia"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Gylia Oil 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Gylia Oil 2": {
     "craftable": [
@@ -1640,13 +2476,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Gylia Oil 2",
-    "material": "279:36",
-    "requirements": {
-      "level": 70,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilGylia"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Gylia Oil 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Gylia Oil 3": {
     "craftable": [
@@ -1656,52 +2500,84 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Gylia Oil 3",
-    "material": "279:36",
-    "requirements": {
-      "level": 70,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilGylia"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Gylia Oil 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Hemp Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Hemp Grains 1",
-    "material": "279:15",
-    "requirements": {
-      "level": 100,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainHemp"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Hemp Grains 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Hemp Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Hemp Grains 2",
-    "material": "279:15",
-    "requirements": {
-      "level": 100,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainHemp"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Hemp Grains 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Hemp Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Hemp Grains 3",
-    "material": "279:15",
-    "requirements": {
-      "level": 100,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainHemp"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Hemp Grains 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Hemp String 1": {
     "craftable": [
@@ -1710,13 +2586,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Hemp String 1",
-    "material": "279:11",
-    "requirements": {
-      "level": 100,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringHemp"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Hemp String 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Hemp String 2": {
     "craftable": [
@@ -1725,13 +2609,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Hemp String 2",
-    "material": "279:11",
-    "requirements": {
-      "level": 100,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringHemp"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Hemp String 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Hemp String 3": {
     "craftable": [
@@ -1740,52 +2632,84 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Hemp String 3",
-    "material": "279:11",
-    "requirements": {
-      "level": 100,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringHemp"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Hemp String 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Hops Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Hops Grains 1",
-    "material": "279:15",
-    "requirements": {
-      "level": 40,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainHops"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Hops Grains 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Hops Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Hops Grains 2",
-    "material": "279:15",
-    "requirements": {
-      "level": 40,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainHops"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Hops Grains 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Hops Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Hops Grains 3",
-    "material": "279:15",
-    "requirements": {
-      "level": 40,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainHops"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Hops Grains 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Hops String 1": {
     "craftable": [
@@ -1794,13 +2718,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Hops String 1",
-    "material": "279:11",
-    "requirements": {
-      "level": 40,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringHops"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Hops String 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Hops String 2": {
     "craftable": [
@@ -1809,13 +2741,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Hops String 2",
-    "material": "279:11",
-    "requirements": {
-      "level": 40,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringHops"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Hops String 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Hops String 3": {
     "craftable": [
@@ -1824,49 +2764,81 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Hops String 3",
-    "material": "279:11",
-    "requirements": {
-      "level": 40,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringHops"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Hops String 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Icefish Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Icefish Meat 1",
-    "material": "279:34",
-    "requirements": {
-      "level": 40,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatIce"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Icefish Meat 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Icefish Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Icefish Meat 2",
-    "material": "279:34",
-    "requirements": {
-      "level": 40,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatIce"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Icefish Meat 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Icefish Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Icefish Meat 3",
-    "material": "279:34",
-    "requirements": {
-      "level": 40,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatIce"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Icefish Meat 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Icefish Oil 1": {
     "craftable": [
@@ -1876,13 +2848,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Icefish Oil 1",
-    "material": "279:39",
-    "requirements": {
-      "level": 40,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilIce"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Icefish Oil 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Icefish Oil 2": {
     "craftable": [
@@ -1892,13 +2872,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Icefish Oil 2",
-    "material": "279:39",
-    "requirements": {
-      "level": 40,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilIce"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Icefish Oil 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Icefish Oil 3": {
     "craftable": [
@@ -1908,13 +2896,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Icefish Oil 3",
-    "material": "279:39",
-    "requirements": {
-      "level": 40,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilIce"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Icefish Oil 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Iron Gem 1": {
     "craftable": [
@@ -1922,13 +2918,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Iron Gem 1",
-    "material": "279:60",
-    "requirements": {
-      "level": 40,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "64",
+        "id": "minecraft:paper",
+        "name": "profession.gemIron"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Iron Gem 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Iron Gem 2": {
     "craftable": [
@@ -1936,13 +2940,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Iron Gem 2",
-    "material": "279:60",
-    "requirements": {
-      "level": 40,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "64",
+        "id": "minecraft:paper",
+        "name": "profession.gemIron"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Iron Gem 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Iron Gem 3": {
     "craftable": [
@@ -1950,13 +2962,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Iron Gem 3",
-    "material": "279:60",
-    "requirements": {
-      "level": 40,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "64",
+        "id": "minecraft:paper",
+        "name": "profession.gemIron"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Iron Gem 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Iron Ingot 1": {
     "craftable": [
@@ -1967,13 +2987,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Iron Ingot 1",
-    "material": "279:49",
-    "requirements": {
-      "level": 40,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "52",
+        "id": "minecraft:paper",
+        "name": "profession.ingotIron"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Iron Ingot 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Iron Ingot 2": {
     "craftable": [
@@ -1984,13 +3012,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Iron Ingot 2",
-    "material": "279:49",
-    "requirements": {
-      "level": 40,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "52",
+        "id": "minecraft:paper",
+        "name": "profession.ingotIron"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Iron Ingot 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Iron Ingot 3": {
     "craftable": [
@@ -2001,13 +3037,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Iron Ingot 3",
-    "material": "279:49",
-    "requirements": {
-      "level": 40,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "52",
+        "id": "minecraft:paper",
+        "name": "profession.ingotIron"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Iron Ingot 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Jungle Paper 1": {
     "craftable": [
@@ -2015,13 +3059,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Jungle Paper 1",
-    "material": "279:40",
-    "requirements": {
-      "level": 50,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperJungle"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Jungle Paper 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Jungle Paper 2": {
     "craftable": [
@@ -2029,13 +3081,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Jungle Paper 2",
-    "material": "279:40",
-    "requirements": {
-      "level": 50,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperJungle"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Jungle Paper 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Jungle Paper 3": {
     "craftable": [
@@ -2043,13 +3103,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Jungle Paper 3",
-    "material": "279:40",
-    "requirements": {
-      "level": 50,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperJungle"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Jungle Paper 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Jungle Wood 1": {
     "craftable": [
@@ -2058,13 +3126,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "58c0fee4cb1f9256007c35a4afb10e65e1315ed070588a133e51130463bf6f5f"
+    },
+    "identified": true,
     "internalName": "Refined Jungle Wood 1",
     "requirements": {
-      "level": 50,
-      "skills": "woodcutting"
+      "level": 50
     },
-    "skin": "58c0fee4cb1f9256007c35a4afb10e65e1315ed070588a133e51130463bf6f5f",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Jungle Wood 2": {
     "craftable": [
@@ -2073,13 +3145,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "58c0fee4cb1f9256007c35a4afb10e65e1315ed070588a133e51130463bf6f5f"
+    },
+    "identified": true,
     "internalName": "Refined Jungle Wood 2",
     "requirements": {
-      "level": 50,
-      "skills": "woodcutting"
+      "level": 50
     },
-    "skin": "58c0fee4cb1f9256007c35a4afb10e65e1315ed070588a133e51130463bf6f5f",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Jungle Wood 3": {
     "craftable": [
@@ -2088,13 +3164,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "58c0fee4cb1f9256007c35a4afb10e65e1315ed070588a133e51130463bf6f5f"
+    },
+    "identified": true,
     "internalName": "Refined Jungle Wood 3",
     "requirements": {
-      "level": 50,
-      "skills": "woodcutting"
+      "level": 50
     },
-    "skin": "58c0fee4cb1f9256007c35a4afb10e65e1315ed070588a133e51130463bf6f5f",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Kanderstone Gem 1": {
     "craftable": [
@@ -2102,13 +3182,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Kanderstone Gem 1",
-    "material": "279:63",
-    "requirements": {
-      "level": 70,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "67",
+        "id": "minecraft:paper",
+        "name": "profession.gemKanderstone"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Kanderstone Gem 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Kanderstone Gem 2": {
     "craftable": [
@@ -2116,13 +3204,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Kanderstone Gem 2",
-    "material": "279:63",
-    "requirements": {
-      "level": 70,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "67",
+        "id": "minecraft:paper",
+        "name": "profession.gemKanderstone"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Kanderstone Gem 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Kanderstone Gem 3": {
     "craftable": [
@@ -2130,13 +3226,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Kanderstone Gem 3",
-    "material": "279:63",
-    "requirements": {
-      "level": 70,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "67",
+        "id": "minecraft:paper",
+        "name": "profession.gemKanderstone"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Kanderstone Gem 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Kanderstone Ingot 1": {
     "craftable": [
@@ -2147,13 +3251,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Kanderstone Ingot 1",
-    "material": "279:52",
-    "requirements": {
-      "level": 70,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "55",
+        "id": "minecraft:paper",
+        "name": "profession.ingotKanderstone"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Kanderstone Ingot 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Kanderstone Ingot 2": {
     "craftable": [
@@ -2164,13 +3276,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Kanderstone Ingot 2",
-    "material": "279:52",
-    "requirements": {
-      "level": 70,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "55",
+        "id": "minecraft:paper",
+        "name": "profession.ingotKanderstone"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Kanderstone Ingot 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Kanderstone Ingot 3": {
     "craftable": [
@@ -2181,49 +3301,81 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Kanderstone Ingot 3",
-    "material": "279:52",
-    "requirements": {
-      "level": 70,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "55",
+        "id": "minecraft:paper",
+        "name": "profession.ingotKanderstone"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Kanderstone Ingot 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Koi Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Koi Meat 1",
-    "material": "279:31",
-    "requirements": {
-      "level": 60,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatKoi"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Koi Meat 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Koi Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Koi Meat 2",
-    "material": "279:31",
-    "requirements": {
-      "level": 60,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatKoi"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Koi Meat 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Koi Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Koi Meat 3",
-    "material": "279:31",
-    "requirements": {
-      "level": 60,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "89",
+        "id": "minecraft:paper",
+        "name": "profession.meatKoi"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Koi Meat 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Koi Oil 1": {
     "craftable": [
@@ -2233,13 +3385,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Koi Oil 1",
-    "material": "279:36",
-    "requirements": {
-      "level": 60,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilKoi"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Koi Oil 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Koi Oil 2": {
     "craftable": [
@@ -2249,13 +3409,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Koi Oil 2",
-    "material": "279:36",
-    "requirements": {
-      "level": 60,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilKoi"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Koi Oil 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Koi Oil 3": {
     "craftable": [
@@ -2265,13 +3433,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Koi Oil 3",
-    "material": "279:36",
-    "requirements": {
-      "level": 60,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilKoi"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Koi Oil 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Light Paper 1": {
     "craftable": [
@@ -2279,13 +3455,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Light Paper 1",
-    "material": "339:0",
-    "requirements": {
-      "level": 70,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperLight"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Light Paper 1",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Light Paper 2": {
     "craftable": [
@@ -2293,13 +3477,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Light Paper 2",
-    "material": "339:0",
-    "requirements": {
-      "level": 70,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperLight"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Light Paper 2",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Light Paper 3": {
     "craftable": [
@@ -2307,13 +3499,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Light Paper 3",
-    "material": "339:0",
-    "requirements": {
-      "level": 70,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperLight"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Light Paper 3",
+    "requirements": {
+      "level": 70
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Light Wood 1": {
     "craftable": [
@@ -2322,13 +3522,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "196da8e05292502c9205c599ad638f0222adcec0c05a8aa40f2ffc00493a143e"
+    },
+    "identified": true,
     "internalName": "Refined Light Wood 1",
     "requirements": {
-      "level": 70,
-      "skills": "woodcutting"
+      "level": 70
     },
-    "skin": "196da8e05292502c9205c599ad638f0222adcec0c05a8aa40f2ffc00493a143e",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Light Wood 2": {
     "craftable": [
@@ -2337,13 +3541,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "196da8e05292502c9205c599ad638f0222adcec0c05a8aa40f2ffc00493a143e"
+    },
+    "identified": true,
     "internalName": "Refined Light Wood 2",
     "requirements": {
-      "level": 70,
-      "skills": "woodcutting"
+      "level": 70
     },
-    "skin": "196da8e05292502c9205c599ad638f0222adcec0c05a8aa40f2ffc00493a143e",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Light Wood 3": {
     "craftable": [
@@ -2352,52 +3560,80 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "196da8e05292502c9205c599ad638f0222adcec0c05a8aa40f2ffc00493a143e"
+    },
+    "identified": true,
     "internalName": "Refined Light Wood 3",
     "requirements": {
-      "level": 70,
-      "skills": "woodcutting"
+      "level": 70
     },
-    "skin": "196da8e05292502c9205c599ad638f0222adcec0c05a8aa40f2ffc00493a143e",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Malt Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Malt Grains 1",
-    "material": "279:14",
-    "requirements": {
-      "level": 30,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainMalt"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Malt Grains 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Malt Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Malt Grains 2",
-    "material": "279:14",
-    "requirements": {
-      "level": 30,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainMalt"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Malt Grains 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Malt Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Malt Grains 3",
-    "material": "279:14",
-    "requirements": {
-      "level": 30,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainMalt"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Malt Grains 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Malt String 1": {
     "craftable": [
@@ -2406,13 +3642,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Malt String 1",
-    "material": "279:13",
-    "requirements": {
-      "level": 30,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringMalt"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Malt String 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Malt String 2": {
     "craftable": [
@@ -2421,13 +3665,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Malt String 2",
-    "material": "279:13",
-    "requirements": {
-      "level": 30,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringMalt"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Malt String 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Malt String 3": {
     "craftable": [
@@ -2436,52 +3688,84 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Malt String 3",
-    "material": "279:13",
-    "requirements": {
-      "level": 30,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringMalt"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Malt String 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Millet Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Millet Grains 1",
-    "material": "279:14",
-    "requirements": {
-      "level": 60,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainMillet"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Millet Grains 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Millet Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Millet Grains 2",
-    "material": "279:14",
-    "requirements": {
-      "level": 60,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainMillet"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Millet Grains 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Millet Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Millet Grains 3",
-    "material": "279:14",
-    "requirements": {
-      "level": 60,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainMillet"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Millet Grains 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Millet String 1": {
     "craftable": [
@@ -2490,13 +3774,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Millet String 1",
-    "material": "279:13",
-    "requirements": {
-      "level": 60,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringMillet"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Millet String 1",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Millet String 2": {
     "craftable": [
@@ -2505,13 +3797,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Millet String 2",
-    "material": "279:13",
-    "requirements": {
-      "level": 60,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringMillet"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Millet String 2",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Millet String 3": {
     "craftable": [
@@ -2520,13 +3820,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Millet String 3",
-    "material": "279:13",
-    "requirements": {
-      "level": 60,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringMillet"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Millet String 3",
+    "requirements": {
+      "level": 60
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Molten Gem 1": {
     "craftable": [
@@ -2534,13 +3842,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Molten Gem 1",
-    "material": "279:65",
-    "requirements": {
-      "level": 90,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "69",
+        "id": "minecraft:paper",
+        "name": "profession.gemMolten"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Molten Gem 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Molten Gem 2": {
     "craftable": [
@@ -2548,13 +3864,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Molten Gem 2",
-    "material": "279:65",
-    "requirements": {
-      "level": 90,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "69",
+        "id": "minecraft:paper",
+        "name": "profession.gemMolten"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Molten Gem 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Molten Gem 3": {
     "craftable": [
@@ -2562,13 +3886,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Molten Gem 3",
-    "material": "279:65",
-    "requirements": {
-      "level": 90,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "69",
+        "id": "minecraft:paper",
+        "name": "profession.gemMolten"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Molten Gem 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Molten Ingot 1": {
     "craftable": [
@@ -2579,13 +3911,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Molten Ingot 1",
-    "material": "279:54",
-    "requirements": {
-      "level": 90,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "57",
+        "id": "minecraft:paper",
+        "name": "profession.ingotMolten"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Molten Ingot 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Molten Ingot 2": {
     "craftable": [
@@ -2596,13 +3936,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Molten Ingot 2",
-    "material": "279:54",
-    "requirements": {
-      "level": 90,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "57",
+        "id": "minecraft:paper",
+        "name": "profession.ingotMolten"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Molten Ingot 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Molten Ingot 3": {
     "craftable": [
@@ -2613,49 +3961,81 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Molten Ingot 3",
-    "material": "279:54",
-    "requirements": {
-      "level": 90,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "57",
+        "id": "minecraft:paper",
+        "name": "profession.ingotMolten"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Molten Ingot 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Molten Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Molten Meat 1",
-    "material": "279:32",
-    "requirements": {
-      "level": 90,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "91",
+        "id": "minecraft:paper",
+        "name": "profession.meatMolten"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Molten Meat 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Molten Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Molten Meat 2",
-    "material": "279:32",
-    "requirements": {
-      "level": 90,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "91",
+        "id": "minecraft:paper",
+        "name": "profession.meatMolten"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Molten Meat 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Molten Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Molten Meat 3",
-    "material": "279:32",
-    "requirements": {
-      "level": 90,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "91",
+        "id": "minecraft:paper",
+        "name": "profession.meatMolten"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Molten Meat 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Molten Oil 1": {
     "craftable": [
@@ -2665,13 +4045,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Molten Oil 1",
-    "material": "279:37",
-    "requirements": {
-      "level": 90,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "id": "minecraft:paper",
+        "name": "profession.oilMolten"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Molten Oil 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Molten Oil 2": {
     "craftable": [
@@ -2681,13 +4069,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Molten Oil 2",
-    "material": "279:37",
-    "requirements": {
-      "level": 90,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "id": "minecraft:paper",
+        "name": "profession.oilMolten"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Molten Oil 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Molten Oil 3": {
     "craftable": [
@@ -2697,13 +4093,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Molten Oil 3",
-    "material": "279:37",
-    "requirements": {
-      "level": 90,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "88",
+        "id": "minecraft:paper",
+        "name": "profession.oilMolten"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Molten Oil 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Oak Paper 1": {
     "craftable": [
@@ -2711,13 +4115,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Oak Paper 1",
-    "material": "339:0",
-    "requirements": {
-      "level": 1,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperOak"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Oak Paper 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Oak Paper 2": {
     "craftable": [
@@ -2725,13 +4137,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Oak Paper 2",
-    "material": "339:0",
-    "requirements": {
-      "level": 1,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperOak"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Oak Paper 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Oak Paper 3": {
     "craftable": [
@@ -2739,13 +4159,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Oak Paper 3",
-    "material": "339:0",
-    "requirements": {
-      "level": 1,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperOak"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Oak Paper 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Oak Wood 1": {
     "craftable": [
@@ -2754,13 +4182,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "d83fe49214c6d3664f30e1617aa30be5c15d45b64318a961d93410d2e3b64c86"
+    },
+    "identified": true,
     "internalName": "Refined Oak Wood 1",
     "requirements": {
-      "level": 1,
-      "skills": "woodcutting"
+      "level": 1
     },
-    "skin": "d83fe49214c6d3664f30e1617aa30be5c15d45b64318a961d93410d2e3b64c86",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Oak Wood 2": {
     "craftable": [
@@ -2769,13 +4201,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "d83fe49214c6d3664f30e1617aa30be5c15d45b64318a961d93410d2e3b64c86"
+    },
+    "identified": true,
     "internalName": "Refined Oak Wood 2",
     "requirements": {
-      "level": 1,
-      "skills": "woodcutting"
+      "level": 1
     },
-    "skin": "d83fe49214c6d3664f30e1617aa30be5c15d45b64318a961d93410d2e3b64c86",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Oak Wood 3": {
     "craftable": [
@@ -2784,52 +4220,80 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "d83fe49214c6d3664f30e1617aa30be5c15d45b64318a961d93410d2e3b64c86"
+    },
+    "identified": true,
     "internalName": "Refined Oak Wood 3",
     "requirements": {
-      "level": 1,
-      "skills": "woodcutting"
+      "level": 1
     },
-    "skin": "d83fe49214c6d3664f30e1617aa30be5c15d45b64318a961d93410d2e3b64c86",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Oat Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Oat Grains 1",
-    "material": "279:15",
-    "requirements": {
-      "level": 20,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainOat"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Oat Grains 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Oat Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Oat Grains 2",
-    "material": "279:15",
-    "requirements": {
-      "level": 20,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainOat"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Oat Grains 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Oat Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Oat Grains 3",
-    "material": "279:15",
-    "requirements": {
-      "level": 20,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "45",
+        "id": "minecraft:paper",
+        "name": "profession.grainOat"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Oat Grains 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Oat String 1": {
     "craftable": [
@@ -2838,13 +4302,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Oat String 1",
-    "material": "279:11",
-    "requirements": {
-      "level": 20,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringOat"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Oat String 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Oat String 2": {
     "craftable": [
@@ -2853,13 +4325,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Oat String 2",
-    "material": "279:11",
-    "requirements": {
-      "level": 20,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringOat"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Oat String 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Oat String 3": {
     "craftable": [
@@ -2868,13 +4348,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Oat String 3",
-    "material": "279:11",
-    "requirements": {
-      "level": 20,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "42",
+        "id": "minecraft:paper",
+        "name": "profession.stringOat"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Oat String 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Pine Paper 1": {
     "craftable": [
@@ -2882,13 +4370,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Pine Paper 1",
-    "material": "279:41",
-    "requirements": {
-      "level": 80,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperPine"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Pine Paper 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Pine Paper 2": {
     "craftable": [
@@ -2896,13 +4392,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Pine Paper 2",
-    "material": "279:41",
-    "requirements": {
-      "level": 80,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperPine"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Pine Paper 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Pine Paper 3": {
     "craftable": [
@@ -2910,13 +4414,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Pine Paper 3",
-    "material": "279:41",
-    "requirements": {
-      "level": 80,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperPine"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Pine Paper 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Pine Wood 1": {
     "craftable": [
@@ -2925,13 +4437,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "453e41af269ac4e57dfa86ac88d6294a52356a49b647d565867e8217ecd2afa9"
+    },
+    "identified": true,
     "internalName": "Refined Pine Wood 1",
     "requirements": {
-      "level": 80,
-      "skills": "woodcutting"
+      "level": 80
     },
-    "skin": "453e41af269ac4e57dfa86ac88d6294a52356a49b647d565867e8217ecd2afa9",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Pine Wood 2": {
     "craftable": [
@@ -2940,13 +4456,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "453e41af269ac4e57dfa86ac88d6294a52356a49b647d565867e8217ecd2afa9"
+    },
+    "identified": true,
     "internalName": "Refined Pine Wood 2",
     "requirements": {
-      "level": 80,
-      "skills": "woodcutting"
+      "level": 80
     },
-    "skin": "453e41af269ac4e57dfa86ac88d6294a52356a49b647d565867e8217ecd2afa9",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Pine Wood 3": {
     "craftable": [
@@ -2955,49 +4475,77 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "453e41af269ac4e57dfa86ac88d6294a52356a49b647d565867e8217ecd2afa9"
+    },
+    "identified": true,
     "internalName": "Refined Pine Wood 3",
     "requirements": {
-      "level": 80,
-      "skills": "woodcutting"
+      "level": 80
     },
-    "skin": "453e41af269ac4e57dfa86ac88d6294a52356a49b647d565867e8217ecd2afa9",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Piranha Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Piranha Meat 1",
-    "material": "279:34",
-    "requirements": {
-      "level": 50,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatPiranha"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Piranha Meat 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Piranha Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Piranha Meat 2",
-    "material": "279:34",
-    "requirements": {
-      "level": 50,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatPiranha"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Piranha Meat 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Piranha Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Piranha Meat 3",
-    "material": "279:34",
-    "requirements": {
-      "level": 50,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatPiranha"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Piranha Meat 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Piranha Oil 1": {
     "craftable": [
@@ -3007,13 +4555,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Piranha Oil 1",
-    "material": "279:37",
-    "requirements": {
-      "level": 50,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilPiranha"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Piranha Oil 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Piranha Oil 2": {
     "craftable": [
@@ -3023,13 +4579,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Piranha Oil 2",
-    "material": "279:37",
-    "requirements": {
-      "level": 50,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilPiranha"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Piranha Oil 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Piranha Oil 3": {
     "craftable": [
@@ -3039,52 +4603,84 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Piranha Oil 3",
-    "material": "279:37",
-    "requirements": {
-      "level": 50,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilPiranha"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Piranha Oil 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Rice Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Rice Grains 1",
-    "material": "279:14",
-    "requirements": {
-      "level": 80,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainRice"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Rice Grains 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Rice Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Rice Grains 2",
-    "material": "279:14",
-    "requirements": {
-      "level": 80,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainRice"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Rice Grains 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Rice Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Rice Grains 3",
-    "material": "279:14",
-    "requirements": {
-      "level": 80,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainRice"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Rice Grains 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Rice String 1": {
     "craftable": [
@@ -3093,13 +4689,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Rice String 1",
-    "material": "279:13",
-    "requirements": {
-      "level": 80,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringRice"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Rice String 1",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Rice String 2": {
     "craftable": [
@@ -3108,13 +4712,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Rice String 2",
-    "material": "279:13",
-    "requirements": {
-      "level": 80,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringRice"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Rice String 2",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Rice String 3": {
     "craftable": [
@@ -3123,52 +4735,84 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Rice String 3",
-    "material": "279:13",
-    "requirements": {
-      "level": 80,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringRice"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Rice String 3",
+    "requirements": {
+      "level": 80
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Rye Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Rye Grains 1",
-    "material": "279:14",
-    "requirements": {
-      "level": 50,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainRye"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Rye Grains 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Rye Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Rye Grains 2",
-    "material": "279:14",
-    "requirements": {
-      "level": 50,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainRye"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Rye Grains 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Rye Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Rye Grains 3",
-    "material": "279:14",
-    "requirements": {
-      "level": 50,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainRye"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Rye Grains 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Rye String 1": {
     "craftable": [
@@ -3177,13 +4821,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Rye String 1",
-    "material": "279:13",
-    "requirements": {
-      "level": 50,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringRye"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Rye String 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Rye String 2": {
     "craftable": [
@@ -3192,13 +4844,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Rye String 2",
-    "material": "279:13",
-    "requirements": {
-      "level": 50,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringRye"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Rye String 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Rye String 3": {
     "craftable": [
@@ -3207,49 +4867,81 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Rye String 3",
-    "material": "279:13",
-    "requirements": {
-      "level": 50,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringRye"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Rye String 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Salmon Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Salmon Meat 1",
-    "material": "279:32",
-    "requirements": {
-      "level": 20,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "91",
+        "id": "minecraft:paper",
+        "name": "profession.meatSalmon"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Salmon Meat 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Salmon Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Salmon Meat 2",
-    "material": "279:32",
-    "requirements": {
-      "level": 20,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "91",
+        "id": "minecraft:paper",
+        "name": "profession.meatSalmon"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Salmon Meat 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Salmon Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Salmon Meat 3",
-    "material": "279:32",
-    "requirements": {
-      "level": 20,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "91",
+        "id": "minecraft:paper",
+        "name": "profession.meatSalmon"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Salmon Meat 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Salmon Oil 1": {
     "craftable": [
@@ -3259,13 +4951,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Salmon Oil 1",
-    "material": "279:36",
-    "requirements": {
-      "level": 20,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilSalmon"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Salmon Oil 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Salmon Oil 2": {
     "craftable": [
@@ -3275,13 +4975,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Salmon Oil 2",
-    "material": "279:36",
-    "requirements": {
-      "level": 20,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilSalmon"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Salmon Oil 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Salmon Oil 3": {
     "craftable": [
@@ -3291,13 +4999,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Salmon Oil 3",
-    "material": "279:36",
-    "requirements": {
-      "level": 20,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "86",
+        "id": "minecraft:paper",
+        "name": "profession.oilSalmon"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Salmon Oil 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Sandstone Gem 1": {
     "craftable": [
@@ -3305,13 +5021,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Sandstone Gem 1",
-    "material": "279:68",
-    "requirements": {
-      "level": 30,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "63",
+        "id": "minecraft:paper",
+        "name": "profession.gemSandstone"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Sandstone Gem 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Sandstone Gem 2": {
     "craftable": [
@@ -3319,13 +5043,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Sandstone Gem 2",
-    "material": "279:68",
-    "requirements": {
-      "level": 30,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "63",
+        "id": "minecraft:paper",
+        "name": "profession.gemSandstone"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Sandstone Gem 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Sandstone Gem 3": {
     "craftable": [
@@ -3333,13 +5065,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Sandstone Gem 3",
-    "material": "279:68",
-    "requirements": {
-      "level": 30,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "63",
+        "id": "minecraft:paper",
+        "name": "profession.gemSandstone"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Sandstone Gem 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Sandstone Ingot 1": {
     "craftable": [
@@ -3350,13 +5090,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Sandstone Ingot 1",
-    "material": "279:48",
-    "requirements": {
-      "level": 30,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "51",
+        "id": "minecraft:paper",
+        "name": "profession.ingotSandstone"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Sandstone Ingot 1",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Sandstone Ingot 2": {
     "craftable": [
@@ -3367,13 +5115,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Sandstone Ingot 2",
-    "material": "279:48",
-    "requirements": {
-      "level": 30,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "51",
+        "id": "minecraft:paper",
+        "name": "profession.ingotSandstone"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Sandstone Ingot 2",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Sandstone Ingot 3": {
     "craftable": [
@@ -3384,13 +5140,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Sandstone Ingot 3",
-    "material": "279:48",
-    "requirements": {
-      "level": 30,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "51",
+        "id": "minecraft:paper",
+        "name": "profession.ingotSandstone"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Sandstone Ingot 3",
+    "requirements": {
+      "level": 30
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Silver Gem 1": {
     "craftable": [
@@ -3398,13 +5162,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Silver Gem 1",
-    "material": "279:61",
-    "requirements": {
-      "level": 50,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "65",
+        "id": "minecraft:paper",
+        "name": "profession.gemSilver"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Silver Gem 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Silver Gem 2": {
     "craftable": [
@@ -3412,13 +5184,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Silver Gem 2",
-    "material": "279:61",
-    "requirements": {
-      "level": 50,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "65",
+        "id": "minecraft:paper",
+        "name": "profession.gemSilver"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Silver Gem 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Silver Gem 3": {
     "craftable": [
@@ -3426,13 +5206,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Silver Gem 3",
-    "material": "279:61",
-    "requirements": {
-      "level": 50,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "65",
+        "id": "minecraft:paper",
+        "name": "profession.gemSilver"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Silver Gem 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Silver Ingot 1": {
     "craftable": [
@@ -3443,13 +5231,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Silver Ingot 1",
-    "material": "279:50",
-    "requirements": {
-      "level": 50,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "53",
+        "id": "minecraft:paper",
+        "name": "profession.ingotSilver"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Silver Ingot 1",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Silver Ingot 2": {
     "craftable": [
@@ -3460,13 +5256,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Silver Ingot 2",
-    "material": "279:50",
-    "requirements": {
-      "level": 50,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "53",
+        "id": "minecraft:paper",
+        "name": "profession.ingotSilver"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Silver Ingot 2",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Silver Ingot 3": {
     "craftable": [
@@ -3477,13 +5281,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Silver Ingot 3",
-    "material": "279:50",
-    "requirements": {
-      "level": 50,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "53",
+        "id": "minecraft:paper",
+        "name": "profession.ingotSilver"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Silver Ingot 3",
+    "requirements": {
+      "level": 50
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Sky Paper 1": {
     "craftable": [
@@ -3491,13 +5303,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Sky Paper 1",
-    "material": "339:0",
-    "requirements": {
-      "level": 100,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperSky"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Sky Paper 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Sky Paper 2": {
     "craftable": [
@@ -3505,13 +5325,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Sky Paper 2",
-    "material": "339:0",
-    "requirements": {
-      "level": 100,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperSky"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Sky Paper 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Sky Paper 3": {
     "craftable": [
@@ -3519,13 +5347,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Sky Paper 3",
-    "material": "339:0",
-    "requirements": {
-      "level": 100,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "94",
+        "id": "minecraft:paper",
+        "name": "profession.paperSky"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Sky Paper 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Sky Wood 1": {
     "craftable": [
@@ -3534,13 +5370,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "2f571ca9c902a36e4327bd07285df795e90d213156601762664ce0cd485be74a"
+    },
+    "identified": true,
     "internalName": "Refined Sky Wood 1",
     "requirements": {
-      "level": 100,
-      "skills": "woodcutting"
+      "level": 100
     },
-    "skin": "2f571ca9c902a36e4327bd07285df795e90d213156601762664ce0cd485be74a",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Sky Wood 2": {
     "craftable": [
@@ -3549,13 +5389,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "2f571ca9c902a36e4327bd07285df795e90d213156601762664ce0cd485be74a"
+    },
+    "identified": true,
     "internalName": "Refined Sky Wood 2",
     "requirements": {
-      "level": 100,
-      "skills": "woodcutting"
+      "level": 100
     },
-    "skin": "2f571ca9c902a36e4327bd07285df795e90d213156601762664ce0cd485be74a",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Sky Wood 3": {
     "craftable": [
@@ -3564,52 +5408,80 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "2f571ca9c902a36e4327bd07285df795e90d213156601762664ce0cd485be74a"
+    },
+    "identified": true,
     "internalName": "Refined Sky Wood 3",
     "requirements": {
-      "level": 100,
-      "skills": "woodcutting"
+      "level": 100
     },
-    "skin": "2f571ca9c902a36e4327bd07285df795e90d213156601762664ce0cd485be74a",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Sorghum Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Sorghum Grains 1",
-    "material": "279:17",
-    "requirements": {
-      "level": 90,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainSorghum"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Sorghum Grains 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Sorghum Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Sorghum Grains 2",
-    "material": "279:17",
-    "requirements": {
-      "level": 90,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainSorghum"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Sorghum Grains 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Sorghum Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Sorghum Grains 3",
-    "material": "279:17",
-    "requirements": {
-      "level": 90,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "46",
+        "id": "minecraft:paper",
+        "name": "profession.grainSorghum"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Sorghum Grains 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Sorghum String 1": {
     "craftable": [
@@ -3618,13 +5490,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Sorghum String 1",
-    "material": "279:12",
-    "requirements": {
-      "level": 90,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringSorghum"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Sorghum String 1",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Sorghum String 2": {
     "craftable": [
@@ -3633,13 +5513,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Sorghum String 2",
-    "material": "279:12",
-    "requirements": {
-      "level": 90,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringSorghum"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Sorghum String 2",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Sorghum String 3": {
     "craftable": [
@@ -3648,13 +5536,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Sorghum String 3",
-    "material": "279:12",
-    "requirements": {
-      "level": 90,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "43",
+        "id": "minecraft:paper",
+        "name": "profession.stringSorghum"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Sorghum String 3",
+    "requirements": {
+      "level": 90
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Spruce Paper 1": {
     "craftable": [
@@ -3662,13 +5558,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Spruce Paper 1",
-    "material": "279:41",
-    "requirements": {
-      "level": 40,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperSpruce"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Spruce Paper 1",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Spruce Paper 2": {
     "craftable": [
@@ -3676,13 +5580,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Spruce Paper 2",
-    "material": "279:41",
-    "requirements": {
-      "level": 40,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperSpruce"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Spruce Paper 2",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Spruce Paper 3": {
     "craftable": [
@@ -3690,13 +5602,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Spruce Paper 3",
-    "material": "279:41",
-    "requirements": {
-      "level": 40,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "96",
+        "id": "minecraft:paper",
+        "name": "profession.paperSpruce"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Spruce Paper 3",
+    "requirements": {
+      "level": 40
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Spruce Wood 1": {
     "craftable": [
@@ -3705,13 +5625,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "7f9d5bc6840f2c68f4e5a09a51bbda659f4e79f32fe6fa1d8460ce28cf34a0e4"
+    },
+    "identified": true,
     "internalName": "Refined Spruce Wood 1",
     "requirements": {
-      "level": 40,
-      "skills": "woodcutting"
+      "level": 40
     },
-    "skin": "7f9d5bc6840f2c68f4e5a09a51bbda659f4e79f32fe6fa1d8460ce28cf34a0e4",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Spruce Wood 2": {
     "craftable": [
@@ -3720,13 +5644,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "7f9d5bc6840f2c68f4e5a09a51bbda659f4e79f32fe6fa1d8460ce28cf34a0e4"
+    },
+    "identified": true,
     "internalName": "Refined Spruce Wood 2",
     "requirements": {
-      "level": 40,
-      "skills": "woodcutting"
+      "level": 40
     },
-    "skin": "7f9d5bc6840f2c68f4e5a09a51bbda659f4e79f32fe6fa1d8460ce28cf34a0e4",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Spruce Wood 3": {
     "craftable": [
@@ -3735,49 +5663,77 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "7f9d5bc6840f2c68f4e5a09a51bbda659f4e79f32fe6fa1d8460ce28cf34a0e4"
+    },
+    "identified": true,
     "internalName": "Refined Spruce Wood 3",
     "requirements": {
-      "level": 40,
-      "skills": "woodcutting"
+      "level": 40
     },
-    "skin": "7f9d5bc6840f2c68f4e5a09a51bbda659f4e79f32fe6fa1d8460ce28cf34a0e4",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   },
   "Starfish Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Starfish Meat 1",
-    "material": "279:33",
-    "requirements": {
-      "level": 100,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "92",
+        "id": "minecraft:paper",
+        "name": "profession.meatStar"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Starfish Meat 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Starfish Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Starfish Meat 2",
-    "material": "279:33",
-    "requirements": {
-      "level": 100,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "92",
+        "id": "minecraft:paper",
+        "name": "profession.meatStar"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Starfish Meat 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Starfish Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Starfish Meat 3",
-    "material": "279:33",
-    "requirements": {
-      "level": 100,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "92",
+        "id": "minecraft:paper",
+        "name": "profession.meatStar"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Starfish Meat 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Starfish Oil 1": {
     "craftable": [
@@ -3787,13 +5743,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Starfish Oil 1",
-    "material": "279:38",
-    "requirements": {
-      "level": 100,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilStar"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Starfish Oil 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Starfish Oil 2": {
     "craftable": [
@@ -3803,13 +5767,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Starfish Oil 2",
-    "material": "279:38",
-    "requirements": {
-      "level": 100,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilStar"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Starfish Oil 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Starfish Oil 3": {
     "craftable": [
@@ -3819,49 +5791,81 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Starfish Oil 3",
-    "material": "279:38",
-    "requirements": {
-      "level": 100,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "87",
+        "id": "minecraft:paper",
+        "name": "profession.oilStar"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Starfish Oil 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Trout Meat 1": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Trout Meat 1",
-    "material": "279:34",
-    "requirements": {
-      "level": 10,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatTrout"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Trout Meat 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Trout Meat 2": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Trout Meat 2",
-    "material": "279:34",
-    "requirements": {
-      "level": 10,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatTrout"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Trout Meat 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Trout Meat 3": {
     "craftable": [
       "food"
     ],
-    "internalName": "Refined Trout Meat 3",
-    "material": "279:34",
-    "requirements": {
-      "level": 10,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "90",
+        "id": "minecraft:paper",
+        "name": "profession.meatTrout"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Trout Meat 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Trout Oil 1": {
     "craftable": [
@@ -3871,13 +5875,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Trout Oil 1",
-    "material": "279:39",
-    "requirements": {
-      "level": 10,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilTrout"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Trout Oil 1",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Trout Oil 2": {
     "craftable": [
@@ -3887,13 +5899,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Trout Oil 2",
-    "material": "279:39",
-    "requirements": {
-      "level": 10,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilTrout"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Trout Oil 2",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Trout Oil 3": {
     "craftable": [
@@ -3903,13 +5923,21 @@
       "necklaces",
       "potions"
     ],
-    "internalName": "Refined Trout Oil 3",
-    "material": "279:39",
-    "requirements": {
-      "level": 10,
-      "skills": "fishing"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "85",
+        "id": "minecraft:paper",
+        "name": "profession.oilTrout"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Trout Oil 3",
+    "requirements": {
+      "level": 10
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Voidstone Gem 1": {
     "craftable": [
@@ -3917,13 +5945,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Voidstone Gem 1",
-    "material": "279:66",
-    "requirements": {
-      "level": 100,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "70",
+        "id": "minecraft:paper",
+        "name": "profession.gemVoidstone"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Voidstone Gem 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Voidstone Gem 2": {
     "craftable": [
@@ -3931,13 +5967,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Voidstone Gem 2",
-    "material": "279:66",
-    "requirements": {
-      "level": 100,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "70",
+        "id": "minecraft:paper",
+        "name": "profession.gemVoidstone"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Voidstone Gem 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Voidstone Gem 3": {
     "craftable": [
@@ -3945,13 +5989,21 @@
       "bracelets",
       "necklaces"
     ],
-    "internalName": "Refined Voidstone Gem 3",
-    "material": "279:66",
-    "requirements": {
-      "level": 100,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "70",
+        "id": "minecraft:paper",
+        "name": "profession.gemVoidstone"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Voidstone Gem 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Voidstone Ingot 1": {
     "craftable": [
@@ -3962,13 +6014,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Voidstone Ingot 1",
-    "material": "279:55",
-    "requirements": {
-      "level": 100,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "58",
+        "id": "minecraft:paper",
+        "name": "profession.ingotVoidstone"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Voidstone Ingot 1",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Voidstone Ingot 2": {
     "craftable": [
@@ -3979,13 +6039,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Voidstone Ingot 2",
-    "material": "279:55",
-    "requirements": {
-      "level": 100,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "58",
+        "id": "minecraft:paper",
+        "name": "profession.ingotVoidstone"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Voidstone Ingot 2",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Voidstone Ingot 3": {
     "craftable": [
@@ -3996,52 +6064,84 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Voidstone Ingot 3",
-    "material": "279:55",
-    "requirements": {
-      "level": 100,
-      "skills": "mining"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "58",
+        "id": "minecraft:paper",
+        "name": "profession.ingotVoidstone"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Voidstone Ingot 3",
+    "requirements": {
+      "level": 100
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Wheat Grains 1": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Wheat Grains 1",
-    "material": "279:14",
-    "requirements": {
-      "level": 1,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainWheat"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Wheat Grains 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Wheat Grains 2": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Wheat Grains 2",
-    "material": "279:14",
-    "requirements": {
-      "level": 1,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainWheat"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Wheat Grains 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Wheat Grains 3": {
     "craftable": [
       "potions",
       "food"
     ],
-    "internalName": "Refined Wheat Grains 3",
-    "material": "279:14",
-    "requirements": {
-      "level": 1,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "44",
+        "id": "minecraft:paper",
+        "name": "profession.grainWheat"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Wheat Grains 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Wheat String 1": {
     "craftable": [
@@ -4050,13 +6150,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Wheat String 1",
-    "material": "279:13",
-    "requirements": {
-      "level": 1,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringWheat"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Wheat String 1",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Wheat String 2": {
     "craftable": [
@@ -4065,13 +6173,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Wheat String 2",
-    "material": "279:13",
-    "requirements": {
-      "level": 1,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringWheat"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Wheat String 2",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Wheat String 3": {
     "craftable": [
@@ -4080,13 +6196,21 @@
       "bows",
       "wands"
     ],
-    "internalName": "Refined Wheat String 3",
-    "material": "279:13",
-    "requirements": {
-      "level": 1,
-      "skills": "farming"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "41",
+        "id": "minecraft:paper",
+        "name": "profession.stringWheat"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Wheat String 3",
+    "requirements": {
+      "level": 1
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Willow Paper 1": {
     "craftable": [
@@ -4094,13 +6218,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Willow Paper 1",
-    "material": "279:40",
-    "requirements": {
-      "level": 20,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperWillow"
+      }
     },
-    "tier": 1
+    "identified": true,
+    "internalName": "Refined Willow Paper 1",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 1,
+    "type": "material"
   },
   "Willow Paper 2": {
     "craftable": [
@@ -4108,13 +6240,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Willow Paper 2",
-    "material": "279:40",
-    "requirements": {
-      "level": 20,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperWillow"
+      }
     },
-    "tier": 2
+    "identified": true,
+    "internalName": "Refined Willow Paper 2",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 2,
+    "type": "material"
   },
   "Willow Paper 3": {
     "craftable": [
@@ -4122,13 +6262,21 @@
       "helmets",
       "chestplates"
     ],
-    "internalName": "Refined Willow Paper 3",
-    "material": "279:40",
-    "requirements": {
-      "level": 20,
-      "skills": "woodcutting"
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "95",
+        "id": "minecraft:paper",
+        "name": "profession.paperWillow"
+      }
     },
-    "tier": 3
+    "identified": true,
+    "internalName": "Refined Willow Paper 3",
+    "requirements": {
+      "level": 20
+    },
+    "tier": 3,
+    "type": "material"
   },
   "Willow Wood 1": {
     "craftable": [
@@ -4137,13 +6285,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "33d48602ca7f62d84cf9888a7386d96e4afd4b08e0dd1c1b123ba65157331a1d"
+    },
+    "identified": true,
     "internalName": "Refined Willow Wood 1",
     "requirements": {
-      "level": 20,
-      "skills": "woodcutting"
+      "level": 20
     },
-    "skin": "33d48602ca7f62d84cf9888a7386d96e4afd4b08e0dd1c1b123ba65157331a1d",
-    "tier": 1
+    "tier": 1,
+    "type": "material"
   },
   "Willow Wood 2": {
     "craftable": [
@@ -4152,13 +6304,17 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "33d48602ca7f62d84cf9888a7386d96e4afd4b08e0dd1c1b123ba65157331a1d"
+    },
+    "identified": true,
     "internalName": "Refined Willow Wood 2",
     "requirements": {
-      "level": 20,
-      "skills": "woodcutting"
+      "level": 20
     },
-    "skin": "33d48602ca7f62d84cf9888a7386d96e4afd4b08e0dd1c1b123ba65157331a1d",
-    "tier": 2
+    "tier": 2,
+    "type": "material"
   },
   "Willow Wood 3": {
     "craftable": [
@@ -4167,12 +6323,16 @@
       "bows",
       "wands"
     ],
+    "icon": {
+      "format": "skin",
+      "value": "33d48602ca7f62d84cf9888a7386d96e4afd4b08e0dd1c1b123ba65157331a1d"
+    },
+    "identified": true,
     "internalName": "Refined Willow Wood 3",
     "requirements": {
-      "level": 20,
-      "skills": "woodcutting"
+      "level": 20
     },
-    "skin": "33d48602ca7f62d84cf9888a7386d96e4afd4b08e0dd1c1b123ba65157331a1d",
-    "tier": 3
+    "tier": 3,
+    "type": "material"
   }
 }

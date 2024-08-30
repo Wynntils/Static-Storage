@@ -6,7 +6,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 # Download the json file from Wynncraft API
-curl -X POST -d '{"type":["charms"]}' -H "Content-Type: application/json" -o charms.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult=True"
+curl -X POST -d '{"type":["charm"]}' -H "Content-Type: application/json" -o charms.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult=True"
 
 if [ ! -s charms.json.tmp ]; then
     rm charms.json.tmp
