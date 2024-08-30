@@ -105,7 +105,7 @@
   },
   {
     "id": "dataStaticCombatMapFeatures",
-    "md5": "af45124a2370cf65db36dfbb33e0a499",
+    "md5": "30d11707b9819c0271a661120f904369",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/combat_mapfeatures.json"
   },
   {
@@ -115,7 +115,7 @@
   },
   {
     "id": "dataStaticGear",
-    "md5": "83a7e7d970b67cd1d09eb8ebe94fbc10",
+    "md5": "e028365b33c673a34f5b83b456c36be8",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/gear.json"
   },
   {
@@ -220,7 +220,7 @@
   },
   {
     "id": "dataStaticTools",
-    "md5": "43083c51f817af099cbfa90eb3cec874",
+    "md5": "ecb712e680d77ea7129d1dd01eaeef8f",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/2.1items2/Reference/tools.json"
   },
   {
