@@ -659,11 +659,7 @@
         "raw": -20
       },
       "rawAgility": 10,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 10,
       "spellDamage": {
         "max": -10,
@@ -2378,11 +2374,7 @@
         "raw": -12
       },
       "rawAgility": 9,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "spellDamage": {
         "max": 18,
         "min": 4,
@@ -5360,11 +5352,7 @@
         "min": 53,
         "raw": 177
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawStrength": 5,
       "walkSpeed": {
         "max": -10,
@@ -5533,11 +5521,7 @@
         "min": -1,
         "raw": -3
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "reflection": {
         "max": 62,
         "min": 14,
@@ -7546,11 +7530,7 @@
         "min": 12,
         "raw": 40
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "manaRegen": {
         "max": -8,
         "min": -16,
@@ -9056,11 +9036,7 @@
         "min": 1,
         "raw": 4
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDexterity": 15,
       "rawHealth": {
         "max": -945,
@@ -10253,11 +10229,7 @@
         "min": 2,
         "raw": 8
       },
-      "raw4thSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      }
+      "raw4thSpellCost": -1
     },
     "internalName": "Athanasia",
     "lore": "May your triumphs live eternal and never fade.",
@@ -10424,11 +10396,7 @@
         "min": 11,
         "raw": 37
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "poison": {
         "max": 4453,
         "min": 1028,
@@ -12235,11 +12203,7 @@
         "min": 618,
         "raw": 2060
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "thunderDamage": {
         "max": 59,
         "min": 14,
@@ -13649,11 +13613,7 @@
         "raw": -8
       },
       "rawAgility": 6,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 176,
         "min": 41,
@@ -14412,11 +14372,7 @@
         "min": -26,
         "raw": -20
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 4,
       "rawDexterity": -1,
       "rawStrength": 2
@@ -18020,11 +17976,7 @@
         "min": -1,
         "raw": -5
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "waterDefence": {
         "max": 39,
         "min": 9,
@@ -23022,11 +22974,7 @@
         "min": -8,
         "raw": -6
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": 10,
       "spellDamage": {
         "max": -10,
@@ -24330,11 +24278,7 @@
         "raw": 4
       },
       "rawAgility": 6,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": 4,
       "rawDexterity": 5,
       "rawMainAttackDamage": {
@@ -25291,11 +25235,7 @@
         "raw": 4000
       },
       "rawAgility": -20,
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": -20,
       "spellDamage": {
         "max": 39,
@@ -26046,11 +25986,7 @@
         "min": 2,
         "raw": 8
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDexterity": -30,
       "rawIntelligence": 10,
       "spellDamage": {
@@ -27600,11 +27536,7 @@
         "raw": 1650
       },
       "rawAgility": 13,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "stealing": {
         "max": 7,
         "min": 2,
@@ -27930,11 +27862,7 @@
         "min": 30,
         "raw": 100
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "lootBonus": {
         "max": 20,
         "min": 5,
@@ -29163,11 +29091,7 @@
         "raw": 10
       },
       "rawAgility": -3,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": -3,
       "rawDexterity": -3,
       "rawIntelligence": -3,
@@ -30090,11 +30014,7 @@
         "min": 1800,
         "raw": 6000
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawFireMainAttackDamage": {
         "max": 1105,
         "min": 255,
@@ -32890,11 +32810,7 @@
         "min": 2,
         "raw": 5
       },
-      "raw3rdSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      }
+      "raw3rdSpellCost": -1
     },
     "internalName": "Exhibition",
     "lore": "An anomaly of adoption, for the caretakers who seek purpose outside of reality.",
@@ -32923,11 +32839,7 @@
         "min": 2,
         "raw": 6
       },
-      "stealing": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "stealing": 1
     },
     "internalName": "Collector",
     "rarity": "unique",
@@ -39680,11 +39592,7 @@
         "min": -2,
         "raw": -7
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawHealth": {
         "max": -805,
         "min": -1495,
@@ -40653,11 +40561,7 @@
         "raw": 5250
       },
       "rawAgility": 7,
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawStrength": 4,
       "reflection": {
         "max": 26,
@@ -40909,11 +40813,7 @@
         "min": 3,
         "raw": 10
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawHealth": {
         "max": 163,
         "min": 38,
@@ -43020,16 +42920,8 @@
         "min": -19,
         "raw": -15
       },
-      "raw1stSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
-      "raw2ndSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "raw1stSpellCost": -1,
+      "raw2ndSpellCost": -1,
       "rawIntelligence": 3
     },
     "internalName": "Desert Sepulcher",
@@ -46303,11 +46195,7 @@
         "min": -7,
         "raw": -24
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "mainAttackDamage": {
         "max": 20,
         "min": 5,
@@ -46808,11 +46696,7 @@
         "min": 6,
         "raw": 20
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 163,
         "min": 38,
@@ -46872,11 +46756,7 @@
         "raw": 30
       },
       "rawAgility": -550,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": -73,
       "rawDexterity": 37,
       "rawMainAttackDamage": {
@@ -47799,11 +47679,7 @@
         "min": -253,
         "raw": -195
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "lifeSteal": {
         "max": -164,
         "min": -305,
@@ -50676,16 +50552,6 @@
         "raw": 85
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -50728,13 +50594,13 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "type": "weapon",
     "weaponType": "dagger"
@@ -51294,11 +51160,7 @@
         "raw": 15
       },
       "rawAgility": 16,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawStrength": 16,
       "thunderDefence": {
         "max": -21,
@@ -52282,26 +52144,10 @@
       }
     },
     "identifications": {
-      "mainAttackDamage": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "rawMainAttackDamage": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "rawSpellDamage": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "spellDamage": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "mainAttackDamage": 1,
+      "rawMainAttackDamage": 1,
+      "rawSpellDamage": 1,
+      "spellDamage": 1
     },
     "internalName": "Ein",
     "rarity": "unique",
@@ -52550,11 +52396,7 @@
         "min": -5,
         "raw": -4
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 7,
       "rawMainAttackDamage": {
         "max": 117,
@@ -53693,11 +53535,7 @@
         "min": 11,
         "raw": 37
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawFireMainAttackDamage": {
         "max": 104,
         "min": 24,
@@ -55312,11 +55150,7 @@
       }
     },
     "identifications": {
-      "stealing": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "stealing": 1,
       "xpBonus": {
         "max": 4,
         "min": 1,
@@ -57088,11 +56922,7 @@
         "min": -8,
         "raw": -6
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 7,
       "rawHealth": {
         "max": 650,
@@ -58261,11 +58091,7 @@
         "min": 2,
         "raw": 8
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawMainAttackDamage": {
         "max": 715,
         "min": 165,
@@ -64188,11 +64014,7 @@
       }
     },
     "identifications": {
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "lifeSteal": {
         "max": 325,
         "min": 75,
@@ -65590,11 +65412,7 @@
         "min": 19,
         "raw": 64
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "manaRegen": {
         "max": 5,
         "min": 1,
@@ -66142,11 +65960,7 @@
         "min": -13,
         "raw": -10
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 65,
         "min": 15,
@@ -67013,11 +66827,7 @@
         "min": -14,
         "raw": -11
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawDexterity": 11,
       "spellDamage": {
         "max": 35,
@@ -67831,11 +67641,7 @@
         "min": 3750,
         "raw": 12500
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "stealing": {
         "max": 20,
         "min": 5,
@@ -70521,11 +70327,7 @@
       }
     },
     "identifications": {
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawMainAttackDamage": {
         "max": 975,
         "min": 225,
@@ -70908,11 +70710,7 @@
         "min": 4,
         "raw": 12
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawHealth": {
         "max": 199,
         "min": 46,
@@ -72586,11 +72384,7 @@
         "min": -16,
         "raw": -12
       },
-      "raw1stSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "raw1stSpellCost": -1,
       "rawAgility": 4,
       "rawDefence": 4,
       "spellDamage": {
@@ -73273,11 +73067,7 @@
         "min": 3,
         "raw": 10
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawSpellDamage": {
         "max": -115,
         "min": -214,
@@ -78238,11 +78028,7 @@
         "min": 45,
         "raw": 150
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawSpellDamage": {
         "max": -1400,
         "min": -2600,
@@ -78561,11 +78347,7 @@
         "min": 150,
         "raw": 500
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawHealth": {
         "max": -875,
         "min": -1625,
@@ -78623,21 +78405,13 @@
         "min": 3,
         "raw": 11
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "raw2ndSpellCost": {
         "max": -6,
         "min": -1,
         "raw": -5
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawHealth": {
         "max": -28,
         "min": -52,
@@ -79175,11 +78949,7 @@
         "min": 636,
         "raw": 2120
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": -20,
       "rawSpellDamage": {
         "max": -115,
@@ -80485,11 +80255,7 @@
         "raw": -10
       },
       "rawAgility": 10,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 5,
       "rawSpellDamage": {
         "max": -112,
@@ -81602,11 +81368,7 @@
         "min": 2,
         "raw": 8
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 8,
       "rawDexterity": 4,
       "thunderDamage": {
@@ -84861,11 +84623,7 @@
         "min": -32,
         "raw": -25
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawMainAttackDamage": {
         "max": 221,
         "min": 51,
@@ -85116,11 +84874,7 @@
         "min": -19,
         "raw": -15
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "manaRegen": {
         "max": -4,
         "min": -8,
@@ -88723,11 +88477,7 @@
       }
     },
     "identifications": {
-      "exploding": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "exploding": 1,
       "poison": {
         "max": 156,
         "min": 36,
@@ -88738,21 +88488,9 @@
       "rawDexterity": 3,
       "rawIntelligence": 3,
       "rawStrength": 3,
-      "reflection": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "stealing": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "thorns": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "reflection": 1,
+      "stealing": 1,
+      "thorns": 1,
       "xpBonus": {
         "max": 13,
         "min": 3,
@@ -90804,11 +90542,7 @@
         "min": 7,
         "raw": 22
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "mainAttackDamage": {
         "max": 17,
         "min": 4,
@@ -92261,11 +91995,7 @@
         "min": 7,
         "raw": 23
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "raw2ndSpellCost": {
         "max": -5,
         "min": -1,
@@ -92951,11 +92681,7 @@
         "min": 3,
         "raw": 10
       },
-      "healthRegenRaw": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "healthRegenRaw": 1
     },
     "internalName": "Leaf Boots",
     "powderSlots": 1,
@@ -92980,11 +92706,7 @@
         "min": 2,
         "raw": 6
       },
-      "healthRegenRaw": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "healthRegenRaw": 1
     },
     "internalName": "Leaf Cap",
     "powderSlots": 1,
@@ -93077,11 +92799,7 @@
       }
     },
     "identifications": {
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "sprint": {
         "max": 18,
         "min": 4,
@@ -93611,11 +93329,7 @@
         "min": -65,
         "raw": -50
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 156,
         "min": 36,
@@ -93742,11 +93456,7 @@
         "raw": -150
       },
       "rawAgility": 12,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 12,
       "reflection": {
         "max": 46,
@@ -94123,11 +93833,7 @@
         "min": -1,
         "raw": -3
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawStrength": 12,
       "stealing": {
         "max": 9,
@@ -94494,11 +94200,7 @@
         "min": 2,
         "raw": 7
       },
-      "manaRegen": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      }
+      "manaRegen": -1
     },
     "internalName": "Life Charge",
     "rarity": "unique",
@@ -96294,16 +95996,8 @@
         "min": -71,
         "raw": -55
       },
-      "raw1stSpellCost": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "raw3rdSpellCost": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "raw1stSpellCost": 1,
+      "raw3rdSpellCost": 1,
       "raw4thSpellCost": {
         "max": -8,
         "min": -2,
@@ -96909,11 +96603,7 @@
         "min": 6,
         "raw": 20
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawHealth": {
         "max": -875,
         "min": -1625,
@@ -96972,11 +96662,7 @@
         "min": -19,
         "raw": -15
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 10,
       "rawMainAttackDamage": {
         "max": 169,
@@ -97736,11 +97422,7 @@
         "raw": 30
       },
       "rawAgility": 8,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "walkSpeed": {
         "max": 20,
         "min": 5,
@@ -99781,11 +99463,7 @@
         "min": 3,
         "raw": 10
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawMainAttackDamage": {
         "max": 137,
         "min": 32,
@@ -100479,26 +100157,10 @@
       }
     },
     "identifications": {
-      "raw1stSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
-      "raw2ndSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
-      "raw3rdSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
-      "raw4thSpellCost": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      }
+      "raw1stSpellCost": -1,
+      "raw2ndSpellCost": -1,
+      "raw3rdSpellCost": -1,
+      "raw4thSpellCost": -1
     },
     "internalName": "Master",
     "lore": "Although not truly magical by any means, the sheer craftsmanship of this ornate broach makes its wearers feel skillful.",
@@ -103061,11 +102723,7 @@
         "min": -13,
         "raw": -42
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawAgility": 20,
       "reflection": {
         "max": 39,
@@ -103954,11 +103612,7 @@
       }
     },
     "identifications": {
-      "healthRegenRaw": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "healthRegenRaw": 1,
       "rawHealth": {
         "max": 7,
         "min": 2,
@@ -104302,11 +103956,7 @@
         "min": 1,
         "raw": 4
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDexterity": 3,
       "rawMainAttackDamage": {
         "max": 358,
@@ -105692,11 +105342,7 @@
         "min": 3,
         "raw": 11
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "spellDamage": {
         "max": 9,
         "min": 2,
@@ -106324,11 +105970,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "reflection": {
         "max": 7,
         "min": 2,
@@ -107642,11 +107284,7 @@
         "min": 3192,
         "raw": 10640
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": -150,
         "min": -279,
@@ -108015,11 +107653,7 @@
         "raw": 8
       },
       "rawAgility": 7,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 8,
       "reflection": {
         "max": 26,
@@ -108832,11 +108466,7 @@
         "min": 998,
         "raw": 3325
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": 12,
       "rawDexterity": 12,
       "thunderDamage": {
@@ -109330,16 +108960,8 @@
         "min": -1,
         "raw": -3
       },
-      "raw3rdSpellCost": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "raw3rdSpellCost": 1,
+      "rawAttackSpeed": -1,
       "rawSpellDamage": {
         "max": 250,
         "min": 58,
@@ -110003,11 +109625,7 @@
         "min": 3,
         "raw": 10
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawAgility": 3,
       "rawHealth": {
         "max": -14,
@@ -110515,11 +110133,7 @@
         "raw": -180
       },
       "rawAgility": 13,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 130,
         "min": 30,
@@ -111812,11 +111426,7 @@
         "min": 38,
         "raw": 125
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDexterity": 5,
       "rawIntelligence": -10,
       "rawStrength": 5,
@@ -113500,11 +113110,7 @@
         "min": 12,
         "raw": 40
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 7,
       "rawStrength": 7,
       "thorns": {
@@ -118720,11 +118326,7 @@
         "min": 1028,
         "raw": 3425
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 8,
       "rawStrength": 8,
       "thunderDamage": {
@@ -119417,11 +119019,7 @@
         "min": 29,
         "raw": 95
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "mainAttackDamage": {
         "max": -5,
         "min": -9,
@@ -121159,11 +120757,7 @@
     },
     "dropRestriction": "normal",
     "identifications": {
-      "exploding": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "exploding": 1,
       "manaSteal": {
         "max": -3,
         "min": -5,
@@ -123639,11 +123233,7 @@
         "raw": 50
       },
       "rawAgility": 7,
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDexterity": -5,
       "rawStrength": 7,
       "thorns": {
@@ -125996,11 +125586,7 @@
       }
     },
     "identifications": {
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawEarthMainAttackDamage": {
         "max": 293,
         "min": 68,
@@ -126709,11 +126295,7 @@
         "min": -18,
         "raw": -14
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 20,
       "walkSpeed": {
         "max": 18,
@@ -127017,11 +126599,7 @@
         "min": 2700,
         "raw": 9000
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 91,
         "min": 21,
@@ -128621,16 +128199,8 @@
         "min": 3,
         "raw": 9
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
+      "rawAttackSpeed": 1,
       "rawStrength": 6
     },
     "internalName": "Recalcitrance",
@@ -130265,11 +129835,7 @@
         "raw": -69
       },
       "rawAgility": -10,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": -10,
       "rawMainAttackDamage": {
         "max": 78,
@@ -131056,11 +130622,7 @@
         "min": 4,
         "raw": 12
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 12,
       "walkSpeed": {
         "max": -8,
@@ -134244,11 +133806,7 @@
         "min": -32,
         "raw": -25
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "raw2ndSpellCost": {
         "max": -5,
         "min": -1,
@@ -135709,11 +135267,7 @@
         "min": -13,
         "raw": -42
       },
-      "jumpHeight": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "jumpHeight": -1,
       "poison": {
         "max": 2405,
         "min": 555,
@@ -137314,11 +136868,7 @@
         "raw": 50
       },
       "rawAgility": 5,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "thorns": {
         "max": 9,
         "min": 2,
@@ -138648,11 +138198,7 @@
         "min": 7,
         "raw": 24
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "spellDamage": {
         "max": -105,
         "min": -195,
@@ -138800,11 +138346,7 @@
         "min": 8,
         "raw": 25
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 85,
         "min": 20,
@@ -140225,11 +139767,7 @@
         "min": 2,
         "raw": 5
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawIntelligence": 6,
       "spellDamage": {
         "max": 20,
@@ -140281,11 +139819,7 @@
         "raw": -475
       },
       "rawAgility": 20,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "walkSpeed": {
         "max": 26,
         "min": 6,
@@ -140407,11 +139941,7 @@
         "min": 2,
         "raw": 6
       },
-      "stealing": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "stealing": 1
     },
     "internalName": "Seeker",
     "rarity": "unique",
@@ -140564,11 +140094,7 @@
         "min": 1,
         "raw": 4
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawIntelligence": 7,
       "rawStrength": 7,
       "thunderDefence": {
@@ -140711,11 +140237,7 @@
         "min": 4,
         "raw": 12
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawHealth": {
         "max": 1170,
         "min": 270,
@@ -142044,11 +141566,7 @@
         "min": 2,
         "raw": 5
       },
-      "rawMainAttackDamage": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "rawMainAttackDamage": 1
     },
     "internalName": "Shark Tooth",
     "rarity": "unique",
@@ -144653,11 +144171,7 @@
         "min": 2,
         "raw": 8
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawStrength": 9,
       "walkSpeed": {
         "max": -6,
@@ -146018,11 +145532,7 @@
       }
     },
     "identifications": {
-      "elementalDefence": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      }
+      "elementalDefence": 1
     },
     "internalName": "Simplicity",
     "rarity": "unique",
@@ -147332,11 +146842,7 @@
         "min": -32,
         "raw": -25
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawStrength": 5,
       "stealing": {
         "max": 10,
@@ -148097,11 +147603,7 @@
         "min": -351,
         "raw": -270
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 20,
       "rawMainAttackDamage": {
         "max": 371,
@@ -148994,11 +148496,7 @@
         "min": 2,
         "raw": 8
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 10,
       "rawStrength": 10,
       "spellDamage": {
@@ -150034,11 +149532,7 @@
         "raw": 10
       },
       "rawAgility": 20,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "reflection": {
         "max": 22,
         "min": 5,
@@ -154097,11 +153591,7 @@
         "raw": 4
       },
       "rawIntelligence": 7,
-      "stealing": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "stealing": 1,
       "thunderDefence": {
         "max": -21,
         "min": -39,
@@ -157103,11 +156593,7 @@
         "min": 2,
         "raw": 8
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawHealth": {
         "max": -630,
         "min": -1170,
@@ -158360,11 +157846,7 @@
         "min": 3,
         "raw": 10
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "stealing": {
         "max": 7,
         "min": 2,
@@ -159250,11 +158732,7 @@
         "min": 10,
         "raw": 34
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 9,
       "rawDexterity": 9,
       "thunderDamage": {
@@ -159667,11 +159145,7 @@
         "min": 188,
         "raw": 625
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 1325,
         "min": 306,
@@ -160120,11 +159594,7 @@
       }
     },
     "identifications": {
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawAgility": 7,
       "reflection": {
         "max": 18,
@@ -160160,11 +159630,7 @@
       }
     },
     "identifications": {
-      "rawMainAttackDamage": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawMainAttackDamage": 1,
       "walkSpeed": {
         "max": 7,
         "min": 2,
@@ -160213,11 +159679,7 @@
       }
     },
     "identifications": {
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "raw4thSpellCost": {
         "max": -19,
         "min": -4,
@@ -161099,11 +160561,7 @@
         "min": -6,
         "raw": -20
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawAgility": 8,
       "rawAirSpellDamage": {
         "max": 195,
@@ -166250,11 +165708,7 @@
     "dropRestriction": "normal",
     "identifications": {
       "rawAgility": -3,
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 17,
       "rawDexterity": -3,
       "rawHealth": {
@@ -166578,11 +166032,7 @@
         "min": -10,
         "raw": -8
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
         "max": 124,
         "min": 29,
@@ -166809,11 +166259,7 @@
         "raw": -25
       },
       "rawAgility": 3,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 3,
       "spellDamage": {
         "max": 20,
@@ -167199,11 +166645,7 @@
         "min": -9,
         "raw": -30
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "rawSpellDamage": {
         "max": 46,
         "min": 11,
@@ -168663,26 +168105,36 @@
   },
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
-    "averageDps": 375,
+    "averageDps": 341,
     "base": {
       "baseDamage": {
-        "max": 99,
-        "min": 22,
-        "raw": 22
+        "max": 90,
+        "min": 20,
+        "raw": 20
       },
       "baseThunderDamage": {
-        "max": 99,
-        "min": 22,
-        "raw": 22
+        "max": 90,
+        "min": 20,
+        "raw": 20
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "194",
+        "customModelData": "258",
         "id": "minecraft:iron_horse_armor",
-        "name": "bow.thunder2"
+        "name": "dagger.thunder2"
       }
     },
     "identifications": {
@@ -168718,12 +168170,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Dagger",
+    "internalName": "Thunder Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 30,
+      "dexterity": 25,
       "level": 65
     },
     "type": "weapon",
@@ -169114,11 +168566,7 @@
         "raw": 4
       },
       "rawAgility": 7,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDexterity": 9,
       "spellDamage": {
         "max": 18,
@@ -169806,11 +169254,7 @@
         "min": -21,
         "raw": -16
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "reflection": {
         "max": 39,
         "min": 9,
@@ -170260,11 +169704,7 @@
         "min": 3,
         "raw": 10
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": 20,
       "rawDexterity": 20,
       "rawStrength": 20,
@@ -170300,11 +169740,7 @@
         "min": 5,
         "raw": 15
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawDefence": 10,
       "rawStrength": 15,
       "xpBonus": {
@@ -170868,11 +170304,7 @@
         "min": 18,
         "raw": 60
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawDefence": 7,
       "rawHealth": {
         "max": 455,
@@ -171224,11 +170656,7 @@
         "raw": 15
       },
       "rawAgility": 13,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawHealth": {
         "max": -1050,
         "min": -1950,
@@ -171967,11 +171395,7 @@
         "min": 6,
         "raw": 20
       },
-      "jumpHeight": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "jumpHeight": -1,
       "raw1stSpellCost": {
         "max": -6,
         "min": -1,
@@ -174516,11 +173940,7 @@
         "min": -13,
         "raw": -10
       },
-      "jumpHeight": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "jumpHeight": 1,
       "manaSteal": {
         "max": 5,
         "min": 1,
@@ -178290,16 +177710,8 @@
         "raw": 2
       },
       "rawDefence": -20,
-      "reflection": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
-      "thorns": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "reflection": 1,
+      "thorns": 1,
       "thunderDamage": {
         "max": 21,
         "min": 5,
@@ -178348,11 +177760,7 @@
         "raw": 12
       },
       "rawAgility": -6,
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "reflection": {
         "max": 12,
         "min": 3,
@@ -180785,11 +180193,7 @@
         "min": -1,
         "raw": -3
       },
-      "rawAttackSpeed": {
-        "max": -1,
-        "min": -1,
-        "raw": -1
-      },
+      "rawAttackSpeed": -1,
       "rawSpellDamage": {
         "max": 182,
         "min": 42,
@@ -181076,16 +180480,6 @@
         "raw": 55
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -181128,12 +180522,12 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Daggers",
+    "internalName": "Water Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "intelligence": 25,
+      "intelligence": 30,
       "level": 65
     },
     "type": "weapon",
@@ -182000,11 +181394,7 @@
         "raw": 16
       },
       "rawAgility": 20,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "reflection": {
         "max": 33,
         "min": 8,
@@ -184494,11 +183884,7 @@
         "min": -1,
         "raw": -5
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "rawHealth": {
         "max": -700,
         "min": -1300,
@@ -187100,11 +186486,7 @@
         "raw": 11
       },
       "rawAgility": 10,
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
-      },
+      "rawAttackSpeed": 1,
       "spellDamage": {
         "max": 14,
         "min": 3,
