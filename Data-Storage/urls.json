@@ -232,25 +232,25 @@
       "name"
     ],
     "id": "dataWynncraftGuild",
-    "url": "https://beta-api.wynncraft.com/v3/guild/%{name}"
+    "url": "https://api.wynncraft.com/v3/guild/%{name}"
   },
   {
     "arguments": [
       "type"
     ],
     "id": "dataWynncraftLeaderboard",
-    "url": "https://beta-api.wynncraft.com/v3/leaderboards/%{type}?resultLimit=9"
+    "url": "https://api.wynncraft.com/v3/leaderboards/%{type}?resultLimit=9"
   },
   {
     "arguments": [
       "username"
     ],
     "id": "dataWynncraftPlayer",
-    "url": "https://beta-api.wynncraft.com/v3/player/%{username}"
+    "url": "https://api.wynncraft.com/v3/player/%{username}"
   },
   {
     "id": "dataWynncraftTerritoryListV3",
-    "url": "https://beta-api.wynncraft.com/v3/guild/list/territory"
+    "url": "https://api.wynncraft.com/v3/guild/list/territory"
   },
   {
     "arguments": [
