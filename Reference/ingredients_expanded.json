@@ -1957,8 +1957,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": -110
+      "touching": -110,
+      "under": 55
     },
     "internalName": "Alginate Dressing",
     "itemOnlyIDs": {
@@ -2411,8 +2411,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": 15
+      "touching": 15,
+      "under": 0
     },
     "internalName": "Amber-Encased Fleris",
     "itemOnlyIDs": {
@@ -4816,8 +4816,8 @@
       "left": 0,
       "notTouching": 10,
       "right": 0,
-      "touching": 0,
-      "under": 30
+      "touching": 30,
+      "under": 0
     },
     "internalName": "Ancient Spring Water",
     "itemOnlyIDs": {
@@ -7359,8 +7359,8 @@
       "left": 110,
       "notTouching": 15,
       "right": 110,
-      "touching": 0,
-      "under": -110
+      "touching": -110,
+      "under": 110
     },
     "internalName": "Aspect of the Void",
     "itemOnlyIDs": {
@@ -9887,8 +9887,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": -40
+      "touching": -40,
+      "under": 0
     },
     "internalName": "Blessed Heart",
     "itemOnlyIDs": {
@@ -10728,7 +10728,7 @@
       "notTouching": 0,
       "right": 0,
       "touching": 0,
-      "under": 0
+      "under": 25
     },
     "internalName": "Bob's Tear",
     "itemOnlyIDs": {
@@ -11048,8 +11048,8 @@
       "left": 0,
       "notTouching": 15,
       "right": 0,
-      "touching": 0,
-      "under": 15
+      "touching": 15,
+      "under": 0
     },
     "internalName": "Borange Fluff",
     "itemOnlyIDs": {
@@ -17592,8 +17592,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": 25
+      "touching": 25,
+      "under": 0
     },
     "internalName": "Coagulated Soulmass",
     "itemOnlyIDs": {
@@ -17633,8 +17633,8 @@
       "left": -160,
       "notTouching": -80,
       "right": -160,
-      "touching": 0,
-      "under": -80
+      "touching": -80,
+      "under": 80
     },
     "internalName": "Coalescence",
     "itemOnlyIDs": {
@@ -24454,8 +24454,8 @@
       "left": 0,
       "notTouching": 60,
       "right": 0,
-      "touching": 0,
-      "under": -100
+      "touching": -100,
+      "under": 0
     },
     "internalName": "Decaying Heart",
     "itemOnlyIDs": {
@@ -26378,8 +26378,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": -50
+      "touching": -50,
+      "under": 0
     },
     "internalName": "Disturbed Dye",
     "itemOnlyIDs": {
@@ -26420,8 +26420,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": -115
+      "touching": -115,
+      "under": 115
     },
     "internalName": "Dizzying Void",
     "itemOnlyIDs": {
@@ -26520,8 +26520,8 @@
       "left": -50,
       "notTouching": 0,
       "right": -50,
-      "touching": 0,
-      "under": 120
+      "touching": 120,
+      "under": -75
     },
     "internalName": "Dominant Force",
     "itemOnlyIDs": {
@@ -26682,7 +26682,7 @@
       "notTouching": 0,
       "right": -100,
       "touching": 0,
-      "under": 0
+      "under": 60
     },
     "internalName": "Doom Stone",
     "itemOnlyIDs": {
@@ -30590,8 +30590,8 @@
       "left": -160,
       "notTouching": 115,
       "right": -160,
-      "touching": 0,
-      "under": 115
+      "touching": 115,
+      "under": -160
     },
     "internalName": "Etheric Fern",
     "itemOnlyIDs": {
@@ -31071,7 +31071,7 @@
       "notTouching": 0,
       "right": 0,
       "touching": 0,
-      "under": 0
+      "under": -100
     },
     "internalName": "Eye of The Beast",
     "itemOnlyIDs": {
@@ -32042,8 +32042,8 @@
       "left": 0,
       "notTouching": -40,
       "right": 0,
-      "touching": 0,
-      "under": -40
+      "touching": -40,
+      "under": 0
     },
     "internalName": "Familiar Essence",
     "itemOnlyIDs": {
@@ -32566,7 +32566,7 @@
       "notTouching": 0,
       "right": -40,
       "touching": 0,
-      "under": 0
+      "under": -40
     },
     "internalName": "Festering Face",
     "itemOnlyIDs": {
@@ -36355,8 +36355,8 @@
       "left": 0,
       "notTouching": -35,
       "right": 0,
-      "touching": 0,
-      "under": 50
+      "touching": 50,
+      "under": 0
     },
     "internalName": "Frenetic Heart",
     "itemOnlyIDs": {
@@ -50062,7 +50062,7 @@
       "notTouching": 0,
       "right": 0,
       "touching": 0,
-      "under": 0
+      "under": -25
     },
     "internalName": "Infected Mass",
     "itemOnlyIDs": {
@@ -57776,8 +57776,8 @@
       "left": -30,
       "notTouching": 30,
       "right": -30,
-      "touching": 0,
-      "under": 30
+      "touching": 30,
+      "under": 0
     },
     "internalName": "Luminous Rune",
     "itemOnlyIDs": {
@@ -58032,8 +58032,8 @@
       "left": 0,
       "notTouching": 25,
       "right": 0,
-      "touching": 0,
-      "under": 25
+      "touching": 25,
+      "under": 0
     },
     "internalName": "Lunar Charm",
     "itemOnlyIDs": {
@@ -60390,8 +60390,8 @@
       "left": -15,
       "notTouching": -30,
       "right": -180,
-      "touching": 0,
-      "under": 35
+      "touching": 35,
+      "under": -20
     },
     "internalName": "Major's Badge",
     "itemOnlyIDs": {
@@ -66148,8 +66148,8 @@
       "left": -160,
       "notTouching": -15,
       "right": 140,
-      "touching": 0,
-      "under": 15
+      "touching": 15,
+      "under": 0
     },
     "internalName": "Negative Rafflesia",
     "itemOnlyIDs": {
@@ -70703,8 +70703,8 @@
       "left": -122,
       "notTouching": -15,
       "right": -122,
-      "touching": 0,
-      "under": -15
+      "touching": -15,
+      "under": 0
     },
     "internalName": "Parasitic Abscission",
     "itemOnlyIDs": {
@@ -70852,8 +70852,8 @@
       "left": -60,
       "notTouching": 0,
       "right": -60,
-      "touching": 0,
-      "under": 120
+      "touching": 120,
+      "under": -120
     },
     "internalName": "Peculiar Oddity",
     "itemOnlyIDs": {
@@ -88876,8 +88876,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": 25
+      "touching": 25,
+      "under": 0
     },
     "internalName": "Sentient Magmatic Gem",
     "itemOnlyIDs": {
@@ -105887,8 +105887,8 @@
       "left": 0,
       "notTouching": 15,
       "right": 0,
-      "touching": 0,
-      "under": 15
+      "touching": 15,
+      "under": 0
     },
     "internalName": "Thermal Replication",
     "itemOnlyIDs": {
@@ -108341,8 +108341,8 @@
       "left": 0,
       "notTouching": -25,
       "right": 0,
-      "touching": 0,
-      "under": -25
+      "touching": -25,
+      "under": 0
     },
     "internalName": "Transformativity",
     "itemOnlyIDs": {
@@ -109494,8 +109494,8 @@
       "left": 0,
       "notTouching": 50,
       "right": 0,
-      "touching": 0,
-      "under": 25
+      "touching": 25,
+      "under": 0
     },
     "internalName": "Unicorn Horn",
     "itemOnlyIDs": {
@@ -109742,8 +109742,8 @@
       "left": -150,
       "notTouching": 0,
       "right": -150,
-      "touching": 0,
-      "under": -50
+      "touching": -50,
+      "under": 0
     },
     "internalName": "Unsettling Void",
     "itemOnlyIDs": {
@@ -111915,8 +111915,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": -10
+      "touching": -10,
+      "under": 0
     },
     "internalName": "Warm Fleris",
     "itemOnlyIDs": {
@@ -116254,8 +116254,8 @@
       "left": 0,
       "notTouching": 0,
       "right": 0,
-      "touching": 0,
-      "under": 25
+      "touching": 25,
+      "under": 0
     },
     "internalName": "Zealous Illuminator",
     "itemOnlyIDs": {
