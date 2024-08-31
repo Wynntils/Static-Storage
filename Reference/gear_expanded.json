@@ -25822,17 +25822,17 @@
   },
   "Cataclysm": {
     "attackSpeed": "super_fast",
-    "averageDps": 838,
+    "averageDps": 903,
     "base": {
       "baseDamage": {
-        "max": 100,
+        "max": 110,
         "min": 25,
         "raw": 25
       },
       "baseThunderDamage": {
-        "max": 225,
-        "min": 40,
-        "raw": 40
+        "max": 240,
+        "min": 45,
+        "raw": 45
       }
     },
     "dropRestriction": "normal",
@@ -159710,6 +159710,14 @@
   "Swindler's Charm": {
     "accessoryType": "necklace",
     "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "171",
+        "id": "minecraft:iron_horse_armor",
+        "name": "necklace.air2"
+      }
+    },
     "identifications": {
       "3rdSpellCost": {
         "max": -9,
