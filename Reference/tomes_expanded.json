@@ -662,9 +662,9 @@
     },
     "identifications": {
       "3rdSpellCost": {
-        "max": -4,
+        "max": -5,
         "min": -1,
-        "raw": -3
+        "raw": -4
       }
     },
     "internalName": "Dragon's Tome of Mysticism II",
@@ -698,9 +698,9 @@
     },
     "identifications": {
       "manaRegen": {
-        "max": 4,
+        "max": 3,
         "min": 1,
-        "raw": 3
+        "raw": 2
       }
     },
     "internalName": "Ephemeral Tome of Mysticism I",
@@ -734,9 +734,9 @@
     },
     "identifications": {
       "manaRegen": {
-        "max": 5,
+        "max": 4,
         "min": 1,
-        "raw": 4
+        "raw": 3
       }
     },
     "internalName": "Ephemeral Tome of Mysticism II",
@@ -919,9 +919,9 @@
     },
     "identifications": {
       "1stSpellCost": {
-        "max": -4,
+        "max": -5,
         "min": -1,
-        "raw": -3
+        "raw": -4
       }
     },
     "internalName": "Faerie's Tome of Mysticism II",
@@ -1233,9 +1233,9 @@
     },
     "identifications": {
       "4thSpellCost": {
-        "max": -4,
+        "max": -5,
         "min": -1,
-        "raw": -3
+        "raw": -4
       }
     },
     "internalName": "Golem's Tome of Mysticism II",
@@ -1678,9 +1678,9 @@
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": -4,
+        "max": -5,
         "min": -1,
-        "raw": -3
+        "raw": -4
       }
     },
     "internalName": "Pegasus' Tome of Mysticism II",
@@ -1705,9 +1705,9 @@
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": -5,
+        "max": -6,
         "min": -1,
-        "raw": -4
+        "raw": -5
       }
     },
     "internalName": "Pegasus' Tome of Mysticism III",
