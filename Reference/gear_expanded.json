@@ -22329,6 +22329,75 @@
     },
     "type": "armour"
   },
+  "Brutality": {
+    "attackSpeed": "super_slow",
+    "averageDps": 790,
+    "base": {
+      "baseDamage": {
+        "max": 450,
+        "min": 250,
+        "raw": 250
+      },
+      "baseEarthDamage": {
+        "max": 650,
+        "min": 350,
+        "raw": 350
+      },
+      "baseFireDamage": {
+        "max": 950,
+        "min": 450,
+        "raw": 450
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "389",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.fire3"
+      }
+    },
+    "identifications": {
+      "exploding": {
+        "max": 104,
+        "min": 24,
+        "raw": 80
+      },
+      "healthRegen": {
+        "max": -150,
+        "min": -279,
+        "raw": -215
+      },
+      "lifeSteal": {
+        "max": -304,
+        "min": -565,
+        "raw": -435
+      },
+      "mainAttackDamage": {
+        "max": 78,
+        "min": 18,
+        "raw": 60
+      },
+      "rawAgility": -40,
+      "walkSpeed": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      }
+    },
+    "internalName": "Brutality",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "classRequirement": "shaman",
+      "defence": 60,
+      "level": 103,
+      "strength": 45
+    },
+    "type": "weapon",
+    "weaponType": "relik"
+  },
   "Bubble": {
     "accessoryType": "ring",
     "base": {
@@ -33735,6 +33804,80 @@
     },
     "type": "armour"
   },
+  "Consolidate": {
+    "attackSpeed": "normal",
+    "averageDps": 309,
+    "base": {
+      "baseAirDamage": {
+        "max": 40,
+        "min": 40,
+        "raw": 40
+      },
+      "baseDamage": {
+        "max": 30,
+        "min": 30,
+        "raw": 30
+      },
+      "baseEarthDamage": {
+        "max": 40,
+        "min": 40,
+        "raw": 40
+      },
+      "baseWaterDamage": {
+        "max": 40,
+        "min": 40,
+        "raw": 40
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "329",
+        "id": "minecraft:iron_horse_armor",
+        "name": "wand.water3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": -19,
+        "min": -4,
+        "raw": -15
+      },
+      "healingEfficiency": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "healthRegenRaw": {
+        "max": -140,
+        "min": -260,
+        "raw": -200
+      },
+      "manaSteal": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "rawElementalDamage": {
+        "max": 260,
+        "min": 60,
+        "raw": 200
+      }
+    },
+    "internalName": "Consolidate",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "classRequirement": "mage",
+      "intelligence": 45,
+      "level": 102,
+      "strength": 45
+    },
+    "type": "weapon",
+    "weaponType": "wand"
+  },
   "Conspirator's Trickpockets": {
     "armourMaterial": "iron",
     "armourType": "leggings",
@@ -44257,6 +44400,51 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Diaconate": {
+    "accessoryType": "necklace",
+    "base": {
+      "baseFireDefence": 5,
+      "baseHealth": 20,
+      "baseWaterDefence": 3
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "167",
+        "id": "minecraft:iron_horse_armor",
+        "name": "necklace.basicCross"
+      }
+    },
+    "identifications": {
+      "healthRegen": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "healthRegenRaw": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "rawMainAttackDamage": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
+      "waterDefence": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      }
+    },
+    "internalName": "Diaconate",
+    "rarity": "legendary",
+    "requirements": {
+      "level": 15
+    },
+    "type": "accessory"
   },
   "Diaminar": {
     "attackSpeed": "very_slow",
@@ -168113,36 +168301,26 @@
   },
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
-    "averageDps": 341,
+    "averageDps": 375,
     "base": {
       "baseDamage": {
-        "max": 90,
-        "min": 20,
-        "raw": 20
+        "max": 99,
+        "min": 22,
+        "raw": 22
       },
       "baseThunderDamage": {
-        "max": 90,
-        "min": 20,
-        "raw": 20
+        "max": 99,
+        "min": 22,
+        "raw": 22
       }
-    },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
     },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "258",
+        "customModelData": "194",
         "id": "minecraft:iron_horse_armor",
-        "name": "dagger.thunder2"
+        "name": "bow.thunder2"
       }
     },
     "identifications": {
@@ -168178,12 +168356,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Daggers",
+    "internalName": "Thunder Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65
     },
     "type": "weapon",
@@ -184250,6 +184428,62 @@
     },
     "restrictions": "untradable",
     "type": "accessory"
+  },
+  "Withstand": {
+    "armourMaterial": "diamond",
+    "armourType": "boots",
+    "base": {
+      "baseAirDefence": 150,
+      "baseFireDefence": 150,
+      "baseHealth": 3350
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "airDefence": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "fireDefence": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "healthRegenRaw": {
+        "max": 286,
+        "min": 66,
+        "raw": 220
+      },
+      "raw2ndSpellCost": {
+        "max": 3,
+        "min": 5,
+        "raw": 4
+      },
+      "raw4thSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
+      "rawElementalDamage": {
+        "max": 241,
+        "min": 56,
+        "raw": 185
+      },
+      "walkSpeed": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      }
+    },
+    "internalName": "Withstand",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 55,
+      "defence": 55,
+      "level": 102
+    },
+    "type": "armour"
   },
   "Woebegone": {
     "armourMaterial": "chain",
