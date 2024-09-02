@@ -265,6 +265,11 @@
     "name": "cactus"
   },
   {
+    "id": 86,
+    "type": 0,
+    "name": "pumpkin"
+  },
+  {
     "id": 87,
     "type": 0,
     "name": "netherrack"
