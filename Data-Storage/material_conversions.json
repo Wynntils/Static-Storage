@@ -265,6 +265,11 @@
     "name": "cactus"
   },
   {
+    "id": 86,
+    "type": 0,
+    "name": "pumpkin"
+  },
+  {
     "id": 87,
     "type": 0,
     "name": "netherrack"
@@ -522,7 +527,7 @@
   {
     "id": 257,
     "type": 0,
-    "name": "iron_shovel"
+    "name": "iron_pickaxe"
   },
   {
     "id": 259,
@@ -812,7 +817,7 @@
   {
     "id": 356,
     "type": 0,
-    "name": "redstone_repeater"
+    "name": "repeater"
   },
   {
     "id": 357,
