@@ -25,9 +25,9 @@
         "raw": 3
       },
       "waterDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       }
     },
     "internalName": "Abyssal Tome of Combat Mastery II",
@@ -66,9 +66,9 @@
         "raw": 4
       },
       "waterDamage": {
-        "max": 8,
+        "max": 9,
         "min": 2,
-        "raw": 6
+        "raw": 7
       }
     },
     "internalName": "Abyssal Tome of Combat Mastery III",
@@ -514,9 +514,9 @@
     },
     "identifications": {
       "airDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       },
       "damage": {
         "max": 4,
@@ -555,9 +555,9 @@
     },
     "identifications": {
       "airDamage": {
-        "max": 8,
+        "max": 9,
         "min": 2,
-        "raw": 6
+        "raw": 7
       },
       "damage": {
         "max": 5,
@@ -1346,9 +1346,9 @@
         "raw": 3
       },
       "fireDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       }
     },
     "internalName": "Infernal Tome of Combat Mastery II",
@@ -1387,9 +1387,9 @@
         "raw": 4
       },
       "fireDamage": {
-        "max": 8,
+        "max": 9,
         "min": 2,
-        "raw": 6
+        "raw": 7
       }
     },
     "internalName": "Infernal Tome of Combat Mastery III",
@@ -1693,33 +1693,6 @@
     "tomeType": "mysticism_tome",
     "type": "tome"
   },
-  "Pegasus' Tome of Mysticism III": {
-    "dropRestriction": "never",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "79",
-        "id": "minecraft:iron_horse_armor",
-        "name": "tome.mana"
-      }
-    },
-    "identifications": {
-      "2ndSpellCost": {
-        "max": -6,
-        "min": -1,
-        "raw": -5
-      }
-    },
-    "internalName": "Pegasus' Tome of Mysticism III",
-    "raidReward": true,
-    "rarity": "mythic",
-    "requirements": {
-      "level": 105
-    },
-    "restrictions": "untradable",
-    "tomeType": "mysticism_tome",
-    "type": "tome"
-  },
   "Psychopath's Tome of Allegiance": {
     "dropMeta": {
       "coordinates": [
@@ -1893,9 +1866,9 @@
         "raw": 3
       },
       "earthDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       }
     },
     "internalName": "Seismic Tome of Combat Mastery II",
@@ -1934,9 +1907,9 @@
         "raw": 4
       },
       "earthDamage": {
-        "max": 8,
+        "max": 9,
         "min": 2,
-        "raw": 6
+        "raw": 7
       }
     },
     "internalName": "Seismic Tome of Combat Mastery III",
@@ -3020,9 +2993,9 @@
         "raw": 3
       },
       "thunderDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       }
     },
     "internalName": "Voltaic Tome of Combat Mastery II",
@@ -3061,9 +3034,9 @@
         "raw": 4
       },
       "thunderDamage": {
-        "max": 8,
+        "max": 9,
         "min": 2,
-        "raw": 6
+        "raw": 7
       }
     },
     "internalName": "Voltaic Tome of Combat Mastery III",
