@@ -36,7 +36,7 @@
         "min": 80
       }
     },
-    "restrictions": "soulbound",
+    "restrictions": "untradable",
     "type": "charm"
   },
   "Charm of the Stone": {
@@ -76,7 +76,7 @@
         "min": 90
       }
     },
-    "restrictions": "soulbound",
+    "restrictions": "untradable",
     "type": "charm"
   },
   "Charm of the Void": {
@@ -123,7 +123,7 @@
         "min": 100
       }
     },
-    "restrictions": "soulbound",
+    "restrictions": "untradable",
     "type": "charm"
   },
   "Charm of the Worm": {
@@ -163,7 +163,7 @@
         "min": 60
       }
     },
-    "restrictions": "soulbound",
+    "restrictions": "untradable",
     "type": "charm"
   }
 }
