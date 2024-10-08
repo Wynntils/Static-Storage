@@ -8,7 +8,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperAcacia"
       }
@@ -30,7 +30,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperAcacia"
       }
@@ -52,7 +52,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperAcacia"
       }
@@ -131,7 +131,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperAvo"
       }
@@ -153,7 +153,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperAvo"
       }
@@ -175,7 +175,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperAvo"
       }
@@ -253,7 +253,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainBarley"
       }
@@ -274,7 +274,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainBarley"
       }
@@ -295,7 +295,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainBarley"
       }
@@ -318,7 +318,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringBarley"
       }
@@ -341,7 +341,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringBarley"
       }
@@ -364,7 +364,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringBarley"
       }
@@ -384,7 +384,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "93",
+        "customModelData": "96",
         "id": "minecraft:paper",
         "name": "profession.meatBass"
       }
@@ -404,7 +404,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "93",
+        "customModelData": "96",
         "id": "minecraft:paper",
         "name": "profession.meatBass"
       }
@@ -424,7 +424,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "93",
+        "customModelData": "96",
         "id": "minecraft:paper",
         "name": "profession.meatBass"
       }
@@ -448,7 +448,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilBass"
       }
@@ -472,7 +472,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilBass"
       }
@@ -496,7 +496,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilBass"
       }
@@ -518,7 +518,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperBirch"
       }
@@ -540,7 +540,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperBirch"
       }
@@ -562,7 +562,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperBirch"
       }
@@ -639,7 +639,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "92",
+        "customModelData": "95",
         "id": "minecraft:paper",
         "name": "profession.meatCarp"
       }
@@ -659,7 +659,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "92",
+        "customModelData": "95",
         "id": "minecraft:paper",
         "name": "profession.meatCarp"
       }
@@ -679,7 +679,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "92",
+        "customModelData": "95",
         "id": "minecraft:paper",
         "name": "profession.meatCarp"
       }
@@ -703,7 +703,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilCarp"
       }
@@ -727,7 +727,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilCarp"
       }
@@ -751,7 +751,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilCarp"
       }
@@ -773,7 +773,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "66",
+        "customModelData": "69",
         "id": "minecraft:paper",
         "name": "profession.gemCobalt"
       }
@@ -795,7 +795,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "66",
+        "customModelData": "69",
         "id": "minecraft:paper",
         "name": "profession.gemCobalt"
       }
@@ -817,7 +817,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "66",
+        "customModelData": "69",
         "id": "minecraft:paper",
         "name": "profession.gemCobalt"
       }
@@ -842,7 +842,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "54",
+        "customModelData": "57",
         "id": "minecraft:paper",
         "name": "profession.ingotCobalt"
       }
@@ -867,7 +867,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "54",
+        "customModelData": "57",
         "id": "minecraft:paper",
         "name": "profession.ingotCobalt"
       }
@@ -892,7 +892,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "54",
+        "customModelData": "57",
         "id": "minecraft:paper",
         "name": "profession.ingotCobalt"
       }
@@ -914,7 +914,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "60",
+        "customModelData": "63",
         "id": "minecraft:paper",
         "name": "profession.gemCopper"
       }
@@ -936,7 +936,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "60",
+        "customModelData": "63",
         "id": "minecraft:paper",
         "name": "profession.gemCopper"
       }
@@ -958,7 +958,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "60",
+        "customModelData": "63",
         "id": "minecraft:paper",
         "name": "profession.gemCopper"
       }
@@ -983,7 +983,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "48",
+        "customModelData": "51",
         "id": "minecraft:paper",
         "name": "profession.ingotCopper"
       }
@@ -1008,7 +1008,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "48",
+        "customModelData": "51",
         "id": "minecraft:paper",
         "name": "profession.ingotCopper"
       }
@@ -1033,7 +1033,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "48",
+        "customModelData": "51",
         "id": "minecraft:paper",
         "name": "profession.ingotCopper"
       }
@@ -1055,7 +1055,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperDark"
       }
@@ -1077,7 +1077,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperDark"
       }
@@ -1099,7 +1099,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperDark"
       }
@@ -1177,7 +1177,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "48",
         "id": "minecraft:paper",
         "name": "profession.grainDecay"
       }
@@ -1198,7 +1198,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "48",
         "id": "minecraft:paper",
         "name": "profession.grainDecay"
       }
@@ -1219,7 +1219,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "48",
         "id": "minecraft:paper",
         "name": "profession.grainDecay"
       }
@@ -1242,7 +1242,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "44",
         "id": "minecraft:paper",
         "name": "profession.stringDecay"
       }
@@ -1265,7 +1265,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "44",
         "id": "minecraft:paper",
         "name": "profession.stringDecay"
       }
@@ -1288,7 +1288,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "44",
         "id": "minecraft:paper",
         "name": "profession.stringDecay"
       }
@@ -1310,7 +1310,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "71",
+        "customModelData": "74",
         "id": "minecraft:paper",
         "name": "profession.gemDernic"
       }
@@ -1332,7 +1332,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "71",
+        "customModelData": "74",
         "id": "minecraft:paper",
         "name": "profession.gemDernic"
       }
@@ -1354,7 +1354,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "71",
+        "customModelData": "74",
         "id": "minecraft:paper",
         "name": "profession.gemDernic"
       }
@@ -1375,7 +1375,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "49",
         "id": "minecraft:paper",
         "name": "profession.grainDernic"
       }
@@ -1396,7 +1396,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "49",
         "id": "minecraft:paper",
         "name": "profession.grainDernic"
       }
@@ -1417,7 +1417,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "49",
         "id": "minecraft:paper",
         "name": "profession.grainDernic"
       }
@@ -1442,7 +1442,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "59",
+        "customModelData": "62",
         "id": "minecraft:paper",
         "name": "profession.ingotDernic"
       }
@@ -1467,7 +1467,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "59",
+        "customModelData": "62",
         "id": "minecraft:paper",
         "name": "profession.ingotDernic"
       }
@@ -1492,7 +1492,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "59",
+        "customModelData": "62",
         "id": "minecraft:paper",
         "name": "profession.ingotDernic"
       }
@@ -1512,7 +1512,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "93",
+        "customModelData": "96",
         "id": "minecraft:paper",
         "name": "profession.meatDernic"
       }
@@ -1532,7 +1532,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "93",
+        "customModelData": "96",
         "id": "minecraft:paper",
         "name": "profession.meatDernic"
       }
@@ -1552,7 +1552,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "93",
+        "customModelData": "96",
         "id": "minecraft:paper",
         "name": "profession.meatDernic"
       }
@@ -1576,7 +1576,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": "87",
         "id": "minecraft:paper",
         "name": "profession.oilDernic"
       }
@@ -1600,7 +1600,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": "87",
         "id": "minecraft:paper",
         "name": "profession.oilDernic"
       }
@@ -1624,7 +1624,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": "87",
         "id": "minecraft:paper",
         "name": "profession.oilDernic"
       }
@@ -1646,7 +1646,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperDernic"
       }
@@ -1668,7 +1668,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperDernic"
       }
@@ -1690,7 +1690,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperDernic"
       }
@@ -1713,7 +1713,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "44",
         "id": "minecraft:paper",
         "name": "profession.stringDernic"
       }
@@ -1736,7 +1736,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "44",
         "id": "minecraft:paper",
         "name": "profession.stringDernic"
       }
@@ -1759,7 +1759,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "44",
         "id": "minecraft:paper",
         "name": "profession.stringDernic"
       }
@@ -1838,7 +1838,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "68",
+        "customModelData": "71",
         "id": "minecraft:paper",
         "name": "profession.gemDiamond"
       }
@@ -1860,7 +1860,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "68",
+        "customModelData": "71",
         "id": "minecraft:paper",
         "name": "profession.gemDiamond"
       }
@@ -1882,7 +1882,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "68",
+        "customModelData": "71",
         "id": "minecraft:paper",
         "name": "profession.gemDiamond"
       }
@@ -1907,7 +1907,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "56",
+        "customModelData": "59",
         "id": "minecraft:paper",
         "name": "profession.ingotDiamond"
       }
@@ -1932,7 +1932,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "56",
+        "customModelData": "59",
         "id": "minecraft:paper",
         "name": "profession.ingotDiamond"
       }
@@ -1957,7 +1957,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "56",
+        "customModelData": "59",
         "id": "minecraft:paper",
         "name": "profession.ingotDiamond"
       }
@@ -1979,7 +1979,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "62",
+        "customModelData": "65",
         "id": "minecraft:paper",
         "name": "profession.gemGold"
       }
@@ -2001,7 +2001,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "62",
+        "customModelData": "65",
         "id": "minecraft:paper",
         "name": "profession.gemGold"
       }
@@ -2023,7 +2023,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "62",
+        "customModelData": "65",
         "id": "minecraft:paper",
         "name": "profession.gemGold"
       }
@@ -2048,7 +2048,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "50",
+        "customModelData": "53",
         "id": "minecraft:paper",
         "name": "profession.ingotGold"
       }
@@ -2073,7 +2073,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "50",
+        "customModelData": "53",
         "id": "minecraft:paper",
         "name": "profession.ingotGold"
       }
@@ -2098,7 +2098,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "50",
+        "customModelData": "53",
         "id": "minecraft:paper",
         "name": "profession.ingotGold"
       }
@@ -2120,7 +2120,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "61",
+        "customModelData": "64",
         "id": "minecraft:paper",
         "name": "profession.gemGranite"
       }
@@ -2142,7 +2142,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "61",
+        "customModelData": "64",
         "id": "minecraft:paper",
         "name": "profession.gemGranite"
       }
@@ -2164,7 +2164,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "61",
+        "customModelData": "64",
         "id": "minecraft:paper",
         "name": "profession.gemGranite"
       }
@@ -2189,7 +2189,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "49",
+        "customModelData": "52",
         "id": "minecraft:paper",
         "name": "profession.ingotGranite"
       }
@@ -2214,7 +2214,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "49",
+        "customModelData": "52",
         "id": "minecraft:paper",
         "name": "profession.ingotGranite"
       }
@@ -2239,7 +2239,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "49",
+        "customModelData": "52",
         "id": "minecraft:paper",
         "name": "profession.ingotGranite"
       }
@@ -2259,7 +2259,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatGudgeon"
       }
@@ -2279,7 +2279,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatGudgeon"
       }
@@ -2299,7 +2299,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatGudgeon"
       }
@@ -2323,7 +2323,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": "87",
         "id": "minecraft:paper",
         "name": "profession.oilGudgeon"
       }
@@ -2347,7 +2347,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": "87",
         "id": "minecraft:paper",
         "name": "profession.oilGudgeon"
       }
@@ -2371,7 +2371,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": "87",
         "id": "minecraft:paper",
         "name": "profession.oilGudgeon"
       }
@@ -2391,7 +2391,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatGylia"
       }
@@ -2411,7 +2411,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatGylia"
       }
@@ -2431,7 +2431,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatGylia"
       }
@@ -2455,7 +2455,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilGylia"
       }
@@ -2479,7 +2479,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilGylia"
       }
@@ -2503,7 +2503,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilGylia"
       }
@@ -2524,7 +2524,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainHemp"
       }
@@ -2545,7 +2545,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainHemp"
       }
@@ -2566,7 +2566,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainHemp"
       }
@@ -2589,7 +2589,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringHemp"
       }
@@ -2612,7 +2612,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringHemp"
       }
@@ -2635,7 +2635,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringHemp"
       }
@@ -2656,7 +2656,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainHops"
       }
@@ -2677,7 +2677,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainHops"
       }
@@ -2698,7 +2698,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainHops"
       }
@@ -2721,7 +2721,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringHops"
       }
@@ -2744,7 +2744,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringHops"
       }
@@ -2767,7 +2767,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringHops"
       }
@@ -2787,7 +2787,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatIce"
       }
@@ -2807,7 +2807,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatIce"
       }
@@ -2827,7 +2827,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatIce"
       }
@@ -2851,7 +2851,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilIce"
       }
@@ -2875,7 +2875,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilIce"
       }
@@ -2899,7 +2899,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilIce"
       }
@@ -2921,7 +2921,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "64",
+        "customModelData": "67",
         "id": "minecraft:paper",
         "name": "profession.gemIron"
       }
@@ -2943,7 +2943,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "64",
+        "customModelData": "67",
         "id": "minecraft:paper",
         "name": "profession.gemIron"
       }
@@ -2965,7 +2965,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "64",
+        "customModelData": "67",
         "id": "minecraft:paper",
         "name": "profession.gemIron"
       }
@@ -2990,7 +2990,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "52",
+        "customModelData": "55",
         "id": "minecraft:paper",
         "name": "profession.ingotIron"
       }
@@ -3015,7 +3015,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "52",
+        "customModelData": "55",
         "id": "minecraft:paper",
         "name": "profession.ingotIron"
       }
@@ -3040,7 +3040,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "52",
+        "customModelData": "55",
         "id": "minecraft:paper",
         "name": "profession.ingotIron"
       }
@@ -3062,7 +3062,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperJungle"
       }
@@ -3084,7 +3084,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperJungle"
       }
@@ -3106,7 +3106,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperJungle"
       }
@@ -3185,7 +3185,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "67",
+        "customModelData": "70",
         "id": "minecraft:paper",
         "name": "profession.gemKanderstone"
       }
@@ -3207,7 +3207,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "67",
+        "customModelData": "70",
         "id": "minecraft:paper",
         "name": "profession.gemKanderstone"
       }
@@ -3229,7 +3229,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "67",
+        "customModelData": "70",
         "id": "minecraft:paper",
         "name": "profession.gemKanderstone"
       }
@@ -3254,7 +3254,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "55",
+        "customModelData": "58",
         "id": "minecraft:paper",
         "name": "profession.ingotKanderstone"
       }
@@ -3279,7 +3279,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "55",
+        "customModelData": "58",
         "id": "minecraft:paper",
         "name": "profession.ingotKanderstone"
       }
@@ -3304,7 +3304,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "55",
+        "customModelData": "58",
         "id": "minecraft:paper",
         "name": "profession.ingotKanderstone"
       }
@@ -3324,7 +3324,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatKoi"
       }
@@ -3344,7 +3344,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatKoi"
       }
@@ -3364,7 +3364,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": "92",
         "id": "minecraft:paper",
         "name": "profession.meatKoi"
       }
@@ -3388,7 +3388,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilKoi"
       }
@@ -3412,7 +3412,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilKoi"
       }
@@ -3436,7 +3436,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilKoi"
       }
@@ -3458,7 +3458,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperLight"
       }
@@ -3480,7 +3480,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperLight"
       }
@@ -3502,7 +3502,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperLight"
       }
@@ -3580,7 +3580,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainMalt"
       }
@@ -3601,7 +3601,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainMalt"
       }
@@ -3622,7 +3622,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainMalt"
       }
@@ -3645,7 +3645,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringMalt"
       }
@@ -3668,7 +3668,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringMalt"
       }
@@ -3691,7 +3691,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringMalt"
       }
@@ -3712,7 +3712,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainMillet"
       }
@@ -3733,7 +3733,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainMillet"
       }
@@ -3754,7 +3754,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainMillet"
       }
@@ -3777,7 +3777,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringMillet"
       }
@@ -3800,7 +3800,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringMillet"
       }
@@ -3823,7 +3823,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringMillet"
       }
@@ -3845,7 +3845,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "69",
+        "customModelData": "72",
         "id": "minecraft:paper",
         "name": "profession.gemMolten"
       }
@@ -3867,7 +3867,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "69",
+        "customModelData": "72",
         "id": "minecraft:paper",
         "name": "profession.gemMolten"
       }
@@ -3889,7 +3889,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "69",
+        "customModelData": "72",
         "id": "minecraft:paper",
         "name": "profession.gemMolten"
       }
@@ -3914,7 +3914,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "57",
+        "customModelData": "60",
         "id": "minecraft:paper",
         "name": "profession.ingotMolten"
       }
@@ -3939,7 +3939,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "57",
+        "customModelData": "60",
         "id": "minecraft:paper",
         "name": "profession.ingotMolten"
       }
@@ -3964,7 +3964,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "57",
+        "customModelData": "60",
         "id": "minecraft:paper",
         "name": "profession.ingotMolten"
       }
@@ -3984,7 +3984,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "91",
+        "customModelData": "94",
         "id": "minecraft:paper",
         "name": "profession.meatMolten"
       }
@@ -4004,7 +4004,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "91",
+        "customModelData": "94",
         "id": "minecraft:paper",
         "name": "profession.meatMolten"
       }
@@ -4024,7 +4024,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "91",
+        "customModelData": "94",
         "id": "minecraft:paper",
         "name": "profession.meatMolten"
       }
@@ -4048,7 +4048,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": "91",
         "id": "minecraft:paper",
         "name": "profession.oilMolten"
       }
@@ -4072,7 +4072,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": "91",
         "id": "minecraft:paper",
         "name": "profession.oilMolten"
       }
@@ -4096,7 +4096,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": "91",
         "id": "minecraft:paper",
         "name": "profession.oilMolten"
       }
@@ -4118,7 +4118,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperOak"
       }
@@ -4140,7 +4140,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperOak"
       }
@@ -4162,7 +4162,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperOak"
       }
@@ -4240,7 +4240,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainOat"
       }
@@ -4261,7 +4261,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainOat"
       }
@@ -4282,7 +4282,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "45",
+        "customModelData": "47",
         "id": "minecraft:paper",
         "name": "profession.grainOat"
       }
@@ -4305,7 +4305,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringOat"
       }
@@ -4328,7 +4328,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringOat"
       }
@@ -4351,7 +4351,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "42",
+        "customModelData": "43",
         "id": "minecraft:paper",
         "name": "profession.stringOat"
       }
@@ -4373,7 +4373,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperPine"
       }
@@ -4395,7 +4395,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperPine"
       }
@@ -4417,7 +4417,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperPine"
       }
@@ -4494,7 +4494,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatPiranha"
       }
@@ -4514,7 +4514,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatPiranha"
       }
@@ -4534,7 +4534,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatPiranha"
       }
@@ -4558,7 +4558,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilPiranha"
       }
@@ -4582,7 +4582,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilPiranha"
       }
@@ -4606,7 +4606,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilPiranha"
       }
@@ -4627,7 +4627,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainRice"
       }
@@ -4648,7 +4648,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainRice"
       }
@@ -4669,7 +4669,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainRice"
       }
@@ -4692,7 +4692,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringRice"
       }
@@ -4715,7 +4715,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringRice"
       }
@@ -4738,7 +4738,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringRice"
       }
@@ -4759,7 +4759,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainRye"
       }
@@ -4780,7 +4780,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainRye"
       }
@@ -4801,7 +4801,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainRye"
       }
@@ -4824,7 +4824,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringRye"
       }
@@ -4847,7 +4847,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringRye"
       }
@@ -4870,7 +4870,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringRye"
       }
@@ -4890,7 +4890,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "91",
+        "customModelData": "94",
         "id": "minecraft:paper",
         "name": "profession.meatSalmon"
       }
@@ -4910,7 +4910,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "91",
+        "customModelData": "94",
         "id": "minecraft:paper",
         "name": "profession.meatSalmon"
       }
@@ -4930,7 +4930,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "91",
+        "customModelData": "94",
         "id": "minecraft:paper",
         "name": "profession.meatSalmon"
       }
@@ -4954,7 +4954,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilSalmon"
       }
@@ -4978,7 +4978,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilSalmon"
       }
@@ -5002,7 +5002,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": "89",
         "id": "minecraft:paper",
         "name": "profession.oilSalmon"
       }
@@ -5024,7 +5024,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "63",
+        "customModelData": "66",
         "id": "minecraft:paper",
         "name": "profession.gemSandstone"
       }
@@ -5046,7 +5046,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "63",
+        "customModelData": "66",
         "id": "minecraft:paper",
         "name": "profession.gemSandstone"
       }
@@ -5068,7 +5068,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "63",
+        "customModelData": "66",
         "id": "minecraft:paper",
         "name": "profession.gemSandstone"
       }
@@ -5093,7 +5093,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "51",
+        "customModelData": "54",
         "id": "minecraft:paper",
         "name": "profession.ingotSandstone"
       }
@@ -5118,7 +5118,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "51",
+        "customModelData": "54",
         "id": "minecraft:paper",
         "name": "profession.ingotSandstone"
       }
@@ -5143,7 +5143,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "51",
+        "customModelData": "54",
         "id": "minecraft:paper",
         "name": "profession.ingotSandstone"
       }
@@ -5165,7 +5165,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "65",
+        "customModelData": "68",
         "id": "minecraft:paper",
         "name": "profession.gemSilver"
       }
@@ -5187,7 +5187,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "65",
+        "customModelData": "68",
         "id": "minecraft:paper",
         "name": "profession.gemSilver"
       }
@@ -5209,7 +5209,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "65",
+        "customModelData": "68",
         "id": "minecraft:paper",
         "name": "profession.gemSilver"
       }
@@ -5234,7 +5234,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "53",
+        "customModelData": "56",
         "id": "minecraft:paper",
         "name": "profession.ingotSilver"
       }
@@ -5259,7 +5259,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "53",
+        "customModelData": "56",
         "id": "minecraft:paper",
         "name": "profession.ingotSilver"
       }
@@ -5284,7 +5284,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "53",
+        "customModelData": "56",
         "id": "minecraft:paper",
         "name": "profession.ingotSilver"
       }
@@ -5306,7 +5306,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperSky"
       }
@@ -5328,7 +5328,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperSky"
       }
@@ -5350,7 +5350,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "94",
+        "customModelData": "97",
         "id": "minecraft:paper",
         "name": "profession.paperSky"
       }
@@ -5428,7 +5428,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "49",
         "id": "minecraft:paper",
         "name": "profession.grainSorghum"
       }
@@ -5449,7 +5449,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "49",
         "id": "minecraft:paper",
         "name": "profession.grainSorghum"
       }
@@ -5470,7 +5470,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
+        "customModelData": "49",
         "id": "minecraft:paper",
         "name": "profession.grainSorghum"
       }
@@ -5493,7 +5493,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "45",
         "id": "minecraft:paper",
         "name": "profession.stringSorghum"
       }
@@ -5516,7 +5516,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "45",
         "id": "minecraft:paper",
         "name": "profession.stringSorghum"
       }
@@ -5539,7 +5539,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "43",
+        "customModelData": "45",
         "id": "minecraft:paper",
         "name": "profession.stringSorghum"
       }
@@ -5561,7 +5561,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperSpruce"
       }
@@ -5583,7 +5583,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperSpruce"
       }
@@ -5605,7 +5605,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "96",
+        "customModelData": "99",
         "id": "minecraft:paper",
         "name": "profession.paperSpruce"
       }
@@ -5682,7 +5682,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "92",
+        "customModelData": "95",
         "id": "minecraft:paper",
         "name": "profession.meatStar"
       }
@@ -5702,7 +5702,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "92",
+        "customModelData": "95",
         "id": "minecraft:paper",
         "name": "profession.meatStar"
       }
@@ -5722,7 +5722,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "92",
+        "customModelData": "95",
         "id": "minecraft:paper",
         "name": "profession.meatStar"
       }
@@ -5746,7 +5746,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilStar"
       }
@@ -5770,7 +5770,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilStar"
       }
@@ -5794,7 +5794,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": "90",
         "id": "minecraft:paper",
         "name": "profession.oilStar"
       }
@@ -5814,7 +5814,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatTrout"
       }
@@ -5834,7 +5834,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatTrout"
       }
@@ -5854,7 +5854,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "90",
+        "customModelData": "93",
         "id": "minecraft:paper",
         "name": "profession.meatTrout"
       }
@@ -5878,7 +5878,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilTrout"
       }
@@ -5902,7 +5902,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilTrout"
       }
@@ -5926,7 +5926,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": "88",
         "id": "minecraft:paper",
         "name": "profession.oilTrout"
       }
@@ -5948,7 +5948,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "70",
+        "customModelData": "73",
         "id": "minecraft:paper",
         "name": "profession.gemVoidstone"
       }
@@ -5970,7 +5970,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "70",
+        "customModelData": "73",
         "id": "minecraft:paper",
         "name": "profession.gemVoidstone"
       }
@@ -5992,7 +5992,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "70",
+        "customModelData": "73",
         "id": "minecraft:paper",
         "name": "profession.gemVoidstone"
       }
@@ -6017,7 +6017,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "58",
+        "customModelData": "61",
         "id": "minecraft:paper",
         "name": "profession.ingotVoidstone"
       }
@@ -6042,7 +6042,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "58",
+        "customModelData": "61",
         "id": "minecraft:paper",
         "name": "profession.ingotVoidstone"
       }
@@ -6067,7 +6067,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "58",
+        "customModelData": "61",
         "id": "minecraft:paper",
         "name": "profession.ingotVoidstone"
       }
@@ -6088,7 +6088,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainWheat"
       }
@@ -6109,7 +6109,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainWheat"
       }
@@ -6130,7 +6130,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "44",
+        "customModelData": "46",
         "id": "minecraft:paper",
         "name": "profession.grainWheat"
       }
@@ -6153,7 +6153,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringWheat"
       }
@@ -6176,7 +6176,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringWheat"
       }
@@ -6199,7 +6199,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "41",
+        "customModelData": "42",
         "id": "minecraft:paper",
         "name": "profession.stringWheat"
       }
@@ -6221,7 +6221,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperWillow"
       }
@@ -6243,7 +6243,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperWillow"
       }
@@ -6265,7 +6265,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "95",
+        "customModelData": "98",
         "id": "minecraft:paper",
         "name": "profession.paperWillow"
       }
