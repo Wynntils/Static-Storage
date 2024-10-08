@@ -111,5 +111,7 @@
   "neutralMainAttackDamage": 109,
   "rawDamage": 110,
   "rawNeutralMainAttackDamage": 111,
-  "strength": 112
+  "strength": 112,
+  "fireSpellDamageBonus": 113,
+  "thunderMeleeDamageBonusRaw": 114
 }
