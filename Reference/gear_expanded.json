@@ -40,9 +40,9 @@
         "raw": 30
       },
       "raw1stSpellCost": {
-        "max": -10,
-        "min": -2,
-        "raw": -8
+        "max": -22,
+        "min": -5,
+        "raw": -17
       },
       "rawIntelligence": -30,
       "walkSpeed": {
@@ -1323,6 +1323,56 @@
     },
     "type": "accessory"
   },
+  "Adherence": {
+    "armourMaterial": "diamond",
+    "armourType": "chestplate",
+    "base": {
+      "baseAirDefence": 150,
+      "baseEarthDefence": 150,
+      "baseFireDefence": 150,
+      "baseThunderDefence": 150,
+      "baseWaterDefence": 150
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "healthRegen": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "manaRegen": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "rawSpellDamage": {
+        "max": 280,
+        "min": 65,
+        "raw": 215
+      },
+      "walkSpeed": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      }
+    },
+    "internalName": "Adherence",
+    "lore": "Adherence to the laws of good is important- it’s why one fights the spread of corruption, after all. Though whether to follow the spirit or the letter… perhaps they too can be bent to your will.",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 65,
+      "defence": 65,
+      "intelligence": 65,
+      "level": 105
+    },
+    "type": "armour"
+  },
   "Adigard's Snowshoes": {
     "armourMaterial": "golden",
     "armourType": "boots",
@@ -1366,12 +1416,12 @@
     "armourMaterial": "iron",
     "armourType": "chestplate",
     "base": {
-      "baseAirDefence": 45,
-      "baseEarthDefence": 45,
-      "baseFireDefence": 45,
-      "baseHealth": 1500,
-      "baseThunderDefence": 45,
-      "baseWaterDefence": 45
+      "baseAirDefence": -30,
+      "baseEarthDefence": -30,
+      "baseFireDefence": -30,
+      "baseHealth": 1450,
+      "baseThunderDefence": -30,
+      "baseWaterDefence": -30
     },
     "dropMeta": {
       "coordinates": [
@@ -1384,12 +1434,15 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "elementalDamage": 8,
+      "elementalMainAttackDamage": 20,
+      "exploding": 30,
       "lootBonus": 20,
-      "rawAgility": 6,
-      "rawDefence": 6,
-      "rawDexterity": 6,
-      "rawIntelligence": 6,
-      "rawStrength": 6,
+      "rawAgility": 5,
+      "rawDefence": 5,
+      "rawDexterity": 5,
+      "rawIntelligence": 5,
+      "rawStrength": 5,
       "xpBonus": 15
     },
     "identified": true,
@@ -2686,19 +2739,19 @@
         "raw": -450
       },
       "lifeSteal": {
-        "max": 580,
-        "min": 134,
-        "raw": 446
+        "max": 720,
+        "min": 166,
+        "raw": 554
       },
       "manaRegen": {
-        "max": 12,
-        "min": 3,
-        "raw": 9
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "rawElementalSpellDamage": {
-        "max": 250,
-        "min": 58,
-        "raw": 192
+        "max": 280,
+        "min": 65,
+        "raw": 215
       },
       "rawStrength": -70,
       "sprint": {
@@ -7098,7 +7151,7 @@
     },
     "internalName": "Anti-Causality",
     "majorIds": {
-      "Reckless Abandon": "<span class='font-ascii' style='color:#55FFFF'>+Reckless Abandon: <span class='font-ascii' style='color:#00AAAA'>Sacrifice War Scream's defense bonus to give Tempest two extra hits, extra damage, and extra speed</span></span>"
+      "Reckless Abandon": "<span class='font-ascii' style='color:#55FFFF'>+Reckless Abandon: <span class='font-ascii' style='color:#00AAAA'>Sacrifice War Scream's defense bonus to give Tempest 3 extra hits and extra damage</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -7736,14 +7789,14 @@
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "earthMainAttackDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 14,
+        "min": 3,
+        "raw": 11
       },
       "lifeSteal": {
         "max": 59,
@@ -7751,9 +7804,9 @@
         "raw": 45
       },
       "rawAirMainAttackDamage": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
+        "max": 65,
+        "min": 15,
+        "raw": 50
       }
     },
     "internalName": "Apex Predator",
@@ -10318,9 +10371,9 @@
         "raw": 8
       },
       "healthRegen": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "healthRegenRaw": {
         "max": -24,
@@ -10333,9 +10386,9 @@
         "raw": -6
       },
       "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Atavistic",
@@ -16764,31 +16817,31 @@
     "dropRestriction": "never",
     "identifications": {
       "earthDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 31,
+        "min": 7,
+        "raw": 24
       },
       "fireDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 31,
+        "min": 7,
+        "raw": 24
       },
-      "rawDexterity": 7,
+      "rawDexterity": 5,
       "rawHealth": {
         "max": 1950,
         "min": 450,
         "raw": 1500
       },
-      "rawStrength": 9,
+      "rawStrength": 6,
       "reflection": {
         "max": -17,
         "min": -32,
         "raw": -25
       },
       "thunderDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 31,
+        "min": 7,
+        "raw": 24
       },
       "walkSpeed": {
         "max": -7,
@@ -17690,9 +17743,9 @@
         "raw": 20
       },
       "mainAttackDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "rawHealth": {
         "max": 325,
@@ -17700,9 +17753,9 @@
         "raw": 250
       },
       "spellDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
+        "max": -7,
+        "min": -13,
+        "raw": -10
       }
     },
     "internalName": "Bloodbag",
@@ -17711,8 +17764,7 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "defence": 30,
-      "intelligence": 10,
+      "defence": 50,
       "level": 51
     },
     "type": "weapon",
@@ -18191,7 +18243,7 @@
     "armourMaterial": "iron",
     "armourType": "helmet",
     "base": {
-      "baseHealth": 1
+      "baseHealth": -750
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -18501,14 +18553,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "2ndSpellCost": {
-        "max": -18,
-        "min": -4,
-        "raw": -14
+        "max": -23,
+        "min": -5,
+        "raw": -18
       },
       "3rdSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -13,
+        "min": -3,
+        "raw": -10
       },
       "airDefence": {
         "max": 16,
@@ -18531,7 +18583,6 @@
         "min": 900,
         "raw": 3000
       },
-      "rawIntelligence": -25,
       "walkSpeed": {
         "max": 18,
         "min": 4,
@@ -19738,14 +19789,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "3rdSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "4thSpellCost": {
         "max": -18,
@@ -21510,7 +21561,7 @@
     },
     "internalName": "Briars' Embrace",
     "majorIds": {
-      "Forest's Blessing": "<span class='font-ascii' style='color:#55FFFF'>+Forest's Blessing: <span class='font-ascii' style='color:#00AAAA'>Your archer summons have increased movement speed, attack speed, and vision. Bomb Arrow's damage is reduced by <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#00AAAA'>-30% </span></span></span></span>"
+      "Forest's Blessing": "<span class='font-ascii' style='color:#55FFFF'>+Forest's Blessing: <span class='font-ascii' style='color:#00AAAA'>Your archer summons have increased movement speed, attack speed, and vision. Arrow Bomb's damage is reduced by <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#00AAAA'>-30% </span></span></span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -23520,6 +23571,48 @@
     },
     "type": "weapon",
     "weaponType": "relik"
+  },
+  "Bygg": {
+    "accessoryType": "ring",
+    "base": {
+      "baseEarthDefence": 35,
+      "baseHealth": 595
+    },
+    "dropRestriction": "lootchest",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "135",
+        "id": "minecraft:iron_horse_armor",
+        "name": "ring.basicGold"
+      }
+    },
+    "identifications": {
+      "damage": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "manaRegen": {
+        "max": -4,
+        "min": -8,
+        "raw": -6
+      },
+      "rawDefence": 2,
+      "rawStrength": 4,
+      "walkSpeed": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      }
+    },
+    "internalName": "Bygg",
+    "rarity": "unique",
+    "requirements": {
+      "level": 103,
+      "strength": 50
+    },
+    "type": "accessory"
   },
   "Bygones": {
     "attackSpeed": "super_slow",
@@ -32069,6 +32162,63 @@
     "type": "weapon",
     "weaponType": "bow"
   },
+  "Cnidarian Hellspawn": {
+    "armourMaterial": "diamond",
+    "armourType": "helmet",
+    "base": {
+      "baseFireDefence": 130,
+      "baseHealth": 4500,
+      "baseThunderDefence": 130,
+      "baseWaterDefence": -115
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "1stSpellCost": {
+        "max": -19,
+        "min": -4,
+        "raw": -15
+      },
+      "2ndSpellCost": {
+        "max": 9,
+        "min": 17,
+        "raw": 13
+      },
+      "3rdSpellCost": {
+        "max": -17,
+        "min": -4,
+        "raw": -13
+      },
+      "4thSpellCost": {
+        "max": -14,
+        "min": -3,
+        "raw": -11
+      },
+      "healthRegen": {
+        "max": -19,
+        "min": -35,
+        "raw": -27
+      },
+      "healthRegenRaw": {
+        "max": -85,
+        "min": -157,
+        "raw": -121
+      },
+      "lifeSteal": {
+        "max": 378,
+        "min": 87,
+        "raw": 291
+      },
+      "rawDexterity": 7
+    },
+    "internalName": "Cnidarian Hellspawn",
+    "rarity": "legendary",
+    "requirements": {
+      "defence": 57,
+      "dexterity": 49,
+      "level": 103
+    },
+    "type": "armour"
+  },
   "Cnidocyte": {
     "armourMaterial": "iron",
     "armourType": "leggings",
@@ -40398,16 +40548,16 @@
     "base": {
       "baseAirDefence": 50,
       "baseHealth": 2675,
-      "baseThunderDefence": 70
+      "baseThunderDefence": 75
     },
     "dropRestriction": "normal",
     "identifications": {
       "airDefence": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
+        "max": 59,
+        "min": 14,
+        "raw": 45
       },
-      "mainAttackDamage": {
+      "damage": {
         "max": -14,
         "min": -26,
         "raw": -20
@@ -40417,17 +40567,12 @@
         "min": 1,
         "raw": 4
       },
-      "rawAgility": 35,
+      "rawAgility": 25,
       "rawDexterity": 15,
       "reflection": {
         "max": 39,
         "min": 9,
         "raw": 30
-      },
-      "spellDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
       },
       "walkSpeed": {
         "max": 33,
@@ -42650,24 +42795,24 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -27,
-        "min": -6,
-        "raw": -21
+        "max": -32,
+        "min": -7,
+        "raw": -25
       },
       "2ndSpellCost": {
-        "max": -18,
-        "min": -4,
-        "raw": -14
-      },
-      "3rdSpellCost": {
         "max": -22,
         "min": -5,
         "raw": -17
       },
-      "4thSpellCost": {
-        "max": -27,
+      "3rdSpellCost": {
+        "max": -26,
         "min": -6,
-        "raw": -21
+        "raw": -20
+      },
+      "4thSpellCost": {
+        "max": -32,
+        "min": -7,
+        "raw": -25
       },
       "fireDamage": {
         "max": 13,
@@ -44688,17 +44833,17 @@
   },
   "Diaminar": {
     "attackSpeed": "very_slow",
-    "averageDps": 344,
+    "averageDps": 374,
     "base": {
       "baseDamage": {
-        "max": 70,
-        "min": 40,
-        "raw": 40
+        "max": 90,
+        "min": 60,
+        "raw": 60
       },
       "baseFireDamage": {
-        "max": 400,
-        "min": 320,
-        "raw": 320
+        "max": 415,
+        "min": 335,
+        "raw": 335
       }
     },
     "dropRestriction": "normal",
@@ -44738,14 +44883,19 @@
         "raw": -14
       },
       "walkSpeed": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
+        "max": -8,
+        "min": -16,
+        "raw": -12
       },
       "waterDamage": {
         "max": -10,
         "min": -18,
         "raw": -14
+      },
+      "weakenEnemy": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
       }
     },
     "internalName": "Diaminar",
@@ -55872,11 +56022,11 @@
         "min": 2,
         "raw": 6
       },
-      "rawAgility": 5,
-      "rawDefence": 5,
-      "rawDexterity": 5,
-      "rawIntelligence": 5,
-      "rawStrength": 5,
+      "rawAgility": 4,
+      "rawDefence": 4,
+      "rawDexterity": 4,
+      "rawIntelligence": 4,
+      "rawStrength": 4,
       "reflection": {
         "max": 23,
         "min": 5,
@@ -57666,14 +57816,14 @@
         "raw": -50
       },
       "mainAttackDamage": {
-        "max": 21,
-        "min": 5,
-        "raw": 16
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "manaRegen": {
-        "max": -3,
-        "min": -5,
-        "raw": -4
+        "max": -2,
+        "min": -4,
+        "raw": -3
       },
       "walkSpeed": {
         "max": 13,
@@ -58322,11 +58472,11 @@
         "min": -2,
         "raw": -6
       },
-      "rawAgility": 9,
-      "rawDefence": 9,
-      "rawDexterity": 9,
-      "rawIntelligence": 9,
-      "rawStrength": 9
+      "rawAgility": 8,
+      "rawDefence": 8,
+      "rawDexterity": 8,
+      "rawIntelligence": 8,
+      "rawStrength": 8
     },
     "internalName": "Far Cosmos",
     "powderSlots": 5,
@@ -61569,12 +61719,12 @@
   },
   "Flagellant": {
     "attackSpeed": "slow",
-    "averageDps": 870,
+    "averageDps": 780,
     "base": {
       "baseAirDamage": {
-        "max": 215,
-        "min": 105,
-        "raw": 105
+        "max": 195,
+        "min": 85,
+        "raw": 85
       },
       "baseDamage": {
         "max": 145,
@@ -61582,14 +61732,14 @@
         "raw": 55
       },
       "baseEarthDamage": {
-        "max": 195,
-        "min": 125,
-        "raw": 125
+        "max": 175,
+        "min": 105,
+        "raw": 105
       },
       "baseFireDamage": {
-        "max": 205,
-        "min": 115,
-        "raw": 115
+        "max": 185,
+        "min": 95,
+        "raw": 95
       }
     },
     "dropRestriction": "normal",
@@ -61608,19 +61758,19 @@
         "raw": 30
       },
       "healthRegenRaw": {
-        "max": -192,
-        "min": -357,
-        "raw": -275
+        "max": -161,
+        "min": -299,
+        "raw": -230
       },
       "lifeSteal": {
-        "max": 780,
-        "min": 180,
-        "raw": 600
+        "max": 657,
+        "min": 152,
+        "raw": 505
       },
       "poison": {
-        "max": 16250,
-        "min": 3750,
-        "raw": 12500
+        "max": 13650,
+        "min": 3150,
+        "raw": 10500
       },
       "raw3rdSpellCost": {
         "max": 4,
@@ -62177,24 +62327,24 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -22,
-        "min": -5,
-        "raw": -17
+        "max": -26,
+        "min": -6,
+        "raw": -20
       },
       "2ndSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "3rdSpellCost": {
-        "max": -22,
-        "min": -5,
-        "raw": -17
+        "max": -26,
+        "min": -6,
+        "raw": -20
       },
       "4thSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "rawIntelligence": -40,
       "reflection": {
@@ -75285,6 +75435,55 @@
     },
     "type": "armour"
   },
+  "H-215 Plasmatic Exograft": {
+    "armourMaterial": "golden",
+    "armourType": "chestplate",
+    "base": {
+      "baseFireDefence": -125,
+      "baseHealth": 2150,
+      "baseThunderDefence": -125
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "healthRegen": {
+        "max": -24,
+        "min": -45,
+        "raw": -35
+      },
+      "rawFireMainAttackDamage": {
+        "max": 280,
+        "min": 65,
+        "raw": 215
+      },
+      "rawThunderDamage": {
+        "max": 280,
+        "min": 65,
+        "raw": 215
+      },
+      "waterDamage": {
+        "max": -42,
+        "min": -78,
+        "raw": -60
+      }
+    },
+    "internalName": "H-215 Plasmatic Exograft",
+    "majorIds": {
+      "Sublimation": "<span class='font-ascii' style='color:#55FFFF'>+Sublimation: <span class='font-ascii' style='color:#00AAAA'>Totemic Shatter heals 75% of Regeneration's usual amount, with reduced Totem area of effect</span></span>"
+    },
+    "powderSlots": 1,
+    "rarity": "fabled",
+    "requirements": {
+      "defence": 65,
+      "dexterity": 65,
+      "level": 91
+    },
+    "type": "armour"
+  },
   "Hadal": {
     "attackSpeed": "super_slow",
     "averageDps": 931,
@@ -79001,7 +79200,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "3rdSpellCost": -28,
+      "3rdSpellCost": -36,
       "airDamage": 10,
       "airDefence": 25,
       "fireDamage": 10,
@@ -82337,7 +82536,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "4thSpellCost": -66,
+      "4thSpellCost": -50,
       "earthDefence": -20,
       "fireDefence": -20,
       "rawAgility": -5,
@@ -86707,8 +86906,8 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "3rdSpellCost": -17,
-      "4thSpellCost": -17,
+      "3rdSpellCost": -22,
+      "4thSpellCost": -22,
       "earthDefence": 40,
       "lifeSteal": 270,
       "rawAttackSpeed": -1,
@@ -91826,15 +92025,15 @@
   },
   "Kivilu": {
     "attackSpeed": "very_slow",
-    "averageDps": 573,
+    "averageDps": 635,
     "base": {
       "baseFireDamage": {
-        "max": 690,
+        "max": 765,
         "min": 0,
         "raw": 0
       },
       "baseWaterDamage": {
-        "max": 690,
+        "max": 765,
         "min": 0,
         "raw": 0
       }
@@ -92490,7 +92689,7 @@
     "internalName": "Labyrinth",
     "lore": "Left. Right. Left. Right. They are desperate for an escape, merely playthings in a maze of your design. Left. Left. Right.  Turn back. When mountains of stone can shift at your command, their world is reduced to a single path. Left. Right. Does it ever end?",
     "majorIds": {
-      "Twisting Threads": "<span class='font-ascii' style='color:#55FFFF'>+Twisting Threads: <span class='font-ascii' style='color:#00AAAA'>Tangled Trap ropes are much stronger and max traps increase by 12, but trap and bomb effects are weakened. </span></span>"
+      "Twisting Threads": "<span class='font-ascii' style='color:#55FFFF'>+Twisting Threads: <span class='font-ascii' style='color:#00AAAA'>Tangled Trap ropes become much stronger. Gain +12 traps that instantly arm but are severely weakened </span></span>"
     },
     "powderSlots": 2,
     "rarity": "mythic",
@@ -92563,9 +92762,9 @@
     },
     "identifications": {
       "3rdSpellCost": {
-        "max": -10,
+        "max": -8,
         "min": -2,
-        "raw": -8
+        "raw": -6
       },
       "rawDexterity": 1,
       "rawMainAttackDamage": {
@@ -93403,7 +93602,7 @@
     "armourMaterial": "diamond",
     "armourType": "boots",
     "base": {
-      "baseHealth": 3125
+      "baseHealth": 4500
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -93416,6 +93615,11 @@
         "max": 14,
         "min": 3,
         "raw": 11
+      },
+      "manaSteal": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Leadlights",
@@ -94726,11 +94930,11 @@
         "min": 2,
         "raw": 6
       },
-      "rawAgility": 7,
-      "rawDefence": 7,
-      "rawDexterity": 7,
-      "rawIntelligence": 7,
-      "rawStrength": 7,
+      "rawAgility": 6,
+      "rawDefence": 6,
+      "rawDexterity": 6,
+      "rawIntelligence": 6,
+      "rawStrength": 6,
       "thunderDamage": {
         "max": 20,
         "min": 5,
@@ -102131,6 +102335,78 @@
     },
     "type": "armour"
   },
+  "Mephistophelian": {
+    "attackSpeed": "fast",
+    "averageDps": 730,
+    "base": {
+      "baseAirDamage": {
+        "max": 118,
+        "min": 66,
+        "raw": 66
+      },
+      "baseDamage": {
+        "max": 66,
+        "min": 66,
+        "raw": 66
+      },
+      "baseThunderDamage": {
+        "max": 202,
+        "min": 66,
+        "raw": 66
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "392",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.thunder3"
+      }
+    },
+    "identifications": {
+      "airDefence": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "jumpHeight": {
+        "max": 3,
+        "min": 1,
+        "raw": 2
+      },
+      "knockback": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "rawAgility": 20,
+      "slowEnemy": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "thunderDamage": {
+        "max": 31,
+        "min": 7,
+        "raw": 24
+      }
+    },
+    "internalName": "Mephistophelian",
+    "majorIds": {
+      "Faustian Gambit": "<span class='font-ascii' style='color:#55FFFF'>+Faustian Gambit: <span class='font-ascii' style='color:#00AAAA'>Frog Dance triggers only once but has increased vertical velocity, damage, and knockback</span></span>"
+    },
+    "powderSlots": 3,
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 30,
+      "classRequirement": "shaman",
+      "dexterity": 50,
+      "level": 98
+    },
+    "type": "weapon",
+    "weaponType": "relik"
+  },
   "Mercenary Hood": {
     "armourColor": "rgb(160,101,64)",
     "armourMaterial": "leather",
@@ -102698,7 +102974,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "1stSpellCost": -17,
+      "1stSpellCost": -26,
       "lifeSteal": 165,
       "rawAgility": 6,
       "rawDefence": 4,
@@ -104049,9 +104325,9 @@
         "raw": -14
       },
       "3rdSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -14,
+        "min": -3,
+        "raw": -11
       },
       "lifeSteal": {
         "max": 254,
@@ -105613,11 +105889,11 @@
         "min": 5,
         "raw": 15
       },
-      "rawAgility": 3,
-      "rawDefence": 3,
-      "rawDexterity": 3,
-      "rawIntelligence": 3,
-      "rawStrength": 3,
+      "rawAgility": 2,
+      "rawDefence": 2,
+      "rawDexterity": 2,
+      "rawIntelligence": 2,
+      "rawStrength": 2,
       "thunderDamage": {
         "max": 20,
         "min": 5,
@@ -105703,10 +105979,10 @@
         "min": 2,
         "raw": 6
       },
-      "rawAgility": 5,
-      "rawDefence": 5,
-      "rawDexterity": 5,
-      "rawIntelligence": 5,
+      "rawAgility": 2,
+      "rawDefence": 2,
+      "rawDexterity": 2,
+      "rawIntelligence": 2,
       "rawMainAttackDamage": {
         "max": 176,
         "min": 41,
@@ -105717,7 +105993,7 @@
         "min": 42,
         "raw": 140
       },
-      "rawStrength": 5,
+      "rawStrength": 2,
       "walkSpeed": {
         "max": 20,
         "min": 5,
@@ -105765,11 +106041,11 @@
         "min": 5,
         "raw": 15
       },
-      "rawAgility": 4,
-      "rawDefence": 4,
-      "rawDexterity": 4,
-      "rawIntelligence": 4,
-      "rawStrength": 4,
+      "rawAgility": 2,
+      "rawDefence": 2,
+      "rawDexterity": 2,
+      "rawIntelligence": 2,
+      "rawStrength": 2,
       "thunderDefence": {
         "max": 20,
         "min": 5,
@@ -110860,54 +111136,39 @@
     },
     "identifications": {
       "earthDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
-      "earthDefence": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+      "elementalDefence": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "fireDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
-      "fireDefence": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "lifeSteal": {
-        "max": 273,
-        "min": 63,
-        "raw": 210
+        "max": 351,
+        "min": 81,
+        "raw": 270
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "thunderDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
-      "thunderDefence": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "waterDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
-      "waterDefence": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": 52,
+        "min": 12,
+        "raw": 40
       }
     },
     "internalName": "Noise Stream",
@@ -111430,7 +111691,7 @@
     },
     "internalName": "Nuclear Emesis",
     "majorIds": {
-      "Napalm": "<span class='font-ascii' style='color:#55FFFF'>+Napalm: <span class='font-ascii' style='color:#00AAAA'>Fire Creep increases Arrow Bomb damage and self-damage, but reduces velocity. Fire Creep damage and radius are increased.</span></span>"
+      "Napalm": "<span class='font-ascii' style='color:#55FFFF'>+Napalm: <span class='font-ascii' style='color:#00AAAA'>Fire Creep increases Arrow Bomb damage and self-damage but reduces velocity. Scorched Earth damage and radius are increased.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -112825,14 +113086,14 @@
     "dropRestriction": "dungeon",
     "identifications": {
       "2ndSpellCost": {
-        "max": -18,
-        "min": -4,
-        "raw": -14
+        "max": -23,
+        "min": -5,
+        "raw": -18
       },
       "3rdSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "earthDefence": {
         "max": -38,
@@ -114976,24 +115237,24 @@
     "dropRestriction": "normal",
     "identifications": {
       "mainAttackDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
-      "rawAgility": 5,
-      "rawDefence": 5,
-      "rawDexterity": 5,
+      "rawAgility": 4,
+      "rawDefence": 4,
+      "rawDexterity": 4,
       "rawHealth": {
         "max": 520,
         "min": 120,
         "raw": 400
       },
-      "rawIntelligence": 5,
-      "rawStrength": 5,
+      "rawIntelligence": 4,
+      "rawStrength": 4,
       "spellDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": -7,
+        "min": -13,
+        "raw": -10
       },
       "walkSpeed": {
         "max": -8,
@@ -115118,20 +115379,20 @@
     "dropRestriction": "normal",
     "identifications": {
       "lifeSteal": {
-        "max": 143,
-        "min": 33,
-        "raw": 110
+        "max": 241,
+        "min": 56,
+        "raw": 185
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
-      "rawAgility": 5,
-      "rawDefence": 5,
-      "rawDexterity": 5,
-      "rawIntelligence": 5,
-      "rawStrength": 5
+      "rawAgility": 4,
+      "rawDefence": 4,
+      "rawDexterity": 4,
+      "rawIntelligence": 4,
+      "rawStrength": 4
     },
     "internalName": "Ouroboros",
     "powderSlots": 2,
@@ -123208,28 +123469,23 @@
       }
     },
     "identifications": {
-      "mainAttackDamage": {
+      "damage": {
         "max": -7,
         "min": -13,
         "raw": -10
       },
       "manaRegen": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
+      "manaSteal": {
         "max": 8,
         "min": 2,
         "raw": 6
       },
-      "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      },
       "rawAgility": 3,
       "rawStrength": 3,
-      "spellDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
-      },
       "walkSpeed": {
         "max": -7,
         "min": -13,
@@ -123649,7 +123905,7 @@
     },
     "internalName": "Psionic Pretense",
     "majorIds": {
-      "Expunge": "<span class='font-ascii' style='color:#55FFFF'>+Expunge: <span class='font-ascii' style='color:#00AAAA'>When using Heal, cast one instant pulse that heals 20% of your max health</span></span>"
+      "Expunge": "<span class='font-ascii' style='color:#55FFFF'>+Expunge: <span class='font-ascii' style='color:#00AAAA'>When using Heal, cast one instant pulse that heals 15% of your max health</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -128429,9 +128685,9 @@
         "raw": 20
       },
       "earthMainAttackDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "manaRegen": {
         "max": 16,
@@ -128451,9 +128707,9 @@
         "raw": -31
       },
       "waterSpellDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 52,
+        "min": 12,
+        "raw": 40
       }
     },
     "internalName": "Rano Raraku",
@@ -129360,9 +129616,9 @@
         "raw": 15
       },
       "walkSpeed": {
-        "max": 14,
-        "min": 3,
-        "raw": 11
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Reckoning",
@@ -132273,6 +132529,53 @@
     "type": "weapon",
     "weaponType": "dagger"
   },
+  "Repurposed Vessels": {
+    "armourMaterial": "diamond",
+    "armourType": "boots",
+    "base": {
+      "baseAirDefence": -60,
+      "baseEarthDefence": 180,
+      "baseFireDefence": -60,
+      "baseHealth": 4650,
+      "baseThunderDefence": -60,
+      "baseWaterDefence": -60
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "earthDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "healthRegen": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "rawAgility": -3,
+      "rawDefence": -3,
+      "rawDexterity": -3,
+      "rawIntelligence": -3,
+      "rawStrength": 30,
+      "sprintRegen": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      }
+    },
+    "internalName": "Repurposed Vessels",
+    "majorIds": {
+      "Dead Weight": "<span class='font-ascii' style='color:#55FFFF'>+Dead Weight: <span class='font-ascii' style='color:#00AAAA'>Totem's horizontal velocity is greatly increased at the cost of vertical movement</span></span>"
+    },
+    "powderSlots": 2,
+    "rarity": "fabled",
+    "requirements": {
+      "defence": 45,
+      "dexterity": 45,
+      "level": 97
+    },
+    "type": "armour"
+  },
   "Resistance": {
     "armourMaterial": "diamond",
     "armourType": "leggings",
@@ -132335,14 +132638,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "3rdSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "manaSteal": {
         "max": 5,
@@ -138789,6 +139092,58 @@
     },
     "type": "accessory"
   },
+  "Satellite": {
+    "armourMaterial": "diamond",
+    "armourType": "chestplate",
+    "base": {
+      "baseAirDefence": 100,
+      "baseEarthDefence": 50,
+      "baseFireDefence": 75,
+      "baseHealth": 2000,
+      "baseThunderDefence": 125,
+      "baseWaterDefence": 25
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "manaRegen": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "manaSteal": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "rawElementalDamage": {
+        "max": 356,
+        "min": 82,
+        "raw": 274
+      },
+      "reflection": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "walkSpeed": {
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      }
+    },
+    "internalName": "Satellite",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "defence": 40,
+      "dexterity": 50,
+      "intelligence": 30,
+      "level": 96,
+      "strength": 35
+    },
+    "type": "armour"
+  },
   "Saundersi Signet": {
     "accessoryType": "ring",
     "base": {
@@ -139598,9 +139953,9 @@
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "healthRegen": {
         "max": 65,
@@ -139613,15 +139968,15 @@
         "raw": -900
       },
       "mainAttackDamage": {
-        "max": 78,
-        "min": 18,
-        "raw": 60
+        "max": 100,
+        "min": 23,
+        "raw": 77
       },
       "rawDexterity": -70,
       "sprintRegen": {
-        "max": 30,
-        "min": 7,
-        "raw": 23
+        "max": 39,
+        "min": 9,
+        "raw": 30
       }
     },
     "internalName": "Sclera Swathe",
@@ -143645,9 +144000,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "elementalDefence": {
-        "max": 18,
-        "min": 4,
-        "raw": 14
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "lootBonus": {
         "max": -21,
@@ -143655,24 +144010,24 @@
         "raw": -30
       },
       "manaRegen": {
-        "max": 8,
+        "max": 10,
         "min": 2,
-        "raw": 6
+        "raw": 8
       },
-      "rawAgility": 5,
-      "rawDefence": 5,
-      "rawDexterity": 5,
-      "rawIntelligence": 5,
-      "rawStrength": 5,
+      "rawAgility": 4,
+      "rawDefence": 4,
+      "rawDexterity": 4,
+      "rawIntelligence": 4,
+      "rawStrength": 4,
       "thunderDefence": {
-        "max": 4,
-        "min": 1,
-        "raw": 3
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "waterDefence": {
-        "max": 4,
-        "min": 1,
-        "raw": 3
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "xpBonus": {
         "max": -7,
@@ -148134,24 +148489,25 @@
     "armourMaterial": "leather",
     "armourType": "chestplate",
     "base": {
+      "baseAirDefence": 75,
       "baseHealth": 3200
     },
     "dropRestriction": "never",
     "identifications": {
       "lootBonus": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
-      "rawAgility": 6,
-      "rawDefence": 6,
-      "rawDexterity": 6,
-      "rawIntelligence": 6,
-      "rawStrength": 6,
+      "rawAgility": 5,
+      "rawDefence": 5,
+      "rawDexterity": 5,
+      "rawIntelligence": 5,
+      "rawStrength": 5,
       "xpBonus": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 26,
+        "min": 6,
+        "raw": 20
       }
     },
     "internalName": "Sky Chef's Apron",
@@ -152450,19 +152806,19 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "2ndSpellCost": {
-        "max": -18,
+        "max": -17,
         "min": -4,
-        "raw": -14
+        "raw": -13
       },
       "3rdSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "healthRegenRaw": {
         "max": 195,
@@ -153123,9 +153479,15 @@
         "max": 30,
         "min": 7,
         "raw": 23
-      }
+      },
+      "rawAgility": 4,
+      "rawDefence": 4,
+      "rawDexterity": 4,
+      "rawIntelligence": 4,
+      "rawStrength": 4
     },
     "internalName": "Spectrum",
+    "powderSlots": 2,
     "rarity": "rare",
     "requirements": {
       "agility": 20,
@@ -154374,6 +154736,50 @@
     "type": "weapon",
     "weaponType": "bow"
   },
+  "Spring-Coiled Cataphract": {
+    "armourMaterial": "iron",
+    "armourType": "leggings",
+    "base": {
+      "baseHealth": 3000,
+      "baseWaterDefence": -100
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "jumpHeight": {
+        "max": 4,
+        "min": 1,
+        "raw": 3
+      },
+      "knockback": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "manaRegen": {
+        "max": -3,
+        "min": -6,
+        "raw": -5
+      },
+      "rawDexterity": 10,
+      "rawThunderDamage": {
+        "max": 265,
+        "min": 61,
+        "raw": 204
+      }
+    },
+    "internalName": "Spring-Coiled Cataphract",
+    "majorIds": {
+      "Pounce": "<span class='font-ascii' style='color:#55FFFF'>+Pounce: <span class='font-ascii' style='color:#00AAAA'>Escape becomes a forward lunge.</span></span>"
+    },
+    "powderSlots": 2,
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 45,
+      "dexterity": 55,
+      "level": 80
+    },
+    "type": "armour"
+  },
   "Springtrap": {
     "armourMaterial": "chain",
     "armourType": "chestplate",
@@ -154483,14 +154889,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -18,
-        "min": -4,
-        "raw": -14
+        "max": -21,
+        "min": -5,
+        "raw": -16
       },
       "2ndSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "mainAttackDamage": {
         "max": -7,
@@ -154499,7 +154905,6 @@
       },
       "rawAgility": 7,
       "rawDefence": 7,
-      "rawIntelligence": -20,
       "spellDamage": {
         "max": 13,
         "min": 3,
@@ -154516,14 +154921,9 @@
         "raw": 11
       },
       "walkSpeed": {
-        "max": 30,
-        "min": 7,
-        "raw": 23
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": 21,
+        "min": 5,
+        "raw": 16
       }
     },
     "internalName": "Sprintguard",
@@ -155463,8 +155863,8 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "1stSpellCost": -14,
-      "3rdSpellCost": -14,
+      "1stSpellCost": -18,
+      "3rdSpellCost": -18,
       "4thSpellCost": 35,
       "airDefence": -12,
       "earthDamage": 14,
@@ -156840,24 +157240,24 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "2ndSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "3rdSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "4thSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "earthDefence": {
         "max": -10,
@@ -156870,7 +157270,6 @@
         "raw": 200
       },
       "rawDexterity": 8,
-      "rawIntelligence": -22,
       "spellDamage": {
         "max": 20,
         "min": 5,
@@ -156912,9 +157311,9 @@
     },
     "identifications": {
       "mainAttackDamage": {
-        "max": 17,
-        "min": 4,
-        "raw": 13
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "manaSteal": {
         "max": 5,
@@ -156922,14 +157321,14 @@
         "raw": 4
       },
       "rawHealth": {
-        "max": 750,
-        "min": 173,
-        "raw": 577
+        "max": 845,
+        "min": 195,
+        "raw": 650
       },
       "spellDamage": {
-        "max": 17,
-        "min": 4,
-        "raw": 13
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "walkSpeed": {
         "max": 13,
@@ -161545,6 +161944,83 @@
     },
     "type": "accessory"
   },
+  "Syncope": {
+    "attackSpeed": "fast",
+    "averageDps": 622,
+    "base": {
+      "baseFireDamage": {
+        "max": 166,
+        "min": 100,
+        "raw": 100
+      },
+      "baseThunderDamage": {
+        "max": 166,
+        "min": 66,
+        "raw": 66
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "256",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.fire3"
+      }
+    },
+    "identifications": {
+      "fireSpellDamageBonus": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "healthRegenRaw": {
+        "max": -105,
+        "min": -195,
+        "raw": -150
+      },
+      "lifeSteal": {
+        "max": 650,
+        "min": 150,
+        "raw": 500
+      },
+      "manaSteal": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "raw1stSpellCost": {
+        "max": 4,
+        "min": 7,
+        "raw": 5
+      },
+      "sprint": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "thunderMeleeDamageBonusRaw": {
+        "max": 325,
+        "min": 75,
+        "raw": 250
+      }
+    },
+    "internalName": "Syncope",
+    "lore": "The soul of a Devil is so hot with hatred that their  bodies melt like candle wax, coming off in molten globs of flesh until only black bones remain.",
+    "majorIds": {
+      "Heat Shimmer": "<span class='font-ascii' style='color:#55FFFF'>+Heat Shimmer: <span class='font-ascii' style='color:#00AAAA'>Your Clones are reduced to a maximum of 1 with no damage penalties and Mirror Image's cooldown is greatly shortened.</span></span>"
+    },
+    "powderSlots": 4,
+    "rarity": "fabled",
+    "requirements": {
+      "classRequirement": "assassin",
+      "defence": 66,
+      "dexterity": 46,
+      "level": 100
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
+  },
   "Synergy": {
     "armourMaterial": "chain",
     "armourType": "boots",
@@ -163553,25 +164029,25 @@
   },
   "Tendril Talon": {
     "attackSpeed": "super_fast",
-    "averageDps": 344,
+    "averageDps": 430,
     "base": {
       "baseAirDamage": {
-        "max": 30,
-        "min": 10,
-        "raw": 10
-      },
-      "baseEarthDamage": {
-        "max": 20,
-        "min": 20,
-        "raw": 20
-      },
-      "baseFireDamage": {
-        "max": 25,
+        "max": 35,
         "min": 15,
         "raw": 15
       },
+      "baseEarthDamage": {
+        "max": 25,
+        "min": 25,
+        "raw": 25
+      },
+      "baseFireDamage": {
+        "max": 30,
+        "min": 20,
+        "raw": 20
+      },
       "baseThunderDamage": {
-        "max": 40,
+        "max": 50,
         "min": 0,
         "raw": 0
       }
@@ -163592,9 +164068,9 @@
         "raw": 31
       },
       "healthRegen": {
-        "max": 104,
-        "min": 24,
-        "raw": 80
+        "max": 100,
+        "min": 23,
+        "raw": 77
       },
       "manaRegen": {
         "max": -11,
@@ -166396,9 +166872,9 @@
         "raw": -31
       },
       "4thSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "healthRegenRaw": {
         "max": -71,
@@ -167019,11 +167495,11 @@
     "dropRestriction": "never",
     "identifications": {
       "elementalDefence": 30,
-      "rawAgility": 8,
-      "rawDefence": 8,
-      "rawDexterity": 8,
-      "rawIntelligence": 8,
-      "rawStrength": 8,
+      "rawAgility": 6,
+      "rawDefence": 6,
+      "rawDexterity": 6,
+      "rawIntelligence": 6,
+      "rawStrength": 6,
       "walkSpeed": 15
     },
     "identified": true,
@@ -169083,6 +169559,59 @@
     },
     "type": "armour"
   },
+  "Thought Energy": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseEarthDefence": -75,
+      "baseHealth": -785
+    },
+    "dropRestriction": "lootchest",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "162",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.water2"
+      }
+    },
+    "identifications": {
+      "earthDamage": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "elementalDefence": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "manaRegen": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "rawMainAttackDamage": {
+        "max": -122,
+        "min": -227,
+        "raw": -175
+      },
+      "rawStrength": -15,
+      "spellDamage": {
+        "max": 21,
+        "min": 5,
+        "raw": 16
+      }
+    },
+    "internalName": "Thought Energy",
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "dexterity": 45,
+      "intelligence": 45,
+      "level": 105
+    },
+    "type": "accessory"
+  },
   "Thousand Waves": {
     "attackSpeed": "super_slow",
     "averageDps": 538,
@@ -169700,26 +170229,36 @@
   },
   "Thunder Relic Daggers": {
     "attackSpeed": "very_fast",
-    "averageDps": 375,
+    "averageDps": 341,
     "base": {
       "baseDamage": {
-        "max": 99,
-        "min": 22,
-        "raw": 22
+        "max": 90,
+        "min": 20,
+        "raw": 20
       },
       "baseThunderDamage": {
-        "max": 99,
-        "min": 22,
-        "raw": 22
+        "max": 90,
+        "min": 20,
+        "raw": 20
       }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
     },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "194",
+        "customModelData": "258",
         "id": "minecraft:iron_horse_armor",
-        "name": "bow.thunder2"
+        "name": "dagger.thunder2"
       }
     },
     "identifications": {
@@ -169755,12 +170294,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Dagger",
+    "internalName": "Thunder Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 30,
+      "dexterity": 25,
       "level": 65
     },
     "type": "weapon",
@@ -171179,19 +171718,19 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "3rdSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "4thSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "exploding": {
         "max": 33,
@@ -173857,20 +174396,20 @@
       }
     },
     "identifications": {
+      "damage": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "fireDefence": {
         "max": -21,
         "min": -39,
         "raw": -30
       },
-      "mainAttackDamage": {
+      "manaSteal": {
         "max": 10,
         "min": 2,
         "raw": 8
-      },
-      "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
       },
       "rawHealth": {
         "max": -1050,
@@ -173879,7 +174418,7 @@
       },
       "rawIntelligence": 7,
       "rawStrength": 7,
-      "spellDamage": {
+      "slowEnemy": {
         "max": 10,
         "min": 2,
         "raw": 8
@@ -176834,14 +177373,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "1stSpellCost": {
-        "max": -13,
-        "min": -3,
-        "raw": -10
+        "max": -17,
+        "min": -4,
+        "raw": -13
       },
       "3rdSpellCost": {
-        "max": -9,
-        "min": -2,
-        "raw": -7
+        "max": -12,
+        "min": -3,
+        "raw": -9
       },
       "4thSpellCost": {
         "max": -22,
@@ -177282,25 +177821,36 @@
       }
     },
     "identifications": {
+      "3rdSpellCost": {
+        "max": -19,
+        "min": -4,
+        "raw": -15
+      },
       "healthRegen": {
         "max": -6,
         "min": -10,
         "raw": -8
       },
+      "rawAgility": 15,
       "rawMainAttackDamage": {
-        "max": 91,
-        "min": 21,
-        "raw": 70
+        "max": 130,
+        "min": 30,
+        "raw": 100
       },
       "rawSpellDamage": {
         "max": -38,
         "min": -71,
         "raw": -55
       },
+      "rawThunderMainAttackDamage": {
+        "max": 130,
+        "min": 30,
+        "raw": 100
+      },
       "walkSpeed": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 33,
+        "min": 8,
+        "raw": 25
       }
     },
     "internalName": "Valkyrie",
@@ -177937,11 +178487,11 @@
         "min": 5,
         "raw": 15
       },
-      "rawAgility": 6,
-      "rawDefence": 6,
-      "rawDexterity": 6,
-      "rawIntelligence": 6,
-      "rawStrength": 6,
+      "rawAgility": 5,
+      "rawDefence": 5,
+      "rawDexterity": 5,
+      "rawIntelligence": 5,
+      "rawStrength": 5,
       "spellDamage": {
         "max": 20,
         "min": 5,
@@ -178300,19 +178850,21 @@
         "raw": 12
       },
       "fireDamage": {
-        "max": 21,
-        "min": 5,
-        "raw": 16
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "manaSteal": {
         "max": 8,
         "min": 2,
         "raw": 6
       },
+      "rawDefence": 1,
+      "rawDexterity": 1,
       "thunderDamage": {
-        "max": 21,
-        "min": 5,
-        "raw": 16
+        "max": 30,
+        "min": 7,
+        "raw": 23
       }
     },
     "internalName": "Veneration",
@@ -178525,9 +179077,9 @@
       "rawAgility": 8,
       "rawDexterity": 8,
       "spellDamage": {
-        "max": 13,
+        "max": 14,
         "min": 3,
-        "raw": 10
+        "raw": 11
       },
       "stealing": {
         "max": 9,
@@ -182128,6 +182680,78 @@
     },
     "restrictions": "untradable",
     "type": "accessory"
+  },
+  "Watchman's Vendetta": {
+    "attackSpeed": "normal",
+    "averageDps": 772,
+    "base": {
+      "baseDamage": {
+        "max": 100,
+        "min": 50,
+        "raw": 50
+      },
+      "baseThunderDamage": {
+        "max": 290,
+        "min": 110,
+        "raw": 110
+      },
+      "baseWaterDamage": {
+        "max": 130,
+        "min": 70,
+        "raw": 70
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "195",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.thunder3"
+      }
+    },
+    "identifications": {
+      "airDefence": {
+        "max": -28,
+        "min": -52,
+        "raw": -40
+      },
+      "exploding": {
+        "max": 60,
+        "min": 14,
+        "raw": 46
+      },
+      "lifeSteal": {
+        "max": 900,
+        "min": 208,
+        "raw": 692
+      },
+      "rawDexterity": 15,
+      "waterSpellDamage": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "weakenEnemy": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      }
+    },
+    "internalName": "Watchman's Vendetta",
+    "majorIds": {
+      "Vedette": "<span class='font-ascii' style='color:#55FFFF'>+Vedette: <span class='font-ascii' style='color:#00AAAA'>Focus is stronger, and caps at 2. Crepuscular Ray can be cast at 2 Focus with decreased Focus drain, launching you into the air and immobilizing you.</span></span>"
+    },
+    "powderSlots": 2,
+    "rarity": "fabled",
+    "requirements": {
+      "classRequirement": "archer",
+      "dexterity": 75,
+      "intelligence": 55,
+      "level": 105
+    },
+    "type": "weapon",
+    "weaponType": "bow"
   },
   "Water Mask": {
     "armourType": "helmet",
