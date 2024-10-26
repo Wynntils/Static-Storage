@@ -800,9 +800,9 @@
         "raw": -20
       },
       "rawHealth": {
-        "max": 900,
-        "min": 750,
-        "raw": 750
+        "max": 875,
+        "min": 725,
+        "raw": 725
       }
     },
     "ingredientPositionModifiers": {
@@ -4723,7 +4723,7 @@
   "Ancient Spring Water": {
     "consumableOnlyIDs": {
       "charges": 0,
-      "duration": 75
+      "duration": 40
     },
     "icon": {
       "format": "legacy",
@@ -4734,7 +4734,7 @@
       "left": 0,
       "notTouching": 10,
       "right": 0,
-      "touching": 30,
+      "touching": 20,
       "under": 0
     },
     "internalName": "Ancient Spring Water",
@@ -5451,9 +5451,9 @@
         "raw": 3
       },
       "thunderDamage": {
-        "max": 15,
-        "min": 12,
-        "raw": 12
+        "max": 13,
+        "min": 11,
+        "raw": 11
       },
       "walkSpeed": {
         "max": 5,
@@ -6916,9 +6916,9 @@
         "raw": 10
       },
       "spellDamage": {
-        "max": -5,
-        "min": -7,
-        "raw": -7
+        "max": -4,
+        "min": -6,
+        "raw": -6
       }
     },
     "ingredientPositionModifiers": {
@@ -7569,9 +7569,9 @@
         "raw": -12
       },
       "rawSpellDamage": {
-        "max": 65,
-        "min": 65,
-        "raw": 65
+        "max": 55,
+        "min": 55,
+        "raw": 55
       },
       "thunderDamage": {
         "max": 8,
@@ -7697,9 +7697,9 @@
         "raw": 2
       },
       "healthRegen": {
-        "max": 12,
-        "min": 9,
-        "raw": 9
+        "max": 9,
+        "min": 6,
+        "raw": 6
       }
     },
     "ingredientPositionModifiers": {
@@ -8890,9 +8890,9 @@
     },
     "identifications": {
       "mainAttackDamage": {
-        "max": -12,
-        "min": -15,
-        "raw": -15
+        "max": -15,
+        "min": -20,
+        "raw": -20
       },
       "rawAttackSpeed": {
         "max": 1,
@@ -8935,42 +8935,10 @@
     "droppedBy": [
       {
         "coords": [
-          [
-            -1061,
-            42,
-            -5534,
-            35
-          ],
-          [
-            -1035,
-            48,
-            -5573,
-            30
-          ],
-          [
-            -1276,
-            47,
-            -5214,
-            25
-          ],
-          [
-            -1282,
-            48,
-            -5261,
-            25
-          ],
-          [
-            -1254,
-            46,
-            -5302,
-            25
-          ],
-          [
-            -1240,
-            42,
-            -5354,
-            25
-          ]
+          -1238,
+          42,
+          -5375,
+          5
         ],
         "name": "Dark Knight"
       },
@@ -9058,42 +9026,10 @@
       },
       {
         "coords": [
-          [
-            -1061,
-            42,
-            -5534,
-            35
-          ],
-          [
-            -1035,
-            48,
-            -5573,
-            30
-          ],
-          [
-            -1276,
-            47,
-            -5214,
-            25
-          ],
-          [
-            -1282,
-            48,
-            -5261,
-            25
-          ],
-          [
-            -1254,
-            46,
-            -5302,
-            25
-          ],
-          [
-            -1240,
-            42,
-            -5354,
-            25
-          ]
+          -1238,
+          42,
+          -5375,
+          5
         ],
         "name": "Dark Executioner"
       },
@@ -16623,9 +16559,9 @@
     },
     "identifications": {
       "fireDamage": {
-        "max": 28,
-        "min": 25,
-        "raw": 25
+        "max": 26,
+        "min": 23,
+        "raw": 23
       },
       "healthRegen": {
         "max": -15,
@@ -16634,8 +16570,8 @@
       },
       "rawDefence": {
         "max": 5,
-        "min": 5,
-        "raw": 5
+        "min": 3,
+        "raw": 3
       }
     },
     "ingredientPositionModifiers": {
@@ -22559,9 +22495,9 @@
         "raw": 6
       },
       "rawSpellDamage": {
-        "max": 70,
-        "min": 65,
-        "raw": 65
+        "max": 60,
+        "min": 55,
+        "raw": 55
       }
     },
     "ingredientPositionModifiers": {
@@ -24127,42 +24063,10 @@
     "droppedBy": [
       {
         "coords": [
-          [
-            -1061,
-            42,
-            -5534,
-            35
-          ],
-          [
-            -1035,
-            48,
-            -5573,
-            30
-          ],
-          [
-            -1276,
-            47,
-            -5214,
-            25
-          ],
-          [
-            -1282,
-            48,
-            -5261,
-            25
-          ],
-          [
-            -1254,
-            46,
-            -5302,
-            25
-          ],
-          [
-            -1240,
-            42,
-            -5354,
-            25
-          ]
+          -1238,
+          42,
+          -5375,
+          5
         ],
         "name": "Dark Knight"
       },
@@ -24297,42 +24201,10 @@
       },
       {
         "coords": [
-          [
-            -1061,
-            42,
-            -5534,
-            35
-          ],
-          [
-            -1035,
-            48,
-            -5573,
-            30
-          ],
-          [
-            -1276,
-            47,
-            -5214,
-            25
-          ],
-          [
-            -1282,
-            48,
-            -5261,
-            25
-          ],
-          [
-            -1254,
-            46,
-            -5302,
-            25
-          ],
-          [
-            -1240,
-            42,
-            -5354,
-            25
-          ]
+          -1238,
+          42,
+          -5375,
+          5
         ],
         "name": "Dark Executioner"
       },
@@ -24694,14 +24566,14 @@
         "raw": 3
       },
       "rawDexterity": {
-        "max": 6,
-        "min": 5,
-        "raw": 5
+        "max": 5,
+        "min": 4,
+        "raw": 4
       },
       "rawSpellDamage": {
-        "max": 60,
-        "min": 55,
-        "raw": 55
+        "max": 50,
+        "min": 45,
+        "raw": 45
       }
     },
     "ingredientPositionModifiers": {
@@ -25530,9 +25402,9 @@
         "raw": -6
       },
       "rawWaterSpellDamage": {
-        "max": 60,
-        "min": 55,
-        "raw": 55
+        "max": 55,
+        "min": 45,
+        "raw": 45
       },
       "waterDamage": {
         "max": 10,
@@ -26493,9 +26365,9 @@
         "raw": 6
       },
       "rawFireSpellDamage": {
-        "max": 70,
-        "min": 65,
-        "raw": 65
+        "max": 60,
+        "min": 55,
+        "raw": 55
       }
     },
     "ingredientPositionModifiers": {
@@ -30149,83 +30021,19 @@
       },
       {
         "coords": [
-          [
-            -1061,
-            42,
-            -5534,
-            35
-          ],
-          [
-            -1035,
-            48,
-            -5573,
-            30
-          ],
-          [
-            -1276,
-            47,
-            -5214,
-            25
-          ],
-          [
-            -1282,
-            48,
-            -5261,
-            25
-          ],
-          [
-            -1254,
-            46,
-            -5302,
-            25
-          ],
-          [
-            -1240,
-            42,
-            -5354,
-            25
-          ]
+          -1238,
+          42,
+          -5375,
+          5
         ],
         "name": "Dark Executioner"
       },
       {
         "coords": [
-          [
-            -1061,
-            42,
-            -5534,
-            35
-          ],
-          [
-            -1035,
-            48,
-            -5573,
-            30
-          ],
-          [
-            -1276,
-            47,
-            -5214,
-            25
-          ],
-          [
-            -1282,
-            48,
-            -5261,
-            25
-          ],
-          [
-            -1254,
-            46,
-            -5302,
-            25
-          ],
-          [
-            -1240,
-            42,
-            -5354,
-            25
-          ]
+          -1238,
+          42,
+          -5375,
+          5
         ],
         "name": "Dark Knight"
       },
@@ -33951,9 +33759,9 @@
         "raw": 52
       },
       "rawHealth": {
-        "max": 700,
-        "min": 550,
-        "raw": 550
+        "max": 680,
+        "min": 560,
+        "raw": 560
       }
     },
     "ingredientPositionModifiers": {
@@ -34215,9 +34023,9 @@
     },
     "identifications": {
       "rawEarthSpellDamage": {
-        "max": 65,
-        "min": 60,
-        "raw": 60
+        "max": 60,
+        "min": 50,
+        "raw": 50
       },
       "rawStrength": {
         "max": 4,
@@ -36065,9 +35873,9 @@
         "raw": 6
       },
       "rawHealth": {
-        "max": -102,
-        "min": -118,
-        "raw": -118
+        "max": -31,
+        "min": -59,
+        "raw": -59
       }
     },
     "ingredientPositionModifiers": {
@@ -38791,9 +38599,9 @@
         "raw": -105
       },
       "rawMainAttackDamage": {
-        "max": 150,
-        "min": 130,
-        "raw": 130
+        "max": 135,
+        "min": 115,
+        "raw": 115
       }
     },
     "ingredientPositionModifiers": {
@@ -39143,9 +38951,9 @@
         "raw": 8
       },
       "rawSpellDamage": {
-        "max": 65,
-        "min": 60,
-        "raw": 60
+        "max": 60,
+        "min": 55,
+        "raw": 55
       }
     },
     "ingredientPositionModifiers": {
@@ -41966,7 +41774,7 @@
     },
     "identifications": {
       "rawDefence": {
-        "max": 8,
+        "max": 6,
         "min": 5,
         "raw": 5
       },
@@ -49456,9 +49264,9 @@
         "raw": 60
       },
       "rawSpellDamage": {
-        "max": 55,
-        "min": 50,
-        "raw": 50
+        "max": 50,
+        "min": 40,
+        "raw": 40
       }
     },
     "ingredientPositionModifiers": {
@@ -50684,9 +50492,9 @@
         "raw": 65
       },
       "mainAttackDamage": {
-        "max": 36,
-        "min": 32,
-        "raw": 32
+        "max": 30,
+        "min": 26,
+        "raw": 26
       },
       "rawAttackSpeed": {
         "max": -1,
@@ -53034,7 +52842,7 @@
         "raw": -6
       },
       "spellDamage": {
-        "max": 6,
+        "max": 5,
         "min": 4,
         "raw": 4
       }
@@ -53082,9 +52890,9 @@
     },
     "identifications": {
       "rawHealth": {
-        "max": 700,
-        "min": 660,
-        "raw": 660
+        "max": 680,
+        "min": 640,
+        "raw": 640
       },
       "reflection": {
         "max": -10,
@@ -54806,9 +54614,9 @@
         "raw": -820
       },
       "rawSpellDamage": {
-        "max": 85,
-        "min": 60,
-        "raw": 60
+        "max": 80,
+        "min": 55,
+        "raw": 55
       },
       "thunderDamage": {
         "max": 16,
@@ -57714,9 +57522,9 @@
     },
     "identifications": {
       "spellDamage": {
-        "max": 7,
-        "min": 5,
-        "raw": 5
+        "max": 5,
+        "min": 4,
+        "raw": 4
       }
     },
     "ingredientPositionModifiers": {
@@ -61208,160 +61016,34 @@
       {
         "coords": [
           [
-            -2182,
-            55,
-            -5243,
-            4
-          ],
-          [
-            -2158,
-            56,
-            -5241,
-            4
-          ],
-          [
-            -2045,
-            56,
-            -5221,
-            6
-          ],
-          [
-            -2042,
-            55,
-            -5268,
-            4
-          ],
-          [
-            -1992,
-            56,
-            -5264,
-            4
-          ],
-          [
-            -1946,
+            -1927,
             57,
-            -5295,
-            4
+            -5294,
+            5
           ],
           [
-            -1976,
-            57,
-            -5318,
-            6
+            -2150,
+            62,
+            -5330,
+            5
           ],
           [
-            -2005,
-            58,
-            -5369,
-            6
+            -1744,
+            55,
+            -5138,
+            5
           ],
           [
-            -2025,
-            58,
+            -1521,
+            49,
             -5183,
-            6
+            5
           ],
           [
-            -2060,
-            58,
-            -5145,
-            6
-          ],
-          [
-            -2103,
-            56,
-            -5134,
-            6
-          ],
-          [
-            -1952,
-            55,
-            -5091,
-            12
-          ],
-          [
-            -1953,
-            55,
-            -5091,
-            12
-          ],
-          [
-            -2071,
-            56,
-            -5361,
-            6
-          ],
-          [
-            -1878,
-            59,
-            -5151,
-            8
-          ],
-          [
-            -1619,
-            53,
-            -5201,
-            6
-          ],
-          [
-            -1641,
-            53,
-            -5217,
-            6
-          ],
-          [
-            -1650,
-            53,
-            -5202,
-            6
-          ],
-          [
-            -1893,
-            54,
-            -5512,
-            8
-          ],
-          [
-            -1577,
-            53,
-            -5370,
-            8
-          ],
-          [
-            -1950,
-            58,
-            -5093,
-            12
-          ],
-          [
-            -1951,
-            58,
-            -5087,
-            12
-          ],
-          [
-            -1955,
-            58,
-            -5087,
-            12
-          ],
-          [
-            -1956,
-            58,
-            -5093,
-            12
-          ],
-          [
-            -1953,
-            58,
-            -5093,
-            6
-          ],
-          [
-            -1954,
-            58,
-            -5090,
-            8
+            -1456,
+            46,
+            -5333,
+            5
           ]
         ],
         "name": "Stirge"
@@ -61706,9 +61388,9 @@
         "raw": 40
       },
       "rawSpellDamage": {
-        "max": 50,
-        "min": 45,
-        "raw": 45
+        "max": 40,
+        "min": 35,
+        "raw": 35
       }
     },
     "ingredientPositionModifiers": {
@@ -62046,7 +61728,7 @@
   "Migratory Coconut": {
     "consumableOnlyIDs": {
       "charges": 0,
-      "duration": 420
+      "duration": 380
     },
     "icon": {
       "format": "skin",
@@ -62832,14 +62514,14 @@
         "raw": -30
       },
       "rawSpellDamage": {
-        "max": 15,
-        "min": 12,
-        "raw": 12
+        "max": 12,
+        "min": 9,
+        "raw": 9
       },
       "thunderDamage": {
-        "max": 7,
-        "min": 6,
-        "raw": 6
+        "max": 6,
+        "min": 4,
+        "raw": 4
       }
     },
     "ingredientPositionModifiers": {
@@ -62953,9 +62635,9 @@
     },
     "identifications": {
       "rawSpellDamage": {
-        "max": 40,
-        "min": 35,
-        "raw": 35
+        "max": 35,
+        "min": 30,
+        "raw": 30
       },
       "thunderDefence": {
         "max": -2,
@@ -65910,9 +65592,9 @@
         "raw": -650
       },
       "rawNeutralDamage": {
-        "max": 50,
-        "min": 50,
-        "raw": 50
+        "max": -40,
+        "min": -40,
+        "raw": -40
       }
     },
     "ingredientPositionModifiers": {
@@ -70056,165 +69738,8 @@
     },
     "droppedBy": [
       {
-        "coords": [
-          [
-            208,
-            101,
-            -4403,
-            10
-          ],
-          [
-            200,
-            95,
-            -4381,
-            15
-          ],
-          [
-            213,
-            91,
-            -4343,
-            20
-          ],
-          [
-            161,
-            79,
-            -4354,
-            20
-          ],
-          [
-            115,
-            75,
-            -4362,
-            10
-          ],
-          [
-            94,
-            79,
-            -4345,
-            15
-          ],
-          [
-            62,
-            86,
-            -4349,
-            15
-          ],
-          [
-            40,
-            87,
-            -4367,
-            10
-          ],
-          [
-            13,
-            86,
-            -4359,
-            10
-          ],
-          [
-            -28,
-            92,
-            -4342,
-            15
-          ],
-          [
-            -80,
-            98,
-            -4337,
-            15
-          ],
-          [
-            -88,
-            111,
-            -4387,
-            15
-          ],
-          [
-            169,
-            74,
-            -4410,
-            10
-          ],
-          [
-            140,
-            56,
-            -4392,
-            15
-          ],
-          [
-            -47,
-            75,
-            -4381,
-            10
-          ],
-          [
-            0,
-            64,
-            -4414,
-            10
-          ],
-          [
-            -10,
-            43,
-            -4378,
-            10
-          ],
-          [
-            10,
-            43,
-            -4391,
-            10
-          ],
-          [
-            65,
-            44,
-            -4425,
-            30
-          ],
-          [
-            57,
-            58,
-            -4387,
-            20
-          ],
-          [
-            94,
-            48,
-            -4385,
-            20
-          ],
-          [
-            126,
-            43,
-            -4419,
-            20
-          ],
-          [
-            64,
-            43,
-            -4502,
-            30
-          ],
-          [
-            103,
-            44,
-            -4525,
-            15
-          ],
-          [
-            56,
-            44,
-            -4547,
-            15
-          ],
-          [
-            81,
-            43,
-            -4565,
-            10
-          ]
-        ],
-        "name": "Giant Panda King"
+        "coords": null,
+        "name": "Ingredient Dummy"
       }
     ],
     "icon": {
@@ -70261,7 +69786,7 @@
       "touching": 0,
       "under": 0
     },
-    "internalName": "Panda King’s Crown",
+    "internalName": "Panda King's Crown",
     "itemOnlyIDs": {
       "agilityRequirement": 0,
       "defenceRequirement": 0,
@@ -70494,7 +70019,7 @@
         "raw": -5
       },
       "rawHealth": {
-        "max": 720,
+        "max": 700,
         "min": 675,
         "raw": 675
       }
@@ -70590,9 +70115,9 @@
     },
     "identifications": {
       "rawSpellDamage": {
-        "max": 60,
-        "min": 60,
-        "raw": 60
+        "max": 50,
+        "min": 50,
+        "raw": 50
       }
     },
     "ingredientPositionModifiers": {
@@ -80555,9 +80080,9 @@
         "raw": -75
       },
       "rawHealth": {
-        "max": 933,
-        "min": 875,
-        "raw": 875
+        "max": 903,
+        "min": 845,
+        "raw": 845
       },
       "rawStrength": {
         "max": 5,
@@ -80576,7 +80101,7 @@
     "internalName": "Rejected Geode",
     "itemOnlyIDs": {
       "agilityRequirement": 0,
-      "defenceRequirement": 30,
+      "defenceRequirement": 25,
       "dexterityRequirement": 0,
       "durabilityModifier": -150000,
       "intelligenceRequirement": 0,
@@ -82495,10 +82020,10 @@
       "value": "381:0"
     },
     "identifications": {
-      "earthDamage": {
-        "max": -10,
-        "min": -8,
-        "raw": -8
+      "earthSpellDamage": {
+        "max": -8,
+        "min": -10,
+        "raw": -10
       },
       "manaSteal": {
         "max": 8,
@@ -83348,8 +82873,8 @@
       },
       "rawStrength": {
         "max": 4,
-        "min": 3,
-        "raw": 3
+        "min": 2,
+        "raw": 2
       }
     },
     "ingredientPositionModifiers": {
@@ -88536,7 +88061,7 @@
     "internalName": "Searing Heartwood",
     "itemOnlyIDs": {
       "agilityRequirement": 0,
-      "defenceRequirement": -50,
+      "defenceRequirement": -40,
       "dexterityRequirement": 0,
       "durabilityModifier": -158000,
       "intelligenceRequirement": 0,
@@ -90902,9 +90427,9 @@
         "raw": -4
       },
       "spellDamage": {
-        "max": 12,
-        "min": 10,
-        "raw": 10
+        "max": 11,
+        "min": 9,
+        "raw": 9
       },
       "waterDamage": {
         "max": -5,
@@ -91813,9 +91338,9 @@
     },
     "identifications": {
       "rawHealth": {
-        "max": 1200,
-        "min": 1150,
-        "raw": 1150
+        "max": 1150,
+        "min": 1100,
+        "raw": 1100
       },
       "rawIntelligence": {
         "max": -7,
@@ -106889,160 +106414,34 @@
       {
         "coords": [
           [
-            -2182,
-            55,
-            -5243,
-            4
-          ],
-          [
-            -2158,
-            56,
-            -5241,
-            4
-          ],
-          [
-            -2045,
-            56,
-            -5221,
-            6
-          ],
-          [
-            -2042,
-            55,
-            -5268,
-            4
-          ],
-          [
-            -1992,
-            56,
-            -5264,
-            4
-          ],
-          [
-            -1946,
+            -1927,
             57,
-            -5295,
-            4
+            -5294,
+            5
           ],
           [
-            -1976,
-            57,
-            -5318,
-            6
+            -2150,
+            62,
+            -5330,
+            5
           ],
           [
-            -2005,
-            58,
-            -5369,
-            6
+            -1744,
+            55,
+            -5138,
+            5
           ],
           [
-            -2025,
-            58,
+            -1521,
+            49,
             -5183,
-            6
+            5
           ],
           [
-            -2060,
-            58,
-            -5145,
-            6
-          ],
-          [
-            -2103,
-            56,
-            -5134,
-            6
-          ],
-          [
-            -1952,
-            55,
-            -5091,
-            12
-          ],
-          [
-            -1953,
-            55,
-            -5091,
-            12
-          ],
-          [
-            -2071,
-            56,
-            -5361,
-            6
-          ],
-          [
-            -1878,
-            59,
-            -5151,
-            8
-          ],
-          [
-            -1619,
-            53,
-            -5201,
-            6
-          ],
-          [
-            -1641,
-            53,
-            -5217,
-            6
-          ],
-          [
-            -1650,
-            53,
-            -5202,
-            6
-          ],
-          [
-            -1893,
-            54,
-            -5512,
-            8
-          ],
-          [
-            -1577,
-            53,
-            -5370,
-            8
-          ],
-          [
-            -1950,
-            58,
-            -5093,
-            12
-          ],
-          [
-            -1951,
-            58,
-            -5087,
-            12
-          ],
-          [
-            -1955,
-            58,
-            -5087,
-            12
-          ],
-          [
-            -1956,
-            58,
-            -5093,
-            12
-          ],
-          [
-            -1953,
-            58,
-            -5093,
-            6
-          ],
-          [
-            -1954,
-            58,
-            -5090,
-            8
+            -1456,
+            46,
+            -5333,
+            5
           ]
         ],
         "name": "Stirge"
@@ -115928,9 +115327,9 @@
     },
     "identifications": {
       "rawMainAttackDamage": {
-        "max": 75,
-        "min": 70,
-        "raw": 70
+        "max": 60,
+        "min": 55,
+        "raw": 55
       }
     },
     "ingredientPositionModifiers": {
