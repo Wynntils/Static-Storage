@@ -114,5 +114,7 @@
   "strength": 112,
   "fireSpellDamageBonus": 113,
   "thunderMeleeDamageBonusRaw": 114,
-  "maxMana": 115
+  "maxMana": 115,
+  "neutralSpellDamage": 116,
+  "rawMaxMana": 117
 }
