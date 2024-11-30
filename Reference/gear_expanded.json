@@ -3678,7 +3678,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDamage": 85
+      "airDamage": 90,
+      "rawAgility": 5,
+      "walkSpeed": 25
     },
     "identified": true,
     "internalName": "Air Sanctuary",
@@ -4378,11 +4380,13 @@
       }
     },
     "identifications": {
+      "earthDamage": 20,
       "lootBonus": 10,
       "rawIntelligence": 5,
+      "rawMaxMana": 50,
       "rawStrength": 5,
       "thorns": 20,
-      "waterDamage": 16
+      "waterDamage": 30
     },
     "identified": true,
     "internalName": "Algaa",
@@ -11790,10 +11794,10 @@
       }
     },
     "identifications": {
-      "healthRegenRaw": -200,
+      "healthRegenRaw": -150,
       "lifeSteal": 140,
       "manaSteal": 8,
-      "poison": 250,
+      "poison": 1500,
       "raw4thSpellCost": -5
     },
     "identified": true,
@@ -13235,17 +13239,17 @@
   },
   "Barbed": {
     "attackSpeed": "fast",
-    "averageDps": 181,
+    "averageDps": 212,
     "base": {
       "baseDamage": {
-        "max": 40,
-        "min": 30,
-        "raw": 30
+        "max": 50,
+        "min": 40,
+        "raw": 40
       },
       "baseThunderDamage": {
-        "max": 70,
-        "min": 5,
-        "raw": 5
+        "max": 80,
+        "min": 0,
+        "raw": 0
       }
     },
     "dropMeta": {
@@ -13267,12 +13271,12 @@
       }
     },
     "identifications": {
-      "mainAttackDamage": 10,
+      "mainAttackDamage": 15,
       "rawDefence": 5,
-      "reflection": 20,
-      "thorns": 50,
+      "reflection": 40,
+      "thorns": 40,
       "thunderDamage": 15,
-      "thunderDefence": 10
+      "thunderDefence": 20
     },
     "identified": true,
     "internalName": "Barbed",
@@ -20173,9 +20177,11 @@
       }
     },
     "identifications": {
-      "elementalDefence": 15,
+      "elementalDefence": 20,
+      "knockback": 20,
       "rawStrength": 8,
-      "spellDamage": -10
+      "spellDamage": -10,
+      "thorns": 20
     },
     "identified": true,
     "internalName": "Boundary",
@@ -20684,9 +20690,8 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "mainAttackDamage": 18,
-      "rawIntelligence": -10,
-      "spellDamage": 18
+      "damage": 18,
+      "rawIntelligence": -10
     },
     "identified": true,
     "internalName": "Brainfreeze",
@@ -23648,6 +23653,7 @@
     "armourMaterial": "golden",
     "armourType": "helmet",
     "base": {
+      "baseAirDefence": 8,
       "baseHealth": 90
     },
     "dropMeta": {
@@ -23661,9 +23667,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDefence": 10,
       "rawAgility": 12,
-      "walkSpeed": 6
+      "sprintRegen": 10,
+      "walkSpeed": 8
     },
     "identified": true,
     "internalName": "Butterfly",
@@ -23945,7 +23951,7 @@
       }
     },
     "identifications": {
-      "elementalDefence": 14
+      "elementalDefence": 20
     },
     "identified": true,
     "internalName": "Byte",
@@ -26555,18 +26561,18 @@
     "type": "armour"
   },
   "Cathedral": {
-    "attackSpeed": "normal",
-    "averageDps": 76,
+    "attackSpeed": "very_fast",
+    "averageDps": 87,
     "base": {
       "baseAirDamage": {
-        "max": 27,
-        "min": 18,
-        "raw": 18
+        "max": 26,
+        "min": 14,
+        "raw": 14
       },
       "baseDamage": {
-        "max": 19,
-        "min": 10,
-        "raw": 10
+        "max": 10,
+        "min": 6,
+        "raw": 6
       }
     },
     "dropMeta": {
@@ -26588,8 +26594,9 @@
       }
     },
     "identifications": {
-      "airDefence": 10,
-      "elementalDamage": 15
+      "airDefence": 15,
+      "elementalSpellDamage": 15,
+      "rawAirMainAttackDamage": 25
     },
     "identified": true,
     "internalName": "Cathedral",
@@ -27758,6 +27765,35 @@
     },
     "type": "armour"
   },
+  "Cessation": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "leggings",
+    "base": {
+      "baseEarthDefence": 100,
+      "baseThunderDefence": 100
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "lifeSteal": 250,
+      "manaRegen": 15,
+      "manaSteal": 10,
+      "raw1stSpellCost": -4,
+      "walkSpeed": 15
+    },
+    "identified": true,
+    "internalName": "Cessation",
+    "lore": "Nothing more.",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "dexterity": 55,
+      "level": 87,
+      "strength": 55
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
   "Chain Hook": {
     "attackSpeed": "fast",
     "averageDps": 300,
@@ -28738,14 +28774,9 @@
         "raw": 24
       },
       "fireDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
-      "mainAttackDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 36,
+        "min": 8,
+        "raw": 28
       },
       "manaRegen": {
         "max": 8,
@@ -28762,20 +28793,15 @@
         "min": -1560,
         "raw": -1200
       },
-      "spellDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
       "thunderDefence": {
         "max": -17,
         "min": -32,
         "raw": -25
       },
       "waterDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 36,
+        "min": 8,
+        "raw": 28
       }
     },
     "internalName": "Charging Flame",
@@ -29581,6 +29607,11 @@
         "max": 26,
         "min": 6,
         "raw": 20
+      },
+      "mainAttackRange": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "rawAgility": -2,
       "rawAttackSpeed": 1,
@@ -32242,6 +32273,7 @@
       }
     },
     "identifications": {
+      "2ndSpellCost": -15,
       "rawDexterity": 5,
       "rawHealth": -50,
       "thorns": 15,
@@ -40000,9 +40032,10 @@
       }
     },
     "identifications": {
-      "fireDamage": 32,
+      "exploding": 30,
+      "fireDamage": 30,
+      "fireMainAttackDamage": 60,
       "rawDefence": 4,
-      "rawMainAttackDamage": 60,
       "xpBonus": 10
     },
     "identified": true,
@@ -41825,11 +41858,10 @@
       }
     },
     "identifications": {
-      "earthDamage": 35,
-      "mainAttackDamage": 20,
+      "earthMainAttackDamage": 70,
       "rawStrength": 4,
       "spellDamage": -20,
-      "walkSpeed": -50
+      "walkSpeed": -40
     },
     "identified": true,
     "internalName": "Death's Reach",
@@ -51788,7 +51820,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "earthDamage": 85
+      "earthDamage": 90,
+      "mainAttackDamage": 30,
+      "rawStrength": 5
     },
     "identified": true,
     "internalName": "Earth Sanctuary",
@@ -59430,11 +59464,11 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "poison": 250,
+      "poison": 600,
       "rawDexterity": 5,
       "rawMainAttackDamage": 90,
-      "thorns": 10,
-      "thunderDamage": 10,
+      "thorns": 20,
+      "thunderDamage": 15,
       "walkSpeed": 5
     },
     "identified": true,
@@ -61069,7 +61103,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "fireDamage": 85
+      "fireDamage": 90,
+      "healthRegenRaw": 165,
+      "rawDefence": 5
     },
     "identified": true,
     "internalName": "Fire Sanctuary",
@@ -68859,6 +68895,7 @@
     "lore": "\"Strangest thing, it turns out Creepers are incredibly flammable...\" -Garull, Cryptid Researcher ",
     "rarity": "rare",
     "requirements": {
+      "defence": 10,
       "level": 29
     },
     "restrictions": "untradable",
@@ -69513,8 +69550,12 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "273:7"
+      "format": "attribute",
+      "value": {
+        "customModelData": "392",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.basicWood"
+      }
     },
     "identifications": {
       "earthDamage": 20,
@@ -72019,8 +72060,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "damage": -5,
       "lootBonus": 30,
-      "walkSpeed": 3,
+      "walkSpeed": 5,
       "xpBonus": 10
     },
     "identified": true,
@@ -73455,6 +73497,7 @@
     "armourMaterial": "chain",
     "armourType": "chestplate",
     "base": {
+      "baseEarthDefence": 40,
       "baseHealth": 800
     },
     "dropMeta": {
@@ -73468,8 +73511,10 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "earthDamage": 10,
-      "mainAttackDamage": 40,
+      "earthMainAttackDamage": 15,
+      "knockback": 60,
+      "mainAttackDamage": 35,
+      "mainAttackRange": -20,
       "spellDamage": -30,
       "walkSpeed": -15
     },
@@ -75022,9 +75067,10 @@
       }
     },
     "identifications": {
-      "mainAttackDamage": 10,
-      "spellDamage": -5,
-      "thunderDamage": 10,
+      "knockback": 50,
+      "mainAttackDamage": 20,
+      "mainAttackRange": 65,
+      "thunderDefence": 15,
       "xpBonus": 18
     },
     "identified": true,
@@ -77295,9 +77341,9 @@
       }
     },
     "identifications": {
-      "rawSpellDamage": 40,
+      "3rdSpellCost": -15,
       "walkSpeed": 10,
-      "waterDamage": 10,
+      "waterSpellDamage": 30,
       "xpBonus": 10
     },
     "identified": true,
@@ -77645,7 +77691,7 @@
     "dropRestriction": "never",
     "identifications": {
       "fireDefence": 45,
-      "lifeSteal": 50,
+      "lifeSteal": 60,
       "rawDefence": 7
     },
     "identified": true,
@@ -81715,12 +81761,12 @@
   },
   "Hourglass": {
     "attackSpeed": "slow",
-    "averageDps": 1,
+    "averageDps": 2,
     "base": {
       "baseDamage": {
         "max": 1,
-        "min": 0,
-        "raw": 0
+        "min": 1,
+        "raw": 1
       }
     },
     "dropMeta": {
@@ -81742,7 +81788,7 @@
       }
     },
     "identifications": {
-      "1stSpellCost": 105,
+      "1stSpellCost": 40,
       "poison": 135,
       "rawAgility": 4,
       "thorns": 18
@@ -82399,12 +82445,12 @@
   },
   "Hymn of the Dead": {
     "attackSpeed": "normal",
-    "averageDps": 31,
+    "averageDps": 41,
     "base": {
       "baseAirDamage": {
-        "max": 18,
-        "min": 12,
-        "raw": 12
+        "max": 22,
+        "min": 18,
+        "raw": 18
       }
     },
     "dropMeta": {
@@ -82427,8 +82473,8 @@
     },
     "identifications": {
       "airDamage": 20,
-      "poison": 220,
-      "walkSpeed": 10
+      "poison": 400,
+      "walkSpeed": 20
     },
     "identified": true,
     "internalName": "Hymn of the Dead",
@@ -87929,6 +87975,7 @@
     "armourMaterial": "chain",
     "armourType": "boots",
     "base": {
+      "baseEarthDefence": 30,
       "baseHealth": 650
     },
     "dropMeta": {
@@ -87943,9 +87990,9 @@
     "dropRestriction": "never",
     "identifications": {
       "earthDamage": 15,
-      "earthDefence": 20,
-      "fireDefence": -10,
+      "fireDefence": -15,
       "mainAttackDamage": 25,
+      "mainAttackRange": 25,
       "rawStrength": 8,
       "walkSpeed": -10
     },
@@ -87955,7 +88002,7 @@
     "rarity": "legendary",
     "requirements": {
       "level": 49,
-      "strength": 35
+      "strength": 40
     },
     "restrictions": "untradable",
     "type": "armour"
@@ -89225,6 +89272,7 @@
     },
     "identifications": {
       "exploding": 15,
+      "knockback": 25,
       "mainAttackDamage": 10,
       "rawStrength": 8,
       "walkSpeed": -5,
@@ -89562,20 +89610,20 @@
       }
     },
     "identifications": {
+      "knockback": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      },
       "mainAttackDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "rawHealth": {
         "max": 1075,
         "min": 248,
         "raw": 827
-      },
-      "rawMainAttackDamage": {
-        "max": 59,
-        "min": 14,
-        "raw": 45
       },
       "xpBonus": {
         "max": 13,
@@ -90195,12 +90243,12 @@
   },
   "Jungle Spirit": {
     "attackSpeed": "fast",
-    "averageDps": 156,
+    "averageDps": 138,
     "base": {
-      "baseDamage": {
-        "max": 70,
-        "min": 55,
-        "raw": 55
+      "baseAirDamage": {
+        "max": 80,
+        "min": 30,
+        "raw": 30
       }
     },
     "dropMeta": {
@@ -90222,16 +90270,19 @@
       }
     },
     "identifications": {
-      "airDamage": 22,
-      "rawAgility": 10,
-      "walkSpeed": 10
+      "jumpHeight": 1,
+      "knockback": 25,
+      "mainAttackRange": 25,
+      "rawAgility": 5,
+      "rawAirMainAttackDamage": 65,
+      "walkSpeed": 15
     },
     "identified": true,
     "internalName": "Jungle Spirit",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
-      "agility": 45,
+      "agility": 40,
       "classRequirement": "mage",
       "level": 55
     },
@@ -97077,10 +97128,11 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDamage": 25,
+      "airDamage": 20,
       "rawAgility": 5,
+      "rawAirDamage": 85,
       "rawIntelligence": -20,
-      "walkSpeed": 10
+      "walkSpeed": 20
     },
     "identified": true,
     "internalName": "Lobotomy",
@@ -97601,15 +97653,15 @@
         "min": -2,
         "raw": -7
       },
-      "mainAttackNeutraDamageBonus": {
-        "max": 390,
-        "min": 90,
-        "raw": 300
-      },
       "rawAttackSpeed": {
         "max": -1,
         "min": -3,
         "raw": -2
+      },
+      "rawNeutralMainAttackDamage": {
+        "max": 390,
+        "min": 90,
+        "raw": 300
       },
       "reflection": {
         "max": -35,
@@ -105576,10 +105628,10 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "earthDamage": 15,
       "fireDamage": 15,
-      "healthRegen": 10,
-      "rawStrength": 4
+      "healthRegen": 20,
+      "rawEarthMainAttackDamage": 135,
+      "rawStrength": 5
     },
     "identified": true,
     "internalName": "Molten Greaves",
@@ -107361,7 +107413,8 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "mainAttackDamage": 38,
+      "knockback": 25,
+      "mainAttackDamage": 40,
       "rawStrength": 6,
       "thorns": 5,
       "walkSpeed": -10
@@ -115923,11 +115976,12 @@
       }
     },
     "identifications": {
-      "airDamage": 10,
-      "manaRegen": 12,
+      "airDamage": 15,
+      "manaRegen": 10,
+      "raw1stSpellCost": -5,
       "rawAgility": 4,
       "spellDamage": 15,
-      "walkSpeed": 5
+      "walkSpeed": 20
     },
     "identified": true,
     "internalName": "Ouragan",
@@ -117530,17 +117584,17 @@
   },
   "Panic Zealot": {
     "attackSpeed": "super_fast",
-    "averageDps": 568,
+    "averageDps": 490,
     "base": {
       "baseAirDamage": {
-        "max": 79,
-        "min": 53,
-        "raw": 53
+        "max": 66,
+        "min": 48,
+        "raw": 48
       },
       "baseDamage": {
-        "max": 72,
-        "min": 60,
-        "raw": 60
+        "max": 60,
+        "min": 54,
+        "raw": 54
       }
     },
     "dropMeta": {
@@ -127435,7 +127489,7 @@
       }
     },
     "identifications": {
-      "poison": 60,
+      "poison": 120,
       "rawHealth": 130,
       "walkSpeed": -3
     },
@@ -129142,11 +129196,12 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDamage": 85,
-      "earthDamage": 85,
-      "fireDamage": 85,
-      "thunderDamage": 85,
-      "waterDamage": 85
+      "elementalDamage": 90,
+      "rawAgility": 2,
+      "rawDefence": 2,
+      "rawDexterity": 2,
+      "rawIntelligence": 2,
+      "rawStrength": 2
     },
     "identified": true,
     "internalName": "Rainbow Sanctuary",
@@ -136937,12 +136992,11 @@
       }
     },
     "identifications": {
-      "fireDamage": -10,
-      "lifeSteal": 105,
-      "mainAttackDamage": 10,
-      "stealing": 5,
-      "thunderDamage": 15,
-      "waterDamage": -10
+      "lifeSteal": 125,
+      "mainAttackDamage": 25,
+      "mainAttackRange": -50,
+      "rawThunderMainAttackDamage": 55,
+      "stealing": 5
     },
     "identified": true,
     "internalName": "Rumble",
@@ -139115,17 +139169,17 @@
   },
   "Sanies": {
     "attackSpeed": "slow",
-    "averageDps": 80,
+    "averageDps": 105,
     "base": {
       "baseDamage": {
-        "max": 37,
-        "min": 16,
-        "raw": 16
+        "max": 43,
+        "min": 27,
+        "raw": 27
       },
       "baseWaterDamage": {
-        "max": 37,
-        "min": 16,
-        "raw": 16
+        "max": 43,
+        "min": 27,
+        "raw": 27
       }
     },
     "dropMeta": {
@@ -139147,10 +139201,10 @@
       }
     },
     "identifications": {
-      "earthDamage": 10,
-      "manaSteal": -8,
-      "spellDamage": 40,
-      "waterDamage": 5
+      "1stSpellCost": -10,
+      "earthSpellDamage": 30,
+      "manaSteal": -20,
+      "waterSpellDamage": 15
     },
     "identified": true,
     "internalName": "Sanies",
@@ -140107,9 +140161,11 @@
       }
     },
     "identifications": {
+      "3rdSpellCost": -15,
+      "damage": 20,
       "elementalDamage": 10,
-      "mainAttackDamage": 20,
-      "spellDamage": 20
+      "elementalDefence": -25,
+      "mainAttackRange": 20
     },
     "identified": true,
     "internalName": "Sawtooth",
@@ -143170,13 +143226,10 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "airDamage": 25,
-      "earthDamage": -10,
-      "fireDamage": -10,
+      "airDamage": 35,
+      "elementalDamage": -10,
       "rawAgility": 10,
-      "thunderDamage": -10,
-      "walkSpeed": 20,
-      "waterDamage": -10
+      "walkSpeed": 20
     },
     "identified": true,
     "internalName": "Shade",
@@ -152022,9 +152075,8 @@
       }
     },
     "identifications": {
-      "earthDamage": 10,
-      "healthRegen": 12,
-      "healthRegenRaw": 21,
+      "healthRegenRaw": 25,
+      "rawFireDamage": 30,
       "rawHealth": 360,
       "reflection": 10
     },
@@ -155731,10 +155783,11 @@
       }
     },
     "identifications": {
-      "earthDamage": 12,
-      "mainAttackDamage": 25,
-      "spellDamage": -25,
-      "walkSpeed": -25
+      "earthMainAttackDamage": 25,
+      "earthSpellDamage": 15,
+      "knockback": 50,
+      "spellDamage": -20,
+      "walkSpeed": -15
     },
     "identified": true,
     "internalName": "Sprout",
@@ -158603,6 +158656,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
+      "knockback": 15,
       "thunderDamage": 17,
       "waterDamage": -8
     },
@@ -160452,7 +160506,7 @@
     "identifications": {
       "lifeSteal": 20,
       "manaSteal": 8,
-      "spellDamage": 20
+      "waterSpellDamage": 25
     },
     "identified": true,
     "internalName": "Styx's Grab",
@@ -170627,11 +170681,10 @@
       }
     },
     "identifications": {
-      "manaSteal": 4,
+      "manaSteal": 5,
       "rawHealth": -100,
-      "rawSpellDamage": 40,
-      "thunderDamage": 13,
-      "thunderDefence": 13,
+      "rawThunderSpellDamage": 40,
+      "thunderDefence": 15,
       "walkSpeed": 8
     },
     "identified": true,
@@ -171423,7 +171476,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "thunderDamage": 85
+      "manaSteal": 12,
+      "rawDexterity": 5,
+      "thunderDamage": 90
     },
     "identified": true,
     "internalName": "Thunder Sanctuary",
@@ -176822,8 +176877,13 @@
   },
   "Unsheathed Glaive": {
     "attackSpeed": "normal",
-    "averageDps": 340,
+    "averageDps": 345,
     "base": {
+      "baseDamage": {
+        "max": 5,
+        "min": 0,
+        "raw": 0
+      },
       "baseFireDamage": {
         "max": 90,
         "min": 75,
@@ -176846,39 +176906,35 @@
     },
     "identifications": {
       "fireDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "fireDefence": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
       "mainAttackDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
+      "mainAttackRange": {
+        "max": 60,
+        "min": 14,
+        "raw": 46
+      },
+      "manaSteal": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "rawDefence": 8,
       "rawIntelligence": 8,
-      "spellDamage": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
-      },
       "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "waterDefence": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 33,
+        "min": 8,
+        "raw": 25
       }
     },
     "internalName": "Unsheathed Glaive",
+    "powderSlots": 2,
     "rarity": "unique",
     "requirements": {
       "classRequirement": "warrior",
@@ -179110,6 +179166,9 @@
   },
   "Vapor": {
     "accessoryType": "ring",
+    "base": {
+      "baseFireDefence": 10
+    },
     "dropMeta": {
       "coordinates": [
         132,
@@ -179130,14 +179189,13 @@
     },
     "identifications": {
       "fireDamage": 15,
-      "fireDefence": 15,
       "waterDamage": -10
     },
     "identified": true,
     "internalName": "Vapor",
     "rarity": "rare",
     "requirements": {
-      "intelligence": 35,
+      "intelligence": 25,
       "level": 45
     },
     "restrictions": "untradable",
@@ -181385,8 +181443,9 @@
       }
     },
     "identifications": {
-      "rawDefence": -5,
-      "rawIntelligence": 5
+      "rawDefence": -3,
+      "rawIntelligence": 5,
+      "reflection": 15
     },
     "identified": true,
     "internalName": "Vitre",
@@ -183771,16 +183830,6 @@
         "raw": 55
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -183823,12 +183872,12 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Daggers",
+    "internalName": "Water Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "intelligence": 25,
+      "intelligence": 30,
       "level": 65
     },
     "type": "weapon",
@@ -184170,7 +184219,9 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "waterDamage": 85
+      "manaRegen": 15,
+      "rawIntelligence": 5,
+      "waterDamage": 90
     },
     "identified": true,
     "internalName": "Water Sanctuary",
@@ -185319,10 +185370,9 @@
       }
     },
     "identifications": {
-      "airDamage": 6,
       "airDefence": 20,
+      "airSpellDamage": 15,
       "reflection": 40,
-      "spellDamage": 7,
       "walkSpeed": 10,
       "waterDefence": 20
     },
@@ -185959,12 +186009,12 @@
       }
     },
     "identifications": {
-      "airDamage": 15,
       "earthDamage": -25,
-      "manaSteal": 8,
+      "manaSteal": 12,
       "rawAgility": 7,
+      "rawAirDamage": 135,
       "reflection": 30,
-      "thunderDefence": 20,
+      "thunderDefence": 50,
       "walkSpeed": 25
     },
     "identified": true,
