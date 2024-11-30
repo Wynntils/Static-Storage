@@ -116,5 +116,6 @@
   "thunderMeleeDamageBonusRaw": 114,
   "maxMana": 115,
   "neutralSpellDamage": 116,
-  "rawMaxMana": 117
+  "rawMaxMana": 117,
+  "mainAttackRange": 118
 }
