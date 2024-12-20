@@ -2369,6 +2369,48 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Afelis's Locket": {
+    "accessoryType": "necklace",
+    "base": {
+      "baseFireDefence": 50,
+      "baseHealth": 375
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "173",
+        "id": "minecraft:iron_horse_armor",
+        "name": "necklace.basicGold"
+      }
+    },
+    "identifications": {
+      "elementalDefence": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "healthRegenRaw": {
+        "max": 85,
+        "min": 20,
+        "raw": 65
+      }
+    },
+    "internalName": "Afelis's Locket",
+    "lore": "A golden locket Afelis always carried with them. Inside is a picture of Afelis embracing a woman in the Detlas square. 'A+E' is inscribed on the front.",
+    "rarity": "fabled",
+    "requirements": {
+      "defence": 60,
+      "level": 70
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
+  },
   "Affluence": {
     "accessoryType": "necklace",
     "dropMeta": {
@@ -8949,7 +8991,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "464",
+        "customModelData": "472",
         "id": "minecraft:iron_horse_armor",
         "name": "spear.air3"
       }
@@ -8964,6 +9006,11 @@
         "max": 156,
         "min": 36,
         "raw": 120
+      },
+      "mainAttackRange": {
+        "max": 163,
+        "min": 38,
+        "raw": 125
       },
       "rawAgility": 15,
       "rawDefence": 10,
@@ -9059,6 +9106,38 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Arctic Vixen's Pelt": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": 100,
+      "baseFireDefence": 100,
+      "baseHealth": 2500,
+      "baseWaterDefence": -65
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "4thSpellCost": -16,
+      "airDamage": 10,
+      "fireDamage": 15,
+      "healthRegenRaw": 130,
+      "rawIntelligence": -8,
+      "rawMaxMana": -25,
+      "walkSpeed": 15
+    },
+    "identified": true,
+    "internalName": "Arctic Vixen's Pelt",
+    "powderSlots": 2,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 40,
+      "defence": 40,
+      "level": 80
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Arcus": {
     "armourMaterial": "iron",
@@ -10745,6 +10824,74 @@
       "strength": 45
     },
     "type": "armour"
+  },
+  "Attrition": {
+    "attackSpeed": "slow",
+    "averageDps": 450,
+    "base": {
+      "baseDamage": {
+        "max": 90,
+        "min": 65,
+        "raw": 65
+      },
+      "baseFireDamage": {
+        "max": 235,
+        "min": 210,
+        "raw": 210
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "198",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.fire2"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": {
+        "max": 70,
+        "min": 16,
+        "raw": 54
+      },
+      "manaRegen": {
+        "max": -15,
+        "min": -29,
+        "raw": -22
+      },
+      "rawDefence": 25,
+      "rawHealth": {
+        "max": 650,
+        "min": 150,
+        "raw": 500
+      },
+      "rawMaxMana": {
+        "max": 200,
+        "min": 46,
+        "raw": 154
+      },
+      "spellDamage": {
+        "max": -20,
+        "min": -38,
+        "raw": -29
+      }
+    },
+    "internalName": "Attrition",
+    "lore": "Outrun. Outsmart. Outlast.",
+    "majorIds": {
+      "Methodical": "<span class='font-ascii' style='color:#55FFFF'>+Methodical: <span class='font-ascii' style='color:#00AAAA'>Initiator's reset time is reduced by 75%. Arrow Bomb deals less area damage, but more direct hit damage.</span></span>"
+    },
+    "powderSlots": 3,
+    "rarity": "fabled",
+    "requirements": {
+      "classRequirement": "archer",
+      "defence": 40,
+      "intelligence": 40,
+      "level": 55
+    },
+    "type": "weapon",
+    "weaponType": "bow"
   },
   "Audacity": {
     "armourColor": "rgb(160,101,64)",
@@ -14843,6 +14990,42 @@
     "type": "weapon",
     "weaponType": "relik"
   },
+  "Bifrost": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": 100,
+      "baseEarthDefence": 100,
+      "baseFireDefence": 100,
+      "baseHealth": 3100,
+      "baseThunderDefence": 100,
+      "baseWaterDefence": 100
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "elementalMainAttackDamage": 50,
+      "exploding": 15,
+      "mainAttackRange": 25,
+      "manaSteal": 10,
+      "spellDamage": -20,
+      "thorns": 25
+    },
+    "identified": true,
+    "internalName": "Bifrost",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 30,
+      "defence": 30,
+      "dexterity": 25,
+      "intelligence": 25,
+      "level": 85,
+      "strength": 35
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
   "Big Arm": {
     "attackSpeed": "very_slow",
     "averageDps": 552,
@@ -15321,6 +15504,38 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Bitter Cold": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": 50,
+      "baseHealth": 1500,
+      "baseWaterDefence": 50
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "healthRegen": -20,
+      "rawAgility": 5,
+      "rawAirSpellDamage": 85,
+      "rawIntelligence": 8,
+      "rawMaxMana": -30,
+      "rawWaterSpellDamage": 85,
+      "reflection": 25,
+      "walkSpeed": -8
+    },
+    "identified": true,
+    "internalName": "Bitter Cold",
+    "powderSlots": 2,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 35,
+      "intelligence": 40,
+      "level": 70
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Bizzles": {
     "attackSpeed": "very_slow",
@@ -18565,6 +18780,83 @@
     },
     "type": "weapon",
     "weaponType": "bow"
+  },
+  "Blunt Force": {
+    "attackSpeed": "very_fast",
+    "averageDps": 620,
+    "base": {
+      "baseAirDamage": {
+        "max": 90,
+        "min": 40,
+        "raw": 40
+      },
+      "baseDamage": {
+        "max": 10,
+        "min": 0,
+        "raw": 0
+      },
+      "baseEarthDamage": {
+        "max": 80,
+        "min": 50,
+        "raw": 50
+      },
+      "baseFireDamage": {
+        "max": 70,
+        "min": 60,
+        "raw": 60
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "475",
+        "id": "minecraft:iron_horse_armor",
+        "name": "spear.earth3"
+      }
+    },
+    "identifications": {
+      "criticalDamageBonus": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
+      },
+      "knockback": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "mainAttackDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "rawSpellDamage": {
+        "max": -8400,
+        "min": -15600,
+        "raw": -12000
+      },
+      "weakenEnemy": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      }
+    },
+    "internalName": "Blunt Force",
+    "majorIds": {
+      "Vitriol": "<span class='font-ascii' style='color:#55FFFF'>+Vitriol: <span class='font-ascii' style='color:#00AAAA'>Uncontainable Corruption decreases Corrupted duration by 75% and gives drastically more damage, but disables Enraged Blow. Massacre has no cooldown.</span></span>"
+    },
+    "powderSlots": 1,
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 45,
+      "classRequirement": "warrior",
+      "defence": 45,
+      "level": 105,
+      "strength": 65
+    },
+    "type": "weapon",
+    "weaponType": "spear"
   },
   "Blur": {
     "attackSpeed": "super_fast",
@@ -30618,6 +30910,38 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Circlet of Silver Feathers": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseAirDefence": 12,
+      "baseWaterDefence": 10
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "158",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.basicIron"
+      }
+    },
+    "identifications": {
+      "fireDefence": -25,
+      "jumpHeight": 1,
+      "manaRegen": 6,
+      "sprintRegen": 20,
+      "walkSpeed": -10
+    },
+    "identified": true,
+    "internalName": "Circlet of Silver Feathers",
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 50,
+      "level": 60
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
+  },
   "Circuit Buster": {
     "attackSpeed": "fast",
     "averageDps": 79,
@@ -41792,6 +42116,56 @@
     },
     "type": "accessory"
   },
+  "Death Grasp": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseEarthDefence": 80,
+      "baseHealth": 500
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "163",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.earth2"
+      }
+    },
+    "identifications": {
+      "earthMainAttackDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "lifeSteal": {
+        "max": 250,
+        "min": 58,
+        "raw": 192
+      },
+      "mainAttackRange": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
+      "rawAttackSpeed": {
+        "max": -13,
+        "min": -23,
+        "raw": -18
+      },
+      "walkSpeed": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      }
+    },
+    "internalName": "Death Grasp",
+    "rarity": "legendary",
+    "requirements": {
+      "level": 103,
+      "strength": 75
+    },
+    "type": "accessory"
+  },
   "Death Growl": {
     "attackSpeed": "slow",
     "averageDps": 38,
@@ -42161,7 +42535,7 @@
     "internalName": "Decaybound Spindle",
     "lore": "Decay spreads unseen, but you know it spreads, and that is enough.",
     "majorIds": {
-      "Gruesome Knots": "<span class='font-ascii' style='color:#55FFFF'>+Gruesome Knots: <span class='font-ascii' style='color:#00AAAA'>Twisted Tether spends three times as much of your </span><span class='font-ascii' style='color:#55FFFF'>Blood Pool </span><span class='font-ascii' style='color:#AA0000'><span class='font-default'></span>⚕</span> </span><span class='font-ascii' style='color:#00AAAA'>to deal double damage</span></span>"
+      "Gruesome Knots": "<span class='font-ascii' style='color:#55FFFF'>+Gruesome Knots: <span class='font-ascii' style='color:#00AAAA'>Bleeding and Twisted Tether deal double damage, but Bleeding duration is reduced</span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -50249,6 +50623,60 @@
     "restrictions": "untradable",
     "type": "armour"
   },
+  "Dune Kiln": {
+    "attackSpeed": "super_slow",
+    "averageDps": 255,
+    "base": {
+      "baseDamage": {
+        "max": 250,
+        "min": 150,
+        "raw": 150
+      },
+      "baseFireDamage": {
+        "max": 325,
+        "min": 275,
+        "raw": 275
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        1390,
+        90,
+        -1835
+      ],
+      "name": "Sand-Swept Tomb",
+      "type": "dungeonMerchant"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "407",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.fire2"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": -25,
+      "exploding": 40,
+      "healthRegenRaw": 25,
+      "manaSteal": 10,
+      "walkSpeed": -15
+    },
+    "identified": true,
+    "internalName": "Dune Kiln",
+    "lore": "\"You don't really advance much when it comes to ovens. For clay, glass, ceramics...it was perfected a long time ago.\" -Treous, Almuj Glassblower",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "classRequirement": "shaman",
+      "defence": 30,
+      "level": 40
+    },
+    "restrictions": "untradable",
+    "type": "weapon",
+    "weaponType": "relik"
+  },
   "Dune Sandals": {
     "armourMaterial": "golden",
     "armourType": "boots",
@@ -54036,6 +54464,37 @@
     },
     "type": "weapon",
     "weaponType": "bow"
+  },
+  "Elk's Hoof": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "boots",
+    "base": {
+      "baseAirDefence": 80,
+      "baseHealth": 1450,
+      "baseWaterDefence": 80
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "2ndSpellCost": -18,
+      "airDefence": 30,
+      "earthDamage": 20,
+      "fireDamage": 20,
+      "healthRegen": 30,
+      "rawAgility": -5,
+      "waterDefence": 30
+    },
+    "identified": true,
+    "internalName": "Elk's Hoof",
+    "powderSlots": 3,
+    "rarity": "set",
+    "requirements": {
+      "defence": 30,
+      "level": 65,
+      "strength": 30
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Elven Moccasins": {
     "armourColor": "rgb(160,101,64)",
@@ -67021,6 +67480,38 @@
       "agility": 45,
       "intelligence": 60,
       "level": 98
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
+  "Frigg's Vow": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "helmet",
+    "base": {
+      "baseAirDefence": 75,
+      "baseEarthDefence": 50,
+      "baseFireDefence": 75,
+      "baseHealth": 3275,
+      "baseThunderDefence": 75,
+      "baseWaterDefence": 75
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "1stSpellCost": -20,
+      "damage": -20,
+      "elementalDefence": 40,
+      "healthRegen": 40,
+      "healthRegenRaw": 185,
+      "rawDefence": 15
+    },
+    "identified": true,
+    "internalName": "Frigg's Vow",
+    "powderSlots": 4,
+    "rarity": "rare",
+    "requirements": {
+      "defence": 65,
+      "level": 90
     },
     "restrictions": "untradable",
     "type": "armour"
@@ -80711,6 +81202,37 @@
     "type": "weapon",
     "weaponType": "spear"
   },
+  "Hinterlands": {
+    "accessoryType": "necklace",
+    "base": {
+      "baseAirDefence": 30,
+      "baseWaterDefence": 20
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "178",
+        "id": "minecraft:iron_horse_armor",
+        "name": "necklace.air2"
+      }
+    },
+    "identifications": {
+      "4thSpellCost": -8,
+      "rawAirSpellDamage": 30,
+      "rawEarthSpellDamage": 30
+    },
+    "identified": true,
+    "internalName": "Hinterlands",
+    "rarity": "rare",
+    "requirements": {
+      "agility": 40,
+      "level": 85,
+      "strength": 40
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
+  },
   "Hirudo": {
     "attackSpeed": "normal",
     "averageDps": 400,
@@ -83367,7 +83889,7 @@
     "internalName": "Ignis",
     "lore": "This bow, used by the dwarves to land the final blow in the slaughter of Garaheth is extremely powerful. Special, fire resistant gloves must be worn at all times to prevent burns to the user.",
     "majorIds": {
-      "Heart of the Pack": "<span class='font-ascii' style='color:#55FFFF'>+Heart of the Pack: <span class='font-ascii' style='color:#00AAAA'>Nearby players gain 75% of the health you naturally regenerate</span></span>"
+      "Altruism": "<span class='font-ascii' style='color:#55FFFF'>+Altruism: <span class='font-ascii' style='color:#00AAAA'>Nearby players gain 100% of the health you gain from Health Regen and Life Steal</span></span>"
     },
     "powderSlots": 3,
     "rarity": "mythic",
@@ -86612,7 +87134,7 @@
     "internalName": "Infinity",
     "lore": "If you reach for ammunition from your quiver, as long as you have a single arrow, you will find you never run out.",
     "majorIds": {
-      "Evershot": "<span class='font-ascii' style='color:#55FFFF'>+Evershot: <span class='font-ascii' style='color:#00AAAA'>Arrow Hurricane becomes a consistent, straight stream of arrows with a slower fire rate, dealing greater knockback and double damage per arrow</span></span>"
+      "Evershot": "<span class='font-ascii' style='color:#55FFFF'>+Evershot: <span class='font-ascii' style='color:#00AAAA'>Arrow Hurricane becomes a consistent, straight stream of arrows with a slower fire rate, dealing greater knockback and triple damage per arrow</span></span>"
     },
     "powderSlots": 2,
     "rarity": "legendary",
@@ -88967,6 +89489,59 @@
     },
     "type": "weapon",
     "weaponType": "bow"
+  },
+  "Ivy Whip": {
+    "attackSpeed": "slow",
+    "averageDps": 68,
+    "base": {
+      "baseDamage": {
+        "max": 25,
+        "min": 15,
+        "raw": 15
+      },
+      "baseEarthDamage": {
+        "max": 25,
+        "min": 25,
+        "raw": 25
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -157,
+        54,
+        -1819
+      ],
+      "name": "Infested Pit",
+      "type": "dungeonMerchant"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "403",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.earth1"
+      }
+    },
+    "identifications": {
+      "4thSpellCost": -15,
+      "earthDamage": 8,
+      "knockback": 30,
+      "rawStrength": 2
+    },
+    "identified": true,
+    "internalName": "Ivy Whip",
+    "lore": "\"The vines you'll find among the foilage make for great rope!\" -Alekin's Guide to Plant Fiber Cordage",
+    "powderSlots": 1,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "shaman",
+      "level": 19,
+      "strength": 5
+    },
+    "restrictions": "untradable",
+    "type": "weapon",
+    "weaponType": "relik"
   },
   "Jackal Crest": {
     "accessoryType": "necklace",
@@ -101802,6 +102377,58 @@
     },
     "type": "accessory"
   },
+  "Match": {
+    "attackSpeed": "slow",
+    "averageDps": 45,
+    "base": {
+      "baseDamage": {
+        "max": 12,
+        "min": 8,
+        "raw": 8
+      },
+      "baseFireDamage": {
+        "max": 25,
+        "min": 15,
+        "raw": 15
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -157,
+        54,
+        -1819
+      ],
+      "name": "Infested Pit",
+      "type": "dungeonMerchant"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "336",
+        "id": "minecraft:iron_horse_armor",
+        "name": "wand.fire1"
+      }
+    },
+    "identifications": {
+      "fireDefence": 30,
+      "rawFireDamage": 20,
+      "walkSpeed": -8
+    },
+    "identified": true,
+    "internalName": "Match",
+    "lore": "\"Controlled burns are healthy, but it's clear why no one wants to do them.\" -Darek, Alekin Trailblazer",
+    "powderSlots": 1,
+    "rarity": "rare",
+    "requirements": {
+      "classRequirement": "mage",
+      "defence": 8,
+      "level": 21
+    },
+    "restrictions": "untradable",
+    "type": "weapon",
+    "weaponType": "wand"
+  },
   "Matchbook": {
     "accessoryType": "necklace",
     "base": {
@@ -112459,7 +113086,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "256",
+        "customModelData": "258",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.basicGold"
       }
@@ -112494,6 +113121,9 @@
     },
     "internalName": "Nullification",
     "lore": "The diminutive stature of this item belies its abilities. Absorbing and expelling magical energy in precise bursts, it protects the user from all manner of attacks while punishing those who dare strike.",
+    "majorIds": {
+      "Punishment": "<span class='font-ascii' style='color:#55FFFF'>+Punishment: <span class='font-ascii' style='color:#00AAAA'>Reflected damage blinds enemies for 1s and makes them 10% more vulnerable to attacks for 3s</span></span>"
+    },
     "powderSlots": 3,
     "rarity": "mythic",
     "requirements": {
@@ -116246,9 +116876,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": 21,
-        "min": 5,
-        "raw": 16
+        "max": 39,
+        "min": 9,
+        "raw": 30
       },
       "elementalDamage": {
         "max": -14,
@@ -116256,14 +116886,14 @@
         "raw": -20
       },
       "lifeSteal": {
-        "max": 273,
-        "min": 63,
-        "raw": 210
+        "max": 332,
+        "min": 77,
+        "raw": 255
       },
       "mainAttackDamage": {
-        "max": 65,
-        "min": 15,
-        "raw": 50
+        "max": 72,
+        "min": 17,
+        "raw": 55
       }
     },
     "internalName": "Outrage",
@@ -117206,7 +117836,7 @@
     "internalName": "Pain Cycle",
     "lore": "Every ounce of your suffering must be made worth it. Otherwise, what was the point of it all?",
     "majorIds": {
-      "Gruesome Knots": "<span class='font-ascii' style='color:#55FFFF'>+Gruesome Knots: <span class='font-ascii' style='color:#00AAAA'>Twisted Tether spends three times as much of your </span><span class='font-ascii' style='color:#55FFFF'>Blood Pool </span><span class='font-ascii' style='color:#AA0000'><span class='font-default'></span>⚕</span> </span><span class='font-ascii' style='color:#00AAAA'>to deal double damage</span></span>"
+      "Gruesome Knots": "<span class='font-ascii' style='color:#55FFFF'>+Gruesome Knots: <span class='font-ascii' style='color:#00AAAA'>Bleeding and Twisted Tether deal double damage, but Bleeding duration is reduced</span></span>"
     },
     "rarity": "fabled",
     "requirements": {
@@ -117269,6 +117899,36 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Pale Sun": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseFireDefence": 35
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "165",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.fire2"
+      }
+    },
+    "identifications": {
+      "damage": -7,
+      "healingEfficiency": 7,
+      "healthRegenRaw": 75,
+      "reflection": 12
+    },
+    "identified": true,
+    "internalName": "Pale Sun",
+    "rarity": "rare",
+    "requirements": {
+      "defence": 55,
+      "level": 85
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
   },
   "Palette": {
     "attackSpeed": "normal",
@@ -127506,6 +128166,57 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Pyrexia": {
+    "attackSpeed": "super_fast",
+    "averageDps": 103,
+    "base": {
+      "baseDamage": {
+        "max": 10,
+        "min": 0,
+        "raw": 0
+      },
+      "baseThunderDamage": {
+        "max": 35,
+        "min": 3,
+        "raw": 3
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -157,
+        54,
+        -1819
+      ],
+      "name": "Infested Pit",
+      "type": "dungeonMerchant"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "200",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bow.thunder1"
+      }
+    },
+    "identifications": {
+      "fireDamage": 15,
+      "healthRegenRaw": -10,
+      "rawThunderMainAttackDamage": 12
+    },
+    "identified": true,
+    "internalName": "Pyrexia",
+    "lore": "\"I always thought Yahya was venom-addled, but the symptoms don't match...\" -Pyeka, Alekin Herbalist",
+    "rarity": "rare",
+    "requirements": {
+      "classRequirement": "archer",
+      "dexterity": 10,
+      "level": 21
+    },
+    "restrictions": "untradable",
+    "type": "weapon",
+    "weaponType": "bow"
+  },
   "Pyroclast": {
     "attackSpeed": "super_slow",
     "averageDps": 530,
@@ -128575,6 +129286,42 @@
     },
     "type": "weapon",
     "weaponType": "dagger"
+  },
+  "Quilted Carapace": {
+    "armourColor": "rgb(216,88,0)",
+    "armourMaterial": "leather",
+    "armourType": "chestplate",
+    "base": {
+      "baseAirDefence": 50,
+      "baseEarthDefence": 75,
+      "baseFireDefence": 125,
+      "baseHealth": 2750,
+      "baseThunderDefence": 50,
+      "baseWaterDefence": 100
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "elementalDefence": 40,
+      "healthRegen": 40,
+      "lifeSteal": -275,
+      "sprint": -25,
+      "thorns": 40
+    },
+    "identified": true,
+    "internalName": "Quilted Carapace",
+    "lore": "This patchwork of shells from the Corkian Astrochelys makes for quite the statement sweater; it keeps your neck warm and besides, your foes' fashion fancies feel frivolous, anyway.",
+    "majorIds": {
+      "Transcendence": "<span class='font-ascii' style='color:#55FFFF'>+Transcendence: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells to cost no mana when casted</span></span>"
+    },
+    "powderSlots": 5,
+    "rarity": "fabled",
+    "requirements": {
+      "defence": 85,
+      "intelligence": 85,
+      "level": 90
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Quinque": {
     "attackSpeed": "super_fast",
@@ -134904,6 +135651,37 @@
     },
     "type": "accessory"
   },
+  "Rime-Webbed Antlers": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "helmet",
+    "base": {
+      "baseAirDefence": 80,
+      "baseHealth": 1125,
+      "baseThunderDefence": 80
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "2ndSpellCost": -18,
+      "airDamage": 15,
+      "manaSteal": 8,
+      "rawDefence": -5,
+      "sprint": 30,
+      "sprintRegen": 45,
+      "thunderDamage": 15
+    },
+    "identified": true,
+    "internalName": "Rime-Webbed Antlers",
+    "powderSlots": 3,
+    "rarity": "set",
+    "requirements": {
+      "agility": 30,
+      "dexterity": 30,
+      "level": 65
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
   "Ring of Fire": {
     "accessoryType": "ring",
     "base": {
@@ -135433,6 +136211,11 @@
         "max": 31,
         "min": 7,
         "raw": 24
+      },
+      "rawMaxMana": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "reflection": {
         "max": 7,
@@ -146483,6 +147266,59 @@
       "level": 87
     },
     "type": "armour"
+  },
+  "Silk Slasher": {
+    "attackSpeed": "fast",
+    "averageDps": 75,
+    "base": {
+      "baseAirDamage": {
+        "max": 30,
+        "min": 10,
+        "raw": 10
+      },
+      "baseDamage": {
+        "max": 15,
+        "min": 5,
+        "raw": 5
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -157,
+        54,
+        -1819
+      ],
+      "name": "Infested Pit",
+      "type": "dungeonMerchant"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "259",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.air1"
+      }
+    },
+    "identifications": {
+      "rawAgility": 3,
+      "rawAirDamage": 16,
+      "sprint": 20,
+      "walkSpeed": 10
+    },
+    "identified": true,
+    "internalName": "Silk Slasher",
+    "lore": "\"Cut a web, and its owner will feel it and come out. That's your chance to strike.\" -Lieutenant Van, Detlas 2nd Regiment",
+    "powderSlots": 1,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 10,
+      "classRequirement": "assassin",
+      "level": 20
+    },
+    "restrictions": "untradable",
+    "type": "weapon",
+    "weaponType": "dagger"
   },
   "Silken Slippers": {
     "armourColor": "rgb(160,101,64)",
@@ -176352,6 +177188,64 @@
     },
     "type": "armour"
   },
+  "Uncanny Mirage": {
+    "attackSpeed": "very_fast",
+    "averageDps": 93,
+    "base": {
+      "baseAirDamage": {
+        "max": 30,
+        "min": 0,
+        "raw": 0
+      },
+      "baseDamage": {
+        "max": 30,
+        "min": 0,
+        "raw": 0
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "260",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.air2"
+      }
+    },
+    "identifications": {
+      "mainAttackRange": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "manaSteal": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      },
+      "rawAirMainAttackDamage": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "rawAirSpellDamage": {
+        "max": 59,
+        "min": 14,
+        "raw": 45
+      },
+      "rawAttackSpeed": 1
+    },
+    "internalName": "Uncanny Mirage",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 30,
+      "classRequirement": "assassin",
+      "level": 29
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
+  },
   "Undefined": {
     "armourMaterial": "diamond",
     "armourType": "boots",
@@ -176992,6 +177886,37 @@
       "strength": 36
     },
     "type": "accessory"
+  },
+  "Untimely Demise": {
+    "armourColor": "rgb(156,73,0)",
+    "armourMaterial": "leather",
+    "armourType": "chestplate",
+    "base": {
+      "baseHealth": 2450,
+      "baseThunderDefence": 200,
+      "baseWaterDefence": -75
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "3rdSpellCost": -20,
+      "healthRegenRaw": -200,
+      "raw2ndSpellCost": -5,
+      "rawDexterity": 10,
+      "thunderMainAttackDamage": 50,
+      "walkSpeed": 15,
+      "waterDefence": -35
+    },
+    "identified": true,
+    "internalName": "Untimely Demise",
+    "lore": "“Death claims your soul...”",
+    "powderSlots": 2,
+    "rarity": "rare",
+    "requirements": {
+      "dexterity": 85,
+      "level": 90
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Updraft": {
     "armourMaterial": "diamond",
@@ -181949,7 +182874,7 @@
     "type": "weapon",
     "weaponType": "dagger"
   },
-  "Voidstone Lensing": {
+  "Voidstone Lersing": {
     "attackSpeed": "very_slow",
     "averageDps": 685,
     "base": {
@@ -181990,7 +182915,7 @@
       "walkSpeed": 12
     },
     "identified": true,
-    "internalName": "Voidstone Lensing",
+    "internalName": "Voidstone Lersing",
     "powderSlots": 2,
     "rarity": "rare",
     "requirements": {
@@ -182487,7 +183412,7 @@
     },
     "internalName": "Vulcan",
     "majorIds": {
-      "Heart of the Pack": "<span class='font-ascii' style='color:#55FFFF'>+Heart of the Pack: <span class='font-ascii' style='color:#00AAAA'>Nearby players gain 75% of the health you naturally regenerate</span></span>"
+      "Altruism": "<span class='font-ascii' style='color:#55FFFF'>+Altruism: <span class='font-ascii' style='color:#00AAAA'>Nearby players gain 100% of the health you gain from Health Regen and Life Steal</span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -183830,6 +184755,16 @@
         "raw": 55
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -183872,12 +184807,12 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "type": "weapon",
@@ -187140,6 +188075,37 @@
     },
     "type": "armour"
   },
+  "Winter Solstice": {
+    "accessoryType": "ring",
+    "base": {
+      "baseHealth": -195
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "154",
+        "id": "minecraft:iron_horse_armor",
+        "name": "ring.water1"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": -13,
+      "manaRegen": 4,
+      "manaSteal": 3,
+      "rawSpellDamage": 31
+    },
+    "identified": true,
+    "internalName": "Winter Solstice",
+    "rarity": "legendary",
+    "requirements": {
+      "dexterity": 20,
+      "intelligence": 25,
+      "level": 50
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
+  },
   "Winter's Essence": {
     "armourMaterial": "chain",
     "armourType": "leggings",
@@ -188320,6 +189286,35 @@
     },
     "type": "weapon",
     "weaponType": "wand"
+  },
+  "Wreathbound Boots": {
+    "armourColor": "rgb(160,101,64)",
+    "armourMaterial": "leather",
+    "armourType": "boots",
+    "base": {
+      "baseEarthDefence": 85,
+      "baseHealth": 1935
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "1stSpellCost": 12,
+      "airDefence": -12,
+      "earthMainAttackDamage": 15,
+      "healingEfficiency": 12,
+      "mainAttackDamage": 20,
+      "rawStrength": 8,
+      "thorns": 30
+    },
+    "identified": true,
+    "internalName": "Wreathbound Boots",
+    "powderSlots": 3,
+    "rarity": "rare",
+    "requirements": {
+      "level": 75,
+      "strength": 50
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Wristviewer": {
     "accessoryType": "bracelet",
