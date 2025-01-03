@@ -53,7 +53,7 @@
     },
     "internalName": "A16-L31 Handheld Mortar",
     "majorIds": {
-      "Totemic Fuse": "<span class='font-ascii' style='color:#55FFFF'>+Totemic Fuse: <span class='font-ascii' style='color:#00AAAA'>Totemic Smash doubles in radius and deals extra damage but Totem lasts half as long.</span></span>"
+      "Totemic Fuse": "<span class='font-ascii' style='color:#55FFFF'>+Totemic Fuse: <span class='font-ascii' style='color:#00AAAA'>Totemic Smash deals far greater damage but Totem lasts half as long.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -1162,6 +1162,59 @@
     },
     "type": "weapon",
     "weaponType": "bow"
+  },
+  "Ad Terram": {
+    "accessoryType": "ring",
+    "base": {
+      "baseAirDefence": -50,
+      "baseEarthDefence": 75,
+      "baseHealth": -500,
+      "baseThunderDefence": -50
+    },
+    "dropRestriction": "lootchest",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "149",
+        "id": "minecraft:iron_horse_armor",
+        "name": "ring.earth2"
+      }
+    },
+    "identifications": {
+      "earthMainAttackDamage": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "mainAttackRange": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "rawAirDamage": {
+        "max": -52,
+        "min": -97,
+        "raw": -75
+      },
+      "rawAttackSpeed": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      },
+      "rawStrength": 4,
+      "rawThunderDamage": {
+        "max": -52,
+        "min": -97,
+        "raw": -75
+      }
+    },
+    "internalName": "Ad Terram",
+    "rarity": "rare",
+    "requirements": {
+      "level": 104,
+      "strength": 50
+    },
+    "type": "accessory"
   },
   "Adamantite": {
     "armourMaterial": "iron",
@@ -16032,9 +16085,9 @@
     "dropRestriction": "never",
     "identifications": {
       "3rdSpellCost": {
-        "max": -10,
-        "min": -2,
-        "raw": -8
+        "max": -19,
+        "min": -4,
+        "raw": -15
       },
       "fireDamage": {
         "max": 33,
@@ -16047,9 +16100,9 @@
         "raw": 165
       },
       "manaRegen": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": -4,
+        "min": -8,
+        "raw": -6
       },
       "rawFireMainAttackDamage": {
         "max": 330,
@@ -16066,7 +16119,7 @@
     "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
-      "defence": 85,
+      "defence": 80,
       "level": 95
     },
     "type": "armour"
@@ -17242,7 +17295,7 @@
     "lore": "...It's pulling towards something.",
     "rarity": "legendary",
     "requirements": {
-      "defence": 10,
+      "defence": 15,
       "level": 41
     },
     "type": "accessory"
@@ -17491,22 +17544,22 @@
   },
   "Blighted Seraph": {
     "attackSpeed": "very_fast",
-    "averageDps": 682,
+    "averageDps": 574,
     "base": {
       "baseDamage": {
-        "max": 45,
+        "max": 40,
+        "min": 35,
+        "raw": 35
+      },
+      "baseThunderDamage": {
+        "max": 120,
         "min": 40,
         "raw": 40
       },
-      "baseThunderDamage": {
-        "max": 135,
-        "min": 55,
-        "raw": 55
-      },
       "baseWaterDamage": {
-        "max": 90,
-        "min": 75,
-        "raw": 75
+        "max": 75,
+        "min": 60,
+        "raw": 60
       }
     },
     "dropRestriction": "never",
@@ -18503,7 +18556,7 @@
     "internalName": "Blossom Haze",
     "lore": "And as the spring bursts, the blossom petals flutter in the wind amongst the ashes of your enemies.",
     "majorIds": {
-      "Cherry Bombs": "<span class='font-ascii' style='color:#55FFFF'>+Cherry Bombs: <span class='font-ascii' style='color:#00AAAA'>Turn Smoke Bomb into three firecrackers that fly farther, tighter, and deal high damage instantly</span></span>"
+      "Cherry Bombs": "<span class='font-ascii' style='color:#55FFFF'>+Cherry Bombs: <span class='font-ascii' style='color:#00AAAA'>Turn Smoke Bomb into firecrackers that fly farther, tighter, and deal high damage instantly</span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -22009,7 +22062,7 @@
     },
     "internalName": "Briars' Embrace",
     "majorIds": {
-      "Forest's Blessing": "<span class='font-ascii' style='color:#55FFFF'>+Forest's Blessing: <span class='font-ascii' style='color:#00AAAA'>Your archer summons have increased movement speed, attack speed, and vision. Arrow Bomb's damage is reduced by <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> </span><span class='font-ascii' style='color:#00AAAA'>-30% </span></span></span></span>"
+      "Forest's Blessing": "<span class='font-ascii' style='color:#55FFFF'>+Forest's Blessing: <span class='font-ascii' style='color:#00AAAA'>Your archer summons have increased movement speed, attack speed, and vision. Arrow Bomb's damage is reduced by <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span> </span><span class='font-ascii' style='color:#00AAAA'>-30% </span></span></span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -33205,6 +33258,49 @@
     "type": "weapon",
     "weaponType": "dagger"
   },
+  "Coeur Brise": {
+    "armourMaterial": "golden",
+    "armourType": "chestplate",
+    "base": {
+      "baseFireDefence": -5,
+      "baseHealth": 125
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "elementalDefence": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "healthRegenRaw": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "manaRegen": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "rawDefence": -3,
+      "rawIntelligence": 3,
+      "rawStrength": 3,
+      "reflection": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      }
+    },
+    "internalName": "Coeur Brise",
+    "lore": "Left to brittle introspection, love unrequited stings the most when it brings down something built to last.",
+    "powderSlots": 2,
+    "rarity": "rare",
+    "requirements": {
+      "defence": 12,
+      "level": 24
+    },
+    "type": "armour"
+  },
   "Coeur de Lion": {
     "attackSpeed": "slow",
     "averageDps": 158,
@@ -34758,7 +34854,7 @@
     "internalName": "Conspirator's Trickpockets",
     "lore": "No reign lasts forever. Not while your schemes remain unnoticed.",
     "majorIds": {
-      "Cherry Bombs": "<span class='font-ascii' style='color:#55FFFF'>+Cherry Bombs: <span class='font-ascii' style='color:#00AAAA'>Turn Smoke Bomb into three firecrackers that fly farther, tighter, and deal high damage instantly</span></span>"
+      "Cherry Bombs": "<span class='font-ascii' style='color:#55FFFF'>+Cherry Bombs: <span class='font-ascii' style='color:#00AAAA'>Turn Smoke Bomb into firecrackers that fly farther, tighter, and deal high damage instantly</span></span>"
     },
     "rarity": "fabled",
     "requirements": {
@@ -44416,7 +44512,7 @@
     },
     "internalName": "Desperate Facsimile",
     "majorIds": {
-      "Last Resort": "<span class='font-ascii' style='color:#55FFFF'>+Last Resort: <span class='font-ascii' style='color:#00AAAA'>Bloodlust has doubled corrupted scaling and knockback, but deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span> -50% <span class='font-ascii' style='color:#ff5555'><span class='font-common'></span> -30%</span></span></span></span></span></span>"
+      "Last Resort": "<span class='font-ascii' style='color:#55FFFF'>+Last Resort: <span class='font-ascii' style='color:#00AAAA'>Bloodlust has doubled corrupted scaling and knockback, but deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span> -50% <span class='font-ascii' style='color:elements.fire'><span class='font-common'></span> -30%</span></span></span></span></span></span>"
     },
     "powderSlots": 7,
     "rarity": "fabled",
@@ -51859,6 +51955,16 @@
         "raw": 85
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -51901,13 +52007,13 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Dagger",
+    "internalName": "Earth Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
       "level": 65,
-      "strength": 30
+      "strength": 25
     },
     "type": "weapon",
     "weaponType": "dagger"
@@ -83859,11 +83965,6 @@
         "min": 15,
         "raw": 50
       },
-      "fireDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "fireDefence": {
         "max": 130,
         "min": 30,
@@ -83881,9 +83982,9 @@
       },
       "rawDefence": 20,
       "rawHealth": {
-        "max": 5200,
-        "min": 1200,
-        "raw": 4000
+        "max": 3900,
+        "min": 900,
+        "raw": 3000
       }
     },
     "internalName": "Ignis",
@@ -97239,6 +97340,46 @@
     "type": "weapon",
     "weaponType": "dagger"
   },
+  "Lingering Twilight": {
+    "armourMaterial": "chain",
+    "armourType": "boots",
+    "base": {
+      "baseAirDefence": 15,
+      "baseEarthDefence": 15,
+      "baseHealth": 515,
+      "baseThunderDefence": 15
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "rawAgility": 5,
+      "rawElementalDamage": {
+        "max": 95,
+        "min": 22,
+        "raw": 73
+      },
+      "rawMaxMana": {
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      },
+      "walkSpeed": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      }
+    },
+    "internalName": "Lingering Twilight",
+    "lore": "In the harshest reaches of the mountains, dusk brings a gentle magic to the air, prolonging the faintest vestiges of sundown before night truly falls.",
+    "powderSlots": 2,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 15,
+      "dexterity": 15,
+      "level": 44,
+      "strength": 15
+    },
+    "type": "armour"
+  },
   "Lion's Pelt": {
     "armourMaterial": "diamond",
     "armourType": "leggings",
@@ -102566,6 +102707,49 @@
     "restrictions": "untradable",
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Mayonnaise": {
+    "armourMaterial": "iron",
+    "armourType": "leggings",
+    "base": {
+      "baseHealth": 1700
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "elementalDamage": {
+        "max": -13,
+        "min": -23,
+        "raw": -18
+      },
+      "elementalDefence": {
+        "max": -8,
+        "min": -14,
+        "raw": -11
+      },
+      "lootBonus": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "rawNeutralDamage": {
+        "max": 150,
+        "min": 35,
+        "raw": 115
+      },
+      "sprint": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      }
+    },
+    "internalName": "Mayonnaise",
+    "rarity": "unique",
+    "requirements": {
+      "agility": 30,
+      "dexterity": 30,
+      "level": 77
+    },
+    "type": "armour"
   },
   "Mazurka": {
     "attackSpeed": "super_fast",
@@ -113122,7 +113306,7 @@
     "internalName": "Nullification",
     "lore": "The diminutive stature of this item belies its abilities. Absorbing and expelling magical energy in precise bursts, it protects the user from all manner of attacks while punishing those who dare strike.",
     "majorIds": {
-      "Punishment": "<span class='font-ascii' style='color:#55FFFF'>+Punishment: <span class='font-ascii' style='color:#00AAAA'>Reflected damage blinds enemies for 1s and makes them 10% more vulnerable to attacks for 3s</span></span>"
+      "Punishment": "<span class='font-ascii' style='color:#55FFFF'>+Punishment: <span class='font-ascii' style='color:#00AAAA'>Reflected damage blinds enemies for 1s and makes them 10% more vulnerable to attacks for 3s.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "mythic",
@@ -181858,10 +182042,10 @@
   },
   "Viridian": {
     "attackSpeed": "slow",
-    "averageDps": 675,
+    "averageDps": 712,
     "base": {
       "baseDamage": {
-        "max": 150,
+        "max": 200,
         "min": 30,
         "raw": 30
       },
@@ -181885,7 +182069,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "262",
+        "customModelData": "264",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.earth3"
       }
@@ -182915,7 +183099,7 @@
       "walkSpeed": 12
     },
     "identified": true,
-    "internalName": "Voidstone Lersing",
+    "internalName": "Voidstone Lensing",
     "powderSlots": 2,
     "rarity": "rare",
     "requirements": {
@@ -183124,6 +183308,52 @@
     "rarity": "rare",
     "requirements": {
       "level": 85
+    },
+    "type": "accessory"
+  },
+  "Voltage": {
+    "accessoryType": "ring",
+    "base": {
+      "baseThunderDefence": 40,
+      "baseWaterDefence": -60
+    },
+    "dropRestriction": "lootchest",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "153",
+        "id": "minecraft:iron_horse_armor",
+        "name": "ring.thunder2"
+      }
+    },
+    "identifications": {
+      "lifeSteal": {
+        "max": -94,
+        "min": -175,
+        "raw": -135
+      },
+      "manaSteal": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "rawAttackSpeed": {
+        "max": -2,
+        "min": -4,
+        "raw": -3
+      },
+      "rawDexterity": 4,
+      "rawThunderMainAttackDamage": {
+        "max": 312,
+        "min": 72,
+        "raw": 240
+      }
+    },
+    "internalName": "Voltage",
+    "rarity": "rare",
+    "requirements": {
+      "dexterity": 60,
+      "level": 96
     },
     "type": "accessory"
   },
