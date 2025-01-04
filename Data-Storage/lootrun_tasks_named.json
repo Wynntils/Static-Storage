@@ -21,7 +21,7 @@
     {
       "location": {
         "x": -1847,
-        "y": 0,
+        "y": 39,
         "z": -2641
       },
       "name": "The Warehouse",
@@ -30,7 +30,7 @@
     {
       "location": {
         "x": -1782,
-        "y": 0,
+        "y": 61,
         "z": -2569
       },
       "name": "Junk Pit",
@@ -39,7 +39,7 @@
     {
       "location": {
         "x": -1775,
-        "y": 0,
+        "y": 60,
         "z": -2704
       },
       "name": "Bandit Hideout",
@@ -57,7 +57,7 @@
     {
       "location": {
         "x": -1759,
-        "y": 0,
+        "y": 35,
         "z": -2450
       },
       "name": "Avos Animation Totem",
@@ -66,7 +66,7 @@
     {
       "location": {
         "x": -1757,
-        "y": 0,
+        "y": 73,
         "z": -2608
       },
       "name": "Sanitizing Robots",
@@ -84,7 +84,7 @@
     {
       "location": {
         "x": -1686,
-        "y": 0,
+        "y": 60,
         "z": -3291
       },
       "name": "Shackles of the Past",
@@ -102,7 +102,7 @@
     {
       "location": {
         "x": -1603,
-        "y": 0,
+        "y": 36,
         "z": -3438
       },
       "name": "Treasure Grabbers",
@@ -111,7 +111,7 @@
     {
       "location": {
         "x": -1569,
-        "y": 0,
+        "y": 28,
         "z": -3143
       },
       "name": "Wireless Commander",
@@ -129,7 +129,7 @@
     {
       "location": {
         "x": -1471,
-        "y": 0,
+        "y": 61,
         "z": -2376
       },
       "name": "Steamworks",
@@ -138,7 +138,7 @@
     {
       "location": {
         "x": -1447,
-        "y": 0,
+        "y": 47,
         "z": -3161
       },
       "name": "Cable Coolers",
@@ -147,7 +147,7 @@
     {
       "location": {
         "x": -1440,
-        "y": 0,
+        "y": 69,
         "z": -2438
       },
       "name": "Robot Pirates",
@@ -156,7 +156,7 @@
     {
       "location": {
         "x": -1394,
-        "y": 0,
+        "y": 63,
         "z": -2393
       },
       "name": "Pirate Lattice",
