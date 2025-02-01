@@ -1,0 +1,912 @@
+{
+  "corkus": [
+    {
+      "location": {
+        "x": -1930,
+        "y": 83,
+        "z": -3325
+      },
+      "name": "Aquaculture Aquifer",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1867,
+        "y": 77,
+        "z": -3172
+      },
+      "name": "Fanatic Nest",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1847,
+        "y": 39,
+        "z": -2641
+      },
+      "name": "The Warehouse",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1782,
+        "y": 61,
+        "z": -2569
+      },
+      "name": "Junk Pit",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1775,
+        "y": 60,
+        "z": -2704
+      },
+      "name": "Brigands' Hideaway",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1759,
+        "y": 73,
+        "z": -2769
+      },
+      "name": "Fruit Crate",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": -1759,
+        "y": 35,
+        "z": -2450
+      },
+      "name": "Avos Animation Totem",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1757,
+        "y": 73,
+        "z": -2608
+      },
+      "name": "Sanitizing Robots",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": -1740,
+        "y": 63,
+        "z": -2452
+      },
+      "name": "Relos Underpass",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1686,
+        "y": 60,
+        "z": -3291
+      },
+      "name": "Shackles of the Past",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -1674,
+        "y": 52,
+        "z": -3060
+      },
+      "name": "Builder-Bot Central",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1603,
+        "y": 36,
+        "z": -3438
+      },
+      "name": "Treasure Grabbers",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": -1569,
+        "y": 28,
+        "z": -3143
+      },
+      "name": "Wireless Commander",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -1565,
+        "y": 75,
+        "z": -2206
+      },
+      "name": "Decommissioned War Machine",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -1471,
+        "y": 61,
+        "z": -2376
+      },
+      "name": "Steamworks",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1447,
+        "y": 47,
+        "z": -3161
+      },
+      "name": "Cable Coolers",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": -1440,
+        "y": 69,
+        "z": -2438
+      },
+      "name": "Robot Pirates",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": -1394,
+        "y": 63,
+        "z": -2393
+      },
+      "name": "Pirate Lattice",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1365,
+        "y": 93,
+        "z": -2736
+      },
+      "name": "Corkus Quarry",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1317,
+        "y": 104,
+        "z": -2252
+      },
+      "name": "Fort Corkia",
+      "taskType": "target"
+    }
+  ],
+  "moltenHeightsHike": [
+    {
+      "location": {
+        "x": 1057,
+        "y": 39,
+        "z": -5297
+      },
+      "name": "Entombed Elementals",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1229,
+        "y": 22,
+        "z": -5312
+      },
+      "name": "Pyreant Anthill",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 1244,
+        "y": 48,
+        "z": -5343
+      },
+      "name": "Dragon Delta",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1271,
+        "y": 92,
+        "z": -5427
+      },
+      "name": "Shadow Altar",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1290,
+        "y": 26,
+        "z": -5544
+      },
+      "name": "Flammagenitus",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1309,
+        "y": 9,
+        "z": -5191
+      },
+      "name": "Supply Wagon",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1321,
+        "y": 7,
+        "z": -5427
+      },
+      "name": "Flerisi Sapling",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1352,
+        "y": 7,
+        "z": -5284
+      },
+      "name": "Rare Dragon Bone",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1405,
+        "y": 25,
+        "z": -5067
+      },
+      "name": "Cave of Doom",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1422,
+        "y": 47,
+        "z": -5210
+      },
+      "name": "Azer Arsenal",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1433,
+        "y": 10,
+        "z": -5481
+      },
+      "name": "Draconic Graveyard",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1462,
+        "y": 44,
+        "z": -5575
+      },
+      "name": "Nest & Bones",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1465,
+        "y": 21,
+        "z": -5108
+      },
+      "name": "Overflowing Magma",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 1481,
+        "y": 17,
+        "z": -5388
+      },
+      "name": "Frigid Hollow",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1511,
+        "y": 46,
+        "z": -5176
+      },
+      "name": "Azer Athaenaeum",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1527,
+        "y": 63,
+        "z": -5427
+      },
+      "name": "Cryovern Covert",
+      "taskType": "loot"
+    }
+  ],
+  "silentExpanse": [
+    {
+      "location": {
+        "x": 602,
+        "y": 85,
+        "z": -407
+      },
+      "name": "Statue Necropolis",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 691,
+        "y": 92,
+        "z": -375
+      },
+      "name": "City Statue",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 695,
+        "y": 88,
+        "z": -496
+      },
+      "name": "Puppetry Performance",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 775,
+        "y": 153,
+        "z": -950
+      },
+      "name": "Loot Symposium",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 822,
+        "y": 123,
+        "z": -903
+      },
+      "name": "Collapsed Passage",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 826,
+        "y": 79,
+        "z": -429
+      },
+      "name": "Statue Opening",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 854,
+        "y": 81,
+        "z": -668
+      },
+      "name": "Spiteful Crossing",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 866,
+        "y": 101,
+        "z": -331
+      },
+      "name": "Forlorn Library",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 879,
+        "y": 79,
+        "z": -803
+      },
+      "name": "The Place Coalesced",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 885,
+        "y": 125,
+        "z": -1013
+      },
+      "name": "Sludge Locus",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 895,
+        "y": 78,
+        "z": -527
+      },
+      "name": "Reject Grove",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 948,
+        "y": 93,
+        "z": -1049
+      },
+      "name": "Haze Cave",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 957,
+        "y": 93,
+        "z": -410
+      },
+      "name": "Spire of Eyes",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 983,
+        "y": 75,
+        "z": -470
+      },
+      "name": "The Gwanari",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1014,
+        "y": 94,
+        "z": -1053
+      },
+      "name": "Melting Architecture",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1038,
+        "y": 84,
+        "z": -692
+      },
+      "name": "The Place Condensed",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1088,
+        "y": 137,
+        "z": -345
+      },
+      "name": "Eyeball Gauntlet",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1093,
+        "y": 135,
+        "z": -1137
+      },
+      "name": "Exiled Garden",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1117,
+        "y": 86,
+        "z": -992
+      },
+      "name": "Graveyard of the Thousand",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1121,
+        "y": 103,
+        "z": -1092
+      },
+      "name": "False Respite",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1132,
+        "y": 132,
+        "z": -1127
+      },
+      "name": "Caged Creatures",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1147,
+        "y": 78,
+        "z": -954
+      },
+      "name": "Gateway to Nothing",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 1285,
+        "y": 103,
+        "z": -1060
+      },
+      "name": "The Lantern Keeper's Abode",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1313,
+        "y": 144,
+        "z": -1048
+      },
+      "name": "The Place Conglomerated",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1393,
+        "y": 163,
+        "z": -1055
+      },
+      "name": "Blind Burrow",
+      "taskType": "loot"
+    }
+  ],
+  "skyIslandsExploration": [
+    {
+      "location": {
+        "x": 988,
+        "y": 63,
+        "z": -4978
+      },
+      "name": "Forgotten Excavation",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 731,
+        "y": 147,
+        "z": -4574
+      },
+      "name": "Kandon-Beda Beanstalk",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 742,
+        "y": 85,
+        "z": -4890
+      },
+      "name": "Overgrown Rubble",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 779,
+        "y": 79,
+        "z": -4720
+      },
+      "name": "Ovine Spire",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 900,
+        "y": 95,
+        "z": -4408
+      },
+      "name": "The Donjon",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 924,
+        "y": 108,
+        "z": -4689
+      },
+      "name": "Colossi Rune",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 953,
+        "y": 139,
+        "z": -4761
+      },
+      "name": "Azurite Island",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 977,
+        "y": 38,
+        "z": -4454
+      },
+      "name": "Phantasmic Field",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1015,
+        "y": 101,
+        "z": -4355
+      },
+      "name": "Mycolite Mountain",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1022,
+        "y": 107,
+        "z": -4698
+      },
+      "name": "Angel Falls",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1054,
+        "y": 44,
+        "z": -4961
+      },
+      "name": "Lamprophis Lair",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1068,
+        "y": 106,
+        "z": -4748
+      },
+      "name": "Angelic Site",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1088,
+        "y": 169,
+        "z": -5003
+      },
+      "name": "Empty Nest",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1189,
+        "y": 129,
+        "z": -4930
+      },
+      "name": "Astralaus' Comet",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1199,
+        "y": 104,
+        "z": -4289
+      },
+      "name": "Sky Shroom",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1223,
+        "y": 142,
+        "z": -4419
+      },
+      "name": "Scared Wybel",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1264,
+        "y": 146,
+        "z": -4646
+      },
+      "name": "Scarred Ingress",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1274,
+        "y": 162,
+        "z": -4626
+      },
+      "name": "Floating Aerie",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1327,
+        "y": 82,
+        "z": -4624
+      },
+      "name": "Wybel Satellite",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 1358,
+        "y": 105,
+        "z": -4743
+      },
+      "name": "Windwalker Temple",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 1427,
+        "y": 1,
+        "z": -4866
+      },
+      "name": "Debris of Furcation",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 1428,
+        "y": 141,
+        "z": -4579
+      },
+      "name": "Colossus Islet",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1443,
+        "y": 83,
+        "z": -4353
+      },
+      "name": "Raiders' Plaza",
+      "taskType": "slay"
+    }
+  ],
+  "canyonOfTheLostExcursion": [
+    {
+      "location": {
+        "x": 292,
+        "y": 136,
+        "z": -4686
+      },
+      "name": "Rogue Intel Core",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 306,
+        "y": 93,
+        "z": -4980
+      },
+      "name": "Sorcerer's Rave",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 323,
+        "y": 65,
+        "z": -4633
+      },
+      "name": "Runaway Fleris Cranny",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 330,
+        "y": 64,
+        "z": -4916
+      },
+      "name": "Rocky Peril",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 334,
+        "y": 81,
+        "z": -4515
+      },
+      "name": "The Armory",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 346,
+        "y": 31,
+        "z": -4606
+      },
+      "name": "Burning Delve",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 385,
+        "y": 28,
+        "z": -4896
+      },
+      "name": "Farmer's Harvest",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 438,
+        "y": 72,
+        "z": -4391
+      },
+      "name": "Mycelial Alcove",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 474,
+        "y": 28,
+        "z": -4995
+      },
+      "name": "Absorbing Slime",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 526,
+        "y": 110,
+        "z": -4801
+      },
+      "name": "Elemental Spring",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 535,
+        "y": 50,
+        "z": -4448
+      },
+      "name": "Colossal Synapse",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 537,
+        "y": 24,
+        "z": -4932
+      },
+      "name": "Troll Den",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 590,
+        "y": 25,
+        "z": -4625
+      },
+      "name": "Demolition Derby",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 622,
+        "y": 28,
+        "z": -4695
+      },
+      "name": "Chiseler's Cavern",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 632,
+        "y": 44,
+        "z": -4947
+      },
+      "name": "Voltaic Crag",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 638,
+        "y": 54,
+        "z": -4719
+      },
+      "name": "Seismic Bore Hole",
+      "taskType": "loot"
+    }
+  ]
+}
