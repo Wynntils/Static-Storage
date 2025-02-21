@@ -111013,10 +111013,10 @@
     "droppedBy": [
       {
         "coords": [
-          1382,
-          142,
-          -1008,
-          30
+          1198,
+          132,
+          -1115,
+          35
         ],
         "name": "Vortexian Voidgap"
       }
@@ -111026,15 +111026,20 @@
       "value": "9ddebbb062f6a385a91ca05f18f5c0acbe33e2d06ee9e7416cef6ee43dfe2fb"
     },
     "identifications": {
-      "mainAttackDamage": {
-        "max": -24,
-        "min": -24,
-        "raw": -24
+      "lifeSteal": {
+        "max": -60,
+        "min": -75,
+        "raw": -75
       },
-      "rawAttackSpeed": {
-        "max": 1,
-        "min": 1,
-        "raw": 1
+      "mainAttackDamage": {
+        "max": 12,
+        "min": 12,
+        "raw": 12
+      },
+      "manaSteal": {
+        "max": -3,
+        "min": -3,
+        "raw": -3
       }
     },
     "ingredientPositionModifiers": {
