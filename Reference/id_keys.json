@@ -118,5 +118,6 @@
   "neutralSpellDamage": 116,
   "rawMaxMana": 117,
   "mainAttackRange": 118,
-  "criticalDamageBonus": 119
+  "criticalDamageBonus": 119,
+  "mainAttackFireDamage": 120
 }
