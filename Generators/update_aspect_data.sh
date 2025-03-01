@@ -48,7 +48,7 @@ for CLASS in $ASPECT_CLASSES; do
     # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
     jq --sort-keys < ${CLASS}_aspects.json.tmp > ${CLASS}_aspects.json.tmp2
     # Minimalize the json file
-    jq -c < ${CLASS}_aspects.json.tmp2 > ${CLASS}_aspects.json
+    jq -c < ${CLASS}_aspects.json.tmp2 | jq 'walk(if type == "object" and .description then .["html_description"] = .description | del(.description) else . end)' > ${CLASS}_aspects.json
     rm ${CLASS}_aspects.json.tmp ${CLASS}_aspects.json.tmp2
 
     # Create/merge the minimized version
