@@ -11347,6 +11347,86 @@
     "tier": 0,
     "type": "ingredient"
   },
+  "Broken Amulet": {
+    "consumableOnlyIDs": {
+      "charges": 0,
+      "duration": 0
+    },
+    "droppedBy": [
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Endurance Trainer"
+      },
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Power Trainer"
+      },
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Acrobatics Trainer"
+      },
+      {
+        "coords": [
+          -730,
+          72,
+          -1052,
+          10
+        ],
+        "name": "Magic Trainer"
+      }
+    ],
+    "icon": {
+      "format": "legacy",
+      "value": "371:0"
+    },
+    "identifications": {
+      "healthRegen": {
+        "max": 1,
+        "min": 1,
+        "raw": 1
+      }
+    },
+    "ingredientPositionModifiers": {
+      "above": 0,
+      "left": 0,
+      "notTouching": 0,
+      "right": 0,
+      "touching": 0,
+      "under": 0
+    },
+    "internalName": "Broken Amulet",
+    "itemOnlyIDs": {
+      "agilityRequirement": 0,
+      "defenceRequirement": 0,
+      "dexterityRequirement": 0,
+      "durabilityModifier": -40000,
+      "intelligenceRequirement": 0,
+      "strengthRequirement": 0
+    },
+    "requirements": {
+      "level": 70,
+      "skills": [
+        "jeweling"
+      ]
+    },
+    "tier": 0,
+    "type": "ingredient"
+  },
   "Broken Antic Bead": {
     "consumableOnlyIDs": {
       "charges": 0,
@@ -111052,12 +111132,12 @@
     },
     "internalName": "Vortexian Event Horizon",
     "itemOnlyIDs": {
-      "agilityRequirement": 40,
-      "defenceRequirement": 40,
-      "dexterityRequirement": 40,
-      "durabilityModifier": -180000,
-      "intelligenceRequirement": 40,
-      "strengthRequirement": 40
+      "agilityRequirement": 14,
+      "defenceRequirement": 14,
+      "dexterityRequirement": 14,
+      "durabilityModifier": -160000,
+      "intelligenceRequirement": 14,
+      "strengthRequirement": 14
     },
     "requirements": {
       "level": 105,
