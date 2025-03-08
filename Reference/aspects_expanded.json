@@ -713,8 +713,7 @@
             "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Lacerate<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+2</span><span class='font-ascii' style='color:#AAAAAA'> hits,</span></span></span>",
             "<span class='font-ascii' style='color:#AAAAAA'>and becomes <span class='font-ascii' style='color:#FFFFFF'>50% </span><span class='font-ascii' style='color:#AAAAAA'>faster.</span></span>",
             "</br>",
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Righting Reflex<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+5s</span><span class='font-ascii' style='color:#AAAAAA'> <span class='font-ascii' style='color:combat.duration'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Duration,</span></span></span></span></span>",
-            "<span class='font-ascii' style='color:#AAAAAA'>and its gliding is greatly enhanced.</span>"
+            "<span class='font-ascii' style='color:#55FFFF'>Momentum <white><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>builds up </span><span class='font-ascii' style='color:#FFFFFF'>20% </span><span class='font-ascii' style='color:#AAAAAA'>faster.</span></span></span></span>"
           ]
         },
         "3": {
@@ -723,8 +722,7 @@
             "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Lacerate<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+3</span><span class='font-ascii' style='color:#AAAAAA'> hits,</span></span></span>",
             "<span class='font-ascii' style='color:#AAAAAA'>and becomes <span class='font-ascii' style='color:#FFFFFF'>50% </span><span class='font-ascii' style='color:#AAAAAA'>faster.</span></span>",
             "</br>",
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Righting Reflex<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+5s</span><span class='font-ascii' style='color:#AAAAAA'> <span class='font-ascii' style='color:combat.duration'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Duration,</span></span></span></span></span>",
-            "<span class='font-ascii' style='color:#AAAAAA'>and its gliding is greatly enhanced.</span>"
+            "<span class='font-ascii' style='color:#55FFFF'>Momentum <white><span class='font-common'></span> <span class='font-ascii' style='color:#AAAAAA'>builds up </span><span class='font-ascii' style='color:#FFFFFF'>20% </span><span class='font-ascii' style='color:#AAAAAA'>faster.</span></span></span></span>"
           ]
         }
       }
@@ -1055,25 +1053,25 @@
         "1": {
           "threshold": 1,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+0.4 <span class='font-ascii' style='color:combat.area_of_effect'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect per bloom.</span></span></span></span></span>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+0.4 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect per bloom.</span></span></span></span></span>",
             "</br>",
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'>'s explosion gains </span><span class='font-ascii' style='color:#FFFFFF'>+2 <span class='font-ascii' style='color:combat.area_of_effect'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'>'s explosion gains </span><span class='font-ascii' style='color:#FFFFFF'>+2 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         },
         "2": {
           "threshold": 15,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+0.6 <span class='font-ascii' style='color:combat.area_of_effect'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect per bloom.</span></span></span></span></span>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+0.6 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect per bloom.</span></span></span></span></span>",
             "</br>",
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'>'s explosion gains </span><span class='font-ascii' style='color:#FFFFFF'>+3 <span class='font-ascii' style='color:combat.area_of_effect'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'>'s explosion gains </span><span class='font-ascii' style='color:#FFFFFF'>+3 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         },
         "3": {
           "threshold": 75,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+0.8 <span class='font-ascii' style='color:combat.area_of_effect'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect per bloom.</span></span></span></span></span>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+0.8 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect per bloom.</span></span></span></span></span>",
             "</br>",
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'>'s explosion gains </span><span class='font-ascii' style='color:#FFFFFF'>+4 <span class='font-ascii' style='color:combat.area_of_effect'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Jasmine Bloom<span class='font-ascii' style='color:#AAAAAA'>'s explosion gains </span><span class='font-ascii' style='color:#FFFFFF'>+4 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         }
       }
