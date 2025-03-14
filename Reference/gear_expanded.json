@@ -272,15 +272,15 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
     },
     "identifications": {
-      "manaRegen": 6,
+      "manaRegen": 10,
       "rawIntelligence": 6,
-      "thunderDamage": -10,
+      "rawMaxMana": 30,
       "thunderDefence": -10,
       "waterDamage": 10,
       "waterDefence": 10
@@ -1273,6 +1273,36 @@
     "type": "weapon",
     "weaponType": "bow"
   },
+  "Act Break": {
+    "accessoryType": "necklace",
+    "base": {
+      "baseHealth": -150
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "186",
+        "id": "minecraft:iron_horse_armor",
+        "name": "necklace.water2"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": 8,
+      "healthRegen": -20,
+      "spellDamage": 10,
+      "sprintRegen": -15
+    },
+    "identified": true,
+    "internalName": "Act Break",
+    "rarity": "rare",
+    "requirements": {
+      "intelligence": 45,
+      "level": 57
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
+  },
   "Ad Terram": {
     "accessoryType": "ring",
     "base": {
@@ -1901,7 +1931,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -1916,6 +1946,11 @@
         "max": -10,
         "min": -19,
         "raw": -15
+      },
+      "manaRegen": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "reflection": {
         "max": 39,
@@ -6676,28 +6711,33 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "earthDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "earthDefence": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
-      "mainAttackDamage": {
+      "earthMainAttackDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "knockback": {
         "max": 20,
         "min": 5,
         "raw": 15
       },
       "rawStrength": 4,
+      "slowEnemy": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      },
       "walkSpeed": {
         "max": -10,
         "min": -19,
@@ -7411,13 +7451,14 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
       "4thSpellCost": -20,
+      "healthRegen": 20,
       "healthRegenRaw": 100,
       "mainAttackDamage": -20,
       "rawAgility": 8,
@@ -7604,6 +7645,36 @@
     "requirements": {
       "level": 91,
       "strength": 80
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
+  "Antihero": {
+    "armourMaterial": "iron",
+    "armourType": "chestplate",
+    "base": {
+      "baseEarthDefence": 35,
+      "baseHealth": 1500,
+      "baseThunderDefence": 55,
+      "baseWaterDefence": 35
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "damage": 15,
+      "healingEfficiency": -25,
+      "lifeSteal": 135,
+      "manaSteal": 7,
+      "poison": 2000,
+      "rawDexterity": 5
+    },
+    "identified": true,
+    "internalName": "Antihero",
+    "rarity": "rare",
+    "requirements": {
+      "dexterity": 35,
+      "intelligence": 20,
+      "level": 66,
+      "strength": 20
     },
     "restrictions": "untradable",
     "type": "armour"
@@ -8268,7 +8339,7 @@
     "internalName": "Aphorism",
     "lore": "Just because it's been said to death doesn't mean it isn't true.",
     "majorIds": {
-      "Paragon": "<span class='font-ascii' style='color:#55FFFF'>+Paragon: <span class='font-ascii' style='color:#00AAAA'>Shield Strike deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>300%</span><darkAqua> damage. Mantle of the Bovemist's </span><span class='font-ascii' style='color:#00AAAA'>cooldown is significantly </span><span class='font-ascii' style='color:#00AAAA'>reduced, but is limited </span><span class='font-ascii' style='color:#00AAAA'>to one shield charge.</span></span></span></span>"
+      "Paragon": "<span class='font-ascii' style='color:#55FFFF'>+Paragon: <span class='font-ascii' style='color:#00AAAA'>Shield Strike deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>300%</span><darkAqua> damage. Mantle of the Bovemist's cooldown is reduced by 15s, but is limited to one shield charge.</span></span></span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -8394,24 +8465,24 @@
   },
   "Apology": {
     "attackSpeed": "very_slow",
-    "averageDps": 445,
+    "averageDps": 573,
     "base": {
       "baseDamage": {
-        "max": 270,
-        "min": 266,
-        "raw": 266
+        "max": 360,
+        "min": 330,
+        "raw": 330
       },
       "baseWaterDamage": {
-        "max": 270,
-        "min": 266,
-        "raw": 266
+        "max": 360,
+        "min": 330,
+        "raw": 330
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -8422,10 +8493,15 @@
         "min": 5,
         "raw": 15
       },
+      "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "mainAttackDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "manaRegen": {
         "max": 16,
@@ -8517,7 +8593,7 @@
     },
     "internalName": "Apotheosis",
     "majorIds": {
-      "Paragon": "<span class='font-ascii' style='color:#55FFFF'>+Paragon: <span class='font-ascii' style='color:#00AAAA'>Shield Strike deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>300%</span><darkAqua> damage. Mantle of the Bovemist's </span><span class='font-ascii' style='color:#00AAAA'>cooldown is significantly </span><span class='font-ascii' style='color:#00AAAA'>reduced, but is limited </span><span class='font-ascii' style='color:#00AAAA'>to one shield charge.</span></span></span></span>"
+      "Paragon": "<span class='font-ascii' style='color:#55FFFF'>+Paragon: <span class='font-ascii' style='color:#00AAAA'>Shield Strike deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>300%</span><darkAqua> damage. Mantle of the Bovemist's cooldown is reduced by 15s, but is limited to one shield charge.</span></span></span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -9668,7 +9744,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
@@ -9680,11 +9756,10 @@
         "raw": -30
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
-      "rawAttackSpeed": -1,
       "rawDexterity": 15,
       "rawHealth": {
         "max": -945,
@@ -9692,9 +9767,9 @@
         "raw": -1350
       },
       "rawMainAttackDamage": {
-        "max": 403,
-        "min": 93,
-        "raw": 310
+        "max": 234,
+        "min": 54,
+        "raw": 180
       },
       "rawStrength": -15,
       "thunderDamage": {
@@ -10136,9 +10211,9 @@
     "averageDps": 465,
     "base": {
       "baseAirDamage": {
-        "max": 60,
-        "min": 60,
-        "raw": 60
+        "max": 90,
+        "min": 30,
+        "raw": 30
       },
       "baseDamage": {
         "max": 30,
@@ -10146,9 +10221,9 @@
         "raw": 30
       },
       "baseThunderDamage": {
-        "max": 60,
-        "min": 60,
-        "raw": 60
+        "max": 110,
+        "min": 10,
+        "raw": 10
       }
     },
     "dropMeta": {
@@ -10164,18 +10239,19 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
-      "manaSteal": 4,
+      "manaSteal": 8,
       "rawAgility": 8,
+      "rawDamage": 140,
       "rawDefence": -4,
       "rawDexterity": 8,
       "rawStrength": -4,
-      "walkSpeed": 12,
+      "walkSpeed": 20,
       "waterDamage": -15
     },
     "identified": true,
@@ -10327,12 +10403,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
+      "damage": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "healingEfficiency": {
         "max": 33,
         "min": 8,
@@ -10343,20 +10424,15 @@
         "min": 24,
         "raw": 80
       },
-      "mainAttackDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
-      },
       "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
-      "spellDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+      "sprintRegen": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
       }
     },
     "internalName": "Ashes Anew",
@@ -11560,31 +11636,31 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
     },
     "identifications": {
-      "mainAttackDamage": {
+      "damage": {
         "max": -8,
         "min": -16,
         "raw": -12
+      },
+      "healingEfficiency": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "rawHealth": {
-        "max": 780,
-        "min": 180,
-        "raw": 600
+        "max": 1040,
+        "min": 240,
+        "raw": 800
       },
       "reflection": {
-        "max": 31,
+        "max": 30,
         "min": 7,
-        "raw": 24
-      },
-      "spellDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+        "raw": 23
       },
       "xpBonus": {
         "max": 16,
@@ -11937,16 +12013,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "rawHealth": {
         "max": 85,
@@ -12605,6 +12681,34 @@
     },
     "type": "weapon",
     "weaponType": "bow"
+  },
+  "Babel": {
+    "armourMaterial": "iron",
+    "armourType": "leggings",
+    "base": {
+      "baseEarthDefence": 100,
+      "baseHealth": 2080
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "earthDamage": 20,
+      "mainAttackRange": 40,
+      "manaSteal": 10,
+      "rawAttackSpeed": -20,
+      "rawEarthMainAttackDamage": 1200,
+      "rawMaxMana": 30,
+      "walkSpeed": -20
+    },
+    "identified": true,
+    "internalName": "Babel",
+    "lore": "All legends must one day fall, but their legacy shall be remembered forevermore.  These memories exist in the hearts of all,  and pave the path forward in hopes to create a world where all may find peace,  however rocky that path may be.",
+    "rarity": "legendary",
+    "requirements": {
+      "level": 75,
+      "strength": 75
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Babylon's Scale": {
     "attackSpeed": "normal",
@@ -14057,23 +14161,23 @@
     "weaponType": "spear"
   },
   "Barkgraft": {
-    "attackSpeed": "very_slow",
-    "averageDps": 342,
+    "attackSpeed": "very_fast",
+    "averageDps": 341,
     "base": {
       "baseAirDamage": {
-        "max": 180,
-        "min": 160,
-        "raw": 160
+        "max": 55,
+        "min": 25,
+        "raw": 25
       },
       "baseDamage": {
-        "max": 85,
-        "min": 60,
-        "raw": 60
+        "max": 45,
+        "min": 15,
+        "raw": 15
       },
       "baseEarthDamage": {
-        "max": 180,
-        "min": 160,
-        "raw": 160
+        "max": 45,
+        "min": 35,
+        "raw": 35
       }
     },
     "dropMeta": {
@@ -14089,16 +14193,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
       "fireDefence": -50,
-      "poison": 400,
+      "poison": 2400,
       "rawAgility": 5,
-      "rawMainAttackDamage": 145,
+      "rawMainAttackDamage": 120,
       "rawStrength": 5,
       "thorns": 25,
       "walkSpeed": -15
@@ -14515,28 +14619,33 @@
   },
   "Beachside Conch": {
     "attackSpeed": "slow",
-    "averageDps": 81,
+    "averageDps": 90,
     "base": {
       "baseDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 35,
+        "min": 25,
+        "raw": 25
+      },
+      "baseWaterDamage": {
+        "max": 38,
+        "min": 22,
+        "raw": 22
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "healthRegenRaw": {
         "max": 9,
@@ -16132,53 +16241,38 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "403",
+        "customModelData": "415",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder1"
       }
     },
     "identifications": {
-      "airDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
-      },
       "earthDamage": {
         "max": -35,
         "min": -65,
         "raw": -50
       },
-      "fireDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
-      },
       "mainAttackDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "poison": {
-        "max": 8272,
-        "min": 1909,
-        "raw": 6363
+        "max": 12211,
+        "min": 2818,
+        "raw": 9393
       },
       "rawDexterity": -100,
       "rawStrength": 75,
       "thunderDamage": {
-        "max": 29,
+        "max": 30,
         "min": 7,
-        "raw": 22
+        "raw": 23
       },
       "walkSpeed": {
         "max": -8,
         "min": -16,
         "raw": -12
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       }
     },
     "internalName": "Black Abyss",
@@ -18024,26 +18118,26 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
+      "damage": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      },
       "healthRegenRaw": {
         "max": -105,
         "min": -195,
         "raw": -150
       },
-      "mainAttackDamage": {
-        "max": 25,
-        "min": 6,
-        "raw": 19
-      },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "poison": {
         "max": 7345,
@@ -18051,22 +18145,12 @@
         "raw": 5650
       },
       "raw1stSpellCost": {
-        "max": -19,
-        "min": -4,
-        "raw": -15
-      },
-      "raw2ndSpellCost": {
-        "max": 11,
-        "min": 20,
-        "raw": 15
+        "max": -13,
+        "min": -3,
+        "raw": -10
       },
       "rawDexterity": 8,
-      "rawStrength": 8,
-      "spellDamage": {
-        "max": 25,
-        "min": 6,
-        "raw": 19
-      }
+      "rawStrength": 8
     },
     "internalName": "Blightsaber",
     "powderSlots": 3,
@@ -18494,12 +18578,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
+      "damage": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "fireDefence": {
         "max": 26,
         "min": 6,
@@ -18510,20 +18599,10 @@
         "min": 6,
         "raw": 20
       },
-      "mainAttackDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
-      },
       "rawHealth": {
         "max": 325,
         "min": 75,
         "raw": 250
-      },
-      "spellDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       }
     },
     "internalName": "Bloodbag",
@@ -18532,7 +18611,7 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "defence": 50,
+      "defence": 40,
       "level": 51
     },
     "type": "weapon",
@@ -19247,29 +19326,29 @@
   },
   "Bluetooth": {
     "attackSpeed": "fast",
-    "averageDps": 190,
+    "averageDps": 206,
     "base": {
       "baseAirDamage": {
-        "max": 32,
-        "min": 12,
-        "raw": 12
+        "max": 30,
+        "min": 10,
+        "raw": 10
       },
       "baseDamage": {
-        "max": 32,
-        "min": 12,
-        "raw": 12
+        "max": 40,
+        "min": 15,
+        "raw": 15
       },
       "baseWaterDamage": {
-        "max": 47,
-        "min": 17,
-        "raw": 17
+        "max": 50,
+        "min": 20,
+        "raw": 20
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "257",
+        "customModelData": "259",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.basicWood"
       }
@@ -19303,7 +19382,7 @@
     },
     "internalName": "Bluetooth",
     "lore": "Forged from the fang of a ferocious beast. Despite its small size, it can land blows at considerable range.",
-    "powderSlots": 3,
+    "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
       "classRequirement": "assassin",
@@ -22202,12 +22281,12 @@
   },
   "Breath of the Dragon": {
     "attackSpeed": "fast",
-    "averageDps": 125,
+    "averageDps": 110,
     "base": {
       "baseAirDamage": {
-        "max": 27,
-        "min": 23,
-        "raw": 23
+        "max": 21,
+        "min": 17,
+        "raw": 17
       },
       "baseDamage": {
         "max": 10,
@@ -22224,7 +22303,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "400",
+        "customModelData": "412",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire1"
       }
@@ -22241,9 +22320,9 @@
         "raw": 15
       },
       "healthRegenRaw": {
-        "max": 12,
+        "max": 14,
         "min": 3,
-        "raw": 9
+        "raw": 11
       },
       "raw1stSpellCost": {
         "max": 4,
@@ -22251,7 +22330,12 @@
         "raw": 5
       },
       "rawAgility": 6,
-      "rawDefence": 6
+      "rawDefence": 6,
+      "weakenEnemy": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      }
     },
     "internalName": "Breath of the Dragon",
     "powderSlots": 2,
@@ -22677,7 +22761,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "259",
+        "customModelData": "263",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.air3"
       }
@@ -22716,6 +22800,7 @@
       }
     },
     "internalName": "Bright Edge",
+    "lore": "A blade of pure light forms in your hands. It moves of its own accord, a blinding radiance dancing through your enemies, using you as a vessel for its brilliance.",
     "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
@@ -23891,16 +23976,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
     },
     "identifications": {
       "mainAttackDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       },
       "xpBonus": {
         "max": 8,
@@ -24057,24 +24142,24 @@
   },
   "Burning Passion": {
     "attackSpeed": "normal",
-    "averageDps": 546,
+    "averageDps": 618,
     "base": {
       "baseDamage": {
-        "max": 120,
-        "min": 80,
-        "raw": 80
+        "max": 140,
+        "min": 95,
+        "raw": 95
       },
       "baseFireDamage": {
-        "max": 170,
-        "min": 160,
-        "raw": 160
+        "max": 190,
+        "min": 175,
+        "raw": 175
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
@@ -26691,26 +26776,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
     },
     "identifications": {
       "1stSpellCost": {
-        "max": -62,
-        "min": -14,
-        "raw": -48
+        "max": -52,
+        "min": -12,
+        "raw": -40
       },
       "healthRegenRaw": {
-        "max": 163,
-        "min": 38,
-        "raw": 125
-      },
-      "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 182,
+        "min": 42,
+        "raw": 140
       },
       "rawAgility": 11,
       "rawDefence": 11,
@@ -26720,9 +26800,14 @@
         "raw": 1750
       },
       "walkSpeed": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      },
+      "weakenEnemy": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Careless Whisper",
@@ -27554,31 +27639,31 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
       "3rdSpellCost": {
-        "max": -27,
-        "min": -6,
-        "raw": -21
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "earthDamage": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "exploding": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "healthRegenRaw": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+        "max": -8,
+        "min": -16,
+        "raw": -12
       },
       "lootBonus": {
         "max": 13,
@@ -31593,38 +31678,38 @@
   },
   "Circuit Flights": {
     "attackSpeed": "super_fast",
-    "averageDps": 492,
+    "averageDps": 458,
     "base": {
       "baseAirDamage": {
-        "max": 60,
-        "min": 43,
-        "raw": 43
+        "max": 66,
+        "min": 29,
+        "raw": 29
       },
       "baseThunderDamage": {
-        "max": 74,
-        "min": 52,
-        "raw": 52
+        "max": 100,
+        "min": 18,
+        "raw": 18
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
+      "2ndSpellCost": {
+        "max": -30,
+        "min": -7,
+        "raw": -23
+      },
       "airDamage": {
         "max": 23,
         "min": 5,
         "raw": 18
-      },
-      "earthDefence": {
-        "max": 31,
-        "min": 7,
-        "raw": 24
       },
       "lifeSteal": {
         "max": -118,
@@ -31632,9 +31717,9 @@
         "raw": -169
       },
       "rawMainAttackDamage": {
-        "max": 98,
-        "min": 23,
-        "raw": 75
+        "max": 117,
+        "min": 27,
+        "raw": 90
       },
       "thunderDamage": {
         "max": 23,
@@ -32152,42 +32237,32 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
-      "airDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
-      "earthDefence": {
+      "elementalDefence": {
         "max": 26,
         "min": 6,
         "raw": 20
       },
       "healingEfficiency": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
+      "manaRegen": {
         "max": 10,
         "min": 2,
         "raw": 8
-      },
-      "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
       },
       "rawDefence": 8,
       "rawHealth": {
         "max": 260,
         "min": 60,
         "raw": 200
-      },
-      "thunderDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       },
       "walkSpeed": {
         "max": -7,
@@ -34167,16 +34242,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
       "earthDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "lifeSteal": {
         "max": -35,
@@ -34185,14 +34260,14 @@
       },
       "rawDefence": -10,
       "rawMainAttackDamage": {
-        "max": 68,
-        "min": 16,
-        "raw": 52
+        "max": 82,
+        "min": 19,
+        "raw": 63
       },
       "thunderDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Col Legno",
@@ -34921,21 +34996,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "earthDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "exploding": {
         "max": -70,
@@ -34943,9 +35018,9 @@
         "raw": -100
       },
       "poison": {
-        "max": 129,
-        "min": 30,
-        "raw": 99
+        "max": 286,
+        "min": 66,
+        "raw": 220
       },
       "rawDexterity": 15,
       "rawStrength": -10
@@ -37283,7 +37358,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
@@ -37299,7 +37374,17 @@
         "min": -39,
         "raw": -30
       },
-      "rawAgility": 40
+      "mainAttackRange": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "rawAgility": 40,
+      "rawAirMainAttackDamage": {
+        "max": 250,
+        "min": 58,
+        "raw": 192
+      }
     },
     "internalName": "Cotton Swab",
     "rarity": "unique",
@@ -37571,7 +37656,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -37593,15 +37678,15 @@
         "raw": -6
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
-      "rawDexterity": 4,
+      "rawDexterity": 6,
       "spellDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 26,
+        "min": 6,
+        "raw": 20
       }
     },
     "internalName": "Coyopa",
@@ -38857,7 +38942,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "392",
+        "customModelData": "404",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicWood"
       }
@@ -38865,8 +38950,8 @@
     "identifications": {
       "earthDamage": 20,
       "lifeSteal": 250,
-      "manaRegen": -12,
-      "manaSteal": 8,
+      "manaRegen": -10,
+      "manaSteal": 10,
       "rawHealth": -900,
       "stealing": 10,
       "thunderDamage": 20
@@ -38877,10 +38962,10 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "dexterity": 50,
+      "dexterity": 40,
       "level": 82,
       "quest": "From The Bottom",
-      "strength": 45
+      "strength": 40
     },
     "type": "weapon",
     "weaponType": "relik"
@@ -39548,19 +39633,19 @@
   },
   "Crustacean": {
     "attackSpeed": "slow",
-    "averageDps": 58,
+    "averageDps": 50,
     "base": {
       "baseDamage": {
-        "max": 42,
-        "min": 35,
-        "raw": 35
+        "max": 37,
+        "min": 30,
+        "raw": 30
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
@@ -39572,9 +39657,9 @@
         "raw": 6
       },
       "rawHealth": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
+        "max": 20,
+        "min": 5,
+        "raw": 15
       }
     },
     "internalName": "Crustacean",
@@ -43202,12 +43287,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
     },
     "identifications": {
+      "knockback": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
       "rawStrength": 6
     },
     "internalName": "Death Growl",
@@ -45380,12 +45470,12 @@
   },
   "Desperate Facsimile": {
     "attackSpeed": "very_fast",
-    "averageDps": 310,
+    "averageDps": 271,
     "base": {
       "baseDamage": {
-        "max": 95,
-        "min": 70,
-        "raw": 70
+        "max": 80,
+        "min": 60,
+        "raw": 60
       },
       "baseThunderDamage": {
         "max": 35,
@@ -45397,7 +45487,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "478",
+        "customModelData": "494",
         "id": "minecraft:iron_horse_armor",
         "name": "spear.multi2"
       }
@@ -46187,24 +46277,24 @@
   },
   "Dhoruba": {
     "attackSpeed": "slow",
-    "averageDps": 472,
+    "averageDps": 502,
     "base": {
       "baseDamage": {
-        "max": 160,
-        "min": 120,
-        "raw": 120
+        "max": 170,
+        "min": 130,
+        "raw": 130
       },
       "baseThunderDamage": {
-        "max": 190,
-        "min": 160,
-        "raw": 160
+        "max": 320,
+        "min": 50,
+        "raw": 50
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
@@ -46215,10 +46305,10 @@
         "min": -39,
         "raw": -30
       },
-      "earthDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+      "lifeSteal": {
+        "max": 280,
+        "min": 65,
+        "raw": 215
       },
       "lootBonus": {
         "max": 20,
@@ -47016,16 +47106,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "392",
+        "customModelData": "404",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicWood"
       }
     },
     "identifications": {
       "lootBonus": {
-        "max": 23,
+        "max": 20,
         "min": 5,
-        "raw": 18
+        "raw": 15
+      },
+      "rawMaxMana": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "xpBonus": {
         "max": 10,
@@ -48343,69 +48438,59 @@
   },
   "Discotek": {
     "attackSpeed": "fast",
-    "averageDps": 350,
+    "averageDps": 312,
     "base": {
       "baseAirDamage": {
-        "max": 33,
-        "min": 23,
-        "raw": 23
+        "max": 30,
+        "min": 20,
+        "raw": 20
       },
       "baseEarthDamage": {
-        "max": 33,
-        "min": 23,
-        "raw": 23
+        "max": 30,
+        "min": 20,
+        "raw": 20
       },
       "baseFireDamage": {
-        "max": 33,
-        "min": 23,
-        "raw": 23
+        "max": 30,
+        "min": 20,
+        "raw": 20
       },
       "baseThunderDamage": {
-        "max": 33,
-        "min": 23,
-        "raw": 23
+        "max": 30,
+        "min": 20,
+        "raw": 20
       },
       "baseWaterDamage": {
-        "max": 33,
-        "min": 23,
-        "raw": 23
+        "max": 30,
+        "min": 20,
+        "raw": 20
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
     },
     "identifications": {
-      "1stSpellCost": {
-        "max": 18,
-        "min": 33,
-        "raw": 25
-      },
       "3rdSpellCost": {
-        "max": -31,
-        "min": -7,
-        "raw": -24
+        "max": -26,
+        "min": -6,
+        "raw": -20
+      },
+      "elementalDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "jumpHeight": 1,
-      "mainAttackDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
       "rawHealth": {
         "max": -210,
         "min": -390,
         "raw": -300
-      },
-      "spellDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       },
       "walkSpeed": {
         "max": 13,
@@ -49523,6 +49608,34 @@
       "level": 87
     },
     "type": "accessory"
+  },
+  "Doomed Journey": {
+    "armourMaterial": "chain",
+    "armourType": "boots",
+    "base": {
+      "baseFireDefence": 25,
+      "baseHealth": 525,
+      "baseThunderDefence": 20
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "healthRegen": -20,
+      "raw3rdSpellCost": -3,
+      "rawDefence": 5,
+      "rawDexterity": 3,
+      "rawMaxMana": -20,
+      "xpBonus": 15
+    },
+    "identified": true,
+    "internalName": "Doomed Journey",
+    "rarity": "rare",
+    "requirements": {
+      "defence": 20,
+      "dexterity": 15,
+      "level": 44
+    },
+    "restrictions": "untradable",
+    "type": "armour"
   },
   "Doomsday": {
     "attackSpeed": "normal",
@@ -52151,36 +52264,31 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "403",
+        "customModelData": "415",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder1"
       }
     },
     "identifications": {
       "lifeSteal": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
-      "mainAttackDamage": {
-        "max": 9,
+        "max": 10,
         "min": 2,
-        "raw": 7
+        "raw": 8
       },
       "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
+        "max": -3,
+        "min": -5,
+        "raw": -4
       },
       "manaSteal": {
         "max": 10,
         "min": 2,
         "raw": 8
       },
-      "spellDamage": {
-        "max": 9,
+      "thunderDamage": {
+        "max": 10,
         "min": 2,
-        "raw": 7
+        "raw": 8
       }
     },
     "internalName": "Dusk Painter",
@@ -53781,12 +53889,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "397",
+        "customModelData": "409",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth1"
       }
     },
     "identifications": {
+      "3rdSpellCost": {
+        "max": -13,
+        "min": -3,
+        "raw": -10
+      },
       "earthDamage": {
         "max": 26,
         "min": 6,
@@ -53853,7 +53966,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -53864,11 +53977,11 @@
         "min": 2,
         "raw": 6
       },
-      "rawAgility": -5,
-      "rawDefence": -5,
-      "rawDexterity": -5,
+      "rawAgility": -3,
+      "rawDefence": -3,
+      "rawDexterity": -3,
       "rawIntelligence": 14,
-      "rawStrength": -5,
+      "rawStrength": -3,
       "spellDamage": {
         "max": 14,
         "min": 3,
@@ -54012,33 +54125,33 @@
   },
   "Echolocation": {
     "attackSpeed": "very_fast",
-    "averageDps": 130,
+    "averageDps": 124,
     "base": {
       "baseDamage": {
-        "max": 45,
-        "min": 39,
-        "raw": 39
+        "max": 43,
+        "min": 37,
+        "raw": 37
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
     },
     "identifications": {
       "lifeSteal": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "poison": {
-        "max": 144,
-        "min": 33,
-        "raw": 111
+        "max": 520,
+        "min": 120,
+        "raw": 400
       },
       "reflection": {
         "max": -7,
@@ -56072,40 +56185,35 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
     },
     "identifications": {
+      "damage": {
+        "max": -3,
+        "min": -6,
+        "raw": -5
+      },
       "healthRegenRaw": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "lifeSteal": {
         "max": -6,
         "min": -10,
         "raw": -8
       },
-      "mainAttackDamage": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
-      },
       "manaRegen": {
-        "max": 8,
+        "max": 10,
         "min": 2,
-        "raw": 6
+        "raw": 8
       },
-      "rawAgility": -5,
-      "rawDefence": 10,
-      "rawIntelligence": 12,
-      "spellDamage": {
-        "max": -3,
-        "min": -6,
-        "raw": -5
-      }
+      "rawAgility": -3,
+      "rawDefence": 6,
+      "rawIntelligence": 8
     },
     "internalName": "Emotion",
     "powderSlots": 2,
@@ -58783,7 +58891,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -58794,21 +58902,21 @@
         "min": 9,
         "raw": 30
       },
-      "mainAttackDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "rawIntelligence": 8,
       "rawMainAttackDamage": {
-        "max": 169,
-        "min": 39,
-        "raw": 130
+        "max": 221,
+        "min": 51,
+        "raw": 170
+      },
+      "rawMaxMana": {
+        "max": 36,
+        "min": 8,
+        "raw": 28
       },
       "walkSpeed": {
         "max": -8,
@@ -60590,6 +60698,42 @@
     "type": "weapon",
     "weaponType": "relik"
   },
+  "Fantasy": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseAirDefence": 15,
+      "baseEarthDefence": 15,
+      "baseFireDefence": 25,
+      "baseHealth": 250,
+      "baseThunderDefence": 15,
+      "baseWaterDefence": 25
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "171",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.multi2"
+      }
+    },
+    "identifications": {
+      "elementalDefence": 15,
+      "healthRegenRaw": 50,
+      "rawMaxMana": 20,
+      "sprint": -15
+    },
+    "identified": true,
+    "internalName": "Fantasy",
+    "rarity": "rare",
+    "requirements": {
+      "defence": 25,
+      "intelligence": 25,
+      "level": 68
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
+  },
   "Far Cosmos": {
     "armourMaterial": "diamond",
     "armourType": "chestplate",
@@ -60804,36 +60948,31 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
-      "airDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "airDefence": {
         "max": -14,
         "min": -26,
         "raw": -20
       },
-      "earthDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+      "earthMainAttackDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
-      "fireDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+      "fireMainAttackDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
-      "mainAttackDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+      "mainAttackRange": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "rawAgility": -10,
       "rawDefence": 8,
@@ -61388,7 +61527,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
@@ -61404,27 +61543,22 @@
         "min": -34,
         "raw": -26
       },
-      "mainAttackDamage": {
-        "max": 36,
-        "min": 8,
-        "raw": 28
-      },
-      "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
-      },
       "rawDexterity": 10,
+      "rawMainAttackDamage": {
+        "max": 104,
+        "min": 24,
+        "raw": 80
+      },
+      "rawMaxMana": {
+        "max": -18,
+        "min": -34,
+        "raw": -26
+      },
       "rawStrength": 10,
       "spellDamage": {
         "max": 36,
         "min": 8,
         "raw": 28
-      },
-      "waterDefence": {
-        "max": -23,
-        "min": -43,
-        "raw": -33
       }
     },
     "internalName": "Fever Dream",
@@ -63135,6 +63269,42 @@
     },
     "type": "accessory"
   },
+  "Firebird": {
+    "armourColor": "rgb(216,88,0)",
+    "armourMaterial": "leather",
+    "armourType": "chestplate",
+    "base": {
+      "baseAirDefence": 125,
+      "baseEarthDefence": 75,
+      "baseFireDefence": 125,
+      "baseHealth": 4000,
+      "baseThunderDefence": 75,
+      "baseWaterDefence": 125
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "lifeSteal": -250,
+      "manaRegen": 10,
+      "manaSteal": -15,
+      "spellDamage": 30,
+      "walkSpeed": 25
+    },
+    "identified": true,
+    "internalName": "Firebird",
+    "lore": "From the ashes, let a hero rise anew.",
+    "majorIds": {
+      "Phoenix-Born": "<span class='font-ascii' style='color:#AAAAAA'><aqua>+Phoenix-Born:</span> <darkAqua>Health Regeneration is increased by 1% for every 1% Health missing.</span></span>"
+    },
+    "powderSlots": 2,
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 60,
+      "defence": 60,
+      "level": 95
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
   "Firecloud": {
     "accessoryType": "ring",
     "base": {
@@ -63411,7 +63581,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
@@ -63432,15 +63602,15 @@
         "min": -47,
         "raw": -36
       },
-      "mainAttackDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
       "rawSpellDamage": {
-        "max": 79,
-        "min": 18,
-        "raw": 61
+        "max": 91,
+        "min": 21,
+        "raw": 70
+      },
+      "weakenEnemy": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
       }
     },
     "internalName": "Firesworn",
@@ -64247,28 +64417,28 @@
   },
   "Flare Blitz": {
     "attackSpeed": "fast",
-    "averageDps": 200,
+    "averageDps": 192,
     "base": {
       "baseFireDamage": {
-        "max": 87,
-        "min": 73,
-        "raw": 73
+        "max": 84,
+        "min": 70,
+        "raw": 70
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "fireDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "healthRegenRaw": {
         "max": -10,
@@ -64280,16 +64450,16 @@
         "min": 12,
         "raw": 40
       },
-      "mainAttackDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "rawDefence": 8,
       "rawHealth": {
-        "max": -70,
-        "min": -130,
-        "raw": -100
+        "max": -140,
+        "min": -260,
+        "raw": -200
+      },
+      "rawMainAttackDamage": {
+        "max": 70,
+        "min": 16,
+        "raw": 54
       }
     },
     "internalName": "Flare Blitz",
@@ -66669,24 +66839,24 @@
   },
   "Flood Bath": {
     "attackSpeed": "slow",
-    "averageDps": 459,
+    "averageDps": 549,
     "base": {
       "baseFireDamage": {
-        "max": 156,
-        "min": 150,
-        "raw": 150
+        "max": 196,
+        "min": 170,
+        "raw": 170
       },
       "baseWaterDamage": {
-        "max": 159,
-        "min": 147,
-        "raw": 147
+        "max": 209,
+        "min": 157,
+        "raw": 157
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -66697,40 +66867,25 @@
         "min": -7,
         "raw": -23
       },
-      "airDamage": {
-        "max": -23,
-        "min": -43,
-        "raw": -33
-      },
-      "earthDamage": {
-        "max": -23,
-        "min": -43,
-        "raw": -33
+      "damage": {
+        "max": -8,
+        "min": -14,
+        "raw": -11
       },
       "fireDamage": {
         "max": 43,
         "min": 10,
         "raw": 33
       },
-      "mainAttackDamage": {
-        "max": -8,
-        "min": -14,
-        "raw": -11
-      },
       "rawHealth": {
-        "max": 859,
-        "min": 198,
-        "raw": 661
+        "max": 975,
+        "min": 225,
+        "raw": 750
       },
-      "spellDamage": {
-        "max": -8,
-        "min": -14,
-        "raw": -11
-      },
-      "thunderDamage": {
-        "max": -23,
-        "min": -43,
-        "raw": -33
+      "slowEnemy": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
       },
       "waterDamage": {
         "max": 43,
@@ -67197,7 +67352,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
@@ -67208,20 +67363,20 @@
         "min": 18,
         "raw": 14
       },
+      "manaSteal": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "rawSpellDamage": {
         "max": 35,
         "min": 8,
         "raw": 27
       },
-      "spellDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
       "thunderDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "waterDamage": {
         "max": 17,
@@ -67283,7 +67438,7 @@
   },
   "Foehn Wind": {
     "attackSpeed": "very_slow",
-    "averageDps": 159,
+    "averageDps": 168,
     "base": {
       "baseAirDamage": {
         "max": 76,
@@ -67291,9 +67446,9 @@
         "raw": 52
       },
       "baseDamage": {
-        "max": 68,
-        "min": 60,
-        "raw": 60
+        "max": 78,
+        "min": 70,
+        "raw": 70
       },
       "baseFireDamage": {
         "max": 72,
@@ -67305,17 +67460,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
-      "airDamage": 14,
-      "airDefence": 14,
-      "fireDamage": 14,
-      "fireDefence": 14,
+      "airDefence": 36,
+      "fireDefence": 36,
+      "healthRegen": 22,
       "lootBonus": 14,
+      "walkSpeed": 22,
       "waterDefence": -28,
       "xpBonus": 14
     },
@@ -67855,15 +68010,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
-      "airDamage": 20,
       "airDefence": 20,
+      "knockback": 20,
       "lootBonus": 20,
+      "sprintRegen": 20,
       "walkSpeed": 20,
       "xpBonus": 20
     },
@@ -67967,15 +68123,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
-      "fireDamage": 20,
+      "fireDamage": 30,
       "fireDefence": 20,
-      "rawMainAttackDamage": 130,
+      "rawThunderMainAttackDamage": 250,
+      "slowEnemy": 10,
       "walkSpeed": -15,
       "xpBonus": 15
     },
@@ -69188,7 +69345,7 @@
   },
   "Frontier": {
     "attackSpeed": "very_slow",
-    "averageDps": 456,
+    "averageDps": 471,
     "base": {
       "baseDamage": {
         "max": 369,
@@ -69196,16 +69353,16 @@
         "raw": 363
       },
       "baseEarthDamage": {
-        "max": 184,
-        "min": 182,
-        "raw": 182
+        "max": 204,
+        "min": 200,
+        "raw": 200
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
@@ -69217,14 +69374,14 @@
         "raw": 15
       },
       "earthDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
-      "healthRegen": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+      "healthRegenRaw": {
+        "max": 111,
+        "min": 26,
+        "raw": 85
       },
       "rawHealth": {
         "max": 1040,
@@ -69232,9 +69389,9 @@
         "raw": 800
       },
       "thorns": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 26,
+        "min": 6,
+        "raw": 20
       }
     },
     "internalName": "Frontier",
@@ -71791,18 +71948,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "392",
+        "customModelData": "404",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicWood"
       }
     },
     "identifications": {
-      "earthDamage": 20,
+      "earthDamage": 40,
+      "knockback": 20,
       "manaSteal": 8,
       "rawAttackSpeed": -1,
       "rawMainAttackDamage": 410,
-      "spellDamage": -300,
-      "xpBonus": 6
+      "spellDamage": -300
     },
     "identified": true,
     "internalName": "Gert Relik",
@@ -72166,7 +72323,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
@@ -72178,14 +72335,14 @@
         "raw": 14
       },
       "healthRegenRaw": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "raw3rdSpellCost": {
-        "max": -6,
+        "max": -4,
         "min": -1,
-        "raw": -5
+        "raw": -3
       },
       "rawHealth": {
         "max": 78,
@@ -72199,9 +72356,9 @@
         "raw": -8
       },
       "xpBonus": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Gestation",
@@ -73004,19 +73161,19 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
     },
     "identifications": {
-      "earthDamage": -50,
-      "healthRegenRaw": 135,
-      "manaRegen": 6,
-      "rawAgility": 15,
-      "rawDefence": 15,
-      "rawHealth": 2500,
-      "thunderDamage": -50,
+      "earthDamage": -30,
+      "healthRegenRaw": 175,
+      "manaRegen": 12,
+      "rawAgility": 8,
+      "rawDefence": 8,
+      "rawHealth": 2000,
+      "thunderDamage": -30,
       "waterDefence": 30
     },
     "identified": true,
@@ -73024,9 +73181,9 @@
     "powderSlots": 4,
     "rarity": "unique",
     "requirements": {
-      "agility": 60,
+      "agility": 45,
       "classRequirement": "shaman",
-      "defence": 60,
+      "defence": 45,
       "level": 95
     },
     "type": "weapon",
@@ -76157,12 +76314,12 @@
   },
   "Grateful Dead": {
     "attackSpeed": "super_slow",
-    "averageDps": 429,
+    "averageDps": 502,
     "base": {
       "baseAirDamage": {
-        "max": 3,
-        "min": 3,
-        "raw": 3
+        "max": 75,
+        "min": 75,
+        "raw": 75
       },
       "baseDamage": {
         "max": 835,
@@ -76170,16 +76327,16 @@
         "raw": 835
       },
       "baseWaterDamage": {
-        "max": 3,
-        "min": 3,
-        "raw": 3
+        "max": 75,
+        "min": 75,
+        "raw": 75
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -76191,16 +76348,21 @@
         "raw": 15
       },
       "manaRegen": {
-        "max": 8,
+        "max": 10,
         "min": 2,
-        "raw": 6
+        "raw": 8
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "rawDefence": -10,
+      "rawMaxMana": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
       "thunderDefence": {
         "max": 26,
         "min": 6,
@@ -76297,16 +76459,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
     },
     "identifications": {
       "manaSteal": {
-        "max": -3,
-        "min": -5,
-        "raw": -4
+        "max": 8,
+        "min": 2,
+        "raw": 6
       },
       "rawAgility": -20,
       "rawDefence": -20,
@@ -77251,7 +77413,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -77268,9 +77430,9 @@
         "raw": -15
       },
       "poison": {
-        "max": 130,
-        "min": 30,
-        "raw": 100
+        "max": 200,
+        "min": 46,
+        "raw": 154
       },
       "rawDexterity": 4,
       "rawMainAttackDamage": {
@@ -79164,53 +79326,53 @@
   },
   "Hard Light": {
     "attackSpeed": "fast",
-    "averageDps": 675,
+    "averageDps": 625,
     "base": {
       "baseAirDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 53,
+        "min": 47,
+        "raw": 47
       },
       "baseEarthDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 53,
+        "min": 47,
+        "raw": 47
       },
       "baseFireDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 53,
+        "min": 47,
+        "raw": 47
       },
       "baseThunderDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 53,
+        "min": 47,
+        "raw": 47
       },
       "baseWaterDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 53,
+        "min": 47,
+        "raw": 47
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "411",
+        "customModelData": "423",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi3"
       }
     },
     "identifications": {
+      "damage": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
       "elementalDefence": {
         "max": -17,
         "min": -32,
         "raw": -25
-      },
-      "mainAttackDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       },
       "manaRegen": {
         "max": 12,
@@ -79222,16 +79384,11 @@
         "min": 3,
         "raw": 9
       },
-      "rawAgility": 17,
-      "rawDefence": 17,
-      "rawDexterity": 17,
-      "rawIntelligence": 17,
-      "rawStrength": 17,
-      "spellDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      }
+      "rawAgility": 12,
+      "rawDefence": 12,
+      "rawDexterity": 12,
+      "rawIntelligence": 12,
+      "rawStrength": 12
     },
     "internalName": "Hard Light",
     "powderSlots": 3,
@@ -79271,7 +79428,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
@@ -79279,10 +79436,9 @@
     "identifications": {
       "airDefence": -35,
       "earthDamage": 30,
-      "manaSteal": 4,
+      "manaSteal": 9,
       "raw3rdSpellCost": -10,
-      "rawMainAttackDamage": 90,
-      "thunderDamage": -20,
+      "rawMainAttackDamage": 140,
       "waterDefence": -20
     },
     "identified": true,
@@ -79629,10 +79785,10 @@
   },
   "Harsh Noise": {
     "attackSpeed": "super_fast",
-    "averageDps": 56,
+    "averageDps": 52,
     "base": {
       "baseDamage": {
-        "max": 16,
+        "max": 14,
         "min": 10,
         "raw": 10
       }
@@ -79641,7 +79797,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
@@ -80315,31 +80471,33 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": 42,
-        "min": 10,
-        "raw": 32
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "fireDamage": {
-        "max": 42,
-        "min": 10,
-        "raw": 32
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "lifeSteal": {
         "max": 124,
         "min": 29,
         "raw": 95
       },
-      "spellDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+      "rawAgility": 6,
+      "rawDefence": 4,
+      "rawFireMainAttackDamage": {
+        "max": 169,
+        "min": 39,
+        "raw": 130
       },
       "waterDamage": {
         "max": -24,
@@ -80729,46 +80887,41 @@
   },
   "Heavensent": {
     "attackSpeed": "fast",
-    "averageDps": 305,
+    "averageDps": 270,
     "base": {
       "baseAirDamage": {
-        "max": 66,
-        "min": 54,
-        "raw": 54
-      },
-      "baseDamage": {
-        "max": 4,
-        "min": 0,
-        "raw": 0
+        "max": 60,
+        "min": 48,
+        "raw": 48
       },
       "baseWaterDamage": {
-        "max": 66,
-        "min": 54,
-        "raw": 54
+        "max": 60,
+        "min": 48,
+        "raw": 48
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
       "manaRegen": {
-        "max": 8,
+        "max": 10,
         "min": 2,
-        "raw": 6
+        "raw": 8
       },
-      "rawAgility": 15,
+      "rawAgility": 10,
       "rawDefence": -8,
-      "rawIntelligence": 15,
+      "rawIntelligence": 10,
       "walkSpeed": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "xpBonus": {
         "max": 13,
@@ -81148,38 +81301,48 @@
   },
   "HellRaiser": {
     "attackSpeed": "normal",
-    "averageDps": 131,
+    "averageDps": 147,
     "base": {
       "baseDamage": {
-        "max": 35,
-        "min": 30,
-        "raw": 30
+        "max": 40,
+        "min": 35,
+        "raw": 35
       },
       "baseFireDamage": {
-        "max": 36,
-        "min": 26,
-        "raw": 26
+        "max": 38,
+        "min": 30,
+        "raw": 30
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "264",
+        "customModelData": "268",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.fire2"
       }
     },
     "identifications": {
       "exploding": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "fireDamage": {
         "max": 13,
         "min": 3,
         "raw": 10
+      },
+      "rawFireMainAttackDamage": {
+        "max": 56,
+        "min": 13,
+        "raw": 43
+      },
+      "slowEnemy": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "waterDamage": {
         "max": -21,
@@ -81913,24 +82076,24 @@
   },
   "Helter Skelter": {
     "attackSpeed": "fast",
-    "averageDps": 120,
+    "averageDps": 110,
     "base": {
       "baseAirDamage": {
         "max": 29,
-        "min": 19,
-        "raw": 19
+        "min": 15,
+        "raw": 15
       },
       "baseThunderDamage": {
-        "max": 29,
-        "min": 19,
-        "raw": 19
+        "max": 34,
+        "min": 10,
+        "raw": 10
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
@@ -81952,11 +82115,6 @@
         "max": -28,
         "min": -52,
         "raw": -40
-      },
-      "rawSpellDamage": {
-        "max": -31,
-        "min": -58,
-        "raw": -45
       },
       "thunderDamage": {
         "max": 14,
@@ -82611,35 +82769,30 @@
   },
   "Hewa": {
     "attackSpeed": "slow",
-    "averageDps": 466,
+    "averageDps": 496,
     "base": {
       "baseAirDamage": {
-        "max": 200,
-        "min": 172,
-        "raw": 172
+        "max": 292,
+        "min": 100,
+        "raw": 100
       },
       "baseDamage": {
-        "max": 140,
-        "min": 110,
-        "raw": 110
+        "max": 150,
+        "min": 120,
+        "raw": 120
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
     },
     "identifications": {
       "airDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "fireDefence": {
         "max": 20,
         "min": 5,
         "raw": 15
@@ -82656,6 +82809,11 @@
       },
       "rawAgility": 8,
       "rawDefence": -8,
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "waterDefence": {
         "max": -21,
         "min": -39,
@@ -82977,16 +83135,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
     },
     "identifications": {
-      "airDamage": 20,
       "fireDefence": -20,
       "jumpHeight": 2,
-      "manaSteal": 4,
+      "manaSteal": 8,
+      "rawAirDamage": 175,
       "rawHealth": -1200
     },
     "identified": true,
@@ -83256,12 +83414,12 @@
   },
   "Holiday Spirit": {
     "attackSpeed": "fast",
-    "averageDps": 215,
+    "averageDps": 240,
     "base": {
       "baseDamage": {
-        "max": 22,
-        "min": 18,
-        "raw": 18
+        "max": 32,
+        "min": 28,
+        "raw": 28
       },
       "baseFireDamage": {
         "max": 36,
@@ -83278,7 +83436,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -83287,7 +83445,9 @@
       "healthRegenRaw": 45,
       "lootBonus": 20,
       "mainAttackDamage": -10,
-      "manaRegen": 18
+      "manaRegen": 18,
+      "rawHealth": 400,
+      "rawIntelligence": 5
     },
     "identified": true,
     "internalName": "Holiday Spirit",
@@ -83541,42 +83701,34 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "airDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
-      },
       "earthDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
-      "fireDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
+      "elementalDamage": {
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      },
+      "mainAttackRange": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "raw4thSpellCost": {
         "max": -6,
         "min": -1,
         "raw": -5
       },
-      "thunderDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
-      },
-      "waterDamage": {
-        "max": -6,
-        "min": -10,
-        "raw": -8
-      }
+      "rawAgility": -8,
+      "rawStrength": 12
     },
     "internalName": "Holocene",
     "powderSlots": 2,
@@ -84216,17 +84368,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "healthRegenRaw": -17,
-      "lifeSteal": 34,
+      "lifeSteal": 43,
+      "mainAttackDamage": 24,
       "rawDefence": 7,
       "rawDexterity": 7,
-      "walkSpeed": 8,
+      "walkSpeed": 12,
       "xpBonus": 8
     },
     "identified": true,
@@ -84265,14 +84418,14 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "403",
+        "customModelData": "415",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder1"
       }
     },
     "identifications": {
       "1stSpellCost": 40,
-      "poison": 135,
+      "poison": 220,
       "rawAgility": 4,
       "thorns": 18
     },
@@ -84434,14 +84587,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
     },
     "identifications": {
       "elementalDefence": 12,
-      "lootBonus": 12
+      "lootBonus": 12,
+      "rawHealth": 180,
+      "rawMaxMana": 24,
+      "walkSpeed": 12
     },
     "identified": true,
     "internalName": "Hue",
@@ -85803,7 +85959,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
@@ -85815,25 +85971,25 @@
         "raw": 10
       },
       "fireDefence": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "healthRegen": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "healthRegenRaw": {
-        "max": 33,
+        "max": 36,
         "min": 8,
-        "raw": 25
+        "raw": 28
       },
       "rawDefence": 5,
       "rawHealth": {
-        "max": 195,
-        "min": 45,
-        "raw": 150
+        "max": 300,
+        "min": 69,
+        "raw": 231
       }
     },
     "internalName": "Ignatius",
@@ -88080,6 +88236,51 @@
     "type": "weapon",
     "weaponType": "relik"
   },
+  "Impossibility Threshold": {
+    "armourMaterial": "diamond",
+    "armourType": "leggings",
+    "base": {
+      "baseEarthDefence": -150,
+      "baseThunderDefence": 150
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "lifeSteal": {
+        "max": 358,
+        "min": 83,
+        "raw": 275
+      },
+      "mainAttackRange": {
+        "max": -17,
+        "min": -32,
+        "raw": -25
+      },
+      "rawAttackSpeed": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "rawThunderMainAttackDamage": {
+        "max": 2275,
+        "min": 525,
+        "raw": 1750
+      },
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Impossibility Threshold",
+    "lore": "Visions unknowable and faces unnamed. A violent cacophony with no end in sight. But beyond that- a clarity. A fleeting moment where the rules speak their names, just on the other side. You need to get closer. You need to be able to see.",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "dexterity": 75,
+      "level": 101
+    },
+    "type": "armour"
+  },
   "Impudent": {
     "accessoryType": "ring",
     "dropRestriction": "lootchest",
@@ -88333,22 +88534,22 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "rawDefence": 5,
       "rawHealth": {
-        "max": 91,
-        "min": 21,
-        "raw": 70
+        "max": 130,
+        "min": 30,
+        "raw": 100
       },
       "walkSpeed": {
         "max": -3,
@@ -88807,29 +89008,29 @@
   },
   "Infernus Aeterna": {
     "attackSpeed": "very_slow",
-    "averageDps": 525,
+    "averageDps": 608,
     "base": {
       "baseDamage": {
+        "max": 260,
+        "min": 220,
+        "raw": 220
+      },
+      "baseFireDamage": {
         "max": 220,
         "min": 180,
         "raw": 180
       },
-      "baseFireDamage": {
-        "max": 190,
-        "min": 150,
-        "raw": 150
-      },
       "baseThunderDamage": {
-        "max": 325,
-        "min": 200,
-        "raw": 200
+        "max": 485,
+        "min": 100,
+        "raw": 100
       }
     },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
@@ -90000,10 +90201,10 @@
   },
   "Interference": {
     "attackSpeed": "very_fast",
-    "averageDps": 250,
+    "averageDps": 237,
     "base": {
       "baseThunderDamage": {
-        "max": 158,
+        "max": 150,
         "min": 3,
         "raw": 3
       }
@@ -90012,7 +90213,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -90024,9 +90225,9 @@
         "raw": -21
       },
       "lifeSteal": {
-        "max": -27,
-        "min": -49,
-        "raw": -38
+        "max": -38,
+        "min": -71,
+        "raw": -55
       },
       "raw3rdSpellCost": {
         "max": -6,
@@ -90040,9 +90241,9 @@
         "raw": 56
       },
       "thunderDamage": {
-        "max": 12,
-        "min": 3,
-        "raw": 9
+        "max": 18,
+        "min": 4,
+        "raw": 14
       }
     },
     "internalName": "Interference",
@@ -92876,7 +93077,7 @@
     "internalName": "Jungle Rogue",
     "lore": "King of the Jungle—it's a title reserved for the apex of the apex, and yet from where you swing across the canopy, this beast of supposed royalty is but another victim of your thievish pursuits.",
     "majorIds": {
-      "Brachiate": "<span class='font-ascii' style='color:#55FFFF'>+Brachiate: <span class='font-ascii' style='color:#00AAAA'>Grappling Hook has 25% increased range and increased velocity, but no longer pulls mobs.</span></span>"
+      "Brachiate": "<span class='font-ascii' style='color:#55FFFF'>+Brachiate: <span class='font-ascii' style='color:#00AAAA'>Grappling Hook has 25% increased range and increased velocity, but no longer pulls enemies.</span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -94043,7 +94244,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
@@ -94059,7 +94260,7 @@
         "min": 2,
         "raw": 6
       },
-      "rawDexterity": 3,
+      "rawAgility": 3,
       "rawIntelligence": 3,
       "walkSpeed": {
         "max": -3,
@@ -94719,25 +94920,25 @@
     "type": "armour"
   },
   "Kilauea": {
-    "attackSpeed": "fast",
-    "averageDps": 500,
+    "attackSpeed": "slow",
+    "averageDps": 525,
     "base": {
       "baseEarthDamage": {
-        "max": 120,
-        "min": 80,
-        "raw": 80
+        "max": 180,
+        "min": 170,
+        "raw": 170
       },
       "baseFireDamage": {
-        "max": 112,
-        "min": 88,
-        "raw": 88
+        "max": 192,
+        "min": 158,
+        "raw": 158
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
@@ -94754,20 +94955,20 @@
         "raw": -750
       },
       "rawMainAttackDamage": {
-        "max": 150,
-        "min": 35,
-        "raw": 115
+        "max": 280,
+        "min": 65,
+        "raw": 215
       },
-      "rawStrength": 5,
+      "rawStrength": 10,
       "spellDamage": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "walkSpeed": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": -7,
+        "min": -13,
+        "raw": -10
       }
     },
     "internalName": "Kilauea",
@@ -96220,7 +96421,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "397",
+        "customModelData": "409",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth1"
       }
@@ -96243,6 +96444,11 @@
         "raw": 175
       },
       "rawStrength": 8,
+      "slowEnemy": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "walkSpeed": {
         "max": -10,
         "min": -19,
@@ -96274,21 +96480,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
       "fireDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
-      "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
+      "manaSteal": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "rawDexterity": 10,
       "rawHealth": {
@@ -96296,10 +96502,15 @@
         "min": -650,
         "raw": -500
       },
+      "rawMaxMana": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
       "thunderDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "waterDefence": {
         "max": -7,
@@ -97119,7 +97330,7 @@
   },
   "Led Balloon": {
     "attackSpeed": "super_slow",
-    "averageDps": 81,
+    "averageDps": 92,
     "base": {
       "baseDamage": {
         "max": 114,
@@ -97127,16 +97338,16 @@
         "raw": 97
       },
       "baseEarthDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 77,
+        "min": 71,
+        "raw": 71
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "409",
+        "customModelData": "421",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi1"
       }
@@ -97148,24 +97359,24 @@
         "raw": 10
       },
       "earthDefence": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
+      "knockback": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "mainAttackDamage": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "sprint": {
         "max": -8,
         "min": -16,
         "raw": -12
-      },
-      "walkSpeed": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
       }
     },
     "internalName": "Led Balloon",
@@ -97896,7 +98107,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
@@ -97908,14 +98119,9 @@
         "raw": 15
       },
       "lifeSteal": {
-        "max": 143,
-        "min": 33,
-        "raw": 110
-      },
-      "mainAttackDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 169,
+        "min": 39,
+        "raw": 130
       },
       "manaSteal": {
         "max": -6,
@@ -97926,6 +98132,11 @@
         "max": 1853,
         "min": 428,
         "raw": 1425
+      },
+      "rawMainAttackDamage": {
+        "max": 91,
+        "min": 21,
+        "raw": 70
       }
     },
     "internalName": "Lethality",
@@ -99309,39 +99520,39 @@
   },
   "Lightshow": {
     "attackSpeed": "super_fast",
-    "averageDps": 458,
+    "averageDps": 415,
     "base": {
       "baseAirDamage": {
-        "max": 26,
+        "max": 24,
+        "min": 15,
+        "raw": 15
+      },
+      "baseEarthDamage": {
+        "max": 20,
+        "min": 18,
+        "raw": 18
+      },
+      "baseFireDamage": {
+        "max": 21,
         "min": 17,
         "raw": 17
       },
-      "baseEarthDamage": {
-        "max": 22,
-        "min": 20,
-        "raw": 20
-      },
-      "baseFireDamage": {
-        "max": 23,
-        "min": 19,
-        "raw": 19
-      },
       "baseThunderDamage": {
-        "max": 27,
-        "min": 16,
-        "raw": 16
+        "max": 25,
+        "min": 14,
+        "raw": 14
       },
       "baseWaterDamage": {
-        "max": 25,
-        "min": 18,
-        "raw": 18
+        "max": 23,
+        "min": 16,
+        "raw": 16
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
@@ -99352,10 +99563,25 @@
         "min": 9,
         "raw": 30
       },
+      "rawElementalMainAttackDamage": {
+        "max": 104,
+        "min": 24,
+        "raw": 80
+      },
+      "rawElementalSpellDamage": {
+        "max": 137,
+        "min": 32,
+        "raw": 105
+      },
       "reflection": {
-        "max": 91,
-        "min": 21,
-        "raw": 70
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "xpBonus": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Lightshow",
@@ -99672,7 +99898,7 @@
   },
   "Little Machine": {
     "attackSpeed": "fast",
-    "averageDps": 51,
+    "averageDps": 61,
     "base": {
       "baseDamage": {
         "max": 16,
@@ -99680,7 +99906,7 @@
         "raw": 13
       },
       "baseThunderDamage": {
-        "max": 8,
+        "max": 16,
         "min": 4,
         "raw": 4
       }
@@ -99689,7 +99915,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "403",
+        "customModelData": "415",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder1"
       }
@@ -99700,13 +99926,13 @@
         "min": 23,
         "raw": 18
       },
-      "rawDexterity": 4,
-      "rawMainAttackDamage": {
-        "max": 17,
-        "min": 4,
-        "raw": 13
+      "knockback": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
-      "rawSpellDamage": {
+      "rawDexterity": 4,
+      "rawThunderDamage": {
         "max": 17,
         "min": 4,
         "raw": 13
@@ -100307,17 +100533,17 @@
   },
   "Long Bow": {
     "attackSpeed": "slow",
-    "averageDps": 153,
+    "averageDps": 159,
     "base": {
       "baseDamage": {
-        "max": 55,
-        "min": 47,
-        "raw": 47
+        "max": 56,
+        "min": 50,
+        "raw": 50
       },
       "baseEarthDamage": {
-        "max": 55,
-        "min": 47,
-        "raw": 47
+        "max": 56,
+        "min": 50,
+        "raw": 50
       }
     },
     "dropRestriction": "normal",
@@ -100642,6 +100868,42 @@
     },
     "type": "weapon",
     "weaponType": "spear"
+  },
+  "Lost Tales": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseAirDefence": 40,
+      "baseEarthDefence": -60,
+      "baseThunderDefence": 40
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "167",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.thunder2"
+      }
+    },
+    "identifications": {
+      "lifeSteal": -120,
+      "rawAgility": 2,
+      "rawDexterity": 2,
+      "rawMainAttackDamage": 100,
+      "thunderMainAttackDamage": 10,
+      "walkSpeed": 12
+    },
+    "identified": true,
+    "internalName": "Lost Tales",
+    "lore": "You can hardly notice some text engraved on this bracelet. Looking closer, the worn-out inscriptions are telling the legends of an ancient hero whom you do not know of.",
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "dexterity": 45,
+      "level": 96
+    },
+    "restrictions": "untradable",
+    "type": "accessory"
   },
   "Low World Greaves": {
     "armourMaterial": "diamond",
@@ -101374,16 +101636,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
-      "airDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+      "airSpellDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "raw3rdSpellCost": {
         "max": -6,
@@ -101405,15 +101667,10 @@
         "min": -26,
         "raw": -20
       },
-      "spellDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+      "waterSpellDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       }
     },
     "internalName": "Luster Purge",
@@ -101612,7 +101869,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -101621,7 +101878,7 @@
       "airDefence": -18,
       "healthRegenRaw": -188,
       "rawIntelligence": -6,
-      "rawMainAttackDamage": 65,
+      "rawMainAttackDamage": 100,
       "thunderDamage": 24,
       "waterDefence": -18
     },
@@ -101753,10 +102010,10 @@
   },
   "Macabre": {
     "attackSpeed": "slow",
-    "averageDps": 38,
+    "averageDps": 40,
     "base": {
       "baseDamage": {
-        "max": 12,
+        "max": 15,
         "min": 10,
         "raw": 10
       },
@@ -101779,7 +102036,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "400",
+        "customModelData": "412",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire1"
       }
@@ -102998,15 +103255,15 @@
   },
   "Maji": {
     "attackSpeed": "normal",
-    "averageDps": 431,
+    "averageDps": 496,
     "base": {
       "baseDamage": {
-        "max": 95,
-        "min": 75,
-        "raw": 75
+        "max": 120,
+        "min": 80,
+        "raw": 80
       },
       "baseWaterDamage": {
-        "max": 138,
+        "max": 172,
         "min": 110,
         "raw": 110
       }
@@ -103015,7 +103272,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -103043,11 +103300,6 @@
       },
       "rawDexterity": -8,
       "rawIntelligence": 8,
-      "thunderDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
       "waterDefence": {
         "max": 20,
         "min": 5,
@@ -103846,7 +104098,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
@@ -103857,40 +104109,25 @@
         "min": 8,
         "raw": 25
       },
-      "airDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
       "earthDamage": {
         "max": 33,
         "min": 8,
         "raw": 25
-      },
-      "earthDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
-      "fireDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
       },
       "fireDefence": {
         "max": -14,
         "min": -26,
         "raw": -20
       },
+      "manaSteal": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
+      },
       "rawAgility": 15,
       "rawDefence": -15,
       "rawDexterity": -15,
       "rawStrength": 15,
-      "thunderDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
-      },
       "thunderDefence": {
         "max": -14,
         "min": -26,
@@ -105150,10 +105387,10 @@
   },
   "Mazurka": {
     "attackSpeed": "super_fast",
-    "averageDps": 447,
+    "averageDps": 426,
     "base": {
       "baseDamage": {
-        "max": 207,
+        "max": 197,
         "min": 1,
         "raw": 1
       }
@@ -105162,12 +105399,13 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
+      "rawAttackSpeed": 1,
       "rawDexterity": 5,
       "rawHealth": {
         "max": -525,
@@ -105596,17 +105834,12 @@
   },
   "Melange": {
     "attackSpeed": "normal",
-    "averageDps": 136,
+    "averageDps": 113,
     "base": {
       "baseAirDamage": {
         "max": 15,
         "min": 7,
         "raw": 7
-      },
-      "baseDamage": {
-        "max": 11,
-        "min": 11,
-        "raw": 11
       },
       "baseEarthDamage": {
         "max": 14,
@@ -105633,7 +105866,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
@@ -106281,16 +106514,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "exploding": {
-        "max": 51,
+        "max": 52,
         "min": 12,
-        "raw": 39
+        "raw": 40
       },
       "healthRegen": {
         "max": -70,
@@ -106298,27 +106531,22 @@
         "raw": -100
       },
       "lifeSteal": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 156,
+        "min": 36,
+        "raw": 120
       },
       "manaSteal": {
-        "max": -3,
-        "min": -5,
-        "raw": -4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "poison": {
-        "max": 3120,
-        "min": 720,
-        "raw": 2400
+        "max": 5460,
+        "min": 1260,
+        "raw": 4200
       },
       "rawDefence": 12,
       "thorns": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
-      "thunderDamage": {
         "max": 26,
         "min": 6,
         "raw": 20
@@ -106330,7 +106558,7 @@
     "requirements": {
       "classRequirement": "shaman",
       "defence": 35,
-      "dexterity": 35,
+      "dexterity": 25,
       "level": 57
     },
     "type": "weapon",
@@ -107589,7 +107817,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -107611,9 +107839,9 @@
         "raw": 12
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "reflection": {
         "max": 39,
@@ -107621,9 +107849,9 @@
         "raw": 30
       },
       "spellDamage": {
-        "max": 29,
+        "max": 30,
         "min": 7,
-        "raw": 22
+        "raw": 23
       }
     },
     "internalName": "Mirror Shard",
@@ -107883,33 +108111,33 @@
   },
   "Misfit": {
     "attackSpeed": "super_fast",
-    "averageDps": 705,
+    "averageDps": 619,
     "base": {
       "baseEarthDamage": {
-        "max": 83,
-        "min": 81,
-        "raw": 81
+        "max": 73,
+        "min": 71,
+        "raw": 71
       },
       "baseThunderDamage": {
-        "max": 83,
-        "min": 81,
-        "raw": 81
+        "max": 73,
+        "min": 71,
+        "raw": 71
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
     },
     "identifications": {
       "earthDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "exploding": {
         "max": 33,
@@ -107921,20 +108149,15 @@
         "min": 5,
         "raw": 15
       },
-      "mainAttackDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
       "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
+        "max": -6,
+        "min": -10,
+        "raw": -8
       },
       "manaSteal": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+        "max": -6,
+        "min": -10,
+        "raw": -8
       },
       "raw4thSpellCost": {
         "max": -13,
@@ -107942,9 +108165,9 @@
         "raw": -10
       },
       "thunderDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 26,
+        "min": 6,
+        "raw": 20
       }
     },
     "internalName": "Misfit",
@@ -108387,16 +108610,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "airDefence": {
         "max": 39,
@@ -108409,10 +108632,11 @@
         "raw": -15
       },
       "rawAgility": 5,
-      "thunderDefence": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+      "rawIntelligence": 10,
+      "rawMaxMana": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
       },
       "waterDefence": {
         "max": 39,
@@ -109252,12 +109476,12 @@
   },
   "Moonlight": {
     "attackSpeed": "normal",
-    "averageDps": 216,
+    "averageDps": 258,
     "base": {
       "baseAirDamage": {
-        "max": 35,
-        "min": 25,
-        "raw": 25
+        "max": 45,
+        "min": 35,
+        "raw": 35
       },
       "baseDamage": {
         "max": 50,
@@ -109265,9 +109489,9 @@
         "raw": 40
       },
       "baseWaterDamage": {
-        "max": 35,
-        "min": 25,
-        "raw": 25
+        "max": 45,
+        "min": 35,
+        "raw": 35
       }
     },
     "dropMeta": {
@@ -109283,7 +109507,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
@@ -109291,8 +109515,9 @@
     "identifications": {
       "airDefence": 10,
       "elementalDefence": 15,
-      "healthRegenRaw": 25,
+      "healthRegenRaw": 40,
       "mainAttackDamage": -15,
+      "rawMaxMana": 40,
       "waterDefence": 10
     },
     "identified": true,
@@ -110364,17 +110589,17 @@
   },
   "Mountain's Song": {
     "attackSpeed": "super_slow",
-    "averageDps": 541,
+    "averageDps": 566,
     "base": {
       "baseEarthDamage": {
-        "max": 550,
-        "min": 510,
-        "raw": 510
+        "max": 570,
+        "min": 540,
+        "raw": 540
       },
       "baseFireDamage": {
-        "max": 550,
-        "min": 510,
-        "raw": 510
+        "max": 570,
+        "min": 540,
+        "raw": 540
       }
     },
     "dropMeta": {
@@ -110390,17 +110615,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
     },
     "identifications": {
       "1stSpellCost": 35,
-      "4thSpellCost": -21,
+      "4thSpellCost": -20,
       "exploding": 25,
-      "mainAttackDamage": 15,
-      "rawHealth": 1000
+      "mainAttackDamage": 25,
+      "rawHealth": 1500,
+      "slowEnemy": 12
     },
     "identified": true,
     "internalName": "Mountain's Song",
@@ -110554,26 +110780,21 @@
         "raw": 60
       },
       "baseEarthDamage": {
-        "max": 130,
-        "min": 100,
-        "raw": 100
+        "max": 120,
+        "min": 110,
+        "raw": 110
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
     },
     "identifications": {
-      "airDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
       "earthDefence": {
         "max": 20,
         "min": 5,
@@ -110596,6 +110817,11 @@
       },
       "rawAgility": -8,
       "rawStrength": 8,
+      "thorns": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "xpBonus": {
         "max": 20,
         "min": 5,
@@ -111198,24 +111424,24 @@
   },
   "Mvuke": {
     "attackSpeed": "fast",
-    "averageDps": 415,
+    "averageDps": 462,
     "base": {
       "baseDamage": {
-        "max": 72,
-        "min": 50,
-        "raw": 50
+        "max": 81,
+        "min": 59,
+        "raw": 59
       },
       "baseFireDamage": {
-        "max": 120,
-        "min": 90,
-        "raw": 90
+        "max": 130,
+        "min": 100,
+        "raw": 100
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
@@ -111225,6 +111451,11 @@
         "max": 20,
         "min": 5,
         "raw": 15
+      },
+      "healthRegenRaw": {
+        "max": 137,
+        "min": 32,
+        "raw": 105
       },
       "lootBonus": {
         "max": 20,
@@ -111242,11 +111473,6 @@
         "max": -21,
         "min": -39,
         "raw": -30
-      },
-      "waterDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
       },
       "xpBonus": {
         "max": 20,
@@ -111851,12 +112077,12 @@
   },
   "Narcissist": {
     "attackSpeed": "very_slow",
-    "averageDps": 732,
+    "averageDps": 807,
     "base": {
       "baseDamage": {
-        "max": 340,
-        "min": 225,
-        "raw": 225
+        "max": 400,
+        "min": 345,
+        "raw": 345
       },
       "baseEarthDamage": {
         "max": 600,
@@ -111868,12 +112094,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
     },
     "identifications": {
+      "damage": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
       "earthDefence": {
         "max": 33,
         "min": 8,
@@ -111884,21 +112115,11 @@
         "min": 53,
         "raw": 175
       },
-      "mainAttackDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "rawIntelligence": -5,
       "reflection": {
         "max": 85,
         "min": 20,
         "raw": 65
-      },
-      "spellDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       },
       "thorns": {
         "max": 65,
@@ -112073,7 +112294,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -112084,7 +112305,7 @@
       "manaSteal": 12,
       "rawDexterity": 15,
       "rawIntelligence": 15,
-      "spellDamage": -25,
+      "spellDamage": -10,
       "walkSpeed": -10,
       "waterDamage": 30
     },
@@ -113852,33 +114073,33 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
-      },
-      "earthDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+        "max": 39,
+        "min": 9,
+        "raw": 30
       },
       "earthDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+        "max": -28,
+        "min": -52,
+        "raw": -40
       },
-      "fireDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+      "raw2ndSpellCost": {
+        "max": -13,
+        "min": -3,
+        "raw": -10
       },
       "rawAgility": 30,
+      "sprint": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "walkSpeed": {
         "max": 33,
         "min": 8,
@@ -113958,7 +114179,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
@@ -113979,12 +114200,12 @@
         "min": 72,
         "raw": 240
       },
-      "mainAttackDamage": {
-        "max": 14,
-        "min": 3,
-        "raw": 11
-      },
       "rawDefence": 11,
+      "rawMainAttackDamage": {
+        "max": 273,
+        "min": 63,
+        "raw": 210
+      },
       "walkSpeed": {
         "max": 14,
         "min": 3,
@@ -116033,12 +116254,12 @@
   },
   "Oasis": {
     "attackSpeed": "very_slow",
-    "averageDps": 226,
+    "averageDps": 234,
     "base": {
       "baseDamage": {
-        "max": 37,
-        "min": 36,
-        "raw": 36
+        "max": 47,
+        "min": 46,
+        "raw": 46
       },
       "baseEarthDamage": {
         "max": 128,
@@ -116055,16 +116276,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 31,
-        "min": 7,
-        "raw": 24
+        "max": 42,
+        "min": 10,
+        "raw": 32
       },
       "lootBonus": {
         "max": 16,
@@ -116077,10 +116298,11 @@
         "raw": -12
       },
       "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
+      "rawIntelligence": 8,
       "walkSpeed": {
         "max": -8,
         "min": -16,
@@ -116286,7 +116508,7 @@
   },
   "Obsidian Spire": {
     "attackSpeed": "very_slow",
-    "averageDps": 324,
+    "averageDps": 340,
     "base": {
       "baseDamage": {
         "max": 115,
@@ -116294,12 +116516,12 @@
         "raw": 105
       },
       "baseEarthDamage": {
-        "max": 135,
-        "min": 125,
-        "raw": 125
+        "max": 145,
+        "min": 135,
+        "raw": 135
       },
       "baseFireDamage": {
-        "max": 160,
+        "max": 180,
         "min": 140,
         "raw": 140
       }
@@ -116308,26 +116530,26 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "earthDefence": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "fireDefence": {
-        "max": 47,
-        "min": 11,
-        "raw": 36
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "mainAttackDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "rawHealth": {
         "max": 650,
@@ -116745,17 +116967,12 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
     },
     "identifications": {
-      "exploding": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
-      },
       "healingEfficiency": {
         "max": -10,
         "min": -19,
@@ -116767,25 +116984,25 @@
         "raw": 90
       },
       "lifeSteal": {
-        "max": 169,
-        "min": 39,
-        "raw": 130
+        "max": 234,
+        "min": 54,
+        "raw": 180
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "rawDefence": 12,
-      "rawHealth": {
-        "max": -580,
-        "min": -1076,
-        "raw": -828
-      },
       "thorns": {
-        "max": 72,
-        "min": 17,
-        "raw": 55
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "weakenEnemy": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
       }
     },
     "internalName": "October Fires",
@@ -118051,7 +118268,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
@@ -118073,9 +118290,9 @@
         "raw": 100
       },
       "fireDamage": {
-        "max": 59,
+        "max": 60,
         "min": 14,
-        "raw": 45
+        "raw": 46
       },
       "rawAgility": 8,
       "rawDexterity": 8,
@@ -118088,11 +118305,6 @@
         "max": 195,
         "min": 45,
         "raw": 150
-      },
-      "waterDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
       }
     },
     "internalName": "One Thousand Voices",
@@ -118296,7 +118508,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
@@ -118313,14 +118525,19 @@
         "raw": 20
       },
       "manaSteal": {
-        "max": 4,
-        "min": 1,
-        "raw": 3
+        "max": 14,
+        "min": 3,
+        "raw": 11
       },
       "rawMainAttackDamage": {
         "max": 416,
         "min": 96,
         "raw": 320
+      },
+      "slowEnemy": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "spellDamage": {
         "max": 26,
@@ -120817,26 +121034,26 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
+      "damage": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "earthDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
-      "mainAttackDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
-      "spellDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+      "rawMaxMana": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "walkSpeed": {
         "max": -7,
@@ -120844,9 +121061,9 @@
         "raw": -10
       },
       "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Pangea",
@@ -121465,7 +121682,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
@@ -121473,10 +121690,10 @@
     "identifications": {
       "1stSpellCost": -28,
       "healthRegenRaw": -100,
-      "lifeSteal": 200,
+      "lifeSteal": 250,
       "manaRegen": -6,
-      "manaSteal": 8,
-      "walkSpeed": 15
+      "manaSteal": 10,
+      "walkSpeed": 18
     },
     "identified": true,
     "internalName": "Paranoia",
@@ -122217,35 +122434,35 @@
     "type": "armour"
   },
   "Permafrosted Saxifrage": {
-    "attackSpeed": "normal",
-    "averageDps": 253,
+    "attackSpeed": "fast",
+    "averageDps": 232,
     "base": {
       "baseAirDamage": {
-        "max": 73,
-        "min": 50,
-        "raw": 50
+        "max": 60,
+        "min": 33,
+        "raw": 33
       },
       "baseEarthDamage": {
-        "max": 63,
-        "min": 60,
-        "raw": 60
+        "max": 50,
+        "min": 43,
+        "raw": 43
       }
     },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "airDamage": 10,
-      "earthDamage": 10,
+      "airDamage": 20,
+      "earthDamage": 20,
       "fireDefence": -20,
-      "mainAttackDamage": 10,
       "rawAgility": 5,
+      "rawMainAttackDamage": 80,
       "rawStrength": 5,
       "waterDefence": 20
     },
@@ -123472,24 +123689,24 @@
   },
   "Photon Projector": {
     "attackSpeed": "slow",
-    "averageDps": 490,
+    "averageDps": 522,
     "base": {
       "baseAirDamage": {
-        "max": 177,
-        "min": 150,
-        "raw": 150
+        "max": 188,
+        "min": 160,
+        "raw": 160
       },
       "baseWaterDamage": {
-        "max": 177,
-        "min": 150,
-        "raw": 150
+        "max": 188,
+        "min": 160,
+        "raw": 160
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -123506,9 +123723,9 @@
         "raw": 155
       },
       "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "reflection": {
         "max": 33,
@@ -123521,9 +123738,9 @@
         "raw": 25
       },
       "walkSpeed": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "waterDefence": {
         "max": 52,
@@ -124305,45 +124522,45 @@
   },
   "Pizzicato": {
     "attackSpeed": "fast",
-    "averageDps": 405,
+    "averageDps": 465,
     "base": {
       "baseDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 66,
+        "min": 58,
+        "raw": 58
       },
       "baseFireDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 66,
+        "min": 58,
+        "raw": 58
       },
       "baseWaterDamage": {
-        "max": 57,
-        "min": 51,
-        "raw": 51
+        "max": 66,
+        "min": 58,
+        "raw": 58
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
     },
     "identifications": {
+      "damage": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
       "healthRegenRaw": {
-        "max": 124,
-        "min": 29,
-        "raw": 95
+        "max": 137,
+        "min": 32,
+        "raw": 105
       },
       "jumpHeight": 1,
-      "mainAttackDamage": {
-        "max": -5,
-        "min": -9,
-        "raw": -7
-      },
       "manaRegen": {
         "max": 16,
         "min": 4,
@@ -124351,11 +124568,6 @@
       },
       "rawDefence": 7,
       "rawIntelligence": 7,
-      "spellDamage": {
-        "max": -5,
-        "min": -9,
-        "raw": -7
-      },
       "walkSpeed": {
         "max": 13,
         "min": 3,
@@ -125309,16 +125521,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
+      "4thSpellCost": -20,
       "earthDefence": 25,
-      "manaSteal": -4,
-      "poison": 2425,
-      "rawStrength": 5,
+      "manaSteal": -6,
+      "poison": 4000,
+      "rawIntelligence": 10,
       "waterDefence": 25
     },
     "identified": true,
@@ -126298,35 +126511,30 @@
   },
   "Precipice": {
     "attackSpeed": "fast",
-    "averageDps": 340,
+    "averageDps": 415,
     "base": {
       "baseDamage": {
-        "max": 60,
-        "min": 56,
-        "raw": 56
+        "max": 70,
+        "min": 66,
+        "raw": 66
       },
       "baseEarthDamage": {
-        "max": 93,
-        "min": 63,
-        "raw": 63
+        "max": 103,
+        "min": 93,
+        "raw": 93
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "airDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "earthDefence": {
+      "elementalDefence": {
         "max": 39,
         "min": 9,
         "raw": 30
@@ -126336,15 +126544,15 @@
         "min": -23,
         "raw": -18
       },
-      "mainAttackDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+      "mainAttackRange": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
-      "thunderDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+      "rawMainAttackDamage": {
+        "max": 150,
+        "min": 35,
+        "raw": 115
       },
       "waterDefence": {
         "max": -13,
@@ -126427,7 +126635,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "347",
+        "customModelData": "351",
         "id": "minecraft:iron_horse_armor",
         "name": "wand.multi3"
       }
@@ -126454,9 +126662,9 @@
         "raw": 10
       },
       "raw2ndSpellCost": {
-        "max": -10,
-        "min": -2,
-        "raw": -8
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "rawIntelligence": 10,
       "spellDamage": {
@@ -126598,16 +126806,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
     },
     "identifications": {
       "airDefence": {
-        "max": 9,
+        "max": 10,
         "min": 2,
-        "raw": 7
+        "raw": 8
       },
       "fireDamage": {
         "max": -7,
@@ -126620,14 +126828,14 @@
         "raw": 8
       },
       "spellDamage": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       },
       "walkSpeed": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Presto",
@@ -127175,12 +127383,12 @@
   },
   "Prog": {
     "attackSpeed": "normal",
-    "averageDps": 90,
+    "averageDps": 79,
     "base": {
       "baseDamage": {
-        "max": 30,
-        "min": 20,
-        "raw": 20
+        "max": 25,
+        "min": 15,
+        "raw": 15
       },
       "baseFireDamage": {
         "max": 10,
@@ -127197,26 +127405,26 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "409",
+        "customModelData": "421",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi1"
       }
     },
     "identifications": {
+      "lifeSteal": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      },
       "manaSteal": {
         "max": 10,
         "min": 2,
         "raw": 8
       },
       "raw1stSpellCost": {
-        "max": 7,
-        "min": 13,
-        "raw": 10
-      },
-      "raw2ndSpellCost": {
-        "max": -6,
-        "min": -1,
-        "raw": -5
+        "max": 4,
+        "min": 7,
+        "raw": 5
       }
     },
     "internalName": "Prog",
@@ -127464,6 +127672,40 @@
     "requirements": {
       "level": 42
     },
+    "type": "armour"
+  },
+  "Protector's Parable": {
+    "armourMaterial": "diamond",
+    "armourType": "helmet",
+    "base": {
+      "baseAirDefence": 90,
+      "baseFireDefence": 120,
+      "baseHealth": 4000,
+      "baseWaterDefence": 90
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "4thSpellCost": -30,
+      "fireDefence": 25,
+      "healthRegenRaw": 205,
+      "knockback": 40,
+      "rawAgility": 7,
+      "rawDefence": 5,
+      "rawIntelligence": 7,
+      "rawSpellDamage": -100
+    },
+    "identified": true,
+    "internalName": "Protector's Parable",
+    "lore": "A wolf and a rabbit met in the woods. The rabbit was injured; the wolf spared it. The two grew close. One day, the rabbit fell into a hunter's trap. It was terrified, surrounded by armed men. The wolf burst from the trees, fighting the men back, even as they shot it with their bows, long enough for the rabbit to run away. It never saw the wolf again. ",
+    "powderSlots": 3,
+    "rarity": "legendary",
+    "requirements": {
+      "agility": 45,
+      "defence": 60,
+      "intelligence": 45,
+      "level": 92
+    },
+    "restrictions": "untradable",
     "type": "armour"
   },
   "Proto-Shield": {
@@ -128518,16 +128760,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
     },
     "identifications": {
       "1stSpellCost": {
-        "max": -32,
-        "min": -7,
-        "raw": -25
+        "max": -16,
+        "min": -4,
+        "raw": -12
       },
       "lootBonus": {
         "max": 13,
@@ -128535,16 +128777,15 @@
         "raw": 10
       },
       "mainAttackDamage": {
-        "max": -23,
-        "min": -43,
-        "raw": -33
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "manaSteal": {
         "max": 5,
         "min": 1,
         "raw": 4
       },
-      "rawStrength": -5,
       "spellDamage": {
         "max": 20,
         "min": 5,
@@ -131804,37 +132045,37 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
     },
     "identifications": {
       "airDefence": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
-      "fireDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+      "fireDefence": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "rawAgility": 6,
       "rawHealth": {
-        "max": 780,
-        "min": 180,
-        "raw": 600
+        "max": 1105,
+        "min": 255,
+        "raw": 850
       },
       "walkSpeed": {
-        "max": 18,
-        "min": 4,
-        "raw": 14
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "xpBonus": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Quickstep",
@@ -132100,22 +132341,22 @@
   },
   "Radiance": {
     "attackSpeed": "slow",
-    "averageDps": 115,
+    "averageDps": 128,
     "base": {
       "baseDamage": {
-        "max": 49,
-        "min": 34,
-        "raw": 34
+        "max": 52,
+        "min": 37,
+        "raw": 37
       },
       "baseFireDamage": {
-        "max": 19,
-        "min": 15,
-        "raw": 15
+        "max": 22,
+        "min": 18,
+        "raw": 18
       },
       "baseWaterDamage": {
-        "max": 24,
-        "min": 12,
-        "raw": 12
+        "max": 27,
+        "min": 15,
+        "raw": 15
       }
     },
     "dropRestriction": "normal",
@@ -135303,7 +135544,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -135319,13 +135560,18 @@
         "min": -90,
         "raw": -69
       },
+      "knockback": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
       "rawAgility": -10,
       "rawAttackSpeed": 1,
       "rawDefence": -10,
       "rawMainAttackDamage": {
-        "max": 78,
-        "min": 18,
-        "raw": 60
+        "max": 117,
+        "min": 27,
+        "raw": 90
       }
     },
     "internalName": "Relentless",
@@ -136213,15 +136459,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
     },
     "identifications": {
       "1stSpellCost": -17,
-      "airDefence": 10,
-      "reflection": 8
+      "airDamage": 15,
+      "airDefence": 15,
+      "reflection": 10
     },
     "identified": true,
     "internalName": "Remembrance",
@@ -137581,7 +137828,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
@@ -137592,16 +137839,21 @@
         "min": 7,
         "raw": 24
       },
-      "mainAttackDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
-      },
-      "rawIntelligence": 8,
-      "spellDamage": {
+      "healthRegen": {
         "max": 31,
         "min": 7,
         "raw": 24
+      },
+      "healthRegenRaw": {
+        "max": 98,
+        "min": 23,
+        "raw": 75
+      },
+      "rawIntelligence": 8,
+      "spellDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "walkSpeed": {
         "max": -10,
@@ -137628,7 +137880,7 @@
   },
   "Reversal": {
     "attackSpeed": "normal",
-    "averageDps": 150,
+    "averageDps": 164,
     "base": {
       "baseAirDamage": {
         "max": 30,
@@ -137636,9 +137888,9 @@
         "raw": 23
       },
       "baseDamage": {
-        "max": 23,
-        "min": 17,
-        "raw": 17
+        "max": 30,
+        "min": 23,
+        "raw": 23
       },
       "baseEarthDamage": {
         "max": 30,
@@ -137650,31 +137902,31 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
-      "mainAttackDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+      "mainAttackRange": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "rawMainAttackDamage": {
-        "max": 51,
-        "min": 12,
-        "raw": 39
+        "max": 70,
+        "min": 16,
+        "raw": 54
       },
       "reflection": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "thorns": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "walkSpeed": {
         "max": 13,
@@ -137800,20 +138052,20 @@
     "weaponType": "bow"
   },
   "Revolutionine": {
-    "attackSpeed": "slow",
-    "averageDps": 482,
+    "attackSpeed": "very_slow",
+    "averageDps": 540,
     "base": {
       "baseFireDamage": {
-        "max": 327,
-        "min": 315,
-        "raw": 315
+        "max": 666,
+        "min": 634,
+        "raw": 634
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
@@ -137825,9 +138077,9 @@
         "raw": 20
       },
       "mainAttackDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "rawDefence": 15,
       "rawHealth": {
@@ -137844,6 +138096,11 @@
         "max": -14,
         "min": -26,
         "raw": -20
+      },
+      "weakenEnemy": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
       }
     },
     "internalName": "Revolutionine",
@@ -140760,12 +141017,12 @@
   },
   "Running Water": {
     "attackSpeed": "fast",
-    "averageDps": 200,
+    "averageDps": 225,
     "base": {
       "baseDamage": {
-        "max": 30,
-        "min": 10,
-        "raw": 10
+        "max": 40,
+        "min": 20,
+        "raw": 20
       },
       "baseWaterDamage": {
         "max": 70,
@@ -140777,7 +141034,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -140785,14 +141042,14 @@
     "identifications": {
       "rawIntelligence": 9,
       "sprint": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "sprintRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "walkSpeed": {
         "max": 20,
@@ -141311,15 +141568,15 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
       "earthDamage": 10,
-      "lifeSteal": 85,
-      "manaSteal": 4,
+      "lifeSteal": 105,
+      "manaSteal": 9,
       "raw1stSpellCost": -5,
       "thunderDamage": 10
     },
@@ -143680,16 +143937,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
       "fireDefence": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "healingEfficiency": {
         "max": 13,
@@ -143702,9 +143959,9 @@
         "raw": -25
       },
       "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "spellDamage": {
         "max": 13,
@@ -144091,19 +144348,19 @@
   },
   "Scalpel": {
     "attackSpeed": "super_fast",
-    "averageDps": 125,
+    "averageDps": 112,
     "base": {
       "baseDamage": {
-        "max": 30,
-        "min": 28,
-        "raw": 28
+        "max": 28,
+        "min": 24,
+        "raw": 24
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "256",
+        "customModelData": "260",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.basicGold"
       }
@@ -144118,14 +144375,20 @@
         "max": 42,
         "min": 10,
         "raw": 32
-      }
+      },
+      "mainAttackRange": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "rawDefence": 2,
+      "rawDexterity": 2
     },
     "internalName": "Scalpel",
     "powderSlots": 1,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 15,
       "level": 33
     },
     "type": "weapon",
@@ -147349,26 +147612,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
     },
     "identifications": {
-      "earthDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
       "fireDamage": {
         "max": 22,
         "min": 5,
         "raw": 17
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "rawAgility": -10,
       "rawHealth": {
@@ -148516,7 +148774,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
@@ -148533,14 +148791,14 @@
         "raw": -280
       },
       "manaRegen": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "manaSteal": {
         "max": 8,
         "min": 2,
         "raw": 6
-      },
-      "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
       },
       "raw1stSpellCost": {
         "max": -6,
@@ -148552,9 +148810,7 @@
         "min": -1,
         "raw": -5
       },
-      "rawAgility": -9,
-      "rawDefence": -9,
-      "rawDexterity": -9,
+      "rawAgility": -15,
       "waterDamage": {
         "max": 36,
         "min": 8,
@@ -148799,7 +149055,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "411",
+        "customModelData": "423",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi3"
       }
@@ -148809,7 +149065,7 @@
       "2ndSpellCost": -25,
       "3rdSpellCost": -25,
       "4thSpellCost": -25,
-      "manaRegen": 6,
+      "manaRegen": 10,
       "spellDamage": -25
     },
     "identified": true,
@@ -148852,21 +149108,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
       "1stSpellCost": {
-        "max": 210,
-        "min": 390,
-        "raw": 300
+        "max": 28,
+        "min": 52,
+        "raw": 40
       },
       "3rdSpellCost": {
-        "max": -104,
-        "min": -24,
-        "raw": -80
+        "max": -52,
+        "min": -12,
+        "raw": -40
       },
       "healthRegenRaw": {
         "max": -28,
@@ -148877,11 +149133,6 @@
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "raw4thSpellCost": {
-        "max": 7,
-        "min": 13,
-        "raw": 10
       },
       "rawDexterity": 10,
       "spellDamage": {
@@ -149270,36 +149521,36 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
-      "mainAttackDamage": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
-      },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
-      },
-      "rawMainAttackDamage": {
-        "max": 150,
-        "min": 35,
-        "raw": 115
-      },
-      "rawSpellDamage": {
-        "max": 117,
-        "min": 27,
-        "raw": 90
-      },
-      "spellDamage": {
-        "max": 7,
+        "max": 10,
         "min": 2,
-        "raw": 5
+        "raw": 8
+      },
+      "rawThunderDamage": {
+        "max": 156,
+        "min": 36,
+        "raw": 120
+      },
+      "thunderDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "waterDefence": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "weakenEnemy": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
       }
     },
     "internalName": "Shockmosis",
@@ -150093,21 +150344,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
     },
     "identifications": {
-      "airDefence": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
-      },
       "earthDefence": {
         "max": 40,
         "min": 9,
         "raw": 31
+      },
+      "elementalDefence": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "fireDefence": {
         "max": 40,
@@ -150115,9 +150366,9 @@
         "raw": 31
       },
       "healthRegen": {
-        "max": 124,
-        "min": 29,
-        "raw": 95
+        "max": 130,
+        "min": 30,
+        "raw": 100
       },
       "rawDefence": 12,
       "rawHealth": {
@@ -150126,11 +150377,6 @@
         "raw": 3000
       },
       "rawStrength": 8,
-      "thunderDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
       "waterDefence": {
         "max": -10,
         "min": -19,
@@ -150388,19 +150634,19 @@
   },
   "Silent Night": {
     "attackSpeed": "super_slow",
-    "averageDps": 580,
+    "averageDps": 631,
     "base": {
       "baseThunderDamage": {
-        "max": 1225,
-        "min": 1050,
-        "raw": 1050
+        "max": 1325,
+        "min": 1150,
+        "raw": 1150
       }
     },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
@@ -150408,9 +150654,9 @@
     "identifications": {
       "lifeSteal": 250,
       "raw3rdSpellCost": -10,
-      "thunderDamage": 15,
+      "thunderDamage": 20,
       "thunderDefence": 10,
-      "walkSpeed": -8
+      "walkSpeed": -15
     },
     "identified": true,
     "internalName": "Silent Night",
@@ -150426,30 +150672,35 @@
   },
   "Silhouette": {
     "attackSpeed": "fast",
-    "averageDps": 64,
+    "averageDps": 72,
     "base": {
       "baseDamage": {
-        "max": 27,
-        "min": 24,
-        "raw": 24
+        "max": 40,
+        "min": 18,
+        "raw": 18
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
     },
     "identifications": {
       "airDefence": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "rawAgility": 8,
+      "rawAirDamage": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
       "reflection": {
         "max": 13,
         "min": 3,
@@ -150469,12 +150720,12 @@
   },
   "Silicon": {
     "attackSpeed": "very_slow",
-    "averageDps": 83,
+    "averageDps": 87,
     "base": {
       "baseDamage": {
-        "max": 30,
-        "min": 20,
-        "raw": 20
+        "max": 35,
+        "min": 25,
+        "raw": 25
       },
       "baseEarthDamage": {
         "max": 75,
@@ -150486,7 +150737,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "397",
+        "customModelData": "409",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth1"
       }
@@ -150946,17 +151197,17 @@
   },
   "Silver Bay": {
     "attackSpeed": "normal",
-    "averageDps": 422,
+    "averageDps": 505,
     "base": {
       "baseDamage": {
-        "max": 160,
-        "min": 150,
-        "raw": 150
+        "max": 180,
+        "min": 170,
+        "raw": 170
       },
       "baseWaterDamage": {
-        "max": 52,
-        "min": 48,
-        "raw": 48
+        "max": 72,
+        "min": 68,
+        "raw": 68
       }
     },
     "dropMeta": {
@@ -150972,17 +151223,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
       "lootBonus": 10,
-      "manaRegen": 6,
+      "manaRegen": 10,
       "rawHealth": 1000,
+      "rawMaxMana": 40,
       "waterDamage": 25,
-      "waterDefence": 20
+      "waterDefence": 25
     },
     "identified": true,
     "internalName": "Silver Bay",
@@ -151659,7 +151911,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
@@ -151676,9 +151928,9 @@
         "raw": 29
       },
       "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
+        "max": -6,
+        "min": -10,
+        "raw": -8
       },
       "raw3rdSpellCost": {
         "max": -13,
@@ -151688,10 +151940,10 @@
       "rawAgility": 10,
       "rawDefence": 10,
       "rawIntelligence": -20,
-      "waterDamage": {
-        "max": -29,
-        "min": -55,
-        "raw": -42
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
       }
     },
     "internalName": "Silver Sound",
@@ -153517,7 +153769,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
@@ -153528,7 +153780,12 @@
         "min": 4,
         "raw": 12
       },
-      "rawDexterity": -10,
+      "manaRegen": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
+      "rawDexterity": -6,
       "spellDamage": {
         "max": 16,
         "min": 4,
@@ -153540,9 +153797,9 @@
         "raw": -10
       },
       "walkSpeed": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Sky Glaze",
@@ -153700,12 +153957,12 @@
   },
   "Skyline Cries": {
     "attackSpeed": "slow",
-    "averageDps": 450,
+    "averageDps": 510,
     "base": {
       "baseDamage": {
-        "max": 63,
-        "min": 57,
-        "raw": 57
+        "max": 103,
+        "min": 97,
+        "raw": 97
       },
       "baseFireDamage": {
         "max": 130,
@@ -153731,16 +153988,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
     },
     "identifications": {
-      "raw2ndSpellCost": 15,
+      "raw2ndSpellCost": 10,
       "rawDefence": 10,
       "rawHealth": 2750,
       "rawIntelligence": 5,
+      "rawMaxMana": 40,
+      "slowEnemy": 15,
       "walkSpeed": -10
     },
     "identified": true,
@@ -153758,12 +154017,12 @@
   },
   "Skyspiral": {
     "attackSpeed": "fast",
-    "averageDps": 328,
+    "averageDps": 302,
     "base": {
       "baseAirDamage": {
         "max": 63,
-        "min": 57,
-        "raw": 57
+        "min": 47,
+        "raw": 47
       },
       "baseDamage": {
         "max": 31,
@@ -153771,21 +154030,27 @@
         "raw": 31
       },
       "baseThunderDamage": {
-        "max": 42,
-        "min": 38,
-        "raw": 38
+        "max": 52,
+        "min": 18,
+        "raw": 18
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
+      "jumpHeight": 1,
+      "rawAirDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
       "rawDefence": -5,
       "rawDexterity": 5,
       "rawHealth": {
@@ -153793,15 +154058,10 @@
         "min": -416,
         "raw": -320
       },
-      "rawMainAttackDamage": {
-        "max": 77,
-        "min": 18,
-        "raw": 59
-      },
-      "rawSpellDamage": {
-        "max": 78,
-        "min": 18,
-        "raw": 60
+      "rawThunderDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "walkSpeed": {
         "max": 26,
@@ -155027,7 +155287,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -155036,9 +155296,10 @@
       "airDefence": 15,
       "manaRegen": -6,
       "rawAgility": 5,
-      "rawSpellDamage": 95,
+      "rawMaxMana": 40,
+      "rawSpellDamage": 170,
       "walkSpeed": 20,
-      "waterDefence": 20
+      "waterDefence": 30
     },
     "identified": true,
     "internalName": "Slush Rush",
@@ -156936,16 +157197,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
       "3rdSpellCost": {
-        "max": 25,
-        "min": 46,
-        "raw": 35
+        "max": 14,
+        "min": 26,
+        "raw": 20
       },
       "airDamage": {
         "max": 20,
@@ -156953,20 +157214,20 @@
         "raw": 15
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 8,
+        "min": 2,
+        "raw": 6
       },
       "rawAgility": 12,
       "spellDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "walkSpeed": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
+        "max": 30,
+        "min": 7,
+        "raw": 23
       }
     },
     "internalName": "Sonicboom",
@@ -157483,21 +157744,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": 18,
-        "min": 4,
-        "raw": 14
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "earthDamage": {
-        "max": 18,
-        "min": 4,
-        "raw": 14
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "lifeSteal": {
         "max": -98,
@@ -158020,42 +158281,38 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
     },
     "identifications": {
-      "airDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
       "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
-      "rawDexterity": -25,
+      "rawDexterity": 10,
       "rawSpellDamage": {
         "max": 186,
         "min": 43,
         "raw": 143
       },
+      "rawStrength": -10,
       "stealing": {
         "max": 7,
         "min": 2,
         "raw": 5
       },
+      "thunderDefence": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
       "walkSpeed": {
         "max": 20,
         "min": 5,
         "raw": 15
-      },
-      "waterDefence": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       },
       "xpBonus": {
         "max": 20,
@@ -159531,13 +159788,14 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "406",
+        "customModelData": "418",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water1"
       }
     },
     "identifications": {
-      "manaRegen": 6,
+      "manaRegen": 8,
+      "waterDamage": 10,
       "xpBonus": 8
     },
     "identified": true,
@@ -159622,16 +159880,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": -147,
-        "min": -273,
-        "raw": -210
+        "max": -112,
+        "min": -208,
+        "raw": -160
       },
       "lifeSteal": {
         "max": 364,
@@ -159644,16 +159902,15 @@
         "raw": -12
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "poison": {
         "max": 23400,
         "min": 5400,
         "raw": 18000
       },
-      "rawStrength": 10,
       "walkSpeed": {
         "max": 13,
         "min": 3,
@@ -162363,24 +162620,24 @@
   },
   "Steel Buster": {
     "attackSpeed": "slow",
-    "averageDps": 88,
+    "averageDps": 104,
     "base": {
       "baseDamage": {
-        "max": 45,
-        "min": 37,
-        "raw": 37
+        "max": 52,
+        "min": 40,
+        "raw": 40
       },
       "baseEarthDamage": {
-        "max": 20,
-        "min": 16,
-        "raw": 16
+        "max": 24,
+        "min": 22,
+        "raw": 22
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "474",
+        "customModelData": "482",
         "id": "minecraft:iron_horse_armor",
         "name": "spear.earth2"
       }
@@ -163185,18 +163442,18 @@
     "type": "armour"
   },
   "Stone Crunch": {
-    "attackSpeed": "normal",
-    "averageDps": 549,
+    "attackSpeed": "slow",
+    "averageDps": 550,
     "base": {
       "baseDamage": {
-        "max": 113,
-        "min": 100,
-        "raw": 100
+        "max": 173,
+        "min": 140,
+        "raw": 140
       },
       "baseEarthDamage": {
-        "max": 175,
-        "min": 145,
-        "raw": 145
+        "max": 215,
+        "min": 205,
+        "raw": 205
       }
     },
     "dropMeta": {
@@ -163212,15 +163469,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "earthDamage": 10,
+      "earthDamage": 20,
       "manaSteal": -4,
-      "rawMainAttackDamage": 160,
+      "rawMainAttackDamage": 320,
+      "rawStrength": 10,
       "thorns": 20,
       "waterDefence": -20
     },
@@ -163797,19 +164055,19 @@
   },
   "Stormdrain": {
     "attackSpeed": "fast",
-    "averageDps": 556,
+    "averageDps": 581,
     "base": {
       "baseWaterDamage": {
-        "max": 225,
-        "min": 220,
-        "raw": 220
+        "max": 240,
+        "min": 225,
+        "raw": 225
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "408",
+        "customModelData": "420",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water3"
       }
@@ -163846,20 +164104,10 @@
         "raw": 5
       },
       "rawIntelligence": 15,
-      "spellDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
-      },
       "waterDamage": {
-        "max": 72,
-        "min": 17,
-        "raw": 55
-      },
-      "waterDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+        "max": 65,
+        "min": 15,
+        "raw": 50
       }
     },
     "internalName": "Stormdrain",
@@ -164393,7 +164641,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
@@ -164405,9 +164653,9 @@
         "raw": -7
       },
       "lootBonus": {
-        "max": 25,
-        "min": 6,
-        "raw": 19
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "rawHealth": {
         "max": -13,
@@ -164526,7 +164774,7 @@
   },
   "Strikedown": {
     "attackSpeed": "slow",
-    "averageDps": 399,
+    "averageDps": 369,
     "base": {
       "baseDamage": {
         "max": 120,
@@ -164534,14 +164782,14 @@
         "raw": 112
       },
       "baseThunderDamage": {
-        "max": 90,
-        "min": 60,
-        "raw": 60
+        "max": 100,
+        "min": 30,
+        "raw": 30
       },
       "baseWaterDamage": {
         "max": 80,
-        "min": 70,
-        "raw": 70
+        "min": 50,
+        "raw": 50
       }
     },
     "dropMeta": {
@@ -164557,15 +164805,15 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
     },
     "identifications": {
       "3rdSpellCost": -10,
-      "healthRegenRaw": -40,
-      "mainAttackDamage": 10,
+      "damage": 10,
+      "healthRegen": -20,
       "rawDexterity": 5,
       "rawSpellDamage": 95,
       "walkSpeed": -10
@@ -164645,7 +164893,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
@@ -164653,9 +164901,9 @@
     "identifications": {
       "rawAgility": 4,
       "walkSpeed": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 12,
+        "min": 3,
+        "raw": 9
       }
     },
     "internalName": "Stringendo",
@@ -166420,28 +166668,28 @@
   },
   "Sunstruck": {
     "attackSpeed": "slow",
-    "averageDps": 322,
+    "averageDps": 352,
     "base": {
       "baseDamage": {
-        "max": 230,
-        "min": 200,
-        "raw": 200
+        "max": 250,
+        "min": 220,
+        "raw": 220
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
       "fireDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "healthRegenRaw": {
         "max": 104,
@@ -166457,6 +166705,11 @@
         "max": -44,
         "min": -82,
         "raw": -63
+      },
+      "weakenEnemy": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
       }
     },
     "internalName": "Sunstruck",
@@ -169058,18 +169311,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "lifeSteal": 33,
+      "lifeSteal": 53,
       "rawAgility": -7,
       "rawDexterity": -7,
-      "rawHealth": 150,
+      "rawHealth": 220,
       "rawIntelligence": -7,
-      "rawMainAttackDamage": 43,
+      "rawMainAttackDamage": 65,
       "xpBonus": 7
     },
     "identified": true,
@@ -169124,49 +169377,54 @@
   },
   "Technicolor Phase": {
     "attackSpeed": "normal",
-    "averageDps": 99,
+    "averageDps": 111,
     "base": {
       "baseAirDamage": {
-        "max": 9,
-        "min": 7,
-        "raw": 7
+        "max": 10,
+        "min": 8,
+        "raw": 8
       },
       "baseDamage": {
-        "max": 9,
-        "min": 7,
-        "raw": 7
+        "max": 10,
+        "min": 8,
+        "raw": 8
       },
       "baseEarthDamage": {
-        "max": 9,
-        "min": 7,
-        "raw": 7
+        "max": 10,
+        "min": 8,
+        "raw": 8
       },
       "baseFireDamage": {
-        "max": 9,
-        "min": 7,
-        "raw": 7
+        "max": 10,
+        "min": 8,
+        "raw": 8
       },
       "baseThunderDamage": {
-        "max": 9,
-        "min": 7,
-        "raw": 7
+        "max": 10,
+        "min": 8,
+        "raw": 8
       },
       "baseWaterDamage": {
-        "max": 9,
-        "min": 7,
-        "raw": 7
+        "max": 10,
+        "min": 8,
+        "raw": 8
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "409",
+        "customModelData": "421",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi1"
       }
     },
     "identifications": {
+      "elementalDamage": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
       "rawAgility": 5,
       "rawDefence": 5,
       "rawDexterity": 5,
@@ -169699,7 +169957,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
@@ -169711,17 +169969,17 @@
         "raw": 10
       },
       "healthRegenRaw": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "rawAgility": 8,
       "rawDefence": 8,
       "rawDexterity": -3,
       "rawHealth": {
-        "max": 371,
-        "min": 86,
-        "raw": 285
+        "max": 397,
+        "min": 92,
+        "raw": 305
       },
       "rawIntelligence": -3,
       "rawStrength": -3,
@@ -171174,22 +171432,22 @@
   },
   "The Airway": {
     "attackSpeed": "very_fast",
-    "averageDps": 583,
+    "averageDps": 546,
     "base": {
       "baseAirDamage": {
-        "max": 66,
-        "min": 56,
-        "raw": 56
+        "max": 62,
+        "min": 52,
+        "raw": 52
       },
       "baseDamage": {
-        "max": 69,
-        "min": 63,
-        "raw": 63
+        "max": 65,
+        "min": 59,
+        "raw": 59
       },
       "baseThunderDamage": {
-        "max": 81,
-        "min": 41,
-        "raw": 41
+        "max": 77,
+        "min": 37,
+        "raw": 37
       }
     },
     "dropMeta": {
@@ -171205,18 +171463,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
-      "airDamage": 12,
+      "2ndSpellCost": -30,
       "earthDefence": -30,
       "jumpHeight": 1,
+      "rawDamage": 180,
       "rawDexterity": 8,
-      "thunderDamage": 12,
-      "walkSpeed": 10
+      "walkSpeed": 15
     },
     "identified": true,
     "internalName": "The Airway",
@@ -173501,16 +173759,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "409",
+        "customModelData": "421",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi1"
       }
     },
     "identifications": {
+      "damage": 7,
       "healthRegenRaw": 8,
-      "mainAttackDamage": 7,
       "rawIntelligence": 4,
-      "spellDamage": 7
+      "rawMaxMana": 20
     },
     "identified": true,
     "internalName": "The Naturalist",
@@ -173768,7 +174026,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "393",
+        "customModelData": "405",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicGold"
       }
@@ -173780,9 +174038,9 @@
         "raw": 6
       },
       "walkSpeed": {
-        "max": 7,
+        "max": 8,
         "min": 2,
-        "raw": 5
+        "raw": 6
       },
       "xpBonus": {
         "max": 8,
@@ -174148,7 +174406,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
@@ -174156,9 +174414,9 @@
     "identifications": {
       "earthDefence": 15,
       "healingEfficiency": 10,
-      "raw3rdSpellCost": -10,
-      "spellDamage": -12,
-      "waterDamage": 20,
+      "raw3rdSpellCost": -5,
+      "spellDamage": -10,
+      "waterDamage": 25,
       "waterDefence": 15
     },
     "identified": true,
@@ -175023,29 +175281,29 @@
     "averageDps": 719,
     "base": {
       "baseAirDamage": {
-        "max": 63,
-        "min": 57,
-        "raw": 57
+        "max": 60,
+        "min": 55,
+        "raw": 55
       },
       "baseEarthDamage": {
-        "max": 63,
-        "min": 57,
-        "raw": 57
+        "max": 60,
+        "min": 55,
+        "raw": 55
       },
       "baseFireDamage": {
-        "max": 63,
-        "min": 57,
-        "raw": 57
+        "max": 60,
+        "min": 55,
+        "raw": 55
       },
       "baseThunderDamage": {
-        "max": 63,
-        "min": 57,
-        "raw": 57
+        "max": 60,
+        "min": 55,
+        "raw": 55
       },
       "baseWaterDamage": {
-        "max": 50,
-        "min": 45,
-        "raw": 45
+        "max": 60,
+        "min": 55,
+        "raw": 55
       }
     },
     "dropMeta": {
@@ -175061,17 +175319,17 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "411",
+        "customModelData": "423",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi3"
       }
     },
     "identifications": {
       "elementalDefence": 25,
+      "healingEfficiency": 15,
       "raw1stSpellCost": -5,
       "rawHealth": 5000,
-      "spellDamage": -25,
-      "waterDamage": 35
+      "spellDamage": -25
     },
     "identified": true,
     "internalName": "The Watched",
@@ -175236,17 +175494,17 @@
   },
   "Thermals": {
     "attackSpeed": "fast",
-    "averageDps": 500,
+    "averageDps": 550,
     "base": {
       "baseDamage": {
-        "max": 105,
-        "min": 95,
-        "raw": 95
+        "max": 140,
+        "min": 80,
+        "raw": 80
       },
       "baseFireDamage": {
-        "max": 102,
-        "min": 98,
-        "raw": 98
+        "max": 120,
+        "min": 100,
+        "raw": 100
       }
     },
     "dropMeta": {
@@ -175262,16 +175520,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "402",
+        "customModelData": "414",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire3"
       }
     },
     "identifications": {
       "airDefence": 15,
-      "earthDefence": 15,
       "healthRegenRaw": 160,
       "raw2ndSpellCost": -10,
+      "rawFireDamage": 200,
       "walkSpeed": 10
     },
     "identified": true,
@@ -175706,16 +175964,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
       "3rdSpellCost": {
-        "max": -31,
+        "max": -30,
         "min": -7,
-        "raw": -24
+        "raw": -23
       },
       "fireDamage": {
         "max": -21,
@@ -175734,10 +175992,10 @@
         "min": -32,
         "raw": -25
       },
-      "waterDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+      "waterSpellDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       }
     },
     "internalName": "Thousand Waves",
@@ -175769,7 +176027,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -175781,9 +176039,9 @@
         "raw": -55
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "rawHealth": {
         "max": -84,
@@ -175878,7 +176136,7 @@
   },
   "Thriller": {
     "attackSpeed": "very_fast",
-    "averageDps": 174,
+    "averageDps": 161,
     "base": {
       "baseDamage": {
         "max": 28,
@@ -175886,9 +176144,9 @@
         "raw": 6
       },
       "baseThunderDamage": {
-        "max": 50,
-        "min": 28,
-        "raw": 28
+        "max": 46,
+        "min": 24,
+        "raw": 24
       }
     },
     "dropMeta": {
@@ -175904,7 +176162,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -176315,13 +176573,23 @@
         "raw": 20
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "201",
+        "customModelData": "269",
         "id": "minecraft:iron_horse_armor",
-        "name": "bow.thunder2"
+        "name": "dagger.thunder2"
       }
     },
     "identifications": {
@@ -176357,12 +176625,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Dagger",
+    "internalName": "Thunder Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 30,
+      "dexterity": 25,
       "level": 65
     },
     "type": "weapon",
@@ -177342,21 +177610,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
-      "exploding": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "mainAttackDamage": {
         "max": 10,
         "min": 2,
         "raw": 8
+      },
+      "manaRegen": {
+        "max": 12,
+        "min": 3,
+        "raw": 9
       },
       "spellDamage": {
         "max": 21,
@@ -177379,8 +177647,9 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "intelligence": 30,
-      "level": 55
+      "intelligence": 20,
+      "level": 55,
+      "strength": 20
     },
     "type": "weapon",
     "weaponType": "relik"
@@ -177788,39 +178057,39 @@
     "type": "armour"
   },
   "Timthriall": {
-    "attackSpeed": "normal",
-    "averageDps": 628,
+    "attackSpeed": "very_slow",
+    "averageDps": 672,
     "base": {
       "baseDamage": {
-        "max": 153,
-        "min": 152,
-        "raw": 152
+        "max": 408,
+        "min": 402,
+        "raw": 402
       },
       "baseEarthDamage": {
-        "max": 153,
-        "min": 152,
-        "raw": 152
+        "max": 408,
+        "min": 402,
+        "raw": 402
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "399",
+        "customModelData": "411",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth3"
       }
     },
     "identifications": {
+      "damage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
       "earthDamage": {
         "max": 13,
         "min": 3,
         "raw": 10
-      },
-      "mainAttackDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       },
       "manaRegen": {
         "max": 16,
@@ -177828,10 +178097,15 @@
         "raw": 12
       },
       "rawStrength": 15,
-      "spellDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+      "slowEnemy": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "walkSpeed": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
       }
     },
     "internalName": "Timthriall",
@@ -181106,7 +181380,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "397",
+        "customModelData": "409",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth1"
       }
@@ -181117,12 +181391,12 @@
         "min": 2,
         "raw": 8
       },
-      "rawDefence": 4,
       "rawMainAttackDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
+      "rawStrength": 4,
       "walkSpeed": {
         "max": -3,
         "min": -6,
@@ -182536,6 +182810,37 @@
     },
     "type": "accessory"
   },
+  "Unsung": {
+    "armourMaterial": "iron",
+    "armourType": "boots",
+    "base": {
+      "baseAirDefence": 110,
+      "baseEarthDefence": -80,
+      "baseHealth": 1750,
+      "baseThunderDefence": 90
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "knockback": -150,
+      "lifeSteal": 225,
+      "manaSteal": 8,
+      "rawAgility": 10,
+      "rawDefence": -5,
+      "rawStrength": -5,
+      "thunderSpellDamage": 20,
+      "walkSpeed": 20
+    },
+    "identified": true,
+    "internalName": "Unsung",
+    "rarity": "rare",
+    "requirements": {
+      "agility": 50,
+      "dexterity": 40,
+      "level": 84
+    },
+    "restrictions": "untradable",
+    "type": "armour"
+  },
   "Untimely Demise": {
     "armourColor": "rgb(156,73,0)",
     "armourMaterial": "leather",
@@ -182619,22 +182924,22 @@
   },
   "Upgraded Archpriest": {
     "attackSpeed": "very_fast",
-    "averageDps": 144,
+    "averageDps": 118,
     "base": {
       "baseAirDamage": {
-        "max": 15,
-        "min": 13,
-        "raw": 13
+        "max": 13,
+        "min": 11,
+        "raw": 11
       },
       "baseDamage": {
-        "max": 24,
-        "min": 13,
-        "raw": 13
+        "max": 18,
+        "min": 10,
+        "raw": 10
       },
       "baseWaterDamage": {
-        "max": 15,
-        "min": 13,
-        "raw": 13
+        "max": 13,
+        "min": 11,
+        "raw": 11
       }
     },
     "dropMeta": {
@@ -182650,7 +182955,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "486",
+        "customModelData": "494",
         "id": "minecraft:iron_horse_armor",
         "name": "spear.multi2"
       }
@@ -182680,15 +182985,15 @@
   },
   "Upgraded Cursed Bow": {
     "attackSpeed": "fast",
-    "averageDps": 231,
+    "averageDps": 182,
     "base": {
       "baseDamage": {
-        "max": 58,
-        "min": 46,
-        "raw": 46
+        "max": 46,
+        "min": 38,
+        "raw": 38
       },
       "baseThunderDamage": {
-        "max": 80,
+        "max": 61,
         "min": 1,
         "raw": 1
       }
@@ -182733,17 +183038,17 @@
   },
   "Upgraded Dark Needle": {
     "attackSpeed": "fast",
-    "averageDps": 70,
+    "averageDps": 39,
     "base": {
       "baseDamage": {
-        "max": 13,
-        "min": 9,
-        "raw": 9
+        "max": 9,
+        "min": 4,
+        "raw": 4
       },
       "baseThunderDamage": {
-        "max": 24,
-        "min": 10,
-        "raw": 10
+        "max": 14,
+        "min": 4,
+        "raw": 4
       }
     },
     "dropMeta": {
@@ -182759,7 +183064,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "339",
+        "customModelData": "343",
         "id": "minecraft:iron_horse_armor",
         "name": "wand.thunder1"
       }
@@ -182785,12 +183090,12 @@
   },
   "Upgraded Echolocation": {
     "attackSpeed": "very_fast",
-    "averageDps": 183,
+    "averageDps": 118,
     "base": {
       "baseDamage": {
-        "max": 62,
-        "min": 56,
-        "raw": 56
+        "max": 41,
+        "min": 35,
+        "raw": 35
       }
     },
     "dropMeta": {
@@ -182806,14 +183111,14 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "392",
+        "customModelData": "404",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.basicWood"
       }
     },
     "identifications": {
-      "lifeSteal": 14,
-      "poison": 89,
+      "lifeSteal": 18,
+      "poison": 320,
       "reflection": -12,
       "thorns": -12
     },
@@ -182831,12 +183136,12 @@
   },
   "Upgraded Flare Blitz": {
     "attackSpeed": "fast",
-    "averageDps": 262,
+    "averageDps": 200,
     "base": {
       "baseFireDamage": {
-        "max": 113,
-        "min": 97,
-        "raw": 97
+        "max": 87,
+        "min": 73,
+        "raw": 73
       }
     },
     "dropMeta": {
@@ -182852,18 +183157,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "401",
+        "customModelData": "413",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.fire2"
       }
     },
     "identifications": {
-      "fireDamage": 6,
+      "fireDamage": 8,
       "healthRegenRaw": -18,
       "lifeSteal": 32,
-      "mainAttackDamage": 8,
       "rawDefence": 8,
-      "rawHealth": -120
+      "rawHealth": -240,
+      "rawMainAttackDamage": 43
     },
     "identified": true,
     "internalName": "Upgraded Flare Blitz",
@@ -182880,17 +183185,17 @@
   },
   "Upgraded HellRaiser": {
     "attackSpeed": "normal",
-    "averageDps": 179,
+    "averageDps": 151,
     "base": {
       "baseDamage": {
-        "max": 48,
-        "min": 40,
-        "raw": 40
+        "max": 42,
+        "min": 35,
+        "raw": 35
       },
       "baseFireDamage": {
-        "max": 50,
-        "min": 36,
-        "raw": 36
+        "max": 40,
+        "min": 30,
+        "raw": 30
       }
     },
     "dropMeta": {
@@ -182906,14 +183211,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "264",
+        "customModelData": "268",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.fire2"
       }
     },
     "identifications": {
-      "exploding": 4,
+      "exploding": 8,
       "fireDamage": 8,
+      "rawFireMainAttackDamage": 34,
+      "slowEnemy": 6,
       "waterDamage": -36
     },
     "identified": true,
@@ -182931,17 +183238,17 @@
   },
   "Upgraded Long Bow": {
     "attackSpeed": "slow",
-    "averageDps": 195,
+    "averageDps": 168,
     "base": {
       "baseDamage": {
-        "max": 70,
-        "min": 60,
-        "raw": 60
+        "max": 58,
+        "min": 54,
+        "raw": 54
       },
       "baseEarthDamage": {
-        "max": 70,
-        "min": 60,
-        "raw": 60
+        "max": 58,
+        "min": 54,
+        "raw": 54
       }
     },
     "dropMeta": {
@@ -182986,17 +183293,17 @@
   },
   "Upgraded Lullaby": {
     "attackSpeed": "normal",
-    "averageDps": 89,
+    "averageDps": 56,
     "base": {
       "baseDamage": {
-        "max": 29,
-        "min": 23,
-        "raw": 23
+        "max": 19,
+        "min": 13,
+        "raw": 13
       },
       "baseWaterDamage": {
-        "max": 19,
-        "min": 15,
-        "raw": 15
+        "max": 13,
+        "min": 9,
+        "raw": 9
       }
     },
     "dropMeta": {
@@ -183012,7 +183319,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "343",
+        "customModelData": "347",
         "id": "minecraft:iron_horse_armor",
         "name": "wand.water2"
       }
@@ -183040,37 +183347,32 @@
   },
   "Upgraded Melange": {
     "attackSpeed": "normal",
-    "averageDps": 185,
+    "averageDps": 108,
     "base": {
       "baseAirDamage": {
-        "max": 19,
-        "min": 11,
-        "raw": 11
-      },
-      "baseDamage": {
-        "max": 15,
-        "min": 15,
-        "raw": 15
+        "max": 14,
+        "min": 7,
+        "raw": 7
       },
       "baseEarthDamage": {
-        "max": 18,
-        "min": 12,
-        "raw": 12
+        "max": 13,
+        "min": 8,
+        "raw": 8
       },
       "baseFireDamage": {
-        "max": 16,
-        "min": 14,
-        "raw": 14
-      },
-      "baseThunderDamage": {
-        "max": 20,
+        "max": 11,
         "min": 10,
         "raw": 10
       },
+      "baseThunderDamage": {
+        "max": 15,
+        "min": 6,
+        "raw": 6
+      },
       "baseWaterDamage": {
-        "max": 17,
-        "min": 13,
-        "raw": 13
+        "max": 12,
+        "min": 9,
+        "raw": 9
       }
     },
     "dropMeta": {
@@ -183086,7 +183388,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
@@ -183175,17 +183477,17 @@
   },
   "Upgraded Phoenix": {
     "attackSpeed": "slow",
-    "averageDps": 116,
+    "averageDps": 87,
     "base": {
       "baseDamage": {
-        "max": 38,
-        "min": 32,
-        "raw": 32
+        "max": 28,
+        "min": 24,
+        "raw": 24
       },
       "baseFireDamage": {
-        "max": 52,
-        "min": 32,
-        "raw": 32
+        "max": 40,
+        "min": 24,
+        "raw": 24
       }
     },
     "dropMeta": {
@@ -183201,7 +183503,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "337",
+        "customModelData": "341",
         "id": "minecraft:iron_horse_armor",
         "name": "wand.fire2"
       }
@@ -183228,22 +183530,22 @@
   },
   "Upgraded Radiance": {
     "attackSpeed": "slow",
-    "averageDps": 152,
+    "averageDps": 136,
     "base": {
       "baseDamage": {
-        "max": 66,
-        "min": 40,
-        "raw": 40
+        "max": 59,
+        "min": 37,
+        "raw": 37
       },
       "baseFireDamage": {
-        "max": 30,
+        "max": 25,
         "min": 18,
         "raw": 18
       },
       "baseWaterDamage": {
         "max": 28,
-        "min": 20,
-        "raw": 20
+        "min": 15,
+        "raw": 15
       }
     },
     "dropMeta": {
@@ -183285,60 +183587,10 @@
   },
   "Upgraded Scalpel": {
     "attackSpeed": "super_fast",
-    "averageDps": 168,
+    "averageDps": 99,
     "base": {
       "baseDamage": {
-        "max": 40,
-        "min": 38,
-        "raw": 38
-      }
-    },
-    "dropMeta": {
-      "coordinates": [
-        1233,
-        31,
-        -1295
-      ],
-      "name": "Rymek",
-      "type": "merchant"
-    },
-    "dropRestriction": "never",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "256",
-        "id": "minecraft:iron_horse_armor",
-        "name": "dagger.basicGold"
-      }
-    },
-    "identifications": {
-      "healthRegenRaw": 8,
-      "lifeSteal": 16
-    },
-    "identified": true,
-    "internalName": "Upgraded Scalpel",
-    "lore": "The blade actually looks to be of good quality, unlike the other products. The only problem is the questionable stain covering most of it.",
-    "powderSlots": 2,
-    "rarity": "rare",
-    "requirements": {
-      "classRequirement": "assassin",
-      "dexterity": 15,
-      "level": 33
-    },
-    "type": "weapon",
-    "weaponType": "dagger"
-  },
-  "Upgraded Steel Buster": {
-    "attackSpeed": "slow",
-    "averageDps": 122,
-    "base": {
-      "baseDamage": {
-        "max": 64,
-        "min": 50,
-        "raw": 50
-      },
-      "baseEarthDamage": {
-        "max": 28,
+        "max": 25,
         "min": 21,
         "raw": 21
       }
@@ -183356,7 +183608,59 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "474",
+        "customModelData": "260",
+        "id": "minecraft:iron_horse_armor",
+        "name": "dagger.basicGold"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": 8,
+      "lifeSteal": 16,
+      "mainAttackRange": -24,
+      "rawDefence": 2,
+      "rawDexterity": 2
+    },
+    "identified": true,
+    "internalName": "Upgraded Scalpel",
+    "lore": "The blade actually looks to be of good quality, unlike the other products. The only problem is the questionable stain covering most of it.",
+    "powderSlots": 2,
+    "rarity": "rare",
+    "requirements": {
+      "classRequirement": "assassin",
+      "level": 33
+    },
+    "type": "weapon",
+    "weaponType": "dagger"
+  },
+  "Upgraded Steel Buster": {
+    "attackSpeed": "slow",
+    "averageDps": 104,
+    "base": {
+      "baseDamage": {
+        "max": 52,
+        "min": 40,
+        "raw": 40
+      },
+      "baseEarthDamage": {
+        "max": 24,
+        "min": 22,
+        "raw": 22
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        1233,
+        31,
+        -1295
+      ],
+      "name": "Rymek",
+      "type": "merchant"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "482",
         "id": "minecraft:iron_horse_armor",
         "name": "spear.earth2"
       }
@@ -183385,22 +183689,22 @@
   },
   "Upgraded Vartija": {
     "attackSpeed": "super_fast",
-    "averageDps": 99,
+    "averageDps": 82,
     "base": {
       "baseAirDamage": {
-        "max": 7,
-        "min": 4,
-        "raw": 4
+        "max": 6,
+        "min": 3,
+        "raw": 3
       },
       "baseDamage": {
-        "max": 14,
-        "min": 10,
-        "raw": 10
+        "max": 12,
+        "min": 8,
+        "raw": 8
       },
       "baseFireDamage": {
-        "max": 7,
-        "min": 4,
-        "raw": 4
+        "max": 6,
+        "min": 3,
+        "raw": 3
       }
     },
     "dropMeta": {
@@ -183416,7 +183720,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "486",
+        "customModelData": "494",
         "id": "minecraft:iron_horse_armor",
         "name": "spear.multi2"
       }
@@ -183445,17 +183749,17 @@
   },
   "Upgraded Whisper": {
     "attackSpeed": "fast",
-    "averageDps": 160,
+    "averageDps": 112,
     "base": {
       "baseAirDamage": {
-        "max": 31,
-        "min": 27,
-        "raw": 27
+        "max": 28,
+        "min": 14,
+        "raw": 14
       },
       "baseDamage": {
-        "max": 45,
-        "min": 25,
-        "raw": 25
+        "max": 28,
+        "min": 20,
+        "raw": 20
       }
     },
     "dropMeta": {
@@ -183471,15 +183775,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "258",
+        "customModelData": "262",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.air2"
       }
     },
     "identifications": {
+      "2ndSpellCost": -14,
       "airDamage": 10,
+      "airDefence": 10,
       "rawAgility": 4,
-      "rawDexterity": 6,
       "walkSpeed": 10
     },
     "identified": true,
@@ -183992,19 +184297,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
-      "4thSpellCost": 35,
       "earthDamage": 20,
+      "lifeSteal": 380,
       "mainAttackDamage": 30,
       "stealing": 5,
       "thunderDamage": 20,
-      "waterDamage": -50,
-      "waterDefence": -50
+      "waterDamage": -50
     },
     "identified": true,
     "internalName": "Vagabond's Disgrace",
@@ -184012,9 +184316,9 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "dexterity": 70,
+      "dexterity": 50,
       "level": 96,
-      "strength": 65
+      "strength": 40
     },
     "type": "weapon",
     "weaponType": "relik"
@@ -185221,7 +185525,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "411",
+        "customModelData": "423",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi3"
       }
@@ -185237,10 +185541,20 @@
         "min": 35,
         "raw": 115
       },
+      "manaRegen": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "rawHealth": {
         "max": 1255,
         "min": 290,
         "raw": 965
+      },
+      "rawMaxMana": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
       }
     },
     "internalName": "Veins",
@@ -185937,30 +186251,30 @@
     "weaponType": "wand"
   },
   "Vibrato": {
-    "attackSpeed": "slow",
-    "averageDps": 199,
+    "attackSpeed": "super_fast",
+    "averageDps": 178,
     "base": {
       "baseAirDamage": {
-        "max": 56,
-        "min": 55,
-        "raw": 55
+        "max": 15,
+        "min": 14,
+        "raw": 14
       },
       "baseDamage": {
-        "max": 22,
-        "min": 21,
-        "raw": 21
+        "max": 13,
+        "min": 12,
+        "raw": 12
       },
       "baseThunderDamage": {
-        "max": 56,
-        "min": 55,
-        "raw": 55
+        "max": 15,
+        "min": 14,
+        "raw": 14
       }
     },
     "dropRestriction": "normal",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -185972,11 +186286,16 @@
         "raw": -23
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 8,
+        "min": 2,
+        "raw": 6
       },
       "rawDefence": -12,
+      "rawMainAttackDamage": {
+        "max": 36,
+        "min": 8,
+        "raw": 28
+      },
       "walkSpeed": {
         "max": 16,
         "min": 4,
@@ -187161,7 +187480,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
@@ -187172,13 +187491,18 @@
         "min": 5,
         "raw": 18
       },
-      "rawAgility": 5,
-      "rawDexterity": 5,
-      "spellDamage": {
+      "knockback": {
         "max": 14,
         "min": 3,
         "raw": 11
       },
+      "rawAgility": 5,
+      "rawDamage": {
+        "max": 34,
+        "min": 8,
+        "raw": 26
+      },
+      "rawDexterity": 5,
       "walkSpeed": {
         "max": 14,
         "min": 3,
@@ -187267,7 +187591,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -187295,9 +187619,9 @@
       },
       "rawDexterity": 25,
       "thunderDamage": {
-        "max": 59,
+        "max": 60,
         "min": 14,
-        "raw": 45
+        "raw": 46
       }
     },
     "internalName": "Void Catalyst",
@@ -187305,7 +187629,7 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "dexterity": 43,
+      "dexterity": 40,
       "level": 59
     },
     "type": "weapon",
@@ -188611,21 +188935,21 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "396",
+        "customModelData": "408",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air3"
       }
     },
     "identifications": {
       "airDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "earthDamage": {
-        "max": 23,
-        "min": 5,
-        "raw": 18
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "fireDefence": {
         "max": -17,
@@ -188633,9 +188957,9 @@
         "raw": -25
       },
       "mainAttackDamage": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 33,
+        "min": 8,
+        "raw": 25
       },
       "raw1stSpellCost": {
         "max": -6,
@@ -188647,12 +188971,7 @@
         "min": -1410,
         "raw": -1085
       },
-      "rawStrength": 8,
-      "waterDamage": {
-        "max": -28,
-        "min": -52,
-        "raw": -40
-      }
+      "rawStrength": 8
     },
     "internalName": "Waking Nightmare",
     "powderSlots": 3,
@@ -189217,16 +189536,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
     },
     "identifications": {
-      "earthDamage": 20,
-      "fireDamage": 20,
-      "mainAttackDamage": -10,
-      "spellDamage": -10
+      "earthDamage": 30,
+      "fireDamage": 30,
+      "rawDefence": 8,
+      "slowEnemy": 12,
+      "spellDamage": -10,
+      "sprint": -10
     },
     "identified": true,
     "internalName": "Wardrummer",
@@ -191546,9 +191867,9 @@
     "averageDps": 118,
     "base": {
       "baseAirDamage": {
-        "max": 24,
-        "min": 20,
-        "raw": 20
+        "max": 30,
+        "min": 14,
+        "raw": 14
       },
       "baseDamage": {
         "max": 30,
@@ -191560,19 +191881,28 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "258",
+        "customModelData": "262",
         "id": "minecraft:iron_horse_armor",
         "name": "dagger.air2"
       }
     },
     "identifications": {
+      "2ndSpellCost": {
+        "max": -22,
+        "min": -5,
+        "raw": -17
+      },
       "airDamage": {
         "max": 16,
         "min": 4,
         "raw": 12
       },
+      "airDefence": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
       "rawAgility": 4,
-      "rawDexterity": 6,
       "walkSpeed": {
         "max": 16,
         "min": 4,
@@ -191666,12 +191996,12 @@
   },
   "White Craftmas": {
     "attackSpeed": "slow",
-    "averageDps": 466,
+    "averageDps": 482,
     "base": {
       "baseDamage": {
-        "max": 48,
-        "min": 44,
-        "raw": 44
+        "max": 58,
+        "min": 54,
+        "raw": 54
       },
       "baseEarthDamage": {
         "max": 140,
@@ -191688,19 +192018,19 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "410",
+        "customModelData": "422",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.multi2"
       }
     },
     "identifications": {
       "airDefence": 30,
-      "earthDamage": 10,
-      "earthDefence": 15,
+      "earthDefence": 40,
       "lootBonus": 15,
+      "rawMaxMana": 40,
+      "spellDamage": 15,
       "walkSpeed": -10,
-      "waterDamage": 10,
-      "waterDefence": 15
+      "waterDefence": 40
     },
     "identified": true,
     "internalName": "White Craftmas",
@@ -191775,17 +192105,12 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
     },
     "identifications": {
-      "airDamage": {
-        "max": 18,
-        "min": 4,
-        "raw": 14
-      },
       "earthDamage": {
         "max": -21,
         "min": -39,
@@ -191796,15 +192121,15 @@
         "min": -23,
         "raw": -18
       },
-      "mainAttackDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+      "rawAirSpellDamage": {
+        "max": 99,
+        "min": 23,
+        "raw": 76
       },
-      "rawSpellDamage": {
-        "max": 86,
-        "min": 20,
-        "raw": 66
+      "weakenEnemy": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
       },
       "xpBonus": {
         "max": 20,
@@ -192251,18 +192576,18 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "405",
+        "customModelData": "417",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder3"
       }
     },
     "identifications": {
-      "1stSpellCost": 105,
-      "lifeSteal": 220,
-      "poison": 5175,
-      "rawStrength": 40,
-      "reflection": 30,
-      "thorns": 55
+      "1stSpellCost": 50,
+      "lifeSteal": 250,
+      "poison": 8900,
+      "rawDefence": 15,
+      "thorns": 30,
+      "weakenEnemy": 8
     },
     "identified": true,
     "internalName": "Widow",
@@ -192270,8 +192595,8 @@
     "rarity": "rare",
     "requirements": {
       "classRequirement": "shaman",
-      "defence": 30,
-      "dexterity": 40,
+      "defence": 40,
+      "dexterity": 30,
       "level": 77
     },
     "restrictions": "untradable",
@@ -192593,7 +192918,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "395",
+        "customModelData": "407",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air2"
       }
@@ -192610,10 +192935,10 @@
         "min": 6,
         "raw": 20
       },
-      "spellDamage": {
-        "max": -6,
-        "min": -12,
-        "raw": -9
+      "sprint": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "walkSpeed": {
         "max": 26,
@@ -192746,9 +193071,9 @@
     "averageDps": 38,
     "base": {
       "baseAirDamage": {
-        "max": 5,
-        "min": 4,
-        "raw": 4
+        "max": 7,
+        "min": 2,
+        "raw": 2
       },
       "baseDamage": {
         "max": 11,
@@ -192769,13 +193094,14 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "394",
+        "customModelData": "406",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.air1"
       }
     },
     "identifications": {
       "lootBonus": 6,
+      "sprint": 12,
       "walkSpeed": 10
     },
     "identified": true,
@@ -192985,17 +193311,12 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "407",
+        "customModelData": "419",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.water2"
       }
     },
     "identifications": {
-      "earthDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
-      },
       "earthDefence": {
         "max": -7,
         "min": -13,
@@ -193005,6 +193326,11 @@
         "max": -10,
         "min": -18,
         "raw": -14
+      },
+      "manaSteal": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
       },
       "rawDexterity": 4,
       "rawIntelligence": 4,
@@ -193061,7 +193387,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "398",
+        "customModelData": "410",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.earth2"
       }
@@ -193077,6 +193403,11 @@
         "min": 4,
         "raw": 14
       },
+      "manaSteal": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
       "rawDexterity": 4,
       "rawIntelligence": -6,
       "rawStrength": 4,
@@ -193089,11 +193420,6 @@
         "max": 12,
         "min": 3,
         "raw": 9
-      },
-      "waterDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
       },
       "waterDefence": {
         "max": -7,
@@ -193919,6 +194245,7 @@
       }
     },
     "internalName": "Withstand",
+    "lore": "Despite the valley being overtaken by anomalous forces, the toughest flora has managed to avoid extinction. Their coiling vines and roots remind you that even in the most dire of situations, you will never go quietly.",
     "powderSlots": 3,
     "rarity": "legendary",
     "requirements": {
@@ -196575,7 +196902,7 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "404",
+        "customModelData": "416",
         "id": "minecraft:iron_horse_armor",
         "name": "relik.thunder2"
       }
@@ -196586,17 +196913,12 @@
         "min": -27,
         "raw": -21
       },
-      "lootBonus": {
-        "max": 14,
-        "min": 3,
-        "raw": 11
+      "lifeSteal": {
+        "max": 34,
+        "min": 8,
+        "raw": 26
       },
       "thunderDamage": {
-        "max": 14,
-        "min": 3,
-        "raw": 11
-      },
-      "thunderDefence": {
         "max": 14,
         "min": 3,
         "raw": 11
