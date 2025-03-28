@@ -2116,25 +2116,33 @@
         "1": {
           "threshold": 1,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+1 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+1 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>",
+            "</br>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Eldritch Call<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+2 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         },
         "2": {
           "threshold": 5,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+1.75 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+1.75 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>",
+            "</br>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Eldritch Call<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+3.5 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         },
         "3": {
           "threshold": 30,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+2.5 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+2.5 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>",
+            "</br>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Eldritch Call<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+5 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         },
         "4": {
           "threshold": 150,
           "html_description": [
-            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+3 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Totem<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+3 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>",
+            "</br>",
+            "<span class='font-ascii' style='color:#AAAAAA'><span class='font-ascii' style='text-decoration: underline'>Eldritch Call<span class='font-ascii' style='color:#AAAAAA'> gains </span><span class='font-ascii' style='color:#FFFFFF'>+6 <span class='font-ascii' style='color:#00AAAA'><span class='font-common'></span> </span><span class='font-ascii' style='color:#AAAAAA'>Area of Effect.</span></span></span></span></span>"
           ]
         }
       }
