@@ -7251,6 +7251,7 @@
       }
     },
     "internalName": "Animosity",
+    "lore": "Let its whispers guide your hand, and let nothing but a scar of resentment remain.",
     "majorIds": {
       "Hurricane's Eye": "<span class='font-ascii' style='color:#55FFFF'>+Hurricane's Eye: <span class='font-ascii' style='color:#00AAAA'>Violent Vortex applies 2 marks to every enemy it hits.</span></span>"
     },
@@ -9056,19 +9057,14 @@
     },
     "identifications": {
       "4thSpellCost": {
-        "max": -58,
-        "min": -13,
-        "raw": -45
+        "max": -65,
+        "min": -15,
+        "raw": -50
       },
       "earthDamage": {
-        "max": 33,
+        "max": 36,
         "min": 8,
-        "raw": 25
-      },
-      "exploding": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
+        "raw": 28
       },
       "healingEfficiency": {
         "max": -7,
@@ -9080,11 +9076,16 @@
         "min": -39,
         "raw": -30
       },
-      "rawDexterity": -12,
+      "rawDexterity": -8,
       "rawSpellDamage": {
         "max": 260,
         "min": 60,
         "raw": 200
+      },
+      "slowEnemy": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
       }
     },
     "internalName": "Arbalest",
@@ -11588,7 +11589,12 @@
         "max": 10,
         "min": 2,
         "raw": 8
-      }
+      },
+      "rawAgility": 1,
+      "rawDefence": 1,
+      "rawDexterity": 1,
+      "rawIntelligence": 1,
+      "rawStrength": 1
     },
     "internalName": "Aurora",
     "rarity": "unique",
@@ -11806,6 +11812,56 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Auxetic Capacitor": {
+    "accessoryType": "necklace",
+    "base": {
+      "baseHealth": -250,
+      "baseThunderDefence": -40
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "184",
+        "id": "minecraft:iron_horse_armor",
+        "name": "necklace.thunder2"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": {
+        "max": -4,
+        "min": -8,
+        "raw": -6
+      },
+      "healthRegenRaw": {
+        "max": -42,
+        "min": -78,
+        "raw": -60
+      },
+      "rawDexterity": 5,
+      "rawThunderDamage": {
+        "max": 78,
+        "min": 18,
+        "raw": 60
+      },
+      "spellDamage": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      }
+    },
+    "internalName": "Auxetic Capacitor",
+    "lore": "This pendant is not much more than a battery on a string, but a curious combination of Avos and electromagic seem to have left it with the ability to charge power from its surroundings on its own.",
+    "majorIds": {
+      "Self-sufficient": "<span class='font-ascii' style='color:#55FFFF'>+Self-sufficient: <span class='font-ascii' style='color:#00AAAA'>Powder Specials can no longer be charged manually, but accumulate 7% charge every second.</span></span>"
+    },
+    "rarity": "fabled",
+    "requirements": {
+      "dexterity": 65,
+      "level": 88
+    },
+    "type": "accessory"
+  },
   "Avalanche": {
     "armourMaterial": "chain",
     "armourType": "helmet",
@@ -11980,7 +12036,7 @@
     },
     "internalName": "Aviform",
     "majorIds": {
-      "Windsurf": "<span class='font-ascii' style='color:#55FFFF'>+Windsurf: <span class='font-ascii' style='color:#00AAAA'>Righting Reflex lasts twice as long and is affected stronger by movement speed.</span></span>"
+      "Windsurf": "<span class='font-ascii' style='color:#55FFFF'>+Windsurf: <span class='font-ascii' style='color:#00AAAA'>Righting Reflex has 75% reduced fall speed, lasts twice as long, and is affected stronger by movement speed.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -15473,12 +15529,12 @@
   },
   "Bibliotek": {
     "attackSpeed": "slow",
-    "averageDps": 300,
+    "averageDps": 278,
     "base": {
       "baseDamage": {
-        "max": 200,
-        "min": 200,
-        "raw": 200
+        "max": 185,
+        "min": 185,
+        "raw": 185
       }
     },
     "dropRestriction": "normal",
@@ -15492,25 +15548,30 @@
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": 18,
-        "min": 33,
-        "raw": 25
+        "max": 14,
+        "min": 26,
+        "raw": 20
       },
       "4thSpellCost": {
-        "max": -31,
-        "min": -7,
-        "raw": -24
+        "max": -35,
+        "min": -8,
+        "raw": -27
       },
-      "rawAgility": 5,
-      "rawDefence": 5,
-      "rawDexterity": 5,
+      "rawAgility": 3,
+      "rawDefence": 3,
+      "rawDexterity": 3,
       "rawHealth": {
         "max": -210,
         "min": -390,
         "raw": -300
       },
       "rawIntelligence": 5,
-      "rawStrength": 5,
+      "rawStrength": 3,
+      "rawWaterSpellDamage": {
+        "max": 85,
+        "min": 20,
+        "raw": 65
+      },
       "xpBonus": {
         "max": 30,
         "min": 7,
@@ -16749,7 +16810,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "manaSteal": -12,
+      "manaSteal": -8,
       "rawAttackSpeed": 1,
       "rawDexterity": 5,
       "sprintRegen": -20,
@@ -16760,7 +16821,7 @@
     "internalName": "Black Skull",
     "rarity": "rare",
     "requirements": {
-      "dexterity": 65,
+      "dexterity": 50,
       "level": 55
     },
     "restrictions": "untradable",
@@ -28182,9 +28243,9 @@
     "powderSlots": 2,
     "rarity": "unique",
     "requirements": {
-      "intelligence": 50,
+      "intelligence": 35,
       "level": 68,
-      "strength": 50
+      "strength": 35
     },
     "type": "armour"
   },
@@ -31469,17 +31530,17 @@
   },
   "Cinnamon": {
     "attackSpeed": "very_slow",
-    "averageDps": 598,
+    "averageDps": 641,
     "base": {
       "baseDamage": {
-        "max": 40,
+        "max": 45,
         "min": 0,
         "raw": 0
       },
       "baseFireDamage": {
-        "max": 800,
-        "min": 600,
-        "raw": 600
+        "max": 850,
+        "min": 650,
+        "raw": 650
       }
     },
     "dropMeta": {
@@ -35219,23 +35280,23 @@
     "type": "armour"
   },
   "Conference Call": {
-    "attackSpeed": "super_fast",
-    "averageDps": 761,
+    "attackSpeed": "very_slow",
+    "averageDps": 838,
     "base": {
       "baseDamage": {
-        "max": 30,
-        "min": 24,
-        "raw": 24
+        "max": 250,
+        "min": 170,
+        "raw": 170
       },
       "baseFireDamage": {
-        "max": 78,
-        "min": 72,
-        "raw": 72
+        "max": 423,
+        "min": 377,
+        "raw": 377
       },
       "baseThunderDamage": {
-        "max": 78,
-        "min": 72,
-        "raw": 72
+        "max": 423,
+        "min": 377,
+        "raw": 377
       }
     },
     "dropRestriction": "normal",
@@ -35248,15 +35309,10 @@
       }
     },
     "identifications": {
-      "airDefence": {
-        "max": -49,
-        "min": -91,
-        "raw": -70
-      },
       "earthDefence": {
-        "max": -49,
-        "min": -91,
-        "raw": -70
+        "max": -28,
+        "min": -52,
+        "raw": -40
       },
       "exploding": {
         "max": -70,
@@ -35274,17 +35330,12 @@
         "raw": 350
       },
       "manaSteal": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
-      },
-      "poison": {
-        "max": 7020,
-        "min": 1620,
-        "raw": 5400
+        "max": 18,
+        "min": 4,
+        "raw": 14
       },
       "rawDexterity": 15,
-      "rawStrength": -15,
+      "rawStrength": -8,
       "thunderDamage": {
         "max": 20,
         "min": 5,
@@ -39812,14 +39863,14 @@
     },
     "identifications": {
       "mainAttackDamage": {
-        "max": -24,
-        "min": -45,
-        "raw": -35
+        "max": -42,
+        "min": -78,
+        "raw": -60
       },
       "manaRegen": {
-        "max": 16,
-        "min": 4,
-        "raw": 12
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "raw1stSpellCost": {
         "max": 4,
@@ -39830,11 +39881,6 @@
         "max": -6,
         "min": -1,
         "raw": -5
-      },
-      "raw4thSpellCost": {
-        "max": 4,
-        "min": 7,
-        "raw": 5
       },
       "rawIntelligence": 15,
       "walkSpeed": {
@@ -42925,75 +42971,6 @@
     },
     "type": "armour"
   },
-  "Daybreak": {
-    "attackSpeed": "very_slow",
-    "averageDps": 87,
-    "base": {
-      "baseDamage": {
-        "max": 50,
-        "min": 20,
-        "raw": 20
-      },
-      "baseFireDamage": {
-        "max": 40,
-        "min": 30,
-        "raw": 30
-      },
-      "baseThunderDamage": {
-        "max": 60,
-        "min": 10,
-        "raw": 10
-      }
-    },
-    "dropRestriction": "normal",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "350",
-        "id": "minecraft:iron_horse_armor",
-        "name": "wand.multi2"
-      }
-    },
-    "identifications": {
-      "healthRegenRaw": {
-        "max": 22,
-        "min": 5,
-        "raw": 17
-      },
-      "rawAttackSpeed": -1,
-      "rawHealth": {
-        "max": 195,
-        "min": 45,
-        "raw": 150
-      },
-      "spellDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "walkSpeed": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
-      },
-      "waterDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
-      }
-    },
-    "internalName": "Daybreak",
-    "powderSlots": 2,
-    "rarity": "unique",
-    "requirements": {
-      "classRequirement": "mage",
-      "defence": 20,
-      "dexterity": 10,
-      "level": 40
-    },
-    "type": "weapon",
-    "weaponType": "wand"
-  },
   "Dead Man's Flats": {
     "armourMaterial": "chain",
     "armourType": "boots",
@@ -43264,6 +43241,7 @@
       }
     },
     "internalName": "Death Grasp",
+    "lore": "Unspeakable things live within the shadows; waiting so patiently to take others into their ranks. Facsimiles of their existence, painted in inscrutable darkness. Nobody will see. Nobody will know. Nobody will remember.",
     "rarity": "legendary",
     "requirements": {
       "level": 103,
@@ -43972,32 +43950,32 @@
   },
   "Deja Vu": {
     "attackSpeed": "normal",
-    "averageDps": 573,
+    "averageDps": 474,
     "base": {
       "baseAirDamage": {
-        "max": 94,
-        "min": 82,
-        "raw": 82
+        "max": 59,
+        "min": 33,
+        "raw": 33
       },
       "baseEarthDamage": {
-        "max": 7,
-        "min": 7,
-        "raw": 7
+        "max": 59,
+        "min": 33,
+        "raw": 33
       },
       "baseFireDamage": {
-        "max": 94,
-        "min": 82,
-        "raw": 82
+        "max": 59,
+        "min": 33,
+        "raw": 33
       },
       "baseThunderDamage": {
-        "max": 7,
-        "min": 7,
-        "raw": 7
+        "max": 59,
+        "min": 33,
+        "raw": 33
       },
       "baseWaterDamage": {
-        "max": 94,
-        "min": 82,
-        "raw": 82
+        "max": 59,
+        "min": 33,
+        "raw": 33
       }
     },
     "dropRestriction": "normal",
@@ -44011,59 +43989,92 @@
     },
     "identifications": {
       "airDamage": {
-        "max": -15,
-        "min": -27,
-        "raw": -21
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "airDefence": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "earthDamage": {
-        "max": 66,
-        "min": 15,
-        "raw": 51
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "earthDefence": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "fireDamage": {
-        "max": -15,
-        "min": -27,
-        "raw": -21
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
-      "healthRegenRaw": {
-        "max": -70,
-        "min": -130,
-        "raw": -100
-      },
-      "lifeSteal": {
-        "max": 130,
-        "min": 30,
-        "raw": 100
+      "fireDefence": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "lootBonus": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "mainAttackDamage": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "spellDamage": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "thunderDamage": {
-        "max": 66,
-        "min": 15,
-        "raw": 51
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "thunderDefence": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
       },
       "walkSpeed": {
-        "max": 20,
+        "max": 22,
         "min": 5,
-        "raw": 15
+        "raw": 17
       },
       "waterDamage": {
-        "max": -15,
-        "min": -27,
-        "raw": -21
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "waterDefence": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "xpBonus": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
       }
     },
     "internalName": "Deja Vu",
     "powderSlots": 4,
     "rarity": "unique",
     "requirements": {
+      "agility": 17,
       "classRequirement": "shaman",
-      "dexterity": 32,
+      "defence": 17,
+      "dexterity": 17,
+      "intelligence": 17,
       "level": 86,
-      "strength": 32
+      "strength": 17
     },
     "type": "weapon",
     "weaponType": "relik"
@@ -45520,7 +45531,7 @@
     },
     "internalName": "Desperate Facsimile",
     "majorIds": {
-      "Last Resort": "<span class='font-ascii' style='color:#55FFFF'>+Last Resort: <span class='font-ascii' style='color:#00AAAA'>Bloodlust has doubled corrupted scaling and knockback, but deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>-100% <span class='font-ascii' style='color:elements.fire'><span class='font-common'></span>-60%</span><span class='font-ascii' style='color:#00AAAA'>.</span></span></span></span></span></span>"
+      "Last Resort": "<span class='font-ascii' style='color:#55FFFF'>+Last Resort: <span class='font-ascii' style='color:#00AAAA'>Bloodlust has doubled corrupted scaling and knockback, but deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>-100% <span class='font-ascii' style='color:#ff5555'><span class='font-common'></span>-60%</span><span class='font-ascii' style='color:#00AAAA'>.</span></span></span></span></span></span>"
     },
     "powderSlots": 7,
     "rarity": "fabled",
@@ -49158,15 +49169,20 @@
         "min": 65,
         "raw": 215
       },
+      "mainAttackRange": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      },
       "manaRegen": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+        "max": -6,
+        "min": -12,
+        "raw": -9
       },
       "manaSteal": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "rawAgility": 9,
       "rawMainAttackDamage": {
@@ -49514,9 +49530,9 @@
         "raw": 25
       },
       "fireDamage": {
-        "max": -70,
-        "min": -130,
-        "raw": -100
+        "max": -28,
+        "min": -52,
+        "raw": -40
       },
       "rawMainAttackDamage": {
         "max": 364,
@@ -54828,10 +54844,8 @@
       }
     },
     "identifications": {
-      "mainAttackDamage": 1,
-      "rawMainAttackDamage": 1,
-      "rawSpellDamage": 1,
-      "spellDamage": 1
+      "damage": 1,
+      "rawDamage": 1
     },
     "internalName": "Ein",
     "rarity": "unique",
@@ -59443,21 +59457,34 @@
     "armourMaterial": "chain",
     "armourType": "boots",
     "base": {
-      "baseAirDefence": -70,
-      "baseHealth": 1400
+      "baseAirDefence": -30,
+      "baseFireDefence": 20,
+      "baseHealth": 1250,
+      "baseWaterDefence": 20
     },
     "dropRestriction": "normal",
     "identifications": {
-      "airDamage": {
-        "max": -13,
-        "min": -23,
-        "raw": -18
-      },
       "airDefence": {
-        "max": -9,
-        "min": -17,
-        "raw": -13
+        "max": -8,
+        "min": -16,
+        "raw": -12
       },
+      "healingEfficiency": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "healthRegen": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      },
+      "healthRegenRaw": {
+        "max": 66,
+        "min": 15,
+        "raw": 51
+      },
+      "rawDefence": 4,
       "walkSpeed": {
         "max": -6,
         "min": -10,
@@ -59468,7 +59495,7 @@
     "powderSlots": 2,
     "rarity": "unique",
     "requirements": {
-      "defence": 35,
+      "defence": 30,
       "intelligence": 20,
       "level": 60
     },
@@ -64148,12 +64175,12 @@
         "min": 5,
         "raw": 16
       },
-      "mainAttackFireDamage": {
+      "rawDefence": 7,
+      "rawFireMainAttackDamage": {
         "max": 35,
         "min": 8,
         "raw": 27
       },
-      "rawDefence": 7,
       "rawHealth": {
         "max": 195,
         "min": 45,
@@ -75413,14 +75440,12 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "earthDamage": -64,
+      "damage": 24,
+      "earthDamage": -32,
       "lootBonus": 32,
-      "mainAttackDamage": 24,
-      "manaSteal": 8,
+      "manaSteal": 16,
       "rawDexterity": 8,
-      "spellDamage": 24,
       "stealing": 8,
-      "thunderDamage": 8,
       "walkSpeed": 8,
       "xpBonus": 16
     },
@@ -76503,14 +76528,14 @@
     },
     "identifications": {
       "knockback": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "mainAttackDamage": {
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "mainAttackDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
       },
       "rawIntelligence": -6,
       "sprint": {
@@ -76591,12 +76616,12 @@
     "powderSlots": 5,
     "rarity": "legendary",
     "requirements": {
-      "agility": 55,
-      "defence": 55,
-      "dexterity": 55,
-      "intelligence": 55,
+      "agility": 50,
+      "defence": 50,
+      "dexterity": 50,
+      "intelligence": 50,
       "level": 100,
-      "strength": 55
+      "strength": 50
     },
     "type": "armour"
   },
@@ -88796,12 +88821,12 @@
   },
   "Inferna Flamewreath": {
     "attackSpeed": "normal",
-    "averageDps": 700,
+    "averageDps": 752,
     "base": {
       "baseFireDamage": {
-        "max": 350,
-        "min": 330,
-        "raw": 330
+        "max": 380,
+        "min": 350,
+        "raw": 350
       }
     },
     "dropRestriction": "normal",
@@ -88814,10 +88839,10 @@
       }
     },
     "identifications": {
-      "fireDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+      "fireSpellDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "healingEfficiency": {
         "max": -14,
@@ -88839,15 +88864,10 @@
         "min": -1,
         "raw": -5
       },
-      "spellDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
       "waterDefence": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
+        "max": -17,
+        "min": -32,
+        "raw": -25
       }
     },
     "internalName": "Inferna Flamewreath",
@@ -91356,6 +91376,11 @@
         "raw": 2500
       },
       "rawIntelligence": 10,
+      "rawMaxMana": {
+        "max": 60,
+        "min": 14,
+        "raw": 46
+      },
       "walkSpeed": {
         "max": -14,
         "min": -26,
@@ -96219,7 +96244,7 @@
       }
     },
     "internalName": "Lament",
-    "lore": "When the lost city of Sarnfic sunk beneath the depths, nothing but the bubbles of screams and this single wand surfaced. When used, you can still hear the towns lament.",
+    "lore": "When the lost city of Sarnfic sunk beneath the depths, nothing but the bubbles of screams and this single wand surfaced. When used, you can still hear the town's lament.",
     "powderSlots": 3,
     "rarity": "mythic",
     "requirements": {
@@ -100023,9 +100048,9 @@
         "raw": 72
       },
       "baseThunderDamage": {
-        "max": 165,
-        "min": 140,
-        "raw": 140
+        "max": 285,
+        "min": 20,
+        "raw": 20
       }
     },
     "dropRestriction": "normal",
@@ -100043,32 +100068,31 @@
         "min": -39,
         "raw": -30
       },
+      "knockback": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
       "manaSteal": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "rawDefence": -15,
-      "rawIntelligence": -10,
-      "rawMainAttackDamage": {
-        "max": 182,
-        "min": 42,
-        "raw": 140
-      },
-      "rawSpellDamage": {
-        "max": 312,
-        "min": 72,
-        "raw": 240
+      "rawThunderDamage": {
+        "max": 315,
+        "min": 73,
+        "raw": 242
       },
       "thunderDamage": {
         "max": 39,
         "min": 9,
         "raw": 30
       },
-      "waterDefence": {
-        "max": -21,
-        "min": -39,
-        "raw": -30
+      "walkSpeed": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
       }
     },
     "internalName": "Loaded Question",
@@ -100931,12 +100955,12 @@
   },
   "Lower": {
     "attackSpeed": "slow",
-    "averageDps": 585,
+    "averageDps": 690,
     "base": {
       "baseDamage": {
-        "max": 430,
-        "min": 350,
-        "raw": 350
+        "max": 540,
+        "min": 380,
+        "raw": 380
       }
     },
     "dropMeta": {
@@ -100959,9 +100983,9 @@
     },
     "identifications": {
       "raw1stSpellCost": {
-        "max": 39,
-        "min": 72,
-        "raw": 55
+        "max": 14,
+        "min": 26,
+        "raw": 20
       },
       "raw2ndSpellCost": {
         "max": -19,
@@ -101160,9 +101184,9 @@
         "raw": 285
       },
       "baseThunderDamage": {
-        "max": 680,
-        "min": 640,
-        "raw": 640
+        "max": 1320,
+        "min": 0,
+        "raw": 0
       }
     },
     "dropRestriction": "normal",
@@ -101187,9 +101211,9 @@
         "raw": -1250
       },
       "rawMainAttackDamage": {
-        "max": 1138,
-        "min": 263,
-        "raw": 875
+        "max": 1000,
+        "min": 231,
+        "raw": 769
       },
       "thunderDamage": {
         "max": 39,
@@ -105576,14 +105600,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "airDamage": {
-        "max": -52,
-        "min": -97,
-        "raw": -75
+        "max": -17,
+        "min": -32,
+        "raw": -25
       },
       "earthDamage": {
-        "max": -52,
-        "min": -97,
-        "raw": -75
+        "max": -17,
+        "min": -32,
+        "raw": -25
       },
       "fireDamage": {
         "max": 10,
@@ -107613,6 +107637,58 @@
     },
     "type": "armour"
   },
+  "Minokawa's Grasp": {
+    "accessoryType": "bracelet",
+    "base": {
+      "baseAirDefence": 90,
+      "baseEarthDefence": -120,
+      "baseHealth": -300
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "161",
+        "id": "minecraft:iron_horse_armor",
+        "name": "bracelet.air2"
+      }
+    },
+    "identifications": {
+      "3rdSpellCost": {
+        "max": 6,
+        "min": 10,
+        "raw": 8
+      },
+      "airDamage": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      },
+      "elementalDefence": {
+        "max": -9,
+        "min": -17,
+        "raw": -13
+      },
+      "jumpHeight": {
+        "max": 4,
+        "min": 1,
+        "raw": 3
+      },
+      "rawAgility": 3
+    },
+    "internalName": "Minokawa's Grasp",
+    "lore": "The sun fears its wings, and so shall your enemies.",
+    "majorIds": {
+      "Sun Eater": "<span class='font-ascii' style='color:#55FFFF'>+Sun Eater: <span class='font-ascii' style='color:#00AAAA'>Failing to backstab an enemy from behind blinds them for 2s and slows them by 20% for 5s.</span></span>"
+    },
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 55,
+      "intelligence": 45,
+      "level": 95
+    },
+    "type": "accessory"
+  },
   "Minor": {
     "accessoryType": "ring",
     "dropRestriction": "lootchest",
@@ -108717,17 +108793,17 @@
   },
   "Mitten": {
     "attackSpeed": "normal",
-    "averageDps": 31,
+    "averageDps": 21,
     "base": {
       "baseDamage": {
-        "max": 10,
-        "min": 10,
-        "raw": 10
+        "max": 7,
+        "min": 7,
+        "raw": 7
       },
       "baseFireDamage": {
-        "max": 6,
-        "min": 4,
-        "raw": 4
+        "max": 4,
+        "min": 2,
+        "raw": 2
       }
     },
     "dropRestriction": "normal",
@@ -119906,14 +119982,14 @@
         "raw": -100
       },
       "mainAttackDamage": {
-        "max": -24,
-        "min": -45,
-        "raw": -35
+        "max": -38,
+        "min": -71,
+        "raw": -55
       },
       "manaSteal": {
-        "max": 5,
-        "min": 1,
-        "raw": 4
+        "max": 10,
+        "min": 2,
+        "raw": 8
       },
       "rawAttackSpeed": {
         "max": 9,
@@ -127315,15 +127391,15 @@
       }
     },
     "identifications": {
+      "damage": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
       "lootBonus": {
         "max": -7,
         "min": -13,
         "raw": -10
-      },
-      "mainAttackDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
       },
       "rawAgility": 17,
       "rawAttackSpeed": {
@@ -127335,11 +127411,6 @@
       "rawDexterity": 17,
       "rawIntelligence": 17,
       "rawStrength": 17,
-      "spellDamage": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
-      },
       "walkSpeed": {
         "max": -17,
         "min": -32,
@@ -127559,7 +127630,7 @@
     "internalName": "Propeller Hat",
     "lore": "A tag on the inside of the hat reads: \"Do not fly during thunderstorms! The wearer is liable for all injuries sustained while using this product.\"",
     "majorIds": {
-      "Windsurf": "<span class='font-ascii' style='color:#55FFFF'>+Windsurf: <span class='font-ascii' style='color:#00AAAA'>Righting Reflex lasts twice as long and is affected stronger by movement speed.</span></span>"
+      "Windsurf": "<span class='font-ascii' style='color:#55FFFF'>+Windsurf: <span class='font-ascii' style='color:#00AAAA'>Righting Reflex has 75% reduced fall speed, lasts twice as long, and is affected stronger by movement speed.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -132826,10 +132897,30 @@
       }
     },
     "identifications": {
-      "elementalDamage": {
-        "max": -2,
-        "min": -4,
-        "raw": -3
+      "airDefence": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "earthDefence": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "fireDefence": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "thunderDefence": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "waterDefence": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
       }
     },
     "internalName": "Rainbow",
@@ -133951,12 +134042,22 @@
   },
   "Reciprocator": {
     "attackSpeed": "very_slow",
-    "averageDps": 224,
+    "averageDps": 237,
     "base": {
+      "baseAirDamage": {
+        "max": 120,
+        "min": 80,
+        "raw": 80
+      },
       "baseDamage": {
-        "max": 300,
-        "min": 240,
-        "raw": 240
+        "max": 85,
+        "min": 85,
+        "raw": 85
+      },
+      "baseFireDamage": {
+        "max": 120,
+        "min": 80,
+        "raw": 80
       }
     },
     "dropMeta": {
@@ -133978,20 +134079,23 @@
       }
     },
     "identifications": {
+      "healingEfficiency": 10,
       "raw1stSpellCost": -5,
-      "rawAgility": 10,
-      "rawDefence": -10,
-      "reflection": 40,
-      "thorns": 40,
-      "walkSpeed": -10,
-      "waterDamage": 15
+      "rawAgility": 6,
+      "rawDefence": 6,
+      "reflection": 25,
+      "sprintRegen": 20,
+      "thorns": 25,
+      "walkSpeed": -8
     },
     "identified": true,
     "internalName": "Reciprocator",
     "powderSlots": 1,
     "rarity": "rare",
     "requirements": {
+      "agility": 15,
       "classRequirement": "shaman",
+      "defence": 15,
       "level": 44
     },
     "type": "weapon",
@@ -134059,6 +134163,62 @@
     },
     "type": "accessory"
   },
+  "Recompense": {
+    "attackSpeed": "normal",
+    "averageDps": 216,
+    "base": {
+      "baseDamage": {
+        "max": 110,
+        "min": 100,
+        "raw": 100
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "404",
+        "id": "minecraft:iron_horse_armor",
+        "name": "relik.basicWood"
+      }
+    },
+    "identifications": {
+      "elementalDamage": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "elementalDefence": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      },
+      "neutralDamage": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      },
+      "rawHealth": {
+        "max": 225,
+        "min": 52,
+        "raw": 173
+      },
+      "rawNeutralDamage": {
+        "max": 75,
+        "min": 17,
+        "raw": 58
+      }
+    },
+    "internalName": "Rectificator",
+    "powderSlots": 3,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "shaman",
+      "level": 45
+    },
+    "type": "weapon",
+    "weaponType": "relik"
+  },
   "Recovery": {
     "accessoryType": "ring",
     "base": {
@@ -134095,47 +134255,6 @@
       "quest": "Eye of the Storm"
     },
     "type": "accessory"
-  },
-  "Rectificator": {
-    "attackSpeed": "normal",
-    "averageDps": 185,
-    "base": {
-      "baseDamage": {
-        "max": 100,
-        "min": 80,
-        "raw": 80
-      }
-    },
-    "dropRestriction": "normal",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "404",
-        "id": "minecraft:iron_horse_armor",
-        "name": "relik.basicWood"
-      }
-    },
-    "identifications": {
-      "elementalDamage": {
-        "max": 21,
-        "min": 5,
-        "raw": 16
-      },
-      "rawHealth": {
-        "max": 195,
-        "min": 45,
-        "raw": 150
-      }
-    },
-    "internalName": "Rectificator",
-    "powderSlots": 3,
-    "rarity": "unique",
-    "requirements": {
-      "classRequirement": "shaman",
-      "level": 45
-    },
-    "type": "weapon",
-    "weaponType": "relik"
   },
   "Recursion": {
     "attackSpeed": "fast",
@@ -141252,11 +141371,6 @@
       }
     },
     "identifications": {
-      "3rdSpellCost": {
-        "max": 34,
-        "min": 64,
-        "raw": 49
-      },
       "4thSpellCost": {
         "max": -55,
         "min": -13,
@@ -141264,9 +141378,9 @@
       },
       "jumpHeight": -1,
       "poison": {
-        "max": 2405,
-        "min": 555,
-        "raw": 1850
+        "max": 2870,
+        "min": 662,
+        "raw": 2208
       },
       "raw2ndSpellCost": {
         "max": -13,
@@ -142265,9 +142379,9 @@
     "identifications": {
       "2ndSpellCost": -54,
       "3rdSpellCost": -34,
-      "airDamage": 21,
+      "airDamage": 44,
       "lifeSteal": -277,
-      "manaRegen": -42,
+      "manaRegen": -24,
       "manaSteal": 28,
       "rawAgility": 21
     },
@@ -157541,14 +157655,14 @@
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": -56,
-        "min": -104,
-        "raw": -80
+        "max": -17,
+        "min": -32,
+        "raw": -25
       },
       "mainAttackDamage": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": -42,
+        "min": -78,
+        "raw": -60
       },
       "rawDexterity": 10,
       "rawIntelligence": 10,
@@ -166043,6 +166157,75 @@
     "type": "weapon",
     "weaponType": "wand"
   },
+  "Sun Dance": {
+    "attackSpeed": "very_slow",
+    "averageDps": 87,
+    "base": {
+      "baseDamage": {
+        "max": 50,
+        "min": 20,
+        "raw": 20
+      },
+      "baseFireDamage": {
+        "max": 40,
+        "min": 30,
+        "raw": 30
+      },
+      "baseThunderDamage": {
+        "max": 60,
+        "min": 10,
+        "raw": 10
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "350",
+        "id": "minecraft:iron_horse_armor",
+        "name": "wand.multi2"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": {
+        "max": 22,
+        "min": 5,
+        "raw": 17
+      },
+      "rawAttackSpeed": -1,
+      "rawHealth": {
+        "max": 195,
+        "min": 45,
+        "raw": 150
+      },
+      "spellDamage": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "walkSpeed": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "waterDamage": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      }
+    },
+    "internalName": "Daybreak",
+    "powderSlots": 2,
+    "rarity": "unique",
+    "requirements": {
+      "classRequirement": "mage",
+      "defence": 20,
+      "dexterity": 10,
+      "level": 40
+    },
+    "type": "weapon",
+    "weaponType": "wand"
+  },
   "Sunblight Boots": {
     "armourMaterial": "iron",
     "armourType": "boots",
@@ -171141,13 +171324,12 @@
       }
     },
     "identifications": {
-      "earthDamage": 15,
-      "earthDefence": 20,
-      "exploding": 20,
-      "fireDamage": 15,
-      "fireDefence": 20,
+      "earthDefence": 40,
+      "exploding": 50,
+      "fireDefence": 40,
       "rawDexterity": -8,
-      "rawMainAttackDamage": 160,
+      "rawMainAttackDamage": 250,
+      "slowEnemy": 15,
       "waterDefence": -20
     },
     "identified": true,
@@ -172212,17 +172394,17 @@
   },
   "The End": {
     "attackSpeed": "slow",
-    "averageDps": 784,
+    "averageDps": 780,
     "base": {
       "baseAirDamage": {
-        "max": 260,
-        "min": 235,
-        "raw": 235
+        "max": 360,
+        "min": 160,
+        "raw": 160
       },
       "baseEarthDamage": {
         "max": 290,
-        "min": 260,
-        "raw": 260
+        "min": 230,
+        "raw": 230
       }
     },
     "dropRestriction": "normal",
@@ -172240,16 +172422,16 @@
         "min": 135,
         "raw": 450
       },
-      "mainAttackDamage": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+      "mainAttackRange": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
       },
       "rawAgility": 10,
       "rawMainAttackDamage": {
-        "max": 475,
-        "min": 110,
-        "raw": 365
+        "max": 650,
+        "min": 150,
+        "raw": 500
       },
       "rawSpellDamage": {
         "max": -147,
@@ -172262,13 +172444,13 @@
         "raw": 25
       },
       "waterDefence": {
-        "max": -31,
-        "min": -58,
-        "raw": -45
+        "max": -28,
+        "min": -52,
+        "raw": -40
       }
     },
     "internalName": "The End",
-    "powderSlots": 1,
+    "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
       "agility": 55,
@@ -173871,10 +174053,10 @@
       "lifeSteal": 700,
       "manaSteal": 12,
       "raw3rdSpellCost": -10,
-      "rawAirSpellDamage": 425,
-      "rawFireSpellDamage": 425,
+      "rawAirDamage": 425,
+      "rawFireDamage": 425,
       "rawIntelligence": -25,
-      "rawThunderSpellDamage": 425,
+      "rawThunderDamage": 425,
       "walkSpeed": 10
     },
     "identified": true,
@@ -182828,7 +183010,7 @@
       "healthRegenRaw": -200,
       "raw2ndSpellCost": -5,
       "rawDexterity": 10,
-      "thunderMainAttackDamage": 50,
+      "rawThunderMainAttackDamage": 300,
       "walkSpeed": 15,
       "waterDefence": -35
     },
@@ -190247,6 +190429,16 @@
         "raw": 75
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -190289,12 +190481,12 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "type": "weapon",
