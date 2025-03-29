@@ -878,9 +878,9 @@
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 59,
-        "min": 14,
-        "raw": 45
+        "max": 46,
+        "min": 11,
+        "raw": 35
       },
       "rawHealth": {
         "max": 390,
