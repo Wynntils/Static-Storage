@@ -90,7 +90,7 @@
   },
   {
     "id": "dataStaticAspects",
-    "md5": "94277f93d2a3e8115e871a63a8531969",
+    "md5": "d7c0adc9a57c959639753c4dd564be79",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/aspects.json"
   },
   {
@@ -120,7 +120,7 @@
   },
   {
     "id": "dataStaticGear",
-    "md5": "2eca6e950a4c6c0b15cfa3b66bf20cdf",
+    "md5": "9475cda9cb3025d00d388f120ce2cf64",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/gear.json"
   },
   {
@@ -140,7 +140,7 @@
   },
   {
     "id": "dataStaticIngredients",
-    "md5": "78ff1a6cac3f646df38e3cf158e8b5f5",
+    "md5": "09d87bd06e293094bc5bea5030da9dc0",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/ingredients.json"
   },
   {
@@ -165,7 +165,7 @@
   },
   {
     "id": "dataStaticLootrunTasksNamedV2",
-    "md5": "c8a56fdbc7a0fd65750ed6c343e0e0fd",
+    "md5": "6db37c08ce37d1826e58c90a2d7bcd01",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/lootrun_tasks_named_v2.json"
   },
   {
@@ -230,7 +230,7 @@
   },
   {
     "id": "dataStaticTomes",
-    "md5": "dae81e18e09cf2904459d23bec819287",
+    "md5": "b040ca6331c51744cb2b350afde595b7",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
   },
   {
