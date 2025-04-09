@@ -123,9 +123,14 @@ def parse_html_to_json(html_string):
     return parts
 
 def create_part(text, style):
-    part = {"text": text, "bold": style.get("bold", False), "italic": style.get("italic", False),
-            "underline": style.get("underline", False), "font": style.get("font", "default"),
-            "color": style.get("color", "#AAAAAA"), "margin-left": style.get("margin-left", "None")}
+    part = {"text": text}
+
+    for key in ["bold", "italic", "underline", "strikethrough", "font", "color", "margin-left"]:
+        if key in style:
+            if key == "font" and style[key] == "default":
+                continue
+
+            part[key] = style[key]
 
     return part
 
