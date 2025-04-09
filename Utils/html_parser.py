@@ -129,18 +129,29 @@ def create_part(text, style):
 
     return part
 
-def process_file(input_path, output_path):
+def process_file(input_path, output_path, gear):
     with open(input_path, "r", encoding="utf-8") as infile:
         data = json.load(infile)
 
-    for aspect, aspect_data in data.items():
-        if "tiers" in aspect_data:
-            for tier, tier_data in aspect_data["tiers"].items():
-                if "description" in tier_data:
-                    clean_description = [clean_html(desc) for desc in tier_data["description"]]
-                    tier_data["description"] = [parse_html_to_json(desc) for desc in clean_description]
+    if gear:
+        for item_data in data.values():
+            if "majorIds" in item_data:
+                json_major_ids = {}
+
+                for key, value in item_data["majorIds"].items():
+                    cleaned = clean_html(value)
+                    json_major_ids[key] = parse_html_to_json(cleaned)
+
+                item_data["jsonMajorIds"] = json_major_ids
+    else:
+        for aspect, aspect_data in data.items():
+            if "tiers" in aspect_data:
+                for tier, tier_data in aspect_data["tiers"].items():
+                    if "description" in tier_data:
+                        clean_description = [clean_html(desc) for desc in tier_data["description"]]
+                        tier_data["description"] = [parse_html_to_json(desc) for desc in clean_description]
 
     with open(output_path, "w", encoding="utf-8") as outfile:
         json.dump(data, outfile, indent=2)
 
-process_file(sys.argv[1], sys.argv[2])
+process_file(sys.argv[1], sys.argv[2], sys.argv[3] == "true")

@@ -48,7 +48,7 @@ for CLASS in $ASPECT_CLASSES; do
     # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
     jq --sort-keys < ${CLASS}_aspects.json.tmp > ${CLASS}_aspects.json.tmp2
     # Run the Python script to save the class file with the HTML description parsed to JSON
-    python ../Utils/html_parser.py ${CLASS}_aspects.json.tmp2 ${CLASS}_aspects.json
+    python ../Utils/html_parser.py ${CLASS}_aspects.json.tmp2 ${CLASS}_aspects.json false
     rm ${CLASS}_aspects.json.tmp ${CLASS}_aspects.json.tmp2
 
     # Create/merge the minimized version
