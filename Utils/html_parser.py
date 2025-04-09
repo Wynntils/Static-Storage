@@ -9,6 +9,15 @@ STYLE_PATTERN = re.compile(r'style=["\'](.*?)["\']')
 TOKEN_PATTERN = re.compile(r'(<span[^>]*>|</span>|[^<]+)')
 TAG_PATTERN = re.compile("|".join(map(re.escape, TAGS_TO_REMOVE)))
 
+COLOR_MAP = {
+    "elements.neutral": "#FFAA00",
+    "elements.earth": "#00AA00",
+    "elements.thunder": "#FFFF55",
+    "elements.water": "#55FFFF",
+    "elements.fire": "#FF5555",
+    "elements.air": "#FFFFFF",
+}
+
 FONT_NAMESPACES = {
     "font-ascii": "default",
     "font-default": "default",
@@ -18,9 +27,15 @@ FONT_NAMESPACES = {
     "font-high_gavelian": "language/high_gavelian",
 }
 
-# Sometimes the API includes colour tags like <aqua> or <white> so we can just remove any
-def remove_tags(text):
-    return TAG_PATTERN.sub("", text)
+def clean_html(text):
+    # Sometimes the API includes colour tags like <aqua> or <white> so we can just remove any
+    cleaned_text = TAG_PATTERN.sub("", text)
+
+    # It can also include the internal dictionary keys for colours so convert those to hex
+    for key, value in COLOR_MAP.items():
+        cleaned_text = cleaned_text.replace(key, value)
+
+    return cleaned_text
 
 def parse_html_to_json(html_string):
     if html_string.strip() == "</br>":
@@ -122,7 +137,7 @@ def process_file(input_path, output_path):
         if "tiers" in aspect_data:
             for tier, tier_data in aspect_data["tiers"].items():
                 if "description" in tier_data:
-                    clean_description = [remove_tags(desc) for desc in tier_data["description"]]
+                    clean_description = [clean_html(desc) for desc in tier_data["description"]]
                     tier_data["description"] = [parse_html_to_json(desc) for desc in clean_description]
 
     with open(output_path, "w", encoding="utf-8") as outfile:
