@@ -28,16 +28,16 @@ FONT_NAMESPACES = {
 }
 
 def clean_html(text):
-    # Sometimes the API includes colour tags like <aqua> or <white> so we can just remove any
+    # Sometimes the API includes color tags like <aqua> or <white> so we can just remove any
     cleaned_text = TAG_PATTERN.sub("", text)
 
-    # It can also include the internal dictionary keys for colours so convert those to hex
+    # It can also include the internal dictionary keys for colors so convert those to hex
     for key, value in COLOR_MAP.items():
         cleaned_text = cleaned_text.replace(key, value)
 
     return cleaned_text
 
-def parse_html_to_json(html_string):
+def parse_html_to_json(html_string, default_color):
     if html_string.strip() == "</br>":
         return []
 
@@ -59,7 +59,7 @@ def parse_html_to_json(html_string):
 
             parent_style = styles[-1]
             new_style = {
-                "color": parent_style.get("color", "#AAAAAA")
+                "color": parent_style.get("color", default_color)
             }
 
             class_matcher = CLASS_PATTERN.search(token)
@@ -145,7 +145,7 @@ def process_file(input_path, output_path, gear):
 
                 for key, value in item_data["majorIds"].items():
                     cleaned = clean_html(value)
-                    json_major_ids[key] = parse_html_to_json(cleaned)
+                    json_major_ids[key] = parse_html_to_json(cleaned, "#55FFFF")
 
                 item_data["jsonMajorIds"] = json_major_ids
     else:
@@ -154,7 +154,7 @@ def process_file(input_path, output_path, gear):
                 for tier, tier_data in aspect_data["tiers"].items():
                     if "description" in tier_data:
                         clean_description = [clean_html(desc) for desc in tier_data["description"]]
-                        tier_data["description"] = [parse_html_to_json(desc) for desc in clean_description]
+                        tier_data["description"] = [parse_html_to_json(desc, "#AAAAAA") for desc in clean_description]
 
     with open(output_path, "w", encoding="utf-8") as outfile:
         json.dump(data, outfile, indent=2)
