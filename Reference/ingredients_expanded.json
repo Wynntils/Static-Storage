@@ -402,9 +402,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 995,
-        "min": 970,
-        "raw": 970
+        "max": 1990,
+        "min": 1940,
+        "raw": 1940
       },
       "waterDefence": {
         "max": -8,
@@ -475,9 +475,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 225,
-        "min": 175,
-        "raw": 175
+        "max": 450,
+        "min": 350,
+        "raw": 350
       }
     },
     "ingredientPositionModifiers": {
@@ -611,9 +611,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 550,
-        "min": 500,
-        "raw": 500
+        "max": 1100,
+        "min": 1000,
+        "raw": 1000
       }
     },
     "ingredientPositionModifiers": {
@@ -4772,9 +4772,21 @@
             9
           ],
           [
-            1087,
-            72,
-            -4677,
+            1072,
+            81,
+            -4653,
+            8
+          ],
+          [
+            1072,
+            81,
+            -4653,
+            8
+          ],
+          [
+            1072,
+            81,
+            -4653,
             8
           ],
           [
@@ -23027,9 +23039,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 195,
-        "min": 165,
-        "raw": 165
+        "max": 390,
+        "min": 330,
+        "raw": 330
       }
     },
     "ingredientPositionModifiers": {
@@ -23678,9 +23690,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1100,
-        "min": 1000,
-        "raw": 1000
+        "max": 2200,
+        "min": 2000,
+        "raw": 2000
       }
     },
     "ingredientPositionModifiers": {
@@ -24473,9 +24485,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 15,
-        "min": 15,
-        "raw": 15
+        "max": 30,
+        "min": 30,
+        "raw": 30
       }
     },
     "ingredientPositionModifiers": {
@@ -25125,9 +25137,9 @@
         "raw": 70
       },
       "poison": {
-        "max": 580,
-        "min": 530,
-        "raw": 530
+        "max": 1160,
+        "min": 1060,
+        "raw": 1060
       }
     },
     "ingredientPositionModifiers": {
@@ -25641,9 +25653,9 @@
         "raw": -3
       },
       "poison": {
-        "max": 3000,
-        "min": 3000,
-        "raw": 3000
+        "max": 6000,
+        "min": 6000,
+        "raw": 6000
       }
     },
     "ingredientPositionModifiers": {
@@ -26074,9 +26086,9 @@
         "raw": -3
       },
       "poison": {
-        "max": 6,
-        "min": 5,
-        "raw": 5
+        "max": 12,
+        "min": 10,
+        "raw": 10
       }
     },
     "ingredientPositionModifiers": {
@@ -26127,9 +26139,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1001,
-        "min": 999,
-        "raw": 999
+        "max": 2001,
+        "min": 1999,
+        "raw": 1999
       },
       "rawHealth": {
         "max": -314,
@@ -29350,9 +29362,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 1300,
-        "min": 1200,
-        "raw": 1200
+        "max": 2600,
+        "min": 2400,
+        "raw": 2400
       }
     },
     "ingredientPositionModifiers": {
@@ -35899,9 +35911,9 @@
         "raw": -30
       },
       "poison": {
-        "max": 690,
-        "min": 650,
-        "raw": 650
+        "max": 1380,
+        "min": 1300,
+        "raw": 1300
       }
     },
     "ingredientPositionModifiers": {
@@ -37434,9 +37446,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 3,
-        "min": 1,
-        "raw": 1
+        "max": 6,
+        "min": 2,
+        "raw": 2
       }
     },
     "ingredientPositionModifiers": {
@@ -45526,9 +45538,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 320,
-        "min": 270,
-        "raw": 270
+        "max": 640,
+        "min": 540,
+        "raw": 540
       },
       "waterDamage": {
         "max": 12,
@@ -46519,9 +46531,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1700,
-        "min": 1600,
-        "raw": 1600
+        "max": 3400,
+        "min": 3200,
+        "raw": 3200
       },
       "waterDamage": {
         "max": 12,
@@ -48592,9 +48604,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 40,
-        "min": 35,
-        "raw": 35
+        "max": 80,
+        "min": 70,
+        "raw": 70
       }
     },
     "ingredientPositionModifiers": {
@@ -51035,9 +51047,9 @@
         "raw": 20
       },
       "poison": {
-        "max": -155,
-        "min": -175,
-        "raw": -175
+        "max": -310,
+        "min": -350,
+        "raw": -350
       }
     },
     "ingredientPositionModifiers": {
@@ -51134,9 +51146,9 @@
         "raw": 1
       },
       "poison": {
-        "max": 200,
-        "min": 160,
-        "raw": 160
+        "max": 400,
+        "min": 320,
+        "raw": 320
       }
     },
     "ingredientPositionModifiers": {
@@ -51629,9 +51641,9 @@
         "raw": 30
       },
       "poison": {
-        "max": 425,
-        "min": 350,
-        "raw": 350
+        "max": 850,
+        "min": 700,
+        "raw": 700
       },
       "rawAttackSpeed": {
         "max": -1,
@@ -51687,9 +51699,9 @@
         "raw": -7
       },
       "poison": {
-        "max": 1825,
-        "min": 1700,
-        "raw": 1700
+        "max": 3650,
+        "min": 3400,
+        "raw": 3400
       }
     },
     "ingredientPositionModifiers": {
@@ -63090,9 +63102,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 8,
-        "min": 6,
-        "raw": 6
+        "max": 16,
+        "min": 14,
+        "raw": 14
       },
       "rawStrength": {
         "max": 1,
@@ -73520,9 +73532,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 600,
-        "min": 560,
-        "raw": 560
+        "max": 1200,
+        "min": 1120,
+        "raw": 1120
       },
       "walkSpeed": {
         "max": -4,
@@ -73601,9 +73613,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 160,
-        "min": 140,
-        "raw": 140
+        "max": 320,
+        "min": 280,
+        "raw": 280
       }
     },
     "ingredientPositionModifiers": {
@@ -73707,9 +73719,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 3,
-        "min": 2,
-        "raw": 2
+        "max": 6,
+        "min": 4,
+        "raw": 4
       }
     },
     "ingredientPositionModifiers": {
@@ -77973,9 +77985,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 510,
-        "min": 460,
-        "raw": 460
+        "max": 1020,
+        "min": 920,
+        "raw": 920
       }
     },
     "ingredientPositionModifiers": {
@@ -79305,9 +79317,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 710,
-        "min": 640,
-        "raw": 640
+        "max": 1420,
+        "min": 1280,
+        "raw": 1280
       }
     },
     "ingredientPositionModifiers": {
@@ -81902,9 +81914,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 170,
-        "min": 140,
-        "raw": 140
+        "max": 340,
+        "min": 280,
+        "raw": 280
       },
       "thunderDefence": {
         "max": 3,
@@ -85316,9 +85328,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 15,
-        "min": 12,
-        "raw": 12
+        "max": 30,
+        "min": 24,
+        "raw": 24
       },
       "waterDamage": {
         "max": 4,
@@ -85616,9 +85628,9 @@
         "raw": 1
       },
       "poison": {
-        "max": 130,
-        "min": 120,
-        "raw": 120
+        "max": 260,
+        "min": 240,
+        "raw": 240
       },
       "rawStrength": {
         "max": 3,
@@ -89614,9 +89626,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 3500,
-        "min": 3200,
-        "raw": 3200
+        "max": 7000,
+        "min": 6400,
+        "raw": 6400
       },
       "rawMainAttackDamage": {
         "max": 80,
@@ -92476,9 +92488,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1150,
-        "min": 1050,
-        "raw": 1050
+        "max": 2300,
+        "min": 2100,
+        "raw": 2100
       },
       "rawDefence": {
         "max": -2,
@@ -93267,9 +93279,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 33,
-        "min": 28,
-        "raw": 28
+        "max": 66,
+        "min": 54,
+        "raw": 54
       },
       "walkSpeed": {
         "max": 4,
@@ -97367,9 +97379,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 10,
-        "min": 8,
-        "raw": 8
+        "max": 20,
+        "min": 16,
+        "raw": 16
       }
     },
     "ingredientPositionModifiers": {
@@ -97483,9 +97495,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 5,
-        "min": 4,
-        "raw": 4
+        "max": 10,
+        "min": 8,
+        "raw": 8
       }
     },
     "ingredientPositionModifiers": {
@@ -103363,9 +103375,9 @@
         "raw": 7
       },
       "poison": {
-        "max": 500,
-        "min": 400,
-        "raw": 400
+        "max": 1000,
+        "min": 800,
+        "raw": 800
       }
     },
     "ingredientPositionModifiers": {
@@ -106698,9 +106710,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 155,
-        "min": 135,
-        "raw": 135
+        "max": 310,
+        "min": 270,
+        "raw": 270
       }
     },
     "ingredientPositionModifiers": {
@@ -107475,9 +107487,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 15,
-        "min": 10,
-        "raw": 10
+        "max": 30,
+        "min": 20,
+        "raw": 20
       }
     },
     "ingredientPositionModifiers": {
@@ -110382,9 +110394,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 195,
-        "min": 175,
-        "raw": 175
+        "max": 390,
+        "min": 350,
+        "raw": 350
       }
     },
     "ingredientPositionModifiers": {
