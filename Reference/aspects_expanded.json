@@ -1356,11 +1356,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s movement speed by ",
+                "text": "'s attack speed by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "+20%",
                 "color": "#FFFFFF"
               },
               {
@@ -1432,7 +1432,17 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s movement speed by ",
+                "text": "'s attack speed by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "and movement speed by ",
                 "color": "#AAAAAA"
               },
               {
@@ -1508,11 +1518,21 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s movement speed by ",
+                "text": "'s attack speed by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+35%",
+                "text": "+40%",
+                "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "and movement speed by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
@@ -2750,15 +2770,15 @@
                 "color": "#55FFFF"
               },
               {
-                "text": "builds up ",
+                "text": "requires ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "20% ",
+                "text": "-6",
                 "color": "#FFFFFF"
               },
               {
-                "text": "faster.",
+                "text": " hits to gain a stack.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2816,15 +2836,15 @@
                 "color": "#55FFFF"
               },
               {
-                "text": "builds up ",
+                "text": "requires ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "20% ",
+                "text": "-6",
                 "color": "#FFFFFF"
               },
               {
-                "text": "faster.",
+                "text": " hits to gain a stack.",
                 "color": "#AAAAAA"
               }
             ]
@@ -4206,35 +4226,6 @@
                 "text": "Area of Effect per bloom.",
                 "color": "#AAAAAA"
               }
-            ],
-            [],
-            [
-              {
-                "text": "Jasmine Bloom",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s explosion gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+2 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
-                "color": "#AAAAAA"
-              }
             ]
           ],
           "threshold": 1
@@ -4268,35 +4259,6 @@
                 "text": "Area of Effect per bloom.",
                 "color": "#AAAAAA"
               }
-            ],
-            [],
-            [
-              {
-                "text": "Jasmine Bloom",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s explosion gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+3 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
-                "color": "#AAAAAA"
-              }
             ]
           ],
           "threshold": 15
@@ -4328,35 +4290,6 @@
               },
               {
                 "text": "Area of Effect per bloom.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Jasmine Bloom",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s explosion gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+4 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
