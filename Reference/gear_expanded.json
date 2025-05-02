@@ -714,9 +714,9 @@
         "raw": 83
       },
       "poison": {
-        "max": 1138,
-        "min": 263,
-        "raw": 875
+        "max": 1040,
+        "min": 240,
+        "raw": 800
       }
     },
     "internalName": "Abyssal Amulet",
@@ -755,9 +755,9 @@
         "raw": 100
       },
       "poison": {
-        "max": 2795,
-        "min": 645,
-        "raw": 2150
+        "max": 1820,
+        "min": 420,
+        "raw": 1400
       },
       "rawDexterity": 7
     },
@@ -1094,9 +1094,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 5850,
-        "min": 1350,
-        "raw": 4500
+        "max": 4225,
+        "min": 975,
+        "raw": 3250
       },
       "rawDefence": -2
     },
@@ -1139,9 +1139,9 @@
         "raw": -28
       },
       "poison": {
-        "max": 23400,
-        "min": 5400,
-        "raw": 18000
+        "max": 18200,
+        "min": 4200,
+        "raw": 14000
       },
       "walkSpeed": {
         "max": -7,
@@ -1194,9 +1194,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 1560,
-        "min": 360,
-        "raw": 1200
+        "max": 715,
+        "min": 165,
+        "raw": 550
       },
       "waterDefence": {
         "max": -24,
@@ -4485,9 +4485,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 4225,
-        "min": 975,
-        "raw": 3250
+        "max": 3250,
+        "min": 750,
+        "raw": 2500
       },
       "rawStrength": 8,
       "walkSpeed": {
@@ -4998,9 +4998,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 25350,
-        "min": 5850,
-        "raw": 19500
+        "max": 18200,
+        "min": 4200,
+        "raw": 14000
       },
       "rawAttackSpeed": {
         "max": -13,
@@ -7332,9 +7332,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 260,
-        "min": 60,
-        "raw": 200
+        "max": 143,
+        "min": 33,
+        "raw": 110
       }
     },
     "internalName": "Anno",
@@ -7710,7 +7710,7 @@
       "healingEfficiency": -25,
       "lifeSteal": 135,
       "manaSteal": 7,
-      "poison": 3600,
+      "poison": 2000,
       "rawDexterity": 5
     },
     "identified": true,
@@ -7786,9 +7786,9 @@
         "raw": -6
       },
       "poison": {
-        "max": 3900,
-        "min": 900,
-        "raw": 3000
+        "max": 2340,
+        "min": 540,
+        "raw": 1800
       },
       "rawDefence": 4,
       "rawStrength": 5,
@@ -8498,7 +8498,7 @@
     "internalName": "Apocalypse",
     "lore": "To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.",
     "majorIds": {
-      "Hellfire": "<span class='font-ascii' style='color:#55FFFF'>+Hellfire: <span class='font-ascii' style='color:#00AAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>225%</span><darkAqua>, <span class='font-ascii' style='color:elements.earth'><span class='font-common'></span>40%</span><darkAqua>, and <span class='font-ascii' style='color:elements.fire'><span class='font-common'></span>60%</span><darkAqua>. Boiling Blood burns faster for <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>+40%</span><darkAqua> and <span class='font-ascii' style='color:elements.fire'><span class='font-common'></span>+50%</span><darkAqua> but can't slow.</span></span></span></span></span></span></span></span></span></span></span></span>"
+      "Hellfire": "<span class='font-ascii' style='color:#55FFFF'>+Hellfire: <span class='font-ascii' style='color:#00AAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>225%</span><darkAqua>, <span class='font-ascii' style='color:#00aa00'><span class='font-common'></span>40%</span><darkAqua>, and <span class='font-ascii' style='color:#ff5555'><span class='font-common'></span>60%</span><darkAqua>. Boiling Blood burns faster for <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>+40%</span><darkAqua> and <span class='font-ascii' style='color:#ff5555'><span class='font-common'></span>+50%</span><darkAqua> but can't slow.</span></span></span></span></span></span></span></span></span></span></span></span>"
     },
     "powderSlots": 3,
     "rarity": "mythic",
@@ -8571,6 +8571,59 @@
     },
     "type": "weapon",
     "weaponType": "relik"
+  },
+  "Apophenia": {
+    "armourMaterial": "diamond",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": -100,
+      "baseHealth": 3000,
+      "baseWaterDefence": -100
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "3rdSpellCost": {
+        "max": -14,
+        "min": -3,
+        "raw": -11
+      },
+      "airSpellDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "manaSteal": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      },
+      "raw4thSpellCost": {
+        "max": 3,
+        "min": 5,
+        "raw": 4
+      },
+      "rawAgility": 5,
+      "rawAttackSpeed": {
+        "max": -6,
+        "min": -10,
+        "raw": -8
+      },
+      "rawIntelligence": 5,
+      "waterSpellDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Apophenia",
+    "powderSlots": 3,
+    "rarity": "rare",
+    "requirements": {
+      "agility": 65,
+      "intelligence": 65,
+      "level": 103
+    },
+    "type": "armour"
   },
   "Apotheosis": {
     "attackSpeed": "slow",
@@ -8868,9 +8921,9 @@
         "raw": 7
       },
       "poison": {
-        "max": 5200,
-        "min": 1200,
-        "raw": 4000
+        "max": 2860,
+        "min": 660,
+        "raw": 2200
       },
       "rawDexterity": 12,
       "rawStrength": 12
@@ -8928,9 +8981,9 @@
         "raw": 25
       },
       "poison": {
-        "max": 6500,
-        "min": 1500,
-        "raw": 5000
+        "max": 3640,
+        "min": 840,
+        "raw": 2800
       },
       "spellDamage": {
         "max": -17,
@@ -9001,9 +9054,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 22815,
-        "min": 5265,
-        "raw": 17550
+        "max": 15600,
+        "min": 3600,
+        "raw": 12000
       },
       "rawEarthSpellDamage": {
         "max": 235,
@@ -9623,9 +9676,9 @@
         "raw": -20
       },
       "poison": {
-        "max": 8190,
-        "min": 1890,
-        "raw": 6300
+        "max": 5200,
+        "min": 1200,
+        "raw": 4000
       },
       "rawDefence": 7,
       "spellDamage": {
@@ -10195,9 +10248,9 @@
         "raw": 65
       },
       "poison": {
-        "max": 1820,
-        "min": 420,
-        "raw": 1400
+        "max": 1690,
+        "min": 390,
+        "raw": 1300
       }
     },
     "internalName": "Asbestos",
@@ -10617,9 +10670,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 520,
-        "min": 120,
-        "raw": 400
+        "max": 390,
+        "min": 90,
+        "raw": 300
       },
       "rawDexterity": 4,
       "stealing": {
@@ -11289,9 +11342,9 @@
       },
       "jumpHeight": 1,
       "poison": {
-        "max": 18200,
-        "min": 4200,
-        "raw": 14000
+        "max": 14300,
+        "min": 3300,
+        "raw": 11000
       },
       "rawAgility": 8,
       "thorns": {
@@ -11332,9 +11385,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 4225,
-        "min": 975,
-        "raw": 3250
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawDexterity": 10,
       "rawStrength": 10,
@@ -11843,9 +11896,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 85,
-        "min": 20,
-        "raw": 65
+        "max": 46,
+        "min": 11,
+        "raw": 35
       },
       "rawStrength": 7
     },
@@ -12552,7 +12605,7 @@
       "healthRegenRaw": -150,
       "lifeSteal": 140,
       "manaSteal": 8,
-      "poison": 3000,
+      "poison": 2000,
       "raw4thSpellCost": -5
     },
     "identified": true,
@@ -12919,8 +12972,8 @@
     "dropMeta": {
       "coordinates": [
         -911,
-        73,
-        -1068
+        23,
+        -624
       ],
       "name": "Altar of Sanctification",
       "type": "altar"
@@ -13287,9 +13340,9 @@
         "raw": 165
       },
       "poison": {
-        "max": 4810,
-        "min": 1110,
-        "raw": 3700
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawAttackSpeed": -1,
       "thunderDamage": {
@@ -13568,9 +13621,9 @@
         "raw": -8
       },
       "poison": {
-        "max": 312,
-        "min": 72,
-        "raw": 240
+        "max": 163,
+        "min": 38,
+        "raw": 125
       },
       "rawMainAttackDamage": {
         "max": 34,
@@ -14109,9 +14162,9 @@
         "raw": -12
       },
       "poison": {
-        "max": 416,
-        "min": 96,
-        "raw": 320
+        "max": 235,
+        "min": 54,
+        "raw": 181
       },
       "spellDamage": {
         "max": -5,
@@ -14313,7 +14366,7 @@
     },
     "identifications": {
       "fireDefence": -50,
-      "poison": 4400,
+      "poison": 2400,
       "rawAgility": 5,
       "rawMainAttackDamage": 120,
       "rawStrength": 5,
@@ -16075,9 +16128,9 @@
         "raw": -15
       },
       "poison": {
-        "max": 15600,
-        "min": 3600,
-        "raw": 12000
+        "max": 11180,
+        "min": 2580,
+        "raw": 8600
       },
       "raw3rdSpellCost": {
         "max": -4,
@@ -16377,9 +16430,9 @@
         "raw": 31
       },
       "poison": {
-        "max": 27576,
-        "min": 6364,
-        "raw": 21212
+        "max": 15757,
+        "min": 3636,
+        "raw": 12121
       },
       "rawDexterity": -100,
       "rawStrength": 75,
@@ -16490,9 +16543,9 @@
         "raw": -8
       },
       "poison": {
-        "max": 31200,
-        "min": 7200,
-        "raw": 24000
+        "max": 18200,
+        "min": 4200,
+        "raw": 14000
       },
       "slowEnemy": {
         "max": 8,
@@ -16673,29 +16726,29 @@
     "dropRestriction": "never",
     "identifications": {
       "3rdSpellCost": {
-        "max": -19,
+        "max": -18,
         "min": -4,
-        "raw": -15
+        "raw": -14
       },
       "fireDamage": {
-        "max": 33,
+        "max": 35,
         "min": 8,
-        "raw": 25
+        "raw": 27
       },
       "healthRegenRaw": {
         "max": 215,
         "min": 50,
         "raw": 165
       },
-      "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
-      },
       "rawFireMainAttackDamage": {
         "max": 330,
         "min": 76,
         "raw": 254
+      },
+      "rawMaxMana": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
       },
       "walkSpeed": {
         "max": -10,
@@ -16707,7 +16760,7 @@
     "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
-      "defence": 80,
+      "defence": 75,
       "level": 95
     },
     "type": "armour"
@@ -17156,9 +17209,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 468,
-        "min": 108,
-        "raw": 360
+        "max": 260,
+        "min": 60,
+        "raw": 200
       },
       "rawDexterity": 4,
       "spellDamage": {
@@ -17803,6 +17856,7 @@
       }
     },
     "internalName": "Blank Stare",
+    "lore": "In the marbling of wood grain. Drying moisture in the cobbles. Clumps of flowers. Tree bark, birth marks, the pattern of this plate - unflinching faces trapped, now revealed. The question pierces your mind: what shape will I be hewn into, one day?",
     "rarity": "legendary",
     "requirements": {
       "defence": 45,
@@ -18115,9 +18169,9 @@
         "raw": 33
       },
       "poison": {
-        "max": 10000,
-        "min": 2308,
-        "raw": 7692
+        "max": 4550,
+        "min": 1050,
+        "raw": 3500
       },
       "thorns": {
         "max": 20,
@@ -18259,9 +18313,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 13000,
-        "min": 3000,
-        "raw": 10000
+        "max": 8450,
+        "min": 1950,
+        "raw": 6500
       },
       "raw1stSpellCost": {
         "max": -13,
@@ -18352,9 +18406,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 330,
-        "min": 76,
-        "raw": 254
+        "max": 182,
+        "min": 42,
+        "raw": 140
       },
       "rawDexterity": -4,
       "rawMainAttackDamage": {
@@ -18482,7 +18536,7 @@
     "identifications": {
       "healthRegenRaw": 120,
       "lifeSteal": 175,
-      "poison": 8800,
+      "poison": 6000,
       "spellDamage": -20,
       "walkSpeed": -10
     },
@@ -18670,7 +18724,7 @@
       }
     },
     "identifications": {
-      "poison": 110,
+      "poison": 60,
       "rawStrength": 3
     },
     "identified": true,
@@ -20601,7 +20655,7 @@
     "identifications": {
       "healthRegen": -10,
       "healthRegenRaw": -30,
-      "poison": 2300,
+      "poison": 1200,
       "rawStrength": 3
     },
     "identified": true,
@@ -20930,9 +20984,9 @@
         "raw": -19
       },
       "poison": {
-        "max": 4115,
-        "min": 950,
-        "raw": 3165
+        "max": 2730,
+        "min": 630,
+        "raw": 2100
       },
       "rawFireMainAttackDamage": {
         "max": 225,
@@ -21609,9 +21663,9 @@
         "raw": 13
       },
       "poison": {
-        "max": 8190,
-        "min": 1890,
-        "raw": 6300
+        "max": 4550,
+        "min": 1050,
+        "raw": 3500
       },
       "rawMainAttackDamage": {
         "max": 189,
@@ -23885,9 +23939,9 @@
         "raw": 25
       },
       "poison": {
-        "max": 585,
-        "min": 135,
-        "raw": 450
+        "max": 325,
+        "min": 75,
+        "raw": 250
       },
       "rawAgility": 7,
       "thunderDamage": {
@@ -24131,6 +24185,56 @@
     "type": "weapon",
     "weaponType": "relik"
   },
+  "Buoyant Balmorals": {
+    "armourMaterial": "chain",
+    "armourType": "boots",
+    "base": {
+      "baseAirDefence": 30,
+      "baseEarthDefence": -25,
+      "baseHealth": 450,
+      "baseThunderDefence": 20
+    },
+    "dropRestriction": "never",
+    "identifications": {
+      "2ndSpellCost": {
+        "max": -23,
+        "min": -5,
+        "raw": -18
+      },
+      "jumpHeight": {
+        "max": 4,
+        "min": 1,
+        "raw": 3
+      },
+      "knockback": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "spellDamage": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      },
+      "walkSpeed": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      }
+    },
+    "internalName": "Buoyant Balmorals",
+    "lore": "These are congealed and rather gross, but they leave you with an undeniable bounce in your step.",
+    "majorIds": {
+      "Combo Stomp": "<span class='font-ascii' style='color:#55FFFF'>+Combo Stomp: <span class='font-ascii' style='color:#00AAAA'>Landing directly on an enemy with Fierce Stomp sends you back into the air and resets Escape.</span></span>"
+    },
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 45,
+      "dexterity": 20,
+      "level": 52
+    },
+    "type": "armour"
+  },
   "Buried Glory": {
     "attackSpeed": "super_slow",
     "averageDps": 434,
@@ -24162,9 +24266,9 @@
         "raw": 30
       },
       "poison": {
-        "max": 19500,
-        "min": 4500,
-        "raw": 15000
+        "max": 15600,
+        "min": 3600,
+        "raw": 12000
       },
       "rawAttackSpeed": {
         "max": -1,
@@ -25847,35 +25951,35 @@
     "armourMaterial": "chain",
     "armourType": "helmet",
     "base": {
-      "baseHealth": 700
+      "baseHealth": 800
     },
     "dropRestriction": "normal",
     "identifications": {
-      "healthRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+      "knockback": {
+        "max": -105,
+        "min": -195,
+        "raw": -150
       },
-      "healthRegenRaw": {
+      "lifeSteal": {
+        "max": 108,
+        "min": 25,
+        "raw": 83
+      },
+      "neutralDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "rawAgility": -8,
+      "reflection": {
         "max": 65,
         "min": 15,
         "raw": 50
       },
-      "lifeSteal": {
-        "max": -52,
-        "min": -97,
-        "raw": -75
-      },
-      "rawAgility": -8,
-      "reflection": {
-        "max": 85,
-        "min": 20,
-        "raw": 65
-      },
       "thorns": {
-        "max": 85,
-        "min": 20,
-        "raw": 65
+        "max": 65,
+        "min": 15,
+        "raw": 50
       }
     },
     "internalName": "Call of the Void",
@@ -26782,9 +26886,9 @@
         "raw": -200
       },
       "poison": {
-        "max": 9425,
-        "min": 2175,
-        "raw": 7250
+        "max": 6500,
+        "min": 1500,
+        "raw": 5000
       },
       "rawAgility": -20,
       "rawAttackSpeed": -1,
@@ -27001,9 +27105,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 4680,
-        "min": 1080,
-        "raw": 3600
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawDefence": -100,
       "rawStrength": 12,
@@ -27495,7 +27599,7 @@
     },
     "internalName": "Catamaran",
     "majorIds": {
-      "Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Charge heals you by 10% and nearby allies by 15% on impact, but becomes harmless.</span></span>"
+      "Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Cleansing Breeze causes Charge to heal you for 7.5% and nearby allies for 15% on impact, but becomes harmless.</span></span>"
     },
     "powderSlots": 1,
     "rarity": "fabled",
@@ -27582,9 +27686,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 22750,
-        "min": 5250,
-        "raw": 17500
+        "max": 16250,
+        "min": 3750,
+        "raw": 12500
       },
       "rawAttackSpeed": {
         "max": -6,
@@ -28404,11 +28508,11 @@
     "internalName": "Centipede",
     "rarity": "legendary",
     "requirements": {
-      "agility": 45,
-      "defence": 45,
-      "dexterity": 45,
+      "agility": 40,
+      "defence": 40,
+      "dexterity": 40,
       "level": 80,
-      "strength": 45
+      "strength": 40
     },
     "restrictions": "untradable",
     "type": "armour"
@@ -29585,7 +29689,7 @@
       "earthDefence": 5,
       "mainAttackDamage": 50,
       "manaSteal": 12,
-      "poison": 13000,
+      "poison": 8500,
       "rawAgility": -30,
       "rawDefence": -30,
       "spellDamage": 50,
@@ -30456,7 +30560,7 @@
     },
     "identifications": {
       "mainAttackRange": 15,
-      "poison": 1000,
+      "poison": 600,
       "rawAgility": 10,
       "walkSpeed": 30
     },
@@ -31024,9 +31128,9 @@
         "raw": -7
       },
       "poison": {
-        "max": 410,
-        "min": 95,
-        "raw": 315
+        "max": 286,
+        "min": 66,
+        "raw": 220
       },
       "spellDamage": {
         "max": 8,
@@ -31545,26 +31649,26 @@
     "base": {
       "baseAirDefence": 90,
       "baseFireDefence": 90,
-      "baseHealth": 2350,
+      "baseHealth": 2450,
       "baseThunderDefence": -75,
       "baseWaterDefence": -75
     },
     "dropRestriction": "normal",
     "identifications": {
       "airDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 29,
+        "min": 7,
+        "raw": 22
       },
-      "exploding": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+      "damage": {
+        "max": -8,
+        "min": -16,
+        "raw": -12
       },
       "fireDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
+        "max": 29,
+        "min": 7,
+        "raw": 22
       },
       "healthRegen": {
         "max": 33,
@@ -31572,22 +31676,17 @@
         "raw": 25
       },
       "healthRegenRaw": {
-        "max": 104,
-        "min": 24,
-        "raw": 80
+        "max": 130,
+        "min": 30,
+        "raw": 100
       },
-      "mainAttackDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
+      "raw2ndSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
       },
       "rawAgility": 9,
-      "rawDefence": 9,
-      "spellDamage": {
-        "max": -8,
-        "min": -16,
-        "raw": -12
-      }
+      "rawDefence": 9
     },
     "internalName": "Cinnabar",
     "powderSlots": 2,
@@ -31634,9 +31733,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 14065,
-        "min": 3246,
-        "raw": 10819
+        "max": 7800,
+        "min": 1800,
+        "raw": 6000
       },
       "rawAttackSpeed": -1,
       "rawFireMainAttackDamage": {
@@ -33641,9 +33740,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 4420,
-        "min": 1020,
-        "raw": 3400
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawStrength": 7,
       "spellDamage": {
@@ -33708,9 +33807,9 @@
         "raw": 83
       },
       "poison": {
-        "max": 2350,
-        "min": 542,
-        "raw": 1808
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "rawHealth": {
         "max": 450,
@@ -33762,7 +33861,7 @@
       "exploding": 10,
       "fireDamage": 20,
       "fireDefence": -25,
-      "poison": 16000,
+      "poison": 10000,
       "rawAttackSpeed": -17,
       "rawDefence": 8,
       "rawDexterity": 7,
@@ -33841,9 +33940,9 @@
         "raw": 7
       },
       "poison": {
-        "max": 189,
-        "min": 44,
-        "raw": 145
+        "max": 104,
+        "min": 24,
+        "raw": 80
       },
       "rawStrength": 3
     },
@@ -34514,55 +34613,6 @@
     },
     "type": "armour"
   },
-  "Cold Wave": {
-    "accessoryType": "ring",
-    "base": {
-      "baseAirDefence": 20
-    },
-    "dropRestriction": "lootchest",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "155",
-        "id": "minecraft:iron_horse_armor",
-        "name": "ring.water2"
-      }
-    },
-    "identifications": {
-      "fireDefence": {
-        "max": -10,
-        "min": -18,
-        "raw": -14
-      },
-      "spellDamage": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
-      },
-      "walkSpeed": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
-      },
-      "waterDamage": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
-      }
-    },
-    "internalName": "Cold Wave",
-    "lore": "Feeling the fresh chill of the cold air is all you need to know you're really alive.",
-    "majorIds": {
-      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.</span></span>",
-      "Flashfreeze2": "</br>"
-    },
-    "rarity": "fabled",
-    "requirements": {
-      "intelligence": 40,
-      "level": 75
-    },
-    "type": "accessory"
-  },
   "Collapse": {
     "attackSpeed": "very_slow",
     "averageDps": 641,
@@ -35149,9 +35199,9 @@
         "raw": -100
       },
       "poison": {
-        "max": 520,
-        "min": 120,
-        "raw": 400
+        "max": 286,
+        "min": 66,
+        "raw": 220
       },
       "rawDexterity": 15,
       "rawStrength": -10
@@ -35596,9 +35646,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 17550,
-        "min": 4050,
-        "raw": 13500
+        "max": 11050,
+        "min": 2550,
+        "raw": 8500
       },
       "rawDexterity": 8,
       "rawStrength": 8,
@@ -35827,9 +35877,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 30550,
-        "min": 7050,
-        "raw": 23500
+        "max": 20800,
+        "min": 4800,
+        "raw": 16000
       },
       "rawDefence": 5,
       "rawStrength": 5,
@@ -35880,9 +35930,9 @@
         "raw": -20
       },
       "poison": {
-        "max": 18200,
-        "min": 4200,
-        "raw": 14000
+        "max": 5200,
+        "min": 1200,
+        "raw": 4000
       },
       "weakenEnemy": {
         "max": 8,
@@ -36122,7 +36172,7 @@
       "healthRegenRaw": 115,
       "lifeSteal": 170,
       "manaRegen": 8,
-      "poison": 3500,
+      "poison": 2150,
       "walkSpeed": 12
     },
     "identified": true,
@@ -36162,9 +36212,9 @@
         "raw": 75
       },
       "poison": {
-        "max": 1560,
-        "min": 360,
-        "raw": 1200
+        "max": 1040,
+        "min": 240,
+        "raw": 800
       },
       "rawMainAttackDamage": {
         "max": 130,
@@ -37286,9 +37336,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 8190,
-        "min": 1890,
-        "raw": 6300
+        "max": 6175,
+        "min": 1425,
+        "raw": 4750
       },
       "rawDexterity": 7,
       "rawStrength": 7,
@@ -38663,7 +38713,7 @@
     },
     "identifications": {
       "earthDamage": 13,
-      "poison": 930,
+      "poison": 600,
       "rawStrength": 3,
       "walkSpeed": -8
     },
@@ -40107,9 +40157,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 1430,
-        "min": 330,
-        "raw": 1100
+        "max": 780,
+        "min": 180,
+        "raw": 600
       },
       "rawAttackSpeed": {
         "max": -9,
@@ -40418,9 +40468,9 @@
         "raw": 60
       },
       "poison": {
-        "max": 1170,
-        "min": 270,
-        "raw": 900
+        "max": 650,
+        "min": 150,
+        "raw": 500
       },
       "rawAgility": 9
     },
@@ -41384,9 +41434,9 @@
         "raw": -250
       },
       "poison": {
-        "max": 29250,
-        "min": 6750,
-        "raw": 22500
+        "max": 20800,
+        "min": 4800,
+        "raw": 16000
       },
       "thunderDamage": {
         "max": 36,
@@ -42195,6 +42245,62 @@
     },
     "type": "armour"
   },
+  "Dark Matter֎": {
+    "armourMaterial": "diamond",
+    "armourType": "helmet",
+    "base": {
+      "baseHealth": 3000
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "manaSteal": {
+        "max": -17,
+        "min": -31,
+        "raw": -24
+      },
+      "rawElementalSpellDamage": {
+        "max": 350,
+        "min": 81,
+        "raw": 269
+      },
+      "rawNeutralDamage": {
+        "max": -140,
+        "min": -260,
+        "raw": -200
+      },
+      "reflection": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "spellDamage": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
+      "thorns": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      }
+    },
+    "internalName": "Dark Matter֎",
+    "lore": "It permeates around you, so subtly, enveloping your very being with a shroud on the cusp of impalpability.  Nothing can affect you now - the incorporeal hiding in plain sight.",
+    "majorIds": {
+      "Intangible": "<span class='font-ascii' style='color:#55FFFF'>+Intangible: <span class='font-ascii' style='color:#00AAAA'>The knockback you take is drastically reduced, and reflected damage deals large knockback.</span></span>"
+    },
+    "powderSlots": 4,
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 55,
+      "defence": 50,
+      "dexterity": 45,
+      "intelligence": 55,
+      "level": 100,
+      "strength": 45
+    },
+    "type": "armour"
+  },
   "Dark Needle": {
     "attackSpeed": "fast",
     "averageDps": 48,
@@ -42891,9 +42997,9 @@
         "raw": -50
       },
       "poison": {
-        "max": 15600,
-        "min": 3600,
-        "raw": 12000
+        "max": 9100,
+        "min": 2100,
+        "raw": 7000
       },
       "rawAgility": 7,
       "rawAttackSpeed": -1,
@@ -43196,19 +43302,14 @@
     "armourMaterial": "golden",
     "armourType": "leggings",
     "base": {
-      "baseHealth": 300
+      "baseHealth": 345
     },
     "dropRestriction": "normal",
     "identifications": {
       "fireDefence": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
-      "healthRegen": {
-        "max": -24,
-        "min": -45,
-        "raw": -35
+        "max": 26,
+        "min": 6,
+        "raw": 20
       },
       "lifeSteal": {
         "max": 34,
@@ -43216,31 +43317,23 @@
         "raw": 26
       },
       "mainAttackDamage": {
-        "max": 16,
+        "max": 18,
         "min": 4,
-        "raw": 12
+        "raw": 14
       },
       "poison": {
-        "max": 650,
-        "min": 150,
-        "raw": 500
+        "max": 364,
+        "min": 84,
+        "raw": 280
       },
-      "rawHealth": {
-        "max": -70,
-        "min": -130,
-        "raw": -100
-      },
-      "waterDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      }
+      "rawDefence": 8
     },
     "internalName": "Dead Sands",
-    "lore": "Found in the middle of the Almuj desert, these greaves seem to slowly poison all life around them. Theorists suggest they were the handiwork of a wicked necromancer, though the truth is not known.",
+    "lore": "Found in the middle of the Almuj desert, these greaves slowly engulf everything around it in flames. The heat of the desert sun has seared it heavily, empowering it with the fury of the Sun.",
     "powderSlots": 1,
     "rarity": "legendary",
     "requirements": {
+      "defence": 15,
       "level": 32
     },
     "type": "armour"
@@ -43289,7 +43382,7 @@
     "internalName": "Deadeye",
     "lore": "The weapon of the fearsome lone bandit, Rymek Luke, it is unique in that it is designed to fire small metal rounds instead of more traditional projectiles.",
     "majorIds": {
-      "Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam. Arrows deal <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>10%</span><darkAqua>, <span class='font-ascii' style='color:elements.thunder'><span class='font-common'></span>1%</span><darkAqua>, and <span class='font-ascii' style='color:elements.air'><span class='font-common'></span>1%</span><darkAqua>.</span></span></span></span></span></span></span></span>"
+      "Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam of 5 arrows per stream that deal <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>10%</span><darkAqua>, <span class='font-ascii' style='color:#ffff55'><span class='font-common'></span>1%</span><darkAqua>, and <span class='font-ascii' style='color:#ffffff'><span class='font-common'></span>1%</span><darkAqua>.</span></span></span></span></span></span></span></span>"
     },
     "powderSlots": 1,
     "rarity": "fabled",
@@ -43502,9 +43595,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 936,
-        "min": 216,
-        "raw": 720
+        "max": 520,
+        "min": 120,
+        "raw": 400
       }
     },
     "internalName": "Death's Toe",
@@ -43635,9 +43728,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 15600,
-        "min": 3600,
-        "raw": 12000
+        "max": 10400,
+        "min": 2400,
+        "raw": 8000
       },
       "rawDexterity": 25,
       "rawStrength": 25
@@ -43742,9 +43835,9 @@
         "raw": -30
       },
       "poison": {
-        "max": 3025,
-        "min": 698,
-        "raw": 2327
+        "max": 1690,
+        "min": 390,
+        "raw": 1300
       },
       "rawHealth": {
         "max": -227,
@@ -45103,9 +45196,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 705,
-        "min": 163,
-        "raw": 542
+        "max": 390,
+        "min": 90,
+        "raw": 300
       }
     },
     "internalName": "Dern's Desolation",
@@ -45145,9 +45238,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 100,
-        "min": 23,
-        "raw": 77
+        "max": 52,
+        "min": 12,
+        "raw": 40
       }
     },
     "internalName": "Dern's Shadow",
@@ -46311,9 +46404,9 @@
         "raw": 29
       },
       "poison": {
-        "max": 450,
-        "min": 104,
-        "raw": 346
+        "max": 312,
+        "min": 72,
+        "raw": 240
       },
       "rawHealth": {
         "max": -63,
@@ -47713,9 +47806,9 @@
         "raw": 7
       },
       "poison": {
-        "max": 2795,
-        "min": 645,
-        "raw": 2150
+        "max": 1820,
+        "min": 420,
+        "raw": 1400
       },
       "rawMainAttackDamage": {
         "max": 163,
@@ -47759,9 +47852,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 117,
-        "min": 27,
-        "raw": 90
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "rawDexterity": 3,
       "rawStrength": 3
@@ -47839,7 +47932,7 @@
     "identifications": {
       "healthRegen": -12,
       "lifeSteal": 10,
-      "poison": 110
+      "poison": 66
     },
     "identified": true,
     "internalName": "Diluted Vitriol",
@@ -48393,9 +48486,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 4095,
-        "min": 945,
-        "raw": 3150
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawDefence": -7,
       "rawStrength": 7,
@@ -48719,9 +48812,9 @@
         "raw": 145
       },
       "poison": {
-        "max": 4680,
-        "min": 1080,
-        "raw": 3600
+        "max": 2860,
+        "min": 660,
+        "raw": 2200
       },
       "rawSpellDamage": {
         "max": 228,
@@ -48881,9 +48974,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 5200,
-        "min": 1200,
-        "raw": 4000
+        "max": 3250,
+        "min": 750,
+        "raw": 2500
       },
       "rawAgility": 5,
       "rawMainAttackDamage": {
@@ -52600,9 +52693,9 @@
         "raw": -9
       },
       "poison": {
-        "max": 390,
-        "min": 90,
-        "raw": 300
+        "max": 208,
+        "min": 48,
+        "raw": 160
       },
       "rawAgility": 5,
       "walkSpeed": {
@@ -52720,7 +52813,7 @@
     "identifications": {
       "airDefence": 45,
       "earthDamage": 15,
-      "poison": 8000,
+      "poison": 4500,
       "rawAgility": 8,
       "rawMainAttackDamage": 210,
       "spellDamage": 18,
@@ -52802,9 +52895,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 325,
-        "min": 75,
-        "raw": 250
+        "max": 182,
+        "min": 42,
+        "raw": 140
       },
       "rawAgility": 3
     },
@@ -52964,7 +53057,7 @@
     "identifications": {
       "healthRegen": -20,
       "mainAttackDamage": 13,
-      "poison": 5000,
+      "poison": 3650,
       "waterDamage": -25
     },
     "identified": true,
@@ -53345,16 +53438,6 @@
         "raw": 200
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -53397,13 +53480,13 @@
         "raw": 15
       }
     },
-    "internalName": "Earth Relic Daggers",
+    "internalName": "Earth Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
       "level": 65,
-      "strength": 25
+      "strength": 30
     },
     "type": "weapon",
     "weaponType": "dagger"
@@ -53821,9 +53904,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1750,
-        "min": 404,
-        "raw": 1346
+        "max": 975,
+        "min": 225,
+        "raw": 750
       },
       "raw1stSpellCost": {
         "max": -5,
@@ -54251,9 +54334,9 @@
     "dropRestriction": "never",
     "identifications": {
       "airMainAttackDamage": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "lifeSteal": {
         "max": -105,
@@ -54276,14 +54359,14 @@
         "raw": -21
       },
       "rawMainAttackDamage": {
-        "max": 1950,
-        "min": 450,
-        "raw": 1500
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       }
     },
     "internalName": "Echoes of the Lost",
     "majorIds": {
-      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
+      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -54319,9 +54402,9 @@
         "raw": 23
       },
       "poison": {
-        "max": 975,
-        "min": 225,
-        "raw": 750
+        "max": 650,
+        "min": 150,
+        "raw": 500
       },
       "reflection": {
         "max": -7,
@@ -54644,6 +54727,7 @@
       }
     },
     "internalName": "Effervescence",
+    "lore": "They say the first sip of the ocean's wrath fizzes like champagne. The second burns with a sharp saltiness. By the third, the bubbles rise from your own drowning lungs as the sea claims its aperitif.",
     "rarity": "legendary",
     "requirements": {
       "classRequirement": "mage",
@@ -55042,9 +55126,9 @@
         "raw": -6
       },
       "poison": {
-        "max": 2405,
-        "min": 555,
-        "raw": 1850
+        "max": 1560,
+        "min": 360,
+        "raw": 1200
       },
       "rawDefence": 4,
       "thunderDamage": {
@@ -55078,9 +55162,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 2470,
-        "min": 570,
-        "raw": 1900
+        "max": 2275,
+        "min": 525,
+        "raw": 1750
       },
       "thorns": {
         "max": 7,
@@ -55365,9 +55449,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 1885,
-        "min": 435,
-        "raw": 1450
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "rawSpellDamage": {
         "max": 96,
@@ -57050,7 +57134,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "poison": 350,
+      "poison": 240,
       "rawDexterity": 4,
       "stealing": 4,
       "thunderDamage": 7
@@ -57707,9 +57791,9 @@
         "raw": 11
       },
       "poison": {
-        "max": 2600,
-        "min": 600,
-        "raw": 2000
+        "max": 1950,
+        "min": 450,
+        "raw": 1500
       },
       "thorns": {
         "max": 14,
@@ -57787,7 +57871,7 @@
     "armourType": "boots",
     "base": {
       "baseAirDefence": 100,
-      "baseHealth": 4000,
+      "baseHealth": 2000,
       "baseWaterDefence": 100
     },
     "dropRestriction": "normal",
@@ -57818,11 +57902,6 @@
         "raw": 962
       },
       "rawIntelligence": 7,
-      "reflection": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      },
       "waterDefence": {
         "max": 20,
         "min": 5,
@@ -58700,9 +58779,9 @@
         "raw": 31
       },
       "poison": {
-        "max": 550,
-        "min": 127,
-        "raw": 423
+        "max": 300,
+        "min": 69,
+        "raw": 231
       },
       "rawMainAttackDamage": {
         "max": 78,
@@ -59450,9 +59529,9 @@
         "raw": -8
       },
       "poison": {
-        "max": 285,
-        "min": 66,
-        "raw": 219
+        "max": 130,
+        "min": 30,
+        "raw": 100
       },
       "rawSpellDamage": {
         "max": 42,
@@ -61670,7 +61749,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "poison": 1400,
+      "poison": 800,
       "rawDexterity": 5,
       "rawMainAttackDamage": 90,
       "thorns": 20,
@@ -62593,9 +62672,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 100,
-        "min": 23,
-        "raw": 77
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "rawMainAttackDamage": {
         "max": 26,
@@ -64225,9 +64304,9 @@
         "raw": 505
       },
       "poison": {
-        "max": 25000,
-        "min": 5769,
-        "raw": 19231
+        "max": 15600,
+        "min": 3600,
+        "raw": 12000
       },
       "raw3rdSpellCost": {
         "max": 4,
@@ -68161,7 +68240,7 @@
     "identifications": {
       "4thSpellCost": 28,
       "airDefence": -25,
-      "poison": 32500,
+      "poison": 30000,
       "rawElementalSpellDamage": 1275,
       "rawHealth": -1000
     },
@@ -69515,7 +69594,7 @@
     "identifications": {
       "damage": -5,
       "jumpHeight": 1,
-      "poison": 220,
+      "poison": 120,
       "rawAgility": 3
     },
     "identified": true,
@@ -70380,7 +70459,7 @@
     "identifications": {
       "lifeSteal": 240,
       "manaSteal": 12,
-      "poison": 10000,
+      "poison": 5000,
       "rawDefence": 6,
       "rawDexterity": 6,
       "rawStrength": 6,
@@ -70547,13 +70626,13 @@
     "identifications": {
       "earthDamage": 10,
       "earthDefence": 25,
-      "exploding": 20,
       "fireDamage": 10,
       "fireDefence": 25,
       "healthRegenRaw": 300,
-      "manaRegen": 18,
+      "manaRegen": 20,
       "rawAgility": -30,
       "rawDexterity": -30,
+      "rawMaxMana": 40,
       "spellDamage": 15,
       "waterDamage": 10,
       "waterDefence": 25
@@ -70604,9 +70683,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 39000,
-        "min": 9000,
-        "raw": 30000
+        "max": 26000,
+        "min": 6000,
+        "raw": 20000
       },
       "raw4thSpellCost": {
         "max": -12,
@@ -70627,6 +70706,9 @@
     },
     "internalName": "Gaia",
     "lore": "The Dernel tribes revere various nature deities, each in their own unique fashions. One of the most notable was that of a lost tribe, who fashioned this blossoming stave as tribute to their deity of the earth itself.",
+    "majorIds": {
+      "Earthen Splinter": "<span class='font-ascii' style='color:#55FFFF'>+Earthen Splinter: <span class='font-ascii' style='color:#00AAAA'>Quake channels nature energy into a powerful root, travelling underground and emerging under the nearest mob for <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>1200%</span><darkAqua></span></span></span></span>"
+    },
     "powderSlots": 3,
     "rarity": "mythic",
     "requirements": {
@@ -70657,10 +70739,10 @@
       }
     },
     "identifications": {
-      "healthRegenRaw": {
-        "max": 3,
+      "lifeSteal": {
+        "max": 4,
         "min": 1,
-        "raw": 2
+        "raw": 3
       },
       "rawDexterity": 3,
       "spellDamage": {
@@ -70989,9 +71071,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 32500,
-        "min": 7500,
-        "raw": 25000
+        "max": 20800,
+        "min": 4800,
+        "raw": 16000
       },
       "rawAttackSpeed": -1,
       "stealing": {
@@ -71486,7 +71568,7 @@
       "lifeSteal": -240,
       "manaSteal": 16,
       "rawAttackSpeed": -2,
-      "rawMainAttackDamage": 700,
+      "rawMainAttackDamage": 1500,
       "stealing": 8,
       "walkSpeed": -12
     },
@@ -72358,7 +72440,7 @@
     },
     "identifications": {
       "manaRegen": -12,
-      "poison": 14000,
+      "poison": 8000,
       "rawAttackSpeed": 1,
       "rawThunderMainAttackDamage": 120
     },
@@ -73135,6 +73217,11 @@
     },
     "dropRestriction": "normal",
     "identifications": {
+      "knockback": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      },
       "mainAttackDamage": {
         "max": 25,
         "min": 6,
@@ -74631,7 +74718,7 @@
     },
     "identifications": {
       "elementalDamage": 6,
-      "poison": 240,
+      "poison": 90,
       "spellDamage": 6
     },
     "identified": true,
@@ -77078,9 +77165,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 4875,
-        "min": 1125,
-        "raw": 3750
+        "max": 2860,
+        "min": 660,
+        "raw": 2200
       },
       "stealing": {
         "max": 3,
@@ -77519,7 +77606,7 @@
     "rarity": "legendary",
     "requirements": {
       "agility": 55,
-      "defence": 70,
+      "defence": 55,
       "level": 87
     },
     "type": "armour"
@@ -77560,9 +77647,9 @@
         "raw": -10
       },
       "poison": {
-        "max": 26000,
-        "min": 6000,
-        "raw": 20000
+        "max": 16250,
+        "min": 3750,
+        "raw": 12500
       },
       "raw2ndSpellCost": {
         "max": 3,
@@ -77634,9 +77721,9 @@
         "raw": -15
       },
       "poison": {
-        "max": 360,
-        "min": 83,
-        "raw": 277
+        "max": 200,
+        "min": 46,
+        "raw": 154
       },
       "rawDexterity": 4,
       "rawMainAttackDamage": {
@@ -79179,7 +79266,7 @@
     "internalName": "Hanafubuki",
     "lore": "The most dangerous enemy is one you cannot see. Hidden amidst a flurry of petals comes an avalanche of blows, in one moment dissolving mountains and forests into a growing amalgam, leaving a wake of vibrant bloom in the next.",
     "majorIds": {
-      "Efflorescence": "<span class='font-ascii' style='color:#55FFFF'>+Efflorescence: <span class='font-ascii' style='color:#00AAAA'>Jasmine Bloom deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>15%</span><darkAqua> and \n<span class='font-ascii' style='color:elements.earth'><span class='font-common'></span><span class='font-ascii' style='color:elements.thunder'><span class='font-common'></span><span class='font-ascii' style='color:elements.water'><span class='font-common'></span><span class='font-ascii' style='color:elements.fire'><span class='font-common'></span><span class='font-ascii' style='color:elements.air'><span class='font-common'></span>15%</span><darkAqua> at the cost of 6 blocks of vertical range. \nSwan Dive with a maximum size Jasmine Bloom deals <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>450%</span><darkAqua> and <span class='font-ascii' style='color:elements.earth'><span class='font-common'></span><span class='font-ascii' style='color:elements.thunder'><span class='font-common'></span><span class='font-ascii' style='color:elements.water'><span class='font-common'></span><span class='font-ascii' style='color:elements.fire'><span class='font-common'></span><span class='font-ascii' style='color:elements.air'><span class='font-common'></span>150%</span><darkAqua>.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>"
+      "Efflorescence": "<span class='font-ascii' style='color:#55FFFF'>+Efflorescence: <span class='font-ascii' style='color:#00AAAA'>Jasmine Bloom deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>15%</span><darkAqua> and \n<span class='font-ascii' style='color:#00aa00'><span class='font-common'></span><span class='font-ascii' style='color:#ffff55'><span class='font-common'></span><span class='font-ascii' style='color:#55ffff'><span class='font-common'></span><span class='font-ascii' style='color:#ff5555'><span class='font-common'></span><span class='font-ascii' style='color:#ffffff'><span class='font-common'></span>15%</span><darkAqua> at the cost of 6 blocks of vertical range. \nSwan Dive with a maximum size Jasmine Bloom deals <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>90%</span><darkAqua> and <span class='font-ascii' style='color:#00aa00'><span class='font-common'></span><span class='font-ascii' style='color:#ffff55'><span class='font-common'></span><span class='font-ascii' style='color:#55ffff'><span class='font-common'></span><span class='font-ascii' style='color:#ff5555'><span class='font-common'></span><span class='font-ascii' style='color:#ffffff'><span class='font-common'></span>30%</span><darkAqua> over 5 hits.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>"
     },
     "rarity": "mythic",
     "requirements": {
@@ -79905,9 +79992,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 540,
-        "min": 125,
-        "raw": 415
+        "max": 300,
+        "min": 69,
+        "raw": 231
       },
       "rawDexterity": 7,
       "spellDamage": {
@@ -80327,7 +80414,7 @@
       }
     },
     "identifications": {
-      "poison": 6500,
+      "poison": 3000,
       "rawDexterity": 5,
       "rawSpellDamage": -50,
       "rawThunderMainAttackDamage": 110,
@@ -80718,73 +80805,6 @@
     },
     "type": "weapon",
     "weaponType": "relik"
-  },
-  "Heat Death": {
-    "attackSpeed": "very_fast",
-    "averageDps": 229,
-    "base": {
-      "baseAirDamage": {
-        "max": 48,
-        "min": 26,
-        "raw": 26
-      },
-      "baseWaterDamage": {
-        "max": 38,
-        "min": 36,
-        "raw": 36
-      }
-    },
-    "dropRestriction": "normal",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "348",
-        "id": "minecraft:iron_horse_armor",
-        "name": "wand.water3"
-      }
-    },
-    "identifications": {
-      "4thSpellCost": {
-        "max": -36,
-        "min": -8,
-        "raw": -28
-      },
-      "lifeSteal": {
-        "max": 143,
-        "min": 33,
-        "raw": 110
-      },
-      "manaRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
-      },
-      "rawHealth": {
-        "max": -350,
-        "min": -650,
-        "raw": -500
-      },
-      "rawSpellDamage": {
-        "max": 143,
-        "min": 33,
-        "raw": 110
-      }
-    },
-    "internalName": "Heat Death",
-    "lore": "Everything slowly loses heat, and will eventually stop moving. Are you prepared?",
-    "majorIds": {
-      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.</span></span>",
-      "Flashfreeze2": "</br>"
-    },
-    "rarity": "fabled",
-    "requirements": {
-      "agility": 35,
-      "classRequirement": "mage",
-      "intelligence": 55,
-      "level": 57
-    },
-    "type": "weapon",
-    "weaponType": "wand"
   },
   "Heat Sink": {
     "armourMaterial": "diamond",
@@ -81219,9 +81239,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 2025,
-        "min": 467,
-        "raw": 1558
+        "max": 1170,
+        "min": 270,
+        "raw": 900
       },
       "rawHealth": {
         "max": -140,
@@ -82824,9 +82844,9 @@
         "raw": 30
       },
       "poison": {
-        "max": 5000,
-        "min": 1154,
-        "raw": 3846
+        "max": 3000,
+        "min": 692,
+        "raw": 2308
       },
       "rawAttackSpeed": 1,
       "rawDexterity": -8,
@@ -84623,7 +84643,7 @@
     },
     "identifications": {
       "1stSpellCost": 40,
-      "poison": 500,
+      "poison": 220,
       "rawAgility": 4,
       "thorns": 18
     },
@@ -85332,7 +85352,7 @@
     },
     "identifications": {
       "airDamage": 20,
-      "poison": 900,
+      "poison": 550,
       "walkSpeed": 20
     },
     "identified": true,
@@ -86591,67 +86611,6 @@
     },
     "type": "weapon",
     "weaponType": "relik"
-  },
-  "Impact Winter": {
-    "armourMaterial": "iron",
-    "armourType": "leggings",
-    "base": {
-      "baseAirDefence": -90,
-      "baseFireDefence": -90,
-      "baseHealth": 1450
-    },
-    "dropRestriction": "normal",
-    "identifications": {
-      "earthDamage": {
-        "max": 31,
-        "min": 7,
-        "raw": 24
-      },
-      "fireDefence": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
-      "healthRegenRaw": {
-        "max": -52,
-        "min": -97,
-        "raw": -75
-      },
-      "manaSteal": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
-      },
-      "poison": {
-        "max": 3185,
-        "min": 735,
-        "raw": 2450
-      },
-      "spellDamage": {
-        "max": 18,
-        "min": 4,
-        "raw": 14
-      },
-      "waterDamage": {
-        "max": 20,
-        "min": 5,
-        "raw": 15
-      }
-    },
-    "internalName": "Impact Winter",
-    "lore": "Do you think you can survive with a sky choked by snow and ash? More importantly, do you think anything else can?",
-    "majorIds": {
-      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.</span></span>",
-      "Flashfreeze2": "</br>"
-    },
-    "powderSlots": 3,
-    "rarity": "fabled",
-    "requirements": {
-      "intelligence": 25,
-      "level": 66,
-      "strength": 40
-    },
-    "type": "armour"
   },
   "Impeccable Andesite Bow": {
     "attackSpeed": "very_slow",
@@ -88472,14 +88431,14 @@
         "raw": -20
       },
       "rawThunderMainAttackDamage": {
-        "max": 2275,
-        "min": 525,
-        "raw": 1750
+        "max": 2860,
+        "min": 660,
+        "raw": 2200
       },
       "walkSpeed": {
-        "max": 26,
-        "min": 6,
-        "raw": 20
+        "max": 30,
+        "min": 7,
+        "raw": 23
       }
     },
     "internalName": "Impossibility Threshold",
@@ -88815,9 +88774,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 5590,
-        "min": 1290,
-        "raw": 4300
+        "max": 3250,
+        "min": 750,
+        "raw": 2500
       },
       "rawDefence": 7,
       "rawFireMainAttackDamage": {
@@ -89006,9 +88965,9 @@
         "raw": 30
       },
       "poison": {
-        "max": 520,
-        "min": 120,
-        "raw": 400
+        "max": 650,
+        "min": 150,
+        "raw": 500
       }
     },
     "internalName": "Infected Band",
@@ -89122,7 +89081,7 @@
     "internalName": "Infernal Impulse",
     "lore": "If the depths of hell allows you this, is staying human an equal trade or a fool's choice?",
     "majorIds": {
-      "Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Charge heals you by 10% and nearby allies by 15% on impact, but becomes harmless.</span></span>"
+      "Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Cleansing Breeze causes Charge to heal you for 7.5% and nearby allies for 15% on impact, but becomes harmless.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -89154,24 +89113,14 @@
     },
     "identifications": {
       "fireDamage": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 60,
+        "min": 14,
+        "raw": 46
       },
       "healthRegen": {
-        "max": -31,
-        "min": -58,
-        "raw": -45
-      },
-      "mainAttackDamage": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
-      },
-      "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
+        "max": -45,
+        "min": -84,
+        "raw": -65
       },
       "raw1stSpellCost": {
         "max": -5,
@@ -89185,9 +89134,9 @@
         "raw": 1500
       },
       "rawMainAttackDamage": {
-        "max": 728,
-        "min": 168,
-        "raw": 560
+        "max": 1000,
+        "min": 231,
+        "raw": 769
       },
       "walkSpeed": {
         "max": 33,
@@ -89449,9 +89398,9 @@
         "raw": 31
       },
       "fireDamage": {
-        "max": 14,
-        "min": 3,
-        "raw": 11
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "mainAttackDamage": {
         "max": -8,
@@ -90047,9 +89996,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 975,
-        "min": 225,
-        "raw": 750
+        "max": 650,
+        "min": 150,
+        "raw": 500
       },
       "rawDexterity": 4,
       "thunderDamage": {
@@ -90090,7 +90039,7 @@
   },
   "Inquisitor's Zeal": {
     "attackSpeed": "super_slow",
-    "averageDps": 332,
+    "averageDps": 343,
     "base": {
       "baseDamage": {
         "max": 65,
@@ -90098,19 +90047,19 @@
         "raw": 35
       },
       "baseFireDamage": {
-        "max": 275,
-        "min": 125,
-        "raw": 125
+        "max": 300,
+        "min": 45,
+        "raw": 45
       },
       "baseThunderDamage": {
-        "max": 325,
-        "min": 75,
-        "raw": 75
+        "max": 355,
+        "min": 175,
+        "raw": 175
       },
       "baseWaterDamage": {
-        "max": 250,
-        "min": 150,
-        "raw": 150
+        "max": 245,
+        "min": 125,
+        "raw": 125
       }
     },
     "dropRestriction": "normal",
@@ -90123,10 +90072,15 @@
       }
     },
     "identifications": {
-      "lifeSteal": {
-        "max": 325,
-        "min": 75,
-        "raw": 250
+      "fireDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "manaSteal": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       },
       "raw1stSpellCost": {
         "max": 3,
@@ -90134,19 +90088,19 @@
         "raw": 4
       },
       "raw3rdSpellCost": {
-        "max": 4,
-        "min": 7,
-        "raw": 5
+        "max": -4,
+        "min": -1,
+        "raw": -3
       },
-      "rawSpellDamage": {
-        "max": 260,
-        "min": 60,
-        "raw": 200
+      "rawFireSpellDamage": {
+        "max": 273,
+        "min": 63,
+        "raw": 210
       },
-      "waterDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+      "weakenEnemy": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
       }
     },
     "internalName": "Inquisitor's Zeal",
@@ -90154,9 +90108,9 @@
     "rarity": "legendary",
     "requirements": {
       "classRequirement": "warrior",
-      "defence": 30,
-      "dexterity": 30,
-      "intelligence": 45,
+      "defence": 40,
+      "dexterity": 40,
+      "intelligence": 30,
       "level": 77
     },
     "type": "weapon",
@@ -90274,7 +90228,7 @@
     "internalName": "Insignia",
     "lore": "To wear the mark is more than a show of allegiance. It is a willingness to channel the might of the gods at whatever cost, as the fate of the battle is worth more than surviving to see its end.",
     "majorIds": {
-      "Superconductor": "<span class='font-ascii' style='color:#AAAAAA'><aqua>+Superconductor:</span> <darkAqua>Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for</span> <span class='font-ascii' style='color:#ffff55'><span class='font-common'></span>225%</span> <darkAqua>and stunning them for 1s. You take 15% more damage for 4s.</span></span></span>"
+      "Superconductor": "<span class='font-ascii' style='color:#AAAAAA'><aqua>+Superconductor:</span> <darkAqua>Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for</span> <span class='font-ascii' style='color:#ffff55'><span class='font-common'></span>225%</span> <darkAqua>and stunning them for 1s. You take 10% more damage for 4s.</span></span></span>"
     },
     "powderSlots": 4,
     "rarity": "fabled",
@@ -90664,9 +90618,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 8840,
-        "min": 2040,
-        "raw": 6800
+        "max": 4940,
+        "min": 1140,
+        "raw": 3800
       },
       "raw4thSpellCost": {
         "max": -5,
@@ -91440,9 +91394,9 @@
         "raw": -23
       },
       "poison": {
-        "max": 7995,
-        "min": 1845,
-        "raw": 6150
+        "max": 4420,
+        "min": 1020,
+        "raw": 3400
       },
       "rawDexterity": 8,
       "rawIntelligence": 5,
@@ -91951,9 +91905,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 117,
-        "min": 27,
-        "raw": 90
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "thorns": {
         "max": 8,
@@ -93316,9 +93270,9 @@
         "raw": -15
       },
       "poison": {
-        "max": 2145,
-        "min": 495,
-        "raw": 1650
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "rawHealth": {
         "max": -192,
@@ -94936,7 +94890,7 @@
     },
     "identifications": {
       "exploding": 15,
-      "poison": 10000,
+      "poison": 5000,
       "raw4thSpellCost": -5,
       "rawIntelligence": -10,
       "walkSpeed": 15
@@ -96006,9 +95960,9 @@
         "raw": -70
       },
       "poison": {
-        "max": 1950,
-        "min": 450,
-        "raw": 1500
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "rawDexterity": 4,
       "rawMainAttackDamage": {
@@ -96551,9 +96505,9 @@
         "raw": 220
       },
       "poison": {
-        "max": 4290,
-        "min": 990,
-        "raw": 3300
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawHealth": {
         "max": -945,
@@ -97121,9 +97075,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 585,
-        "min": 135,
-        "raw": 450
+        "max": 455,
+        "min": 105,
+        "raw": 350
       },
       "rawIntelligence": -1,
       "rawStrength": 4,
@@ -97873,9 +97827,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 7930,
-        "min": 1830,
-        "raw": 6100
+        "max": 4420,
+        "min": 1020,
+        "raw": 3400
       },
       "spellDamage": {
         "max": 26,
@@ -98174,9 +98128,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 130,
-        "min": 30,
-        "raw": 100
+        "max": 72,
+        "min": 17,
+        "raw": 55
       },
       "rawDexterity": 7,
       "rawSpellDamage": {
@@ -98336,9 +98290,9 @@
         "raw": -8
       },
       "poison": {
-        "max": 3250,
-        "min": 750,
-        "raw": 2500
+        "max": 2080,
+        "min": 480,
+        "raw": 1600
       },
       "rawMainAttackDamage": {
         "max": 91,
@@ -98729,9 +98683,9 @@
         "raw": 100
       },
       "poison": {
-        "max": 5850,
-        "min": 1350,
-        "raw": 4500
+        "max": 3640,
+        "min": 840,
+        "raw": 2800
       },
       "rawStrength": 10,
       "thorns": {
@@ -100181,9 +100135,9 @@
         "raw": 35
       },
       "poison": {
-        "max": 325,
-        "min": 75,
-        "raw": 250
+        "max": 195,
+        "min": 45,
+        "raw": 150
       },
       "rawDexterity": 4,
       "thunderDamage": {
@@ -100333,9 +100287,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 702,
-        "min": 162,
-        "raw": 540
+        "max": 390,
+        "min": 90,
+        "raw": 300
       },
       "rawIntelligence": 5,
       "thunderDefence": {
@@ -102123,9 +102077,9 @@
         "raw": -33
       },
       "poison": {
-        "max": 650,
-        "min": 150,
-        "raw": 500
+        "max": 364,
+        "min": 84,
+        "raw": 280
       },
       "rawHealth": {
         "max": -105,
@@ -102194,9 +102148,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 3000,
-        "min": 692,
-        "raw": 2308
+        "max": 845,
+        "min": 195,
+        "raw": 650
       },
       "raw4thSpellCost": {
         "max": -4,
@@ -103210,28 +103164,33 @@
     "armourMaterial": "diamond",
     "armourType": "boots",
     "base": {
-      "baseEarthDefence": -100,
-      "baseFireDefence": -100,
+      "baseEarthDefence": -75,
+      "baseFireDefence": -75,
       "baseHealth": 3225,
       "baseThunderDefence": -175,
       "baseWaterDefence": 100
     },
     "dropRestriction": "normal",
     "identifications": {
-      "exploding": {
+      "knockback": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
+      "mainAttackDamage": {
+        "max": -17,
+        "min": -32,
+        "raw": -25
+      },
+      "mainAttackRange": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      },
+      "manaSteal": {
         "max": 16,
         "min": 4,
         "raw": 12
-      },
-      "mainAttackDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
-      },
-      "manaSteal": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
       },
       "rawIntelligence": 5,
       "rawSpellDamage": {
@@ -103664,7 +103623,7 @@
     "internalName": "Malevolent Urge",
     "lore": "You wouldn't even think of committing these atrocities, would you? But what if you weren't the one in control?",
     "majorIds": {
-      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
+      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -104713,9 +104672,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 11050,
-        "min": 2550,
-        "raw": 8500
+        "max": 6500,
+        "min": 1500,
+        "raw": 5000
       },
       "rawStrength": 8,
       "thorns": {
@@ -104958,9 +104917,9 @@
     "identifications": {
       "fireDamage": 20,
       "healthRegen": 20,
+      "healthRegenRaw": 50,
       "lootBonus": 10,
-      "rawDefence": 5,
-      "rawHealth": 500
+      "rawDefence": 5
     },
     "identified": true,
     "internalName": "Mask of Courage",
@@ -105037,6 +104996,7 @@
       "airDamage": 20,
       "lootBonus": 10,
       "rawAgility": 5,
+      "sprintRegen": 25,
       "walkSpeed": 15
     },
     "identified": true,
@@ -105072,6 +105032,7 @@
       "value": "5c32ded5d7657df31114dfdd319219337e576465b7797dc06b5632cebd4c37"
     },
     "identifications": {
+      "lifeSteal": 100,
       "lootBonus": 10,
       "rawDexterity": 5,
       "rawMainAttackDamage": 110,
@@ -105113,6 +105074,7 @@
       "earthDamage": 20,
       "lootBonus": 10,
       "mainAttackDamage": 25,
+      "mainAttackRange": 20,
       "rawStrength": 5
     },
     "identified": true,
@@ -106763,9 +106725,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 18950,
-        "min": 4373,
-        "raw": 14577
+        "max": 5200,
+        "min": 1200,
+        "raw": 4000
       },
       "rawDefence": 12,
       "thorns": {
@@ -107795,9 +107757,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 2990,
-        "min": 690,
-        "raw": 2300
+        "max": 2340,
+        "min": 540,
+        "raw": 1800
       },
       "rawHealth": {
         "max": -105,
@@ -111201,7 +111163,7 @@
     },
     "identifications": {
       "damage": 8,
-      "poison": 220,
+      "poison": 100,
       "rawMaxMana": 20,
       "walkSpeed": -8
     },
@@ -111809,9 +111771,9 @@
         "raw": -4
       },
       "poison": {
-        "max": 9360,
-        "min": 2160,
-        "raw": 7200
+        "max": 5850,
+        "min": 1350,
+        "raw": 4500
       },
       "rawStrength": 7
     },
@@ -112201,9 +112163,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 1430,
-        "min": 330,
-        "raw": 1100
+        "max": 910,
+        "min": 210,
+        "raw": 700
       },
       "rawAgility": 9,
       "rawHealth": {
@@ -112518,9 +112480,9 @@
         "raw": 35
       },
       "poison": {
-        "max": 585,
-        "min": 135,
-        "raw": 450
+        "max": 312,
+        "min": 72,
+        "raw": 240
       },
       "thorns": {
         "max": 10,
@@ -112721,9 +112683,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 24960,
-        "min": 5760,
-        "raw": 19200
+        "max": 15600,
+        "min": 3600,
+        "raw": 12000
       },
       "rawAttackSpeed": 1,
       "rawMainAttackDamage": {
@@ -113898,9 +113860,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 7800,
-        "min": 1800,
-        "raw": 6000
+        "max": 6500,
+        "min": 1500,
+        "raw": 5000
       },
       "rawAttackSpeed": 1,
       "rawDefence": 12,
@@ -113945,9 +113907,9 @@
         "raw": -4
       },
       "poison": {
-        "max": 98,
-        "min": 23,
-        "raw": 75
+        "max": 52,
+        "min": 12,
+        "raw": 40
       }
     },
     "internalName": "Nettle",
@@ -114427,7 +114389,7 @@
     },
     "internalName": "Nighthawk",
     "majorIds": {
-      "Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam. Arrows deal <span class='font-ascii' style='color:elements.neutral'><span class='font-common'></span>10%</span><darkAqua>, <span class='font-ascii' style='color:elements.thunder'><span class='font-common'></span>1%</span><darkAqua>, and <span class='font-ascii' style='color:elements.air'><span class='font-common'></span>1%</span><darkAqua>.</span></span></span></span></span></span></span></span>"
+      "Hawkeye": "<span class='font-ascii' style='color:#55FFFF'>+Hawkeye: <span class='font-ascii' style='color:#00AAAA'>Condense Arrow Storm into a tight beam of 5 arrows per stream that deal <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>10%</span><darkAqua>, <span class='font-ascii' style='color:#ffff55'><span class='font-common'></span>1%</span><darkAqua>, and <span class='font-ascii' style='color:#ffffff'><span class='font-common'></span>1%</span><darkAqua>.</span></span></span></span></span></span></span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -115131,9 +115093,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 1040,
-        "min": 240,
-        "raw": 800
+        "max": 780,
+        "min": 180,
+        "raw": 600
       },
       "thorns": {
         "max": 13,
@@ -115617,25 +115579,25 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "lifeSteal": {
-        "max": 300,
-        "min": 69,
-        "raw": 231
+      "damage": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
       },
-      "mainAttackDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
+      "lifeSteal": {
+        "max": 400,
+        "min": 92,
+        "raw": 308
+      },
+      "mainAttackRange": {
+        "max": 27,
+        "min": 6,
+        "raw": 21
       },
       "manaSteal": {
         "max": 12,
         "min": 3,
         "raw": 9
-      },
-      "spellDamage": {
-        "max": -14,
-        "min": -26,
-        "raw": -20
       },
       "walkSpeed": {
         "max": 26,
@@ -116012,9 +115974,9 @@
         "raw": -250
       },
       "poison": {
-        "max": 22750,
-        "min": 5250,
-        "raw": 17500
+        "max": 14300,
+        "min": 3300,
+        "raw": 11000
       },
       "raw3rdSpellCost": {
         "max": -3,
@@ -116201,9 +116163,9 @@
         "raw": 16
       },
       "poison": {
-        "max": -14000,
-        "min": -26000,
-        "raw": -20000
+        "max": -8400,
+        "min": -15600,
+        "raw": -12000
       },
       "rawDefence": 40,
       "reflection": {
@@ -116937,6 +116899,7 @@
       }
     },
     "internalName": "Obsolescent Panoply",
+    "lore": "A silhouette of forgotten strength, its essence lingering like a half remembered dream. It no longer boasts the sharpness it once had, yet the stories etched into its very being refuse to fade.",
     "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
@@ -118000,7 +117963,7 @@
     "identifications": {
       "earthDamage": 10,
       "manaRegen": 6,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "rawStrength": 5,
       "thorns": 10,
@@ -118052,7 +118015,7 @@
     "identifications": {
       "earthDamage": 10,
       "manaRegen": 6,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "rawStrength": 5,
       "thorns": 10,
@@ -118104,7 +118067,7 @@
     "identifications": {
       "earthDamage": 10,
       "manaRegen": 6,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "rawStrength": 5,
       "thorns": 10,
@@ -118156,7 +118119,7 @@
     "identifications": {
       "earthDamage": 10,
       "manaRegen": 6,
-      "poison": 2500,
+      "poison": 1400,
       "rawIntelligence": 5,
       "rawStrength": 5,
       "thorns": 10,
@@ -118208,7 +118171,7 @@
     "identifications": {
       "earthDamage": 10,
       "manaRegen": 6,
-      "poison": 250,
+      "poison": 1400,
       "rawIntelligence": 5,
       "rawStrength": 5,
       "thorns": 10,
@@ -118458,9 +118421,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 2885,
-        "min": 666,
-        "raw": 2219
+        "max": 1604,
+        "min": 370,
+        "raw": 1234
       },
       "rawAgility": 7,
       "rawHealth": {
@@ -119020,7 +118983,7 @@
     "identifications": {
       "fireDamage": 15,
       "lifeSteal": 120,
-      "poison": 4200,
+      "poison": 1800,
       "walkSpeed": -10,
       "xpBonus": 10
     },
@@ -120327,9 +120290,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 22000,
-        "min": 5077,
-        "raw": 16923
+        "max": 13000,
+        "min": 3000,
+        "raw": 10000
       },
       "rawStrength": 10,
       "slowEnemy": {
@@ -120611,9 +120574,9 @@
         "raw": -10
       },
       "poison": {
-        "max": 208,
-        "min": 48,
-        "raw": 160
+        "max": 117,
+        "min": 27,
+        "raw": 90
       },
       "walkSpeed": {
         "max": 10,
@@ -121251,9 +121214,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 7150,
-        "min": 1650,
-        "raw": 5500
+        "max": 4940,
+        "min": 1140,
+        "raw": 3800
       }
     },
     "internalName": "Pandemic",
@@ -122173,9 +122136,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1820,
-        "min": 420,
-        "raw": 1400
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "reflection": {
         "max": 13,
@@ -122824,23 +122787,19 @@
         "min": 4,
         "raw": 14
       },
-      "fireDamage": {
-        "max": -36,
-        "min": -68,
-        "raw": -52
-      },
       "fireDefence": {
-        "max": -18,
-        "min": -34,
-        "raw": -26
+        "max": -21,
+        "min": -39,
+        "raw": -30
       },
-      "manaRegen": {
-        "max": -4,
-        "min": -8,
-        "raw": -6
-      },
+      "jumpHeight": 1,
       "rawAgility": 8,
       "rawDexterity": 8,
+      "rawMaxMana": {
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      },
       "spellDamage": {
         "max": 10,
         "min": 2,
@@ -123664,9 +123623,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 3120,
-        "min": 720,
-        "raw": 2400
+        "max": 1820,
+        "min": 420,
+        "raw": 1400
       },
       "reflection": {
         "max": 13,
@@ -124201,9 +124160,9 @@
         "raw": -15
       },
       "poison": {
-        "max": 8060,
-        "min": 1860,
-        "raw": 6200
+        "max": 5200,
+        "min": 1200,
+        "raw": 4000
       },
       "rawAttackSpeed": 1,
       "rawDexterity": 8,
@@ -125105,9 +125064,9 @@
         "raw": 95
       },
       "poison": {
-        "max": 4225,
-        "min": 975,
-        "raw": 3250
+        "max": 2340,
+        "min": 540,
+        "raw": 1800
       },
       "rawDefence": 7,
       "walkSpeed": {
@@ -125170,9 +125129,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 10550,
-        "min": 2435,
-        "raw": 8115
+        "max": 5850,
+        "min": 1350,
+        "raw": 4500
       },
       "rawIntelligence": 20
     },
@@ -125342,9 +125301,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 7800,
-        "min": 1800,
-        "raw": 6000
+        "max": 5200,
+        "min": 1200,
+        "raw": 4000
       }
     },
     "internalName": "Planet Healer",
@@ -125910,7 +125869,7 @@
       "4thSpellCost": -20,
       "earthDefence": 25,
       "manaSteal": -6,
-      "poison": 7200,
+      "poison": 4000,
       "rawIntelligence": 10,
       "waterDefence": 25
     },
@@ -125963,9 +125922,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 35500,
-        "min": 8192,
-        "raw": 27308
+        "max": 26000,
+        "min": 6000,
+        "raw": 20000
       },
       "rawStrength": 15,
       "thorns": {
@@ -126021,9 +125980,9 @@
         "raw": 25
       },
       "poison": {
-        "max": 30000,
-        "min": 6923,
-        "raw": 23077
+        "max": 18000,
+        "min": 4154,
+        "raw": 13846
       },
       "thorns": {
         "max": 20,
@@ -126073,9 +126032,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 1625,
-        "min": 375,
-        "raw": 1250
+        "max": 910,
+        "min": 210,
+        "raw": 700
       },
       "rawEarthMainAttackDamage": {
         "max": 40,
@@ -126674,9 +126633,9 @@
         "raw": -4
       },
       "poison": {
-        "max": 720,
-        "min": 166,
-        "raw": 554
+        "max": 400,
+        "min": 92,
+        "raw": 308
       },
       "rawMainAttackDamage": {
         "max": 77,
@@ -131440,7 +131399,7 @@
       }
     },
     "identifications": {
-      "poison": 360,
+      "poison": 185,
       "rawHealth": 130,
       "walkSpeed": -3
     },
@@ -132012,12 +131971,12 @@
   },
   "Quartzite Wand": {
     "attackSpeed": "fast",
-    "averageDps": 15,
+    "averageDps": 10,
     "base": {
       "baseDamage": {
-        "max": 7,
-        "min": 5,
-        "raw": 5
+        "max": 5,
+        "min": 3,
+        "raw": 3
       }
     },
     "dropRestriction": "normal",
@@ -132037,6 +131996,7 @@
       }
     },
     "internalName": "Quartzite Wand",
+    "powderSlots": 1,
     "rarity": "unique",
     "requirements": {
       "classRequirement": "mage",
@@ -132395,7 +132355,7 @@
     },
     "identifications": {
       "airMainAttackDamage": 20,
-      "poison": 3475,
+      "poison": 2250,
       "rawAgility": 2,
       "walkSpeed": 10
     },
@@ -132612,9 +132572,9 @@
         "raw": -12
       },
       "poison": {
-        "max": 35000,
-        "min": 8077,
-        "raw": 26923
+        "max": 20800,
+        "min": 4800,
+        "raw": 16000
       },
       "rawAttackSpeed": 1,
       "rawDamage": {
@@ -133059,30 +133019,30 @@
     "dropRestriction": "normal",
     "identifications": {
       "earthDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "fireDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 16,
+        "min": 4,
+        "raw": 12
       },
       "mainAttackDamage": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 34,
+        "min": 8,
+        "raw": 26
       },
       "rawDefence": 7,
       "spellDamage": {
-        "max": -7,
-        "min": -13,
-        "raw": -10
+        "max": -10,
+        "min": -19,
+        "raw": -15
       },
       "waterDamage": {
-        "max": -17,
-        "min": -32,
-        "raw": -25
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "xpBonus": {
         "max": 13,
@@ -133095,9 +133055,9 @@
     "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
-      "defence": 5,
+      "defence": 15,
       "level": 50,
-      "strength": 20
+      "strength": 25
     },
     "type": "armour"
   },
@@ -133841,9 +133801,9 @@
     "dropRestriction": "dungeon",
     "identifications": {
       "poison": {
-        "max": 40,
-        "min": 9,
-        "raw": 31
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "walkSpeed": {
         "max": 10,
@@ -137348,9 +137308,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 1495,
-        "min": 345,
-        "raw": 1150
+        "max": 845,
+        "min": 195,
+        "raw": 650
       },
       "walkSpeed": {
         "max": 13,
@@ -138617,7 +138577,7 @@
     "internalName": "Rewind",
     "lore": "Time moves in strange ways around this translucent blade, speeding and slowing, starting and stopping, with no observable reasoning or pattern.",
     "majorIds": {
-      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
+      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
     },
     "powderSlots": 2,
     "rarity": "legendary",
@@ -138797,7 +138757,7 @@
     },
     "internalName": "Rhythm of the Seasons",
     "majorIds": {
-      "Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Charge heals you by 10% and nearby allies by 15% on impact, but becomes harmless.</span></span>"
+      "Rally": "<span class='font-ascii' style='color:#55FFFF'>+Rally: <span class='font-ascii' style='color:#00AAAA'>Cleansing Breeze causes Charge to heal you for 7.5% and nearby allies for 15% on impact, but becomes harmless.</span></span>"
     },
     "powderSlots": 2,
     "rarity": "fabled",
@@ -138868,9 +138828,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 19500,
-        "min": 4500,
-        "raw": 15000
+        "max": 9100,
+        "min": 2100,
+        "raw": 7000
       },
       "rawSpellDamage": {
         "max": 520,
@@ -140073,9 +140033,9 @@
         "raw": 3
       },
       "poison": {
-        "max": 325,
-        "min": 75,
-        "raw": 250
+        "max": 195,
+        "min": 45,
+        "raw": 150
       },
       "rawStrength": 4
     },
@@ -140578,9 +140538,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 32800,
-        "min": 7569,
-        "raw": 25231
+        "max": 18200,
+        "min": 4200,
+        "raw": 14000
       },
       "rawHealth": {
         "max": -1295,
@@ -140689,9 +140649,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 1040,
-        "min": 240,
-        "raw": 800
+        "max": 585,
+        "min": 135,
+        "raw": 450
       },
       "thorns": {
         "max": 13,
@@ -140742,7 +140702,7 @@
     },
     "identifications": {
       "healthRegen": -16,
-      "poison": 3250,
+      "poison": 1800,
       "raw4thSpellCost": -4,
       "spellDamage": 15,
       "waterDamage": 10
@@ -140790,9 +140750,9 @@
         "raw": 115
       },
       "poison": {
-        "max": 6630,
-        "min": 1530,
-        "raw": 5100
+        "max": 3673,
+        "min": 848,
+        "raw": 2825
       },
       "rawStrength": 5,
       "slowEnemy": {
@@ -141391,7 +141351,7 @@
     "internalName": "Runebound Chains",
     "lore": "You know better than anyone else that there’s always a sliver of truth behind the tallest of tales. ",
     "majorIds": {
-      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
+      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
     },
     "powderSlots": 4,
     "rarity": "fabled",
@@ -141567,9 +141527,9 @@
         "raw": 11
       },
       "poison": {
-        "max": 5200,
-        "min": 1200,
-        "raw": 4000
+        "max": 3250,
+        "min": 750,
+        "raw": 2500
       },
       "rawDexterity": 9,
       "reflection": {
@@ -141725,9 +141685,9 @@
       },
       "jumpHeight": -1,
       "poison": {
-        "max": 5200,
-        "min": 1200,
-        "raw": 4000
+        "max": 2870,
+        "min": 662,
+        "raw": 2208
       },
       "raw2ndSpellCost": {
         "max": -13,
@@ -141858,9 +141818,9 @@
         "raw": -25
       },
       "poison": {
-        "max": 975,
-        "min": 225,
-        "raw": 750
+        "max": 585,
+        "min": 135,
+        "raw": 450
       },
       "rawStrength": 6
     },
@@ -142446,9 +142406,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 455,
-        "min": 105,
-        "raw": 350
+        "max": 247,
+        "min": 57,
+        "raw": 190
       },
       "rawStrength": 5
     },
@@ -142555,9 +142515,9 @@
         "raw": 20
       },
       "poison": {
-        "max": 520,
-        "min": 120,
-        "raw": 400
+        "max": 286,
+        "min": 66,
+        "raw": 220
       },
       "thunderDamage": {
         "max": 13,
@@ -143381,9 +143341,9 @@
         "raw": -35
       },
       "poison": {
-        "max": 1170,
-        "min": 270,
-        "raw": 900
+        "max": 650,
+        "min": 150,
+        "raw": 500
       },
       "rawAgility": 5,
       "rawAttackSpeed": 1,
@@ -144296,9 +144256,9 @@
         "raw": -7
       },
       "poison": {
-        "max": 4225,
-        "min": 975,
-        "raw": 3250
+        "max": 2600,
+        "min": 600,
+        "raw": 2000
       },
       "rawStrength": 3
     },
@@ -145041,9 +145001,9 @@
         "raw": -7
       },
       "poison": {
-        "max": 1170,
-        "min": 270,
-        "raw": 900
+        "max": 910,
+        "min": 210,
+        "raw": 700
       },
       "rawStrength": 10
     },
@@ -145338,9 +145298,9 @@
         "raw": 185
       },
       "poison": {
-        "max": 22750,
-        "min": 5250,
-        "raw": 17500
+        "max": 13650,
+        "min": 3150,
+        "raw": 10500
       },
       "rawDefence": 8,
       "thorns": {
@@ -145401,9 +145361,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 1875,
-        "min": 433,
-        "raw": 1442
+        "max": 780,
+        "min": 180,
+        "raw": 600
       },
       "raw2ndSpellCost": {
         "max": -4,
@@ -145445,9 +145405,9 @@
     "dropRestriction": "dungeon",
     "identifications": {
       "poison": {
-        "max": 910,
-        "min": 210,
-        "raw": 700
+        "max": 520,
+        "min": 120,
+        "raw": 400
       },
       "walkSpeed": {
         "max": 10,
@@ -145829,7 +145789,7 @@
       }
     },
     "identifications": {
-      "poison": 800,
+      "poison": 600,
       "waterDamage": 8
     },
     "identified": true,
@@ -147188,9 +147148,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 49400,
-        "min": 11400,
-        "raw": 38000
+        "max": 31200,
+        "min": 7200,
+        "raw": 24000
       },
       "rawHealth": {
         "max": 2080,
@@ -147323,7 +147283,7 @@
       }
     },
     "identifications": {
-      "poison": 125,
+      "poison": 60,
       "rawAgility": 3,
       "walkSpeed": 6
     },
@@ -147385,9 +147345,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 2600,
-        "min": 600,
-        "raw": 2000
+        "max": 1560,
+        "min": 360,
+        "raw": 1200
       },
       "rawEarthMainAttackDamage": {
         "max": 205,
@@ -148404,9 +148364,9 @@
         "raw": 30
       },
       "poison": {
-        "max": 1625,
-        "min": 375,
-        "raw": 1250
+        "max": 910,
+        "min": 210,
+        "raw": 700
       },
       "stealing": {
         "max": 7,
@@ -149597,6 +149557,7 @@
       }
     },
     "internalName": "Shine Suffocator",
+    "lore": "The radiance of your foes burns bright. You must emanate your brilliance in return. Cloak them in a blinding glow. Smother their luminance with yours. Then after all of their light has faded, yours will too.",
     "powderSlots": 2,
     "rarity": "legendary",
     "requirements": {
@@ -149613,15 +149574,15 @@
     "armourType": "helmet",
     "base": {
       "baseEarthDefence": -30,
-      "baseHealth": 575,
+      "baseHealth": 600,
       "baseWaterDefence": -20
     },
     "dropRestriction": "normal",
     "identifications": {
-      "earthDamage": {
-        "max": -35,
-        "min": -65,
-        "raw": -50
+      "earthDefence": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
       },
       "exploding": {
         "max": 26,
@@ -149644,14 +149605,9 @@
         "raw": 60
       },
       "reflection": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
-      },
-      "thorns": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 35,
+        "min": 8,
+        "raw": 27
       },
       "thunderDamage": {
         "max": 20,
@@ -150279,6 +150235,73 @@
     "type": "weapon",
     "weaponType": "dagger"
   },
+  "Shredder Club": {
+    "attackSpeed": "super_slow",
+    "averageDps": 538,
+    "base": {
+      "baseDamage": {
+        "max": 800,
+        "min": 600,
+        "raw": 600
+      },
+      "baseEarthDamage": {
+        "max": 380,
+        "min": 330,
+        "raw": 330
+      }
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "483",
+        "id": "minecraft:iron_horse_armor",
+        "name": "spear.earth3"
+      }
+    },
+    "identifications": {
+      "3rdSpellCost": {
+        "max": -23,
+        "min": -5,
+        "raw": -18
+      },
+      "damage": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      },
+      "knockback": {
+        "max": 46,
+        "min": 11,
+        "raw": 35
+      },
+      "rawAttackSpeed": {
+        "max": -26,
+        "min": -48,
+        "raw": -37
+      },
+      "rawDefence": 15,
+      "walkSpeed": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      }
+    },
+    "internalName": "Shredder Club",
+    "lore": "There's a scrawling etched onto the handle: \"UNGA BUNGA'S. NO TOUCH.\"",
+    "majorIds": {
+      "Troll Barge": "<span class='font-ascii' style='color:#55FFFF'>+Troll Barge: <span class='font-ascii' style='color:#00AAAA'>Quake allows you to charge forth, dealing <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>80%</span><darkAqua> and \n<span class='font-ascii' style='color:#00aa00'><span class='font-common'></span>20%</span><darkAqua> to any mobs hit, and ending with a powerful stomp for <span class='font-ascii' style='color:#ffaa00'><span class='font-common'></span>400%</span><darkAqua> and \n<span class='font-ascii' style='color:#00aa00'><span class='font-common'></span>150%</span><darkAqua>. This will leave you vulnerable.</span></span></span></span></span></span></span></span></span></span>"
+    },
+    "powderSlots": 2,
+    "rarity": "fabled",
+    "requirements": {
+      "classRequirement": "warrior",
+      "level": 86,
+      "strength": 70
+    },
+    "type": "weapon",
+    "weaponType": "spear"
+  },
   "Shrok": {
     "armourMaterial": "chain",
     "armourType": "helmet",
@@ -150471,9 +150494,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 10530,
-        "min": 2430,
-        "raw": 8100
+        "max": 6825,
+        "min": 1575,
+        "raw": 5250
       },
       "thorns": {
         "max": 26,
@@ -151469,9 +151492,9 @@
         "raw": 25
       },
       "poison": {
-        "max": 2795,
-        "min": 645,
-        "raw": 2150
+        "max": 1950,
+        "min": 450,
+        "raw": 1500
       },
       "rawAgility": 9,
       "rawDefence": -10,
@@ -152667,9 +152690,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 312,
-        "min": 72,
-        "raw": 240
+        "max": 169,
+        "min": 39,
+        "raw": 130
       },
       "rawAgility": 13
     },
@@ -152694,9 +152717,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 338,
-        "min": 78,
-        "raw": 260
+        "max": 189,
+        "min": 44,
+        "raw": 145
       },
       "walkSpeed": {
         "max": 13,
@@ -153081,9 +153104,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 1560,
-        "min": 360,
-        "raw": 1200
+        "max": 975,
+        "min": 225,
+        "raw": 750
       },
       "waterDamage": {
         "max": -6,
@@ -153489,9 +153512,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 176,
-        "min": 41,
-        "raw": 135
+        "max": 98,
+        "min": 23,
+        "raw": 75
       },
       "rawDefence": -3,
       "rawHealth": {
@@ -153528,9 +153551,9 @@
         "raw": 18
       },
       "poison": {
-        "max": 436,
-        "min": 101,
-        "raw": 335
+        "max": 260,
+        "min": 60,
+        "raw": 200
       },
       "rawAgility": 5
     },
@@ -154016,12 +154039,12 @@
       }
     },
     "identifications": {
-      "mainAttackDamage": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
-      },
       "rawDexterity": 9,
+      "rawMainAttackDamage": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
       "thunderDamage": {
         "max": 13,
         "min": 3,
@@ -155045,9 +155068,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 15600,
-        "min": 3600,
-        "raw": 12000
+        "max": 10400,
+        "min": 2400,
+        "raw": 8000
       },
       "rawStrength": 10,
       "walkSpeed": {
@@ -155353,9 +155376,9 @@
     "dropRestriction": "normal",
     "identifications": {
       "poison": {
-        "max": 1170,
-        "min": 270,
-        "raw": 900
+        "max": 650,
+        "min": 150,
+        "raw": 500
       },
       "walkSpeed": {
         "max": -4,
@@ -155390,9 +155413,9 @@
         "raw": 7
       },
       "poison": {
-        "max": 70,
-        "min": 16,
-        "raw": 54
+        "max": 39,
+        "min": 9,
+        "raw": 30
       },
       "waterDamage": {
         "max": 9,
@@ -155422,9 +155445,9 @@
         "raw": -50
       },
       "poison": {
-        "max": 30550,
-        "min": 7050,
-        "raw": 23500
+        "max": 20150,
+        "min": 4650,
+        "raw": 15500
       },
       "rawDefence": -10,
       "rawEarthMainAttackDamage": {
@@ -155630,9 +155653,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 2350,
-        "min": 542,
-        "raw": 1808
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "rawEarthMainAttackDamage": {
         "max": 39,
@@ -156173,9 +156196,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 1010,
-        "min": 233,
-        "raw": 777
+        "max": 566,
+        "min": 131,
+        "raw": 435
       },
       "rawDexterity": 8,
       "rawHealth": {
@@ -157326,6 +157349,8 @@
     "dropRestriction": "never",
     "identifications": {
       "rawMaxMana": 30,
+      "rawSpellDamage": 40,
+      "spellDamage": 10,
       "xpBonus": 8
     },
     "identified": true,
@@ -157521,7 +157546,7 @@
       "earthDefence": 15,
       "elementalDefence": 15,
       "healingEfficiency": 12,
-      "poison": 3600,
+      "poison": 2000,
       "rawStrength": 7,
       "thorns": 15
     },
@@ -158355,9 +158380,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 18775,
-        "min": 4333,
-        "raw": 14442
+        "max": 10400,
+        "min": 2400,
+        "raw": 8000
       },
       "rawAgility": 8,
       "walkSpeed": {
@@ -158505,9 +158530,9 @@
         "raw": 12
       },
       "damage": {
-        "max": -18,
-        "min": -34,
-        "raw": -26
+        "max": -14,
+        "min": -26,
+        "raw": -20
       },
       "knockback": {
         "max": 16,
@@ -159493,9 +159518,9 @@
     },
     "identifications": {
       "poison": {
-        "max": 40,
-        "min": 9,
-        "raw": 31
+        "max": 20,
+        "min": 5,
+        "raw": 15
       },
       "rawAgility": 4
     },
@@ -159673,9 +159698,9 @@
         "raw": 15
       },
       "poison": {
-        "max": 130,
-        "min": 30,
-        "raw": 100
+        "max": 74,
+        "min": 17,
+        "raw": 57
       },
       "walkSpeed": {
         "max": -4,
@@ -159734,9 +159759,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 1875,
-        "min": 433,
-        "raw": 1442
+        "max": 1040,
+        "min": 240,
+        "raw": 800
       },
       "thorns": {
         "max": 33,
@@ -159889,9 +159914,9 @@
         "raw": 50
       },
       "poison": {
-        "max": 2350,
-        "min": 542,
-        "raw": 1808
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "waterDefence": {
         "max": -14,
@@ -160303,9 +160328,9 @@
         "raw": -8
       },
       "poison": {
-        "max": 520,
-        "min": 120,
-        "raw": 400
+        "max": 286,
+        "min": 66,
+        "raw": 220
       },
       "rawMainAttackDamage": {
         "max": 30,
@@ -160370,9 +160395,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 49400,
-        "min": 11400,
-        "raw": 38000
+        "max": 29250,
+        "min": 6750,
+        "raw": 22500
       },
       "walkSpeed": {
         "max": 13,
@@ -160548,9 +160573,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 65,
-        "min": 15,
-        "raw": 50
+        "max": 35,
+        "min": 8,
+        "raw": 27
       },
       "rawStrength": 4
     },
@@ -160588,9 +160613,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 117,
-        "min": 27,
-        "raw": 90
+        "max": 65,
+        "min": 15,
+        "raw": 50
       }
     },
     "internalName": "Spore Shortsword",
@@ -161760,7 +161785,7 @@
     "identifications": {
       "earthDamage": 10,
       "healthRegen": -15,
-      "poison": 2200,
+      "poison": 900,
       "rawMaxMana": 30,
       "waterDamage": 10
     },
@@ -163590,9 +163615,9 @@
         "raw": 140
       },
       "poison": {
-        "max": 8450,
-        "min": 1950,
-        "raw": 6500
+        "max": 6175,
+        "min": 1425,
+        "raw": 4750
       },
       "rawMainAttackDamage": {
         "max": 260,
@@ -163789,9 +163814,9 @@
         "raw": -4
       },
       "poison": {
-        "max": 21060,
-        "min": 4860,
-        "raw": 16200
+        "max": 13000,
+        "min": 3000,
+        "raw": 10000
       },
       "rawAttackSpeed": {
         "max": -69,
@@ -164790,9 +164815,9 @@
         "raw": 175
       },
       "poison": {
-        "max": 4550,
-        "min": 1050,
-        "raw": 3500
+        "max": 2470,
+        "min": 570,
+        "raw": 1900
       },
       "slowEnemy": {
         "max": 12,
@@ -164970,6 +164995,7 @@
       }
     },
     "internalName": "Stratosphere",
+    "lore": "Forged from the storm-touched ether, this chest piece calls its wearer to rise above the sky. With every step, the pull of the earth weakens. Jump, and for a moment, you are weightless—caught between the clouds and the stars. Leap, and the heavens may answer.",
     "powderSlots": 3,
     "rarity": "legendary",
     "requirements": {
@@ -166326,9 +166352,9 @@
         "raw": 465
       },
       "poison": {
-        "max": 30000,
-        "min": 6923,
-        "raw": 23077
+        "max": 23400,
+        "min": 5400,
+        "raw": 18000
       },
       "rawEarthMainAttackDamage": {
         "max": 91,
@@ -166737,22 +166763,22 @@
     "dropRestriction": "never",
     "identifications": {
       "fireDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "mainAttackDamage": {
-        "max": 44,
-        "min": 10,
-        "raw": 34
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "rawAttackSpeed": -1,
-      "rawDefence": 9,
-      "rawDexterity": 9,
+      "rawDefence": 6,
+      "rawDexterity": 8,
       "thunderDamage": {
-        "max": 39,
-        "min": 9,
-        "raw": 30
+        "max": 30,
+        "min": 7,
+        "raw": 23
       },
       "waterDefence": {
         "max": -17,
@@ -167765,9 +167791,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 4420,
-        "min": 1020,
-        "raw": 3400
+        "max": 3640,
+        "min": 840,
+        "raw": 2800
       },
       "spellDamage": {
         "max": 8,
@@ -167812,7 +167838,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "poison": 135,
+      "poison": 120,
       "stealing": 2,
       "thorns": 7,
       "walkSpeed": -3
@@ -168286,9 +168312,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 845,
-        "min": 195,
-        "raw": 650
+        "max": 455,
+        "min": 105,
+        "raw": 350
       },
       "walkSpeed": {
         "max": 10,
@@ -169010,9 +169036,9 @@
         "raw": 13
       },
       "poison": {
-        "max": 130,
-        "min": 30,
-        "raw": 100
+        "max": 78,
+        "min": 18,
+        "raw": 60
       },
       "xpBonus": {
         "max": 7,
@@ -169056,9 +169082,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 1170,
-        "min": 270,
-        "raw": 900
+        "max": 650,
+        "min": 150,
+        "raw": 500
       }
     },
     "internalName": "Tainted Step",
@@ -169265,9 +169291,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 2925,
-        "min": 675,
-        "raw": 2250
+        "max": 1950,
+        "min": 450,
+        "raw": 1500
       },
       "rawStrength": 8,
       "waterDefence": {
@@ -171087,9 +171113,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 9425,
-        "min": 2175,
-        "raw": 7250
+        "max": 6500,
+        "min": 1500,
+        "raw": 5000
       },
       "rawStrength": 10,
       "sprint": {
@@ -172999,9 +173025,9 @@
         "raw": 150
       },
       "poison": {
-        "max": 3900,
-        "min": 900,
-        "raw": 3000
+        "max": 1950,
+        "min": 450,
+        "raw": 1500
       },
       "rawDexterity": 7,
       "rawStrength": 13,
@@ -173054,7 +173080,7 @@
     },
     "identifications": {
       "healthRegen": -80,
-      "poison": 50000,
+      "poison": 35000,
       "raw1stSpellCost": -20,
       "rawHealth": 2250,
       "rawMainAttackDamage": 550,
@@ -175590,7 +175616,7 @@
     "identifications": {
       "damage": 15,
       "knockback": 15,
-      "poison": 630,
+      "poison": 350,
       "rawMainAttackDamage": 90,
       "rawStrength": 5,
       "walkSpeed": 15
@@ -176455,22 +176481,22 @@
   },
   "Third Wish": {
     "attackSpeed": "normal",
-    "averageDps": 482,
+    "averageDps": 408,
     "base": {
       "baseDamage": {
-        "max": 81,
-        "min": 75,
-        "raw": 75
+        "max": 71,
+        "min": 61,
+        "raw": 61
       },
       "baseThunderDamage": {
-        "max": 81,
-        "min": 75,
-        "raw": 75
+        "max": 71,
+        "min": 61,
+        "raw": 61
       },
       "baseWaterDamage": {
-        "max": 81,
-        "min": 75,
-        "raw": 75
+        "max": 71,
+        "min": 61,
+        "raw": 61
       }
     },
     "dropMeta": {
@@ -176493,15 +176519,20 @@
     },
     "identifications": {
       "raw3rdSpellCost": {
-        "max": 6,
-        "min": 12,
-        "raw": 9
+        "max": 3,
+        "min": 5,
+        "raw": 4
       },
       "rawAgility": -15,
       "rawHealth": {
         "max": -777,
         "min": -1443,
         "raw": -1110
+      },
+      "rawMaxMana": {
+        "max": 78,
+        "min": 18,
+        "raw": 60
       },
       "rawThunderSpellDamage": {
         "max": 261,
@@ -177243,23 +177274,13 @@
         "raw": 20
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "271",
+        "customModelData": "201",
         "id": "minecraft:iron_horse_armor",
-        "name": "dagger.thunder2"
+        "name": "bow.thunder2"
       }
     },
     "identifications": {
@@ -177295,12 +177316,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Daggers",
+    "internalName": "Thunder Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65
     },
     "type": "weapon",
@@ -178472,7 +178493,7 @@
     "internalName": "Time Rift",
     "lore": "\\[Community Event Winner\\] You only have limited time. But what if, you could experience that time again? And again, and again...",
     "majorIds": {
-      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>30% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
+      "Sorcery": "<span class='font-ascii' style='color:#55FFFF'>+Sorcery: <span class='font-ascii' style='color:#00AAAA'>25% chance for spells and attacks to cast a second time at no additional cost.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "fabled",
@@ -179741,9 +179762,9 @@
         "raw": 9
       },
       "poison": {
-        "max": 10400,
-        "min": 2400,
-        "raw": 8000
+        "max": 5850,
+        "min": 1350,
+        "raw": 4500
       },
       "thunderDamage": {
         "max": 12,
@@ -179797,9 +179818,9 @@
         "raw": 18
       },
       "poison": {
-        "max": 97500,
-        "min": 22500,
-        "raw": 75000
+        "max": 65000,
+        "min": 15000,
+        "raw": 50000
       },
       "rawStrength": 40,
       "walkSpeed": {
@@ -180232,7 +180253,7 @@
     "internalName": "Trance",
     "lore": "Down. Your enemies will fall slack. Deeper. Do you know this compulsion you bring? Deeper still. This implement, reaching from within and without. Even deeper. Souls and wills to command at the flex of a finger. Almost gone. It is my compulsion, too great to ignore. It is my implement, too strong to resist. My puppets, too deep to escape. Drop.",
     "majorIds": {
-      "Fixate": "<span class='font-ascii' style='color:#55FFFF'>+Fixate: <span class='font-ascii' style='color:#00AAAA'>Winded damage effects are multiplied by 1.33 and Devitalize gains 0.5% weaken per stack. Winded cooldown is increased by 0.25s.</span></span>"
+      "Fixate": "<span class='font-ascii' style='color:#55FFFF'>+Fixate: <span class='font-ascii' style='color:#00AAAA'>Devitalize causes Winded damage effects to be multiplied by 1.33 and gain 0.5% weaken per stack. Winded cooldown is increased by 0.25s.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "mythic",
@@ -182010,9 +182031,9 @@
         "raw": 23
       },
       "poison": {
-        "max": 2150,
-        "min": 496,
-        "raw": 1654
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
       },
       "slowEnemy": {
         "max": 10,
@@ -183225,7 +183246,7 @@
     "base": {
       "baseAirDefence": 70,
       "baseFireDefence": -110,
-      "baseHealth": 3000
+      "baseHealth": 2800
     },
     "dropRestriction": "normal",
     "identifications": {
@@ -183799,7 +183820,7 @@
     },
     "identifications": {
       "lifeSteal": 18,
-      "poison": 600,
+      "poison": 400,
       "reflection": -12,
       "thorns": -12
     },
@@ -184567,9 +184588,9 @@
         "raw": -100
       },
       "poison": {
-        "max": 14300,
-        "min": 3300,
-        "raw": 11000
+        "max": 9100,
+        "min": 2100,
+        "raw": 7000
       },
       "raw3rdSpellCost": {
         "max": 4,
@@ -184928,7 +184949,7 @@
     },
     "dropRestriction": "never",
     "identifications": {
-      "poison": 420,
+      "poison": 280,
       "rawAgility": 2,
       "rawDexterity": 2,
       "walkSpeed": 6,
@@ -186466,7 +186487,7 @@
     },
     "identifications": {
       "healthRegenRaw": 14,
-      "poison": 420,
+      "poison": 320,
       "rawDefence": 3,
       "thorns": 10,
       "weakenEnemy": 5
@@ -186497,9 +186518,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 3380,
-        "min": 780,
-        "raw": 2600
+        "max": 3250,
+        "min": 750,
+        "raw": 2500
       },
       "thorns": {
         "max": 20,
@@ -186633,9 +186654,9 @@
         "raw": -6
       },
       "poison": {
-        "max": 4030,
-        "min": 930,
-        "raw": 3100
+        "max": 2340,
+        "min": 540,
+        "raw": 1800
       },
       "rawDefence": 5,
       "rawSpellDamage": {
@@ -187156,9 +187177,9 @@
         "raw": 120
       },
       "poison": {
-        "max": 3250,
-        "min": 750,
-        "raw": 2500
+        "max": 1950,
+        "min": 450,
+        "raw": 1500
       },
       "rawHealth": {
         "max": -350,
@@ -187384,9 +187405,9 @@
         "raw": 60
       },
       "poison": {
-        "max": 3380,
-        "min": 780,
-        "raw": 2600
+        "max": 2340,
+        "min": 540,
+        "raw": 1800
       },
       "rawDefence": 7,
       "rawStrength": 7,
@@ -188048,9 +188069,9 @@
         "raw": 10
       },
       "poison": {
-        "max": 117,
-        "min": 27,
-        "raw": 90
+        "max": 65,
+        "min": 15,
+        "raw": 50
       }
     },
     "internalName": "Vitium",
@@ -188123,9 +188144,9 @@
         "raw": 12
       },
       "poison": {
-        "max": 195,
-        "min": 45,
-        "raw": 150
+        "max": 108,
+        "min": 25,
+        "raw": 83
       }
     },
     "internalName": "Vitriol",
@@ -190485,9 +190506,9 @@
         "raw": -12
       },
       "poison": {
-        "max": 364,
-        "min": 84,
-        "raw": 280
+        "max": 202,
+        "min": 47,
+        "raw": 155
       },
       "thunderDamage": {
         "max": 8,
@@ -190524,9 +190545,9 @@
         "raw": 25
       },
       "poison": {
-        "max": 7800,
-        "min": 1800,
-        "raw": 6000
+        "max": 6500,
+        "min": 1500,
+        "raw": 5000
       },
       "raw3rdSpellCost": {
         "max": -4,
@@ -190573,9 +190594,9 @@
         "raw": 5
       },
       "poison": {
-        "max": 215,
-        "min": 50,
-        "raw": 165
+        "max": 117,
+        "min": 27,
+        "raw": 90
       },
       "rawStrength": 3,
       "walkSpeed": {
@@ -192839,9 +192860,9 @@
         "raw": 8
       },
       "poison": {
-        "max": 780,
-        "min": 180,
-        "raw": 600
+        "max": 520,
+        "min": 120,
+        "raw": 400
       },
       "rawAgility": 7,
       "walkSpeed": {
@@ -193260,7 +193281,7 @@
     "identifications": {
       "1stSpellCost": 50,
       "lifeSteal": 250,
-      "poison": 20000,
+      "poison": 10000,
       "rawDefence": 15,
       "thorns": 30,
       "weakenEnemy": 8
@@ -194816,9 +194837,9 @@
         "raw": 4
       },
       "poison": {
-        "max": 91,
-        "min": 21,
-        "raw": 70
+        "max": 52,
+        "min": 12,
+        "raw": 40
       },
       "rawAgility": -3,
       "rawSpellDamage": {
@@ -195399,9 +195420,9 @@
         "raw": 6
       },
       "poison": {
-        "max": 75,
-        "min": 17,
-        "raw": 58
+        "max": 42,
+        "min": 10,
+        "raw": 32
       },
       "rawHealth": {
         "max": -10,
@@ -195704,7 +195725,7 @@
       "2ndSpellCost": 13,
       "3rdSpellCost": 28,
       "4thSpellCost": 21,
-      "poison": 10357,
+      "poison": 8472,
       "rawAgility": -43,
       "rawAttackSpeed": -6,
       "rawMainAttackDamage": 2987,
