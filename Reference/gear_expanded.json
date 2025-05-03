@@ -34613,6 +34613,54 @@
     },
     "type": "armour"
   },
+  "Cold Wave": {
+    "accessoryType": "ring",
+    "base": {
+      "baseAirDefence": 20
+    },
+    "dropRestriction": "lootchest",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "155",
+        "id": "minecraft:iron_horse_armor",
+        "name": "ring.water2"
+      }
+    },
+    "identifications": {
+      "fireDefence": {
+        "max": -10,
+        "min": -18,
+        "raw": -14
+      },
+      "spellDamage": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
+      "walkSpeed": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
+      "waterDamage": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      }
+    },
+    "internalName": "Cold Wave",
+    "lore": "Feeling the fresh chill of the cold air is all you need to know you're really alive.",
+    "majorIds": {
+      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.</span></span>"
+    },
+    "rarity": "fabled",
+    "requirements": {
+      "intelligence": 40,
+      "level": 75
+    },
+    "type": "accessory"
+  },
   "Collapse": {
     "attackSpeed": "very_slow",
     "averageDps": 641,
@@ -80806,6 +80854,72 @@
     "type": "weapon",
     "weaponType": "relik"
   },
+  "Heat Death": {
+    "attackSpeed": "very_fast",
+    "averageDps": 229,
+    "base": {
+      "baseAirDamage": {
+        "max": 48,
+        "min": 26,
+        "raw": 26
+      },
+      "baseWaterDamage": {
+        "max": 38,
+        "min": 36,
+        "raw": 36
+      }
+    },
+    "dropRestriction": "normal",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "348",
+        "id": "minecraft:iron_horse_armor",
+        "name": "wand.water3"
+      }
+    },
+    "identifications": {
+      "4thSpellCost": {
+        "max": -36,
+        "min": -8,
+        "raw": -28
+      },
+      "lifeSteal": {
+        "max": 143,
+        "min": 33,
+        "raw": 110
+      },
+      "manaRegen": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
+      "rawHealth": {
+        "max": -350,
+        "min": -650,
+        "raw": -500
+      },
+      "rawSpellDamage": {
+        "max": 143,
+        "min": 33,
+        "raw": 110
+      }
+    },
+    "internalName": "Heat Death",
+    "lore": "Everything slowly loses heat, and will eventually stop moving. Are you prepared?",
+    "majorIds": {
+      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.</span></span>"
+    },
+    "rarity": "fabled",
+    "requirements": {
+      "agility": 35,
+      "classRequirement": "mage",
+      "intelligence": 55,
+      "level": 57
+    },
+    "type": "weapon",
+    "weaponType": "wand"
+  },
   "Heat Sink": {
     "armourMaterial": "diamond",
     "armourType": "leggings",
@@ -86611,6 +86725,66 @@
     },
     "type": "weapon",
     "weaponType": "relik"
+  },
+  "Impact Winter": {
+    "armourMaterial": "iron",
+    "armourType": "leggings",
+    "base": {
+      "baseAirDefence": -90,
+      "baseFireDefence": -90,
+      "baseHealth": 1450
+    },
+    "dropRestriction": "normal",
+    "identifications": {
+      "earthDamage": {
+        "max": 31,
+        "min": 7,
+        "raw": 24
+      },
+      "fireDefence": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      },
+      "healthRegenRaw": {
+        "max": -52,
+        "min": -97,
+        "raw": -75
+      },
+      "manaSteal": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      },
+      "poison": {
+        "max": 1950,
+        "min": 450,
+        "raw": 1500
+      },
+      "spellDamage": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "waterDamage": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      }
+    },
+    "internalName": "Impact Winter",
+    "lore": "Do you think you can survive with a sky choked by snow and ash? More importantly, do you think anything else can?",
+    "majorIds": {
+      "Flashfreeze": "<span class='font-ascii' style='color:#55FFFF'>+Flashfreeze: <span class='font-ascii' style='color:#00AAAA'>Ice Snake is instant and freezes for +1s.</span></span>"
+    },
+    "powderSlots": 3,
+    "rarity": "fabled",
+    "requirements": {
+      "intelligence": 25,
+      "level": 66,
+      "strength": 40
+    },
+    "type": "armour"
   },
   "Impeccable Andesite Bow": {
     "attackSpeed": "very_slow",
@@ -177274,13 +177448,23 @@
         "raw": 20
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "201",
+        "customModelData": "271",
         "id": "minecraft:iron_horse_armor",
-        "name": "bow.thunder2"
+        "name": "dagger.thunder2"
       }
     },
     "identifications": {
@@ -177316,12 +177500,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Dagger",
+    "internalName": "Thunder Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 30,
+      "dexterity": 25,
       "level": 65
     },
     "type": "weapon",
@@ -190976,6 +191160,16 @@
         "raw": 75
       }
     },
+    "dropMeta": {
+      "coordinates": [
+        -862,
+        22,
+        -310,
+        120
+      ],
+      "name": "Relic Guardian",
+      "type": "miniboss"
+    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
@@ -191018,12 +191212,12 @@
         "raw": 15
       }
     },
-    "internalName": "Water Relic Dagger",
+    "internalName": "Water Relic Daggers",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "intelligence": 30,
+      "intelligence": 25,
       "level": 65
     },
     "type": "weapon",
