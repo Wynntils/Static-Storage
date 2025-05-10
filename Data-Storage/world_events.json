@@ -1,0 +1,644 @@
+[
+  {
+    "name": "Haywire Defender",
+    "level": 3,
+    "locations": [
+      {
+        "x": -443,
+        "y": 56,
+        "z": -1898
+      }
+    ]
+  },
+  {
+    "name": "Approaching Raid",
+    "level": 5,
+    "locations": [
+      {
+        "x": -656,
+        "y": 67,
+        "z": -1670
+      }
+    ]
+  },
+  {
+    "name": "Skittering Spiders",
+    "level": 6,
+    "locations": [
+      {
+        "x": -189,
+        "y": 76,
+        "z": -1709
+      }
+    ]
+  },
+  {
+    "name": "Arachnid Ambush",
+    "level": 8,
+    "locations": [
+      {
+        "x": -364,
+        "y": 70,
+        "z": -1668
+      },
+      {
+        "x": -306,
+        "y": 69,
+        "z": -1519
+      }
+    ]
+  },
+  {
+    "name": "Overtaken Farm",
+    "level": 8,
+    "locations": [
+      {
+        "x": -770,
+        "y": 63,
+        "z": -1796
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Blaze",
+    "level": 10,
+    "locations": [
+      {
+        "x": -393,
+        "y": 69,
+        "z": -1500
+      }
+    ]
+  },
+  {
+    "name": "Corrupted Spring",
+    "level": 15,
+    "locations": [
+      {
+        "x": 417,
+        "y": 81,
+        "z": -1311
+      }
+    ]
+  },
+  {
+    "name": "Dark Deacons",
+    "level": 15,
+    "locations": [
+      {
+        "x": -533,
+        "y": 69,
+        "z": -1451
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Destruction",
+    "level": 15,
+    "locations": [
+      {
+        "x": 216,
+        "y": 67,
+        "z": -1494
+      },
+      {
+        "x": 283,
+        "y": 67,
+        "z": -1424
+      },
+      {
+        "x": 375,
+        "y": 67,
+        "z": -1462
+      }
+    ]
+  },
+  {
+    "name": "Necromantic Site",
+    "level": 18,
+    "locations": [
+      {
+        "x": 105,
+        "y": 69,
+        "z": -1727
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Misery",
+    "level": 20,
+    "locations": [
+      {
+        "x": 209,
+        "y": 56,
+        "z": -1876
+      },
+      {
+        "x": 131,
+        "y": 50,
+        "z": -1893
+      }
+    ]
+  },
+  {
+    "name": "Risen Return",
+    "level": 20,
+    "locations": [
+      {
+        "x": 52,
+        "y": 51,
+        "z": -2065
+      }
+    ]
+  },
+  {
+    "name": "Tainted Shoreline",
+    "level": 24,
+    "locations": [
+      {
+        "x": 603,
+        "y": 35,
+        "z": -2283
+      }
+    ]
+  },
+  {
+    "name": "Aeon Origin",
+    "level": 25,
+    "locations": [
+      {
+        "x": -431,
+        "y": 72,
+        "z": -1077
+      },
+      {
+        "x": -502,
+        "y": 72,
+        "z": -1102
+      },
+      {
+        "x": -417,
+        "y": 73,
+        "z": -1182
+      }
+    ]
+  },
+  {
+    "name": "Bowels of the Roots",
+    "level": 30,
+    "locations": [
+      {
+        "x": 214,
+        "y": 42,
+        "z": -1284
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Reanimation",
+    "level": 30,
+    "locations": [
+      {
+        "x": 974,
+        "y": 72,
+        "z": -2240
+      }
+    ]
+  },
+  {
+    "name": "Improper Burial Rites",
+    "level": 35,
+    "locations": [
+      {
+        "x": 1111,
+        "y": 74,
+        "z": -1855
+      }
+    ]
+  },
+  {
+    "name": "Blood-Encrusted Mastaba",
+    "level": 36,
+    "locations": [
+      {
+        "x": 1144,
+        "y": 76,
+        "z": -2094
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Conflagration",
+    "level": 40,
+    "locations": [
+      {
+        "x": 1223,
+        "y": 31,
+        "z": -1475
+      }
+    ]
+  },
+  {
+    "name": "Failed Hunt",
+    "level": 40,
+    "locations": [
+      {
+        "x": 1024,
+        "y": 93,
+        "z": -1537
+      }
+    ]
+  },
+  {
+    "name": "Canine Ambush",
+    "level": 42,
+    "locations": [
+      {
+        "x": 193,
+        "y": 75,
+        "z": -876
+      },
+      {
+        "x": -2,
+        "y": 72,
+        "z": -925
+      },
+      {
+        "x": 35,
+        "y": 70,
+        "z": -732
+      }
+    ]
+  },
+  {
+    "name": "Blazing Combustion",
+    "level": 43,
+    "locations": [
+      {
+        "x": 1471,
+        "y": 125,
+        "z": -1235
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Ablation",
+    "level": 46,
+    "locations": [
+      {
+        "x": 105,
+        "y": 69,
+        "z": -1030
+      }
+    ]
+  },
+  {
+    "name": "Rogue Wyrmling",
+    "level": 50,
+    "locations": [
+      {
+        "x": -1933,
+        "y": 57,
+        "z": -5326
+      },
+      {
+        "x": -1798,
+        "y": 54,
+        "z": -5248
+      }
+    ]
+  },
+  {
+    "name": "Slimy Schism",
+    "level": 50,
+    "locations": [
+      {
+        "x": -561,
+        "y": 69,
+        "z": -665
+      }
+    ]
+  },
+  {
+    "name": "Swashbuckling Brawl",
+    "level": 50,
+    "locations": [
+      {
+        "x": 731,
+        "y": 45,
+        "z": -3738
+      }
+    ]
+  },
+  {
+    "name": "Desperate Ambush",
+    "level": 56,
+    "locations": [
+      {
+        "x": -1954,
+        "y": 54,
+        "z": -5120
+      }
+    ]
+  },
+  {
+    "name": "A Burning Memory",
+    "level": 60,
+    "locations": [
+      {
+        "x": -371,
+        "y": 68,
+        "z": -696
+      }
+    ]
+  },
+  {
+    "name": "Encroaching Extinction",
+    "level": 65,
+    "locations": [
+      {
+        "x": -599,
+        "y": 23,
+        "z": -462
+      }
+    ]
+  },
+  {
+    "name": "Light Emissaries",
+    "level": 70,
+    "locations": [
+      {
+        "x": -1041,
+        "y": 45,
+        "z": -4442
+      }
+    ]
+  },
+  {
+    "name": "Peculiar Grotto",
+    "level": 70,
+    "locations": [
+      {
+        "x": -912,
+        "y": 44,
+        "z": -4708
+      }
+    ]
+  },
+  {
+    "name": "Unsettling Encounters",
+    "level": 70,
+    "locations": [
+      {
+        "x": -821,
+        "y": 47,
+        "z": -5259
+      }
+    ]
+  },
+  {
+    "name": "Visit from Beyond",
+    "level": 70,
+    "locations": [
+      {
+        "x": -656,
+        "y": 45,
+        "z": -5275
+      }
+    ]
+  },
+  {
+    "name": "Abandoned Sentinels",
+    "level": 75,
+    "locations": [
+      {
+        "x": -53,
+        "y": 37,
+        "z": -4715
+      },
+      {
+        "x": -114,
+        "y": 37,
+        "z": -4668
+      },
+      {
+        "x": -179,
+        "y": 37,
+        "z": -4584
+      }
+    ]
+  },
+  {
+    "name": "Colossi Ingrain",
+    "level": 85,
+    "locations": [
+      {
+        "x": 532,
+        "y": 29,
+        "z": -5015
+      }
+    ]
+  },
+  {
+    "name": "Despermech Occupation",
+    "level": 85,
+    "locations": [
+      {
+        "x": -1539,
+        "y": 81,
+        "z": -2752
+      }
+    ]
+  },
+  {
+    "name": "Enraged Eagle",
+    "level": 85,
+    "locations": [
+      {
+        "x": 368,
+        "y": 56,
+        "z": -4448
+      }
+    ]
+  },
+  {
+    "name": "Realmic Antigen",
+    "level": 85,
+    "locations": [
+      {
+        "x": -804,
+        "y": 82,
+        "z": -6242
+      }
+    ]
+  },
+  {
+    "name": "Ruff & Tumble",
+    "level": 85,
+    "locations": [
+      {
+        "x": 753,
+        "y": 45,
+        "z": -5339
+      }
+    ]
+  },
+  {
+    "name": "Bubbling Terrace",
+    "level": 90,
+    "locations": [
+      {
+        "x": 1155,
+        "y": 62,
+        "z": -5412
+      }
+    ]
+  },
+  {
+    "name": "Decommissioned War Machines",
+    "level": 90,
+    "locations": [
+      {
+        "x": -1564,
+        "y": 75,
+        "z": -2205
+      }
+    ]
+  },
+  {
+    "name": "Infernal Caldera",
+    "level": 92,
+    "locations": [
+      {
+        "x": 1369,
+        "y": 196,
+        "z": -5214
+      }
+    ]
+  },
+  {
+    "name": "Maar Ashpit",
+    "level": 94,
+    "locations": [
+      {
+        "x": 1463,
+        "y": 149,
+        "z": -5426
+      }
+    ]
+  },
+  {
+    "name": "Ahms Monuments",
+    "level": 95,
+    "locations": [
+      {
+        "x": 1388,
+        "y": 38,
+        "z": -4109
+      }
+    ]
+  },
+  {
+    "name": "Shattered Roosts",
+    "level": 95,
+    "locations": [
+      {
+        "x": 1161,
+        "y": 161,
+        "z": -4473
+      }
+    ]
+  },
+  {
+    "name": "Incomprehensible Cynosure",
+    "level": 100,
+    "locations": [
+      {
+        "x": 598,
+        "y": 82,
+        "z": -847
+      },
+      {
+        "x": 603,
+        "y": 85,
+        "z": -504
+      }
+    ]
+  },
+  {
+    "name": "All Eyes on Me",
+    "level": 101,
+    "locations": [
+      {
+        "x": 907,
+        "y": 78,
+        "z": -562
+      },
+      {
+        "x": 931,
+        "y": 85,
+        "z": -431
+      }
+    ]
+  },
+  {
+    "name": "Monument to Loss",
+    "level": 101,
+    "locations": [
+      {
+        "x": 1200,
+        "y": 71,
+        "z": -1024
+      }
+    ]
+  },
+  {
+    "name": "Shapes in the Dark",
+    "level": 101,
+    "locations": [
+      {
+        "x": 538,
+        "y": 89,
+        "z": -837
+      },
+      {
+        "x": 597,
+        "y": 84,
+        "z": -342
+      }
+    ]
+  },
+  {
+    "name": "Pestilential Downpour",
+    "level": 102,
+    "locations": [
+      {
+        "x": 995,
+        "y": 128,
+        "z": -1053
+      }
+    ]
+  },
+  {
+    "name": "Otherworldly Exhibition",
+    "level": 104,
+    "locations": [
+      {
+        "x": 1479,
+        "y": 149,
+        "z": -964
+      }
+    ]
+  },
+  {
+    "name": "Prelude to Annihilation",
+    "level": 105,
+    "locations": [
+      {
+        "x": 315,
+        "y": 29,
+        "z": -1291
+      }
+    ]
+  }
+]

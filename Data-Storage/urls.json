@@ -243,6 +243,10 @@
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/urls.json"
   },
   {
+    "id": "dataStaticWorldEvents",
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Data-Storage/world_events.json"
+  },
+  {
     "arguments": [
       "name"
     ],
