@@ -92172,7 +92172,7 @@
     },
     "identified": true,
     "internalName": "Ivy Whip",
-    "lore": "\"The vines you'll find among the foilage make for great rope!\" -Alekin's Guide to Plant Fiber Cordage",
+    "lore": "\"The vines you'll find among the foliage make for great rope!\" -Alekin's Guide to Plant Fiber Cordage",
     "powderSlots": 1,
     "rarity": "unique",
     "requirements": {
@@ -177504,23 +177504,13 @@
         "raw": 20
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "271",
+        "customModelData": "201",
         "id": "minecraft:iron_horse_armor",
-        "name": "dagger.thunder2"
+        "name": "bow.thunder2"
       }
     },
     "identifications": {
@@ -177556,12 +177546,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Daggers",
+    "internalName": "Thunder Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65
     },
     "type": "weapon",
