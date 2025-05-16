@@ -963,7 +963,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
@@ -987,7 +987,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "+2",
                 "color": "#FFFFFF"
               },
               {
@@ -1011,7 +1011,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4",
+                "text": "+3",
                 "color": "#FFFFFF"
               },
               {
@@ -6000,6 +6000,35 @@
                 "text": ")",
                 "color": "#555555"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Arcane Transfer",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Mana from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Meteor",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 1
@@ -6185,6 +6214,35 @@
               {
                 "text": ")",
                 "color": "#555555"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Arcane Transfer",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Mana from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Meteor",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
               }
             ]
           ],
@@ -6408,6 +6466,35 @@
               {
                 "text": ")",
                 "color": "#555555"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Arcane Transfer",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Mana from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Meteor",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
               }
             ]
           ],
@@ -8903,7 +8990,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2s",
+                "text": "+1s",
                 "color": "#FFFFFF"
               },
               {
@@ -8940,6 +9027,71 @@
                 "color": "#AAAAAA"
               },
               {
+                "text": "+1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF55FF"
+              },
+              {
+                "text": " ",
+                "color": "#FF55FF"
+              },
+              {
+                "text": "Duration.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Eldritch Call",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " summons ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "tentacle, and strikes ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "20% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Blood Sorrow",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
                 "text": "+2s",
                 "color": "#FFFFFF"
               },
@@ -8981,72 +9133,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "33% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Blood Sorrow",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+3s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Eldritch Call",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " summons ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "tentacle, and strikes ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "33% ",
+                "text": "20% ",
                 "color": "#FFFFFF"
               },
               {
@@ -12566,7 +12653,15 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " hit, and becomes slightly faster.",
+                "text": " hit, and becomes ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ],
@@ -12709,7 +12804,15 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " hits, and becomes slightly faster.",
+                "text": " hits, and becomes ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.15s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ],
@@ -12852,7 +12955,15 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " hits, and becomes slightly faster.",
+                "text": " hits, and becomes ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ],
@@ -12995,7 +13106,15 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " hits, and becomes slightly faster.",
+                "text": " hits, and becomes ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.25s ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "faster.",
                 "color": "#AAAAAA"
               }
             ],
