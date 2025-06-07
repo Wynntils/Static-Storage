@@ -51,17 +51,17 @@
             {
                 "name": "Infested Pit",
                 "coordinates": {
-                    "x": -287,
-                    "y": 35,
-                    "z": -1833
+                    "x": -199,
+                    "y": 53,
+                    "z": -1854
                 }
             },
             {
-                "name": "Lost Sanctuary",
+                "name": "Timelost Sanctum",
                 "coordinates": {
-                    "x": -262,
-                    "y": 82,
-                    "z": -1045
+                    "x": -261,
+                    "y": 28,
+                    "z": -1063
                 }
             },
             {
