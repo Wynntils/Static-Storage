@@ -1,0 +1,50 @@
+[
+  {
+    "en_us": "Press {keybind:Share Item} on a gear item to share it in chat or save it."
+  },
+  {
+    "en_us": "In Overlay Management you can move, resize and change alignments of all overlays."
+  },
+  {
+    "en_us": "Every single feature in Wynntils can be toggled on or off. Most features have additional options too, check them out in Settings menu."
+  },
+  {
+    "en_us": "With Info Boxes and Custom Bars you can display nearly anything you want on your screen using Functions. Join our Discord server to find many community made overlays."
+  },
+  {
+    "en_us": "Got a question? Found a bug or want to suggest something? Join our Discord server and share what you want with {command:wynntils discord}."
+  },
+  {
+    "en_us": "Remember to check for updates from time to time. Wynntils updates quite frequently and may contain important compatibility fixes."
+  },
+  {
+    "en_us": "Press {keybind:Screenshot Item} on an item to make a screenshot of it."
+  },
+  {
+    "en_us": "Press {keybind:View player's gear} on a player to inspect their gear."
+  },
+  {
+    "en_us": "Creating a Wynntils Account will let you equip custom cosmetics. To create an account, use {command:wynntils token}."
+  },
+  {
+    "en_us": "With the Container Scroll feature you can use your mouse scroll to navigate pages in most paginated containers with ease."
+  },
+  {
+    "en_us": "Some features rely on the scoreboard being enabled, make sure you have it enabled by running {command:toggle scoreboard}."
+  },
+  {
+    "en_us": "Enable autotracking with {command:toggle autotracking} to ensure your content tracker will always update."
+  },
+  {
+    "en_us": "Want to focus on or remove certain chat types? Use Chat Tabs to configure what chat messages you see."
+  },
+  {
+    "en_us": "Unable to see content or lootrun beacons? Be sure to enable them with {command:toggle beacons}"
+  },
+  {
+    "en_us": "Waypoint markers too big? Reduce their size with the Scale option in the Waypoint Distance feature!"
+  },
+  {
+    "en_us": "Want to quickly find more of the same item on the trade market? Press {keybind:Quick Search TM} whilst hovering an item to instantly search for it."
+  }
+]
