@@ -6,10 +6,10 @@
     "en_us": "In Overlay Management you can move, resize and change alignments of all overlays."
   },
   {
-    "en_us": "Every single feature in Wynntils can be toggled on or off. Most features have additional options too, check them out in Settings menu."
+    "en_us": "Every single feature in Wynntils can be toggled on or off. Most features have additional options too, check them out in the Settings menu."
   },
   {
-    "en_us": "With Info Boxes and Custom Bars you can display nearly anything you want on your screen using Functions. Join our Discord server to find many community made overlays."
+    "en_us": "With Info Boxes and Custom Bars you can display almost anything you want on your screen using Functions. Join our Discord server to find many community made overlays with {wynntils_command:discord}."
   },
   {
     "en_us": "Got a question? Found a bug or want to suggest something? Join our Discord server and share what you want with {wynntils_command:discord}."
@@ -21,7 +21,7 @@
     "en_us": "Press {keybind:Screenshot Item} on an item to make a screenshot of it."
   },
   {
-    "en_us": "Press {keybind:View player's gear} on a player to inspect their gear."
+    "en_us": "Press {keybind:View player's gear} on a player to inspect their gear or perform quick actions."
   },
   {
     "en_us": "Creating a Wynntils Account will let you equip custom cosmetics. To create an account, use {wynntils_command:token}."
@@ -39,10 +39,10 @@
     "en_us": "Want to focus on or remove certain chat types? Use Chat Tabs to configure what chat messages you see."
   },
   {
-    "en_us": "Unable to see content or lootrun beacons? Be sure to enable them with {toggle_command:beacons}"
+    "en_us": "Unable to see content or lootrun beacons? Be sure to enable them with {toggle_command:beacon}."
   },
   {
-    "en_us": "Waypoint markers too big? Reduce their size with the Scale option in the Waypoint Distance feature!"
+    "en_us": "Waypoint markers too big? Reduce their size with the Scale option in the Waypoint Distance feature."
   },
   {
     "en_us": "Want to quickly find more of the same item on the trade market? Press {keybind:Quick Search TM} whilst hovering an item to instantly search for it."
