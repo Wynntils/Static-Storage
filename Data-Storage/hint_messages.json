@@ -30,7 +30,7 @@
     "en_us": "With the Container Scroll feature you can use your mouse scroll to navigate pages in most paginated containers with ease."
   },
   {
-    "en_us": "Some features rely on the scoreboard being enabled, make sure you have it enabled by running {toggle_command:scoreboard}."
+    "en_us": "Some features rely on the scoreboard being enabled, make sure you have it enabled by running {toggle_command:sb}."
   },
   {
     "en_us": "Enable autotracking with {toggle_command:autotracking} to ensure your content tracker will always update."
