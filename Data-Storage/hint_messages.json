@@ -1,0 +1,50 @@
+[
+  {
+    "en_us": "§#0ce217ffPress {keybind:Share Item}§#0ce217ff on a gear item to share it in chat or save it."
+  },
+  {
+    "en_us": "§#0ce217ffIn Overlay Management you can move, resize and change alignments of all overlays."
+  },
+  {
+    "en_us": "§#b621ceffEvery single feature in Wynntils can be toggled on or off. Most features have additional options too, check them out in the Settings menu."
+  },
+  {
+    "en_us": "§#0ce217ffWith Info Boxes and Custom Bars you can display almost anything you want on your screen using Functions. Join our Discord server to find many community made overlays with {wynntils_command:discord}§#b621ceff."
+  },
+  {
+    "en_us": "§#b621ceffGot a question? Found a bug or want to suggest something? Join our Discord server and share it with us at {wynntils_command:discord}§#b621ceff."
+  },
+  {
+    "en_us": "§#b621ceffRemember to check for updates from time to time. Wynntils updates quite frequently and may contain important compatibility fixes."
+  },
+  {
+    "en_us": "§#0ce217ffPress {keybind:Screenshot Item}§#0ce217ff on an item to make a screenshot of it."
+  },
+  {
+    "en_us": "§#0ce217ffPress {keybind:View player's gear}§#0ce217ff on a player to inspect their gear or perform quick actions."
+  },
+  {
+    "en_us": "§#b621ceffCreating a Wynntils Account will let you equip custom cosmetics. To create an account, use {wynntils_command:token}§#b621ceff."
+  },
+  {
+    "en_us": "§#0ce217ffWith the Container Scroll feature you can use your mouse scroll to navigate pages in most paginated containers with ease."
+  },
+  {
+    "en_us": "§#ce2421ffContent, raids or lootruns not tracking properly? Make sure you have the scoreboard enabled with {toggle_command:sb}§#ce2421ff."
+  },
+  {
+    "en_us": "§#ce2421ffHaving issues with your content tracker not updating? Enable autotracking with {toggle_command:autotracking}§#ce2421ff."
+  },
+  {
+    "en_us": "§#0ce217ffWant to focus on or remove certain chat types? Use Chat Tabs to configure what chat messages you see."
+  },
+  {
+    "en_us": "§#ce2421ffUnable to see content or lootrun beacons? Be sure to enable them with {toggle_command:beacon}§#ce2421ff."
+  },
+  {
+    "en_us": "§#0ce217ffWaypoint markers too big? Reduce their size with the Scale option in the Waypoint Distance feature."
+  },
+  {
+    "en_us": "§#0ce217ffWant to quickly find more of the same item on the trade market? Press {keybind:Quick Search TM}§#0ce217ff whilst hovering an item to instantly search for it."
+  }
+]
