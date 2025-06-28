@@ -30,10 +30,10 @@
     "en_us": "With the Container Scroll feature you can use your mouse scroll to navigate pages in most paginated containers with ease."
   },
   {
-    "en_us": "Some features rely on the scoreboard being enabled, make sure you have it enabled by running {toggle_command:sb}."
+    "en_us": "Content, raids or lootruns not tracking properly? Make sure you have the scoreboard enabled with toggle_command:sb}."
   },
   {
-    "en_us": "Enable autotracking with {toggle_command:autotracking} to ensure your content tracker will always update."
+    "en_us": "Having issues with your content tracker not updating? Enable autotracking with {toggle_command:autotracking}."
   },
   {
     "en_us": "Want to focus on or remove certain chat types? Use Chat Tabs to configure what chat messages you see."
