@@ -1,50 +1,66 @@
 [
   {
-    "en_us": "§#0ce217ffPress {keybind:Share Item}§#0ce217ff on a gear item to share it in chat or save it."
+    "en_us": "§#0ce217ffPress {keybind:Share Item}§#0ce217ff on a gear item to share it in chat or save it.",
+    "ko_kr": "§#0ce217ff장비 아이템에 마우스를 올리고 {keybind:Share Item}§#0ce217ff를 눌러 채팅으로 공유하거나 저장하세요."
   },
   {
-    "en_us": "§#0ce217ffIn Overlay Management you can move, resize and change alignments of all overlays."
+    "en_us": "§#0ce217ffIn Overlay Management you can move, resize and change alignments of all overlays.",
+    "ko_kr": "§#0ce217ff오버레이 관리 설정에서 모든 오버레이의 위치, 크기 및 정렬을 변경할 수 있습니다."
   },
   {
-    "en_us": "§#b621ceffEvery single feature in Wynntils can be toggled on or off. Most features have additional options too, check them out in the Settings menu."
+    "en_us": "§#b621ceffEvery single feature in Wynntils can be toggled on or off. Most features have additional options too, check them out in the Settings menu.",
+    "ko_kr": "§#b621ceffWynntils의 모든 기능은 켜거나 끌 수 있습니다. 대부분의 기능에는 추가 옵션도 있으니 설정 메뉴에서 확인해 보세요."
   },
   {
-    "en_us": "§#0ce217ffWith Info Boxes and Custom Bars you can display almost anything you want on your screen using Functions. Join our Discord server to find many community made overlays with {wynntils_command:discord}§#b621ceff."
+    "en_us": "§#0ce217ffWith Info Boxes and Custom Bars you can display almost anything you want on your screen using Functions. Join our Discord server to find many community made overlays with {wynntils_command:discord}§#b621ceff.",
+    "ko_kr": "§#0ce217ff정보 상자와 사용자 정의 막대를 사용하면 함수를 사용하여 화면에 다양한 커스텀 오버레이를 표시할 수 있습니다. {wynntils_command:discord}§#0ce217ff를 통해 Discord 서버에 가입하여 커뮤니티에서 만든 많은 오버레이를 찾아보세요."
   },
   {
-    "en_us": "§#b621ceffGot a question? Found a bug or want to suggest something? Join our Discord server and share it with us at {wynntils_command:discord}§#b621ceff."
+    "en_us": "§#b621ceffGot a question? Found a bug or want to suggest something? Join our Discord server and share it with us at {wynntils_command:discord}§#b621ceff.",
+    "ko_kr": "§#b621ceff질문이 있나요? 버그를 발견했거나 제안하고 싶으신가요? Discord 서버에 가입하여 {wynntils_command:discord}§#b621ceff에서 저희와 공유해 주세요."
   },
   {
-    "en_us": "§#b621ceffRemember to check for updates from time to time. Wynntils updates quite frequently and may contain important compatibility fixes."
+    "en_us": "§#b621ceffRemember to check for updates from time to time. Wynntils updates quite frequently and may contain important compatibility fixes.",
+    "ko_kr": "§#b621ceff주기적으로 업데이트를 확인하세요. Wynntils는 자주 업데이트되며 중요한 호환성 수정 사항이 포함될 수 있습니다."
   },
   {
-    "en_us": "§#0ce217ffPress {keybind:Screenshot Item}§#0ce217ff on an item to make a screenshot of it."
+    "en_us": "§#0ce217ffPress {keybind:Screenshot Item}§#0ce217ff on an item to make a screenshot of it.",
+    "ko_kr": "§#0ce217ff아이템에 마우스를 올리고 {keybind:Screenshot Item}§#0ce217ff를 눌러 스크린샷을 찍으세요."
   },
   {
-    "en_us": "§#0ce217ffPress {keybind:View player's gear}§#0ce217ff on a player to inspect their gear or perform quick actions."
+    "en_us": "§#0ce217ffPress {keybind:View player's gear}§#0ce217ff on a player to inspect their gear or perform quick actions.",
+    "ko_kr": "§#0ce217ff플레이어에게 {keybind:View player's gear}§#0ce217ff를 눌러 장비를 구경하거나 빠른 작업을 수행하세요."
   },
   {
-    "en_us": "§#b621ceffCreating a Wynntils Account will let you equip custom cosmetics. To create an account, use {wynntils_command:token}§#b621ceff."
+    "en_us": "§#b621ceffCreating a Wynntils Account will let you equip custom cosmetics. To create an account, use {wynntils_command:token}§#b621ceff.",
+    "ko_kr": "§#b621ceffWynntils 계정을 만들면 커스텀 치장 효과를 사용할 수 있습니다. 계정을 만들려면 {wynntils_command:token}§#b621ceff를 사용하세요."
   },
   {
-    "en_us": "§#0ce217ffWith the Container Scroll feature you can use your mouse scroll to navigate pages in most paginated containers with ease."
+    "en_us": "§#0ce217ffWith the Container Scroll feature you can use your mouse scroll to navigate pages in most paginated containers with ease.",
+    "ko_kr": "§#0ce217ff컨테이너 스크롤 기능을 사용하면 마우스 스크롤을 사용하여 대부분의 페이지가 있는 컨테이너에서 쉽게 페이지를 탐색할 수 있습니다."
   },
   {
-    "en_us": "§#ce2421ffContent, raids or lootruns not tracking properly? Make sure you have the scoreboard enabled with {toggle_command:sb}§#ce2421ff."
+    "en_us": "§#ce2421ffContent, raids or lootruns not tracking properly? Make sure you have the scoreboard enabled with {toggle_command:sb}§#ce2421ff.",
+    "ko_kr": "§#ce2421ff콘텐츠, 레이드 또는 루트런이 제대로 추적되지 않나요? {toggle_command:sb}§#ce2421ff를 사용하여 스코어보드를 활성화했는지 확인하세요."
   },
   {
-    "en_us": "§#ce2421ffHaving issues with your content tracker not updating? Enable autotracking with {toggle_command:autotracking}§#ce2421ff."
+    "en_us": "§#ce2421ffHaving issues with your content tracker not updating? Enable autotracking with {toggle_command:autotracking}§#ce2421ff.",
+    "ko_kr": "§#ce2421ff콘텐츠 트래커가 업데이트되지 않나요? {toggle_command:autotracking}§#ce2421ff를 사용하여 자동 추적 기능을 활성화하세요."
   },
   {
-    "en_us": "§#0ce217ffWant to focus on or remove certain chat types? Use Chat Tabs to configure what chat messages you see."
+    "en_us": "§#0ce217ffWant to focus on or remove certain chat types? Use Chat Tabs to configure what chat messages you see.",
+    "ko_kr": "§#0ce217ff특정 채팅 유형에 집중하거나 제거하고 싶으신가요? 채팅 탭을 사용하여 각 탭마다 채팅 필터를 구성하세요."
   },
   {
-    "en_us": "§#ce2421ffUnable to see content or lootrun beacons? Be sure to enable them with {toggle_command:beacon}§#ce2421ff."
+    "en_us": "§#ce2421ffUnable to see content or lootrun beacons? Be sure to enable them with {toggle_command:beacon}§#ce2421ff.",
+    "ko_kr": "§#ce2421ff콘텐츠 또는 루트런 신호기가 보이지 않나요? {toggle_command:beacon}§#ce2421ff를 사용하여 활성화했는지 확인하세요."
   },
   {
-    "en_us": "§#0ce217ffWaypoint markers too big? Reduce their size with the Scale option in the Waypoint Distance feature."
+    "en_us": "§#0ce217ffWaypoint markers too big? Reduce their size with the Scale option in the Waypoint Distance feature.",
+    "ko_kr": "§#0ce217ff웨이포인트 마커가 너무 큰가요? 웨이포인트 거리 기능의 크기 옵션을 사용하여 크기를 줄이세요."
   },
   {
-    "en_us": "§#0ce217ffWant to quickly find more of the same item on the trade market? Press {keybind:Quick Search TM}§#0ce217ff whilst hovering an item to instantly search for it."
+    "en_us": "§#0ce217ffWant to quickly find more of the same item on the trade market? Press {keybind:Quick Search TM}§#0ce217ff whilst hovering an item to instantly search for it.",
+    "ko_kr": "§#0ce217ff거래 시장에서 같은 아이템을 더 빨리 찾고 싶으신가요? 아이템에 마우스를 올리고 {keybind:Quick Search TM}§#0ce217ff를 눌러 즉시 검색하세요."
   }
 ]
