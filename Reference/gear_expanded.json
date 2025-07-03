@@ -92172,7 +92172,7 @@
     },
     "identified": true,
     "internalName": "Ivy Whip",
-    "lore": "\"The vines you'll find among the foilage make for great rope!\" -Alekin's Guide to Plant Fiber Cordage",
+    "lore": "\"The vines you'll find among the foliage make for great rope!\" -Alekin's Guide to Plant Fiber Cordage",
     "powderSlots": 1,
     "rarity": "unique",
     "requirements": {
@@ -177504,23 +177504,13 @@
         "raw": 20
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -862,
-        22,
-        -310,
-        120
-      ],
-      "name": "Relic Guardian",
-      "type": "miniboss"
-    },
     "dropRestriction": "never",
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "271",
+        "customModelData": "201",
         "id": "minecraft:iron_horse_armor",
-        "name": "dagger.thunder2"
+        "name": "bow.thunder2"
       }
     },
     "identifications": {
@@ -177556,12 +177546,12 @@
         "raw": 15
       }
     },
-    "internalName": "Thunder Relic Daggers",
+    "internalName": "Thunder Relic Dagger",
     "powderSlots": 3,
     "rarity": "rare",
     "requirements": {
       "classRequirement": "assassin",
-      "dexterity": 25,
+      "dexterity": 30,
       "level": 65
     },
     "type": "weapon",
@@ -180493,7 +180483,7 @@
     "internalName": "Trance",
     "lore": "Down. Your enemies will fall slack. Deeper. Do you know this compulsion you bring? Deeper still. This implement, reaching from within and without. Even deeper. Souls and wills to command at the flex of a finger. Almost gone. It is my compulsion, too great to ignore. It is my implement, too strong to resist. My puppets, too deep to escape. Drop.",
     "majorIds": {
-      "Fixate": "<span class='font-ascii' style='color:#55FFFF'>+Fixate: <span class='font-ascii' style='color:#00AAAA'>Devitalize raises your Winded cap by 70, but loses 0.15% weaken per stack and lowers Winded damage effects by 55%. Timelock absorbs up to 180 Winded.</span></span>"
+      "Fixate": "<span class='font-ascii' style='color:#55FFFF'>+Fixate: <span class='font-ascii' style='color:#00AAAA'>Devitalize doubles your Winded cap, but lowers Winded damage effects by 30%. Timelock absorbs up to 120 Winded.</span></span>"
     },
     "powderSlots": 3,
     "rarity": "mythic",
