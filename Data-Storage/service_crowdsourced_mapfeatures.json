@@ -1,0 +1,8408 @@
+[
+  {
+    "featureId": "alchemism-station-0",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -2011,
+      "y": 77,
+      "z": -4450
+    }
+  },
+  {
+    "featureId": "alchemism-station-1",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -1850,
+      "y": 63,
+      "z": -4515
+    }
+  },
+  {
+    "featureId": "alchemism-station-2",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -1752,
+      "y": 66,
+      "z": -5506
+    }
+  },
+  {
+    "featureId": "alchemism-station-3",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -1574,
+      "y": 68,
+      "z": -2960
+    }
+  },
+  {
+    "featureId": "alchemism-station-4",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -1417,
+      "y": 43,
+      "z": -4709
+    }
+  },
+  {
+    "featureId": "alchemism-station-5",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -1030,
+      "y": 42,
+      "z": -4989
+    }
+  },
+  {
+    "featureId": "alchemism-station-6",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -1017,
+      "y": 46,
+      "z": -5318
+    }
+  },
+  {
+    "featureId": "alchemism-station-7",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -880,
+      "y": 78,
+      "z": -949
+    }
+  },
+  {
+    "featureId": "alchemism-station-8",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -827,
+      "y": 67,
+      "z": -1497
+    }
+  },
+  {
+    "featureId": "alchemism-station-9",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -756,
+      "y": 82,
+      "z": -656
+    }
+  },
+  {
+    "featureId": "alchemism-station-10",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -556,
+      "y": 48,
+      "z": -1933
+    }
+  },
+  {
+    "featureId": "alchemism-station-11",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -483,
+      "y": 47,
+      "z": -4947
+    }
+  },
+  {
+    "featureId": "alchemism-station-12",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -276,
+      "y": 103,
+      "z": -4432
+    }
+  },
+  {
+    "featureId": "alchemism-station-13",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -195,
+      "y": 28,
+      "z": -323
+    }
+  },
+  {
+    "featureId": "alchemism-station-14",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": -21,
+      "y": 75,
+      "z": -1133
+    }
+  },
+  {
+    "featureId": "alchemism-station-15",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 100,
+      "y": 66,
+      "z": -3155
+    }
+  },
+  {
+    "featureId": "alchemism-station-16",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 104,
+      "y": 39,
+      "z": -2191
+    }
+  },
+  {
+    "featureId": "alchemism-station-17",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 122,
+      "y": 73,
+      "z": -783
+    }
+  },
+  {
+    "featureId": "alchemism-station-18",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 208,
+      "y": 29,
+      "z": -5223
+    }
+  },
+  {
+    "featureId": "alchemism-station-19",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 456,
+      "y": 67,
+      "z": -1592
+    }
+  },
+  {
+    "featureId": "alchemism-station-20",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 698,
+      "y": 71,
+      "z": -2086
+    }
+  },
+  {
+    "featureId": "alchemism-station-21",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 744,
+      "y": 164,
+      "z": -4443
+    }
+  },
+  {
+    "featureId": "alchemism-station-22",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 785,
+      "y": 71,
+      "z": -1612
+    }
+  },
+  {
+    "featureId": "alchemism-station-23",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 813,
+      "y": 74,
+      "z": -5108
+    }
+  },
+  {
+    "featureId": "alchemism-station-24",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 897,
+      "y": 122,
+      "z": -5581
+    }
+  },
+  {
+    "featureId": "alchemism-station-25",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 900,
+      "y": 67,
+      "z": -1948
+    }
+  },
+  {
+    "featureId": "alchemism-station-26",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 1008,
+      "y": 75,
+      "z": -682
+    }
+  },
+  {
+    "featureId": "alchemism-station-27",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 1011,
+      "y": 112,
+      "z": -4533
+    }
+  },
+  {
+    "featureId": "alchemism-station-28",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 1077,
+      "y": 18,
+      "z": -5130
+    }
+  },
+  {
+    "featureId": "alchemism-station-29",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 1294,
+      "y": 31,
+      "z": -1241
+    }
+  },
+  {
+    "featureId": "alchemism-station-30",
+    "categoryId": "wynntils:service:profession:alchemism",
+    "location": {
+      "x": 1460,
+      "y": 42,
+      "z": -5269
+    }
+  },
+  {
+    "featureId": "armour-merchant-0",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -1871,
+      "y": 53,
+      "z": -4571
+    }
+  },
+  {
+    "featureId": "armour-merchant-1",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -1776,
+      "y": 66,
+      "z": -5532
+    }
+  },
+  {
+    "featureId": "armour-merchant-2",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -1643,
+      "y": 69,
+      "z": -2911
+    }
+  },
+  {
+    "featureId": "armour-merchant-3",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -1021,
+      "y": 47,
+      "z": -5294
+    }
+  },
+  {
+    "featureId": "armour-merchant-4",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -869,
+      "y": 67,
+      "z": -1557
+    }
+  },
+  {
+    "featureId": "armour-merchant-5",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -865,
+      "y": 67,
+      "z": -1561
+    }
+  },
+  {
+    "featureId": "armour-merchant-6",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -832,
+      "y": 78,
+      "z": -894
+    }
+  },
+  {
+    "featureId": "armour-merchant-7",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -627,
+      "y": 38,
+      "z": -3085
+    }
+  },
+  {
+    "featureId": "armour-merchant-8",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -621,
+      "y": 53,
+      "z": -3078
+    }
+  },
+  {
+    "featureId": "armour-merchant-9",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -467,
+      "y": 49,
+      "z": -4922
+    }
+  },
+  {
+    "featureId": "armour-merchant-10",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -188,
+      "y": 37,
+      "z": -3997
+    }
+  },
+  {
+    "featureId": "armour-merchant-11",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": -160,
+      "y": 38,
+      "z": -4069
+    }
+  },
+  {
+    "featureId": "armour-merchant-12",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 85,
+      "y": 73,
+      "z": -801
+    }
+  },
+  {
+    "featureId": "armour-merchant-13",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 137,
+      "y": 66,
+      "z": -3161
+    }
+  },
+  {
+    "featureId": "armour-merchant-14",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 147,
+      "y": 42,
+      "z": -2153
+    }
+  },
+  {
+    "featureId": "armour-merchant-15",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 250,
+      "y": 29,
+      "z": -5225
+    }
+  },
+  {
+    "featureId": "armour-merchant-16",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 457,
+      "y": 67,
+      "z": -1613
+    }
+  },
+  {
+    "featureId": "armour-merchant-17",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 738,
+      "y": 73,
+      "z": -2106
+    }
+  },
+  {
+    "featureId": "armour-merchant-18",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 775,
+      "y": 75,
+      "z": -5104
+    }
+  },
+  {
+    "featureId": "armour-merchant-19",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 801,
+      "y": 59,
+      "z": -3333
+    }
+  },
+  {
+    "featureId": "armour-merchant-20",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 928,
+      "y": 110,
+      "z": -4546
+    }
+  },
+  {
+    "featureId": "armour-merchant-21",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 979,
+      "y": 83,
+      "z": -1992
+    }
+  },
+  {
+    "featureId": "armour-merchant-22",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 994,
+      "y": 38,
+      "z": -3478
+    }
+  },
+  {
+    "featureId": "armour-merchant-23",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 1092,
+      "y": 13,
+      "z": -5175
+    }
+  },
+  {
+    "featureId": "armour-merchant-24",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 1095,
+      "y": 13,
+      "z": -5099
+    }
+  },
+  {
+    "featureId": "armour-merchant-25",
+    "categoryId": "wynntils:service:merchant:armor",
+    "location": {
+      "x": 1255,
+      "y": 31,
+      "z": -1357
+    }
+  },
+  {
+    "featureId": "armouring-station-0",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -2014,
+      "y": 76,
+      "z": -4493
+    }
+  },
+  {
+    "featureId": "armouring-station-1",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -1765,
+      "y": 65,
+      "z": -5526
+    }
+  },
+  {
+    "featureId": "armouring-station-2",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -1608,
+      "y": 67,
+      "z": -2959
+    }
+  },
+  {
+    "featureId": "armouring-station-3",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -1407,
+      "y": 42,
+      "z": -4715
+    }
+  },
+  {
+    "featureId": "armouring-station-4",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -1051,
+      "y": 41,
+      "z": -4986
+    }
+  },
+  {
+    "featureId": "armouring-station-5",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -1011,
+      "y": 45,
+      "z": -5322
+    }
+  },
+  {
+    "featureId": "armouring-station-6",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -851,
+      "y": 75,
+      "z": -921
+    }
+  },
+  {
+    "featureId": "armouring-station-7",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -841,
+      "y": 66,
+      "z": -1487
+    }
+  },
+  {
+    "featureId": "armouring-station-8",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -732,
+      "y": 89,
+      "z": -632
+    }
+  },
+  {
+    "featureId": "armouring-station-9",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -547,
+      "y": 47,
+      "z": -1918
+    }
+  },
+  {
+    "featureId": "armouring-station-10",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -461,
+      "y": 48,
+      "z": -4932
+    }
+  },
+  {
+    "featureId": "armouring-station-11",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -304,
+      "y": 102,
+      "z": -4474
+    }
+  },
+  {
+    "featureId": "armouring-station-12",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": -7,
+      "y": 74,
+      "z": -1191
+    }
+  },
+  {
+    "featureId": "armouring-station-13",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 90,
+      "y": 72,
+      "z": -802
+    }
+  },
+  {
+    "featureId": "armouring-station-14",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 126,
+      "y": 43,
+      "z": -2138
+    }
+  },
+  {
+    "featureId": "armouring-station-15",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 132,
+      "y": 65,
+      "z": -3167
+    }
+  },
+  {
+    "featureId": "armouring-station-16",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 237,
+      "y": 28,
+      "z": -5234
+    }
+  },
+  {
+    "featureId": "armouring-station-17",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 475,
+      "y": 66,
+      "z": -1600
+    }
+  },
+  {
+    "featureId": "armouring-station-18",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 732,
+      "y": 69,
+      "z": -2103
+    }
+  },
+  {
+    "featureId": "armouring-station-19",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 741,
+      "y": 60,
+      "z": -1478
+    }
+  },
+  {
+    "featureId": "armouring-station-20",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 758,
+      "y": 163,
+      "z": -4435
+    }
+  },
+  {
+    "featureId": "armouring-station-21",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 807,
+      "y": 74,
+      "z": -5082
+    }
+  },
+  {
+    "featureId": "armouring-station-22",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 883,
+      "y": 121,
+      "z": -5576
+    }
+  },
+  {
+    "featureId": "armouring-station-23",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 938,
+      "y": 66,
+      "z": -1959
+    }
+  },
+  {
+    "featureId": "armouring-station-24",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 992,
+      "y": 72,
+      "z": -662
+    }
+  },
+  {
+    "featureId": "armouring-station-25",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 1006,
+      "y": 111,
+      "z": -4537
+    }
+  },
+  {
+    "featureId": "armouring-station-26",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 1053,
+      "y": 17,
+      "z": -5147
+    }
+  },
+  {
+    "featureId": "armouring-station-27",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 1254,
+      "y": 30,
+      "z": -1346
+    }
+  },
+  {
+    "featureId": "armouring-station-28",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 1320,
+      "y": 34,
+      "z": -4098
+    }
+  },
+  {
+    "featureId": "armouring-station-29",
+    "categoryId": "wynntils:service:profession:armoring",
+    "location": {
+      "x": 1417,
+      "y": 63,
+      "z": -5264
+    }
+  },
+  {
+    "featureId": "blacksmith-0",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -2005,
+      "y": 78,
+      "z": -4462
+    }
+  },
+  {
+    "featureId": "blacksmith-1",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -2003,
+      "y": 78,
+      "z": -4484
+    }
+  },
+  {
+    "featureId": "blacksmith-2",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1971,
+      "y": 78,
+      "z": -4483
+    }
+  },
+  {
+    "featureId": "blacksmith-3",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1763,
+      "y": 68,
+      "z": -5520
+    }
+  },
+  {
+    "featureId": "blacksmith-4",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1604,
+      "y": 70,
+      "z": -2915
+    }
+  },
+  {
+    "featureId": "blacksmith-5",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1602,
+      "y": 39,
+      "z": -2369
+    }
+  },
+  {
+    "featureId": "blacksmith-6",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1479,
+      "y": 44,
+      "z": -4747
+    }
+  },
+  {
+    "featureId": "blacksmith-7",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1431,
+      "y": 43,
+      "z": -4734
+    }
+  },
+  {
+    "featureId": "blacksmith-8",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -1146,
+      "y": 67,
+      "z": -2405
+    }
+  },
+  {
+    "featureId": "blacksmith-9",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -982,
+      "y": 49,
+      "z": -5282
+    }
+  },
+  {
+    "featureId": "blacksmith-10",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -868,
+      "y": 123,
+      "z": -4921
+    }
+  },
+  {
+    "featureId": "blacksmith-11",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -858,
+      "y": 68,
+      "z": -1549
+    }
+  },
+  {
+    "featureId": "blacksmith-12",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -850,
+      "y": 77,
+      "z": -917
+    }
+  },
+  {
+    "featureId": "blacksmith-13",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -833,
+      "y": 68,
+      "z": -1586
+    }
+  },
+  {
+    "featureId": "blacksmith-14",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -727,
+      "y": 102,
+      "z": -6444
+    }
+  },
+  {
+    "featureId": "blacksmith-15",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -727,
+      "y": 92,
+      "z": -636
+    }
+  },
+  {
+    "featureId": "blacksmith-16",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -719,
+      "y": 66,
+      "z": -1020
+    }
+  },
+  {
+    "featureId": "blacksmith-17",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -683,
+      "y": 37,
+      "z": -3163
+    }
+  },
+  {
+    "featureId": "blacksmith-18",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -657,
+      "y": 38,
+      "z": -3074
+    }
+  },
+  {
+    "featureId": "blacksmith-19",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -657,
+      "y": 39,
+      "z": -3060
+    }
+  },
+  {
+    "featureId": "blacksmith-20",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -628,
+      "y": 40,
+      "z": -3046
+    }
+  },
+  {
+    "featureId": "blacksmith-21",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -620,
+      "y": 91,
+      "z": -1416
+    }
+  },
+  {
+    "featureId": "blacksmith-22",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -618,
+      "y": 54,
+      "z": -3056
+    }
+  },
+  {
+    "featureId": "blacksmith-23",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -574,
+      "y": 50,
+      "z": -1924
+    }
+  },
+  {
+    "featureId": "blacksmith-24",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -565,
+      "y": 69,
+      "z": -1597
+    }
+  },
+  {
+    "featureId": "blacksmith-25",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -464,
+      "y": 50,
+      "z": -4926
+    }
+  },
+  {
+    "featureId": "blacksmith-26",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -464,
+      "y": 50,
+      "z": -4918
+    }
+  },
+  {
+    "featureId": "blacksmith-27",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -459,
+      "y": 50,
+      "z": -4929
+    }
+  },
+  {
+    "featureId": "blacksmith-28",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -297,
+      "y": 105,
+      "z": -4468
+    }
+  },
+  {
+    "featureId": "blacksmith-29",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -289,
+      "y": 44,
+      "z": -1157
+    }
+  },
+  {
+    "featureId": "blacksmith-30",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -252,
+      "y": 42,
+      "z": -4042
+    }
+  },
+  {
+    "featureId": "blacksmith-31",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -219,
+      "y": 25,
+      "z": -363
+    }
+  },
+  {
+    "featureId": "blacksmith-32",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -215,
+      "y": 26,
+      "z": -345
+    }
+  },
+  {
+    "featureId": "blacksmith-33",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -199,
+      "y": 26,
+      "z": -352
+    }
+  },
+  {
+    "featureId": "blacksmith-34",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -161,
+      "y": 74,
+      "z": -1616
+    }
+  },
+  {
+    "featureId": "blacksmith-35",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": -3,
+      "y": 77,
+      "z": -1184
+    }
+  },
+  {
+    "featureId": "blacksmith-36",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 91,
+      "y": 42,
+      "z": -2184
+    }
+  },
+  {
+    "featureId": "blacksmith-37",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 96,
+      "y": 39,
+      "z": -2244
+    }
+  },
+  {
+    "featureId": "blacksmith-38",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 113,
+      "y": 74,
+      "z": -785
+    }
+  },
+  {
+    "featureId": "blacksmith-39",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 117,
+      "y": 68,
+      "z": -3158
+    }
+  },
+  {
+    "featureId": "blacksmith-40",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 206,
+      "y": 31,
+      "z": -5259
+    }
+  },
+  {
+    "featureId": "blacksmith-41",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 348,
+      "y": 34,
+      "z": -5481
+    }
+  },
+  {
+    "featureId": "blacksmith-42",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 487,
+      "y": 67,
+      "z": -1597
+    }
+  },
+  {
+    "featureId": "blacksmith-43",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 755,
+      "y": 166,
+      "z": -4433
+    }
+  },
+  {
+    "featureId": "blacksmith-44",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 806,
+      "y": 77,
+      "z": -5077
+    }
+  },
+  {
+    "featureId": "blacksmith-45",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 941,
+      "y": 68,
+      "z": -1957
+    }
+  },
+  {
+    "featureId": "blacksmith-46",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 945,
+      "y": 116,
+      "z": -5486
+    }
+  },
+  {
+    "featureId": "blacksmith-47",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 988,
+      "y": 78,
+      "z": -744
+    }
+  },
+  {
+    "featureId": "blacksmith-48",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 989,
+      "y": 74,
+      "z": -664
+    }
+  },
+  {
+    "featureId": "blacksmith-49",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1002,
+      "y": 114,
+      "z": -4538
+    }
+  },
+  {
+    "featureId": "blacksmith-50",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1010,
+      "y": 40,
+      "z": -3487
+    }
+  },
+  {
+    "featureId": "blacksmith-51",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1055,
+      "y": 19,
+      "z": -5146
+    }
+  },
+  {
+    "featureId": "blacksmith-52",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1096,
+      "y": 108,
+      "z": -4555
+    }
+  },
+  {
+    "featureId": "blacksmith-53",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1096,
+      "y": 109,
+      "z": -4543
+    }
+  },
+  {
+    "featureId": "blacksmith-54",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1123,
+      "y": 43,
+      "z": -3121
+    }
+  },
+  {
+    "featureId": "blacksmith-55",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1260,
+      "y": 32,
+      "z": -1341
+    }
+  },
+  {
+    "featureId": "blacksmith-56",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1267,
+      "y": 32,
+      "z": -1358
+    }
+  },
+  {
+    "featureId": "blacksmith-57",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1274,
+      "y": 32,
+      "z": -1349
+    }
+  },
+  {
+    "featureId": "blacksmith-58",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 1496,
+      "y": 46,
+      "z": -5300
+    }
+  },
+  {
+    "featureId": "blacksmith-59",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 14062,
+      "y": 119,
+      "z": -4211
+    }
+  },
+  {
+    "featureId": "blacksmith-60",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 18917,
+      "y": 27,
+      "z": -1090
+    }
+  },
+  {
+    "featureId": "blacksmith-61",
+    "categoryId": "wynntils:service:blacksmith",
+    "location": {
+      "x": 18922,
+      "y": 27,
+      "z": -1093
+    }
+  },
+  {
+    "featureId": "booth-shop-0",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -2023,
+      "y": 78,
+      "z": -4473
+    }
+  },
+  {
+    "featureId": "booth-shop-1",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -2023,
+      "y": 78,
+      "z": -4470
+    }
+  },
+  {
+    "featureId": "booth-shop-2",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -2020,
+      "y": 78,
+      "z": -4485
+    }
+  },
+  {
+    "featureId": "booth-shop-3",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1998,
+      "y": 78,
+      "z": -4478
+    }
+  },
+  {
+    "featureId": "booth-shop-4",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1982,
+      "y": 62,
+      "z": -5602
+    }
+  },
+  {
+    "featureId": "booth-shop-5",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1830,
+      "y": 47,
+      "z": -5265
+    }
+  },
+  {
+    "featureId": "booth-shop-6",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1754,
+      "y": 65,
+      "z": -3076
+    }
+  },
+  {
+    "featureId": "booth-shop-7",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1728,
+      "y": 67,
+      "z": -5524
+    }
+  },
+  {
+    "featureId": "booth-shop-8",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1728,
+      "y": 67,
+      "z": -5503
+    }
+  },
+  {
+    "featureId": "booth-shop-9",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1694,
+      "y": 76,
+      "z": -2611
+    }
+  },
+  {
+    "featureId": "booth-shop-10",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1624,
+      "y": 69,
+      "z": -2917
+    }
+  },
+  {
+    "featureId": "booth-shop-11",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1603,
+      "y": 69,
+      "z": -2929
+    }
+  },
+  {
+    "featureId": "booth-shop-12",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1484,
+      "y": 44,
+      "z": -4732
+    }
+  },
+  {
+    "featureId": "booth-shop-13",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1403,
+      "y": 44,
+      "z": -4724
+    }
+  },
+  {
+    "featureId": "booth-shop-14",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1119,
+      "y": 67,
+      "z": -2413
+    }
+  },
+  {
+    "featureId": "booth-shop-15",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1109,
+      "y": 67,
+      "z": -2413
+    }
+  },
+  {
+    "featureId": "booth-shop-16",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -1030,
+      "y": 47,
+      "z": -5317
+    }
+  },
+  {
+    "featureId": "booth-shop-17",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -973,
+      "y": 45,
+      "z": -4586
+    }
+  },
+  {
+    "featureId": "booth-shop-18",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -911,
+      "y": 24,
+      "z": -630
+    }
+  },
+  {
+    "featureId": "booth-shop-19",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -869,
+      "y": 81,
+      "z": -970
+    }
+  },
+  {
+    "featureId": "booth-shop-20",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -866,
+      "y": 81,
+      "z": -970
+    }
+  },
+  {
+    "featureId": "booth-shop-21",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -863,
+      "y": 81,
+      "z": -970
+    }
+  },
+  {
+    "featureId": "booth-shop-22",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -861,
+      "y": 77,
+      "z": -925
+    }
+  },
+  {
+    "featureId": "booth-shop-23",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -861,
+      "y": 77,
+      "z": -913
+    }
+  },
+  {
+    "featureId": "booth-shop-24",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -860,
+      "y": 77,
+      "z": -919
+    }
+  },
+  {
+    "featureId": "booth-shop-25",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -858,
+      "y": 123,
+      "z": -4916
+    }
+  },
+  {
+    "featureId": "booth-shop-26",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -845,
+      "y": 68,
+      "z": -1536
+    }
+  },
+  {
+    "featureId": "booth-shop-27",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -839,
+      "y": 123,
+      "z": -4906
+    }
+  },
+  {
+    "featureId": "booth-shop-28",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -825,
+      "y": 68,
+      "z": -1536
+    }
+  },
+  {
+    "featureId": "booth-shop-29",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -823,
+      "y": 44,
+      "z": -5360
+    }
+  },
+  {
+    "featureId": "booth-shop-30",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -811,
+      "y": 68,
+      "z": -1901
+    }
+  },
+  {
+    "featureId": "booth-shop-31",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -711,
+      "y": 62,
+      "z": -954
+    }
+  },
+  {
+    "featureId": "booth-shop-32",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -705,
+      "y": 59,
+      "z": -658
+    }
+  },
+  {
+    "featureId": "booth-shop-33",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -703,
+      "y": 54,
+      "z": -3097
+    }
+  },
+  {
+    "featureId": "booth-shop-34",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -697,
+      "y": 73,
+      "z": -1059
+    }
+  },
+  {
+    "featureId": "booth-shop-35",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -644,
+      "y": 74,
+      "z": -868
+    }
+  },
+  {
+    "featureId": "booth-shop-36",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -593,
+      "y": 41,
+      "z": -3561
+    }
+  },
+  {
+    "featureId": "booth-shop-37",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -536,
+      "y": 39,
+      "z": -2721
+    }
+  },
+  {
+    "featureId": "booth-shop-38",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -515,
+      "y": 47,
+      "z": -4945
+    }
+  },
+  {
+    "featureId": "booth-shop-39",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -450,
+      "y": 48,
+      "z": -4951
+    }
+  },
+  {
+    "featureId": "booth-shop-40",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -450,
+      "y": 48,
+      "z": -4948
+    }
+  },
+  {
+    "featureId": "booth-shop-41",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -441,
+      "y": 48,
+      "z": -4920
+    }
+  },
+  {
+    "featureId": "booth-shop-42",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -441,
+      "y": 48,
+      "z": -4916
+    }
+  },
+  {
+    "featureId": "booth-shop-43",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -338,
+      "y": 15,
+      "z": -383
+    }
+  },
+  {
+    "featureId": "booth-shop-44",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -281,
+      "y": 36,
+      "z": -1835
+    }
+  },
+  {
+    "featureId": "booth-shop-45",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -267,
+      "y": 70,
+      "z": -692
+    }
+  },
+  {
+    "featureId": "booth-shop-46",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -256,
+      "y": 81,
+      "z": -1042
+    }
+  },
+  {
+    "featureId": "booth-shop-47",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": -69,
+      "y": 36,
+      "z": -2521
+    }
+  },
+  {
+    "featureId": "booth-shop-48",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 53,
+      "y": 71,
+      "z": -478
+    }
+  },
+  {
+    "featureId": "booth-shop-49",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 92,
+      "y": 37,
+      "z": -3089
+    }
+  },
+  {
+    "featureId": "booth-shop-50",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 103,
+      "y": 74,
+      "z": -804
+    }
+  },
+  {
+    "featureId": "booth-shop-51",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 115,
+      "y": 74,
+      "z": -753
+    }
+  },
+  {
+    "featureId": "booth-shop-52",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 116,
+      "y": 67,
+      "z": -3151
+    }
+  },
+  {
+    "featureId": "booth-shop-53",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 137,
+      "y": 41,
+      "z": -2194
+    }
+  },
+  {
+    "featureId": "booth-shop-54",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 160,
+      "y": 36,
+      "z": -3808
+    }
+  },
+  {
+    "featureId": "booth-shop-55",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 164,
+      "y": 36,
+      "z": -2280
+    }
+  },
+  {
+    "featureId": "booth-shop-56",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 169,
+      "y": 75,
+      "z": -683
+    }
+  },
+  {
+    "featureId": "booth-shop-57",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 173,
+      "y": 7,
+      "z": -5294
+    }
+  },
+  {
+    "featureId": "booth-shop-58",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 202,
+      "y": 30,
+      "z": -5242
+    }
+  },
+  {
+    "featureId": "booth-shop-59",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 287,
+      "y": 17,
+      "z": -1948
+    }
+  },
+  {
+    "featureId": "booth-shop-60",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 315,
+      "y": 43,
+      "z": -2154
+    }
+  },
+  {
+    "featureId": "booth-shop-61",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 327,
+      "y": 34,
+      "z": -2041
+    }
+  },
+  {
+    "featureId": "booth-shop-62",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 429,
+      "y": 68,
+      "z": -1576
+    }
+  },
+  {
+    "featureId": "booth-shop-63",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 466,
+      "y": 44,
+      "z": -2911
+    }
+  },
+  {
+    "featureId": "booth-shop-64",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 495,
+      "y": 68,
+      "z": -1588
+    }
+  },
+  {
+    "featureId": "booth-shop-65",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 497,
+      "y": 69,
+      "z": -1568
+    }
+  },
+  {
+    "featureId": "booth-shop-66",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 508,
+      "y": 68,
+      "z": -1588
+    }
+  },
+  {
+    "featureId": "booth-shop-67",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 508,
+      "y": 68,
+      "z": -1575
+    }
+  },
+  {
+    "featureId": "booth-shop-68",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 512,
+      "y": 68,
+      "z": -1575
+    }
+  },
+  {
+    "featureId": "booth-shop-69",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 512,
+      "y": 68,
+      "z": -1571
+    }
+  },
+  {
+    "featureId": "booth-shop-70",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 516,
+      "y": 68,
+      "z": -1575
+    }
+  },
+  {
+    "featureId": "booth-shop-71",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 516,
+      "y": 68,
+      "z": -1571
+    }
+  },
+  {
+    "featureId": "booth-shop-72",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 557,
+      "y": 37,
+      "z": -3692
+    }
+  },
+  {
+    "featureId": "booth-shop-73",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 627,
+      "y": 68,
+      "z": -1611
+    }
+  },
+  {
+    "featureId": "booth-shop-74",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 699,
+      "y": 67,
+      "z": -2087
+    }
+  },
+  {
+    "featureId": "booth-shop-75",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 703,
+      "y": 45,
+      "z": -4452
+    }
+  },
+  {
+    "featureId": "booth-shop-76",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 712,
+      "y": 71,
+      "z": -2081
+    }
+  },
+  {
+    "featureId": "booth-shop-77",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 734,
+      "y": 62,
+      "z": -1467
+    }
+  },
+  {
+    "featureId": "booth-shop-78",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 748,
+      "y": 62,
+      "z": -1463
+    }
+  },
+  {
+    "featureId": "booth-shop-79",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 768,
+      "y": 171,
+      "z": -4460
+    }
+  },
+  {
+    "featureId": "booth-shop-80",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 804,
+      "y": 72,
+      "z": -1585
+    }
+  },
+  {
+    "featureId": "booth-shop-81",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 804,
+      "y": 72,
+      "z": -1579
+    }
+  },
+  {
+    "featureId": "booth-shop-82",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 872,
+      "y": 46,
+      "z": -2868
+    }
+  },
+  {
+    "featureId": "booth-shop-83",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 873,
+      "y": 68,
+      "z": -1948
+    }
+  },
+  {
+    "featureId": "booth-shop-84",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 947,
+      "y": 68,
+      "z": -1965
+    }
+  },
+  {
+    "featureId": "booth-shop-85",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 969,
+      "y": 74,
+      "z": -685
+    }
+  },
+  {
+    "featureId": "booth-shop-86",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 981,
+      "y": 74,
+      "z": -714
+    }
+  },
+  {
+    "featureId": "booth-shop-87",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 984,
+      "y": 84,
+      "z": -1935
+    }
+  },
+  {
+    "featureId": "booth-shop-88",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 986,
+      "y": 74,
+      "z": -714
+    }
+  },
+  {
+    "featureId": "booth-shop-89",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 992,
+      "y": 16,
+      "z": -5147
+    }
+  },
+  {
+    "featureId": "booth-shop-90",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 992,
+      "y": 16,
+      "z": -5123
+    }
+  },
+  {
+    "featureId": "booth-shop-91",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 997,
+      "y": 114,
+      "z": -4565
+    }
+  },
+  {
+    "featureId": "booth-shop-92",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 999,
+      "y": 74,
+      "z": -690
+    }
+  },
+  {
+    "featureId": "booth-shop-93",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1002,
+      "y": 114,
+      "z": -4570
+    }
+  },
+  {
+    "featureId": "booth-shop-94",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1009,
+      "y": 113,
+      "z": -4552
+    }
+  },
+  {
+    "featureId": "booth-shop-95",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1019,
+      "y": 113,
+      "z": -4564
+    }
+  },
+  {
+    "featureId": "booth-shop-96",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1020,
+      "y": 76,
+      "z": -1990
+    }
+  },
+  {
+    "featureId": "booth-shop-97",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1045,
+      "y": 83,
+      "z": -2286
+    }
+  },
+  {
+    "featureId": "booth-shop-98",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1057,
+      "y": 19,
+      "z": -5128
+    }
+  },
+  {
+    "featureId": "booth-shop-99",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1115,
+      "y": 14,
+      "z": -5184
+    }
+  },
+  {
+    "featureId": "booth-shop-100",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1298,
+      "y": 32,
+      "z": -1272
+    }
+  },
+  {
+    "featureId": "booth-shop-101",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1306,
+      "y": 32,
+      "z": -1345
+    }
+  },
+  {
+    "featureId": "booth-shop-102",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1397,
+      "y": 90,
+      "z": -1828
+    }
+  },
+  {
+    "featureId": "booth-shop-103",
+    "categoryId": "wynntils:service:booth-shop",
+    "location": {
+      "x": 1407,
+      "y": 100,
+      "z": -1465
+    }
+  },
+  {
+    "featureId": "cooking-station-0",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -2021,
+      "y": 76,
+      "z": -4464
+    }
+  },
+  {
+    "featureId": "cooking-station-1",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -1880,
+      "y": 77,
+      "z": -4485
+    }
+  },
+  {
+    "featureId": "cooking-station-2",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -1873,
+      "y": 77,
+      "z": -4487
+    }
+  },
+  {
+    "featureId": "cooking-station-3",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -1730,
+      "y": 65,
+      "z": -5515
+    }
+  },
+  {
+    "featureId": "cooking-station-4",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -1582,
+      "y": 67,
+      "z": -2953
+    }
+  },
+  {
+    "featureId": "cooking-station-5",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -1411,
+      "y": 42,
+      "z": -4709
+    }
+  },
+  {
+    "featureId": "cooking-station-6",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -1076,
+      "y": 41,
+      "z": -4977
+    }
+  },
+  {
+    "featureId": "cooking-station-7",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -861,
+      "y": 66,
+      "z": -1500
+    }
+  },
+  {
+    "featureId": "cooking-station-8",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -786,
+      "y": 69,
+      "z": -935
+    }
+  },
+  {
+    "featureId": "cooking-station-9",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -569,
+      "y": 46,
+      "z": -1942
+    }
+  },
+  {
+    "featureId": "cooking-station-10",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -454,
+      "y": 47,
+      "z": -4954
+    }
+  },
+  {
+    "featureId": "cooking-station-11",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -287,
+      "y": 102,
+      "z": -4435
+    }
+  },
+  {
+    "featureId": "cooking-station-12",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": -7,
+      "y": 75,
+      "z": -1137
+    }
+  },
+  {
+    "featureId": "cooking-station-13",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 79,
+      "y": 38,
+      "z": -2190
+    }
+  },
+  {
+    "featureId": "cooking-station-14",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 106,
+      "y": 72,
+      "z": -763
+    }
+  },
+  {
+    "featureId": "cooking-station-15",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 110,
+      "y": 35,
+      "z": -3108
+    }
+  },
+  {
+    "featureId": "cooking-station-16",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 208,
+      "y": 28,
+      "z": -5232
+    }
+  },
+  {
+    "featureId": "cooking-station-17",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 441,
+      "y": 66,
+      "z": -1574
+    }
+  },
+  {
+    "featureId": "cooking-station-18",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 717,
+      "y": 69,
+      "z": -2119
+    }
+  },
+  {
+    "featureId": "cooking-station-19",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 755,
+      "y": 163,
+      "z": -4451
+    }
+  },
+  {
+    "featureId": "cooking-station-20",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 772,
+      "y": 44,
+      "z": -5436
+    }
+  },
+  {
+    "featureId": "cooking-station-21",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 803,
+      "y": 70,
+      "z": -1621
+    }
+  },
+  {
+    "featureId": "cooking-station-22",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 810,
+      "y": 74,
+      "z": -5080
+    }
+  },
+  {
+    "featureId": "cooking-station-23",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 905,
+      "y": 66,
+      "z": -1956
+    }
+  },
+  {
+    "featureId": "cooking-station-24",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 962,
+      "y": 124,
+      "z": -4474
+    }
+  },
+  {
+    "featureId": "cooking-station-25",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 985,
+      "y": 75,
+      "z": -742
+    }
+  },
+  {
+    "featureId": "cooking-station-26",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 1053,
+      "y": 17,
+      "z": -5159
+    }
+  },
+  {
+    "featureId": "cooking-station-27",
+    "categoryId": "wynntils:service:profession:cooking",
+    "location": {
+      "x": 1338,
+      "y": 30,
+      "z": -1284
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-0",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": -1683,
+      "y": 77,
+      "z": -2614
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-1",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": -924,
+      "y": 63,
+      "z": -1875
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-2",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": -634,
+      "y": 73,
+      "z": -858
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-3",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": -568,
+      "y": 41,
+      "z": -3561
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-4",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": -254,
+      "y": 28,
+      "z": -1046
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-5",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": -196,
+      "y": 58,
+      "z": -1796
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-6",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 136,
+      "y": 83,
+      "z": -642
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-7",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 284,
+      "y": 16,
+      "z": -1943
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-8",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 1304,
+      "y": 87,
+      "z": -749
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-9",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 1413,
+      "y": 94,
+      "z": -1824
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-10",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 2872,
+      "y": 80,
+      "z": 8974
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-11",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 2950,
+      "y": 77,
+      "z": 8119
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-12",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 2971,
+      "y": 46,
+      "z": 8123
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-13",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 3025,
+      "y": 80,
+      "z": 6338
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-14",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 3306,
+      "y": 16,
+      "z": 5353
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-15",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 3326,
+      "y": 33,
+      "z": 4177
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-16",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 3547,
+      "y": 67,
+      "z": 2385
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-17",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 3547,
+      "y": 63,
+      "z": 3504
+    }
+  },
+  {
+    "featureId": "dungeon-merchant-18",
+    "categoryId": "wynntils:service:merchant:dungeon",
+    "location": {
+      "x": 4301,
+      "y": 41,
+      "z": -18392
+    }
+  },
+  {
+    "featureId": "dungeon-scroll-merchant-0",
+    "categoryId": "wynntils:service:merchant:dungeon-scroll",
+    "location": {
+      "x": -871,
+      "y": 122,
+      "z": -4910
+    }
+  },
+  {
+    "featureId": "emerald-merchant-0",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -2030,
+      "y": 77,
+      "z": -4432
+    }
+  },
+  {
+    "featureId": "emerald-merchant-1",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -2030,
+      "y": 77,
+      "z": -4428
+    }
+  },
+  {
+    "featureId": "emerald-merchant-2",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -2030,
+      "y": 77,
+      "z": -4422
+    }
+  },
+  {
+    "featureId": "emerald-merchant-3",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1966,
+      "y": 77,
+      "z": -4433
+    }
+  },
+  {
+    "featureId": "emerald-merchant-4",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1966,
+      "y": 77,
+      "z": -4427
+    }
+  },
+  {
+    "featureId": "emerald-merchant-5",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1966,
+      "y": 77,
+      "z": -4422
+    }
+  },
+  {
+    "featureId": "emerald-merchant-6",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1751,
+      "y": 68,
+      "z": -5539
+    }
+  },
+  {
+    "featureId": "emerald-merchant-7",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1751,
+      "y": 68,
+      "z": -5529
+    }
+  },
+  {
+    "featureId": "emerald-merchant-8",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1748,
+      "y": 68,
+      "z": -5542
+    }
+  },
+  {
+    "featureId": "emerald-merchant-9",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1748,
+      "y": 68,
+      "z": -5526
+    }
+  },
+  {
+    "featureId": "emerald-merchant-10",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1738,
+      "y": 68,
+      "z": -5542
+    }
+  },
+  {
+    "featureId": "emerald-merchant-11",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1738,
+      "y": 68,
+      "z": -5526
+    }
+  },
+  {
+    "featureId": "emerald-merchant-12",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1735,
+      "y": 68,
+      "z": -5539
+    }
+  },
+  {
+    "featureId": "emerald-merchant-13",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1735,
+      "y": 68,
+      "z": -5529
+    }
+  },
+  {
+    "featureId": "emerald-merchant-14",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1601,
+      "y": 73,
+      "z": -2893
+    }
+  },
+  {
+    "featureId": "emerald-merchant-15",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1598,
+      "y": 73,
+      "z": -2889
+    }
+  },
+  {
+    "featureId": "emerald-merchant-16",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1593,
+      "y": 73,
+      "z": -2889
+    }
+  },
+  {
+    "featureId": "emerald-merchant-17",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1587,
+      "y": 73,
+      "z": -2889
+    }
+  },
+  {
+    "featureId": "emerald-merchant-18",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1585,
+      "y": 73,
+      "z": -2893
+    }
+  },
+  {
+    "featureId": "emerald-merchant-19",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1449,
+      "y": 44,
+      "z": -4736
+    }
+  },
+  {
+    "featureId": "emerald-merchant-20",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1449,
+      "y": 44,
+      "z": -4716
+    }
+  },
+  {
+    "featureId": "emerald-merchant-21",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1168,
+      "y": 65,
+      "z": -2404
+    }
+  },
+  {
+    "featureId": "emerald-merchant-22",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1027,
+      "y": 46,
+      "z": -5324
+    }
+  },
+  {
+    "featureId": "emerald-merchant-23",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -1018,
+      "y": 46,
+      "z": -5324
+    }
+  },
+  {
+    "featureId": "emerald-merchant-24",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -900,
+      "y": 85,
+      "z": -923
+    }
+  },
+  {
+    "featureId": "emerald-merchant-25",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -900,
+      "y": 85,
+      "z": -915
+    }
+  },
+  {
+    "featureId": "emerald-merchant-26",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -898,
+      "y": 77,
+      "z": -923
+    }
+  },
+  {
+    "featureId": "emerald-merchant-27",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -898,
+      "y": 77,
+      "z": -915
+    }
+  },
+  {
+    "featureId": "emerald-merchant-28",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -896,
+      "y": 85,
+      "z": -923
+    }
+  },
+  {
+    "featureId": "emerald-merchant-29",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -896,
+      "y": 85,
+      "z": -915
+    }
+  },
+  {
+    "featureId": "emerald-merchant-30",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -894,
+      "y": 77,
+      "z": -923
+    }
+  },
+  {
+    "featureId": "emerald-merchant-31",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -894,
+      "y": 77,
+      "z": -915
+    }
+  },
+  {
+    "featureId": "emerald-merchant-32",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -893,
+      "y": 85,
+      "z": -924
+    }
+  },
+  {
+    "featureId": "emerald-merchant-33",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -893,
+      "y": 85,
+      "z": -914
+    }
+  },
+  {
+    "featureId": "emerald-merchant-34",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -864,
+      "y": 67,
+      "z": -1600
+    }
+  },
+  {
+    "featureId": "emerald-merchant-35",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -856,
+      "y": 67,
+      "z": -1599
+    }
+  },
+  {
+    "featureId": "emerald-merchant-36",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -850,
+      "y": 67,
+      "z": -1596
+    }
+  },
+  {
+    "featureId": "emerald-merchant-37",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -727,
+      "y": 100,
+      "z": -6453
+    }
+  },
+  {
+    "featureId": "emerald-merchant-38",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -721,
+      "y": 39,
+      "z": -3097
+    }
+  },
+  {
+    "featureId": "emerald-merchant-39",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -721,
+      "y": 39,
+      "z": -3089
+    }
+  },
+  {
+    "featureId": "emerald-merchant-40",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -720,
+      "y": 54,
+      "z": -3095
+    }
+  },
+  {
+    "featureId": "emerald-merchant-41",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -720,
+      "y": 54,
+      "z": -3091
+    }
+  },
+  {
+    "featureId": "emerald-merchant-42",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -717,
+      "y": 39,
+      "z": -3097
+    }
+  },
+  {
+    "featureId": "emerald-merchant-43",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -717,
+      "y": 39,
+      "z": -3089
+    }
+  },
+  {
+    "featureId": "emerald-merchant-44",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -662,
+      "y": 67,
+      "z": -1048
+    }
+  },
+  {
+    "featureId": "emerald-merchant-45",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -662,
+      "y": 67,
+      "z": -1025
+    }
+  },
+  {
+    "featureId": "emerald-merchant-46",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -427,
+      "y": 47,
+      "z": -4910
+    }
+  },
+  {
+    "featureId": "emerald-merchant-47",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -423,
+      "y": 47,
+      "z": -4910
+    }
+  },
+  {
+    "featureId": "emerald-merchant-48",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -416,
+      "y": 47,
+      "z": -4921
+    }
+  },
+  {
+    "featureId": "emerald-merchant-49",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -416,
+      "y": 47,
+      "z": -4917
+    }
+  },
+  {
+    "featureId": "emerald-merchant-50",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -315,
+      "y": 47,
+      "z": -4975
+    }
+  },
+  {
+    "featureId": "emerald-merchant-51",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -302,
+      "y": 103,
+      "z": -4393
+    }
+  },
+  {
+    "featureId": "emerald-merchant-52",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -292,
+      "y": 103,
+      "z": -4379
+    }
+  },
+  {
+    "featureId": "emerald-merchant-53",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -292,
+      "y": 103,
+      "z": -4375
+    }
+  },
+  {
+    "featureId": "emerald-merchant-54",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -284,
+      "y": 43,
+      "z": -1152
+    }
+  },
+  {
+    "featureId": "emerald-merchant-55",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -253,
+      "y": 36,
+      "z": -4028
+    }
+  },
+  {
+    "featureId": "emerald-merchant-56",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -213,
+      "y": 28,
+      "z": -298
+    }
+  },
+  {
+    "featureId": "emerald-merchant-57",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -212,
+      "y": 28,
+      "z": -301
+    }
+  },
+  {
+    "featureId": "emerald-merchant-58",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -208,
+      "y": 28,
+      "z": -301
+    }
+  },
+  {
+    "featureId": "emerald-merchant-59",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -207,
+      "y": 28,
+      "z": -298
+    }
+  },
+  {
+    "featureId": "emerald-merchant-60",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": -140,
+      "y": 72,
+      "z": -1606
+    }
+  },
+  {
+    "featureId": "emerald-merchant-61",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 9,
+      "y": 66,
+      "z": -3222
+    }
+  },
+  {
+    "featureId": "emerald-merchant-62",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 9,
+      "y": 66,
+      "z": -3212
+    }
+  },
+  {
+    "featureId": "emerald-merchant-63",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 85,
+      "y": 41,
+      "z": -2225
+    }
+  },
+  {
+    "featureId": "emerald-merchant-64",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 85,
+      "y": 41,
+      "z": -2215
+    }
+  },
+  {
+    "featureId": "emerald-merchant-65",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 86,
+      "y": 41,
+      "z": -2229
+    }
+  },
+  {
+    "featureId": "emerald-merchant-66",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 86,
+      "y": 41,
+      "z": -2211
+    }
+  },
+  {
+    "featureId": "emerald-merchant-67",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 90,
+      "y": 73,
+      "z": -774
+    }
+  },
+  {
+    "featureId": "emerald-merchant-68",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 92,
+      "y": 73,
+      "z": -776
+    }
+  },
+  {
+    "featureId": "emerald-merchant-69",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 95,
+      "y": 41,
+      "z": -2229
+    }
+  },
+  {
+    "featureId": "emerald-merchant-70",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 95,
+      "y": 41,
+      "z": -2211
+    }
+  },
+  {
+    "featureId": "emerald-merchant-71",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 96,
+      "y": 41,
+      "z": -2225
+    }
+  },
+  {
+    "featureId": "emerald-merchant-72",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 96,
+      "y": 41,
+      "z": -2215
+    }
+  },
+  {
+    "featureId": "emerald-merchant-73",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 164,
+      "y": 6,
+      "z": -5322
+    }
+  },
+  {
+    "featureId": "emerald-merchant-74",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 170,
+      "y": 6,
+      "z": -5322
+    }
+  },
+  {
+    "featureId": "emerald-merchant-75",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 224,
+      "y": 29,
+      "z": -5242
+    }
+  },
+  {
+    "featureId": "emerald-merchant-76",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 484,
+      "y": 67,
+      "z": -1551
+    }
+  },
+  {
+    "featureId": "emerald-merchant-77",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 488,
+      "y": 67,
+      "z": -1551
+    }
+  },
+  {
+    "featureId": "emerald-merchant-78",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 491,
+      "y": 67,
+      "z": -1558
+    }
+  },
+  {
+    "featureId": "emerald-merchant-79",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 491,
+      "y": 67,
+      "z": -1554
+    }
+  },
+  {
+    "featureId": "emerald-merchant-80",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 740,
+      "y": 164,
+      "z": -4438
+    }
+  },
+  {
+    "featureId": "emerald-merchant-81",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 784,
+      "y": 59,
+      "z": -3326
+    }
+  },
+  {
+    "featureId": "emerald-merchant-82",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 800,
+      "y": 59,
+      "z": -3326
+    }
+  },
+  {
+    "featureId": "emerald-merchant-83",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 835,
+      "y": 75,
+      "z": -5097
+    }
+  },
+  {
+    "featureId": "emerald-merchant-84",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 835,
+      "y": 75,
+      "z": -5093
+    }
+  },
+  {
+    "featureId": "emerald-merchant-85",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 836,
+      "y": 75,
+      "z": -5101
+    }
+  },
+  {
+    "featureId": "emerald-merchant-86",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 836,
+      "y": 75,
+      "z": -5089
+    }
+  },
+  {
+    "featureId": "emerald-merchant-87",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 918,
+      "y": 116,
+      "z": -5473
+    }
+  },
+  {
+    "featureId": "emerald-merchant-88",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 918,
+      "y": 116,
+      "z": -5465
+    }
+  },
+  {
+    "featureId": "emerald-merchant-89",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 920,
+      "y": 116,
+      "z": -5475
+    }
+  },
+  {
+    "featureId": "emerald-merchant-90",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 920,
+      "y": 116,
+      "z": -5463
+    }
+  },
+  {
+    "featureId": "emerald-merchant-91",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 975,
+      "y": 73,
+      "z": -698
+    }
+  },
+  {
+    "featureId": "emerald-merchant-92",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 975,
+      "y": 73,
+      "z": -692
+    }
+  },
+  {
+    "featureId": "emerald-merchant-93",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 979,
+      "y": 15,
+      "z": -5124
+    }
+  },
+  {
+    "featureId": "emerald-merchant-94",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 980,
+      "y": 15,
+      "z": -5146
+    }
+  },
+  {
+    "featureId": "emerald-merchant-95",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 980,
+      "y": 15,
+      "z": -5135
+    }
+  },
+  {
+    "featureId": "emerald-merchant-96",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 990,
+      "y": 73,
+      "z": -691
+    }
+  },
+  {
+    "featureId": "emerald-merchant-97",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 991,
+      "y": 73,
+      "z": -696
+    }
+  },
+  {
+    "featureId": "emerald-merchant-98",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1015,
+      "y": 99,
+      "z": -1987
+    }
+  },
+  {
+    "featureId": "emerald-merchant-99",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1015,
+      "y": 99,
+      "z": -1938
+    }
+  },
+  {
+    "featureId": "emerald-merchant-100",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1025,
+      "y": 99,
+      "z": -1977
+    }
+  },
+  {
+    "featureId": "emerald-merchant-101",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1025,
+      "y": 99,
+      "z": -1928
+    }
+  },
+  {
+    "featureId": "emerald-merchant-102",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1073,
+      "y": 108,
+      "z": -4562
+    }
+  },
+  {
+    "featureId": "emerald-merchant-103",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1073,
+      "y": 108,
+      "z": -4536
+    }
+  },
+  {
+    "featureId": "emerald-merchant-104",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1081,
+      "y": 108,
+      "z": -4562
+    }
+  },
+  {
+    "featureId": "emerald-merchant-105",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1081,
+      "y": 108,
+      "z": -4536
+    }
+  },
+  {
+    "featureId": "emerald-merchant-106",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1142,
+      "y": 43,
+      "z": -3120
+    }
+  },
+  {
+    "featureId": "emerald-merchant-107",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1473,
+      "y": 45,
+      "z": -5305
+    }
+  },
+  {
+    "featureId": "emerald-merchant-108",
+    "categoryId": "wynntils:service:merchant:emerald",
+    "location": {
+      "x": 1473,
+      "y": 45,
+      "z": -5300
+    }
+  },
+  {
+    "featureId": "fast-travel-0",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -1931,
+      "y": 78,
+      "z": -4475
+    }
+  },
+  {
+    "featureId": "fast-travel-1",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -1570,
+      "y": 103,
+      "z": -2914
+    }
+  },
+  {
+    "featureId": "fast-travel-2",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -1364,
+      "y": 37,
+      "z": -2937
+    }
+  },
+  {
+    "featureId": "fast-travel-3",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -868,
+      "y": 59,
+      "z": -5997
+    }
+  },
+  {
+    "featureId": "fast-travel-4",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -820,
+      "y": 95,
+      "z": -1167
+    }
+  },
+  {
+    "featureId": "fast-travel-5",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -820,
+      "y": 95,
+      "z": -1033
+    }
+  },
+  {
+    "featureId": "fast-travel-6",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -750,
+      "y": 101,
+      "z": -6394
+    }
+  },
+  {
+    "featureId": "fast-travel-7",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -731,
+      "y": 68,
+      "z": -1593
+    }
+  },
+  {
+    "featureId": "fast-travel-8",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -673,
+      "y": 36,
+      "z": -3140
+    }
+  },
+  {
+    "featureId": "fast-travel-9",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -477,
+      "y": 48,
+      "z": -4911
+    }
+  },
+  {
+    "featureId": "fast-travel-10",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -281,
+      "y": 55,
+      "z": -1174
+    }
+  },
+  {
+    "featureId": "fast-travel-11",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -209,
+      "y": 106,
+      "z": -4927
+    }
+  },
+  {
+    "featureId": "fast-travel-12",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -124,
+      "y": 70,
+      "z": -1638
+    }
+  },
+  {
+    "featureId": "fast-travel-13",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 72,
+      "y": 37,
+      "z": -3110
+    }
+  },
+  {
+    "featureId": "fast-travel-14",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 98,
+      "y": 45,
+      "z": -2161
+    }
+  },
+  {
+    "featureId": "fast-travel-15",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 158,
+      "y": 39,
+      "z": -3107
+    }
+  },
+  {
+    "featureId": "fast-travel-16",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 161,
+      "y": 38,
+      "z": -2214
+    }
+  },
+  {
+    "featureId": "fast-travel-17",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 208,
+      "y": 7,
+      "z": -5242
+    }
+  },
+  {
+    "featureId": "fast-travel-18",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 377,
+      "y": 71,
+      "z": -1629
+    }
+  },
+  {
+    "featureId": "fast-travel-19",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 383,
+      "y": 68,
+      "z": -1562
+    }
+  },
+  {
+    "featureId": "fast-travel-20",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 414,
+      "y": 84,
+      "z": -1508
+    }
+  },
+  {
+    "featureId": "fast-travel-21",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 589,
+      "y": 51,
+      "z": -4435
+    }
+  },
+  {
+    "featureId": "fast-travel-22",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 736,
+      "y": 158,
+      "z": -4371
+    }
+  },
+  {
+    "featureId": "fast-travel-23",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 771,
+      "y": 163,
+      "z": -4382
+    }
+  },
+  {
+    "featureId": "fast-travel-24",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 860,
+      "y": 113,
+      "z": -5039
+    }
+  },
+  {
+    "featureId": "fast-travel-25",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 892,
+      "y": 50,
+      "z": -2888
+    }
+  },
+  {
+    "featureId": "fast-travel-26",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 942,
+      "y": 120,
+      "z": -5546
+    }
+  },
+  {
+    "featureId": "fast-travel-27",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1015,
+      "y": 13,
+      "z": -5068
+    }
+  },
+  {
+    "featureId": "fast-travel-28",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1028,
+      "y": 112,
+      "z": -4558
+    }
+  },
+  {
+    "featureId": "fast-travel-29",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1093,
+      "y": 102,
+      "z": -4516
+    }
+  },
+  {
+    "featureId": "fast-travel-30",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1347,
+      "y": 9,
+      "z": -5463
+    }
+  },
+  {
+    "featureId": "fast-travel-31",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1355,
+      "y": 139,
+      "z": -5463
+    }
+  },
+  {
+    "featureId": "fast-travel-32",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1391,
+      "y": 120,
+      "z": -5264
+    }
+  },
+  {
+    "featureId": "fast-travel-33",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1393,
+      "y": 7,
+      "z": -5264
+    }
+  },
+  {
+    "featureId": "fast-travel-34",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1550,
+      "y": 166,
+      "z": -5495
+    }
+  },
+  {
+    "featureId": "fast-travel-35",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 1555,
+      "y": 87,
+      "z": -5500
+    }
+  },
+  {
+    "featureId": "fast-travel-36",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 6333,
+      "y": 16,
+      "z": 4521
+    }
+  },
+  {
+    "featureId": "fast-travel-37",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 6335,
+      "y": 17,
+      "z": 4481
+    }
+  },
+  {
+    "featureId": "fast-travel-38",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 6369,
+      "y": 17,
+      "z": 4477
+    }
+  },
+  {
+    "featureId": "fast-travel-39",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 6374,
+      "y": 17,
+      "z": 4503
+    }
+  },
+  {
+    "featureId": "fast-travel-40",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 6375,
+      "y": 16,
+      "z": 4522
+    }
+  },
+  {
+    "featureId": "fast-travel-41",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 13967,
+      "y": 129,
+      "z": -3802
+    }
+  },
+  {
+    "featureId": "fast-travel-42",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 14019,
+      "y": 116,
+      "z": -4165
+    }
+  },
+  {
+    "featureId": "fast-travel-43",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": 14034,
+      "y": 130,
+      "z": -4096
+    }
+  },
+  {
+    "featureId": "housing-balloon-0",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -2006,
+      "y": 36,
+      "z": -4367
+    }
+  },
+  {
+    "featureId": "housing-balloon-1",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -1716,
+      "y": 68,
+      "z": -5530
+    }
+  },
+  {
+    "featureId": "housing-balloon-2",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -1612,
+      "y": 69,
+      "z": -2944
+    }
+  },
+  {
+    "featureId": "housing-balloon-3",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -1171,
+      "y": 66,
+      "z": -2434
+    }
+  },
+  {
+    "featureId": "housing-balloon-4",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -1039,
+      "y": 45,
+      "z": -5337
+    }
+  },
+  {
+    "featureId": "housing-balloon-5",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -876,
+      "y": 56,
+      "z": -5948
+    }
+  },
+  {
+    "featureId": "housing-balloon-6",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -839,
+      "y": 78,
+      "z": -918
+    }
+  },
+  {
+    "featureId": "housing-balloon-7",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -835,
+      "y": 68,
+      "z": -1541
+    }
+  },
+  {
+    "featureId": "housing-balloon-8",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": -471,
+      "y": 48,
+      "z": -4971
+    }
+  },
+  {
+    "featureId": "housing-balloon-9",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 82,
+      "y": 37,
+      "z": -3092
+    }
+  },
+  {
+    "featureId": "housing-balloon-10",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 104,
+      "y": 75,
+      "z": -798
+    }
+  },
+  {
+    "featureId": "housing-balloon-11",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 152,
+      "y": 42,
+      "z": -2191
+    }
+  },
+  {
+    "featureId": "housing-balloon-12",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 455,
+      "y": 68,
+      "z": -1571
+    }
+  },
+  {
+    "featureId": "housing-balloon-13",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 807,
+      "y": 73,
+      "z": -5048
+    }
+  },
+  {
+    "featureId": "housing-balloon-14",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 912,
+      "y": 68,
+      "z": -1943
+    }
+  },
+  {
+    "featureId": "housing-balloon-15",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 987,
+      "y": 108,
+      "z": -5488
+    }
+  },
+  {
+    "featureId": "housing-balloon-16",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 1017,
+      "y": 78,
+      "z": -700
+    }
+  },
+  {
+    "featureId": "housing-balloon-17",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 1029,
+      "y": 112,
+      "z": -4600
+    }
+  },
+  {
+    "featureId": "housing-balloon-18",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 1126,
+      "y": 14,
+      "z": -5177
+    }
+  },
+  {
+    "featureId": "housing-balloon-19",
+    "categoryId": "wynntils:service:housing-balloon",
+    "location": {
+      "x": 14070,
+      "y": 105,
+      "z": -3922
+    }
+  },
+  {
+    "featureId": "item-identifier-0",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -1901,
+      "y": 80,
+      "z": -4499
+    }
+  },
+  {
+    "featureId": "item-identifier-1",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -1723,
+      "y": 68,
+      "z": -5509
+    }
+  },
+  {
+    "featureId": "item-identifier-2",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -1611,
+      "y": 40,
+      "z": -2361
+    }
+  },
+  {
+    "featureId": "item-identifier-3",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -1593,
+      "y": 70,
+      "z": -2943
+    }
+  },
+  {
+    "featureId": "item-identifier-4",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -1467,
+      "y": 43,
+      "z": -4718
+    }
+  },
+  {
+    "featureId": "item-identifier-5",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -1039,
+      "y": 48,
+      "z": -5309
+    }
+  },
+  {
+    "featureId": "item-identifier-6",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -856,
+      "y": 77,
+      "z": -898
+    }
+  },
+  {
+    "featureId": "item-identifier-7",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -803,
+      "y": 69,
+      "z": -1569
+    }
+  },
+  {
+    "featureId": "item-identifier-8",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -737,
+      "y": 102,
+      "z": -6453
+    }
+  },
+  {
+    "featureId": "item-identifier-9",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -679,
+      "y": 55,
+      "z": -3050
+    }
+  },
+  {
+    "featureId": "item-identifier-10",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -675,
+      "y": 40,
+      "z": -3048
+    }
+  },
+  {
+    "featureId": "item-identifier-11",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -646,
+      "y": 67,
+      "z": -1043
+    }
+  },
+  {
+    "featureId": "item-identifier-12",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -629,
+      "y": 92,
+      "z": -1401
+    }
+  },
+  {
+    "featureId": "item-identifier-13",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -553,
+      "y": 68,
+      "z": -1581
+    }
+  },
+  {
+    "featureId": "item-identifier-14",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -547,
+      "y": 50,
+      "z": -1935
+    }
+  },
+  {
+    "featureId": "item-identifier-15",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -437,
+      "y": 48,
+      "z": -4950
+    }
+  },
+  {
+    "featureId": "item-identifier-16",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -316,
+      "y": 104,
+      "z": -4496
+    }
+  },
+  {
+    "featureId": "item-identifier-17",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -280,
+      "y": 44,
+      "z": -1158
+    }
+  },
+  {
+    "featureId": "item-identifier-18",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -218,
+      "y": 30,
+      "z": -325
+    }
+  },
+  {
+    "featureId": "item-identifier-19",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": -167,
+      "y": 72,
+      "z": -1605
+    }
+  },
+  {
+    "featureId": "item-identifier-20",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 78,
+      "y": 73,
+      "z": -346
+    }
+  },
+  {
+    "featureId": "item-identifier-21",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 85,
+      "y": 41,
+      "z": -2179
+    }
+  },
+  {
+    "featureId": "item-identifier-22",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 95,
+      "y": 74,
+      "z": -786
+    }
+  },
+  {
+    "featureId": "item-identifier-23",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 140,
+      "y": 68,
+      "z": -3173
+    }
+  },
+  {
+    "featureId": "item-identifier-24",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 216,
+      "y": 31,
+      "z": -5265
+    }
+  },
+  {
+    "featureId": "item-identifier-25",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 468,
+      "y": 67,
+      "z": -1581
+    }
+  },
+  {
+    "featureId": "item-identifier-26",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 747,
+      "y": 166,
+      "z": -4424
+    }
+  },
+  {
+    "featureId": "item-identifier-27",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 802,
+      "y": 61,
+      "z": -3389
+    }
+  },
+  {
+    "featureId": "item-identifier-28",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 807,
+      "y": 77,
+      "z": -5091
+    }
+  },
+  {
+    "featureId": "item-identifier-29",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 914,
+      "y": 116,
+      "z": -5499
+    }
+  },
+  {
+    "featureId": "item-identifier-30",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 933,
+      "y": 68,
+      "z": -1955
+    }
+  },
+  {
+    "featureId": "item-identifier-31",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 963,
+      "y": 78,
+      "z": -677
+    }
+  },
+  {
+    "featureId": "item-identifier-32",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 1035,
+      "y": 20,
+      "z": -5110
+    }
+  },
+  {
+    "featureId": "item-identifier-33",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 1077,
+      "y": 110,
+      "z": -4549
+    }
+  },
+  {
+    "featureId": "item-identifier-34",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 1136,
+      "y": 45,
+      "z": -3117
+    }
+  },
+  {
+    "featureId": "item-identifier-35",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 1310,
+      "y": 33,
+      "z": -1311
+    }
+  },
+  {
+    "featureId": "item-identifier-36",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 1466,
+      "y": 47,
+      "z": -5264
+    }
+  },
+  {
+    "featureId": "item-identifier-37",
+    "categoryId": "wynntils:service:identifier",
+    "location": {
+      "x": 18944,
+      "y": 25,
+      "z": -1114
+    }
+  },
+  {
+    "featureId": "jeweling-station-0",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -2127,
+      "y": 52,
+      "z": -4570
+    }
+  },
+  {
+    "featureId": "jeweling-station-1",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -1975,
+      "y": 76,
+      "z": -4464
+    }
+  },
+  {
+    "featureId": "jeweling-station-2",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -1781,
+      "y": 65,
+      "z": -5536
+    }
+  },
+  {
+    "featureId": "jeweling-station-3",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -1586,
+      "y": 67,
+      "z": -2985
+    }
+  },
+  {
+    "featureId": "jeweling-station-4",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -1405,
+      "y": 42,
+      "z": -4707
+    }
+  },
+  {
+    "featureId": "jeweling-station-5",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -1037,
+      "y": 45,
+      "z": -5317
+    }
+  },
+  {
+    "featureId": "jeweling-station-6",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -873,
+      "y": 76,
+      "z": -937
+    }
+  },
+  {
+    "featureId": "jeweling-station-7",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -823,
+      "y": 67,
+      "z": -1497
+    }
+  },
+  {
+    "featureId": "jeweling-station-8",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -556,
+      "y": 47,
+      "z": -1938
+    }
+  },
+  {
+    "featureId": "jeweling-station-9",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -437,
+      "y": 46,
+      "z": -4947
+    }
+  },
+  {
+    "featureId": "jeweling-station-10",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -307,
+      "y": 102,
+      "z": -4419
+    }
+  },
+  {
+    "featureId": "jeweling-station-11",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -202,
+      "y": 27,
+      "z": -314
+    }
+  },
+  {
+    "featureId": "jeweling-station-12",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": -46,
+      "y": 71,
+      "z": -1146
+    }
+  },
+  {
+    "featureId": "jeweling-station-13",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 111,
+      "y": 38,
+      "z": -2220
+    }
+  },
+  {
+    "featureId": "jeweling-station-14",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 113,
+      "y": 35,
+      "z": -3118
+    }
+  },
+  {
+    "featureId": "jeweling-station-15",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 115,
+      "y": 72,
+      "z": -766
+    }
+  },
+  {
+    "featureId": "jeweling-station-16",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 226,
+      "y": 28,
+      "z": -5254
+    }
+  },
+  {
+    "featureId": "jeweling-station-17",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 461,
+      "y": 66,
+      "z": -1604
+    }
+  },
+  {
+    "featureId": "jeweling-station-18",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 701,
+      "y": 70,
+      "z": -2082
+    }
+  },
+  {
+    "featureId": "jeweling-station-19",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 737,
+      "y": 60,
+      "z": -1442
+    }
+  },
+  {
+    "featureId": "jeweling-station-20",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 747,
+      "y": 163,
+      "z": -4416
+    }
+  },
+  {
+    "featureId": "jeweling-station-21",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 821,
+      "y": 74,
+      "z": -5090
+    }
+  },
+  {
+    "featureId": "jeweling-station-22",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 928,
+      "y": 66,
+      "z": -1965
+    }
+  },
+  {
+    "featureId": "jeweling-station-23",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 939,
+      "y": 115,
+      "z": -5513
+    }
+  },
+  {
+    "featureId": "jeweling-station-24",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 1009,
+      "y": 78,
+      "z": -722
+    }
+  },
+  {
+    "featureId": "jeweling-station-25",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 1071,
+      "y": 17,
+      "z": -5127
+    }
+  },
+  {
+    "featureId": "jeweling-station-26",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 1100,
+      "y": 100,
+      "z": -4567
+    }
+  },
+  {
+    "featureId": "jeweling-station-27",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 1259,
+      "y": 30,
+      "z": -1283
+    }
+  },
+  {
+    "featureId": "jeweling-station-28",
+    "categoryId": "wynntils:service:profession:jeweling",
+    "location": {
+      "x": 1419,
+      "y": 63,
+      "z": -5256
+    }
+  },
+  {
+    "featureId": "liquid-merchant-0",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -1998,
+      "y": 77,
+      "z": -4427
+    }
+  },
+  {
+    "featureId": "liquid-merchant-1",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -1593,
+      "y": 68,
+      "z": -2904
+    }
+  },
+  {
+    "featureId": "liquid-merchant-2",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -887,
+      "y": 85,
+      "z": -919
+    }
+  },
+  {
+    "featureId": "liquid-merchant-3",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -646,
+      "y": 65,
+      "z": -1031
+    }
+  },
+  {
+    "featureId": "liquid-merchant-4",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -433,
+      "y": 47,
+      "z": -4919
+    }
+  },
+  {
+    "featureId": "liquid-merchant-5",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -425,
+      "y": 47,
+      "z": -4927
+    }
+  },
+  {
+    "featureId": "liquid-merchant-6",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -303,
+      "y": 103,
+      "z": -4372
+    }
+  },
+  {
+    "featureId": "liquid-merchant-7",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": -291,
+      "y": 103,
+      "z": -4393
+    }
+  },
+  {
+    "featureId": "liquid-merchant-8",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 167,
+      "y": 6,
+      "z": -5324
+    }
+  },
+  {
+    "featureId": "liquid-merchant-9",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 474,
+      "y": 67,
+      "z": -1554
+    }
+  },
+  {
+    "featureId": "liquid-merchant-10",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 488,
+      "y": 67,
+      "z": -1568
+    }
+  },
+  {
+    "featureId": "liquid-merchant-11",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 835,
+      "y": 75,
+      "z": -5095
+    }
+  },
+  {
+    "featureId": "liquid-merchant-12",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 937,
+      "y": 67,
+      "z": -1970
+    }
+  },
+  {
+    "featureId": "liquid-merchant-13",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 981,
+      "y": 73,
+      "z": -690
+    }
+  },
+  {
+    "featureId": "liquid-merchant-14",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 992,
+      "y": 15,
+      "z": -5138
+    }
+  },
+  {
+    "featureId": "liquid-merchant-15",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 995,
+      "y": 15,
+      "z": -5135
+    }
+  },
+  {
+    "featureId": "liquid-merchant-16",
+    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "location": {
+      "x": 1062,
+      "y": 108,
+      "z": -4549
+    }
+  },
+  {
+    "featureId": "party-finder-0",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1989,
+      "y": 78,
+      "z": -4447
+    }
+  },
+  {
+    "featureId": "party-finder-1",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1982,
+      "y": 65,
+      "z": -5647
+    }
+  },
+  {
+    "featureId": "party-finder-2",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1739,
+      "y": 67,
+      "z": -5482
+    }
+  },
+  {
+    "featureId": "party-finder-3",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1601,
+      "y": 69,
+      "z": -2920
+    }
+  },
+  {
+    "featureId": "party-finder-4",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1478,
+      "y": 43,
+      "z": -4731
+    }
+  },
+  {
+    "featureId": "party-finder-5",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1336,
+      "y": 59,
+      "z": 10393
+    }
+  },
+  {
+    "featureId": "party-finder-6",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -1021,
+      "y": 47,
+      "z": -5325
+    }
+  },
+  {
+    "featureId": "party-finder-7",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -877,
+      "y": 77,
+      "z": -925
+    }
+  },
+  {
+    "featureId": "party-finder-8",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -840,
+      "y": 124,
+      "z": -4925
+    }
+  },
+  {
+    "featureId": "party-finder-9",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -788,
+      "y": 68,
+      "z": -1583
+    }
+  },
+  {
+    "featureId": "party-finder-10",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -737,
+      "y": 101,
+      "z": -6463
+    }
+  },
+  {
+    "featureId": "party-finder-11",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -701,
+      "y": 55,
+      "z": -3101
+    }
+  },
+  {
+    "featureId": "party-finder-12",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -447,
+      "y": 48,
+      "z": -4937
+    }
+  },
+  {
+    "featureId": "party-finder-13",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": -214,
+      "y": 30,
+      "z": -315
+    }
+  },
+  {
+    "featureId": "party-finder-14",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 90,
+      "y": 42,
+      "z": -2219
+    }
+  },
+  {
+    "featureId": "party-finder-15",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 102,
+      "y": 68,
+      "z": -3175
+    }
+  },
+  {
+    "featureId": "party-finder-16",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 104,
+      "y": 75,
+      "z": -829
+    }
+  },
+  {
+    "featureId": "party-finder-17",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 237,
+      "y": 31,
+      "z": -5247
+    }
+  },
+  {
+    "featureId": "party-finder-18",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 470,
+      "y": 67,
+      "z": -1563
+    }
+  },
+  {
+    "featureId": "party-finder-19",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 713,
+      "y": 45,
+      "z": -4443
+    }
+  },
+  {
+    "featureId": "party-finder-20",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 784,
+      "y": 77,
+      "z": -5080
+    }
+  },
+  {
+    "featureId": "party-finder-21",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 930,
+      "y": 116,
+      "z": -5485
+    }
+  },
+  {
+    "featureId": "party-finder-22",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 981,
+      "y": 84,
+      "z": -1952
+    }
+  },
+  {
+    "featureId": "party-finder-23",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 985,
+      "y": 75,
+      "z": -672
+    }
+  },
+  {
+    "featureId": "party-finder-24",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 1023,
+      "y": 19,
+      "z": -5126
+    }
+  },
+  {
+    "featureId": "party-finder-25",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 1062,
+      "y": 108,
+      "z": -812
+    }
+  },
+  {
+    "featureId": "party-finder-26",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 1085,
+      "y": 110,
+      "z": -4556
+    }
+  },
+  {
+    "featureId": "party-finder-27",
+    "categoryId": "wynntils:service:party-finder",
+    "location": {
+      "x": 1303,
+      "y": 32,
+      "z": -1314
+    }
+  },
+  {
+    "featureId": "potion-merchant-0",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1868,
+      "y": 59,
+      "z": -4534
+    }
+  },
+  {
+    "featureId": "potion-merchant-1",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1735,
+      "y": 66,
+      "z": -5492
+    }
+  },
+  {
+    "featureId": "potion-merchant-2",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1692,
+      "y": 75,
+      "z": -2595
+    }
+  },
+  {
+    "featureId": "potion-merchant-3",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1637,
+      "y": 73,
+      "z": -2946
+    }
+  },
+  {
+    "featureId": "potion-merchant-4",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1467,
+      "y": 42,
+      "z": -4734
+    }
+  },
+  {
+    "featureId": "potion-merchant-5",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1170,
+      "y": 65,
+      "z": -2383
+    }
+  },
+  {
+    "featureId": "potion-merchant-6",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -1014,
+      "y": 47,
+      "z": -5286
+    }
+  },
+  {
+    "featureId": "potion-merchant-7",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -900,
+      "y": 60,
+      "z": -1889
+    }
+  },
+  {
+    "featureId": "potion-merchant-8",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -882,
+      "y": 78,
+      "z": -943
+    }
+  },
+  {
+    "featureId": "potion-merchant-9",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -872,
+      "y": 57,
+      "z": -6010
+    }
+  },
+  {
+    "featureId": "potion-merchant-10",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -821,
+      "y": 68,
+      "z": -1593
+    }
+  },
+  {
+    "featureId": "potion-merchant-11",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -737,
+      "y": 100,
+      "z": -6443
+    }
+  },
+  {
+    "featureId": "potion-merchant-12",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -646,
+      "y": 73,
+      "z": -858
+    }
+  },
+  {
+    "featureId": "potion-merchant-13",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -618,
+      "y": 89,
+      "z": -1443
+    }
+  },
+  {
+    "featureId": "potion-merchant-14",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -611,
+      "y": 38,
+      "z": -3069
+    }
+  },
+  {
+    "featureId": "potion-merchant-15",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -611,
+      "y": 53,
+      "z": -3063
+    }
+  },
+  {
+    "featureId": "potion-merchant-16",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -594,
+      "y": 40,
+      "z": -3554
+    }
+  },
+  {
+    "featureId": "potion-merchant-17",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -493,
+      "y": 47,
+      "z": -4950
+    }
+  },
+  {
+    "featureId": "potion-merchant-18",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -272,
+      "y": 28,
+      "z": -1046
+    }
+  },
+  {
+    "featureId": "potion-merchant-19",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -267,
+      "y": 103,
+      "z": -4455
+    }
+  },
+  {
+    "featureId": "potion-merchant-20",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -221,
+      "y": 55,
+      "z": -1813
+    }
+  },
+  {
+    "featureId": "potion-merchant-21",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -189,
+      "y": 28,
+      "z": -321
+    }
+  },
+  {
+    "featureId": "potion-merchant-22",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -177,
+      "y": 79,
+      "z": -1618
+    }
+  },
+  {
+    "featureId": "potion-merchant-23",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": -12,
+      "y": 76,
+      "z": -1135
+    }
+  },
+  {
+    "featureId": "potion-merchant-24",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 93,
+      "y": 66,
+      "z": -3167
+    }
+  },
+  {
+    "featureId": "potion-merchant-25",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 114,
+      "y": 40,
+      "z": -2172
+    }
+  },
+  {
+    "featureId": "potion-merchant-26",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 125,
+      "y": 73,
+      "z": -781
+    }
+  },
+  {
+    "featureId": "potion-merchant-27",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 136,
+      "y": 83,
+      "z": -662
+    }
+  },
+  {
+    "featureId": "potion-merchant-28",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 215,
+      "y": 29,
+      "z": -5219
+    }
+  },
+  {
+    "featureId": "potion-merchant-29",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 284,
+      "y": 16,
+      "z": -1961
+    }
+  },
+  {
+    "featureId": "potion-merchant-30",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 452,
+      "y": 67,
+      "z": -1595
+    }
+  },
+  {
+    "featureId": "potion-merchant-31",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 743,
+      "y": 164,
+      "z": -4447
+    }
+  },
+  {
+    "featureId": "potion-merchant-32",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 807,
+      "y": 75,
+      "z": -5108
+    }
+  },
+  {
+    "featureId": "potion-merchant-33",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 862,
+      "y": 45,
+      "z": -2874
+    }
+  },
+  {
+    "featureId": "potion-merchant-34",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 922,
+      "y": 114,
+      "z": -5489
+    }
+  },
+  {
+    "featureId": "potion-merchant-35",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 923,
+      "y": 67,
+      "z": -1955
+    }
+  },
+  {
+    "featureId": "potion-merchant-36",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 992,
+      "y": 38,
+      "z": -3533
+    }
+  },
+  {
+    "featureId": "potion-merchant-37",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1014,
+      "y": 77,
+      "z": -682
+    }
+  },
+  {
+    "featureId": "potion-merchant-38",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1099,
+      "y": 13,
+      "z": -5207
+    }
+  },
+  {
+    "featureId": "potion-merchant-39",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1121,
+      "y": 107,
+      "z": -4549
+    }
+  },
+  {
+    "featureId": "potion-merchant-40",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1267,
+      "y": 31,
+      "z": -1322
+    }
+  },
+  {
+    "featureId": "potion-merchant-41",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1278,
+      "y": 87,
+      "z": -749
+    }
+  },
+  {
+    "featureId": "potion-merchant-42",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1377,
+      "y": 143,
+      "z": -5285
+    }
+  },
+  {
+    "featureId": "potion-merchant-43",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1413,
+      "y": 94,
+      "z": -1838
+    }
+  },
+  {
+    "featureId": "potion-merchant-44",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 1480,
+      "y": 45,
+      "z": -5275
+    }
+  },
+  {
+    "featureId": "potion-merchant-45",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
+      "x": 18888,
+      "y": 24,
+      "z": -1114
+    }
+  },
+  {
+    "featureId": "powder-master-0",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -1847,
+      "y": 58,
+      "z": -4560
+    }
+  },
+  {
+    "featureId": "powder-master-1",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -1759,
+      "y": 67,
+      "z": -5507
+    }
+  },
+  {
+    "featureId": "powder-master-2",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -1599,
+      "y": 69,
+      "z": -2871
+    }
+  },
+  {
+    "featureId": "powder-master-3",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -1157,
+      "y": 67,
+      "z": -2382
+    }
+  },
+  {
+    "featureId": "powder-master-4",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -1000,
+      "y": 46,
+      "z": -5311
+    }
+  },
+  {
+    "featureId": "powder-master-5",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -835,
+      "y": 79,
+      "z": -942
+    }
+  },
+  {
+    "featureId": "powder-master-6",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -658,
+      "y": 39,
+      "z": -3064
+    }
+  },
+  {
+    "featureId": "powder-master-7",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -654,
+      "y": 55,
+      "z": -3070
+    }
+  },
+  {
+    "featureId": "powder-master-8",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -463,
+      "y": 48,
+      "z": -4957
+    }
+  },
+  {
+    "featureId": "powder-master-9",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -309,
+      "y": 44,
+      "z": -1149
+    }
+  },
+  {
+    "featureId": "powder-master-10",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -264,
+      "y": 105,
+      "z": -4432
+    }
+  },
+  {
+    "featureId": "powder-master-11",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": -162,
+      "y": 82,
+      "z": -1615
+    }
+  },
+  {
+    "featureId": "powder-master-12",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 127,
+      "y": 74,
+      "z": -774
+    }
+  },
+  {
+    "featureId": "powder-master-13",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 135,
+      "y": 68,
+      "z": -3188
+    }
+  },
+  {
+    "featureId": "powder-master-14",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 185,
+      "y": 42,
+      "z": -2173
+    }
+  },
+  {
+    "featureId": "powder-master-15",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 208,
+      "y": 31,
+      "z": -5226
+    }
+  },
+  {
+    "featureId": "powder-master-16",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 493,
+      "y": 68,
+      "z": -1621
+    }
+  },
+  {
+    "featureId": "powder-master-17",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 752,
+      "y": 166,
+      "z": -4448
+    }
+  },
+  {
+    "featureId": "powder-master-18",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 782,
+      "y": 77,
+      "z": -5069
+    }
+  },
+  {
+    "featureId": "powder-master-19",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 948,
+      "y": 76,
+      "z": -1925
+    }
+  },
+  {
+    "featureId": "powder-master-20",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 966,
+      "y": 81,
+      "z": -717
+    }
+  },
+  {
+    "featureId": "powder-master-21",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 968,
+      "y": 112,
+      "z": -4541
+    }
+  },
+  {
+    "featureId": "powder-master-22",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 1066,
+      "y": 20,
+      "z": -5154
+    }
+  },
+  {
+    "featureId": "powder-master-23",
+    "categoryId": "wynntils:service:powder-master",
+    "location": {
+      "x": 18918,
+      "y": 25,
+      "z": -1121
+    }
+  },
+  {
+    "featureId": "scribing-station-0",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -2138,
+      "y": 52,
+      "z": -4577
+    }
+  },
+  {
+    "featureId": "scribing-station-1",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -1985,
+      "y": 76,
+      "z": -4450
+    }
+  },
+  {
+    "featureId": "scribing-station-2",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -1726,
+      "y": 65,
+      "z": -5502
+    }
+  },
+  {
+    "featureId": "scribing-station-3",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -1577,
+      "y": 67,
+      "z": -2979
+    }
+  },
+  {
+    "featureId": "scribing-station-4",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -1416,
+      "y": 42,
+      "z": -4718
+    }
+  },
+  {
+    "featureId": "scribing-station-5",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -1032,
+      "y": 41,
+      "z": -4999
+    }
+  },
+  {
+    "featureId": "scribing-station-6",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -852,
+      "y": 75,
+      "z": -904
+    }
+  },
+  {
+    "featureId": "scribing-station-7",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -830,
+      "y": 66,
+      "z": -1495
+    }
+  },
+  {
+    "featureId": "scribing-station-8",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -758,
+      "y": 78,
+      "z": -666
+    }
+  },
+  {
+    "featureId": "scribing-station-9",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -451,
+      "y": 46,
+      "z": -4955
+    }
+  },
+  {
+    "featureId": "scribing-station-10",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -257,
+      "y": 102,
+      "z": -4397
+    }
+  },
+  {
+    "featureId": "scribing-station-11",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": -210,
+      "y": 27,
+      "z": -323
+    }
+  },
+  {
+    "featureId": "scribing-station-12",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 18,
+      "y": 74,
+      "z": -1181
+    }
+  },
+  {
+    "featureId": "scribing-station-13",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 32,
+      "y": 39,
+      "z": -2184
+    }
+  },
+  {
+    "featureId": "scribing-station-14",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 107,
+      "y": 72,
+      "z": -791
+    }
+  },
+  {
+    "featureId": "scribing-station-15",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 116,
+      "y": 65,
+      "z": -3196
+    }
+  },
+  {
+    "featureId": "scribing-station-16",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 226,
+      "y": 28,
+      "z": -5265
+    }
+  },
+  {
+    "featureId": "scribing-station-17",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 460,
+      "y": 66,
+      "z": -1598
+    }
+  },
+  {
+    "featureId": "scribing-station-18",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 700,
+      "y": 72,
+      "z": -2095
+    }
+  },
+  {
+    "featureId": "scribing-station-19",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 737,
+      "y": 163,
+      "z": -4414
+    }
+  },
+  {
+    "featureId": "scribing-station-20",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 792,
+      "y": 70,
+      "z": -1587
+    }
+  },
+  {
+    "featureId": "scribing-station-21",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 802,
+      "y": 74,
+      "z": -5104
+    }
+  },
+  {
+    "featureId": "scribing-station-22",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 881,
+      "y": 66,
+      "z": -1944
+    }
+  },
+  {
+    "featureId": "scribing-station-23",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 997,
+      "y": 79,
+      "z": -738
+    }
+  },
+  {
+    "featureId": "scribing-station-24",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 1021,
+      "y": 111,
+      "z": -4539
+    }
+  },
+  {
+    "featureId": "scribing-station-25",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 1078,
+      "y": 17,
+      "z": -5142
+    }
+  },
+  {
+    "featureId": "scribing-station-26",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 1320,
+      "y": 30,
+      "z": -1339
+    }
+  },
+  {
+    "featureId": "scribing-station-27",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 1321,
+      "y": 34,
+      "z": -4089
+    }
+  },
+  {
+    "featureId": "scribing-station-28",
+    "categoryId": "wynntils:service:profession:scribing",
+    "location": {
+      "x": 1426,
+      "y": 63,
+      "z": -5249
+    }
+  },
+  {
+    "featureId": "scroll-merchant-0",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -2136,
+      "y": 53,
+      "z": -4563
+    }
+  },
+  {
+    "featureId": "scroll-merchant-1",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -1725,
+      "y": 66,
+      "z": -5529
+    }
+  },
+  {
+    "featureId": "scroll-merchant-2",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -1632,
+      "y": 68,
+      "z": -2910
+    }
+  },
+  {
+    "featureId": "scroll-merchant-3",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -1431,
+      "y": 42,
+      "z": -4718
+    }
+  },
+  {
+    "featureId": "scroll-merchant-4",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -1175,
+      "y": 65,
+      "z": -2419
+    }
+  },
+  {
+    "featureId": "scroll-merchant-5",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -993,
+      "y": 47,
+      "z": -5289
+    }
+  },
+  {
+    "featureId": "scroll-merchant-6",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -879,
+      "y": 77,
+      "z": -895
+    }
+  },
+  {
+    "featureId": "scroll-merchant-7",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -816,
+      "y": 67,
+      "z": -1561
+    }
+  },
+  {
+    "featureId": "scroll-merchant-8",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -691,
+      "y": 38,
+      "z": -3116
+    }
+  },
+  {
+    "featureId": "scroll-merchant-9",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -690,
+      "y": 53,
+      "z": -3110
+    }
+  },
+  {
+    "featureId": "scroll-merchant-10",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -456,
+      "y": 47,
+      "z": -4957
+    }
+  },
+  {
+    "featureId": "scroll-merchant-11",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -300,
+      "y": 43,
+      "z": -1141
+    }
+  },
+  {
+    "featureId": "scroll-merchant-12",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": -253,
+      "y": 103,
+      "z": -4395
+    }
+  },
+  {
+    "featureId": "scroll-merchant-13",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 87,
+      "y": 66,
+      "z": -3189
+    }
+  },
+  {
+    "featureId": "scroll-merchant-14",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 116,
+      "y": 73,
+      "z": -813
+    }
+  },
+  {
+    "featureId": "scroll-merchant-15",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 123,
+      "y": 39,
+      "z": -2208
+    }
+  },
+  {
+    "featureId": "scroll-merchant-16",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 226,
+      "y": 29,
+      "z": -5268
+    }
+  },
+  {
+    "featureId": "scroll-merchant-17",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 478,
+      "y": 67,
+      "z": -1537
+    }
+  },
+  {
+    "featureId": "scroll-merchant-18",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 737,
+      "y": 164,
+      "z": -4417
+    }
+  },
+  {
+    "featureId": "scroll-merchant-19",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 797,
+      "y": 75,
+      "z": -5110
+    }
+  },
+  {
+    "featureId": "scroll-merchant-20",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 876,
+      "y": 46,
+      "z": -2858
+    }
+  },
+  {
+    "featureId": "scroll-merchant-21",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 931,
+      "y": 75,
+      "z": -1923
+    }
+  },
+  {
+    "featureId": "scroll-merchant-22",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 953,
+      "y": 118,
+      "z": -4593
+    }
+  },
+  {
+    "featureId": "scroll-merchant-23",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 969,
+      "y": 73,
+      "z": -667
+    }
+  },
+  {
+    "featureId": "scroll-merchant-24",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 1004,
+      "y": 109,
+      "z": -5464
+    }
+  },
+  {
+    "featureId": "scroll-merchant-25",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 1034,
+      "y": 18,
+      "z": -5120
+    }
+  },
+  {
+    "featureId": "scroll-merchant-26",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 1324,
+      "y": 31,
+      "z": -1346
+    }
+  },
+  {
+    "featureId": "scroll-merchant-27",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 1476,
+      "y": 44,
+      "z": -5309
+    }
+  },
+  {
+    "featureId": "scroll-merchant-28",
+    "categoryId": "wynntils:service:merchant:scroll",
+    "location": {
+      "x": 18925,
+      "y": 24,
+      "z": -1121
+    }
+  },
+  {
+    "featureId": "seaskipper-0",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -1942,
+      "y": 36,
+      "z": -4220
+    }
+  },
+  {
+    "featureId": "seaskipper-1",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -1075,
+      "y": 36,
+      "z": -3787
+    }
+  },
+  {
+    "featureId": "seaskipper-2",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -690,
+      "y": 36,
+      "z": -3154
+    }
+  },
+  {
+    "featureId": "seaskipper-3",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -589,
+      "y": 36,
+      "z": -3601
+    }
+  },
+  {
+    "featureId": "seaskipper-4",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -520,
+      "y": 36,
+      "z": -2673
+    }
+  },
+  {
+    "featureId": "seaskipper-5",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -292,
+      "y": 36,
+      "z": -2504
+    }
+  },
+  {
+    "featureId": "seaskipper-6",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -260,
+      "y": 36,
+      "z": -3970
+    }
+  },
+  {
+    "featureId": "seaskipper-7",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": -45,
+      "y": 36,
+      "z": -2519
+    }
+  },
+  {
+    "featureId": "seaskipper-8",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 69,
+      "y": 67,
+      "z": -923
+    }
+  },
+  {
+    "featureId": "seaskipper-9",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 98,
+      "y": 36,
+      "z": -3062
+    }
+  },
+  {
+    "featureId": "seaskipper-10",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 146,
+      "y": 36,
+      "z": -3806
+    }
+  },
+  {
+    "featureId": "seaskipper-11",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 189,
+      "y": 36,
+      "z": -2273
+    }
+  },
+  {
+    "featureId": "seaskipper-12",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 437,
+      "y": 36,
+      "z": -2958
+    }
+  },
+  {
+    "featureId": "seaskipper-13",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 569,
+      "y": 36,
+      "z": -3721
+    }
+  },
+  {
+    "featureId": "seaskipper-14",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 713,
+      "y": 36,
+      "z": -3382
+    }
+  },
+  {
+    "featureId": "seaskipper-15",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 770,
+      "y": 36,
+      "z": -3858
+    }
+  },
+  {
+    "featureId": "seaskipper-16",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 857,
+      "y": 36,
+      "z": -2824
+    }
+  },
+  {
+    "featureId": "seaskipper-17",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 1081,
+      "y": 36,
+      "z": -2535
+    }
+  },
+  {
+    "featureId": "seaskipper-18",
+    "categoryId": "wynntils:service:seaskipper",
+    "location": {
+      "x": 1261,
+      "y": 36,
+      "z": -4087
+    }
+  },
+  {
+    "featureId": "tailoring-station-0",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -2003,
+      "y": 76,
+      "z": -4496
+    }
+  },
+  {
+    "featureId": "tailoring-station-1",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -1929,
+      "y": 76,
+      "z": -4483
+    }
+  },
+  {
+    "featureId": "tailoring-station-2",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -1751,
+      "y": 65,
+      "z": -5493
+    }
+  },
+  {
+    "featureId": "tailoring-station-3",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -1640,
+      "y": 67,
+      "z": -2913
+    }
+  },
+  {
+    "featureId": "tailoring-station-4",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -1608,
+      "y": 67,
+      "z": -2978
+    }
+  },
+  {
+    "featureId": "tailoring-station-5",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -1402,
+      "y": 42,
+      "z": -4704
+    }
+  },
+  {
+    "featureId": "tailoring-station-6",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -1010,
+      "y": 46,
+      "z": -5287
+    }
+  },
+  {
+    "featureId": "tailoring-station-7",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -877,
+      "y": 75,
+      "z": -912
+    }
+  },
+  {
+    "featureId": "tailoring-station-8",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -848,
+      "y": 66,
+      "z": -1495
+    }
+  },
+  {
+    "featureId": "tailoring-station-9",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -553,
+      "y": 48,
+      "z": -1920
+    }
+  },
+  {
+    "featureId": "tailoring-station-10",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -455,
+      "y": 48,
+      "z": -4929
+    }
+  },
+  {
+    "featureId": "tailoring-station-11",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -305,
+      "y": 102,
+      "z": -4415
+    }
+  },
+  {
+    "featureId": "tailoring-station-12",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": -23,
+      "y": 73,
+      "z": -1165
+    }
+  },
+  {
+    "featureId": "tailoring-station-13",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 104,
+      "y": 72,
+      "z": -772
+    }
+  },
+  {
+    "featureId": "tailoring-station-14",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 116,
+      "y": 65,
+      "z": -3167
+    }
+  },
+  {
+    "featureId": "tailoring-station-15",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 142,
+      "y": 39,
+      "z": -2181
+    }
+  },
+  {
+    "featureId": "tailoring-station-16",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 208,
+      "y": 28,
+      "z": -5253
+    }
+  },
+  {
+    "featureId": "tailoring-station-17",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 466,
+      "y": 66,
+      "z": -1607
+    }
+  },
+  {
+    "featureId": "tailoring-station-18",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 694,
+      "y": 69,
+      "z": -2069
+    }
+  },
+  {
+    "featureId": "tailoring-station-19",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 737,
+      "y": 163,
+      "z": -4431
+    }
+  },
+  {
+    "featureId": "tailoring-station-20",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 793,
+      "y": 71,
+      "z": -1611
+    }
+  },
+  {
+    "featureId": "tailoring-station-21",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 819,
+      "y": 74,
+      "z": -5087
+    }
+  },
+  {
+    "featureId": "tailoring-station-22",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 882,
+      "y": 66,
+      "z": -1935
+    }
+  },
+  {
+    "featureId": "tailoring-station-23",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 965,
+      "y": 72,
+      "z": -663
+    }
+  },
+  {
+    "featureId": "tailoring-station-24",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 1057,
+      "y": 19,
+      "z": -5152
+    }
+  },
+  {
+    "featureId": "tailoring-station-25",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 1108,
+      "y": 101,
+      "z": -4558
+    }
+  },
+  {
+    "featureId": "tailoring-station-26",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 1298,
+      "y": 31,
+      "z": -1241
+    }
+  },
+  {
+    "featureId": "tailoring-station-27",
+    "categoryId": "wynntils:service:profession:tailoring",
+    "location": {
+      "x": 1432,
+      "y": 63,
+      "z": -5248
+    }
+  },
+  {
+    "featureId": "tool-merchant-0",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1952,
+      "y": 57,
+      "z": -5411
+    }
+  },
+  {
+    "featureId": "tool-merchant-1",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1828,
+      "y": 117,
+      "z": -3120
+    }
+  },
+  {
+    "featureId": "tool-merchant-2",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1821,
+      "y": 50,
+      "z": -2960
+    }
+  },
+  {
+    "featureId": "tool-merchant-3",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1764,
+      "y": 56,
+      "z": -5305
+    }
+  },
+  {
+    "featureId": "tool-merchant-4",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1725,
+      "y": 48,
+      "z": -4778
+    }
+  },
+  {
+    "featureId": "tool-merchant-5",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1708,
+      "y": 53,
+      "z": -4597
+    }
+  },
+  {
+    "featureId": "tool-merchant-6",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1683,
+      "y": 37,
+      "z": -2379
+    }
+  },
+  {
+    "featureId": "tool-merchant-7",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1646,
+      "y": 77,
+      "z": -4325
+    }
+  },
+  {
+    "featureId": "tool-merchant-8",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1638,
+      "y": 40,
+      "z": -3453
+    }
+  },
+  {
+    "featureId": "tool-merchant-9",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1614,
+      "y": 69,
+      "z": -3087
+    }
+  },
+  {
+    "featureId": "tool-merchant-10",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1521,
+      "y": 79,
+      "z": -2434
+    }
+  },
+  {
+    "featureId": "tool-merchant-11",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1372,
+      "y": 92,
+      "z": -2633
+    }
+  },
+  {
+    "featureId": "tool-merchant-12",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1313,
+      "y": 73,
+      "z": -3135
+    }
+  },
+  {
+    "featureId": "tool-merchant-13",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1280,
+      "y": 81,
+      "z": -3168
+    }
+  },
+  {
+    "featureId": "tool-merchant-14",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1230,
+      "y": 44,
+      "z": -4674
+    }
+  },
+  {
+    "featureId": "tool-merchant-15",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1227,
+      "y": 43,
+      "z": -5390
+    }
+  },
+  {
+    "featureId": "tool-merchant-16",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -1049,
+      "y": 52,
+      "z": -5273
+    }
+  },
+  {
+    "featureId": "tool-merchant-17",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -993,
+      "y": 37,
+      "z": -3751
+    }
+  },
+  {
+    "featureId": "tool-merchant-18",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -774,
+      "y": 23,
+      "z": -534
+    }
+  },
+  {
+    "featureId": "tool-merchant-19",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -739,
+      "y": 44,
+      "z": -4897
+    }
+  },
+  {
+    "featureId": "tool-merchant-20",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -733,
+      "y": 62,
+      "z": -838
+    }
+  },
+  {
+    "featureId": "tool-merchant-21",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -707,
+      "y": 43,
+      "z": -4838
+    }
+  },
+  {
+    "featureId": "tool-merchant-22",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -655,
+      "y": 105,
+      "z": -1244
+    }
+  },
+  {
+    "featureId": "tool-merchant-23",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -649,
+      "y": 67,
+      "z": -1599
+    }
+  },
+  {
+    "featureId": "tool-merchant-24",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -602,
+      "y": 58,
+      "z": -830
+    }
+  },
+  {
+    "featureId": "tool-merchant-25",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -589,
+      "y": 64,
+      "z": -711
+    }
+  },
+  {
+    "featureId": "tool-merchant-26",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -578,
+      "y": 46,
+      "z": -1948
+    }
+  },
+  {
+    "featureId": "tool-merchant-27",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -575,
+      "y": 102,
+      "z": -1300
+    }
+  },
+  {
+    "featureId": "tool-merchant-28",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -548,
+      "y": 41,
+      "z": -423
+    }
+  },
+  {
+    "featureId": "tool-merchant-29",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -547,
+      "y": 112,
+      "z": -4427
+    }
+  },
+  {
+    "featureId": "tool-merchant-30",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -344,
+      "y": 40,
+      "z": -2454
+    }
+  },
+  {
+    "featureId": "tool-merchant-31",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -323,
+      "y": 37,
+      "z": -4630
+    }
+  },
+  {
+    "featureId": "tool-merchant-32",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -263,
+      "y": 35,
+      "z": -5357
+    }
+  },
+  {
+    "featureId": "tool-merchant-33",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -219,
+      "y": 67,
+      "z": -915
+    }
+  },
+  {
+    "featureId": "tool-merchant-34",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -168,
+      "y": 39,
+      "z": -2208
+    }
+  },
+  {
+    "featureId": "tool-merchant-35",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -122,
+      "y": 71,
+      "z": -1175
+    }
+  },
+  {
+    "featureId": "tool-merchant-36",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -83,
+      "y": 71,
+      "z": -894
+    }
+  },
+  {
+    "featureId": "tool-merchant-37",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -83,
+      "y": 68,
+      "z": -787
+    }
+  },
+  {
+    "featureId": "tool-merchant-38",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": -43,
+      "y": 72,
+      "z": -1155
+    }
+  },
+  {
+    "featureId": "tool-merchant-39",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 20,
+      "y": 38,
+      "z": -2203
+    }
+  },
+  {
+    "featureId": "tool-merchant-40",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 55,
+      "y": 72,
+      "z": -695
+    }
+  },
+  {
+    "featureId": "tool-merchant-41",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 76,
+      "y": 50,
+      "z": -2024
+    }
+  },
+  {
+    "featureId": "tool-merchant-42",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 91,
+      "y": 44,
+      "z": -4669
+    }
+  },
+  {
+    "featureId": "tool-merchant-43",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 108,
+      "y": 35,
+      "z": -3094
+    }
+  },
+  {
+    "featureId": "tool-merchant-44",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 159,
+      "y": 73,
+      "z": -1002
+    }
+  },
+  {
+    "featureId": "tool-merchant-45",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 165,
+      "y": 69,
+      "z": -1535
+    }
+  },
+  {
+    "featureId": "tool-merchant-46",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 182,
+      "y": 68,
+      "z": -1608
+    }
+  },
+  {
+    "featureId": "tool-merchant-47",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 217,
+      "y": 45,
+      "z": -2041
+    }
+  },
+  {
+    "featureId": "tool-merchant-48",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 241,
+      "y": 79,
+      "z": -4988
+    }
+  },
+  {
+    "featureId": "tool-merchant-49",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 243,
+      "y": 94,
+      "z": -4575
+    }
+  },
+  {
+    "featureId": "tool-merchant-50",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 296,
+      "y": 81,
+      "z": -1077
+    }
+  },
+  {
+    "featureId": "tool-merchant-51",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 423,
+      "y": 28,
+      "z": -4929
+    }
+  },
+  {
+    "featureId": "tool-merchant-52",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 523,
+      "y": 31,
+      "z": -5409
+    }
+  },
+  {
+    "featureId": "tool-merchant-53",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 530,
+      "y": 29,
+      "z": -4991
+    }
+  },
+  {
+    "featureId": "tool-merchant-54",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 543,
+      "y": 67,
+      "z": -1353
+    }
+  },
+  {
+    "featureId": "tool-merchant-55",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 589,
+      "y": 66,
+      "z": -1951
+    }
+  },
+  {
+    "featureId": "tool-merchant-56",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 725,
+      "y": 61,
+      "z": -1443
+    }
+  },
+  {
+    "featureId": "tool-merchant-57",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 738,
+      "y": 45,
+      "z": -5444
+    }
+  },
+  {
+    "featureId": "tool-merchant-58",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 765,
+      "y": 78,
+      "z": -1852
+    }
+  },
+  {
+    "featureId": "tool-merchant-59",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 849,
+      "y": 63,
+      "z": -4630
+    }
+  },
+  {
+    "featureId": "tool-merchant-60",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 976,
+      "y": 133,
+      "z": -4883
+    }
+  },
+  {
+    "featureId": "tool-merchant-61",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 985,
+      "y": 8,
+      "z": -5032
+    }
+  },
+  {
+    "featureId": "tool-merchant-62",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1002,
+      "y": 38,
+      "z": -3491
+    }
+  },
+  {
+    "featureId": "tool-merchant-63",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1020,
+      "y": 43,
+      "z": -4925
+    }
+  },
+  {
+    "featureId": "tool-merchant-64",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1100,
+      "y": 114,
+      "z": -4439
+    }
+  },
+  {
+    "featureId": "tool-merchant-65",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1125,
+      "y": 34,
+      "z": -3097
+    }
+  },
+  {
+    "featureId": "tool-merchant-66",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1143,
+      "y": 77,
+      "z": -1997
+    }
+  },
+  {
+    "featureId": "tool-merchant-67",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1203,
+      "y": 31,
+      "z": -1472
+    }
+  },
+  {
+    "featureId": "tool-merchant-68",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1215,
+      "y": 77,
+      "z": -1738
+    }
+  },
+  {
+    "featureId": "tool-merchant-69",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1243,
+      "y": 117,
+      "z": -1371
+    }
+  },
+  {
+    "featureId": "tool-merchant-70",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1280,
+      "y": 148,
+      "z": -4648
+    }
+  },
+  {
+    "featureId": "tool-merchant-71",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1343,
+      "y": 31,
+      "z": -1418
+    }
+  },
+  {
+    "featureId": "tool-merchant-72",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1358,
+      "y": 83,
+      "z": -2070
+    }
+  },
+  {
+    "featureId": "tool-merchant-73",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1359,
+      "y": 9,
+      "z": -5168
+    }
+  },
+  {
+    "featureId": "tool-merchant-74",
+    "categoryId": "wynntils:service:merchant:tool",
+    "location": {
+      "x": 1446,
+      "y": 40,
+      "z": -5272
+    }
+  },
+  {
+    "featureId": "trade-market-0",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": -2024,
+      "y": 78,
+      "z": -4479
+    }
+  },
+  {
+    "featureId": "trade-market-1",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": -1624,
+      "y": 70,
+      "z": -2933
+    }
+  },
+  {
+    "featureId": "trade-market-2",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": -874,
+      "y": 81,
+      "z": -964
+    }
+  },
+  {
+    "featureId": "trade-market-3",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": -456,
+      "y": 49,
+      "z": -4949
+    }
+  },
+  {
+    "featureId": "trade-market-4",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": 105,
+      "y": 67,
+      "z": -3194
+    }
+  },
+  {
+    "featureId": "trade-market-5",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": 502,
+      "y": 69,
+      "z": -1570
+    }
+  },
+  {
+    "featureId": "trade-market-6",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": 816,
+      "y": 77,
+      "z": -5079
+    }
+  },
+  {
+    "featureId": "trade-market-7",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": 997,
+      "y": 76,
+      "z": -713
+    }
+  },
+  {
+    "featureId": "trade-market-8",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": 1001,
+      "y": 114,
+      "z": -4566
+    }
+  },
+  {
+    "featureId": "trade-market-9",
+    "categoryId": "wynntils:service:trade-market",
+    "location": {
+      "x": 1058,
+      "y": 19,
+      "z": -5121
+    }
+  },
+  {
+    "featureId": "weapon-merchant-0",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -1873,
+      "y": 53,
+      "z": -4567
+    }
+  },
+  {
+    "featureId": "weapon-merchant-1",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -1769,
+      "y": 66,
+      "z": -5527
+    }
+  },
+  {
+    "featureId": "weapon-merchant-2",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -1626,
+      "y": 69,
+      "z": -2970
+    }
+  },
+  {
+    "featureId": "weapon-merchant-3",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -1027,
+      "y": 47,
+      "z": -5298
+    }
+  },
+  {
+    "featureId": "weapon-merchant-4",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -859,
+      "y": 78,
+      "z": -944
+    }
+  },
+  {
+    "featureId": "weapon-merchant-5",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -808,
+      "y": 68,
+      "z": -1596
+    }
+  },
+  {
+    "featureId": "weapon-merchant-6",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -728,
+      "y": 65,
+      "z": -1020
+    }
+  },
+  {
+    "featureId": "weapon-merchant-7",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -623,
+      "y": 53,
+      "z": -3081
+    }
+  },
+  {
+    "featureId": "weapon-merchant-8",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -618,
+      "y": 38,
+      "z": -3078
+    }
+  },
+  {
+    "featureId": "weapon-merchant-9",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -462,
+      "y": 49,
+      "z": -4900
+    }
+  },
+  {
+    "featureId": "weapon-merchant-10",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -191,
+      "y": 37,
+      "z": -4052
+    }
+  },
+  {
+    "featureId": "weapon-merchant-11",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -188,
+      "y": 37,
+      "z": -4051
+    }
+  },
+  {
+    "featureId": "weapon-merchant-12",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": -182,
+      "y": 37,
+      "z": -4061
+    }
+  },
+  {
+    "featureId": "weapon-merchant-13",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 115,
+      "y": 73,
+      "z": -790
+    }
+  },
+  {
+    "featureId": "weapon-merchant-14",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 116,
+      "y": 44,
+      "z": -2152
+    }
+  },
+  {
+    "featureId": "weapon-merchant-15",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 135,
+      "y": 66,
+      "z": -3159
+    }
+  },
+  {
+    "featureId": "weapon-merchant-16",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 250,
+      "y": 29,
+      "z": -5259
+    }
+  },
+  {
+    "featureId": "weapon-merchant-17",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 507,
+      "y": 67,
+      "z": -1594
+    }
+  },
+  {
+    "featureId": "weapon-merchant-18",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 739,
+      "y": 73,
+      "z": -2085
+    }
+  },
+  {
+    "featureId": "weapon-merchant-19",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 767,
+      "y": 75,
+      "z": -5096
+    }
+  },
+  {
+    "featureId": "weapon-merchant-20",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 783,
+      "y": 59,
+      "z": -3334
+    }
+  },
+  {
+    "featureId": "weapon-merchant-21",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 925,
+      "y": 110,
+      "z": -4543
+    }
+  },
+  {
+    "featureId": "weapon-merchant-22",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 962,
+      "y": 67,
+      "z": -1966
+    }
+  },
+  {
+    "featureId": "weapon-merchant-23",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 994,
+      "y": 38,
+      "z": -3496
+    }
+  },
+  {
+    "featureId": "weapon-merchant-24",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 1130,
+      "y": 13,
+      "z": -5096
+    }
+  },
+  {
+    "featureId": "weapon-merchant-25",
+    "categoryId": "wynntils:service:merchant:weapon",
+    "location": {
+      "x": 1262,
+      "y": 31,
+      "z": -1362
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-0",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1982,
+      "y": 76,
+      "z": -4493
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-1",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1869,
+      "y": 52,
+      "z": -4574
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-2",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1753,
+      "y": 65,
+      "z": -5499
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-3",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1602,
+      "y": 67,
+      "z": -2955
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-4",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1406,
+      "y": 42,
+      "z": -4711
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-5",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1048,
+      "y": 41,
+      "z": -4982
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-6",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -863,
+      "y": 75,
+      "z": -904
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-7",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -854,
+      "y": 77,
+      "z": -940
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-8",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -846,
+      "y": 66,
+      "z": -1488
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-9",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -724,
+      "y": 89,
+      "z": -635
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-10",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -573,
+      "y": 47,
+      "z": -1933
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-11",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -456,
+      "y": 46,
+      "z": -4936
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-12",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -302,
+      "y": 102,
+      "z": -4463
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-13",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": -1,
+      "y": 74,
+      "z": -1195
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-14",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 108,
+      "y": 72,
+      "z": -785
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-15",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 120,
+      "y": 43,
+      "z": -2138
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-16",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 130,
+      "y": 65,
+      "z": -3156
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-17",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 238,
+      "y": 28,
+      "z": -5254
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-18",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 481,
+      "y": 66,
+      "z": -1591
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-19",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 726,
+      "y": 60,
+      "z": -1447
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-20",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 731,
+      "y": 69,
+      "z": -2089
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-21",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 735,
+      "y": 60,
+      "z": -1451
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-22",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 760,
+      "y": 163,
+      "z": -4440
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-23",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 802,
+      "y": 74,
+      "z": -5081
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-24",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 905,
+      "y": 121,
+      "z": -5570
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-25",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 953,
+      "y": 66,
+      "z": -1960
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-26",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 986,
+      "y": 72,
+      "z": -663
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-27",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 1000,
+      "y": 111,
+      "z": -4542
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-28",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 1070,
+      "y": 17,
+      "z": -5147
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-29",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 1267,
+      "y": 30,
+      "z": -1353
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-30",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 1319,
+      "y": 34,
+      "z": -4100
+    }
+  },
+  {
+    "featureId": "weaponsmithing-station-31",
+    "categoryId": "wynntils:service:profession:weaponsmithing",
+    "location": {
+      "x": 1466,
+      "y": 57,
+      "z": -5251
+    }
+  },
+  {
+    "featureId": "woodworking-station-0",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -1993,
+      "y": 76,
+      "z": -4496
+    }
+  },
+  {
+    "featureId": "woodworking-station-1",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -1717,
+      "y": 65,
+      "z": -5541
+    }
+  },
+  {
+    "featureId": "woodworking-station-2",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -1600,
+      "y": 67,
+      "z": -2983
+    }
+  },
+  {
+    "featureId": "woodworking-station-3",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -1408,
+      "y": 42,
+      "z": -4704
+    }
+  },
+  {
+    "featureId": "woodworking-station-4",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -1086,
+      "y": 41,
+      "z": -4975
+    }
+  },
+  {
+    "featureId": "woodworking-station-5",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -995,
+      "y": 46,
+      "z": -5277
+    }
+  },
+  {
+    "featureId": "woodworking-station-6",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -879,
+      "y": 75,
+      "z": -915
+    }
+  },
+  {
+    "featureId": "woodworking-station-7",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -840,
+      "y": 66,
+      "z": -1495
+    }
+  },
+  {
+    "featureId": "woodworking-station-8",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -747,
+      "y": 81,
+      "z": -655
+    }
+  },
+  {
+    "featureId": "woodworking-station-9",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -573,
+      "y": 47,
+      "z": -1920
+    }
+  },
+  {
+    "featureId": "woodworking-station-10",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -436,
+      "y": 46,
+      "z": -4937
+    }
+  },
+  {
+    "featureId": "woodworking-station-11",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": -287,
+      "y": 102,
+      "z": -4448
+    }
+  },
+  {
+    "featureId": "woodworking-station-12",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 3,
+      "y": 74,
+      "z": -1199
+    }
+  },
+  {
+    "featureId": "woodworking-station-13",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 65,
+      "y": 37,
+      "z": -2213
+    }
+  },
+  {
+    "featureId": "woodworking-station-14",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 102,
+      "y": 72,
+      "z": -781
+    }
+  },
+  {
+    "featureId": "woodworking-station-15",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 116,
+      "y": 35,
+      "z": -3116
+    }
+  },
+  {
+    "featureId": "woodworking-station-16",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 226,
+      "y": 28,
+      "z": -5228
+    }
+  },
+  {
+    "featureId": "woodworking-station-17",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 478,
+      "y": 66,
+      "z": -1572
+    }
+  },
+  {
+    "featureId": "woodworking-station-18",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 702,
+      "y": 69,
+      "z": -2066
+    }
+  },
+  {
+    "featureId": "woodworking-station-19",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 737,
+      "y": 60,
+      "z": -1424
+    }
+  },
+  {
+    "featureId": "woodworking-station-20",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 753,
+      "y": 163,
+      "z": -4427
+    }
+  },
+  {
+    "featureId": "woodworking-station-21",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 778,
+      "y": 74,
+      "z": -5080
+    }
+  },
+  {
+    "featureId": "woodworking-station-22",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 892,
+      "y": 66,
+      "z": -1935
+    }
+  },
+  {
+    "featureId": "woodworking-station-23",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 944,
+      "y": 115,
+      "z": -5509
+    }
+  },
+  {
+    "featureId": "woodworking-station-24",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 960,
+      "y": 72,
+      "z": -668
+    }
+  },
+  {
+    "featureId": "woodworking-station-25",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 1064,
+      "y": 17,
+      "z": -5127
+    }
+  },
+  {
+    "featureId": "woodworking-station-26",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 1112,
+      "y": 100,
+      "z": -4562
+    }
+  },
+  {
+    "featureId": "woodworking-station-27",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 1260,
+      "y": 30,
+      "z": -1350
+    }
+  },
+  {
+    "featureId": "woodworking-station-28",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 1326,
+      "y": 30,
+      "z": -1305
+    }
+  },
+  {
+    "featureId": "woodworking-station-29",
+    "categoryId": "wynntils:service:profession:woodworking",
+    "location": {
+      "x": 1443,
+      "y": 63,
+      "z": -5261
+    }
+  }
+]
