@@ -224,7 +224,7 @@
   {
     "id": "dataStaticServiceMapFeaturesCrowdsourced",
     "md5": "",
-    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/Data-Storage/Reference/service_crowdsourced_mapfeatures.json"
+    "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/Data-Storage/service_crowdsourced_mapfeatures.json"
   },
   {
     "id": "dataStaticServices",
