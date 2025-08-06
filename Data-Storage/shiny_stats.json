@@ -64,5 +64,11 @@
     "key": "worldEventsWon",
     "displayName": "World Events Won",
     "statUnit": "raw"
+  },
+  {
+    "id": 12,
+    "key": "majorWorldEventsWon",
+    "displayName": "Major World Events Won",
+    "statUnit": "raw"
   }
 ]
