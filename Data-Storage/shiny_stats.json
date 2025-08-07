@@ -46,5 +46,29 @@
     "key": "lootrunsCompleted",
     "displayName": "Lootruns Completed",
     "statUnit": "raw"
+  },
+  {
+    "id": 9,
+    "key": "bossAltarsWon",
+    "displayName": "Boss Altars Won",
+    "statUnit": "raw"
+  },
+  {
+    "id": 10,
+    "key": "guildRaidsWon",
+    "displayName": "Guild Raids Won",
+    "statUnit": "raw"
+  },
+  {
+    "id": 11,
+    "key": "worldEventsWon",
+    "displayName": "World Events Won",
+    "statUnit": "raw"
+  },
+  {
+    "id": 12,
+    "key": "majorWorldEventsWon",
+    "displayName": "Major World Events Won",
+    "statUnit": "raw"
   }
 ]
