@@ -14,8 +14,8 @@ if [ ! -s ingredients.json.tmp ]; then
     exit
 fi
 
-# Check if the file is a JSON with a single "message" key
-if jq -e 'length == 1 and has("message")' ingredients.json.tmp > /dev/null; then
+# Check if the file is a JSON with a "message" and "request_id" key
+if jq -e 'length == 2 and has("message") and has("request_id")' ingredients.json.tmp > /dev/null; then
     rm ingredients.json.tmp
     echo "Error: Wynncraft API returned an error message, aborting"
     exit
