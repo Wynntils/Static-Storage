@@ -28,8 +28,8 @@
     "ko_kr": "§#0ce217ff아이템에 마우스를 올리고 {keybind:Screenshot Item}§#0ce217ff를 눌러 스크린샷을 찍으세요."
   },
   {
-    "en_us": "§#0ce217ffPress {keybind:View player's gear}§#0ce217ff on a player to inspect their gear or perform quick actions.",
-    "ko_kr": "§#0ce217ff플레이어에게 {keybind:View player's gear}§#0ce217ff를 눌러 장비를 구경하거나 빠른 작업을 수행하세요."
+    "en_us": "§#0ce217ffPress {keybind:View player's gear}§#0ce217ff on a player to perform quick actions.",
+    "ko_kr": "§#0ce217ff플레이어에게 {keybind:View player's gear}§#0ce217ff를 눌러 빠른 작업을 수행하세요."
   },
   {
     "en_us": "§#b621ceffCreating a Wynntils Account will let you equip custom cosmetics. To create an account, use {wynntils_command:token}§#b621ceff.",
