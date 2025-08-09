@@ -23,8 +23,12 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "6:2"
+      "format": "attribute",
+      "value": {
+        "customModelData": "1072",
+        "id": "minecraft:potion",
+        "name": ""
+      }
     },
     "internalName": "Charm of the Light",
     "raidReward": true,
@@ -63,8 +67,12 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "337:0"
+      "format": "attribute",
+      "value": {
+        "customModelData": "1069",
+        "id": "minecraft:potion",
+        "name": ""
+      }
     },
     "internalName": "Charm of the Stone",
     "raidReward": true,
@@ -97,20 +105,19 @@
       "type": "raid"
     },
     "dropRestriction": "never",
-    "icon": {
-      "format": "legacy",
-      "value": "351:0"
-    },
     "identifications": {
-      "sprint": {
-        "max": 23,
-        "min": 16,
-        "raw": 20
-      },
-      "sprintRegen": {
-        "max": 23,
-        "min": 16,
-        "raw": 20
+      "gatherXpBonus": {
+        "max": 21,
+        "min": 14,
+        "raw": 18
+      }
+    },
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": "1071",
+        "id": "minecraft:potion",
+        "name": ""
       }
     },
     "internalName": "Charm of the Void",
@@ -150,8 +157,12 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "350:1"
+      "format": "attribute",
+      "value": {
+        "customModelData": "1070",
+        "id": "minecraft:potion",
+        "name": ""
+      }
     },
     "internalName": "Charm of the Worm",
     "raidReward": true,

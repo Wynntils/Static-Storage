@@ -14,7 +14,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -55,7 +55,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -96,7 +96,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -129,7 +129,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -161,7 +161,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -197,7 +197,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -230,7 +230,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -271,7 +271,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -312,7 +312,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -344,7 +344,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -385,7 +385,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -426,7 +426,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -467,7 +467,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -508,7 +508,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -549,7 +549,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -590,7 +590,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -623,7 +623,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -656,7 +656,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -692,7 +692,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -728,7 +728,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -764,7 +764,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -800,7 +800,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -836,7 +836,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -872,7 +872,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -913,7 +913,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -949,7 +949,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -982,7 +982,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1018,7 +1018,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1054,7 +1054,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1090,7 +1090,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "87",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.movement"
       }
     },
@@ -1126,7 +1126,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "87",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.movement"
       }
     },
@@ -1162,7 +1162,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -1195,7 +1195,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -1227,7 +1227,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -1263,7 +1263,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -1299,7 +1299,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -1335,7 +1335,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1376,7 +1376,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1417,7 +1417,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -1450,7 +1450,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -1482,7 +1482,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1518,7 +1518,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1554,7 +1554,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1590,7 +1590,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -1631,7 +1631,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -1672,7 +1672,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "86",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.mana"
       }
     },
@@ -1708,7 +1708,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -1741,7 +1741,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -1782,7 +1782,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -1823,7 +1823,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -1855,7 +1855,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1896,7 +1896,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1937,7 +1937,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -1973,7 +1973,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -2009,7 +2009,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -2045,7 +2045,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "87",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.movement"
       }
     },
@@ -2086,7 +2086,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "87",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.movement"
       }
     },
@@ -2127,7 +2127,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
@@ -2160,7 +2160,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "85",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
     },
@@ -2201,7 +2201,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "85",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
     },
@@ -2242,7 +2242,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "85",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
     },
@@ -2283,7 +2283,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "85",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
     },
@@ -2324,7 +2324,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "85",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
     },
@@ -2365,7 +2365,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -2401,7 +2401,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2437,7 +2437,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2473,7 +2473,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2509,7 +2509,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -2545,7 +2545,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2581,7 +2581,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2617,7 +2617,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2653,7 +2653,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2689,7 +2689,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2725,7 +2725,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2761,7 +2761,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2797,7 +2797,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2833,7 +2833,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2869,7 +2869,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2905,7 +2905,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "88",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.utility"
       }
     },
@@ -2941,7 +2941,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "83",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.armour"
       }
     },
@@ -2982,7 +2982,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -3023,7 +3023,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "89",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.weapon"
       }
     },
@@ -3064,7 +3064,7 @@
       "format": "attribute",
       "value": {
         "customModelData": "84",
-        "id": "minecraft:iron_horse_armor",
+        "id": "minecraft:potion",
         "name": "tome.guild"
       }
     },
