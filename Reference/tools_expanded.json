@@ -4,8 +4,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [46]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe1"
       }
     },
@@ -23,8 +23,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "49",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [49]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe10"
       }
     },
@@ -42,8 +42,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "50",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [50]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe11"
       }
     },
@@ -61,8 +61,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "50",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [50]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe12"
       }
     },
@@ -80,8 +80,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [46]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe2"
       }
     },
@@ -99,8 +99,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "46",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [46]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe3"
       }
     },
@@ -118,8 +118,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "47",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [47]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe4"
       }
     },
@@ -137,8 +137,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "47",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [47]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe5"
       }
     },
@@ -156,8 +156,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "47",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [47]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe6"
       }
     },
@@ -175,8 +175,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "48",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [48]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe7"
       }
     },
@@ -194,8 +194,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "48",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [48]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe8"
       }
     },
@@ -213,8 +213,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "49",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [49]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.axe9"
       }
     },
@@ -232,8 +232,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "51",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [51]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe1"
       }
     },
@@ -251,8 +251,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "54",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [54]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe10"
       }
     },
@@ -270,8 +270,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "55",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [55]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe11"
       }
     },
@@ -289,8 +289,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "55",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [55]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe12"
       }
     },
@@ -308,8 +308,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "51",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [51]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe2"
       }
     },
@@ -327,8 +327,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "51",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [51]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe3"
       }
     },
@@ -346,8 +346,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "52",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [52]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe4"
       }
     },
@@ -365,8 +365,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "52",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [52]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe5"
       }
     },
@@ -384,8 +384,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "52",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [52]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe6"
       }
     },
@@ -403,8 +403,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "53",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [53]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe7"
       }
     },
@@ -422,8 +422,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "53",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [53]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe8"
       }
     },
@@ -441,8 +441,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "54",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [54]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.pickaxe9"
       }
     },
@@ -460,8 +460,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "56",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [56]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod1"
       }
     },
@@ -479,8 +479,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "59",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [59]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod10"
       }
     },
@@ -498,8 +498,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "60",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [60]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod11"
       }
     },
@@ -517,8 +517,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "60",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [60]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod12"
       }
     },
@@ -536,8 +536,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "56",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [56]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod2"
       }
     },
@@ -555,8 +555,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "56",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [56]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod3"
       }
     },
@@ -574,8 +574,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "57",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [57]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod4"
       }
     },
@@ -593,8 +593,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "57",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [57]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod5"
       }
     },
@@ -612,8 +612,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "57",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [57]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod6"
       }
     },
@@ -631,8 +631,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "58",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [58]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod7"
       }
     },
@@ -650,8 +650,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "58",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [58]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod8"
       }
     },
@@ -669,8 +669,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "59",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [59]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.rod9"
       }
     },
@@ -688,8 +688,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "61",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [61]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe1"
       }
     },
@@ -707,8 +707,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "64",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [64]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe10"
       }
     },
@@ -726,8 +726,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "65",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [65]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe11"
       }
     },
@@ -745,8 +745,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "65",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [65]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe12"
       }
     },
@@ -764,8 +764,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "61",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [61]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe2"
       }
     },
@@ -783,8 +783,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "61",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [61]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe3"
       }
     },
@@ -802,8 +802,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "62",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [62]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe4"
       }
     },
@@ -821,8 +821,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "62",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [62]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe5"
       }
     },
@@ -840,8 +840,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "62",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [62]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe6"
       }
     },
@@ -859,8 +859,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "63",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [63]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe7"
       }
     },
@@ -878,8 +878,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "63",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [63]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe8"
       }
     },
@@ -897,8 +897,8 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "64",
-        "id": "minecraft:iron_horse_armor",
+        "customModelData": "{'rangeDispatch': [64]}",
+        "id": "minecraft:potion",
         "name": "gatheringTool.scythe9"
       }
     },
