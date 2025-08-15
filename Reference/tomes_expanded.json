@@ -13,7 +13,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -54,7 +58,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -95,7 +103,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -128,7 +140,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -160,7 +176,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -196,7 +216,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -229,7 +253,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -270,7 +298,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -311,7 +343,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -343,7 +379,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -384,7 +424,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -425,7 +469,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -466,7 +514,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -507,7 +559,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -548,7 +604,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -589,7 +649,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -622,7 +686,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -655,7 +723,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -691,7 +763,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -727,7 +803,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -763,7 +843,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -799,7 +883,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -835,7 +923,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -871,7 +963,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -912,7 +1008,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -948,7 +1048,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -981,7 +1085,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1017,7 +1125,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1053,7 +1165,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1089,7 +1205,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": {
+          "rangeDispatch": [
+            87
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.movement"
       }
@@ -1125,7 +1245,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": {
+          "rangeDispatch": [
+            87
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.movement"
       }
@@ -1161,7 +1285,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -1194,7 +1322,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -1226,7 +1358,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -1262,7 +1398,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -1298,7 +1438,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -1334,7 +1478,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1375,7 +1523,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1416,7 +1568,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -1449,7 +1605,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -1481,7 +1641,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1517,7 +1681,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1553,7 +1721,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1589,7 +1761,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -1630,7 +1806,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -1671,7 +1851,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "86",
+        "customModelData": {
+          "rangeDispatch": [
+            86
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.mana"
       }
@@ -1707,7 +1891,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -1740,7 +1928,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -1781,7 +1973,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -1822,7 +2018,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -1854,7 +2054,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1895,7 +2099,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1936,7 +2144,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -1972,7 +2184,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -2008,7 +2224,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -2044,7 +2264,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": {
+          "rangeDispatch": [
+            87
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.movement"
       }
@@ -2085,7 +2309,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "87",
+        "customModelData": {
+          "rangeDispatch": [
+            87
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.movement"
       }
@@ -2126,7 +2354,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
@@ -2159,7 +2391,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": {
+          "rangeDispatch": [
+            85
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
@@ -2200,7 +2436,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": {
+          "rangeDispatch": [
+            85
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
@@ -2241,7 +2481,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": {
+          "rangeDispatch": [
+            85
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
@@ -2282,7 +2526,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": {
+          "rangeDispatch": [
+            85
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
@@ -2323,7 +2571,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "85",
+        "customModelData": {
+          "rangeDispatch": [
+            85
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.lootrun"
       }
@@ -2364,7 +2616,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -2400,7 +2656,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2436,7 +2696,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2472,7 +2736,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2508,7 +2776,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -2544,7 +2816,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2580,7 +2856,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2616,7 +2896,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2652,7 +2936,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2688,7 +2976,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2724,7 +3016,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2760,7 +3056,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2796,7 +3096,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2832,7 +3136,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2868,7 +3176,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2904,7 +3216,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "88",
+        "customModelData": {
+          "rangeDispatch": [
+            88
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.utility"
       }
@@ -2940,7 +3256,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "83",
+        "customModelData": {
+          "rangeDispatch": [
+            83
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.armour"
       }
@@ -2981,7 +3301,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -3022,7 +3346,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "89",
+        "customModelData": {
+          "rangeDispatch": [
+            89
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.weapon"
       }
@@ -3063,7 +3391,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "84",
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
         "id": "minecraft:potion",
         "name": "tome.guild"
       }
