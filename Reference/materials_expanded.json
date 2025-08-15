@@ -8,7 +8,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1172",
+        "customModelData": {
+          "rangeDispatch": [
+            1172
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperAcacia"
       }
@@ -30,7 +34,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1172",
+        "customModelData": {
+          "rangeDispatch": [
+            1172
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperAcacia"
       }
@@ -52,7 +60,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1172",
+        "customModelData": {
+          "rangeDispatch": [
+            1172
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperAcacia"
       }
@@ -75,7 +87,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1160",
+        "customModelData": {
+          "rangeDispatch": [
+            1160
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankAcacia"
       }
@@ -98,7 +114,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1160",
+        "customModelData": {
+          "rangeDispatch": [
+            1160
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankAcacia"
       }
@@ -121,7 +141,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1160",
+        "customModelData": {
+          "rangeDispatch": [
+            1160
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankAcacia"
       }
@@ -143,7 +167,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1178",
+        "customModelData": {
+          "rangeDispatch": [
+            1178
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperAvo"
       }
@@ -165,7 +193,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1178",
+        "customModelData": {
+          "rangeDispatch": [
+            1178
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperAvo"
       }
@@ -187,7 +219,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1178",
+        "customModelData": {
+          "rangeDispatch": [
+            1178
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperAvo"
       }
@@ -210,7 +246,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1166",
+        "customModelData": {
+          "rangeDispatch": [
+            1166
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankAvo"
       }
@@ -233,7 +273,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1166",
+        "customModelData": {
+          "rangeDispatch": [
+            1166
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankAvo"
       }
@@ -256,7 +300,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1166",
+        "customModelData": {
+          "rangeDispatch": [
+            1166
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankAvo"
       }
@@ -277,7 +325,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainBarley"
       }
@@ -298,7 +350,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainBarley"
       }
@@ -319,7 +375,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainBarley"
       }
@@ -342,7 +402,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringBarley"
       }
@@ -365,7 +429,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringBarley"
       }
@@ -388,7 +456,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringBarley"
       }
@@ -408,7 +480,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1156",
+        "customModelData": {
+          "rangeDispatch": [
+            1156
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatBass"
       }
@@ -428,7 +504,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1156",
+        "customModelData": {
+          "rangeDispatch": [
+            1156
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatBass"
       }
@@ -448,7 +528,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1156",
+        "customModelData": {
+          "rangeDispatch": [
+            1156
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatBass"
       }
@@ -472,7 +556,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilBass"
       }
@@ -496,7 +584,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilBass"
       }
@@ -520,7 +612,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilBass"
       }
@@ -542,7 +638,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1170",
+        "customModelData": {
+          "rangeDispatch": [
+            1170
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperBirch"
       }
@@ -564,7 +664,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1170",
+        "customModelData": {
+          "rangeDispatch": [
+            1170
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperBirch"
       }
@@ -586,7 +690,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1170",
+        "customModelData": {
+          "rangeDispatch": [
+            1170
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperBirch"
       }
@@ -609,7 +717,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1158",
+        "customModelData": {
+          "rangeDispatch": [
+            1158
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankBirch"
       }
@@ -632,7 +744,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1158",
+        "customModelData": {
+          "rangeDispatch": [
+            1158
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankBirch"
       }
@@ -655,7 +771,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1158",
+        "customModelData": {
+          "rangeDispatch": [
+            1158
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankBirch"
       }
@@ -675,7 +795,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1155",
+        "customModelData": {
+          "rangeDispatch": [
+            1155
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatCarp"
       }
@@ -695,7 +819,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1155",
+        "customModelData": {
+          "rangeDispatch": [
+            1155
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatCarp"
       }
@@ -715,7 +843,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1155",
+        "customModelData": {
+          "rangeDispatch": [
+            1155
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatCarp"
       }
@@ -739,7 +871,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilCarp"
       }
@@ -763,7 +899,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilCarp"
       }
@@ -787,7 +927,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilCarp"
       }
@@ -809,7 +953,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1129",
+        "customModelData": {
+          "rangeDispatch": [
+            1129
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemCobalt"
       }
@@ -831,7 +979,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1129",
+        "customModelData": {
+          "rangeDispatch": [
+            1129
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemCobalt"
       }
@@ -853,7 +1005,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1129",
+        "customModelData": {
+          "rangeDispatch": [
+            1129
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemCobalt"
       }
@@ -878,7 +1034,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1117",
+        "customModelData": {
+          "rangeDispatch": [
+            1117
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotCobalt"
       }
@@ -903,7 +1063,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1117",
+        "customModelData": {
+          "rangeDispatch": [
+            1117
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotCobalt"
       }
@@ -928,7 +1092,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1117",
+        "customModelData": {
+          "rangeDispatch": [
+            1117
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotCobalt"
       }
@@ -950,7 +1118,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1123",
+        "customModelData": {
+          "rangeDispatch": [
+            1123
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemCopper"
       }
@@ -972,7 +1144,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1123",
+        "customModelData": {
+          "rangeDispatch": [
+            1123
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemCopper"
       }
@@ -994,7 +1170,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1123",
+        "customModelData": {
+          "rangeDispatch": [
+            1123
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemCopper"
       }
@@ -1019,7 +1199,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1111",
+        "customModelData": {
+          "rangeDispatch": [
+            1111
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotCopper"
       }
@@ -1044,7 +1228,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1111",
+        "customModelData": {
+          "rangeDispatch": [
+            1111
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotCopper"
       }
@@ -1069,7 +1257,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1111",
+        "customModelData": {
+          "rangeDispatch": [
+            1111
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotCopper"
       }
@@ -1091,7 +1283,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1175",
+        "customModelData": {
+          "rangeDispatch": [
+            1175
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperDark"
       }
@@ -1113,7 +1309,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1175",
+        "customModelData": {
+          "rangeDispatch": [
+            1175
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperDark"
       }
@@ -1135,7 +1335,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1175",
+        "customModelData": {
+          "rangeDispatch": [
+            1175
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperDark"
       }
@@ -1158,7 +1362,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1163",
+        "customModelData": {
+          "rangeDispatch": [
+            1163
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankDark"
       }
@@ -1181,7 +1389,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1163",
+        "customModelData": {
+          "rangeDispatch": [
+            1163
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankDark"
       }
@@ -1204,7 +1416,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1163",
+        "customModelData": {
+          "rangeDispatch": [
+            1163
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankDark"
       }
@@ -1225,7 +1441,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1108",
+        "customModelData": {
+          "rangeDispatch": [
+            1108
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainDecay"
       }
@@ -1246,7 +1466,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1108",
+        "customModelData": {
+          "rangeDispatch": [
+            1108
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainDecay"
       }
@@ -1267,7 +1491,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1108",
+        "customModelData": {
+          "rangeDispatch": [
+            1108
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainDecay"
       }
@@ -1290,7 +1518,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1104",
+        "customModelData": {
+          "rangeDispatch": [
+            1104
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringDecay"
       }
@@ -1313,7 +1545,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1104",
+        "customModelData": {
+          "rangeDispatch": [
+            1104
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringDecay"
       }
@@ -1336,7 +1572,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1104",
+        "customModelData": {
+          "rangeDispatch": [
+            1104
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringDecay"
       }
@@ -1358,7 +1598,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1134",
+        "customModelData": {
+          "rangeDispatch": [
+            1134
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemDernic"
       }
@@ -1380,7 +1624,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1134",
+        "customModelData": {
+          "rangeDispatch": [
+            1134
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemDernic"
       }
@@ -1402,7 +1650,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1134",
+        "customModelData": {
+          "rangeDispatch": [
+            1134
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemDernic"
       }
@@ -1423,7 +1675,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1109",
+        "customModelData": {
+          "rangeDispatch": [
+            1109
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainDernic"
       }
@@ -1444,7 +1700,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1109",
+        "customModelData": {
+          "rangeDispatch": [
+            1109
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainDernic"
       }
@@ -1465,7 +1725,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1109",
+        "customModelData": {
+          "rangeDispatch": [
+            1109
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainDernic"
       }
@@ -1490,7 +1754,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1122",
+        "customModelData": {
+          "rangeDispatch": [
+            1122
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotDernic"
       }
@@ -1515,7 +1783,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1122",
+        "customModelData": {
+          "rangeDispatch": [
+            1122
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotDernic"
       }
@@ -1540,7 +1812,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1122",
+        "customModelData": {
+          "rangeDispatch": [
+            1122
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotDernic"
       }
@@ -1560,7 +1836,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1156",
+        "customModelData": {
+          "rangeDispatch": [
+            1156
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatDernic"
       }
@@ -1580,7 +1860,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1156",
+        "customModelData": {
+          "rangeDispatch": [
+            1156
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatDernic"
       }
@@ -1600,7 +1884,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1156",
+        "customModelData": {
+          "rangeDispatch": [
+            1156
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatDernic"
       }
@@ -1624,7 +1912,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1147",
+        "customModelData": {
+          "rangeDispatch": [
+            1147
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilDernic"
       }
@@ -1648,7 +1940,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1147",
+        "customModelData": {
+          "rangeDispatch": [
+            1147
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilDernic"
       }
@@ -1672,7 +1968,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1147",
+        "customModelData": {
+          "rangeDispatch": [
+            1147
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilDernic"
       }
@@ -1694,7 +1994,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1180",
+        "customModelData": {
+          "rangeDispatch": [
+            1180
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperDernic"
       }
@@ -1716,7 +2020,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1180",
+        "customModelData": {
+          "rangeDispatch": [
+            1180
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperDernic"
       }
@@ -1738,7 +2046,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1180",
+        "customModelData": {
+          "rangeDispatch": [
+            1180
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperDernic"
       }
@@ -1761,7 +2073,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1104",
+        "customModelData": {
+          "rangeDispatch": [
+            1104
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringDernic"
       }
@@ -1784,7 +2100,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1104",
+        "customModelData": {
+          "rangeDispatch": [
+            1104
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringDernic"
       }
@@ -1807,7 +2127,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1104",
+        "customModelData": {
+          "rangeDispatch": [
+            1104
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringDernic"
       }
@@ -1830,7 +2154,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1168",
+        "customModelData": {
+          "rangeDispatch": [
+            1168
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankDernic"
       }
@@ -1853,7 +2181,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1168",
+        "customModelData": {
+          "rangeDispatch": [
+            1168
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankDernic"
       }
@@ -1876,7 +2208,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1168",
+        "customModelData": {
+          "rangeDispatch": [
+            1168
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankDernic"
       }
@@ -1898,7 +2234,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1131",
+        "customModelData": {
+          "rangeDispatch": [
+            1131
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemDiamond"
       }
@@ -1920,7 +2260,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1131",
+        "customModelData": {
+          "rangeDispatch": [
+            1131
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemDiamond"
       }
@@ -1942,7 +2286,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1131",
+        "customModelData": {
+          "rangeDispatch": [
+            1131
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemDiamond"
       }
@@ -1967,7 +2315,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1119",
+        "customModelData": {
+          "rangeDispatch": [
+            1119
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotDiamond"
       }
@@ -1992,7 +2344,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1119",
+        "customModelData": {
+          "rangeDispatch": [
+            1119
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotDiamond"
       }
@@ -2017,7 +2373,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1119",
+        "customModelData": {
+          "rangeDispatch": [
+            1119
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotDiamond"
       }
@@ -2039,7 +2399,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1125",
+        "customModelData": {
+          "rangeDispatch": [
+            1125
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemGold"
       }
@@ -2061,7 +2425,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1125",
+        "customModelData": {
+          "rangeDispatch": [
+            1125
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemGold"
       }
@@ -2083,7 +2451,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1125",
+        "customModelData": {
+          "rangeDispatch": [
+            1125
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemGold"
       }
@@ -2108,7 +2480,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1113",
+        "customModelData": {
+          "rangeDispatch": [
+            1113
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotGold"
       }
@@ -2133,7 +2509,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1113",
+        "customModelData": {
+          "rangeDispatch": [
+            1113
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotGold"
       }
@@ -2158,7 +2538,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1113",
+        "customModelData": {
+          "rangeDispatch": [
+            1113
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotGold"
       }
@@ -2180,7 +2564,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1124",
+        "customModelData": {
+          "rangeDispatch": [
+            1124
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemGranite"
       }
@@ -2202,7 +2590,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1124",
+        "customModelData": {
+          "rangeDispatch": [
+            1124
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemGranite"
       }
@@ -2224,7 +2616,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1124",
+        "customModelData": {
+          "rangeDispatch": [
+            1124
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemGranite"
       }
@@ -2249,7 +2645,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1112",
+        "customModelData": {
+          "rangeDispatch": [
+            1112
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotGranite"
       }
@@ -2274,7 +2674,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1112",
+        "customModelData": {
+          "rangeDispatch": [
+            1112
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotGranite"
       }
@@ -2299,7 +2703,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1112",
+        "customModelData": {
+          "rangeDispatch": [
+            1112
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotGranite"
       }
@@ -2319,7 +2727,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatGudgeon"
       }
@@ -2339,7 +2751,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatGudgeon"
       }
@@ -2359,7 +2775,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatGudgeon"
       }
@@ -2383,7 +2803,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1147",
+        "customModelData": {
+          "rangeDispatch": [
+            1147
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilGudgeon"
       }
@@ -2407,7 +2831,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1147",
+        "customModelData": {
+          "rangeDispatch": [
+            1147
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilGudgeon"
       }
@@ -2431,7 +2859,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1147",
+        "customModelData": {
+          "rangeDispatch": [
+            1147
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilGudgeon"
       }
@@ -2451,7 +2883,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatGylia"
       }
@@ -2471,7 +2907,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatGylia"
       }
@@ -2491,7 +2931,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatGylia"
       }
@@ -2515,7 +2959,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilGylia"
       }
@@ -2539,7 +2987,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilGylia"
       }
@@ -2563,7 +3015,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilGylia"
       }
@@ -2584,7 +3040,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainHemp"
       }
@@ -2605,7 +3065,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainHemp"
       }
@@ -2626,7 +3090,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainHemp"
       }
@@ -2649,7 +3117,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringHemp"
       }
@@ -2672,7 +3144,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringHemp"
       }
@@ -2695,7 +3171,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringHemp"
       }
@@ -2716,7 +3196,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainHops"
       }
@@ -2737,7 +3221,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainHops"
       }
@@ -2758,7 +3246,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainHops"
       }
@@ -2781,7 +3273,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringHops"
       }
@@ -2804,7 +3300,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringHops"
       }
@@ -2827,7 +3327,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringHops"
       }
@@ -2847,7 +3351,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatIce"
       }
@@ -2867,7 +3375,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatIce"
       }
@@ -2887,7 +3399,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatIce"
       }
@@ -2911,7 +3427,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilIce"
       }
@@ -2935,7 +3455,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilIce"
       }
@@ -2959,7 +3483,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilIce"
       }
@@ -2981,7 +3509,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1127",
+        "customModelData": {
+          "rangeDispatch": [
+            1127
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemIron"
       }
@@ -3003,7 +3535,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1127",
+        "customModelData": {
+          "rangeDispatch": [
+            1127
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemIron"
       }
@@ -3025,7 +3561,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1127",
+        "customModelData": {
+          "rangeDispatch": [
+            1127
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemIron"
       }
@@ -3050,7 +3590,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1115",
+        "customModelData": {
+          "rangeDispatch": [
+            1115
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotIron"
       }
@@ -3075,7 +3619,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1115",
+        "customModelData": {
+          "rangeDispatch": [
+            1115
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotIron"
       }
@@ -3100,7 +3648,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1115",
+        "customModelData": {
+          "rangeDispatch": [
+            1115
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotIron"
       }
@@ -3122,7 +3674,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1174",
+        "customModelData": {
+          "rangeDispatch": [
+            1174
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperJungle"
       }
@@ -3144,7 +3700,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1174",
+        "customModelData": {
+          "rangeDispatch": [
+            1174
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperJungle"
       }
@@ -3166,7 +3726,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1174",
+        "customModelData": {
+          "rangeDispatch": [
+            1174
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperJungle"
       }
@@ -3189,7 +3753,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1162",
+        "customModelData": {
+          "rangeDispatch": [
+            1162
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankJungle"
       }
@@ -3212,7 +3780,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1162",
+        "customModelData": {
+          "rangeDispatch": [
+            1162
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankJungle"
       }
@@ -3235,7 +3807,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1162",
+        "customModelData": {
+          "rangeDispatch": [
+            1162
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankJungle"
       }
@@ -3257,7 +3833,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1130",
+        "customModelData": {
+          "rangeDispatch": [
+            1130
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemKanderstone"
       }
@@ -3279,7 +3859,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1130",
+        "customModelData": {
+          "rangeDispatch": [
+            1130
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemKanderstone"
       }
@@ -3301,7 +3885,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1130",
+        "customModelData": {
+          "rangeDispatch": [
+            1130
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemKanderstone"
       }
@@ -3326,7 +3914,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1118",
+        "customModelData": {
+          "rangeDispatch": [
+            1118
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotKanderstone"
       }
@@ -3351,7 +3943,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1118",
+        "customModelData": {
+          "rangeDispatch": [
+            1118
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotKanderstone"
       }
@@ -3376,7 +3972,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1118",
+        "customModelData": {
+          "rangeDispatch": [
+            1118
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotKanderstone"
       }
@@ -3396,7 +3996,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatKoi"
       }
@@ -3416,7 +4020,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatKoi"
       }
@@ -3436,7 +4044,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1152",
+        "customModelData": {
+          "rangeDispatch": [
+            1152
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatKoi"
       }
@@ -3460,7 +4072,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilKoi"
       }
@@ -3484,7 +4100,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilKoi"
       }
@@ -3508,7 +4128,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilKoi"
       }
@@ -3530,7 +4154,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1176",
+        "customModelData": {
+          "rangeDispatch": [
+            1176
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperLight"
       }
@@ -3552,7 +4180,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1176",
+        "customModelData": {
+          "rangeDispatch": [
+            1176
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperLight"
       }
@@ -3574,7 +4206,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1176",
+        "customModelData": {
+          "rangeDispatch": [
+            1176
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperLight"
       }
@@ -3597,7 +4233,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1164",
+        "customModelData": {
+          "rangeDispatch": [
+            1164
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankLight"
       }
@@ -3620,7 +4260,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1164",
+        "customModelData": {
+          "rangeDispatch": [
+            1164
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankLight"
       }
@@ -3643,7 +4287,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1164",
+        "customModelData": {
+          "rangeDispatch": [
+            1164
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankLight"
       }
@@ -3664,7 +4312,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainMalt"
       }
@@ -3685,7 +4337,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainMalt"
       }
@@ -3706,7 +4362,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainMalt"
       }
@@ -3729,7 +4389,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringMalt"
       }
@@ -3752,7 +4416,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringMalt"
       }
@@ -3775,7 +4443,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringMalt"
       }
@@ -3796,7 +4468,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainMillet"
       }
@@ -3817,7 +4493,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainMillet"
       }
@@ -3838,7 +4518,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainMillet"
       }
@@ -3861,7 +4545,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringMillet"
       }
@@ -3884,7 +4572,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringMillet"
       }
@@ -3907,7 +4599,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringMillet"
       }
@@ -3929,7 +4625,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1132",
+        "customModelData": {
+          "rangeDispatch": [
+            1132
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemMolten"
       }
@@ -3951,7 +4651,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1132",
+        "customModelData": {
+          "rangeDispatch": [
+            1132
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemMolten"
       }
@@ -3973,7 +4677,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1132",
+        "customModelData": {
+          "rangeDispatch": [
+            1132
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemMolten"
       }
@@ -3998,7 +4706,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1120",
+        "customModelData": {
+          "rangeDispatch": [
+            1120
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotMolten"
       }
@@ -4023,7 +4735,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1120",
+        "customModelData": {
+          "rangeDispatch": [
+            1120
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotMolten"
       }
@@ -4048,7 +4764,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1120",
+        "customModelData": {
+          "rangeDispatch": [
+            1120
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotMolten"
       }
@@ -4068,7 +4788,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1154",
+        "customModelData": {
+          "rangeDispatch": [
+            1154
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatMolten"
       }
@@ -4088,7 +4812,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1154",
+        "customModelData": {
+          "rangeDispatch": [
+            1154
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatMolten"
       }
@@ -4108,7 +4836,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1154",
+        "customModelData": {
+          "rangeDispatch": [
+            1154
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatMolten"
       }
@@ -4132,7 +4864,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1151",
+        "customModelData": {
+          "rangeDispatch": [
+            1151
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilMolten"
       }
@@ -4156,7 +4892,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1151",
+        "customModelData": {
+          "rangeDispatch": [
+            1151
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilMolten"
       }
@@ -4180,7 +4920,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1151",
+        "customModelData": {
+          "rangeDispatch": [
+            1151
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilMolten"
       }
@@ -4202,7 +4946,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1169",
+        "customModelData": {
+          "rangeDispatch": [
+            1169
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperOak"
       }
@@ -4224,7 +4972,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1169",
+        "customModelData": {
+          "rangeDispatch": [
+            1169
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperOak"
       }
@@ -4246,7 +4998,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1169",
+        "customModelData": {
+          "rangeDispatch": [
+            1169
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperOak"
       }
@@ -4269,7 +5025,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1157",
+        "customModelData": {
+          "rangeDispatch": [
+            1157
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankOak"
       }
@@ -4292,7 +5052,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1157",
+        "customModelData": {
+          "rangeDispatch": [
+            1157
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankOak"
       }
@@ -4315,7 +5079,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1157",
+        "customModelData": {
+          "rangeDispatch": [
+            1157
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankOak"
       }
@@ -4336,7 +5104,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainOat"
       }
@@ -4357,7 +5129,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainOat"
       }
@@ -4378,7 +5154,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1107",
+        "customModelData": {
+          "rangeDispatch": [
+            1107
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainOat"
       }
@@ -4401,7 +5181,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringOat"
       }
@@ -4424,7 +5208,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringOat"
       }
@@ -4447,7 +5235,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1103",
+        "customModelData": {
+          "rangeDispatch": [
+            1103
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringOat"
       }
@@ -4469,7 +5261,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1177",
+        "customModelData": {
+          "rangeDispatch": [
+            1177
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperPine"
       }
@@ -4491,7 +5287,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1177",
+        "customModelData": {
+          "rangeDispatch": [
+            1177
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperPine"
       }
@@ -4513,7 +5313,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1177",
+        "customModelData": {
+          "rangeDispatch": [
+            1177
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperPine"
       }
@@ -4536,7 +5340,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1165",
+        "customModelData": {
+          "rangeDispatch": [
+            1165
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankPine"
       }
@@ -4559,7 +5367,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1165",
+        "customModelData": {
+          "rangeDispatch": [
+            1165
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankPine"
       }
@@ -4582,7 +5394,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1165",
+        "customModelData": {
+          "rangeDispatch": [
+            1165
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankPine"
       }
@@ -4602,7 +5418,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatPiranha"
       }
@@ -4622,7 +5442,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatPiranha"
       }
@@ -4642,7 +5466,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatPiranha"
       }
@@ -4666,7 +5494,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilPiranha"
       }
@@ -4690,7 +5522,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilPiranha"
       }
@@ -4714,7 +5550,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilPiranha"
       }
@@ -4735,7 +5575,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainRice"
       }
@@ -4756,7 +5600,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainRice"
       }
@@ -4777,7 +5625,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainRice"
       }
@@ -4800,7 +5652,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringRice"
       }
@@ -4823,7 +5679,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringRice"
       }
@@ -4846,7 +5706,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringRice"
       }
@@ -4867,7 +5731,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainRye"
       }
@@ -4888,7 +5756,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainRye"
       }
@@ -4909,7 +5781,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainRye"
       }
@@ -4932,7 +5808,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringRye"
       }
@@ -4955,7 +5835,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringRye"
       }
@@ -4978,7 +5862,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringRye"
       }
@@ -4998,7 +5886,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1154",
+        "customModelData": {
+          "rangeDispatch": [
+            1154
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatSalmon"
       }
@@ -5018,7 +5910,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1154",
+        "customModelData": {
+          "rangeDispatch": [
+            1154
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatSalmon"
       }
@@ -5038,7 +5934,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1154",
+        "customModelData": {
+          "rangeDispatch": [
+            1154
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatSalmon"
       }
@@ -5062,7 +5962,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilSalmon"
       }
@@ -5086,7 +5990,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilSalmon"
       }
@@ -5110,7 +6018,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1149",
+        "customModelData": {
+          "rangeDispatch": [
+            1149
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilSalmon"
       }
@@ -5132,7 +6044,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1126",
+        "customModelData": {
+          "rangeDispatch": [
+            1126
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemSandstone"
       }
@@ -5154,7 +6070,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1126",
+        "customModelData": {
+          "rangeDispatch": [
+            1126
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemSandstone"
       }
@@ -5176,7 +6096,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1126",
+        "customModelData": {
+          "rangeDispatch": [
+            1126
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemSandstone"
       }
@@ -5201,7 +6125,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1114",
+        "customModelData": {
+          "rangeDispatch": [
+            1114
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotSandstone"
       }
@@ -5226,7 +6154,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1114",
+        "customModelData": {
+          "rangeDispatch": [
+            1114
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotSandstone"
       }
@@ -5251,7 +6183,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1114",
+        "customModelData": {
+          "rangeDispatch": [
+            1114
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotSandstone"
       }
@@ -5273,7 +6209,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1128",
+        "customModelData": {
+          "rangeDispatch": [
+            1128
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemSilver"
       }
@@ -5295,7 +6235,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1128",
+        "customModelData": {
+          "rangeDispatch": [
+            1128
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemSilver"
       }
@@ -5317,7 +6261,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1128",
+        "customModelData": {
+          "rangeDispatch": [
+            1128
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemSilver"
       }
@@ -5342,7 +6290,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1116",
+        "customModelData": {
+          "rangeDispatch": [
+            1116
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotSilver"
       }
@@ -5367,7 +6319,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1116",
+        "customModelData": {
+          "rangeDispatch": [
+            1116
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotSilver"
       }
@@ -5392,7 +6348,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1116",
+        "customModelData": {
+          "rangeDispatch": [
+            1116
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotSilver"
       }
@@ -5414,7 +6374,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1179",
+        "customModelData": {
+          "rangeDispatch": [
+            1179
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperSky"
       }
@@ -5436,7 +6400,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1179",
+        "customModelData": {
+          "rangeDispatch": [
+            1179
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperSky"
       }
@@ -5458,7 +6426,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1179",
+        "customModelData": {
+          "rangeDispatch": [
+            1179
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperSky"
       }
@@ -5481,7 +6453,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1167",
+        "customModelData": {
+          "rangeDispatch": [
+            1167
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankSky"
       }
@@ -5504,7 +6480,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1167",
+        "customModelData": {
+          "rangeDispatch": [
+            1167
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankSky"
       }
@@ -5527,7 +6507,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1167",
+        "customModelData": {
+          "rangeDispatch": [
+            1167
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankSky"
       }
@@ -5548,7 +6532,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1109",
+        "customModelData": {
+          "rangeDispatch": [
+            1109
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainSorghum"
       }
@@ -5569,7 +6557,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1109",
+        "customModelData": {
+          "rangeDispatch": [
+            1109
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainSorghum"
       }
@@ -5590,7 +6582,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1109",
+        "customModelData": {
+          "rangeDispatch": [
+            1109
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainSorghum"
       }
@@ -5613,7 +6609,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1105",
+        "customModelData": {
+          "rangeDispatch": [
+            1105
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringSorghum"
       }
@@ -5636,7 +6636,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1105",
+        "customModelData": {
+          "rangeDispatch": [
+            1105
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringSorghum"
       }
@@ -5659,7 +6663,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1105",
+        "customModelData": {
+          "rangeDispatch": [
+            1105
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringSorghum"
       }
@@ -5681,7 +6689,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1173",
+        "customModelData": {
+          "rangeDispatch": [
+            1173
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperSpruce"
       }
@@ -5703,7 +6715,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1173",
+        "customModelData": {
+          "rangeDispatch": [
+            1173
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperSpruce"
       }
@@ -5725,7 +6741,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1173",
+        "customModelData": {
+          "rangeDispatch": [
+            1173
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperSpruce"
       }
@@ -5748,7 +6768,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1161",
+        "customModelData": {
+          "rangeDispatch": [
+            1161
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankSpruce"
       }
@@ -5771,7 +6795,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1161",
+        "customModelData": {
+          "rangeDispatch": [
+            1161
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankSpruce"
       }
@@ -5794,7 +6822,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1161",
+        "customModelData": {
+          "rangeDispatch": [
+            1161
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankSpruce"
       }
@@ -5814,7 +6846,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1155",
+        "customModelData": {
+          "rangeDispatch": [
+            1155
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatStar"
       }
@@ -5834,7 +6870,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1155",
+        "customModelData": {
+          "rangeDispatch": [
+            1155
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatStar"
       }
@@ -5854,7 +6894,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1155",
+        "customModelData": {
+          "rangeDispatch": [
+            1155
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatStar"
       }
@@ -5878,7 +6922,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilStar"
       }
@@ -5902,7 +6950,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilStar"
       }
@@ -5926,7 +6978,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1150",
+        "customModelData": {
+          "rangeDispatch": [
+            1150
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilStar"
       }
@@ -5946,7 +7002,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatTrout"
       }
@@ -5966,7 +7026,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatTrout"
       }
@@ -5986,7 +7050,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1153",
+        "customModelData": {
+          "rangeDispatch": [
+            1153
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.meatTrout"
       }
@@ -6010,7 +7078,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilTrout"
       }
@@ -6034,7 +7106,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilTrout"
       }
@@ -6058,7 +7134,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1148",
+        "customModelData": {
+          "rangeDispatch": [
+            1148
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.oilTrout"
       }
@@ -6080,7 +7160,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1133",
+        "customModelData": {
+          "rangeDispatch": [
+            1133
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemVoidstone"
       }
@@ -6102,7 +7186,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1133",
+        "customModelData": {
+          "rangeDispatch": [
+            1133
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemVoidstone"
       }
@@ -6124,7 +7212,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1133",
+        "customModelData": {
+          "rangeDispatch": [
+            1133
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.gemVoidstone"
       }
@@ -6149,7 +7241,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1121",
+        "customModelData": {
+          "rangeDispatch": [
+            1121
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotVoidstone"
       }
@@ -6174,7 +7270,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1121",
+        "customModelData": {
+          "rangeDispatch": [
+            1121
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotVoidstone"
       }
@@ -6199,7 +7299,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1121",
+        "customModelData": {
+          "rangeDispatch": [
+            1121
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.ingotVoidstone"
       }
@@ -6220,7 +7324,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainWheat"
       }
@@ -6241,7 +7349,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainWheat"
       }
@@ -6262,7 +7374,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1106",
+        "customModelData": {
+          "rangeDispatch": [
+            1106
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.grainWheat"
       }
@@ -6285,7 +7401,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringWheat"
       }
@@ -6308,7 +7428,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringWheat"
       }
@@ -6331,7 +7455,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1102",
+        "customModelData": {
+          "rangeDispatch": [
+            1102
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.stringWheat"
       }
@@ -6353,7 +7481,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1171",
+        "customModelData": {
+          "rangeDispatch": [
+            1171
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperWillow"
       }
@@ -6375,7 +7507,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1171",
+        "customModelData": {
+          "rangeDispatch": [
+            1171
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperWillow"
       }
@@ -6397,7 +7533,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1171",
+        "customModelData": {
+          "rangeDispatch": [
+            1171
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.paperWillow"
       }
@@ -6420,7 +7560,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1159",
+        "customModelData": {
+          "rangeDispatch": [
+            1159
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankWillow"
       }
@@ -6443,7 +7587,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1159",
+        "customModelData": {
+          "rangeDispatch": [
+            1159
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankWillow"
       }
@@ -6466,7 +7614,11 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1159",
+        "customModelData": {
+          "rangeDispatch": [
+            1159
+          ]
+        },
         "id": "minecraft:potion",
         "name": "profession.plankWillow"
       }
