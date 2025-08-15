@@ -25,9 +25,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1072",
+        "customModelData": {
+          "rangeDispatch": [
+            1072
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
         "id": "minecraft:potion",
-        "name": ""
+        "name": "charm.light"
       }
     },
     "internalName": "Charm of the Light",
@@ -69,9 +76,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1069",
+        "customModelData": {
+          "rangeDispatch": [
+            1069
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
         "id": "minecraft:potion",
-        "name": ""
+        "name": "charm.stone"
       }
     },
     "internalName": "Charm of the Stone",
@@ -105,19 +119,26 @@
       "type": "raid"
     },
     "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            1071
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "charm.void"
+      }
+    },
     "identifications": {
       "gatherXpBonus": {
         "max": 21,
         "min": 14,
         "raw": 18
-      }
-    },
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": "1071",
-        "id": "minecraft:potion",
-        "name": ""
       }
     },
     "internalName": "Charm of the Void",
@@ -159,9 +180,16 @@
     "icon": {
       "format": "attribute",
       "value": {
-        "customModelData": "1070",
+        "customModelData": {
+          "rangeDispatch": [
+            1070
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
         "id": "minecraft:potion",
-        "name": ""
+        "name": "charm.worm"
       }
     },
     "internalName": "Charm of the Worm",
