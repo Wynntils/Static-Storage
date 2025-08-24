@@ -23,8 +23,19 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "6:2"
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            1072
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "charm.light"
+      }
     },
     "internalName": "Charm of the Light",
     "raidReward": true,
@@ -63,8 +74,19 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "337:0"
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            1069
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "charm.stone"
+      }
     },
     "internalName": "Charm of the Stone",
     "raidReward": true,
@@ -98,19 +120,25 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "351:0"
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            1071
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "charm.void"
+      }
     },
     "identifications": {
-      "sprint": {
-        "max": 23,
-        "min": 16,
-        "raw": 20
-      },
-      "sprintRegen": {
-        "max": 23,
-        "min": 16,
-        "raw": 20
+      "gatherXpBonus": {
+        "max": 21,
+        "min": 14,
+        "raw": 18
       }
     },
     "internalName": "Charm of the Void",
@@ -150,8 +178,19 @@
     },
     "dropRestriction": "never",
     "icon": {
-      "format": "legacy",
-      "value": "350:1"
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            1070
+          ],
+          "select": [
+            "item_tier_fabled"
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "charm.worm"
+      }
     },
     "internalName": "Charm of the Worm",
     "raidReward": true,

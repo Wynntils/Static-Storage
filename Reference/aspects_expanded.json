@@ -4,7 +4,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -151,7 +155,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -262,7 +270,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -358,7 +370,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -505,7 +521,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -652,7 +672,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -778,7 +802,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -941,7 +969,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1028,7 +1060,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1243,11 +1279,146 @@
         }
       }
     },
+    "Aspect of Illegal Explosives": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of Illegal Explosives",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Implosion",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Implosion",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Implosion",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Implosion",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Undercrank": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1330,11 +1501,130 @@
         }
       }
     },
+    "Aspect of a Thunderbolt": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of a Thunderbolt",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of the Beastmaster": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1360,7 +1650,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
@@ -1436,7 +1726,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "+25%",
                 "color": "#FFFFFF"
               }
             ],
@@ -1522,7 +1812,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+40%",
+                "text": "+67%",
                 "color": "#FFFFFF"
               }
             ],
@@ -1597,7 +1887,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1684,7 +1978,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1767,11 +2065,130 @@
         }
       }
     },
+    "Aspect of the Iron String": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of the Iron String",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Phasing Beam",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " can pierce through ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " enemy.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Phasing Beam",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " can pierce through ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " enemies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Phasing Beam",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " can pierce through ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " enemies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Phasing Beam",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " can pierce through ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " enemies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of the North Wind": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -1918,7 +2335,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -2040,11 +2461,118 @@
         }
       }
     },
+    "Aspect of the Steadying Hand": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of the Steadying Hand",
+      "rarity": "fabled",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ghostly Trigger",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ghostly Trigger",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1.5s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ghostly Trigger",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Boltslinger's Embodiment of Rended Skies": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -2066,7 +2594,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "+29%",
                 "color": "#FFFFFF"
               },
               {
@@ -2090,7 +2618,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "+29%",
                 "color": "#FFFFFF"
               },
               {
@@ -2174,7 +2702,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30%",
+                "text": "+50%",
                 "color": "#FFFFFF"
               },
               {
@@ -2251,7 +2779,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -2264,28 +2796,16 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Focus",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "Focus ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "by ",
+                "text": "' cooldown is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "-0.2s",
                 "color": "#FFFFFF"
               },
               {
@@ -2300,6 +2820,26 @@
           "description": [
             [
               {
+                "text": "Focus",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "' cooldown is reduced by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
                 "text": "Increase your maximum ",
                 "color": "#AAAAAA"
               },
@@ -2326,72 +2866,6 @@
               },
               {
                 "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Twain's Arc",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " requires ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Focus ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "to activate.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Crepuscular Ray",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " requires ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Focus ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "to activate.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2402,6 +2876,26 @@
           "description": [
             [
               {
+                "text": "Focus",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "' cooldown is reduced by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.3s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
                 "text": "Increase your maximum ",
                 "color": "#AAAAAA"
               },
@@ -2428,91 +2922,6 @@
               },
               {
                 "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Twain's Arc",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " requires ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Focus ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "to activate.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Twain's Arc",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " charges ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "5%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Crepuscular Ray",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " requires ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-2 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Focus ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "to activate.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2525,7 +2934,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "68",
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectArcher"
         }
@@ -2672,7 +3085,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -2853,11 +3270,456 @@
         }
       }
     },
+    "Aspect of Athlethicism": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of Athlethicism",
+      "rarity": "legendary",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Dash",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger, ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " launches ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "7%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " further.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Dash",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "7%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger, ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " launches ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " further.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Dash",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "9%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger, ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " launches ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "13%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " further.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Dash",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger, ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " launches ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " further.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of Clouded Vision": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of Clouded Vision",
+      "rarity": "fabled",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Smoke Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Smoke Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Smoke Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "30%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of Enduring Illusions": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of Enduring Illusions",
+      "rarity": "legendary",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Mirror Clones ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#c267f7"
+              },
+              {
+                "text": " reduce damage by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-2%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Mirror Clones ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#c267f7"
+              },
+              {
+                "text": " reduce damage by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-3.5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Mirror Clones ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#c267f7"
+              },
+              {
+                "text": " reduce damage by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Mirror Clones ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#c267f7"
+              },
+              {
+                "text": " reduce damage by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-6%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of False Coercing": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -2870,12 +3732,12 @@
           "description": [
             [
               {
-                "text": "Sandbagging's",
+                "text": "Sandbagging",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " damage threshold is",
+                "text": "'s damage threshold is",
                 "color": "#AAAAAA"
               }
             ],
@@ -2885,7 +3747,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.25% ",
+                "text": "+5% ",
                 "color": "#FFFFFF"
               },
               {
@@ -2900,12 +3762,12 @@
           "description": [
             [
               {
-                "text": "Sandbagging's",
+                "text": "Sandbagging",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " damage threshold is",
+                "text": "'s damage threshold is",
                 "color": "#AAAAAA"
               }
             ],
@@ -2915,7 +3777,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2.25% ",
+                "text": "+7.5% ",
                 "color": "#FFFFFF"
               },
               {
@@ -2930,12 +3792,12 @@
           "description": [
             [
               {
-                "text": "Sandbagging's",
+                "text": "Sandbagging",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " damage threshold is",
+                "text": "'s damage threshold is",
                 "color": "#AAAAAA"
               }
             ],
@@ -2945,7 +3807,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3% ",
+                "text": "+10% ",
                 "color": "#FFFFFF"
               },
               {
@@ -2958,16 +3820,20 @@
         }
       }
     },
-    "Aspect of Foul Play": {
+    "Aspect of Flamboyance": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
       },
-      "name": "Aspect of Foul Play",
+      "name": "Aspect of Flamboyance",
       "rarity": "legendary",
       "requiredClass": "assassin",
       "tiers": {
@@ -3109,7 +3975,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -3127,22 +3997,39 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " and ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Backstab",
-                "underline": true,
+                "text": "+0.5",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "gain ",
+                "text": "Backstab",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5",
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
@@ -3171,22 +4058,39 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " and ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Backstab",
-                "underline": true,
+                "text": "+0.85",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "gain ",
+                "text": "Backstab",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.85",
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1.71",
                 "color": "#FFFFFF"
               },
               {
@@ -3215,22 +4119,39 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " and ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Backstab",
-                "underline": true,
+                "text": "+1.2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "gain ",
+                "text": "Backstab",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.2",
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.4",
                 "color": "#FFFFFF"
               },
               {
@@ -3259,22 +4180,39 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " and ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Backstab",
-                "underline": true,
+                "text": "+1.5",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "gain ",
+                "text": "Backstab",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.5",
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
                 "color": "#FFFFFF"
               },
               {
@@ -3300,7 +4238,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -3318,7 +4260,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "' gains ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
@@ -3326,7 +4268,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " ricochet.",
+                "text": " bounce.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3342,7 +4284,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "' gains ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
@@ -3350,7 +4292,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " ricochets.",
+                "text": " bounces.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3366,7 +4308,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "' gains ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
@@ -3374,7 +4316,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " ricochets.",
+                "text": " bounces.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3387,7 +4329,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -3534,7 +4480,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -3576,16 +4526,12 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " you can hold by ",
+                "text": " you can hold by. ",
                 "color": "#AAAAAA"
               },
               {
                 "text": "+3",
                 "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
               }
             ],
             [],
@@ -3625,11 +4571,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -3657,11 +4603,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -3761,11 +4707,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -3793,11 +4739,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -3897,11 +4843,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -3929,11 +4875,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -3957,7 +4903,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4070,11 +5020,118 @@
         }
       }
     },
+    "Aspect of Visual Distortion": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of Visual Distortion",
+      "rarity": "fabled",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mirage",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.25s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mirage",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.4s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mirage",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.5s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Aspect of the Agile Blade": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4188,7 +5245,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4302,7 +5363,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4518,7 +5583,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4681,7 +5750,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4728,7 +5801,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3%",
+                "text": "+4.5%",
                 "color": "#FFFFFF"
               },
               {
@@ -4777,7 +5850,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8.5%",
+                "text": "+12%",
                 "color": "#FFFFFF"
               },
               {
@@ -4826,7 +5899,110 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10%",
+                "text": "+14%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Disappearing Act": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of the Disappearing Act",
+      "rarity": "fabled",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1.5s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Shadow Projection",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "2s",
                 "color": "#FFFFFF"
               },
               {
@@ -4843,7 +6019,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -4986,11 +6166,142 @@
         }
       }
     },
+    "Aspect of the Pernicious Prankster": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of the Pernicious Prankster",
+      "rarity": "fabled",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "You may store ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+15",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Tricks ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#6afa65"
+              },
+              {
+                "text": " ",
+                "color": "#6afa65"
+              },
+              {
+                "text": "on enemies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "You may store ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Tricks ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#6afa65"
+              },
+              {
+                "text": " ",
+                "color": "#6afa65"
+              },
+              {
+                "text": "on enemies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "You may store ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Tricks ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#6afa65"
+              },
+              {
+                "text": " ",
+                "color": "#6afa65"
+              },
+              {
+                "text": "on enemies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Aspect of the Pinwheel": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -5181,7 +6492,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -5288,11 +6603,130 @@
         }
       }
     },
+    "Aspect of the Unstoppable Force": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Aspect of the Unstoppable Force",
+      "rarity": "fabled",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Momentum ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Momentum ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Momentum ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Shadestepper's Embodiment of Unseen Execution": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
@@ -5415,16 +6849,20 @@
         }
       }
     },
-    "Trickster's Embodiment of the Ultimate Show": {
+    "Trickster's Embodiment of Malevolent Mischief": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "70",
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectAssassin"
         }
       },
-      "name": "Trickster's Embodiment of the Ultimate Show",
+      "name": "Trickster's Embodiment of Malevolent Mischief",
       "rarity": "mythic",
       "requiredClass": "assassin",
       "tiers": {
@@ -5432,20 +6870,20 @@
           "description": [
             [
               {
-                "text": "Mirror Image",
+                "text": "Noxious Haze",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s cooldown is reduced by ",
+                "text": " can benefit from ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-5s",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": " debuff.",
                 "color": "#AAAAAA"
               }
             ]
@@ -5456,45 +6894,54 @@
           "description": [
             [
               {
-                "text": "Mirror Image",
+                "text": "Noxious Haze",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s cooldown is reduced by ",
+                "text": " can benefit from ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-5s",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": " debuff.",
                 "color": "#AAAAAA"
               }
             ],
             [],
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Summon ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Clones ",
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " additional ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mirror Clone ",
                 "color": "#55FFFF"
               },
               {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#AA00AA"
+                "color": "#c267f7"
               },
               {
-                "text": " by ",
+                "text": " with ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "1",
-                "color": "#FFFFFF"
+                "text": "Mirror Image",
+                "underline": true,
+                "color": "#55FFFF"
               },
               {
                 "text": ".",
@@ -5508,45 +6955,68 @@
           "description": [
             [
               {
-                "text": "Mirror Image",
+                "text": "Noxious Haze",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s cooldown is reduced by ",
+                "text": " can benefit from ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-7.5s",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": " debuff,",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " damage per debuff.",
                 "color": "#AAAAAA"
               }
             ],
             [],
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Summon ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Clones ",
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " additional ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mirror Clone ",
                 "color": "#55FFFF"
               },
               {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#AA00AA"
+                "color": "#c267f7"
               },
               {
-                "text": " by ",
+                "text": " with ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "1",
-                "color": "#FFFFFF"
+                "text": "Mirror Image",
+                "underline": true,
+                "color": "#55FFFF"
               },
               {
                 "text": ".",
@@ -5564,7 +7034,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -5629,11 +7103,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "14%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " spell.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ]
@@ -5672,11 +7146,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "14%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " spell.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ],
@@ -5699,7 +7173,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30",
+                "text": "+25",
                 "color": "#FFFFFF"
               },
               {
@@ -5716,7 +7190,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -5809,7 +7287,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -5839,7 +7321,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+33%",
+                "text": "+50%",
                 "color": "#FFFFFF"
               },
               {
@@ -5883,11 +7365,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -5915,11 +7397,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -5982,11 +7464,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -6054,7 +7536,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+33%",
+                "text": "+50%",
                 "color": "#FFFFFF"
               },
               {
@@ -6098,11 +7580,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -6130,11 +7612,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -6197,11 +7679,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -6269,13 +7751,8 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "+50%",
                 "color": "#FFFFFF"
-              },
-              {
-                "text": "3%",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": " faster.",
@@ -6318,11 +7795,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -6350,11 +7827,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -6417,11 +7894,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -6449,11 +7926,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -6506,7 +7983,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -6658,11 +8139,106 @@
         }
       }
     },
+    "Aspect of Manaflux": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of Manaflux",
+      "rarity": "fabled",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Manastorm",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-10",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Mana to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Manastorm",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-15",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Mana to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Manastorm",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-20",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Mana to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Aspect of Mystic Transfer": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -6788,7 +8364,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -6947,7 +8527,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -7040,7 +8624,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -7199,11 +8787,357 @@
         }
       }
     },
+    "Aspect of a Scorching Sun": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of a Scorching Sun",
+      "rarity": "legendary",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Pyrokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.65 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Pyrokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.15 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Pyrokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.65 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Pyrokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of a Thousand Hours": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of a Thousand Hours",
+      "rarity": "legendary",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Time Dilation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.35",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect,",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and increases your speed more quickly.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Time Dilation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.6",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect,",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and increases your speed more quickly.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Time Dilation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.85",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect,",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and increases your speed more quickly.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Time Dilation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect,",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and increases your speed more quickly.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of the Apprentice's Bolt": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -7366,7 +9300,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -7685,214 +9623,15 @@
         }
       }
     },
-    "Aspect of the Cone of Cold": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": "72",
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectMage"
-        }
-      },
-      "name": "Aspect of the Cone of Cold",
-      "rarity": "legendary",
-      "requiredClass": "mage",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+2 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "snakes.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s angle is increased by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+10",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+4 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "snakes.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s angle is increased by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+20",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+6 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "snakes.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s angle is increased by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+30",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+8 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "snakes.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Snake Nest",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s angle is increased by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+40",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
-        }
-      }
-    },
     "Aspect of the Dimension's Door": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -8039,7 +9778,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -8186,7 +9929,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -8333,7 +10080,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -8480,7 +10231,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -8607,7 +10362,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "72",
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectMage"
         }
@@ -8629,7 +10388,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5s",
+                "text": "+0.25s",
                 "color": "#FFFFFF"
               },
               {
@@ -8688,7 +10447,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s",
+                "text": "+1.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -8725,7 +10484,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5s",
+                "text": "+0.25s",
                 "color": "#FFFFFF"
               },
               {
@@ -8784,7 +10543,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s",
+                "text": "+1.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -8849,7 +10608,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.75s",
+                "text": "+0.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -8908,7 +10667,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4.5s",
+                "text": "+3s",
                 "color": "#FFFFFF"
               },
               {
@@ -8968,7 +10727,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -9068,7 +10831,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "20% ",
+                "text": "25% ",
                 "color": "#FFFFFF"
               },
               {
@@ -9133,7 +10896,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "20% ",
+                "text": "25% ",
                 "color": "#FFFFFF"
               },
               {
@@ -9146,11 +10909,174 @@
         }
       }
     },
+    "Aspect of Acceleration": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of Acceleration",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Puppets",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Effigies",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " move ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Puppets",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Effigies",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " move ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Puppets",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Effigies",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " move ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Puppets",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Effigies",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " move ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Emanant Force": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -9409,11 +11335,130 @@
         }
       }
     },
+    "Aspect of Empathy": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of Empathy",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Twisted Tether",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.2%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Health lost to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Twisted Tether",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.3%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Health lost to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Twisted Tether",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.4%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Health lost to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Twisted Tether",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " requires ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Health lost to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Exsanguination": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -9439,19 +11484,36 @@
                 "color": "#AA0000"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
                 "text": " ",
-                "color": "#AA0000"
+                "color": "#FF5555"
+              },
+              {
+                "text": "duration ",
+                "color": "#AAAAAA"
               },
               {
                 "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10",
+                "text": "+17%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " points.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -9475,19 +11537,36 @@
                 "color": "#AA0000"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
                 "text": " ",
-                "color": "#AA0000"
+                "color": "#FF5555"
+              },
+              {
+                "text": "duration ",
+                "color": "#AAAAAA"
               },
               {
                 "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " points.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -9511,19 +11590,36 @@
                 "color": "#AA0000"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
                 "text": " ",
-                "color": "#AA0000"
+                "color": "#FF5555"
+              },
+              {
+                "text": "duration ",
+                "color": "#AAAAAA"
               },
               {
                 "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30",
+                "text": "+33%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " points.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -9532,11 +11628,166 @@
         }
       }
     },
+    "Aspect of Incineration": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of Incineration",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Friendly Fire",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "&BPuppet",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.4s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Friendly Fire",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "&BPuppet",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.6s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Friendly Fire",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "&BPuppet",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.8s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Friendly Fire",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "&BPuppet",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " duration by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Lashing Fire": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -9615,11 +11866,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -9647,11 +11898,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -9679,11 +11930,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -9771,11 +12022,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -9803,11 +12054,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -9835,11 +12086,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -9927,11 +12178,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -9959,11 +12210,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -9991,11 +12242,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -10083,11 +12334,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -10115,11 +12366,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": " ",
-                "color": "#ffff55"
+                "color": "#FFFF55"
               },
               {
                 "text": "Thunder: ",
@@ -10147,11 +12398,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": " ",
-                "color": "#ff5555"
+                "color": "#FF5555"
               },
               {
                 "text": "Fire: ",
@@ -10175,7 +12426,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -10334,11 +12589,142 @@
         }
       }
     },
+    "Aspect of Occupation": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of Occupation",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Hummingbird Carvings",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " attack enemies for ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3.5s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Hummingbird Carvings",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " attack enemies for ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Hummingbird Carvings",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " attack enemies for ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8.5s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Hummingbird Carvings",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " attack enemies for ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Reverberation": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -10509,7 +12895,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -10623,7 +13013,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -10907,11 +13301,146 @@
         }
       }
     },
+    "Aspect of Summer Storms": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of Summer Storms",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Storm Dance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Storm Dance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Storm Dance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Storm Dance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s pull strength by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Surging Presence": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -11022,7 +13551,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -11197,7 +13730,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -11284,7 +13821,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -11358,11 +13899,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -11445,11 +13986,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": "Air: ",
@@ -11477,11 +14018,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -11564,11 +14105,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -11596,11 +14137,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": "Air: ",
@@ -11628,11 +14169,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -11656,7 +14197,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -11941,7 +14486,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -12104,7 +14653,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -12255,7 +14808,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "74",
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectShaman"
         }
@@ -12599,20 +15156,15 @@
                 "color": "#55FFFF"
               },
               {
-                "text": "gain ",
+                "text": "attack ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8 ",
+                "text": "25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " Range.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ]
@@ -12623,11 +15175,166 @@
     }
   },
   "warrior": {
+    "Aspect of Bovine Inspiration": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of Bovine Inspiration",
+      "rarity": "legendary",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Emboldening Cry",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁",
+                "color": "#55FF55"
+              },
+              {
+                "text": " ",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Resistance to Allies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Emboldening Cry",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁",
+                "color": "#55FF55"
+              },
+              {
+                "text": " ",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Resistance to Allies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Emboldening Cry",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁",
+                "color": "#55FF55"
+              },
+              {
+                "text": " ",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Resistance to Allies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Emboldening Cry",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁",
+                "color": "#55FF55"
+              },
+              {
+                "text": " ",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Resistance to Allies.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Deafening Echoes": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -12701,11 +15408,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -12733,11 +15440,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -12765,11 +15472,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": "Air: ",
@@ -12852,11 +15559,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -12884,11 +15591,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -12916,11 +15623,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": "Air: ",
@@ -13003,11 +15710,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -13035,11 +15742,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -13067,11 +15774,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": "Air: ",
@@ -13154,11 +15861,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#ffaa00"
+                "color": "#FFAA00"
               },
               {
                 "text": "Damage: ",
@@ -13186,11 +15893,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": " ",
-                "color": "#00aa00"
+                "color": "#00AA00"
               },
               {
                 "text": "Earth: ",
@@ -13218,11 +15925,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#ffffff"
+                "color": "#FFFFFF"
               },
               {
                 "text": "Air: ",
@@ -13246,7 +15953,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -13409,7 +16120,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -13535,7 +16250,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -13553,15 +16272,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " activates ",
+                "text": "'s cooldown is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8%",
+                "text": "-0.25s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " more often.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -13577,15 +16296,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " activates ",
+                "text": "'s cooldown is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "-0.35s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " more often.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -13601,15 +16320,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " activates ",
+                "text": "'s cooldown is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "-0.5s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " more often.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -13618,11 +16337,182 @@
         }
       }
     },
+    "Aspect of Maniacal Frisson": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of Maniacal Frisson",
+      "rarity": "legendary",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Exhilarate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " restores ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "of your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Corrupted ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#AA0000"
+              },
+              {
+                "text": " bar as max health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Exhilarate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " restores ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "of your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Corrupted ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#AA0000"
+              },
+              {
+                "text": " bar as max health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Exhilarate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " restores ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "of your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Corrupted ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#AA0000"
+              },
+              {
+                "text": " bar as max health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Exhilarate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " restores ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "of your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Corrupted ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#AA0000"
+              },
+              {
+                "text": " bar as max health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Overflowing Hope": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -13651,6 +16541,12 @@
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
               }
+            ],
+            [
+              {
+                "text": "(Max 21.25% at once)",
+                "color": "#555555"
+              }
             ]
           ],
           "threshold": 1
@@ -13674,6 +16570,12 @@
               {
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "(Max 17.5% at once)",
+                "color": "#555555"
               }
             ]
           ],
@@ -13699,6 +16601,12 @@
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
               }
+            ],
+            [
+              {
+                "text": "(Max 15% at once)",
+                "color": "#555555"
+              }
             ]
           ],
           "threshold": 30
@@ -13723,6 +16631,12 @@
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
               }
+            ],
+            [
+              {
+                "text": "(Max 12.5% at once)",
+                "color": "#555555"
+              }
             ]
           ],
           "threshold": 150
@@ -13733,7 +16647,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -13755,7 +16673,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.25%",
+                "text": "+0.25",
                 "color": "#FFFFFF"
               },
               {
@@ -13785,7 +16703,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.4%",
+                "text": "+0.4",
                 "color": "#FFFFFF"
               },
               {
@@ -13815,7 +16733,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5%",
+                "text": "+0.5",
                 "color": "#FFFFFF"
               },
               {
@@ -13834,16 +16752,20 @@
         }
       }
     },
-    "Aspect of Searing Friction": {
+    "Aspect of Rekindling": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
       },
-      "name": "Aspect of Searing Friction",
+      "name": "Aspect of Rekindling",
       "rarity": "fabled",
       "requiredClass": "warrior",
       "tiers": {
@@ -13851,16 +16773,16 @@
           "description": [
             [
               {
-                "text": "Flaming Uppercut",
+                "text": "Rejuvenating Skin",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " deals damage ",
+                "text": " restores Health ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "0.1s",
+                "text": "2.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -13875,16 +16797,16 @@
           "description": [
             [
               {
-                "text": "Flaming Uppercut",
+                "text": "Rejuvenating Skin",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " deals damage ",
+                "text": " restores Health ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "0.15s",
+                "text": "4s",
                 "color": "#FFFFFF"
               },
               {
@@ -13899,20 +16821,144 @@
           "description": [
             [
               {
-                "text": "Flaming Uppercut",
+                "text": "Rejuvenating Skin",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " deals damage ",
+                "text": " restores Health ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "0.2s",
+                "text": "5s",
                 "color": "#FFFFFF"
               },
               {
                 "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of Seeing Stars": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of Seeing Stars",
+      "rarity": "fabled",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Discombobulated ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "⚙",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Discombobulated ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "⚙",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+40",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Discombobulated ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "⚙",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+50",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -13925,7 +16971,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -14072,7 +17122,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -14335,7 +17389,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -14357,7 +17415,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.65",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
@@ -14394,7 +17452,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.15",
+                "text": "+1.75",
                 "color": "#FFFFFF"
               },
               {
@@ -14431,7 +17489,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.65",
+                "text": "+2.5",
                 "color": "#FFFFFF"
               },
               {
@@ -14468,7 +17526,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "+3",
                 "color": "#FFFFFF"
               },
               {
@@ -14498,7 +17556,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -14585,7 +17647,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -14603,7 +17669,27 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": ", ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Flying Kick",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Collide",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -14640,7 +17726,27 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": ", ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Flying Kick",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Collide",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -14677,7 +17783,27 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": ", ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Flying Kick",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Collide",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -14714,7 +17840,27 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": ", ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Flying Kick",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Collide",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -14744,11 +17890,130 @@
         }
       }
     },
+    "Aspect of the Berserker": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of the Berserker",
+      "rarity": "fabled",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Armour Breaker",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage Bonus (",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "⚔",
+                "color": "#FF5555"
+              },
+              {
+                "text": ") to Self.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Armour Breaker",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage Bonus (",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "⚔",
+                "color": "#FF5555"
+              },
+              {
+                "text": ") to Self.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Armour Breaker",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage Bonus (",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "⚔",
+                "color": "#FF5555"
+              },
+              {
+                "text": ") to Self.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Aspect of the Megaphone": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -14895,7 +18160,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -15054,11 +18323,106 @@
         }
       }
     },
+    "Aspect of the Tightrope Walk": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of the Tightrope Walk",
+      "rarity": "fabled",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Brink of Madness",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " activates at ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " higher Health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Brink of Madness",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " activates at ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " higher Health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Brink of Madness",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " activates at ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " higher Health.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Battle Monk's Embodiment of Complete Synchrony": {
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -15071,66 +18435,12 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Pressure",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "Discombobulated ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "⚙",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+30",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Increase your maximum ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Discombobulated ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "⚙",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+30",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
+                "text": " is stronger.",
                 "color": "#AAAAAA"
               }
             ],
@@ -15146,11 +18456,352 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1 ",
+                "text": "+0.5x",
                 "color": "#FFFFFF"
               },
               {
-                "text": "hit.",
+                "text": " as many hits.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Uppercut",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " deals ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+50%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " neutral and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Damage in all Elements.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+90%",
+                "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+50%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+8%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Pressure",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " is stronger.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Bash",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.5x",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " as many hits.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Uppercut",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " deals ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+50%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " neutral and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Damage in all Elements.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+90%",
+                "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+50%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+8%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "War Scream",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants a higher damage boost.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "Effect: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage Bonus (",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "⚔",
+                "color": "#55FF55"
+              },
+              {
+                "text": ") to Players",
                 "color": "#AAAAAA"
               }
             ]
@@ -15161,31 +18812,12 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Pressure",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "Discombobulated ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "⚙",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+50",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
+                "text": " is stronger.",
                 "color": "#AAAAAA"
               }
             ],
@@ -15201,11 +18833,236 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1 ",
+                "text": "+0.5x",
                 "color": "#FFFFFF"
               },
               {
-                "text": "hit.",
+                "text": " as many hits and more damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5%",
+                "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "Thunder: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+5%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Uppercut",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " deals ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+70%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " neutral and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " Damage in all Elements.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+120%",
+                "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+70%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA",
+                "margin-left": "large"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+10%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "War Scream",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants a higher damage boost.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "Effect: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "Damage Bonus (",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "⚔",
+                "color": "#55FF55"
+              },
+              {
+                "text": ") to Players",
                 "color": "#AAAAAA"
               }
             ]
@@ -15218,7 +19075,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -15240,7 +19101,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-0.05%",
+                "text": "15%",
                 "color": "#FFFFFF"
               },
               {
@@ -15260,15 +19121,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " adds ",
+                "text": "'s health cost is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5% ",
+                "text": "15%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "more damage to spells cast using health.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ],
@@ -15279,15 +19140,23 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s health cost is reduced by ",
+                "text": " adds ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-0.05%",
+                "text": "+5%",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": " to ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8.35%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more damage to spells cast using health.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15303,15 +19172,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " adds ",
+                "text": "'s health cost is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8% ",
+                "text": "15%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "more damage to spells cast using health.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ],
@@ -15322,15 +19191,23 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s health cost is reduced by ",
+                "text": " adds ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-0.05%",
+                "text": "+8%",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": " to ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+13.35%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more damage to spells cast using health.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15343,7 +19220,11 @@
       "icon": {
         "format": "attribute",
         "value": {
-          "customModelData": "76",
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
           "id": "minecraft:potion",
           "name": "abilityTree.aspectWarrior"
         }
@@ -15400,20 +19281,29 @@
             [],
             [
               {
-                "text": "Mythril Skin",
+                "text": "Sacred Surge",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " spends ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5% ",
+                "text": "-5 ",
                 "color": "#FFFFFF"
               },
               {
-                "text": "Base Resistance.",
+                "text": "Holy Power ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "✧",
+                "bold": true,
+                "color": "#FFAA00"
+              },
+              {
+                "text": " to activate.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15444,20 +19334,29 @@
             [],
             [
               {
-                "text": "Mythril Skin",
+                "text": "Sacred Surge",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " spends ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5% ",
+                "text": "-5 ",
                 "color": "#FFFFFF"
               },
               {
-                "text": "Base Resistance.",
+                "text": "Holy Power ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "✧",
+                "bold": true,
+                "color": "#FFAA00"
+              },
+              {
+                "text": " to activate.",
                 "color": "#AAAAAA"
               }
             ]

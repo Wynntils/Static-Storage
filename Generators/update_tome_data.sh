@@ -6,7 +6,7 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 cd $TARGET_DIR
 
 # Download the json file from Wynncraft API
-curl -X POST -d '{"type":["tome"]}' -H "Content-Type: application/json" -o tomes.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult=True"
+curl -X POST -d '{"type":["tome"]}' -H "Content-Type: application/json" -o tomes.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult"
 
 if [ ! -s tomes.json.tmp ]; then
     rm tomes.json.tmp
@@ -14,8 +14,8 @@ if [ ! -s tomes.json.tmp ]; then
     exit
 fi
 
-# Check if the file is a JSON with a single "message" key
-if jq -e 'length == 1 and has("message")' tomes.json.tmp > /dev/null; then
+# Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
+if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' tomes.json.tmp > /dev/null; then
     rm tomes.json.tmp
     echo "Error: Wynncraft API returned an error message, aborting"
     exit

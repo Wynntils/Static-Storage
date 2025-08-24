@@ -17,8 +17,8 @@ if [ ! -s classes.json.tmp ]; then
     exit
 fi
 
-# Check if the file is a JSON with a single "message" key
-if jq -e 'length == 1 and has("message")' classes.json.tmp > /dev/null; then
+# Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
+if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' classes.json.tmp > /dev/null; then
     rm classes.json.tmp
     echo "Error: Wynncraft API returned an error message, aborting"
     exit
@@ -38,8 +38,8 @@ for CLASS in $ASPECT_CLASSES; do
         exit
     fi
 
-    # Check if the file is a JSON with a single "message" key
-    if jq -e 'length == 1 and has("message")' ${CLASS}_aspects.json.tmp > /dev/null; then
+    # Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
+    if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' ${CLASS}_aspects.json.tmp > /dev/null; then
         rm ${CLASS}_aspects.json.tmp
         echo "Error: Wynncraft API returned an error message for $CLASS, aborting"
         exit
