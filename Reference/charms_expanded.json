@@ -27,7 +27,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1072
+            1083
           ],
           "select": [
             "item_tier_fabled"
@@ -78,7 +78,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1069
+            1080
           ],
           "select": [
             "item_tier_fabled"
@@ -124,7 +124,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1071
+            1082
           ],
           "select": [
             "item_tier_fabled"
@@ -182,7 +182,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1070
+            1081
           ],
           "select": [
             "item_tier_fabled"
