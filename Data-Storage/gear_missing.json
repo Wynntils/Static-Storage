@@ -1,0 +1,53 @@
+{
+  "Inhibitor": {
+    "armourMaterial": "pale_leather",
+    "armourType": "chestplate",
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            10
+          ]
+        },
+        "id": "minecraft:leather_chestplate",
+        "name": "chestplate.pale_leather"
+      }
+    },
+    "identifications": {
+      "mainAttackDamage": {
+        "max": -210,
+        "min": -390,
+        "raw": -300
+      },
+      "manaRegen": {
+        "max": -13,
+        "min": -23,
+        "raw": -18
+      },
+      "spellDamage": {
+        "max": -210,
+        "min": -390,
+        "raw": -300
+      },
+      "rawMainAttackDamage": {
+        "max": -3500,
+        "min": -6500,
+        "raw": -5000
+      },
+      "rawSpellDamage": {
+        "max": -2800,
+        "min": -5200,
+        "raw": -4000
+      }
+    },
+    "internalName": "Inhibitor",
+    "lore": "There's a note in it. It doesn't seem to be addressed to you... \"You're not beyond saving. But you must work to deserve to be saved.\"",
+    "rarity": "fabled",
+    "requirements": {
+      "level": 100
+    },
+    "type": "armour"
+  }
+}
