@@ -3270,7 +3270,7 @@
         }
       }
     },
-    "Aspect of Athlethicism": {
+    "Aspect of Athleticism": {
       "icon": {
         "format": "attribute",
         "value": {
@@ -3283,7 +3283,7 @@
           "name": "abilityTree.aspectAssassin"
         }
       },
-      "name": "Aspect of Athlethicism",
+      "name": "Aspect of Athleticism",
       "rarity": "legendary",
       "requiredClass": "assassin",
       "tiers": {
@@ -3300,7 +3300,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "5%",
+                "text": "8%",
                 "color": "#FFFFFF"
               },
               {
@@ -3347,7 +3347,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "7%",
+                "text": "15%",
                 "color": "#FFFFFF"
               },
               {
@@ -3394,7 +3394,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "9%",
+                "text": "22%",
                 "color": "#FFFFFF"
               },
               {
@@ -3441,7 +3441,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "10%",
+                "text": "25%",
                 "color": "#FFFFFF"
               },
               {
@@ -6624,28 +6624,29 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Aerial Ace",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "Momentum ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#55FFFF"
-              },
-              {
-                "text": " by ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+5% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "Damage Bonus.",
                 "color": "#AAAAAA"
               }
             ]
@@ -6656,28 +6657,29 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Aerial Ace",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "Momentum ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#55FFFF"
-              },
-              {
-                "text": " by ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "+8% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "Damage Bonus.",
                 "color": "#AAAAAA"
               }
             ]
@@ -6688,28 +6690,29 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Aerial Ace",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "Momentum ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#55FFFF"
-              },
-              {
-                "text": " by ",
+                "text": " gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "+10% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": ".",
+                "text": "",
+                "font": "common",
+                "color": "#FFFF55"
+              },
+              {
+                "text": " ",
+                "color": "#FFFF55"
+              },
+              {
+                "text": "Damage Bonus.",
                 "color": "#AAAAAA"
               }
             ]
@@ -12624,9 +12627,28 @@
               {
                 "text": "+3.5s",
                 "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "and gain ",
+                "color": "#AAAAAA"
               },
               {
-                "text": ".",
+                "text": "+2.5 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Vision.",
                 "color": "#AAAAAA"
               }
             ]
@@ -12651,9 +12673,28 @@
               {
                 "text": "+6s",
                 "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "and gain ",
+                "color": "#AAAAAA"
               },
               {
-                "text": ".",
+                "text": "+4.5 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Vision.",
                 "color": "#AAAAAA"
               }
             ]
@@ -12678,9 +12719,28 @@
               {
                 "text": "+8.5s",
                 "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "and gain ",
+                "color": "#AAAAAA"
               },
               {
-                "text": ".",
+                "text": "+6.5 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Vision.",
                 "color": "#AAAAAA"
               }
             ]
@@ -12705,9 +12765,28 @@
               {
                 "text": "+10s",
                 "color": "#FFFFFF"
+              }
+            ],
+            [
+              {
+                "text": "and gain ",
+                "color": "#AAAAAA"
               },
               {
-                "text": ".",
+                "text": "+8 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Vision.",
                 "color": "#AAAAAA"
               }
             ]
