@@ -16620,12 +16620,6 @@
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
               }
-            ],
-            [
-              {
-                "text": "(Max 21.25% at once)",
-                "color": "#555555"
-              }
             ]
           ],
           "threshold": 1
@@ -16649,12 +16643,6 @@
               {
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "(Max 17.5% at once)",
-                "color": "#555555"
               }
             ]
           ],
@@ -16680,12 +16668,6 @@
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
               }
-            ],
-            [
-              {
-                "text": "(Max 15% at once)",
-                "color": "#555555"
-              }
             ]
           ],
           "threshold": 30
@@ -16709,12 +16691,6 @@
               {
                 "text": "healing to activate.",
                 "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "(Max 12.5% at once)",
-                "color": "#555555"
               }
             ]
           ],
@@ -19235,7 +19211,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " more damage to spells cast using health.",
+                "text": " more damage when using health.",
                 "color": "#AAAAAA"
               }
             ]
@@ -19286,7 +19262,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " more damage to spells cast using health.",
+                "text": " more damage when using health.",
                 "color": "#AAAAAA"
               }
             ]
