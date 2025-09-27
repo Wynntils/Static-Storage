@@ -1,0 +1,935 @@
+{
+  "Amber-Encased Fleris": [
+    {
+      "type": "gathering",
+      "name": "Flersisi Tree"
+    },
+    {
+      "type": "gathering",
+      "name": "Flerisi Trunk"
+    }
+  ],
+  "Ancient Spring Water": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Angler's Light": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Antler Fragment": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Assorted Seeds": [
+    {
+      "type": "environment",
+      "name": "Bird Flock"
+    }
+  ],
+  "Bamboo": [
+    {
+      "type": "gathering",
+      "name": "Bamboo"
+    },
+    {
+      "type": "lootChest"
+    }
+  ],
+  "Big Carapace": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Big Jawbreaker": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Bioluminescent Blood": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Bioluminescent Moss": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Blueshift Beacon": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Broken Fiddle": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Candy Button": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Canned Sardines": [
+    {
+      "type": "worldEvent",
+      "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Charcoal Lump": [
+    {
+      "type": "gathering",
+      "name": "Flersisi Tree"
+    },
+    {
+      "type": "gathering",
+      "name": "Flerisi Trunk"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Chunky Ash": [
+    {
+      "type": "gathering",
+      "name": "Flerisi Tree"
+    }
+  ],
+  "Claw of Demise": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Cleaned Saccharum": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Cloudtwine": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Cocoa Caps": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Contraband Absinthe": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Contraband Hibiscus": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Contraband Miracle Berry": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Corrupted Metal Scrap": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    }
+  ],
+  "Cultist Ashes": [
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    }
+  ],
+  "Cystic Lard": [
+    {
+      "type": "gathering",
+      "name": "Larbonic Geode"
+    },
+    {
+      "type": "lootChest"
+    }
+  ],
+  "Deepborn Scavenger": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Dernic Hydroid": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Dernic Sludgebomb": [
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    }
+  ],
+  "Devilish Delight": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Dizzying Void": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Dogun Alert Sigil": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Electromagnetic Shield Plating": [
+    {
+      "type": "worldEvent",
+      "name": "Decommissioned War Machines"
+    }
+  ],
+  "Epipelagic Eye": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Essence of Dissolution": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Extremely Dense Pebble": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Extremophile Pelt": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Familiar Essence": [
+    {
+      "type": "quest",
+      "name": "Deja Vu Quest"
+    }
+  ],
+  "Fathomflooded Flesh": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Fissured Tablet": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Flerisi Bark": [
+    {
+      "type": "gathering",
+      "name": "Flerisi Tree"
+    },
+    {
+      "type": "gathering",
+      "name": "Flerisi Trunk"
+    }
+  ],
+  "Fleshbark": [
+    {
+      "type": "worldEvent",
+      "name": "All Eyes on Me"
+    }
+  ],
+  "Float Stone": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Fluid Light": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Frenetic Heart": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Generator Chip": [
+    {
+      "type": "quest",
+      "name": "Forbidden Prison"
+    },
+    {
+      "type": "lootChest"
+    }
+  ],
+  "Giant Petal": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Giant Sword Shard": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Grootslang Fin": [
+    {
+      "type": "worldEvent",
+      "name": "Rogue Wyrmling"
+    }
+  ],
+  "Helio Wing": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Ice Cream Sandwich": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Ice Fishing Bait": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
+    }
+  ],
+  "Ice Fishing Hook": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
+    }
+  ],
+  "Ice Fishing Net": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
+    }
+  ],
+  "Ice Fishing Twine": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
+    }
+  ],
+  "Igneous Thread": [
+    {
+      "type": "gathering",
+      "name": "Flerisi Tree"
+    },
+    {
+      "type": "gathering",
+      "name": "Flerisi Tunk"
+    }
+  ],
+  "Illicit Hemlock": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Illicit Quince": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Illicit Tingflower": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Illicit Whitethorn": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Illicit Yarrow": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Impure Nullity": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Inactive Rune": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Infernal Antifreeze": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    }
+  ],
+  "Inverted Grotesque": [
+    {
+      "type": "worldEvent",
+      "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Jagged Icicle": [
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    }
+  ],
+  "Je Ne Sais Quoi": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Letvus Delight": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Licorice Ropes": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Marble Statuette": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Memory Dye": [
+    {
+      "type": "worldEvent",
+      "name": "Visit from Beyond"
+    }
+  ],
+  "Migratory Coconut": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Moldy Wrapping": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Mural Shard": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Negative Rafflesia": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Neon Seawater": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Obsidian Shards": [
+    {
+      "type": "gathering",
+      "name": "Flerisi Tree"
+    },
+    {
+      "type": "gathering",
+      "name": "Flerisi Trunk"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Parasitic Chitin": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Peculiar Oddity": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Photophobic Kelp": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Potato": [
+    {
+      "type": "merchant",
+      "name": "Bremminglar"
+    },
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    },
+    {
+      "type": "merchant",
+      "name": "Thanos"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Skittering Spiders"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
+    },
+    {
+      "type": "lootChest"
+    }
+  ],
+  "Pride of the Heights": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Prized Feather": [
+    {
+      "type": "worldEvent",
+      "name": "Territorial Trolls"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Colossi Ingrain"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Enraged Eagle"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Ruff & Tumble"
+    }
+  ],
+  "Psionic Quill": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Psych Starfruit": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Purest Prism": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Rejected Geode": [
+    {
+      "type": "gathering",
+      "name": "Larbonic Geode"
+    }
+  ],
+  "Remnant of the Ruined": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Rocky Spirit": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Rototilled Soil": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Scorching Horn": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Scoria Pollen": [
+    {
+      "type": "worldEvent",
+      "name": "Corrupted Spring"
+    }
+  ],
+  "Searing Heartwood": [
+    {
+      "type": "gathering",
+      "name": "Flerisi Tree"
+    },
+    {
+      "type": "gathering",
+      "name": "Flerisi Trunk"
+    }
+  ],
+  "Secret Herb": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Sentient Magmatic Gem": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    }
+  ],
+  "Shattered Memory Shard": [
+    {
+      "type": "quest",
+      "name": "Recover the Past"
+    }
+  ],
+  "Shiny Gravel": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Slate Sheet": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Sliver of Sunrise": [
+    {
+      "type": "worldEvent",
+      "name": "Realmic Antigen"
+    }
+  ],
+  "Soft Blue Wool": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Soft Green Wool": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Soft Red Wool": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Soft White Wool": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Soft Yellow Wool": [
+    {
+      "type": "merchant",
+      "name": "Rymek"
+    }
+  ],
+  "Solid Ultraviolet Ray": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Splintered Greathammer": [
+    {
+      "type": "worldEvent",
+      "name": "Abandoned Sentinels"
+    }
+  ],
+  "Stolen Egg": [
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    }
+  ],
+  "Sugar Stick": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Sunken Scales": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Tacky Goop": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Tattered Magic Cloth": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "The Grootslang's Heart": [
+    {
+      "type": "specificMobDrop",
+      "name": "Young Grootslang"
+    },
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    },
+    {
+      "type": "lootChest"
+    }
+  ],
+  "Twisted Coral": [
+    {
+      "type": "gathering",
+      "name": "Abyssal Matter"
+    }
+  ],
+  "Ultramarine Minnow": [
+    {
+      "type": "raid",
+      "name": "The Nameless Anomaly"
+    }
+  ],
+  "Undiscovered Plant": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Unsettling Void": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Vibrant Augment": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Vista Mist": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Voidtossed Memory": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Weakening Catalyst": [
+    {
+      "type": "quest",
+      "name": "Potion Making"
+    }
+  ],
+  "Withered Root": [
+    {
+      "type": "gathering",
+      "name": "Voidgloom"
+    }
+  ],
+  "Worm Sign": [
+    {
+      "type": "raid",
+      "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Wybel Taffy": [
+    {
+      "type": "merchant",
+      "name": "Letvus Airbase"
+    }
+  ],
+  "Zealous Illuminator": [
+    {
+      "type": "raid",
+      "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Zhight Coral Piece": [
+    {
+      "type": "merchant",
+      "name": "Zhight Island"
+    }
+  ],
+  "Zhight Herbal Mix": [
+    {
+      "type": "merchant",
+      "name": "Zhight Island"
+    }
+  ],
+  "Zhight Shiny Stone": [
+    {
+      "type": "merchant",
+      "name": "Zhight Island"
+    }
+  ],
+  "Zhight Weird Magic Rock": [
+    {
+      "type": "merchant",
+      "name": "Zhight Island"
+    }
+  ]
+}
