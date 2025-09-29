@@ -1,4 +1,114 @@
 {
+  "A16-L31 Handheld Mortar": [
+    {
+      "type": "worldEvent",
+      "name": "Decommissioned War Machines"
+    }
+  ],
+  "Abiogenesis": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    }
+  ],
+  "Ablution": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "Abominator": [
+    {
+      "type": "worldEvent",
+      "name": "Territorial Trolls"
+    }
+  ],
+  "Abyssal Amulet": [
+    {
+      "type": "merchant",
+      "name": "Lexdale"
+    }
+  ],
+  "Abysso Galoshes": [
+    {
+      "type": "quest",
+      "name": "Beneath the Depths"
+    }
+  ],
+  "Acidosis": [
+    {
+      "type": "worldEvent",
+      "name": "Pestilential Downpour"
+    }
+  ],
+  "Act Break": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Adhered Plate": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Adherence": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Aerolia Boots": [
+    {
+      "type": "caveCompletion",
+      "name": "Mossy Grotto"
+    }
+  ],
+  "Aestival Solstice": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "Afelis's Locket": [
+    {
+      "type": "interaction",
+      "name": "Afelis"
+    }
+  ],
+  "Agglomerate Apex": [
+    {
+      "type": "worldEvent",
+      "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Air Relic Dagger": [
+    {
+      "type": "miniboss",
+      "name": "Relic Guardian"
+    }
+  ],
+  "Alpenglow": [
+    {
+      "type": "caveCompletion",
+      "name": "Ovine Spire"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Ovine Spire"
+    }
+  ],
+  "Altum Spatium": [
+    {
+      "type": "quest",
+      "name": "???"
+    }
+  ],
   "Amber-Encased Fleris": [
     {
       "type": "gathering",
@@ -9,10 +119,50 @@
       "name": "Flerisi Trunk"
     }
   ],
+  "Amorphous": [
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Amulet of Rejuvenation": [
+    {
+      "type": "merchant",
+      "name": "Aldorei Town"
+    }
+  ],
+  "Anaklusmos": [
+    {
+      "type": "worldEvent",
+      "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Ancient Jazerant": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    }
+  ],
+  "Ancient Runic Relik": [
+    {
+      "type": "merchant",
+      "name": "Temple of the Legends"
+    }
+  ],
   "Ancient Spring Water": [
     {
       "type": "raid",
       "name": "Nest of the Grootslangs"
+    }
+  ],
+  "Angel Wing Shroud": [
+    {
+      "type": "worldEvent",
+      "name": "Risen Return"
     }
   ],
   "Angler's Light": [
@@ -21,16 +171,194 @@
       "name": "Abyssal Matter"
     }
   ],
+  "Animosity": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    },
+    {
+      "type": "worldEvent",
+      "name": "All Eyes on Me"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Pestilential Downpour"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    }
+  ],
+  "Antebellum": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Antihero": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
   "Antler Fragment": [
     {
       "type": "raid",
       "name": "Orphion's Nexus of Light"
     }
   ],
+  "Anya's Penumbra": [
+    {
+      "type": "discovery",
+      "name": "Fate of the Olm"
+    }
+  ],
+  "Aphorism": [
+    {
+      "type": "worldEvent",
+      "name": "Light Emissaries"
+    }
+  ],
+  "Apotheosis": [
+    {
+      "type": "worldEvent",
+      "name": "Light Emissaries"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Realmic Antigen"
+    }
+  ],
+  "Arctic Vixen's Pelt": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Arrester Pot": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Arterial Spray": [
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Ascendant Starwalkers": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Ashes": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
   "Assorted Seeds": [
     {
       "type": "environment",
       "name": "Bird Flock"
+    }
+  ],
+  "Avalanche": [
+    {
+      "type": "quest",
+      "name": "Fate of the Fallen"
+    }
+  ],
+  "Average Golden Boots": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Average Golden Chestplate": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Average Golden Helmet": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Average Golden Leggings": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Aviform": [
+    {
+      "type": "worldEvent",
+      "name": "Enraged Eagle"
+    }
+  ],
+  "Azotar": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Galleon's Graveyard"
+    }
+  ],
+  "Ba'al's Betrayal": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Babel": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Backbiter": [
+    {
+      "type": "worldEvent",
+      "name": "Necromantic Site"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Risen Return"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Misery"
     }
   ],
   "Bamboo": [
@@ -40,6 +368,75 @@
     },
     {
       "type": "lootChest"
+    }
+  ],
+  "Bandit's Bangle": [
+    {
+      "type": "specificMobDrop",
+      "name": "Emerald Knives Bandit"
+    }
+  ],
+  "Bandit's Knuckle": [
+    {
+      "type": "specificMobDrop",
+      "name": "Quicksand Carvers Bandit"
+    }
+  ],
+  "Bandit's Locket": [
+    {
+      "type": "specificMobDrop",
+      "name": "Sandstorm Vandals Leader Randall"
+    }
+  ],
+  "Bandit's Ring": [
+    {
+      "type": "specificMobDrop",
+      "name": "Shadow Spears Bandit"
+    }
+  ],
+  "Bane": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Bear Body": [
+    {
+      "type": "merchant",
+      "name": "The Bear Zoo"
+    }
+  ],
+  "Bear Head": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Bear Mask": [
+    {
+      "type": "merchant",
+      "name": "The Bear Zoo"
+    }
+  ],
+  "Beige Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Besieged Sanctum": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Bifrost": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Big Carapace": [
@@ -66,10 +463,321 @@
       "name": "Nest of the Grootslangs"
     }
   ],
+  "Bitter Cold": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Black Ice": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Black Lily": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Black Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Black Skull": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Black Space": [
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    }
+  ],
+  "Black Veil": [
+    {
+      "type": "quest",
+      "name": "The Maiden Tower"
+    }
+  ],
+  "Black Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Blank Stare": [
+    {
+      "type": "worldEvent",
+      "name": "Ahms Monuments"
+    }
+  ],
+  "Blazing Bangle": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    }
+  ],
+  "Blessing": [
+    {
+      "type": "merchant",
+      "name": "Llevigar"
+    }
+  ],
+  "Blighted Seraph": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Blissful Solace": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "Blitzen": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Blob Monster Mask": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Blood Moon": [
+    {
+      "type": "specificMobDrop",
+      "name": "Werewolf"
+    }
+  ],
+  "Blood-Tinted Necklace": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "Bloodbag": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Bloodbath": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Bloodied Chaps": [
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    }
+  ],
+  "Bloodied Wreath": [
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    }
+  ],
+  "Blue Ornament": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Blue Team Boots": [
+    {
+      "type": "merchant",
+      "name": "North Lusuco"
+    }
+  ],
+  "Blue Team Chestplate": [
+    {
+      "type": "merchant",
+      "name": "North Lusuco"
+    }
+  ],
+  "Blue Team Helmet": [
+    {
+      "type": "merchant",
+      "name": "North Lusuco"
+    }
+  ],
+  "Blue Team Leggings": [
+    {
+      "type": "merchant",
+      "name": "North Lusuco"
+    }
+  ],
+  "Blue Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
   "Blueshift Beacon": [
     {
       "type": "raid",
       "name": "The Nameless Anomaly"
+    }
+  ],
+  "Blunt Force": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Bob's Battle Chestplate": [
+    {
+      "type": "quest",
+      "name": "Bob's Lost Soul"
+    }
+  ],
+  "Bob's Mythic Bow": [
+    {
+      "type": "merchant",
+      "name": "Temple of the Legends"
+    }
+  ],
+  "Bob's Mythic Daggers": [
+    {
+      "type": "merchant",
+      "name": "Temple of the Legends"
+    }
+  ],
+  "Bob's Mythic Spear": [
+    {
+      "type": "merchant",
+      "name": "Temple of the Legends"
+    }
+  ],
+  "Bob's Mythic Wand": [
+    {
+      "type": "merchant",
+      "name": "Temple of the Legends"
+    }
+  ],
+  "Boil Lance": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Destruction"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    }
+  ],
+  "Botched Experiment": [
+    {
+      "type": "worldEvent",
+      "name": "Desperate Ambush"
+    }
+  ],
+  "Bovine Cuff": [
+    {
+      "type": "specificMobDrop",
+      "name": "Mooington"
+    }
+  ],
+  "Bow Of Wisdom": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Brainbleed": [
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    }
+  ],
+  "Brainy Beanie": [
+    {
+      "type": "worldEvent",
+      "name": "Necromantic Site"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Risen Return"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Misery"
+    }
+  ],
+  "Breathing Helmet I": [
+    {
+      "type": "quest",
+      "name": "Underwater"
+    }
+  ],
+  "Breathing Helmet II": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
     }
   ],
   "Broken Fiddle": [
@@ -78,16 +786,227 @@
       "name": "Encroaching Extinction"
     }
   ],
+  "Brown Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Bugbite": [
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    }
+  ],
+  "Buoyant Balmorals": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Bush Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Calamaro's Bow": [
+    {
+      "type": "merchant",
+      "name": "Squid Village"
+    }
+  ],
+  "Calamaro's Relik": [
+    {
+      "type": "merchant",
+      "name": "Squid Village"
+    }
+  ],
+  "Calamaro's Spear": [
+    {
+      "type": "merchant",
+      "name": "Squid Village"
+    }
+  ],
+  "Calamaro's Staff": [
+    {
+      "type": "merchant",
+      "name": "Squid Village"
+    }
+  ],
+  "Calamaro's Sword": [
+    {
+      "type": "merchant",
+      "name": "Squid Village"
+    }
+  ],
   "Candy Button": [
     {
       "type": "merchant",
       "name": "Letvus Airbase"
     }
   ],
+  "Candy Cane": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
   "Canned Sardines": [
     {
       "type": "worldEvent",
       "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Cannonade": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Captain's Razor": [
+    {
+      "type": "merchant",
+      "name": "Pirate Cove"
+    }
+  ],
+  "Carbon": [
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
+    }
+  ],
+  "Carnage Agglomerate": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Catamaran": [
+    {
+      "type": "worldEvent",
+      "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Cauterizer": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    }
+  ],
+  "Cerberus": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    }
+  ],
+  "Ceremonial Skirt": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Cerid's Ingenuity": [
+    {
+      "type": "dungeon",
+      "name": "Ice Barrows"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
+  "Cerulean Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Cessation": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Champion Boots": [
+    {
+      "type": "quest",
+      "name": "Tower of Ascension"
+    }
+  ],
+  "Champion Chestplate": [
+    {
+      "type": "quest",
+      "name": "Tower of Ascension"
+    }
+  ],
+  "Champion Helmet": [
+    {
+      "type": "quest",
+      "name": "Tower of Ascension"
+    }
+  ],
+  "Champion Leggings": [
+    {
+      "type": "quest",
+      "name": "Tower of Ascension"
+    }
+  ],
+  "Changeling's Chestplate": [
+    {
+      "type": "quest",
+      "name": "General's Orders"
+    }
+  ],
+  "Charcoal": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Charcoal Lump": [
@@ -112,10 +1031,62 @@
       "name": "Maar Ashpit"
     }
   ],
+  "Charity": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Chef Hamsey's Apron": [
+    {
+      "type": "quest",
+      "name": "Recipe For Disaster"
+    }
+  ],
+  "Chipped Leather Boots": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Chipped Leather Cap": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Chipped Leather Pants": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Chipped Leather Tunic": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
   "Chunky Ash": [
     {
       "type": "gathering",
       "name": "Flerisi Tree"
+    }
+  ],
+  "Cinders": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
+  "Circlet of Silver Feathers": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Claw of Demise": [
@@ -124,7 +1095,65 @@
       "name": "Prelude to Annihilation"
     }
   ],
+  "Claws of Atypical Expanse": [
+    {
+      "type": "caveCompletion",
+      "name": "Fire Swamp"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Fire Swamp"
+    }
+  ],
   "Cleaned Saccharum": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Clearsight Spectacles": [
+    {
+      "type": "quest",
+      "name": "Realm of Light IV - Finding the Light"
+    }
+  ],
+  "Climbing Helmet": [
+    {
+      "type": "quest",
+      "name": "Ice Nations"
+    }
+  ],
+  "Cloak of Luminosity": [
+    {
+      "type": "quest",
+      "name": "Realm of Light III - A Headless History"
+    }
+  ],
+  "Clock Amulet": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Clock Boots": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Clock Helm": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Clock Leggings": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Clock Mail": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Clockwork Ring": [
     {
       "type": "unavailable"
     }
@@ -135,10 +1164,72 @@
       "name": "Orphion's Nexus of Light"
     }
   ],
+  "Cnidarian Hellspawn": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Coal Cadaver": [
+    {
+      "type": "caveCompletion",
+      "name": "Sink Hole"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Sink Hole"
+    }
+  ],
   "Cocoa Caps": [
     {
       "type": "merchant",
       "name": "Letvus Airbase"
+    }
+  ],
+  "Coeur Brise": [
+    {
+      "type": "caveCompletion",
+      "name": "Lovers' Cavern"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Lovers' Cavern"
+    }
+  ],
+  "Comet": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Confused Gert Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part I"
+    }
+  ],
+  "Confusing Cap": [
+    {
+      "type": "specificMobDrop",
+      "name": "Confused Zombie"
+    }
+  ],
+  "Conifer": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Contamination": [
+    {
+      "type": "specificMobDrop",
+      "name": "Jungle Fetishes"
+    }
+  ],
+  "Contest Wynner Cap": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
     }
   ],
   "Contraband Absinthe": [
@@ -159,6 +1250,12 @@
       "name": "Rymek"
     }
   ],
+  "Cornucopia": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
   "Corrupted Metal Scrap": [
     {
       "type": "worldEvent",
@@ -173,10 +1270,117 @@
       "name": "Encroaching Ablation"
     }
   ],
+  "Corrupted Nii Shako": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Corrupted Witherhead's Elbow": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Cosmic Vest": [
+    {
+      "type": "quest",
+      "name": "???"
+    }
+  ],
+  "Cosmic Visor": [
+    {
+      "type": "quest",
+      "name": "???"
+    }
+  ],
+  "Cosmic Walkers": [
+    {
+      "type": "quest",
+      "name": "???"
+    }
+  ],
+  "Cosmic Ward": [
+    {
+      "type": "quest",
+      "name": "???"
+    }
+  ],
+  "Cracked Oak Bow": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Cracked Oak Dagger": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Cracked Oak Relik": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Cracked Oak Spear": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Cracked Oak Wand": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Creeper Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Cremation": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Crumbling Foundation": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Crystal-Blend Pendant": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
   "Cultist Ashes": [
     {
       "type": "worldEvent",
       "name": "Dark Deacons"
+    }
+  ],
+  "Cupid": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Cursed Jackboots": [
+    {
+      "type": "merchant",
+      "name": "Pirate Cove"
+    }
+  ],
+  "Cypress Amber": [
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
     }
   ],
   "Cystic Lard": [
@@ -188,10 +1392,78 @@
       "type": "lootChest"
     }
   ],
+  "Dancer": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Dark Diadem": [
+    {
+      "type": "quest",
+      "name": "The Dark Descent"
+    }
+  ],
+  "Darksteel Centrifuge": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Dasher": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Death Grasp": [
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    }
+  ],
+  "Decaybound Spindle": [
+    {
+      "type": "worldEvent",
+      "name": "Rogue Wyrmling"
+    }
+  ],
   "Deepborn Scavenger": [
     {
       "type": "gathering",
       "name": "Abyssal Matter"
+    }
+  ],
+  "Deliverance": [
+    {
+      "type": "worldEvent",
+      "name": "Realmic Antigen"
+    }
+  ],
+  "Delusion": [
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    }
+  ],
+  "Demonio": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Depth": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
     }
   ],
   "Dernic Hydroid": [
@@ -206,10 +1478,104 @@
       "name": "Monument to Loss"
     }
   ],
+  "Desert Cyclone": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Desert Sands": [
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    }
+  ],
+  "Desert Sepulcher": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    }
+  ],
+  "Desert Stalker": [
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    }
+  ],
+  "Desert Winds": [
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Desert Wretch": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    }
+  ],
+  "Desperate Facsimile": [
+    {
+      "type": "worldEvent",
+      "name": "Despermech Occupation"
+    }
+  ],
+  "Destructor": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Detective's Ring": [
+    {
+      "type": "quest",
+      "name": "Murder Mystery"
+    }
+  ],
   "Devilish Delight": [
     {
       "type": "worldEvent",
       "name": "Encroaching Extinction"
+    }
+  ],
+  "Diaconate": [
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    }
+  ],
+  "Digested Corpse": [
+    {
+      "type": "specificMobDrop",
+      "name": "Tribal Cannibals"
+    }
+  ],
+  "Disfigured Vessel": [
+    {
+      "type": "worldEvent",
+      "name": "Unsettling Encounters"
+    }
+  ],
+  "Dissever": [
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
     }
   ],
   "Dizzying Void": [
@@ -230,10 +1596,136 @@
       "name": "Otherworldly Exhibition"
     }
   ],
+  "Dodegar's Ultimate Weapon": [
+    {
+      "type": "quest",
+      "name": "The Ultimate Weapon"
+    }
+  ],
+  "Dogfight": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    }
+  ],
   "Dogun Alert Sigil": [
     {
       "type": "raid",
       "name": "The Canyon Colossus"
+    }
+  ],
+  "Dogun Sautoir": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Donner": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Doomed Journey": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Doomsday Omen": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Double Vision": [
+    {
+      "type": "quest",
+      "name": "Realm of Light V - The Realm of Light"
+    }
+  ],
+  "Douglas Fir": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Dragon Hide Plate": [
+    {
+      "type": "quest",
+      "name": "The Thanos Depository"
+    }
+  ],
+  "Dragon's Eye Bracelet": [
+    {
+      "type": "quest",
+      "name": "The Order of the Grook"
+    }
+  ],
+  "Dragster": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Draoi Fair": [
+    {
+      "type": "quest",
+      "name": "The Order of the Grook"
+    }
+  ],
+  "Dull Ancient Helmet": [
+    {
+      "type": "quest",
+      "name": "Purple and Blue"
+    }
+  ],
+  "Dwindled Knowledge": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Earthmover": [
+    {
+      "type": "worldEvent",
+      "name": "Rogue Wyrmling"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Desperate Ambush"
+    }
+  ],
+  "Earthsky Eclipse": [
+    {
+      "type": "worldEvent",
+      "name": "Colossi Ingrain"
+    }
+  ],
+  "Electro Mage's Boots": [
+    {
+      "type": "quest",
+      "name": "The Envoy Part II"
     }
   ],
   "Electromagnetic Shield Plating": [
@@ -242,16 +1734,174 @@
       "name": "Decommissioned War Machines"
     }
   ],
+  "Elemental Training Bow": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Elemental Training Dagger": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Elemental Training Relik": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Elemental Training Spear": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Elemental Training Wand": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Elf Cap": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Elf Pants": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Elf Robe": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Elf Shoes": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Elk's Hoof": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Emerald Knife": [
+    {
+      "type": "specificMobDrop",
+      "name": "Emerald Knives Bandi"
+    }
+  ],
+  "Emerald-Tinted Charm": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "Empathy Purge": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Empowered Ancient Helmet": [
+    {
+      "type": "quest",
+      "name": "Purple and Blue"
+    }
+  ],
+  "Ensa's Faith": [
+    {
+      "type": "dungeon",
+      "name": "Corrupted Decrepit Sewers"
+    },
+    {
+      "type": "dungeon",
+      "name": "Corrupted Infested Pit"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
+  "Entamyx": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Ephemeris": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
   "Epipelagic Eye": [
     {
       "type": "gathering",
       "name": "Abyssal Matter"
     }
   ],
+  "Equinox Blossom": [
+    {
+      "type": "caveCompletion",
+      "name": "Cave of the Seasons"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Cave of the Seasons"
+    }
+  ],
+  "Eradian Cuissards": [
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
   "Essence of Dissolution": [
     {
       "type": "gathering",
       "name": "Voidgloom"
+    }
+  ],
+  "Essren's Coat": [
+    {
+      "type": "quest",
+      "name": "Potion Making"
+    }
+  ],
+  "Esteemed Bronze Mask of Legendary Victory": [
+    {
+      "type": "merchant",
+      "name": "Legendary Island"
+    }
+  ],
+  "Etiolation": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Evapar": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
+  "Evergreen": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Extremely Dense Pebble": [
@@ -266,10 +1916,26 @@
       "name": "The Nameless Anomaly"
     }
   ],
+  "Factory Helmet": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
   "Familiar Essence": [
     {
       "type": "quest",
       "name": "Deja Vu Quest"
+    }
+  ],
+  "Fantasy": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Fathomflooded Flesh": [
@@ -278,10 +1944,161 @@
       "name": "Abyssal Matter"
     }
   ],
+  "Fellowship": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Female Pirate Wig": [
+    {
+      "type": "merchant",
+      "name": "Ahmsord"
+    }
+  ],
+  "Fiend": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Misery"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Risen Return"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    }
+  ],
+  "Fiery Bow": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Fiery Dagger": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Fiery Relik": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Fiery Spear": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Fiery Wand": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Fire Brand": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    }
+  ],
+  "Fire Relic Dagger": [
+    {
+      "type": "miniboss",
+      "name": "Relic Guardian"
+    }
+  ],
+  "Fire Wire": [
+    {
+      "type": "quest",
+      "name": "From the Mountains"
+    }
+  ],
+  "Firebird": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Firewood": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Firework": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "First Steps": [
+    {
+      "type": "quest",
+      "name": "Enzan's Brother"
+    }
+  ],
   "Fissured Tablet": [
     {
       "type": "raid",
       "name": "The Canyon Colossus"
+    }
+  ],
+  "Flaming Wing": [
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    }
+  ],
+  "Flawed Golden Chestplate": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawed Golden Leggings": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawed Leather Boots": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawed Leather Cap": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawless Chain Boots": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawless Chain Chestplate": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawless Chain Helmet": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Flawless Chain Leggings": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
     }
   ],
   "Flerisi Bark": [
@@ -312,10 +2129,131 @@
       "name": "Orphion's Nexus of Light"
     }
   ],
+  "Foehn Wind": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
+    }
+  ],
+  "Fool's Errand": [
+    {
+      "type": "miniboss",
+      "name": "Fool Eater"
+    }
+  ],
+  "Foreword": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Forlorn Pursuit": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Found Footage": [
+    {
+      "type": "worldEvent",
+      "name": "Despermech Occupation"
+    }
+  ],
+  "Fractured Lyre": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    }
+  ],
+  "Frankincense": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
   "Frenetic Heart": [
     {
       "type": "worldEvent",
       "name": "Prelude to Annihilation"
+    }
+  ],
+  "Frigg's Vow": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Frost": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Frostburn": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Funambulist": [
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    }
+  ],
+  "Future Shock Plating": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Fuunyet": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Gadgeteer": [
+    {
+      "type": "worldEvent",
+      "name": "Despermech Occupation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Decommissioned War Machines"
+    }
+  ],
+  "Gale's Sight": [
+    {
+      "type": "dungeon",
+      "name": "Corrupted Infested Pit"
+    },
+    {
+      "type": "dungeon",
+      "name": "Corrupted Lost Sanctuary"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
+  "Garland": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Generator Amulet": [
+    {
+      "type": "quest",
+      "name": "Heart of Llevigar"
     }
   ],
   "Generator Chip": [
@@ -325,6 +2263,94 @@
     },
     {
       "type": "lootChest"
+    }
+  ],
+  "Geode Fluxplate": [
+    {
+      "type": "caveCompletion",
+      "name": "Geodesic"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Geodesic"
+    }
+  ],
+  "Gernald's Amulet": [
+    {
+      "type": "quest",
+      "name": "Underice"
+    }
+  ],
+  "Gert Bangswing Manypointystick": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Bumpstump Legcovercloth": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Rock Smashbanger": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Shakestomper Toefeet": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Shootstick Tossflinger": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Super Special Magic Ultistick": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Swingpoke Cuttyrock": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Veryhard Chestclothes": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gert Whooshy Bonkpole": [
+    {
+      "type": "merchant",
+      "name": "Gert Camp"
+    }
+  ],
+  "Gerten Ritual Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part II"
+    }
+  ],
+  "Ghorme Ndaizma": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Ghostly Quasar": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
     }
   ],
   "Giant Petal": [
@@ -339,16 +2365,435 @@
       "name": "The Canyon Colossus"
     }
   ],
+  "Giant's Kneecap": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    }
+  ],
+  "Giant's Ring": [
+    {
+      "type": "quest",
+      "name": "The Bigger Picture"
+    }
+  ],
+  "Gift of the Magi": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Glaciate": [
+    {
+      "type": "quest",
+      "name": "Frost Bite"
+    }
+  ],
+  "Glaring Issue": [
+    {
+      "type": "worldEvent",
+      "name": "Necromantic Site"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Corrupted Spring"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Misery"
+    }
+  ],
+  "Glass Skin": [
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Gneiss Belt": [
+    {
+      "type": "worldEvent",
+      "name": "Ruff & Tumble"
+    }
+  ],
+  "Gnome's Ring": [
+    {
+      "type": "quest",
+      "name": "The Bigger Picture"
+    }
+  ],
+  "Gnomish Topper": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Goblin Arm Bracer": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Goblin Cloak": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Goblin Hex Focus": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Goblin Hood": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Goblin Luck Charm": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Goblin Runners": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Goblin-Silver Ring": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Golem's Arm": [
+    {
+      "type": "merchant",
+      "name": "Encroaching Destruction"
+    },
+    {
+      "type": "merchant",
+      "name": "Corrupted Spring"
+    }
+  ],
+  "Goredrinker": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Grand Design": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Granitic Mettle": [
+    {
+      "type": "worldEvent",
+      "name": "Ruff & Tumble"
+    }
+  ],
+  "Greatbird Eyrie": [
+    {
+      "type": "worldEvent",
+      "name": "Shattered Roosts"
+    }
+  ],
+  "Greaves of Honor": [
+    {
+      "type": "quest",
+      "name": "An Iron Heart Part II"
+    }
+  ],
+  "Green Ornament": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Green Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Grisly Gauntlet": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    }
+  ],
   "Grootslang Fin": [
     {
       "type": "worldEvent",
       "name": "Rogue Wyrmling"
     }
   ],
+  "Guard's Garment": [
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    }
+  ],
+  "Guard's Uniform": [
+    {
+      "type": "quest",
+      "name": "Forbidden Prison"
+    }
+  ],
+  "Gysdep": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "H-209 Miniature Defibrillator": [
+    {
+      "type": "worldEvent",
+      "name": "Decommissioned War Machines"
+    }
+  ],
+  "H-215 Plasmatic Exograft": [
+    {
+      "type": "worldEvent",
+      "name": "Despermech Occupation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Decommissioned War Machines"
+    }
+  ],
+  "Halation": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Hallowynn Mask": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Hanafubuki": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Happy Gert Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part I"
+    }
+  ],
+  "Harmstick": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Hearthkeeper": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "Hecatomb": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
   "Helio Wing": [
     {
       "type": "raid",
       "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Helios Lux": [
+    {
+      "type": "worldEvent",
+      "name": "Light Emissaries"
+    }
+  ],
+  "Helmet of Legends": [
+    {
+      "type": "quest",
+      "name": "Temple of the Legends"
+    }
+  ],
+  "Helmet of Shimmering Light": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Hembwal": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Herald of Ruin": [
+    {
+      "type": "worldEvent",
+      "name": "Decommissioned War Machines"
+    }
+  ],
+  "Hero's Mask": [
+    {
+      "type": "event",
+      "name": "heroes"
+    }
+  ],
+  "Hex-Master Anchor": [
+    {
+      "type": "caveCompletion",
+      "name": "Hex Keep Gateway"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Hex Keep Gateway"
+    }
+  ],
+  "Hide of Poxper": [
+    {
+      "type": "quest",
+      "name": "Blazing Retribution"
+    }
+  ],
+  "Hillich": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Hinterlands": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Holiday Spirit": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Hollow Virtue": [
+    {
+      "type": "worldEvent",
+      "name": "Realmic Antigen"
+    }
+  ],
+  "Holly": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Hotline": [
+    {
+      "type": "merchant",
+      "name": "Llevigar"
+    }
+  ],
+  "Howler Hide": [
+    {
+      "type": "specificMobDrop",
+      "name": "Howler"
+    }
+  ],
+  "Hue": [
+    {
+      "type": "merchant",
+      "name": "Nesaak"
+    }
+  ],
+  "Hungry Gert Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part I"
+    }
+  ],
+  "Hydrogen": [
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    }
+  ],
+  "Hydrothermal": [
+    {
+      "type": "caveCompletion",
+      "name": "Steamworks"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Steamworks"
     }
   ],
   "Ice Cream Sandwich": [
@@ -375,10 +2820,43 @@
       "name": "Nesaak"
     }
   ],
+  "Ice Fishing Spear": [
+    {
+      "type": "unavailable"
+    }
+  ],
   "Ice Fishing Twine": [
     {
       "type": "merchant",
       "name": "Nesaak"
+    }
+  ],
+  "Ice Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Ice Skates": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Ice-cold Robe": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Icicle": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Igneous Thread": [
@@ -421,6 +2899,17 @@
       "name": "Rymek"
     }
   ],
+  "Impossibility Threshold": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    }
+  ],
+  "Impure Morph-Gold": [
+    {
+      "type": "unavailable"
+    }
+  ],
   "Impure Nullity": [
     {
       "type": "gathering",
@@ -433,6 +2922,31 @@
       "name": "The Canyon Colossus"
     }
   ],
+  "Inclemency": [
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    }
+  ],
+  "Inconceivably Deranged Paper Mask of Legendary Victory": [
+    {
+      "type": "merchant",
+      "name": "Legendary Island"
+    }
+  ],
+  "Indigo Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
   "Infernal Antifreeze": [
     {
       "type": "worldEvent",
@@ -443,10 +2957,82 @@
       "name": "Infernal Caldera"
     }
   ],
+  "Infernus Aeterna": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Inhibitor": [
+    {
+      "type": "specificMobDrop",
+      "name": "Qira, Mistress of the Hive"
+    }
+  ],
+  "Inmate Outfit": [
+    {
+      "type": "quest",
+      "name": "The Forbidden Prison"
+    }
+  ],
+  "Inscrutable Illusion": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    }
+  ],
+  "Insignia": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Intestine Lasso": [
+    {
+      "type": "worldEvent",
+      "name": "Risen Return"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Misery"
+    }
+  ],
   "Inverted Grotesque": [
     {
       "type": "worldEvent",
       "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Iron Will": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
+  "Isostasis": [
+    {
+      "type": "worldEvent",
+      "name": "Abandoned Sentinels"
+    }
+  ],
+  "Isostatic Rebound": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Jagged Bone Necklace": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
     }
   ],
   "Jagged Icicle": [
@@ -465,6 +3051,60 @@
       "name": "Orphion's Nexus of Light"
     }
   ],
+  "Jinxed Coif": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Joyous": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Jungle Rogue": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Kaerynn's Body": [
+    {
+      "type": "quest",
+      "name": "Aldorei's Secret Part II"
+    }
+  ],
+  "Kaerynn's Mind": [
+    {
+      "type": "quest",
+      "name": "Aldorei's Secret Part II"
+    }
+  ],
+  "Kal Hei": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Krampus": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Labyrinth": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Lazarus' Brace": [
+    {
+      "type": "quest",
+      "name": "Lazarus Pit"
+    }
+  ],
   "Letvus Delight": [
     {
       "type": "merchant",
@@ -477,10 +3117,112 @@
       "name": "Letvus Airbase"
     }
   ],
+  "Lingering Twilight": [
+    {
+      "type": "caveCompletion",
+      "name": "Raiders' Hideout"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Raiders' Hideout"
+    }
+  ],
+  "Living Slime": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    },
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Lost Tales": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Lurking Peril": [
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    }
+  ],
+  "Malevolent Urge": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Malicious Maw": [
+    {
+      "type": "worldEvent",
+      "name": "Pestilential Downpour"
+    }
+  ],
+  "Mama Zomble's Memory": [
+    {
+      "type": "specificMobDrop",
+      "name": "Mama Zomble"
+    }
+  ],
   "Marble Statuette": [
     {
       "type": "raid",
       "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Marrow-Tinted Necklace": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "Mask of the Dark Curse": [
+    {
+      "type": "specificMobDrop",
+      "name": "Cursed Cultist"
+    }
+  ],
+  "Mask of the Dark Vexations": [
+    {
+      "type": "miniboss",
+      "name": "Sacrificial Altar"
+    }
+  ],
+  "Mask of the Spirits": [
+    {
+      "type": "event",
+      "name": "spirits"
+    }
+  ],
+  "Matryoshka Shell": [
+    {
+      "type": "miniboss",
+      "name": "Matryoshka Idol"
+    }
+  ],
+  "Mazeweaver": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Mech Core": [
+    {
+      "type": "quest",
+      "name": "Desperate Metal"
+    }
+  ],
+  "Megalophobia": [
+    {
+      "type": "worldEvent",
+      "name": "Lonely Islet"
     }
   ],
   "Memory Dye": [
@@ -489,10 +3231,50 @@
       "name": "Visit from Beyond"
     }
   ],
+  "Mephistophelian": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Mesmerizing Madness": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    }
+  ],
+  "Mesoskeleton": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    }
+  ],
+  "Metal Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
   "Migratory Coconut": [
     {
       "type": "raid",
       "name": "The Nameless Anomaly"
+    }
+  ],
+  "Minokawa's Grasp": [
+    {
+      "type": "worldEvent",
+      "name": "Shattered Roosts"
+    }
+  ],
+  "Mistletoe": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Moldy Wrapping": [
@@ -505,10 +3287,110 @@
       "name": "Blood-Encrusted Mastaba"
     }
   ],
+  "Molten Fleshmass": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    },
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Monsoon": [
+    {
+      "type": "worldEvent",
+      "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Mould Breaker": [
+    {
+      "type": "worldEvent",
+      "name": "Rogue Wyrmling"
+    }
+  ],
+  "Mud Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Mummy's Rag": [
+    {
+      "type": "quest",
+      "name": "Wrath of the Mummy"
+    }
+  ],
+  "Mummy's Talisman": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    }
+  ],
   "Mural Shard": [
     {
       "type": "raid",
       "name": "The Canyon Colossus"
+    }
+  ],
+  "Mutilated Corpse": [
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    }
+  ],
+  "Myopia": [
+    {
+      "type": "caveCompletion",
+      "name": "Eyeball Gauntlet"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Eyeball Gauntlet"
+    }
+  ],
+  "Myrrh": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Mystical Tags": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Nativitate": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Necklace of a Thousand Storms": [
+    {
+      "type": "discovery",
+      "name": "Necklace Chamber"
     }
   ],
   "Negative Rafflesia": [
@@ -521,6 +3403,144 @@
     {
       "type": "raid",
       "name": "The Nameless Anomaly"
+    }
+  ],
+  "Never-Ending Nightmare": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Nevermore": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    }
+  ],
+  "New Moon": [
+    {
+      "type": "caveCompletion",
+      "name": "Half Moon Island"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Half Moon Island"
+    }
+  ],
+  "Nightmare": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Nitrogen": [
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
+    }
+  ],
+  "North Pole": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Nostalgia": [
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
+    }
+  ],
+  "Novarupta": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    }
+  ],
+  "Nuclear Emesis": [
+    {
+      "type": "worldEvent",
+      "name": "Pestilential Downpour"
+    }
+  ],
+  "Null Plating": [
+    {
+      "type": "worldEvent",
+      "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Oak Wood Bow": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Oak Wood Dagger": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Oak Wood Relik": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Oak Wood Spear": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
+    }
+  ],
+  "Oak Wood Wand": [
+    {
+      "type": "merchant",
+      "name": "Ragni"
     }
   ],
   "Obsidian Shards": [
@@ -541,10 +3561,154 @@
       "name": "Maar Ashpit"
     }
   ],
+  "Obsolescent Panoply": [
+    {
+      "type": "worldEvent",
+      "name": "Abandoned Sentinels"
+    }
+  ],
+  "Ohms' Rage": [
+    {
+      "type": "dungeon",
+      "name": "Undergrowth Ruins"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
+  "Olit Vaniek": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Olux's Prized Bow": [
+    {
+      "type": "merchant",
+      "name": "Olux"
+    }
+  ],
+  "Olux's Prized Dagger": [
+    {
+      "type": "merchant",
+      "name": "Olux"
+    }
+  ],
+  "Olux's Prized Relik": [
+    {
+      "type": "merchant",
+      "name": "Olux"
+    }
+  ],
+  "Olux's Prized Spear": [
+    {
+      "type": "merchant",
+      "name": "Olux"
+    }
+  ],
+  "Olux's Prized Wand": [
+    {
+      "type": "merchant",
+      "name": "Olux"
+    }
+  ],
+  "Ominous Wind": [
+    {
+      "type": "quest",
+      "name": "One Thousand Meters Under"
+    }
+  ],
+  "Omnia Mors": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Opium": [
+    {
+      "type": "merchant",
+      "name": "Pirate Cove"
+    }
+  ],
+  "Orange Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Orc Mask": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Ornate Shadow Cloud": [
+    {
+      "type": "merchant",
+      "name": "Lutho"
+    }
+  ],
+  "Ornate Shadow Cover": [
+    {
+      "type": "merchant",
+      "name": "Lutho"
+    }
+  ],
+  "Ornate Shadow Cowl": [
+    {
+      "type": "merchant",
+      "name": "Lutho"
+    }
+  ],
+  "Ornate Shadow Garb": [
+    {
+      "type": "merchant",
+      "name": "Lutho"
+    }
+  ],
+  "Outlandish Replica Face Mask of Legendary Victory": [
+    {
+      "type": "merchant",
+      "name": "Legendary Island"
+    }
+  ],
+  "Pale Sun": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Paracausal": [
+    {
+      "type": "caveCompletion",
+      "name": "Weirding Ring"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Weirding Ring"
+    }
+  ],
   "Parasitic Chitin": [
     {
       "type": "raid",
       "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Pareidolia": [
+    {
+      "type": "worldEvent",
+      "name": "All Eyes on Me"
+    }
+  ],
+  "Paw": [
+    {
+      "type": "unavailable"
     }
   ],
   "Peculiar Oddity": [
@@ -553,10 +3717,101 @@
       "name": "Voidgloom"
     }
   ],
+  "Pendant of Prosperity": [
+    {
+      "type": "quest",
+      "name": "Fantastic Voyage"
+    }
+  ],
+  "Perch of the Shrouded Sun": [
+    {
+      "type": "worldEvent",
+      "name": "Shattered Roosts"
+    }
+  ],
+  "Permafrosted Saxifrage": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Phantasmal Hostage": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Phantasmal Remnants": [
+    {
+      "type": "worldEvent",
+      "name": "Visit from Beyond"
+    }
+  ],
+  "Phlebotomy": [
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Phoenix Prince's Crown": [
+    {
+      "type": "discovery",
+      "name": "Lost Avos City"
+    }
+  ],
+  "Photon": [
+    {
+      "type": "quest",
+      "name": "Realm of Light II - Taproot"
+    }
+  ],
   "Photophobic Kelp": [
     {
       "type": "raid",
       "name": "The Nameless Anomaly"
+    }
+  ],
+  "Pine Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Pink Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Pirate Luck": [
+    {
+      "type": "merchant",
+      "name": "Pirate Cove"
+    }
+  ],
+  "Pirate Queen's Ring of Rubies": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Plain Glass Necklace": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "Poinsettia": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Polar Star": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Potato": [
@@ -604,6 +3859,24 @@
       "type": "lootChest"
     }
   ],
+  "Prancer": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Price of Life": [
+    {
+      "type": "worldEvent",
+      "name": "Visit from Beyond"
+    }
+  ],
+  "Pride": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
   "Pride of the Heights": [
     {
       "type": "merchant",
@@ -620,6 +3893,12 @@
     {
       "type": "worldEvent",
       "name": "Maar Ashpit"
+    }
+  ],
+  "Pristine Antiquity": [
+    {
+      "type": "worldEvent",
+      "name": "Abandoned Sentinels"
     }
   ],
   "Prized Feather": [
@@ -640,6 +3919,16 @@
       "name": "Ruff & Tumble"
     }
   ],
+  "Protector's Parable": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
   "Psionic Quill": [
     {
       "type": "gathering",
@@ -652,10 +3941,239 @@
       "name": "The Nameless Anomaly"
     }
   ],
+  "Psychomend Vest": [
+    {
+      "type": "quest",
+      "name": "Shattered Minds"
+    }
+  ],
+  "Psychopomp's Pileus": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Pulse Storm": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "Pumpkin Helmet": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Pure Diamond Chestplate": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Pure Iron Boots": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Pure Iron Helmet": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Pure Iron Leggings": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
   "Purest Prism": [
     {
       "type": "raid",
       "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Purified Helmet of the Legends": [
+    {
+      "type": "quest",
+      "name": "Temple of the Legends"
+    }
+  ],
+  "Purity Filter": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Purple Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Pyroclastic Flow": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Maar Ashpit"
+    }
+  ],
+  "Quartron's Eye": [
+    {
+      "type": "quest",
+      "name": "Rise of the Quartron"
+    }
+  ],
+  "Quicksand Crossers": [
+    {
+      "type": "specificMobDrop",
+      "name": "Quicksand Carvers Bandit"
+    }
+  ],
+  "Quilted Carapace": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Radiation": [
+    {
+      "type": "caveCompletion",
+      "name": "Azurite Island"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Azurite Island"
+    }
+  ],
+  "Radium": [
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
+    }
+  ],
+  "Raging Wind": [
+    {
+      "type": "quest",
+      "name": "Beyond the Grave"
+    }
+  ],
+  "Ragon's Bracelet": [
+    {
+      "type": "quest",
+      "name": "Elemental Exercise"
+    }
+  ],
+  "Randall's Leg Plating": [
+    {
+      "type": "specificMobDrop",
+      "name": "Sandstorm Vandals Leader Randals"
+    }
+  ],
+  "Rano Raraku": [
+    {
+      "type": "worldEvent",
+      "name": "Ahms Monuments"
+    }
+  ],
+  "Red Ornament": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Red Team Boots": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Red Team Chestplate": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Red Team Helmet": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Red Team Leggings": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Red Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Refined Chainmail Helmet": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Refined Iron Boots": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Refined Iron Chainmail": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Refined Iron Leggings": [
+    {
+      "type": "unavailable",
+      "name": "Discontinued"
+    }
+  ],
+  "Reindeer Paws": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Rejected Geode": [
@@ -664,10 +4182,125 @@
       "name": "Larbonic Geode"
     }
   ],
+  "Reliquiae": [
+    {
+      "type": "worldEvent",
+      "name": "Abandoned Sentinels"
+    }
+  ],
+  "Remikas' Authority": [
+    {
+      "type": "dungeon",
+      "name": "Galleon's Graveyard"
+    },
+    {
+      "type": "dungeon",
+      "name": "Galleon's Graveyard"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
   "Remnant of the Ruined": [
     {
       "type": "gathering",
       "name": "Voidgloom"
+    }
+  ],
+  "Renda Langit": [
+    {
+      "type": "quest",
+      "name": "The Order of the Grook"
+    }
+  ],
+  "Replica Hallowynn Mask": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Repose": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Repurposed Vessels": [
+    {
+      "type": "worldEvent",
+      "name": "Ahms Monuments"
+    }
+  ],
+  "Resolution": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Resonance": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Restored Ancient Helmet": [
+    {
+      "type": "quest",
+      "name": "Purple and Blue"
+    }
+  ],
+  "Revered Silver Mask of Legendary Victory": [
+    {
+      "type": "merchant",
+      "name": "Legendary Island"
+    }
+  ],
+  "Rigor Mortis": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Rime-Webbed Antlers": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Ring of Generosity": [
+    {
+      "type": "quest",
+      "name": "Memory Paranoia"
+    }
+  ],
+  "Ring of Rubies": [
+    {
+      "type": "quest",
+      "name": "Flight in Distress"
+    }
+  ],
+  "Roasted Chestnut": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Rock Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
     }
   ],
   "Rocky Spirit": [
@@ -682,6 +4315,220 @@
       "name": "Nest of the Grootslangs"
     }
   ],
+  "Royal Blazing Amulet": [
+    {
+      "type": "merchant",
+      "name": "Cinfras"
+    }
+  ],
+  "Royal Cyclone Amulet": [
+    {
+      "type": "merchant",
+      "name": "Cinfras"
+    }
+  ],
+  "Royal Dusty Amulet": [
+    {
+      "type": "merchant",
+      "name": "Cinfras"
+    }
+  ],
+  "Royal Shocking Amulet": [
+    {
+      "type": "merchant",
+      "name": "Cinfras"
+    }
+  ],
+  "Royal Stormy Amulet": [
+    {
+      "type": "merchant",
+      "name": "Cinfras"
+    }
+  ],
+  "Runebound Chains": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Rusted Cog": [
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Rusty Sword": [
+    {
+      "type": "merchant",
+      "name": "Pirate Cove"
+    }
+  ],
+  "Rycar's Elation": [
+    {
+      "type": "dungeon",
+      "name": "Galleon's Graveyard"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
+  "Sacred": [
+    {
+      "type": "merchant",
+      "name": "Llevigar"
+    }
+  ],
+  "Sad Gert Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part I"
+    }
+  ],
+  "Sailor's Charm": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "Saint's Leggings": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Saint's Sandals": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Saint's Shawl": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Saint's Tunic": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Salt Crag": [
+    {
+      "type": "worldEvent",
+      "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Sandshooter": [
+    {
+      "type": "specificMobDrop",
+      "name": "Sandstorm Vandals Bandits"
+    }
+  ],
+  "Sandslasher": [
+    {
+      "type": "specificMobDrop",
+      "name": "Sandstorm Vandals Bandits"
+    }
+  ],
+  "Sanguine Spaulder": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Bowels of the Roots"
+    }
+  ],
+  "Santa Boots": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Santa Earmuffs": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Santa Hat": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Santa's Coat": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Santa's Pants": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Scarab-Shelled Charm": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "Scared Gert Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part I"
+    }
+  ],
+  "Scarlet Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Schadenfreude": [
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    }
+  ],
+  "Sclera Swathe": [
+    {
+      "type": "worldEvent",
+      "name": "All Eyes on Me"
+    }
+  ],
+  "Scorched Antiquity": [
+    {
+      "type": "worldEvent",
+      "name": "Infernal Caldera"
+    }
+  ],
+  "Scorched Feather": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
   "Scorching Horn": [
     {
       "type": "worldEvent",
@@ -692,6 +4539,35 @@
     {
       "type": "worldEvent",
       "name": "Corrupted Spring"
+    }
+  ],
+  "Scrap Amalgam": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Scrooge": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Scumlord": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Sealight Prism": [
+    {
+      "type": "worldEvent",
+      "name": "Lonely Islet"
+    }
+  ],
+  "Sealskin Parka": [
+    {
+      "type": "unavailable"
     }
   ],
   "Searing Heartwood": [
@@ -716,10 +4592,82 @@
       "name": "Encroaching Conflagration"
     }
   ],
+  "Serpentine": [
+    {
+      "type": "caveCompletion",
+      "name": "Naga Dugout"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Naga Dugout"
+    }
+  ],
+  "Serrae": [
+    {
+      "type": "worldEvent",
+      "name": "Shattered Roosts"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Ahms Monuments"
+    }
+  ],
+  "Set Dagger": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Set Spear": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Sewer Slugger": [
+    {
+      "type": "caveCompletion",
+      "name": "Sewer Herps"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Sewer Herps"
+    }
+  ],
+  "Shadow Spear": [
+    {
+      "type": "normalMobDrop"
+    },
+    {
+      "type": "lootChest"
+    }
+  ],
+  "Shameful Greaves": [
+    {
+      "type": "quest",
+      "name": "An Iron Heart Part II"
+    }
+  ],
+  "Shattered Horizon": [
+    {
+      "type": "worldEvent",
+      "name": "Colossi Ingrain"
+    }
+  ],
   "Shattered Memory Shard": [
     {
       "type": "quest",
       "name": "Recover the Past"
+    }
+  ],
+  "Sheet Ice": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Shining Spore": [
+    {
+      "type": "worldEvent",
+      "name": "Peculiar Grotto"
     }
   ],
   "Shiny Gravel": [
@@ -728,16 +4676,212 @@
       "name": "Nest of the Grootslangs"
     }
   ],
+  "Shiny Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Short Cutter": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Shredder Club": [
+    {
+      "type": "worldEvent",
+      "name": "Territorial Trolls"
+    }
+  ],
+  "Silent Night": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Silicon": [
+    {
+      "type": "worldEvent",
+      "name": "Approaching Raid"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Haywire Defender"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Overtaken Farm"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Blaze"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
+    }
+  ],
+  "Silken Slippers": [
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush"
+    }
+  ],
+  "Silver Short Spear": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Singed Regrets": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Skeletal Legs": [
+    {
+      "type": "quest",
+      "name": "Pit of the Dead"
+    }
+  ],
+  "Ski Mask": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Skien Boots": [
+    {
+      "type": "mobDropRegion",
+      "name": "Skien's Island"
+    }
+  ],
+  "Skien Leggings": [
+    {
+      "type": "mobDropRegion",
+      "name": "Skien's Island"
+    }
+  ],
+  "Skien's Fatigues": [
+    {
+      "type": "mobDropRegion",
+      "name": "Skien's Island"
+    }
+  ],
+  "Sky Chef's Apron": [
+    {
+      "type": "quest",
+      "name": "Recipe For Disaster"
+    }
+  ],
+  "Skysquawk": [
+    {
+      "type": "worldEvent",
+      "name": "Enraged Eagle"
+    }
+  ],
   "Slate Sheet": [
     {
       "type": "raid",
       "name": "Nest of the Grootslangs"
     }
   ],
+  "Sleet": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Sleigh Bell": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Sleigher": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Slimy Shako": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
   "Sliver of Sunrise": [
     {
       "type": "worldEvent",
       "name": "Realmic Antigen"
+    }
+  ],
+  "Sludge Slicer": [
+    {
+      "type": "worldEvent",
+      "name": "Slimy Schism"
+    }
+  ],
+  "Slush Rush": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Smoldering Apron": [
+    {
+      "type": "quest",
+      "name": "Recipe For Disaster"
+    }
+  ],
+  "Snow Shovel": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Snowdrift": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Snowflake": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Snowstorm": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Snowtread Boots": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Sodeta Boots": [
+    {
+      "type": "quest",
+      "name": "Lost Soles"
     }
   ],
   "Soft Blue Wool": [
@@ -770,10 +4914,117 @@
       "name": "Rymek"
     }
   ],
+  "Solar Sailers": [
+    {
+      "type": "caveCompletion",
+      "name": "Sundial Sanctum"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Sundial Sanctum"
+    }
+  ],
+  "Solid Quartz Chestplate": [
+    {
+      "type": "merchant",
+      "name": "Llevigar"
+    }
+  ],
   "Solid Ultraviolet Ray": [
     {
       "type": "raid",
       "name": "The Nameless Anomaly"
+    }
+  ],
+  "Song of Solitude": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Soqueira": [
+    {
+      "type": "worldEvent",
+      "name": "Swashbuckling Brawl"
+    }
+  ],
+  "Sorrow": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Sound Proof Earmuff": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Span of the Starfield": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Sparks": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
+  "Spearmint": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Spider Leg Suit": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Spiketop": [
+    {
+      "type": "discovery",
+      "name": "Far From the Roots"
+    }
+  ],
+  "Spinal Estoc": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    }
+  ],
+  "Splinter": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Splintered Dawn": [
+    {
+      "type": "worldEvent",
+      "name": "Colossi Ingrain"
     }
   ],
   "Splintered Greathammer": [
@@ -782,10 +5033,66 @@
       "name": "Abandoned Sentinels"
     }
   ],
+  "Spring-Coiled Cataphract": [
+    {
+      "type": "worldEvent",
+      "name": "Despermech Occupation"
+    }
+  ],
+  "Squid's Heart": [
+    {
+      "type": "worldEvent",
+      "name": "Lonely Islet"
+    }
+  ],
+  "Staff of the Dark Vexations": [
+    {
+      "type": "miniboss",
+      "name": "Sacrificial Altar"
+    }
+  ],
+  "Stifling Spores": [
+    {
+      "type": "worldEvent",
+      "name": "Peculiar Grotto"
+    }
+  ],
+  "Sting-Glass Necklace": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
   "Stolen Egg": [
     {
       "type": "worldEvent",
       "name": "Failed Hunt"
+    }
+  ],
+  "Stonebreaker": [
+    {
+      "type": "merchant",
+      "name": "Llevigar"
+    }
+  ],
+  "Stronghold": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    }
+  ],
+  "Substratum": [
+    {
+      "type": "worldEvent",
+      "name": "Colossi Ingrain"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Enraged Eagle"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Ruff & Tumble"
     }
   ],
   "Sugar Stick": [
@@ -794,10 +5101,100 @@
       "name": "Letvus Airbase"
     }
   ],
+  "Sulfur Expulser": [
+    {
+      "type": "worldEvent",
+      "name": "Pestilential Downpour"
+    }
+  ],
+  "Summer Rays": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
+  "Sunblight Boots": [
+    {
+      "type": "quest",
+      "name": "Aldorei's Secret Part I"
+    }
+  ],
+  "Sunburnt": [
+    {
+      "type": "event",
+      "name": "bonfire"
+    }
+  ],
   "Sunken Scales": [
     {
       "type": "gathering",
       "name": "Abyssal Matter"
+    }
+  ],
+  "Surprised Gert Mask": [
+    {
+      "type": "quest",
+      "name": "Hunger of the Gerts Part I"
+    }
+  ],
+  "Suspended Soliloquy": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Swashbuckler's Brogues": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Sweeping Majesty": [
+    {
+      "type": "worldEvent",
+      "name": "Shattered Roosts"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Ahms Monuments"
+    }
+  ],
+  "Sweet Memories": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Syncope": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Taciturn": [
+    {
+      "type": "worldEvent",
+      "name": "Incomprehensible Cynosure"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Shapes in the Dark"
+    },
+    {
+      "type": "worldEvent",
+      "name": "All Eyes on Me"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Pestilential Downpour"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
     }
   ],
   "Tacky Goop": [
@@ -806,10 +5203,86 @@
       "name": "Nest of the Grootslangs"
     }
   ],
+  "Tainted Ruby": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blazing Combustion"
+    }
+  ],
+  "Takeoff": [
+    {
+      "type": "worldEvent",
+      "name": "Enraged Eagle"
+    }
+  ],
   "Tattered Magic Cloth": [
     {
       "type": "worldEvent",
       "name": "A Burning Memory"
+    }
+  ],
+  "Tear of Pirate Cove": [
+    {
+      "type": "merchant",
+      "name": "Pirate Cove"
+    }
+  ],
+  "Tearing Seam": [
+    {
+      "type": "merchant",
+      "name": "Goblin Village"
+    }
+  ],
+  "Tendril Talon": [
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    }
+  ],
+  "Tentacle Whip": [
+    {
+      "type": "worldEvent",
+      "name": "Lonely Islet"
+    }
+  ],
+  "Terminal Velocity": [
+    {
+      "type": "worldEvent",
+      "name": "A Burning Memory"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction"
+    }
+  ],
+  "Tessera-laden Moccasins": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Thaw": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "The Extinguished": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
     }
   ],
   "The Grootslang's Heart": [
@@ -825,16 +5298,244 @@
       "type": "lootChest"
     }
   ],
+  "The Hearth": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "The Incomprehensible": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "The Juggernaut": [
+    {
+      "type": "specificMobDrop",
+      "name": "Shadow Spears Juggernaut"
+    }
+  ],
+  "The Master's Gi": [
+    {
+      "type": "quest",
+      "name": "Enter the Dojo"
+    }
+  ],
+  "The Queen's Headpiece": [
+    {
+      "type": "quest",
+      "name": "Royal Trials"
+    }
+  ],
+  "The Scavenged": [
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    }
+  ],
+  "The Siren's Call": [
+    {
+      "type": "quest",
+      "name": "Hollow Serenity"
+    }
+  ],
+  "The Swarm": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "The Swordfish": [
+    {
+      "type": "worldEvent",
+      "name": "Tainted Shoreline"
+    }
+  ],
+  "Thoracic": [
+    {
+      "type": "quest",
+      "name": "The Sewers of Ragni"
+    }
+  ],
+  "Time Ring": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Timeworn Tassets": [
+    {
+      "type": "worldEvent",
+      "name": "Shattered Roosts"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Ahms Monuments"
+    }
+  ],
+  "Tisaun's Valor": [
+    {
+      "type": "dungeon",
+      "name": "Corrupted Sand-Swept Tomb"
+    },
+    {
+      "type": "dungeon",
+      "name": "Corrupted Ice Barrows"
+    },
+    {
+      "type": "dungeon",
+      "name": "Fallen Factory"
+    },
+    {
+      "type": "forgeryChest"
+    }
+  ],
+  "Titanium Grievers": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Titanomachia": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Toy Maker": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Traitor": [
+    {
+      "type": "merchant",
+      "name": "Llevigar"
+    }
+  ],
+  "Trance": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Transplanted Psyche": [
+    {
+      "type": "worldEvent",
+      "name": "Otherworldly Exhibition"
+    }
+  ],
+  "Traumerei": [
+    {
+      "type": "worldEvent",
+      "name": "Realmic Antigen"
+    }
+  ],
+  "Treachery": [
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Conflagration"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Failed Hunt"
+    }
+  ],
+  "Treasure Boots": [
+    {
+      "type": "quest",
+      "name": "Underwater"
+    }
+  ],
+  "Treasured Diamond Mask of Legendary Victory": [
+    {
+      "type": "merchant",
+      "name": "Legendary Island"
+    }
+  ],
+  "Treat": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Trick": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Triple Point": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    }
+  ],
+  "Troll Toes": [
+    {
+      "type": "worldEvent",
+      "name": "Territorial Trolls"
+    }
+  ],
+  "Troms Kid Badge": [
+    {
+      "type": "quest",
+      "name": "Out of my Mind"
+    }
+  ],
+  "Tungsten": [
+    {
+      "type": "merchant",
+      "name": "Maex"
+    }
+  ],
   "Twisted Coral": [
     {
       "type": "gathering",
       "name": "Abyssal Matter"
     }
   ],
+  "Ultramarine Belt": [
+    {
+      "type": "environment",
+      "name": "Seavale Reef"
+    }
+  ],
+  "Ultramarine Boots": [
+    {
+      "type": "environment",
+      "name": "Seavale Reef"
+    }
+  ],
+  "Ultramarine Cape": [
+    {
+      "type": "environment",
+      "name": "Seavale Reef"
+    }
+  ],
+  "Ultramarine Crown": [
+    {
+      "type": "environment",
+      "name": "Seavale Reef"
+    }
+  ],
   "Ultramarine Minnow": [
     {
       "type": "raid",
       "name": "The Nameless Anomaly"
+    }
+  ],
+  "Uncanny Mirage": [
+    {
+      "type": "worldEvent",
+      "name": "Aeon Origin"
     }
   ],
   "Undiscovered Plant": [
@@ -861,9 +5562,97 @@
       "name": "Otherworldly Exhibition"
     }
   ],
+  "Unsung": [
+    {
+      "type": "event",
+      "name": "heroes"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Untimely Demise": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Upgraded Orc Mask": [
+    {
+      "type": "quest",
+      "name": "All Roads to Peace"
+    }
+  ],
+  "Valse Vaincue": [
+    {
+      "type": "event",
+      "name": "spirits"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Vandalizer": [
+    {
+      "type": "specificMobDrop",
+      "name": "Sandstorm Vandals Leader Randall"
+    }
+  ],
+  "Vapor Fang": [
+    {
+      "type": "worldEvent",
+      "name": "Bubbling Terrace"
+    }
+  ],
+  "Veekhat's Horns": [
+    {
+      "type": "quest",
+      "name": "Cowfusion"
+    }
+  ],
+  "Veekhat's Udders": [
+    {
+      "type": "quest",
+      "name": "Cowfusion"
+    }
+  ],
+  "Vei Haon": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
+  "Venerated Gold Mask of Legendary Victory": [
+    {
+      "type": "merchant",
+      "name": "Legendary Island"
+    }
+  ],
   "Vibrant Augment": [
     {
       "type": "unavailable"
+    }
+  ],
+  "Vindicator": [
+    {
+      "type": "quest",
+      "name": "The Mercenary"
+    }
+  ],
+  "Viscera Burst": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
     }
   ],
   "Vista Mist": [
@@ -872,10 +5661,171 @@
       "name": "The Canyon Colossus"
     }
   ],
+  "Vixen": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Void": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Void Scavenger's Brace": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Void-Drenched Bauble": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Voidglass Cloak": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Voidglass Crown": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Voidglass Greaves": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Voidglass Striders": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Voidstone Arpes": [
+    {
+      "type": "merchant",
+      "name": "Void Village"
+    }
+  ],
+  "Voidstone Capelet": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Voidstone Elrik": [
+    {
+      "type": "merchant",
+      "name": "Void Village"
+    }
+  ],
+  "Voidstone Esbald": [
+    {
+      "type": "merchant",
+      "name": "Void Village"
+    }
+  ],
+  "Voidstone Lersing": [
+    {
+      "type": "merchant",
+      "name": "Void Village"
+    }
+  ],
+  "Voidstone Recteps": [
+    {
+      "type": "merchant",
+      "name": "Void Village"
+    }
+  ],
   "Voidtossed Memory": [
     {
       "type": "gathering",
       "name": "Voidgloom"
+    }
+  ],
+  "Voidwarped Wrappings": [
+    {
+      "type": "tinkering",
+      "name": "Scavenger's Workshop"
+    }
+  ],
+  "Waist Apron": [
+    {
+      "type": "quest",
+      "name": "Cook Assistant"
+    }
+  ],
+  "Wall Breaker": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Decrepit Sewers"
+    }
+  ],
+  "Warden": [
+    {
+      "type": "worldEvent",
+      "name": "Unsettling Encounters"
+    }
+  ],
+  "Warming Heart": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Warsong": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Improper Burial Rites"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
+    }
+  ],
+  "Watch Bracelet": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Watchman's Vendetta": [
+    {
+      "type": "worldEvent",
+      "name": "Prelude to Annihilation"
+    }
+  ],
+  "Water Lily": [
+    {
+      "type": "caveCompletion",
+      "name": "Lily Pad Parkour"
+    },
+    {
+      "type": "mobDropRegion",
+      "name": "Lily Pad Parkour"
+    }
+  ],
+  "Water Mask": [
+    {
+      "type": "merchant",
+      "name": "Ravine Village"
+    }
+  ],
+  "Water Relic Daggers": [
+    {
+      "type": "miniboss",
+      "name": "Relic Guardian"
     }
   ],
   "Weakening Catalyst": [
@@ -884,10 +5834,83 @@
       "name": "Potion Making"
     }
   ],
+  "Webbed Glass Charm": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
+  "White Craftmas": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "White Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Widow": [
+    {
+      "type": "dungeonMerchant",
+      "name": "Corrupted Infested Pit"
+    }
+  ],
+  "Windborne": [
+    {
+      "type": "raid",
+      "name": "The Canyon Colossus"
+    }
+  ],
+  "Winter Solstice": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Wipe": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Wishing Star": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
   "Withered Root": [
     {
       "type": "gathering",
       "name": "Voidgloom"
+    }
+  ],
+  "Withstand": [
+    {
+      "type": "worldEvent",
+      "name": "Monument to Loss"
+    }
+  ],
+  "Woebegone": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Ablation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Canine Ambush"
+    }
+  ],
+  "Wooly Cap": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Worm Sign": [
@@ -896,16 +5919,82 @@
       "name": "Nest of the Grootslangs"
     }
   ],
+  "Wreathbound Boots": [
+    {
+      "type": "event",
+      "name": "blizzard"
+    },
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Wybel Paw": [
+    {
+      "type": "merchant",
+      "name": "Almuj"
+    }
+  ],
   "Wybel Taffy": [
     {
       "type": "merchant",
       "name": "Letvus Airbase"
     }
   ],
+  "Wynnter Fair 2016 Souvenir": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Wynnter Fair 2017 Souvenir": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Wynnter Scarf": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Wynnterfest 2016 Souvenir": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Yellow Ornament": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Yellow Wynnter Sweater": [
+    {
+      "type": "unavailable"
+    }
+  ],
+  "Yuletide": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
+    }
+  ],
+  "Zawah Jed": [
+    {
+      "type": "merchant",
+      "name": "Entamis Village"
+    }
+  ],
   "Zealous Illuminator": [
     {
       "type": "raid",
       "name": "Orphion's Nexus of Light"
+    }
+  ],
+  "Zenith": [
+    {
+      "type": "merchant",
+      "name": "Isles of Fiction"
     }
   ],
   "Zhight Coral Piece": [
@@ -930,6 +6019,16 @@
     {
       "type": "merchant",
       "name": "Zhight Island"
+    }
+  ],
+  "Zombie Eye Pendant": [
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation"
+    },
+    {
+      "type": "worldEvent",
+      "name": "Blood-Encrusted Mastaba"
     }
   ]
 }
