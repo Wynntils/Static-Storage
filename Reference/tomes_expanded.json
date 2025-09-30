@@ -202,43 +202,6 @@
     "tomeType": "guild_tome",
     "type": "tome"
   },
-  "Barbarian's Tome of Allegiance": {
-    "dropMeta": {
-      "coordinates": [
-        99999,
-        99999,
-        99999
-      ],
-      "name": "Guild Rewards",
-      "type": "guild"
-    },
-    "dropRestriction": "never",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": {
-          "rangeDispatch": [
-            84
-          ]
-        },
-        "id": "minecraft:potion",
-        "name": "tome.guild"
-      }
-    },
-    "identifications": {
-      "rawAgility": 2,
-      "rawStrength": 2
-    },
-    "internalName": "Barbarian's Tome of Allegiance",
-    "raidReward": true,
-    "rarity": "legendary",
-    "requirements": {
-      "level": 100
-    },
-    "restrictions": "untradable",
-    "tomeType": "guild_tome",
-    "type": "tome"
-  },
   "Blooming Tome of Defensive Mastery I": {
     "dropMeta": {
       "coordinates": [
@@ -353,9 +316,10 @@
       }
     },
     "identifications": {
-      "rawStrength": 4
+      "rawAgility": 2,
+      "rawStrength": 2
     },
-    "internalName": "Brute's Tome of Allegiance",
+    "internalName": "Barbarian's Tome of Allegiance",
     "raidReward": true,
     "rarity": "legendary",
     "requirements": {
@@ -2537,9 +2501,9 @@
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 4,
+        "min": 1,
+        "raw": 3
       },
       "lootBonus": {
         "max": 20,
@@ -2947,9 +2911,9 @@
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 7,
-        "min": 2,
-        "raw": 5
+        "max": 4,
+        "min": 1,
+        "raw": 3
       }
     },
     "internalName": "Tome of Remedial Expertise II",
@@ -2987,9 +2951,9 @@
     },
     "identifications": {
       "healingEfficiency": {
-        "max": 9,
-        "min": 2,
-        "raw": 7
+        "max": 5,
+        "min": 1,
+        "raw": 4
       }
     },
     "internalName": "Tome of Remedial Expertise III",
