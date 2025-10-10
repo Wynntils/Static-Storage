@@ -202,6 +202,43 @@
     "tomeType": "guild_tome",
     "type": "tome"
   },
+  "Barbarian's Tome of Allegiance": {
+    "dropMeta": {
+      "coordinates": [
+        99999,
+        99999,
+        99999
+      ],
+      "name": "Guild Rewards",
+      "type": "guild"
+    },
+    "dropRestriction": "never",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            84
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "tome.guild"
+      }
+    },
+    "identifications": {
+      "rawAgility": 2,
+      "rawStrength": 2
+    },
+    "internalName": "Barbarian's Tome of Allegiance",
+    "raidReward": true,
+    "rarity": "legendary",
+    "requirements": {
+      "level": 100
+    },
+    "restrictions": "untradable",
+    "tomeType": "guild_tome",
+    "type": "tome"
+  },
   "Blooming Tome of Defensive Mastery I": {
     "dropMeta": {
       "coordinates": [
@@ -316,10 +353,9 @@
       }
     },
     "identifications": {
-      "rawAgility": 2,
-      "rawStrength": 2
+      "rawStrength": 4
     },
-    "internalName": "Barbarian's Tome of Allegiance",
+    "internalName": "Brute's Tome of Allegiance",
     "raidReward": true,
     "rarity": "legendary",
     "requirements": {
