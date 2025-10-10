@@ -1088,7 +1088,15 @@
             ],
             [
               {
-                "text": "and slightly reduced spread.",
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " reduced spread.",
                 "color": "#AAAAAA"
               }
             ],
@@ -1139,7 +1147,15 @@
             ],
             [
               {
-                "text": "and slightly reduced spread.",
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "17%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " reduced spread.",
                 "color": "#AAAAAA"
               }
             ],
@@ -1190,7 +1206,15 @@
             ],
             [
               {
-                "text": "and slightly reduced spread.",
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " reduced spread.",
                 "color": "#AAAAAA"
               }
             ],
@@ -1241,7 +1265,15 @@
             ],
             [
               {
-                "text": "and slightly reduced spread.",
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "34%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " reduced spread.",
                 "color": "#AAAAAA"
               }
             ],
@@ -1883,7 +1915,7 @@
         }
       }
     },
-    "Aspect of the Great Escape": {
+    "Aspect of the Heavenly Mandate": {
       "icon": {
         "format": "attribute",
         "value": {
@@ -1896,7 +1928,7 @@
           "name": "abilityTree.aspectArcher"
         }
       },
-      "name": "Aspect of the Great Escape",
+      "name": "Aspect of the Heavenly Mandate",
       "rarity": "fabled",
       "requiredClass": "archer",
       "tiers": {
@@ -1904,20 +1936,20 @@
           "description": [
             [
               {
-                "text": "Elusive",
+                "text": "Guardian Angels",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " requires ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1s",
+                "text": "+4",
                 "color": "#FFFFFF"
               },
               {
-                "text": " to activate.",
+                "text": " ammunition.",
                 "color": "#AAAAAA"
               }
             ]
@@ -1928,20 +1960,20 @@
           "description": [
             [
               {
-                "text": "Elusive",
+                "text": "Guardian Angels",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " requires ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1.65s",
+                "text": "+7",
                 "color": "#FFFFFF"
               },
               {
-                "text": " to activate.",
+                "text": " ammunition.",
                 "color": "#AAAAAA"
               }
             ]
@@ -1952,20 +1984,20 @@
           "description": [
             [
               {
-                "text": "Elusive",
+                "text": "Guardian Angels",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " requires ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-2s",
+                "text": "+9",
                 "color": "#FFFFFF"
               },
               {
-                "text": " to activate.",
+                "text": " ammunition.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2004,7 +2036,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+2",
                 "color": "#FFFFFF"
               },
               {
@@ -2028,7 +2060,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "+3",
                 "color": "#FFFFFF"
               },
               {
@@ -2585,20 +2617,31 @@
           "description": [
             [
               {
-                "text": "Guardian Angels",
+                "text": "Divine Intervention",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " will shoot ",
+                "text": " will cause ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+29%",
+                "text": "Guardian Angels",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "to fire ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "4.5x",
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster.",
+                "text": " faster instead.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2609,20 +2652,31 @@
           "description": [
             [
               {
-                "text": "Guardian Angels",
+                "text": "Divine Intervention",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " will shoot ",
+                "text": " will cause ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+29%",
+                "text": "Guardian Angels",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "to fire ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "4.5x",
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster.",
+                "text": " faster instead.",
                 "color": "#AAAAAA"
               }
             ],
@@ -2693,20 +2747,59 @@
           "description": [
             [
               {
+                "text": "Divine Intervention",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " will cause ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Guardian Angels",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "to fire ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "4.5x",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster instead.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
                 "text": "Guardian Angels",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " will shoot ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+50%",
+                "text": "+6",
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster.",
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
                 "color": "#AAAAAA"
               }
             ],
@@ -15431,15 +15524,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " hit, and becomes ",
+                "text": " hits delay is reduced by ",
                 "color": "#AAAAAA"
               },
               {
@@ -15447,127 +15532,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster.",
+                "text": ".",
                 "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-10% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per ripple)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-6%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Earth: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Air: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
@@ -15582,143 +15548,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " hits delay is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "0.2s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " hits, and becomes ",
+                "text": ".",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "0.15s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-16% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per ripple)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-10%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Earth: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-3%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Air: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-3%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
@@ -15733,143 +15572,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " hits delay is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "0.25s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " hits, and becomes ",
+                "text": ".",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "0.2s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-20% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per ripple)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-12%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Earth: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-4%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Air: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-4%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
@@ -15884,143 +15596,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " hits delay is reduced by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4",
+                "text": "0.3s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " hits, and becomes ",
+                "text": ".",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "0.25s ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-23% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per ripple)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-13%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Earth: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-5%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Air: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-5%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
