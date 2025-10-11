@@ -108,7 +108,7 @@
   },
   {
     "id": "dataStaticCharms",
-    "md5": "43df533c38463cff59e903eb3347e019",
+    "md5": "b22d45b4298148d0852a8b9885a25c54",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/charms.json"
   },
   {
@@ -203,7 +203,7 @@
   },
   {
     "id": "dataStaticMaterials",
-    "md5": "8ac1c583f8cc4f5645aec049700acb9f",
+    "md5": "0f1db0b421ba88ab1db37e333644cb3b",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/materials.json"
   },
   {
