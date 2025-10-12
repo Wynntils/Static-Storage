@@ -2637,7 +2637,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "4.5x",
+                "text": "3x",
                 "color": "#FFFFFF"
               },
               {
@@ -2672,7 +2672,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "4.5x",
+                "text": "3x",
                 "color": "#FFFFFF"
               },
               {
@@ -2767,39 +2767,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "4.5x",
+                "text": "3x",
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster instead.",
+                "text": " faster instead, and cause explosive",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "Guardian Angels",
-                "underline": true,
+                "text": "shots to deal ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gain ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+6",
+                "text": "+15%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " Range.",
+                "text": " more damage.",
                 "color": "#AAAAAA"
               }
             ],
