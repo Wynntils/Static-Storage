@@ -1533,121 +1533,6 @@
         }
       }
     },
-    "Aspect of a Thunderbolt": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              208
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectArcher"
-        }
-      },
-      "name": "Aspect of a Thunderbolt",
-      "rarity": "legendary",
-      "requiredClass": "archer",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Shocking Bomb",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " travels ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "10%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Shocking Bomb",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " travels ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "15%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Shocking Bomb",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " travels ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "20%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Shocking Bomb",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " travels ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "25%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
-        }
-      }
-    },
     "Aspect of the Beastmaster": {
       "icon": {
         "format": "attribute",
@@ -2527,7 +2412,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1s",
+                "text": "-1s",
                 "color": "#FFFFFF"
               },
               {
@@ -2555,7 +2440,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.5s",
+                "text": "-1.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -2583,7 +2468,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "2s",
+                "text": "-2s",
                 "color": "#FFFFFF"
               },
               {
@@ -2593,6 +2478,121 @@
             ]
           ],
           "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Thunderbolt": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of the Thunderbolt",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+12%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+21%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+30%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Shocking Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " travels ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+35%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
         }
       }
     },
@@ -7399,170 +7399,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " strike, and hits ",
+                "text": " strike.",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "+50%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-3% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per strike)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-1%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Breathless",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " becomes slightly less effective.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per Winded)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-1%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ],
             [],
@@ -7614,170 +7452,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " strikes, and hits ",
+                "text": " strikes.",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "+50%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-7% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per strike)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-4%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-3%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Breathless",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " becomes slightly less effective.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-2% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per Winded)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ],
             [],
@@ -7829,202 +7505,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " strikes, and hits ",
+                "text": " strikes.",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "+50%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-10% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per strike)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-6%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-4%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Breathless",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " becomes slightly less effective.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-3% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, per Winded)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA",
-                "margin-left": "large"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Earth: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-1%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ],
             [],
@@ -16312,6 +15794,26 @@
                 "text": "for every spell or ability triggered.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.25",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " holy power.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 1
@@ -16342,6 +15844,26 @@
                 "text": "for every spell or ability triggered.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.0",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " holy power.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 15
@@ -16370,6 +15892,26 @@
             [
               {
                 "text": "for every spell or ability triggered.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.5",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " holy power.",
                 "color": "#AAAAAA"
               }
             ]
@@ -18082,7 +17624,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5x",
+                "text": "+1x",
                 "color": "#FFFFFF"
               },
               {
@@ -18249,7 +17791,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5x",
+                "text": "+1x",
                 "color": "#FFFFFF"
               },
               {
@@ -18459,7 +18001,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5x",
+                "text": "+1x",
                 "color": "#FFFFFF"
               },
               {
