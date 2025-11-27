@@ -1862,9 +1862,9 @@
     },
     "identifications": {
       "2ndSpellCost": {
-        "max": -5,
-        "min": -1,
-        "raw": -4
+        "max": -8,
+        "min": -2,
+        "raw": -6
       }
     },
     "internalName": "Pegasus' Tome of Mysticism II",

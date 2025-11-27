@@ -116,7 +116,7 @@
   },
   {
     "id": "dataStaticCharms",
-    "md5": "b22d45b4298148d0852a8b9885a25c54",
+    "md5": "83cfddfd721d9c2d9e14cfcc09977867",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/charms.json"
   },
   {
@@ -261,7 +261,7 @@
   },
   {
     "id": "dataStaticTomes",
-    "md5": "8e80179778f53ba55ffefee9820b6476",
+    "md5": "d7f2b89aa9c908aac1093202102ae5dc",
     "url": "https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/tomes.json"
   },
   {
