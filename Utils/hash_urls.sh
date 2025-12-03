@@ -3,7 +3,6 @@
 BASE_DIR="$(cd $(dirname "$0")/.. 2>/dev/null && pwd)"
 JSON_FILE="$BASE_DIR/Data-Storage/urls.json"
 TEMP_JSON_FILE="$BASE_DIR/Data-Storage/urls.json.tmp"
-REPO_BASE_URL="https://raw.githubusercontent.com/Wynntils/Static-Storage/main/"
 
 # Function to calculate and update md5 for valid JSON entries
 update_md5() {
@@ -12,13 +11,13 @@ update_md5() {
     # Create a new temporary JSON file
     jq -c '.[]' "$json_file" | while IFS= read -r obj; do
         if echo "$obj" | jq -e 'has("md5")' > /dev/null; then
-            url=$(echo "$obj" | jq -r '.url')
 
-            # Check if URL points to the main branch
-            if [[ $url == ${REPO_BASE_URL}* ]]; then
-                # Determine the local file path based on the URL
-                relative_path=${url#${REPO_BASE_URL}}
-                local_file="$BASE_DIR/$relative_path"
+            path=$(echo "$obj" | jq -r '.path')
+
+            # Check if path field exists
+            if [ "$path" != "null" ]; then
+                # Determine the local file path
+                local_file="$BASE_DIR/$path"
 
                 # Check if the local file exists
                 if [ -f "$local_file" ]; then
@@ -32,14 +31,14 @@ update_md5() {
                     if [ "$new_md5" != "$current_md5" ]; then
                         # Update the md5 field in the object
                         obj=$(echo "$obj" | jq --arg new_md5 "$new_md5" '.md5 = $new_md5')
-                        echo "Updated md5 for $url" >&2
+                        echo "Updated md5 for $path" >&2
                     fi
                 else
                     echo "Warning: Local file $local_file not found. Skipping." >&2
                 fi
             else
-                # Log a warning if the URL does not point to the main branch
-                echo "Warning: Skipping $url because it does not point to the main branch" >&2
+                # Path missing
+                echo "Warning: Skipping entry without path field" >&2
             fi
         fi
 
