@@ -8,7 +8,7 @@
 
 base_dir="$(cd $(dirname "$0")/.. 2>/dev/null && pwd)"
 WYNNDATA_DIR=${WYNNDATA_DIR:-$base_dir}
-BASE_URL="https://raw.githubusercontent.com/Wynntils/Static-Storage/main/Reference/maps"
+BASE_URL="https://cdn.wynntils.com/static/Reference/maps"
 JSON_METADATA_FILE="$WYNNDATA_DIR/Reference/maps.json"
 
 # ImageMagick respects SOURCE_DATE_EPOCH, and will make consistent timestamps if it is set
