@@ -968,7 +968,6 @@
         "mainAttackDamage": -10,
         "manaRegen": 6,
         "rawDefence": 5,
-        "soulPointRegen": 5,
         "spellDamage": -5,
         "waterDamage": 10
       },
@@ -978,7 +977,6 @@
         "mainAttackDamage": -20,
         "manaRegen": 18,
         "rawDefence": 10,
-        "soulPointRegen": 10,
         "spellDamage": -10,
         "waterDamage": 20
       },
@@ -988,7 +986,6 @@
         "mainAttackDamage": -35,
         "manaRegen": 30,
         "rawDefence": 30,
-        "soulPointRegen": 100,
         "spellDamage": -15,
         "waterDamage": 35
       }
