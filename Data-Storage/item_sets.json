@@ -5,29 +5,23 @@
       {
         "rawHealth": 15,
         "lootBonus": 5,
-        "mainAttackDamage": 4,
-        "soulPointRegen": 5,
         "walkSpeed": 2,
-        "spellDamage": 4,
+        "damage": 4,
         "xpBonus": 10
       },
       {
         "rawHealth": 40,
         "lootBonus": 10,
-        "mainAttackDamage": 12,
-        "soulPointRegen": 15,
         "walkSpeed": 5,
-        "spellDamage": 12,
+        "damage": 12,
         "xpBonus": 20
       },
       {
         "rawHealth": 175,
         "lootBonus": 30,
-        "mainAttackDamage": 25,
         "manaRegen": 12,
-        "soulPointRegen": 50,
         "walkSpeed": 15,
-        "spellDamage": 25,
+        "damage": 25,
         "xpBonus": 50
       }
     ],
@@ -158,17 +152,11 @@
         "xpBonus": -5
       },
       {
-        "rawAgility": 0,
-        "rawDefence": 0,
-        "rawDexterity": 0,
-        "rawHealth": 325,
-        "rawIntelligence": 0,
-        "soulPointRegen": 10,
-        "1stSpellCost": -8,
-        "3rdSpellCost": -8,
-        "spellDamage": 8,
-        "rawStrength": 0,
-        "xpBonus": 25
+        "rawHealth": 650,
+        "1stSpellCost": -15,
+        "3rdSpellCost": -15,
+        "spellDamage": 15,
+        "xpBonus": 40
       }
     ],
     "items": [
@@ -230,6 +218,49 @@
       "Recursion"
     ]
   },
+  "Darkened": {
+    "bonuses": [
+      {},
+      {
+        "rawMaxMana": 175,
+        "manaSteal": -20,
+        "manaRegen": -20,
+        "rawThunderDamage": 100,
+        "rawFireDamage": 100
+      }
+    ],
+    "items": [
+      "Darkened Heart",
+      "Darkened Mind"
+    ]
+  },
+  "Desert": {
+    "bonuses": [
+      {},
+      {
+        "rawHealth": 50,
+        "damage": 10
+      },
+      {
+        "rawHealth": 60,
+        "damage": 15,
+        "walkSpeed": 10
+      },
+      {
+        "rawHealth": 75,
+        "damage": 20,
+        "walkSpeed": 20,
+        "rawDamage": 25
+      }
+    ],
+    "items": [
+      "Desert Winds",
+      "Desert Wretch",
+      "Desert Sepulcher",
+      "Desert Sands",
+      "Desert Stalker"
+    ]
+  },
   "Ascension": {
     "bonuses": [
       {},
@@ -237,11 +268,10 @@
       {},
       {
         "healthRegenRaw": 600,
-        "lifeSteal": 400,
-        "mainAttackDamage": 75,
+        "lifeSteal": 500,
         "manaRegen": 30,
         "manaSteal": 20,
-        "spellDamage": 75
+        "damage": 75
       }
     ],
     "items": [
@@ -309,12 +339,25 @@
       "Clock Mail"
     ]
   },
+  "Constellation": {
+    "bonuses": [
+      {},
+      {
+        "lifeSteal": 400,
+        "manaSteal": 15,
+        "xpBonus": 20
+      }
+    ],
+    "items": [
+      "Stargazing Lens"
+    ]
+  },
   "Nii": {
     "bonuses": [
       {},
       {
         "rawDefence": 3,
-        "healthRegenRaw": 90,
+        "healthRegenRaw": 120,
         "rawIntelligence": 3
       },
       {
@@ -322,7 +365,7 @@
         "waterDefence": 75,
         "rawDefence": 20,
         "rawHealth": 1500,
-        "healthRegenRaw": 330,
+        "healthRegenRaw": 400,
         "rawIntelligence": 20,
         "manaRegen": 24
       }
@@ -339,14 +382,14 @@
       {
         "rawAgility": 3,
         "rawDefence": 3,
-        "lifeSteal": 180
+        "lifeSteal": 200
       },
       {
         "rawAgility": 25,
         "airDefence": 125,
         "fireDefence": 125,
         "rawDefence": 25,
-        "lifeSteal": 700,
+        "lifeSteal": 800,
         "reflection": 80,
         "thorns": 80
       }
@@ -467,20 +510,20 @@
       {},
       {
         "rawHealth": 90,
-        "healthRegenRaw": 12,
+        "healthRegenRaw": 15,
         "lootBonus": 10,
         "xpBonus": 5
       },
       {
         "rawHealth": 270,
-        "healthRegenRaw": 40,
+        "healthRegenRaw": 50,
         "lootBonus": 25,
         "xpBonus": 10
       },
       {
         "rawDefence": 20,
         "rawHealth": 570,
-        "healthRegenRaw": 100,
+        "healthRegenRaw": 120,
         "lootBonus": 50,
         "xpBonus": 25
       }
@@ -586,7 +629,6 @@
       {},
       {
         "stealing": 5,
-        "soulPointRegen": 10,
         "xpBonus": 15
       }
     ],
@@ -657,7 +699,7 @@
       {
         "rawDefence": 25,
         "fireDamage": 20,
-        "healthRegenRaw": 180,
+        "healthRegenRaw": 220,
         "manaRegen": 12,
         "xpBonus": 40
       }
@@ -673,20 +715,20 @@
       {
         "rawHealth": 10,
         "healthRegen": 5,
-        "healthRegenRaw": 1,
-        "thorns": 7
+        "healthRegenRaw": 5,
+        "thorns": 8
       },
       {
-        "rawHealth": 20,
+        "rawHealth": 25,
         "healthRegen": 12,
-        "healthRegenRaw": 3,
-        "thorns": 18
+        "healthRegenRaw": 10,
+        "thorns": 13
       },
       {
-        "rawHealth": 60,
+        "rawHealth": 65,
         "healthRegen": 25,
-        "healthRegenRaw": 7,
-        "thorns": 35
+        "healthRegenRaw": 20,
+        "thorns": 25
       }
     ],
     "items": [
@@ -855,8 +897,10 @@
     "bonuses": [
       {},
       {
-        "earthDamage": 40,
-        "rawStrength": 20
+        "earthDamage": 25,
+        "rawStrength": 10,
+        "knockback": 40,
+        "mainAttackDamage": 25
       }
     ],
     "items": [
@@ -934,7 +978,8 @@
         "manaRegen": 6,
         "soulPointRegen": 5,
         "spellDamage": -5,
-        "waterDamage": 10
+        "waterDamage": 10,
+        "healingEfficiency": 5
       },
       {
         "airDamage": 20,
@@ -943,7 +988,8 @@
         "manaRegen": 18,
         "soulPointRegen": 10,
         "spellDamage": -10,
-        "waterDamage": 20
+        "waterDamage": 20,
+        "healingEfficiency": 15
       },
       {
         "airDamage": 35,
@@ -952,7 +998,8 @@
         "manaRegen": 30,
         "soulPointRegen": 100,
         "spellDamage": -15,
-        "waterDamage": 35
+        "waterDamage": 35,
+        "healingEfficiency": 50
       }
     ],
     "items": [
@@ -969,7 +1016,7 @@
       },
       {
         "rawAgility": 10,
-        "poison": 290,
+        "poison": 800,
         "walkSpeed": 20,
         "thorns": 20
       }
@@ -1010,7 +1057,7 @@
         "rawHealth": 600,
         "healthRegen": 35,
         "jumpHeight": 1,
-        "poison": 300,
+        "poison": 2400,
         "walkSpeed": -6,
         "thorns": 15
       }
@@ -1026,8 +1073,8 @@
       {
         "rawAgility": -5,
         "rawHealth": 1100,
-        "healthRegenRaw": 125,
-        "poison": 880,
+        "healthRegenRaw": 150,
+        "poison": 9500,
         "walkSpeed": -5,
         "rawStrength": 7,
         "thorns": 10
@@ -1035,8 +1082,8 @@
       {
         "rawAgility": -10,
         "rawHealth": 2675,
-        "healthRegenRaw": 275,
-        "poison": 2650,
+        "healthRegenRaw": 350,
+        "poison": 21000,
         "walkSpeed": -10,
         "rawStrength": 14,
         "thorns": 20
@@ -1044,8 +1091,8 @@
       {
         "rawAgility": -15,
         "rawHealth": 5500,
-        "healthRegenRaw": 575,
-        "poison": 5500,
+        "healthRegenRaw": 700,
+        "poison": 56000,
         "walkSpeed": -15,
         "rawStrength": 21,
         "thorns": 40
@@ -1118,9 +1165,9 @@
     "bonuses": [
       {},
       {
-        "exploding": 20,
-        "lifeSteal": 20,
-        "poison": 70
+        "exploding": 25,
+        "lifeSteal": 25,
+        "poison": 175
       }
     ],
     "items": [
@@ -1179,6 +1226,20 @@
       "Hustle Core"
     ]
   },
+  "Taiga Elk": {
+    "bonuses": [
+      {},
+      {
+        "rawAttackSpeed": 1,
+        "mainAttackRange": 33,
+        "2ndSpellCost": -14
+      }
+    ],
+    "items": [
+      "Rime-Webbed Antlers",
+      "Elk's Hoof"
+    ]
+  },
   "Thanos Legionnaire": {
     "bonuses": [
       {},
@@ -1186,7 +1247,7 @@
         "rawAgility": 2,
         "rawDefence": 2,
         "rawDexterity": -2,
-        "healthRegenRaw": 55,
+        "healthRegenRaw": 70,
         "rawIntelligence": -2,
         "rawMainAttackDamage": 135,
         "walkSpeed": 5,
@@ -1196,7 +1257,7 @@
         "rawAgility": 5,
         "rawDefence": 5,
         "rawDexterity": -5,
-        "healthRegenRaw": 210,
+        "healthRegenRaw": 250,
         "rawIntelligence": -5,
         "rawMainAttackDamage": 270,
         "walkSpeed": 10,
@@ -1207,7 +1268,7 @@
         "rawAttackSpeed": 1,
         "rawDefence": 15,
         "rawDexterity": -15,
-        "healthRegenRaw": 525,
+        "healthRegenRaw": 650,
         "rawIntelligence": -15,
         "rawMainAttackDamage": 540,
         "walkSpeed": 25,
@@ -1256,19 +1317,19 @@
       {},
       {
         "walkSpeed": 5,
-        "rawStrength": 2
+        "mainAttackDamage": 10,
+        "mainAttackRange": 5
       },
       {
-        "rawAgility": 2,
         "walkSpeed": 10,
-        "rawStrength": 5
+        "mainAttackDamage": 20,
+        "mainAttackRange": 10
       },
       {
-        "rawAgility": 5,
         "rawAttackSpeed": 1,
-        "walkSpeed": 15,
-        "spellDamage": -15,
-        "rawStrength": 10
+        "walkSpeed": 25,
+        "mainAttackDamage": 50,
+        "mainAttackRange": 25
       }
     ],
     "items": [
@@ -1364,24 +1425,24 @@
       {
         "rawHealth": -1000,
         "healthRegen": 30,
-        "healthRegenRaw": 35,
-        "lifeSteal": 45,
+        "healthRegenRaw": 40,
+        "lifeSteal": 55,
         "mainAttackDamage": 10,
         "rawMainAttackDamage": 40
       },
       {
         "rawHealth": -2500,
         "healthRegen": 100,
-        "healthRegenRaw": 75,
-        "lifeSteal": 90,
+        "healthRegenRaw": 90,
+        "lifeSteal": 110,
         "mainAttackDamage": 25,
         "rawMainAttackDamage": 80
       },
       {
         "rawHealth": -4000,
         "healthRegen": 350,
-        "healthRegenRaw": 145,
-        "lifeSteal": 180,
+        "healthRegenRaw": 175,
+        "lifeSteal": 220,
         "mainAttackDamage": 50,
         "rawMainAttackDamage": 165
       }
@@ -1391,6 +1452,39 @@
       "Visceral Toe",
       "Visceral Legs",
       "Visceral Chest"
+    ]
+  },
+  "Voidglass": {
+    "bonuses": [
+      {},
+      {
+        "lifeSteal": 150,
+        "manaSteal": 5,
+        "airDamage": 12,
+        "rawAirMainAttackDamage": 300,
+        "jumpHeight": 1
+      },
+      {
+        "lifeSteal": 280,
+        "manaSteal": 8,
+        "airDamage": 20,
+        "rawAirMainAttackDamage": 500,
+        "jumpHeight": 1
+      },
+      {
+        "lifeSteal": 660,
+        "manaSteal": 20,
+        "airDamage": 50,
+        "rawAirMainAttackDamage": 1500,
+        "jumpHeight": 3,
+        "rawAttackSpeed": 1
+      }
+    ],
+    "items": [
+      "Voidglass Crown",
+      "Voidglass Cloak",
+      "Voidglass Greaves",
+      "Voidglass Striders"
     ]
   },
   "Water Relic": {
@@ -1425,25 +1519,20 @@
   },
   "Wynnterfest 2016": {
     "bonuses": [
+      {},
       {
-        "spellDamage": 3
+        "xpBonus": 4,
+        "healthRegenRaw": 12
       },
       {
-        "mainAttackDamage": 3,
-        "spellDamage": 3,
-        "xpBonus": 6
+        "xpBonus": 8,
+        "manaRegen": 4,
+        "healthRegenRaw": 25
       },
       {
-        "rawHealth": 120,
-        "mainAttackDamage": 3,
-        "spellDamage": 3,
-        "xpBonus": 12
-      },
-      {
-        "rawHealth": 480,
-        "mainAttackDamage": 14,
-        "spellDamage": 14,
-        "xpBonus": 24
+        "xpBonus": 20,
+        "manaRegen": 10,
+        "healthRegenRaw": 60
       }
     ],
     "items": [
