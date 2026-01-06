@@ -1,0 +1,47 @@
+name: Purge Targeted Cache
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+    paths:
+      - Data-Storage/urls.json
+
+jobs:
+  purge-files:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get changed files
+        env:
+          GH_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
+        run: |
+          gh api \
+            repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files \
+            --paginate \
+            --jq '.[].filename' > files.txt
+
+      - name: Build Cloudflare purge URLs
+        run: |
+          BASE="https://cdn.wynntils.com/static"
+
+          jq -R -s -c '
+            split("\n")
+            | map(select(length > 0))
+            | map("'"$BASE"'/" + .)
+          ' files.txt > purge_urls.json
+
+          cat purge_urls.json
+
+      - name: Purge Cloudflare cache by file
+        env:
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data @<(jq -c '{files: .}' purge_urls.json)
