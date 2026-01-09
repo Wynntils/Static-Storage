@@ -51,7 +51,7 @@
         "y": 73,
         "z": -2769
       },
-      "name": "Fruit Crate",
+      "name": "Fruit Basket",
       "taskType": "defend"
     },
     {
@@ -69,7 +69,7 @@
         "y": 73,
         "z": -2608
       },
-      "name": "Sanitizing Robots",
+      "name": "Armistice Sapling",
       "taskType": "defend"
     },
     {
@@ -150,7 +150,7 @@
         "y": 69,
         "z": -2438
       },
-      "name": "Robot Pirates",
+      "name": "Pirate Toll",
       "taskType": "target"
     },
     {
