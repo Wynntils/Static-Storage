@@ -1,8 +1,7 @@
 name: Purge Targeted Cache
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches: [main]
     paths:
       - Data-Storage/urls.json
