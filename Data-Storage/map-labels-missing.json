@@ -1,3 +1,32 @@
 {
-  "labels": []
+  "labels": [
+    {
+      "layer": 3,
+      "level": "35",
+      "name": "Isles of Fiction",
+      "x": -275,
+      "z": -4038
+    },
+    {
+      "layer": 3,
+      "level": "75",
+      "name": "Silverbull Company Headquarters",
+      "x": -119,
+      "z": -4795
+    },
+    {
+      "layer": 3,
+      "level": "95",
+      "name": "Void Village",
+      "x": 14053,
+      "z": -4200
+    },
+    {
+      "layer": 3,
+      "level": "95",
+      "name": "Outer Void",
+      "x": 13823,
+      "z": -3406
+    }
+  ]
 }
