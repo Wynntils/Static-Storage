@@ -112,8 +112,9 @@
     "bonuses": [
       {},
       {
+        "healingEfficiency": 20,
         "lootBonus": 20,
-        "waterDamage": 35,
+        "rawMaxMana": 30,
         "waterDefence": 25
       }
     ],
@@ -176,7 +177,7 @@
         "3rdSpellCost": -15,
         "rawHealth": 650,
         "spellDamage": 15,
-        "xpBonus": 40
+        "xpBonus": 35
       }
     ],
     "items": [
@@ -545,7 +546,7 @@
       },
       {
         "earthDamage": -100,
-        "manaRegen": -18,
+        "manaRegen": -17,
         "manaSteal": 24,
         "rawAttackSpeed": -2,
         "rawSpellDamage": 230,
@@ -812,14 +813,14 @@
         "exploding": 10,
         "fireDamage": 8,
         "healthRegenRaw": -2,
-        "lifeSteal": 15,
+        "lifeSteal": 18,
         "waterDamage": -25
       },
       {
         "exploding": 60,
         "fireDamage": 42,
-        "healthRegenRaw": -20,
-        "lifeSteal": 50,
+        "healthRegenRaw": -25,
+        "lifeSteal": 55,
         "rawDefence": 15,
         "waterDamage": -45
       }
@@ -859,19 +860,19 @@
     "bonuses": [
       {},
       {
-        "lifeSteal": 11,
+        "lifeSteal": 12,
         "rawAgility": 4,
         "stealing": 2,
         "xpBonus": 5
       },
       {
-        "lifeSteal": 22,
+        "lifeSteal": 25,
         "rawAgility": 8,
         "stealing": 4,
         "xpBonus": 10
       },
       {
-        "lifeSteal": 45,
+        "lifeSteal": 50,
         "rawAgility": 28,
         "stealing": 8,
         "xpBonus": 25
