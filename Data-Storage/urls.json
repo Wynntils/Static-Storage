@@ -245,13 +245,13 @@
   },
   {
     "id": "dataStaticPlaceMapFeatures",
-    "md5": "fba1ef5092add312b243e5dde3ab9004",
+    "md5": "152da6dd432af0306b7d84868b050cd0",
     "path": "Reference/place_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Reference/place_mapfeatures.json"
   },
   {
     "id": "dataStaticPlaces",
-    "md5": "c1907ba6d7c8851be2c6cf3062d17de5",
+    "md5": "d25458ae7f877a250463428e62a78468",
     "path": "Reference/places.json",
     "url": "https://cdn.wynntils.com/static/Reference/places.json"
   },

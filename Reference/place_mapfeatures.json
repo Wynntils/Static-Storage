@@ -531,6 +531,19 @@
     "level": 30
   },
   {
+    "featureId": "isles-of-fiction",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Isles of Fiction"
+    },
+    "location": {
+      "x": -275,
+      "y": 0,
+      "z": -4038
+    },
+    "level": 35
+  },
+  {
     "featureId": "jofash-dock",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -670,19 +683,6 @@
       "y": 0,
       "z": -4408
     }
-  },
-  {
-    "featureId": "lion-lair",
-    "categoryId": "wynntils:place:town-or-place",
-    "attributes": {
-      "label": "Lion Lair"
-    },
-    "location": {
-      "x": 806,
-      "y": 0,
-      "z": -2253
-    },
-    "level": 25
   },
   {
     "featureId": "llevigar",
@@ -878,6 +878,19 @@
       "z": -5532
     },
     "level": 50
+  },
+  {
+    "featureId": "outer-void",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Outer Void"
+    },
+    "location": {
+      "x": 13823,
+      "y": 0,
+      "z": -3406
+    },
+    "level": 95
   },
   {
     "featureId": "overtaken-outpost",
@@ -1110,6 +1123,19 @@
       "z": -3183
     },
     "level": 25
+  },
+  {
+    "featureId": "silverbull-company-headquarters",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Silverbull Company Headquarters"
+    },
+    "location": {
+      "x": -119,
+      "y": 0,
+      "z": -4795
+    },
+    "level": 75
   },
   {
     "featureId": "skiens-island",
@@ -1444,6 +1470,19 @@
       "z": -1059
     },
     "level": 105
+  },
+  {
+    "featureId": "void-village",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Void Village"
+    },
+    "location": {
+      "x": 14053,
+      "y": 0,
+      "z": -4200
+    },
+    "level": 95
   },
   {
     "featureId": "volcanic-isles",

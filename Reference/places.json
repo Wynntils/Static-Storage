@@ -287,6 +287,13 @@
     },
     {
       "layer": 3,
+      "level": "35",
+      "name": "Isles of Fiction",
+      "x": -275,
+      "z": -4038
+    },
+    {
+      "layer": 3,
       "level": "90",
       "name": "Jofash Dock",
       "x": 1291,
@@ -359,13 +366,6 @@
       "name": "Light's Secret",
       "x": -1029,
       "z": -4408
-    },
-    {
-      "layer": 3,
-      "level": "25",
-      "name": "Lion Lair",
-      "x": 806,
-      "z": -2253
     },
     {
       "layer": 2,
@@ -471,6 +471,13 @@
       "name": "Olux",
       "x": -1727,
       "z": -5532
+    },
+    {
+      "layer": 3,
+      "level": "95",
+      "name": "Outer Void",
+      "x": 13823,
+      "z": -3406
     },
     {
       "layer": 3,
@@ -595,6 +602,13 @@
       "name": "Selchar",
       "x": 92,
       "z": -3183
+    },
+    {
+      "layer": 3,
+      "level": "75",
+      "name": "Silverbull Company Headquarters",
+      "x": -119,
+      "z": -4795
     },
     {
       "layer": 3,
@@ -773,6 +787,13 @@
       "name": "Void Valley",
       "x": 1464,
       "z": -1059
+    },
+    {
+      "layer": 3,
+      "level": "95",
+      "name": "Void Village",
+      "x": 14053,
+      "z": -4200
     },
     {
       "layer": 3,
