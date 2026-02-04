@@ -31,61 +31,77 @@ if test $? -ne 0; then
 fi
 
 curl -s https://map.wynncraft.com/js/labels.js | gawk '
-function jsonval(v)
-{
-  return "\""v"\": " SYMTAB[v]
+# Capture coordinates
+match($0, /fromWorldToLatLng\(\s*([-0-9]+),\s*[-0-9]+,\s*([-0-9]+),/, a) {
+  x = a[1]
+  z = a[2]
 }
 
-function jsonvalquote(v)
-{
-  return "\""v"\": \"" SYMTAB[v] "\""
-}
+# With level
+match($0, /html:\s*e\(\x27([^<]+)<div class="level">\[Lv\. ([^]]+)\]<\/div>\x27,\s*"([0-9]+)"/, b) {
+  if (x == "" || z == "") next
 
-match($0, /fromWorldToLatLng\( *([0-9-]*), *[0-9-]*, *([0-9-]*), *ovconf/, a) {
-  x = a[1];
-  z = a[2];
-}
-match($0, /[^/] *html: labelHtml\('"'"'(.*) *<div class="level">\[Lv. ([0-9+ -]*)\]<\/div>'"'"', '"'"'([0-9]*)'"'"'/, b) {
-  name = b[1];
-  gsub(/[ \t]+$/, "", name);
-  gsub("\\\\", "", name);
-
+  name = b[1]
+  gsub(/[ \t]+$/, "", name)
+  gsub(/\\\x27/, sprintf("%c", 39), name)
   level = b[2]
-  gsub(" ", "", level);
+  gsub(/[ \t]+/, "", level)
+  size = b[3]
 
-  switch (b[3]) {
-case 25:
-    layer=1; break
-case 16:
-    layer=2; break
-case 14:
-    layer=3; break
-  }
-  if (substr(name,1,1) != "<") {
-    print "{ " jsonval("x") ", " jsonval("z") ", " jsonvalquote("name") ", " jsonval("layer") ", " jsonvalquote("level") " }"
-  }
+  if (size == 25) layer = 1
+  else if (size == 16) layer = 2
+  else if (size == 14) layer = 3
+  else next
+
+  print x "\t" z "\t" name "\t" layer "\t" level
 }
 
-match($0, /[^/] *html: labelHtml\('"'"'([^[]*)'"'"', '"'"'([0-9]*)'"'"'/, b) {
-  name = b[1];
-  gsub(/[ \t]+$/, "", name);
-  gsub("\\\\", "", name);
+# Without level
+match($0, /html:\s*e\(\x27([^<]+)\x27,\s*"([0-9]+)"/, c) ||
+match($0, /html:\s*e\("([^"]+)",\s*"([0-9]+)"/, c) {
+  if (x == "" || z == "") next
 
-  switch (b[2]) {
-case 25:
-    layer=1; break
-case 16:
-    layer=2; break
-case 14:
-    layer=3; break
-  }
-  if (substr(name,1,1) != "<") {
-    print "{ " jsonval("x") ", " jsonval("z") ", " jsonvalquote("name") ", " jsonval("layer") " }"
-  }
+  name = c[1]
+  gsub(/[ \t]+$/, "", name)
+  gsub(/\\\x27/, sprintf("%c", 39), name)
+
+  size = c[2]
+
+  if (size == 25) layer = 1
+  else if (size == 16) layer = 2
+  else if (size == 14) layer = 3
+  else next
+
+  print x "\t" z "\t" name "\t" layer
 }
 ' > "$TARGET.tmp"
 
-cat "$TARGET.tmp" "$MISSING" | jq -s '{labels: .}' | jq --sort-keys ".labels|=sort_by(.name)" > "$TARGET"
+jq -R -s '
+  split("\n")
+  | map(select(length > 0))
+  | map(split("\t"))
+  | map(
+      if length == 5 then
+        { layer: (.[3]|tonumber),
+          level: .[4],
+          name: .[2],
+          x: (.[0]|tonumber),
+          z: (.[1]|tonumber) }
+      else
+        { layer: (.[3]|tonumber),
+          name: .[2],
+          x: (.[0]|tonumber),
+          z: (.[1]|tonumber) }
+      end
+    )
+  | { labels: . }
+' "$TARGET.tmp" \
+| jq -s '
+    (.[0].labels + (.[1].labels // []))
+    | sort_by(.name)
+    | { labels: . }
+  ' - "$MISSING" \
+> "$TARGET"
 rm "$TARGET.tmp"
 
 # Calculate md5sum of the new places.json
