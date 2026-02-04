@@ -12,15 +12,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get changed files
-        env:
-          GH_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
         run: |
-          gh api \
-            repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files \
-            --paginate \
-            --jq '.[].filename' > files.txt
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} > files.txt
 
       - name: Build Cloudflare purge URLs
         run: |
