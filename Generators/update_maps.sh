@@ -8,7 +8,8 @@
 
 base_dir="$(cd $(dirname "$0")/.. 2>/dev/null && pwd)"
 WYNNDATA_DIR=${WYNNDATA_DIR:-$base_dir}
-BASE_URL="https://cdn.wynntils.com/static/Reference/maps"
+BASE_URL="https://cdn.wynntils.com/static"
+MAP_BASE_PATH="Reference/maps"
 JSON_METADATA_FILE="$WYNNDATA_DIR/Reference/maps.json"
 
 # ImageMagick respects SOURCE_DATE_EPOCH, and will make consistent timestamps if it is set
@@ -133,10 +134,12 @@ function do_map() {
   z_min=$(expr $Z1 '*' 512)
   z_max=$(expr $Z2 '*' 512 + 511)
   MD5=$(md5sum $OUTPUT_FILE_NAME | cut -d' ' -f1)
+  map_name="map-$FILE.png"
   cat <<EOT >> $JSON_METADATA_FILE
   {
     "name": "$NAME",
-    "url": "$BASE_URL/map-$FILE.png",
+    "url": "$BASE_URL/$MAP_BASE_PATH/$map_name",
+    "path": "$MAP_BASE_PATH/$map_name",
     "x1": $x_min,
     "z1": $z_min,
     "x2": $x_max,
