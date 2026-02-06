@@ -2,6 +2,7 @@
   {
     "name": "Main 1-1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-1-1.png",
+    "path": "Reference/maps/map-main-1-1.png",
     "x1": -2560,
     "z1": -6144,
     "x2": -1025,
@@ -11,6 +12,7 @@
   {
     "name": "Main 1-2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-1-2.png",
+    "path": "Reference/maps/map-main-1-2.png",
     "x1": -1024,
     "z1": -6144,
     "x2": 1023,
@@ -20,6 +22,7 @@
   {
     "name": "Main 1-3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-1-3.png",
+    "path": "Reference/maps/map-main-1-3.png",
     "x1": 1024,
     "z1": -6144,
     "x2": 2047,
@@ -29,6 +32,7 @@
   {
     "name": "Main 2-1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-2-1.png",
+    "path": "Reference/maps/map-main-2-1.png",
     "x1": -2560,
     "z1": -5120,
     "x2": -1025,
@@ -38,6 +42,7 @@
   {
     "name": "Main 2-2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-2-2.png",
+    "path": "Reference/maps/map-main-2-2.png",
     "x1": -1024,
     "z1": -5120,
     "x2": 1023,
@@ -47,6 +52,7 @@
   {
     "name": "Main 2-3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-2-3.png",
+    "path": "Reference/maps/map-main-2-3.png",
     "x1": 1024,
     "z1": -5120,
     "x2": 2047,
@@ -56,6 +62,7 @@
   {
     "name": "Main 3-1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-3-1.png",
+    "path": "Reference/maps/map-main-3-1.png",
     "x1": -2560,
     "z1": -4096,
     "x2": -1025,
@@ -65,6 +72,7 @@
   {
     "name": "Main 3-2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-3-2.png",
+    "path": "Reference/maps/map-main-3-2.png",
     "x1": -1024,
     "z1": -4096,
     "x2": 1023,
@@ -74,6 +82,7 @@
   {
     "name": "Main 3-3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-3-3.png",
+    "path": "Reference/maps/map-main-3-3.png",
     "x1": 1024,
     "z1": -4096,
     "x2": 2047,
@@ -83,6 +92,7 @@
   {
     "name": "Main 4-1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-4-1.png",
+    "path": "Reference/maps/map-main-4-1.png",
     "x1": -2560,
     "z1": -3072,
     "x2": -1025,
@@ -92,6 +102,7 @@
   {
     "name": "Main 4-2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-4-2.png",
+    "path": "Reference/maps/map-main-4-2.png",
     "x1": -1024,
     "z1": -3072,
     "x2": 1023,
@@ -101,6 +112,7 @@
   {
     "name": "Main 4-3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-4-3.png",
+    "path": "Reference/maps/map-main-4-3.png",
     "x1": 1024,
     "z1": -3072,
     "x2": 2047,
@@ -110,6 +122,7 @@
   {
     "name": "Main 5-1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-5-1.png",
+    "path": "Reference/maps/map-main-5-1.png",
     "x1": -2560,
     "z1": -2048,
     "x2": -1025,
@@ -119,6 +132,7 @@
   {
     "name": "Main 5-2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-5-2.png",
+    "path": "Reference/maps/map-main-5-2.png",
     "x1": -1024,
     "z1": -2048,
     "x2": 1023,
@@ -128,6 +142,7 @@
   {
     "name": "Main 5-3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-5-3.png",
+    "path": "Reference/maps/map-main-5-3.png",
     "x1": 1024,
     "z1": -2048,
     "x2": 2047,
@@ -137,6 +152,7 @@
   {
     "name": "Main 6-1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-6-1.png",
+    "path": "Reference/maps/map-main-6-1.png",
     "x1": -2560,
     "z1": -1024,
     "x2": -1025,
@@ -146,6 +162,7 @@
   {
     "name": "Main 6-2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-6-2.png",
+    "path": "Reference/maps/map-main-6-2.png",
     "x1": -1024,
     "z1": -1024,
     "x2": 1023,
@@ -155,6 +172,7 @@
   {
     "name": "Main 6-3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-main-6-3.png",
+    "path": "Reference/maps/map-main-6-3.png",
     "x1": 1024,
     "z1": -1024,
     "x2": 2047,
@@ -164,6 +182,7 @@
   {
     "name": "Ceralus Farm 1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-ceralus-1.png",
+    "path": "Reference/maps/map-ceralus-1.png",
     "x1": -5120,
     "z1": -1536,
     "x2": -3073,
@@ -173,6 +192,7 @@
   {
     "name": "Ceralus Farm 2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-ceralus-2.png",
+    "path": "Reference/maps/map-ceralus-2.png",
     "x1": -8704,
     "z1": -1536,
     "x2": -7681,
@@ -182,6 +202,7 @@
   {
     "name": "Deja Vu",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-deja-vu.png",
+    "path": "Reference/maps/map-deja-vu.png",
     "x1": -4608,
     "z1": 1024,
     "x2": -3585,
@@ -191,6 +212,7 @@
   {
     "name": "King's Recruit",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-kings-recruit.png",
+    "path": "Reference/maps/map-kings-recruit.png",
     "x1": -10752,
     "z1": -2560,
     "x2": -10241,
@@ -200,6 +222,7 @@
   {
     "name": "Misadventure on the Sea",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-misadventure-on-the-sea.png",
+    "path": "Reference/maps/map-misadventure-on-the-sea.png",
     "x1": -3584,
     "z1": 15360,
     "x2": -2049,
@@ -209,6 +232,7 @@
   {
     "name": "Realm of Light",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-realm-of-light.png",
+    "path": "Reference/maps/map-realm-of-light.png",
     "x1": -1536,
     "z1": -6656,
     "x2": -513,
@@ -218,6 +242,7 @@
   {
     "name": "Seaskipper",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-seaskipper.png",
+    "path": "Reference/maps/map-seaskipper.png",
     "x1": 15872,
     "z1": 15360,
     "x2": 16895,
@@ -227,6 +252,7 @@
   {
     "name": "Sunset Valley",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-sunset-valley.png",
+    "path": "Reference/maps/map-sunset-valley.png",
     "x1": -2048,
     "z1": 9728,
     "x2": -1025,
@@ -236,6 +262,7 @@
   {
     "name": "The Void",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-void.png",
+    "path": "Reference/maps/map-void.png",
     "x1": 13312,
     "z1": -5120,
     "x2": 14335,
@@ -245,6 +272,7 @@
   {
     "name": "Wynnter Fair",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-wynnter-fair.png",
+    "path": "Reference/maps/map-wynnter-fair.png",
     "x1": -1536,
     "z1": 15872,
     "x2": -513,
@@ -254,6 +282,7 @@
   {
     "name": "Wynnter Fair Parkour",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-wynnter-fair-parkour.png",
+    "path": "Reference/maps/map-wynnter-fair-parkour.png",
     "x1": -2048,
     "z1": 17920,
     "x2": -1537,
@@ -263,6 +292,7 @@
   {
     "name": "A Sandy Scandal 1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-sandy-scandal-1.png",
+    "path": "Reference/maps/map-sandy-scandal-1.png",
     "x1": -14336,
     "z1": 20480,
     "x2": -13313,
@@ -272,6 +302,7 @@
   {
     "name": "A Sandy Scandal 2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-sandy-scandal-2.png",
+    "path": "Reference/maps/map-sandy-scandal-2.png",
     "x1": -15360,
     "z1": 20480,
     "x2": -14337,
@@ -281,6 +312,7 @@
   {
     "name": "A Sandy Scandal 3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-sandy-scandal-3.png",
+    "path": "Reference/maps/map-sandy-scandal-3.png",
     "x1": -17408,
     "z1": 20992,
     "x2": -16385,
@@ -290,6 +322,7 @@
   {
     "name": "Kingdom of Sand 1",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-kingdom-of-sand-1.png",
+    "path": "Reference/maps/map-kingdom-of-sand-1.png",
     "x1": 1536,
     "z1": -2048,
     "x2": 2559,
@@ -299,6 +332,7 @@
   {
     "name": "Kingdom of Sand 2",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-kingdom-of-sand-2.png",
+    "path": "Reference/maps/map-kingdom-of-sand-2.png",
     "x1": 2048,
     "z1": 512,
     "x2": 3071,
@@ -308,6 +342,7 @@
   {
     "name": "Kingdom of Sand 3",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-kingdom-of-sand-3.png",
+    "path": "Reference/maps/map-kingdom-of-sand-3.png",
     "x1": 3072,
     "z1": -1536,
     "x2": 3583,
@@ -317,6 +352,7 @@
   {
     "name": "Kingdom of Sand 4",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-kingdom-of-sand-4.png",
+    "path": "Reference/maps/map-kingdom-of-sand-4.png",
     "x1": 5632,
     "z1": -2560,
     "x2": 6143,
@@ -326,6 +362,7 @@
   {
     "name": "Kingdom of Sand 5",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-kingdom-of-sand-5.png",
+    "path": "Reference/maps/map-kingdom-of-sand-5.png",
     "x1": 7680,
     "z1": -2048,
     "x2": 8703,
@@ -335,6 +372,7 @@
   {
     "name": "Talespun Citadel",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-talespun-citadel.png",
+    "path": "Reference/maps/map-talespun-citadel.png",
     "x1": -1536,
     "z1": 9728,
     "x2": -1025,
@@ -344,6 +382,7 @@
   {
     "name": "Ozoth's Nest",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-ozoths-nest.png",
+    "path": "Reference/maps/map-ozoths-nest.png",
     "x1": -16384,
     "z1": 1024,
     "x2": -15873,
@@ -353,6 +392,7 @@
   {
     "name": "Death's Realm",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-deaths-realm.png",
+    "path": "Reference/maps/map-deaths-realm.png",
     "x1": 0,
     "z1": -8192,
     "x2": 1023,
@@ -362,6 +402,7 @@
   {
     "name": "Little Wing Navigation",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-little-wing-navigation.png",
+    "path": "Reference/maps/map-little-wing-navigation.png",
     "x1": 3072,
     "z1": -5120,
     "x2": 3583,
@@ -371,6 +412,7 @@
   {
     "name": "On Board Little Wing",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-on-board-little-wing.png",
+    "path": "Reference/maps/map-on-board-little-wing.png",
     "x1": 2048,
     "z1": -4608,
     "x2": 3071,
@@ -380,6 +422,7 @@
   {
     "name": "Gateway Island",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-gateway-island.png",
+    "path": "Reference/maps/map-gateway-island.png",
     "x1": 19456,
     "z1": -5120,
     "x2": 20479,
@@ -389,6 +432,7 @@
   {
     "name": "Gateway Island Crash",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-gateway-island-crash.png",
+    "path": "Reference/maps/map-gateway-island-crash.png",
     "x1": 20992,
     "z1": -4608,
     "x2": 21503,
@@ -398,6 +442,7 @@
   {
     "name": "The Feathers Fly Part II, Corkus City Plant",
     "url": "https://cdn.wynntils.com/static/Reference/maps/map-feathers-fly-corkus-city-plant.png",
+    "path": "Reference/maps/map-feathers-fly-corkus-city-plant.png",
     "x1": -512,
     "z1": 20480,
     "x2": 511,
