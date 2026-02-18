@@ -1,6 +1,4 @@
 {
-  "mythic_box": 81.0,
-  "beacon_color": 268.0,
   "floats": {
     "mythic_box": 81.0,
     "beacon_color": 268.0,
@@ -119,53 +117,6 @@
     "spear.multi1": 1807.0,
     "spear.multi2": 1808.0,
     "spear.multi3": 1809.0,
-    "helmet.pale_leather": 11.0,
-    "helmet.chainmail": 4.0,
-    "helmet.pale_chainmail": 12.0,
-    "helmet.iron": 6.0,
-    "helmet.pale_iron": 14.0,
-    "helmet.gold": 7.0,
-    "helmet.pale_gold": 15.0,
-    "helmet.diamond": 8.0,
-    "helmet.pale_diamond": 16.0,
-    "chestplate.pale_leather": 11.0,
-    "chestplate.chainmail": 4.0,
-    "chestplate.pale_chainmail": 12.0,
-    "chestplate.iron": 6.0,
-    "chestplate.pale_iron": 14.0,
-    "chestplate.gold": 7.0,
-    "chestplate.pale_gold": 15.0,
-    "chestplate.diamond": 8.0,
-    "chestplate.pale_diamond": 16.0,
-    "leggings.pale_leather": 11.0,
-    "leggings.chainmail": 4.0,
-    "leggings.pale_chainmail": 12.0,
-    "leggings.iron": 6.0,
-    "leggings.pale_iron": 14.0,
-    "leggings.gold": 7.0,
-    "leggings.pale_gold": 15.0,
-    "leggings.diamond": 8.0,
-    "leggings.pale_diamond": 16.0,
-    "boots.pale_leather": 11.0,
-    "boots.chainmail": 4.0,
-    "boots.pale_chainmail": 12.0,
-    "boots.iron": 6.0,
-    "boots.pale_iron": 14.0,
-    "boots.gold": 7.0,
-    "boots.pale_gold": 15.0,
-    "boots.diamond": 8.0,
-    "boots.pale_diamond": 16.0,
-    "charm.worm": 1225.0,
-    "charm.light": 1227.0,
-    "charm.stone": 1224.0,
-    "charm.void": 1226.0,
-    "tome.armour": 83.0,
-    "tome.guild": 84.0,
-    "tome.lootrun": 85.0,
-    "tome.mana": 86.0,
-    "tome.movement": 87.0,
-    "tome.utility": 88.0,
-    "tome.weapon": 89.0,
     "ring.basicIron": 1361.0,
     "ring.basicGold": 1362.0,
     "ring.basicGem": 1363.0,
@@ -213,25 +164,56 @@
     "necklace.water1": 1405.0,
     "necklace.water2": 1406.0,
     "necklace.multi1": 1407.0,
-    "necklace.multi2": 1408.0
+    "necklace.multi2": 1408.0,
+    "charm.worm": 1225.0,
+    "charm.light": 1227.0,
+    "charm.stone": 1224.0,
+    "charm.void": 1226.0,
+    "tome.armour": 83.0,
+    "tome.guild": 84.0,
+    "tome.lootrun": 85.0,
+    "tome.mana": 86.0,
+    "tome.movement": 87.0,
+    "tome.utility": 88.0,
+    "tome.weapon": 89.0,
+    "helmet.pale_leather": 11.0,
+    "helmet.chainmail": 4.0,
+    "helmet.pale_chainmail": 12.0,
+    "helmet.iron": 6.0,
+    "helmet.pale_iron": 14.0,
+    "helmet.gold": 7.0,
+    "helmet.pale_gold": 15.0,
+    "helmet.diamond": 8.0,
+    "helmet.pale_diamond": 16.0,
+    "chestplate.pale_leather": 11.0,
+    "chestplate.chainmail": 4.0,
+    "chestplate.pale_chainmail": 12.0,
+    "chestplate.iron": 6.0,
+    "chestplate.pale_iron": 14.0,
+    "chestplate.gold": 7.0,
+    "chestplate.pale_gold": 15.0,
+    "chestplate.diamond": 8.0,
+    "chestplate.pale_diamond": 16.0,
+    "leggings.pale_leather": 11.0,
+    "leggings.chainmail": 4.0,
+    "leggings.pale_chainmail": 12.0,
+    "leggings.iron": 6.0,
+    "leggings.pale_iron": 14.0,
+    "leggings.gold": 7.0,
+    "leggings.pale_gold": 15.0,
+    "leggings.diamond": 8.0,
+    "leggings.pale_diamond": 16.0,
+    "boots.pale_leather": 11.0,
+    "boots.chainmail": 4.0,
+    "boots.pale_chainmail": 12.0,
+    "boots.iron": 6.0,
+    "boots.pale_iron": 14.0,
+    "boots.gold": 7.0,
+    "boots.pale_gold": 15.0,
+    "boots.diamond": 8.0,
+    "boots.pale_diamond": 16.0
   },
   "ranges": {
-    "helmet": [
-      1.0,
-      22.0
-    ],
-    "chestplate": [
-      1.0,
-      22.0
-    ],
-    "leggings": [
-      1.0,
-      22.0
-    ],
-    "boots": [
-      1.0,
-      22.0
-    ],
     "tome": [
       83.0,
       89.0
@@ -275,6 +257,24 @@
     "helmet_skin": [
       1885.0,
       2082.0
+    ],
+    "helmet": [
+      1.0,
+      22.0
+    ],
+    "chestplate": [
+      1.0,
+      22.0
+    ],
+    "leggings": [
+      1.0,
+      22.0
+    ],
+    "boots": [
+      1.0,
+      22.0
     ]
-  }
+  },
+  "mythic_box": 81.0,
+  "beacon_color": 268.0
 }

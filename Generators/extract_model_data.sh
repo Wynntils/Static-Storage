@@ -5,6 +5,9 @@ ASSETS_DIR="$BASE_DIR/Generators/assets/minecraft/models/item"
 OUTPUT_JSON="$BASE_DIR/Data-Storage/model_data.json"
 TEMP_OUTPUT="$OUTPUT_JSON.tmp"
 
+# All items come under item/wynn
+MODEL_BASE="item/wynn"
+
 # Ensure resource pack exists
 if [ ! -d "$BASE_DIR/Generators/assets" ]; then
   echo "Resource pack not found, place \"assets\" directory inside \"Generators\" directory"
@@ -24,243 +27,289 @@ jq '
 ' "$OUTPUT_JSON" > "$TEMP_OUTPUT"
 mv "$TEMP_OUTPUT" "$OUTPUT_JSON"
 
-# Define the lookups
-# Format: "key|filename|model_prefix|type"
-# key is how the key used for lookup by the mod
-# filename is what item file to search in, most will be potion.json
-# model_prefix is what to look for in the file to count as the current model type
-# type is how the value should be stored. Currently supports: raw, float or range
+# Define the looks
+# 2 Formats
+# 1. "key|model_suffix"
+# 2. "key|model_suffix|type"
+# key is how the mod will lookup the model data
+# model_suffix is what comes after the "item/wynn/" for the model. Can be defined in the lookup or ignored and it will
+# need to be defined in the process_group call.
+# If looking for multiple model types, separate them with a "," e.g. "weapon/archer,skin/bow"
+# type is how the value should be stored. Currently supports: raw, float or range. Not including one will assume float
 # raw is kept for compatibility with old clients, don't use for new entries
-LOOKUPS=(
-    "mythic_box|potion.json|item/wynn/loot/mythic|raw"
-    "beacon_color|potion.json|item/wynn/gui/beacon/white|raw"
-    "mythic_box|potion.json|item/wynn/loot/mythic|float"
-    "beacon_color|potion.json|item/wynn/gui/beacon/white|float"
-    "corkian_amplifier|potion.json|item/wynn/augment/corkian_amplifier|float"
-    "corkian_insulator|potion.json|item/wynn/augment/corkian_insulator|float"
-    "corkian_simulator|potion.json|item/wynn/augment/corkian_simulator|float"
-    "dungeon_key|potion.json|item/wynn/dungeon/key|float"
-    "dungeon_key_broken|potion.json|item/wynn/dungeon/key_broken|float"
-    "rune_az|potion.json|item/wynn/rune/az|float"
-    "rune_nii|potion.json|item/wynn/rune/nii|float"
-    "rune_uth|potion.json|item/wynn/rune/uth|float"
-    "rune_tol|potion.json|item/wynn/rune/tol|float"
-    "abilityTree.aspectArcher|potion.json|item/wynn/gui/ability_tree/aspect/archer|float"
-    "abilityTree.aspectAssassin|potion.json|item/wynn/gui/ability_tree/aspect/assassin|float"
-    "abilityTree.aspectMage|potion.json|item/wynn/gui/ability_tree/aspect/mage|float"
-    "abilityTree.aspectShaman|potion.json|item/wynn/gui/ability_tree/aspect/shaman|float"
-    "abilityTree.aspectWarrior|potion.json|item/wynn/gui/ability_tree/aspect/warrior|float"
-    "bow.basicWood|potion.json|item/wynn/weapon/archer/bow_basic_wood|float"
-    "bow.basicGold|potion.json|item/wynn/weapon/archer/bow_basic_gold|float"
-    "bow.air1|potion.json|item/wynn/weapon/archer/bow_air_a|float"
-    "bow.air2|potion.json|item/wynn/weapon/archer/bow_air_b|float"
-    "bow.air3|potion.json|item/wynn/weapon/archer/bow_air_c|float"
-    "bow.earth1|potion.json|item/wynn/weapon/archer/bow_earth_a|float"
-    "bow.earth2|potion.json|item/wynn/weapon/archer/bow_earth_b|float"
-    "bow.earth3|potion.json|item/wynn/weapon/archer/bow_earth_c|float"
-    "bow.fire1|potion.json|item/wynn/weapon/archer/bow_fire_a|float"
-    "bow.fire2|potion.json|item/wynn/weapon/archer/bow_fire_b|float"
-    "bow.fire3|potion.json|item/wynn/weapon/archer/bow_fire_c|float"
-    "bow.thunder1|potion.json|item/wynn/weapon/archer/bow_thunder_a|float"
-    "bow.thunder2|potion.json|item/wynn/weapon/archer/bow_thunder_b|float"
-    "bow.thunder3|potion.json|item/wynn/weapon/archer/bow_thunder_c|float"
-    "bow.water1|potion.json|item/wynn/weapon/archer/bow_water_a|float"
-    "bow.water2|potion.json|item/wynn/weapon/archer/bow_water_b|float"
-    "bow.water3|potion.json|item/wynn/weapon/archer/bow_water_c|float"
-    "bow.multi1|potion.json|item/wynn/weapon/archer/bow_multi_a|float"
-    "bow.multi2|potion.json|item/wynn/weapon/archer/bow_multi_b|float"
-    "bow.multi3|potion.json|item/wynn/weapon/archer/bow_multi_c|float"
-    "dagger.basicWood|potion.json|item/wynn/weapon/assassin/dagger_basic_wood|float"
-    "dagger.basicGold|potion.json|item/wynn/weapon/assassin/dagger_basic_gold|float"
-    "dagger.air1|potion.json|item/wynn/weapon/assassin/dagger_air_a|float"
-    "dagger.air2|potion.json|item/wynn/weapon/assassin/dagger_air_b|float"
-    "dagger.air3|potion.json|item/wynn/weapon/assassin/dagger_air_c|float"
-    "dagger.earth1|potion.json|item/wynn/weapon/assassin/dagger_earth_a|float"
-    "dagger.earth2|potion.json|item/wynn/weapon/assassin/dagger_earth_b|float"
-    "dagger.earth3|potion.json|item/wynn/weapon/assassin/dagger_earth_c|float"
-    "dagger.fire1|potion.json|item/wynn/weapon/assassin/dagger_fire_a|float"
-    "dagger.fire2|potion.json|item/wynn/weapon/assassin/dagger_fire_b|float"
-    "dagger.fire3|potion.json|item/wynn/weapon/assassin/dagger_fire_c|float"
-    "dagger.thunder1|potion.json|item/wynn/weapon/assassin/dagger_thunder_a|float"
-    "dagger.thunder2|potion.json|item/wynn/weapon/assassin/dagger_thunder_b|float"
-    "dagger.thunder3|potion.json|item/wynn/weapon/assassin/dagger_thunder_c|float"
-    "dagger.water1|potion.json|item/wynn/weapon/assassin/dagger_water_a|float"
-    "dagger.water2|potion.json|item/wynn/weapon/assassin/dagger_water_b|float"
-    "dagger.water3|potion.json|item/wynn/weapon/assassin/dagger_water_c|float"
-    "dagger.multi1|potion.json|item/wynn/weapon/assassin/dagger_multi_a|float"
-    "dagger.multi2|potion.json|item/wynn/weapon/assassin/dagger_multi_b|float"
-    "dagger.multi3|potion.json|item/wynn/weapon/assassin/dagger_multi_c|float"
-    "wand.basicWood|potion.json|item/wynn/weapon/mage/wand_basic_wood|float"
-    "wand.basicGold|potion.json|item/wynn/weapon/mage/wand_basic_gold|float"
-    "wand.basicDiamond|potion.json|item/wynn/weapon/mage/wand_basic_diamond|float"
-    "wand.air1|potion.json|item/wynn/weapon/mage/wand_air_a|float"
-    "wand.air2|potion.json|item/wynn/weapon/mage/wand_air_b|float"
-    "wand.air3|potion.json|item/wynn/weapon/mage/wand_air_c|float"
-    "wand.earth1|potion.json|item/wynn/weapon/mage/wand_earth_a|float"
-    "wand.earth2|potion.json|item/wynn/weapon/mage/wand_earth_b|float"
-    "wand.earth3|potion.json|item/wynn/weapon/mage/wand_earth_c|float"
-    "wand.fire1|potion.json|item/wynn/weapon/mage/wand_fire_a|float"
-    "wand.fire2|potion.json|item/wynn/weapon/mage/wand_fire_b|float"
-    "wand.fire3|potion.json|item/wynn/weapon/mage/wand_fire_c|float"
-    "wand.thunder1|potion.json|item/wynn/weapon/mage/wand_thunder_a|float"
-    "wand.thunder2|potion.json|item/wynn/weapon/mage/wand_thunder_b|float"
-    "wand.thunder3|potion.json|item/wynn/weapon/mage/wand_thunder_c|float"
-    "wand.water1|potion.json|item/wynn/weapon/mage/wand_water_a|float"
-    "wand.water2|potion.json|item/wynn/weapon/mage/wand_water_b|float"
-    "wand.water3|potion.json|item/wynn/weapon/mage/wand_water_c|float"
-    "wand.multi1|potion.json|item/wynn/weapon/mage/wand_multi_a|float"
-    "wand.multi2|potion.json|item/wynn/weapon/mage/wand_multi_b|float"
-    "wand.multi3|potion.json|item/wynn/weapon/mage/wand_multi_c|float"
-    "relik.basicWood|potion.json|item/wynn/weapon/shaman/relik_basic_wooden|float"
-    "relik.basicGold|potion.json|item/wynn/weapon/shaman/relik_basic_gold|float"
-    "relik.air1|potion.json|item/wynn/weapon/shaman/relik_air_a|float"
-    "relik.air2|potion.json|item/wynn/weapon/shaman/relik_air_b|float"
-    "relik.air3|potion.json|item/wynn/weapon/shaman/relik_air_c|float"
-    "relik.earth1|potion.json|item/wynn/weapon/shaman/relik_earth_a|float"
-    "relik.earth2|potion.json|item/wynn/weapon/shaman/relik_earth_b|float"
-    "relik.earth3|potion.json|item/wynn/weapon/shaman/relik_earth_c|float"
-    "relik.fire1|potion.json|item/wynn/weapon/shaman/relik_fire_a|float"
-    "relik.fire2|potion.json|item/wynn/weapon/shaman/relik_fire_b|float"
-    "relik.fire3|potion.json|item/wynn/weapon/shaman/relik_fire_c|float"
-    "relik.thunder1|potion.json|item/wynn/weapon/shaman/relik_thunder_a|float"
-    "relik.thunder2|potion.json|item/wynn/weapon/shaman/relik_thunder_b|float"
-    "relik.thunder3|potion.json|item/wynn/weapon/shaman/relik_thunder_c|float"
-    "relik.water1|potion.json|item/wynn/weapon/shaman/relik_water_a|float"
-    "relik.water2|potion.json|item/wynn/weapon/shaman/relik_water_b|float"
-    "relik.water3|potion.json|item/wynn/weapon/shaman/relik_water_c|float"
-    "relik.multi1|potion.json|item/wynn/weapon/shaman/relik_multi_a|float"
-    "relik.multi2|potion.json|item/wynn/weapon/shaman/relik_multi_b|float"
-    "relik.multi3|potion.json|item/wynn/weapon/shaman/relik_multi_c|float"
-    "spear.basicWood|potion.json|item/wynn/weapon/warrior/spear_basic_wood|float"
-    "spear.basicGold|potion.json|item/wynn/weapon/warrior/spear_basic_gold|float"
-    "spear.air1|potion.json|item/wynn/weapon/warrior/spear_air_a|float"
-    "spear.air2|potion.json|item/wynn/weapon/warrior/spear_air_b|float"
-    "spear.air3|potion.json|item/wynn/weapon/warrior/spear_air_c|float"
-    "spear.earth1|potion.json|item/wynn/weapon/warrior/spear_earth_a|float"
-    "spear.earth2|potion.json|item/wynn/weapon/warrior/spear_earth_b|float"
-    "spear.earth3|potion.json|item/wynn/weapon/warrior/spear_earth_c|float"
-    "spear.fire1|potion.json|item/wynn/weapon/warrior/spear_fire_a|float"
-    "spear.fire2|potion.json|item/wynn/weapon/warrior/spear_fire_b|float"
-    "spear.fire3|potion.json|item/wynn/weapon/warrior/spear_fire_c|float"
-    "spear.thunder1|potion.json|item/wynn/weapon/warrior/spear_thunder_a|float"
-    "spear.thunder2|potion.json|item/wynn/weapon/warrior/spear_thunder_b|float"
-    "spear.thunder3|potion.json|item/wynn/weapon/warrior/spear_thunder_c|float"
-    "spear.water1|potion.json|item/wynn/weapon/warrior/spear_water_a|float"
-    "spear.water2|potion.json|item/wynn/weapon/warrior/spear_water_b|float"
-    "spear.water3|potion.json|item/wynn/weapon/warrior/spear_water_c|float"
-    "spear.multi1|potion.json|item/wynn/weapon/warrior/spear_multi_a|float"
-    "spear.multi2|potion.json|item/wynn/weapon/warrior/spear_multi_b|float"
-    "spear.multi3|potion.json|item/wynn/weapon/warrior/spear_multi_c|float"
-    "ring.basicIron|potion.json|item/wynn/accessory/ring/ring_base_a|float"
-    "ring.basicGold|potion.json|item/wynn/accessory/ring/ring_base_b|float"
-    "ring.basicGem|potion.json|item/wynn/accessory/ring/ring_special_c|float"
-    "ring.basicPearl|potion.json|item/wynn/accessory/ring/ring_special_b|float"
-    "ring.basicWedding|potion.json|item/wynn/accessory/ring/ring_special_a|float"
-    "ring.air1|potion.json|item/wynn/accessory/ring/ring_air_a|float"
-    "ring.air2|potion.json|item/wynn/accessory/ring/ring_air_b|float"
-    "ring.earth1|potion.json|item/wynn/accessory/ring/ring_earth_a|float"
-    "ring.earth2|potion.json|item/wynn/accessory/ring/ring_earth_b|float"
-    "ring.fire1|potion.json|item/wynn/accessory/ring/ring_fire_a|float"
-    "ring.fire2|potion.json|item/wynn/accessory/ring/ring_fire_b|float"
-    "ring.thunder1|potion.json|item/wynn/accessory/ring/ring_thunder_a|float"
-    "ring.thunder2|potion.json|item/wynn/accessory/ring/ring_thunder_b|float"
-    "ring.water1|potion.json|item/wynn/accessory/ring/ring_water_a|float"
-    "ring.water2|potion.json|item/wynn/accessory/ring/ring_water_b|float"
-    "ring.multi1|potion.json|item/wynn/accessory/ring/ring_multi_a|float"
-    "ring.multi2|potion.json|item/wynn/accessory/ring/ring_multi_b|float"
-    "bracelet.basicIron|potion.json|item/wynn/accessory/bracelet/bracelet_base_a|float"
-    "bracelet.basicGold|potion.json|item/wynn/accessory/bracelet/bracelet_base_b|float"
-    "bracelet.air1|potion.json|item/wynn/accessory/bracelet/bracelet_air_a|float"
-    "bracelet.air2|potion.json|item/wynn/accessory/bracelet/bracelet_air_b|float"
-    "bracelet.earth1|potion.json|item/wynn/accessory/bracelet/bracelet_earth_a|float"
-    "bracelet.earth2|potion.json|item/wynn/accessory/bracelet/bracelet_earth_b|float"
-    "bracelet.fire1|potion.json|item/wynn/accessory/bracelet/bracelet_fire_a|float"
-    "bracelet.fire2|potion.json|item/wynn/accessory/bracelet/bracelet_fire_b|float"
-    "bracelet.thunder1|potion.json|item/wynn/accessory/bracelet/bracelet_thunder_a|float"
-    "bracelet.thunder2|potion.json|item/wynn/accessory/bracelet/bracelet_thunder_b|float"
-    "bracelet.water1|potion.json|item/wynn/accessory/bracelet/bracelet_water_a|float"
-    "bracelet.water2|potion.json|item/wynn/accessory/bracelet/bracelet_water_b|float"
-    "bracelet.multi1|potion.json|item/wynn/accessory/bracelet/bracelet_multi_a|float"
-    "bracelet.multi2|potion.json|item/wynn/accessory/bracelet/bracelet_multi_b|float"
-    "necklace.basicIron|potion.json|item/wynn/accessory/necklace/necklace_base_a|float"
-    "necklace.basicGold|potion.json|item/wynn/accessory/necklace/necklace_base_b|float"
-    "necklace.basicCross|potion.json|item/wynn/accessory/necklace/necklace_special_a|float"
-    "necklace.basicBroach|potion.json|item/wynn/accessory/necklace/necklace_special_b|float"
-    "necklace.basicPearl|potion.json|item/wynn/accessory/necklace/necklace_special_c|float"
-    "necklace.air1|potion.json|item/wynn/accessory/necklace/necklace_air_a|float"
-    "necklace.air2|potion.json|item/wynn/accessory/necklace/necklace_air_b|float"
-    "necklace.earth1|potion.json|item/wynn/accessory/necklace/necklace_earth_a|float"
-    "necklace.earth2|potion.json|item/wynn/accessory/necklace/necklace_earth_b|float"
-    "necklace.fire1|potion.json|item/wynn/accessory/necklace/necklace_fire_a|float"
-    "necklace.fire2|potion.json|item/wynn/accessory/necklace/necklace_fire_b|float"
-    "necklace.thunder1|potion.json|item/wynn/accessory/necklace/necklace_thunder_a|float"
-    "necklace.thunder2|potion.json|item/wynn/accessory/necklace/necklace_thunder_b|float"
-    "necklace.water1|potion.json|item/wynn/accessory/necklace/necklace_water_a|float"
-    "necklace.water2|potion.json|item/wynn/accessory/necklace/necklace_water_b|float"
-    "necklace.multi1|potion.json|item/wynn/accessory/necklace/necklace_multi_a|float"
-    "necklace.multi2|potion.json|item/wynn/accessory/necklace/necklace_multi_b|float"
-    "charm.worm|potion.json|item/wynn/charm/worm|float"
-    "charm.light|potion.json|item/wynn/charm/light|float"
-    "charm.stone|potion.json|item/wynn/charm/stone|float"
-    "charm.void|potion.json|item/wynn/charm/void|float"
-    "tome.armour|potion.json|item/wynn/mastery_tome/armour|float"
-    "tome.guild|potion.json|item/wynn/mastery_tome/guild|float"
-    "tome.lootrun|potion.json|item/wynn/mastery_tome/lootrun|float"
-    "tome.mana|potion.json|item/wynn/mastery_tome/mana|float"
-    "tome.movement|potion.json|item/wynn/mastery_tome/movement|float"
-    "tome.utility|potion.json|item/wynn/mastery_tome/utility|float"
-    "tome.weapon|potion.json|item/wynn/mastery_tome/weapon|float"
-    "helmet.pale_leather|leather_helmet.json|item/wynn/armor/helmet/pale_leather_helmet|float"
-    "helmet.chainmail|leather_helmet.json|item/wynn/armor/helmet/chainmail_helmet|float"
-    "helmet.pale_chainmail|leather_helmet.json|item/wynn/armor/helmet/pale_chainmail_helmet|float"
-    "helmet.iron|leather_helmet.json|item/wynn/armor/helmet/iron_helmet|float"
-    "helmet.pale_iron|leather_helmet.json|item/wynn/armor/helmet/pale_iron_helmet|float"
-    "helmet.gold|leather_helmet.json|item/wynn/armor/helmet/gold_helmet|float"
-    "helmet.pale_gold|leather_helmet.json|item/wynn/armor/helmet/pale_gold_helmet|float"
-    "helmet.diamond|leather_helmet.json|item/wynn/armor/helmet/diamond_helmet|float"
-    "helmet.pale_diamond|leather_helmet.json|item/wynn/armor/helmet/pale_diamond_helmet|float"
-    "chestplate.pale_leather|leather_chestplate.json|item/wynn/armor/chestplate/pale_leather_chestplate|float"
-    "chestplate.chainmail|leather_chestplate.json|item/wynn/armor/chestplate/chainmail_chestplate|float"
-    "chestplate.pale_chainmail|leather_chestplate.json|item/wynn/armor/chestplate/pale_chainmail_chestplate|float"
-    "chestplate.iron|leather_chestplate.json|item/wynn/armor/chestplate/iron_chestplate|float"
-    "chestplate.pale_iron|leather_chestplate.json|item/wynn/armor/chestplate/pale_iron_chestplate|float"
-    "chestplate.gold|leather_chestplate.json|item/wynn/armor/chestplate/gold_chestplate|float"
-    "chestplate.pale_gold|leather_chestplate.json|item/wynn/armor/chestplate/pale_gold_chestplate|float"
-    "chestplate.diamond|leather_chestplate.json|item/wynn/armor/chestplate/diamond_chestplate|float"
-    "chestplate.pale_diamond|leather_chestplate.json|item/wynn/armor/chestplate/pale_diamond_chestplate|float"
-    "leggings.pale_leather|leather_leggings.json|item/wynn/armor/leggings/pale_leather_leggings|float"
-    "leggings.chainmail|leather_leggings.json|item/wynn/armor/leggings/chainmail_leggings|float"
-    "leggings.pale_chainmail|leather_leggings.json|item/wynn/armor/leggings/pale_chainmail_leggings|float"
-    "leggings.iron|leather_leggings.json|item/wynn/armor/leggings/iron_leggings|float"
-    "leggings.pale_iron|leather_leggings.json|item/wynn/armor/leggings/pale_iron_leggings|float"
-    "leggings.gold|leather_leggings.json|item/wynn/armor/leggings/gold_leggings|float"
-    "leggings.pale_gold|leather_leggings.json|item/wynn/armor/leggings/pale_gold_leggings|float"
-    "leggings.diamond|leather_leggings.json|item/wynn/armor/leggings/diamond_leggings|float"
-    "leggings.pale_diamond|leather_leggings.json|item/wynn/armor/leggings/pale_diamond_leggings|float"
-    "boots.pale_leather|leather_boots.json|item/wynn/armor/boots/pale_leather_boots|float"
-    "boots.chainmail|leather_boots.json|item/wynn/armor/boots/chainmail_boots|float"
-    "boots.pale_chainmail|leather_boots.json|item/wynn/armor/boots/pale_chainmail_boots|float"
-    "boots.iron|leather_boots.json|item/wynn/armor/boots/iron_boots|float"
-    "boots.pale_iron|leather_boots.json|item/wynn/armor/boots/pale_iron_boots|float"
-    "boots.gold|leather_boots.json|item/wynn/armor/boots/gold_boots|float"
-    "boots.pale_gold|leather_boots.json|item/wynn/armor/boots/pale_gold_boots|float"
-    "boots.diamond|leather_boots.json|item/wynn/armor/boots/diamond_boots|float"
-    "boots.pale_diamond|leather_boots.json|item/wynn/armor/boots/pale_diamond_boots|float"
-    "helmet|leather_helmet.json|item/wynn/armor/helmet|range"
-    "chestplate|leather_chestplate.json|item/wynn/armor/chestplate|range"
-    "leggings|leather_leggings.json|item/wynn/armor/leggings|range"
-    "boots|leather_boots.json|item/wynn/armor/boots|range"
-    "tome|potion.json|item/wynn/mastery_tome|range"
-    "charm|potion.json|item/wynn/charm|range"
-    "ring|potion.json|item/wynn/accessory/ring|range"
-    "bracelet|potion.json|item/wynn/accessory/bracelet|range"
-    "necklace|potion.json|item/wynn/accessory/necklace|range"
-    "bow|potion.json|item/wynn/weapon/archer,item/wynn/skin/bow|range"
-    "dagger|potion.json|item/wynn/weapon/assassin,item/wynn/skin/dagger|range"
-    "wand|potion.json|item/wynn/weapon/mage,item/wynn/skin/wand|range"
-    "relik|potion.json|item/wynn/weapon/shaman,item/wynn/skin/relik|range"
-    "spear|potion.json|item/wynn/weapon/warrior,item/wynn/skin/spear|range"
-    "helmet_skin|potion.json|item/wynn/skin/hat|range"
+# Split lookups per item, define the filename when calling process_group
+LOOKUPS_BOWS=(
+  "bow.basicWood|bow_basic_wood"
+  "bow.basicGold|bow_basic_gold"
+  "bow.air1|bow_air_a"
+  "bow.air2|bow_air_b"
+  "bow.air3|bow_air_c"
+  "bow.earth1|bow_earth_a"
+  "bow.earth2|bow_earth_b"
+  "bow.earth3|bow_earth_c"
+  "bow.fire1|bow_fire_a"
+  "bow.fire2|bow_fire_b"
+  "bow.fire3|bow_fire_c"
+  "bow.thunder1|bow_thunder_a"
+  "bow.thunder2|bow_thunder_b"
+  "bow.thunder3|bow_thunder_c"
+  "bow.water1|bow_water_a"
+  "bow.water2|bow_water_b"
+  "bow.water3|bow_water_c"
+  "bow.multi1|bow_multi_a"
+  "bow.multi2|bow_multi_b"
+  "bow.multi3|bow_multi_c"
+)
+  
+LOOKUPS_DAGGERS=(
+  "dagger.basicWood|dagger_basic_wood"
+  "dagger.basicGold|dagger_basic_gold"
+  "dagger.air1|dagger_air_a"
+  "dagger.air2|dagger_air_b"
+  "dagger.air3|dagger_air_c"
+  "dagger.earth1|dagger_earth_a"
+  "dagger.earth2|dagger_earth_b"
+  "dagger.earth3|dagger_earth_c"
+  "dagger.fire1|dagger_fire_a"
+  "dagger.fire2|dagger_fire_b"
+  "dagger.fire3|dagger_fire_c"
+  "dagger.thunder1|dagger_thunder_a"
+  "dagger.thunder2|dagger_thunder_b"
+  "dagger.thunder3|dagger_thunder_c"
+  "dagger.water1|dagger_water_a"
+  "dagger.water2|dagger_water_b"
+  "dagger.water3|dagger_water_c"
+  "dagger.multi1|dagger_multi_a"
+  "dagger.multi2|dagger_multi_b"
+  "dagger.multi3|dagger_multi_c"
+)
+  
+LOOKUPS_WANDS=(
+  "wand.basicWood|wand_basic_wood"
+  "wand.basicGold|wand_basic_gold"
+  "wand.basicDiamond|wand_basic_diamond"
+  "wand.air1|wand_air_a"
+  "wand.air2|wand_air_b"
+  "wand.air3|wand_air_c"
+  "wand.earth1|wand_earth_a"
+  "wand.earth2|wand_earth_b"
+  "wand.earth3|wand_earth_c"
+  "wand.fire1|wand_fire_a"
+  "wand.fire2|wand_fire_b"
+  "wand.fire3|wand_fire_c"
+  "wand.thunder1|wand_thunder_a"
+  "wand.thunder2|wand_thunder_b"
+  "wand.thunder3|wand_thunder_c"
+  "wand.water1|wand_water_a"
+  "wand.water2|wand_water_b"
+  "wand.water3|wand_water_c"
+  "wand.multi1|wand_multi_a"
+  "wand.multi2|wand_multi_b"
+  "wand.multi3|wand_multi_c"
+)
+  
+LOOKUPS_RELIKS=(
+  "relik.basicWood|relik_basic_wooden"
+  "relik.basicGold|relik_basic_gold"
+  "relik.air1|relik_air_a"
+  "relik.air2|relik_air_b"
+  "relik.air3|relik_air_c"
+  "relik.earth1|relik_earth_a"
+  "relik.earth2|relik_earth_b"
+  "relik.earth3|relik_earth_c"
+  "relik.fire1|relik_fire_a"
+  "relik.fire2|relik_fire_b"
+  "relik.fire3|relik_fire_c"
+  "relik.thunder1|relik_thunder_a"
+  "relik.thunder2|relik_thunder_b"
+  "relik.thunder3|relik_thunder_c"
+  "relik.water1|relik_water_a"
+  "relik.water2|relik_water_b"
+  "relik.water3|relik_water_c"
+  "relik.multi1|relik_multi_a"
+  "relik.multi2|relik_multi_b"
+  "relik.multi3|relik_multi_c"
+)
+  
+LOOKUPS_SPEARS=(
+  "spear.basicWood|spear_basic_wood"
+  "spear.basicGold|spear_basic_gold"
+  "spear.air1|spear_air_a"
+  "spear.air2|spear_air_b"
+  "spear.air3|spear_air_c"
+  "spear.earth1|spear_earth_a"
+  "spear.earth2|spear_earth_b"
+  "spear.earth3|spear_earth_c"
+  "spear.fire1|spear_fire_a"
+  "spear.fire2|spear_fire_b"
+  "spear.fire3|spear_fire_c"
+  "spear.thunder1|spear_thunder_a"
+  "spear.thunder2|spear_thunder_b"
+  "spear.thunder3|spear_thunder_c"
+  "spear.water1|spear_water_a"
+  "spear.water2|spear_water_b"
+  "spear.water3|spear_water_c"
+  "spear.multi1|spear_multi_a"
+  "spear.multi2|spear_multi_b"
+  "spear.multi3|spear_multi_c"
+)
+  
+LOOKUPS_RINGS=(
+  "ring.basicIron|ring_base_a"
+  "ring.basicGold|ring_base_b"
+  "ring.basicGem|ring_special_c"
+  "ring.basicPearl|ring_special_b"
+  "ring.basicWedding|ring_special_a"
+  "ring.air1|ring_air_a"
+  "ring.air2|ring_air_b"
+  "ring.earth1|ring_earth_a"
+  "ring.earth2|ring_earth_b"
+  "ring.fire1|ring_fire_a"
+  "ring.fire2|ring_fire_b"
+  "ring.thunder1|ring_thunder_a"
+  "ring.thunder2|ring_thunder_b"
+  "ring.water1|ring_water_a"
+  "ring.water2|ring_water_b"
+  "ring.multi1|ring_multi_a"
+  "ring.multi2|ring_multi_b"
+)
+  
+LOOKUPS_BRACELETS=(
+  "bracelet.basicIron|bracelet_base_a"
+  "bracelet.basicGold|bracelet_base_b"
+  "bracelet.air1|bracelet_air_a"
+  "bracelet.air2|bracelet_air_b"
+  "bracelet.earth1|bracelet_earth_a"
+  "bracelet.earth2|bracelet_earth_b"
+  "bracelet.fire1|bracelet_fire_a"
+  "bracelet.fire2|bracelet_fire_b"
+  "bracelet.thunder1|bracelet_thunder_a"
+  "bracelet.thunder2|bracelet_thunder_b"
+  "bracelet.water1|bracelet_water_a"
+  "bracelet.water2|bracelet_water_b"
+  "bracelet.multi1|bracelet_multi_a"
+  "bracelet.multi2|bracelet_multi_b"
+)
+  
+LOOKUPS_NECKLACES=(
+  "necklace.basicIron|necklace_base_a"
+  "necklace.basicGold|necklace_base_b"
+  "necklace.basicCross|necklace_special_a"
+  "necklace.basicBroach|necklace_special_b"
+  "necklace.basicPearl|necklace_special_c"
+  "necklace.air1|necklace_air_a"
+  "necklace.air2|necklace_air_b"
+  "necklace.earth1|necklace_earth_a"
+  "necklace.earth2|necklace_earth_b"
+  "necklace.fire1|necklace_fire_a"
+  "necklace.fire2|necklace_fire_b"
+  "necklace.thunder1|necklace_thunder_a"
+  "necklace.thunder2|necklace_thunder_b"
+  "necklace.water1|necklace_water_a"
+  "necklace.water2|necklace_water_b"
+  "necklace.multi1|necklace_multi_a"
+  "necklace.multi2|necklace_multi_b"
+)
+
+LOOKUPS_CHARMS=(
+  "charm.worm|worm"
+  "charm.light|light"
+  "charm.stone|stone"
+  "charm.void|void"
+)
+
+LOOKUPS_TOMES=(
+  "tome.armour|armour"
+  "tome.guild|guild"
+  "tome.lootrun|lootrun"
+  "tome.mana|mana"
+  "tome.movement|movement"
+  "tome.utility|utility"
+  "tome.weapon|weapon"
+)
+
+LOOKUPS_MISC=(
+  "mythic_box|loot/mythic|raw"
+  "beacon_color|gui/beacon/white|raw"
+  "mythic_box|loot/mythic"
+  "beacon_color|gui/beacon/white"
+  "corkian_amplifier|augment/corkian_amplifier"
+  "corkian_insulator|augment/corkian_insulator"
+  "corkian_simulator|augment/corkian_simulator"
+  "dungeon_key|dungeon/key"
+  "dungeon_key_broken|dungeon/key_broken"
+  "rune_az|rune/az"
+  "rune_nii|rune/nii"
+  "rune_uth|rune/uth"
+  "rune_tol|rune/tol"
+  "abilityTree.aspectArcher|gui/ability_tree/aspect/archer"
+  "abilityTree.aspectAssassin|gui/ability_tree/aspect/assassin"
+  "abilityTree.aspectMage|gui/ability_tree/aspect/mage"
+  "abilityTree.aspectShaman|gui/ability_tree/aspect/shaman"
+  "abilityTree.aspectWarrior|gui/ability_tree/aspect/warrior"
+  "tome|mastery_tome|range"
+  "charm|charm|range"
+  "ring|accessory/ring|range"
+  "bracelet|accessory/bracelet|range"
+  "necklace|accessory/necklace|range"
+  "bow|weapon/archer,skin/bow|range"
+  "dagger|weapon/assassin,skin/dagger|range"
+  "wand|weapon/mage,skin/wand|range"
+  "relik|weapon/shaman,skin/relik|range"
+  "spear|weapon/warrior,skin/spear|range"
+  "helmet_skin|skin/hat|range"
+)
+
+LOOKUPS_LEATHER_HELMET=(
+  "helmet.pale_leather|armor/helmet/pale_leather_helmet"
+  "helmet.chainmail|armor/helmet/chainmail_helmet"
+  "helmet.pale_chainmail|armor/helmet/pale_chainmail_helmet"
+  "helmet.iron|armor/helmet/iron_helmet"
+  "helmet.pale_iron|armor/helmet/pale_iron_helmet"
+  "helmet.gold|armor/helmet/gold_helmet"
+  "helmet.pale_gold|armor/helmet/pale_gold_helmet"
+  "helmet.diamond|armor/helmet/diamond_helmet"
+  "helmet.pale_diamond|armor/helmet/pale_diamond_helmet"
+  "helmet|armor/helmet|range"
+)
+
+LOOKUPS_LEATHER_CHESTPLATE=(
+  "chestplate.pale_leather|armor/chestplate/pale_leather_chestplate"
+  "chestplate.chainmail|armor/chestplate/chainmail_chestplate"
+  "chestplate.pale_chainmail|armor/chestplate/pale_chainmail_chestplate"
+  "chestplate.iron|armor/chestplate/iron_chestplate"
+  "chestplate.pale_iron|armor/chestplate/pale_iron_chestplate"
+  "chestplate.gold|armor/chestplate/gold_chestplate"
+  "chestplate.pale_gold|armor/chestplate/pale_gold_chestplate"
+  "chestplate.diamond|armor/chestplate/diamond_chestplate"
+  "chestplate.pale_diamond|armor/chestplate/pale_diamond_chestplate"
+  "chestplate|armor/chestplate|range"
+)
+
+LOOKUPS_LEATHER_LEGGINGS=(
+  "leggings.pale_leather|armor/leggings/pale_leather_leggings"
+  "leggings.chainmail|armor/leggings/chainmail_leggings"
+  "leggings.pale_chainmail|armor/leggings/pale_chainmail_leggings"
+  "leggings.iron|armor/leggings/iron_leggings"
+  "leggings.pale_iron|armor/leggings/pale_iron_leggings"
+  "leggings.gold|armor/leggings/gold_leggings"
+  "leggings.pale_gold|armor/leggings/pale_gold_leggings"
+  "leggings.diamond|armor/leggings/diamond_leggings"
+  "leggings.pale_diamond|armor/leggings/pale_diamond_leggings"
+  "leggings|armor/leggings|range"
+)
+
+LOOKUPS_LEATHER_BOOTS=(
+  "boots.pale_leather|armor/boots/pale_leather_boots"
+  "boots.chainmail|armor/boots/chainmail_boots"
+  "boots.pale_chainmail|armor/boots/pale_chainmail_boots"
+  "boots.iron|armor/boots/iron_boots"
+  "boots.pale_iron|armor/boots/pale_iron_boots"
+  "boots.gold|armor/boots/gold_boots"
+  "boots.pale_gold|armor/boots/pale_gold_boots"
+  "boots.diamond|armor/boots/diamond_boots"
+  "boots.pale_diamond|armor/boots/pale_diamond_boots"
+  "boots|armor/boots|range"
 )
 
 extract_values() {
@@ -274,67 +323,102 @@ extract_values() {
   ' "$file"
 }
 
-echo "Extracting model data..."
-cp "$OUTPUT_JSON" "$TEMP_OUTPUT"
+process_group() {
+  local file="$1"
+  local group_base="$2"
+  shift 2
+  local entries=("$@")
 
-for entry in "${LOOKUPS[@]}"; do
-  IFS="|" read -r key file prefix type <<< "$entry"
-  full_path="$ASSETS_DIR/$file"
+  local full_path="$ASSETS_DIR/$file"
 
   if [ ! -f "$full_path" ]; then
     echo "Missing file: $full_path"
-    continue
+    return
   fi
 
-  IFS=',' read -r -a prefixes <<< "$prefix"
+  for entry in "${entries[@]}"; do
+    IFS="|" read -r key prefix type <<< "$entry"
+    # Assume float if no type provided
+    type="${type:-float}"
 
-  values=()
+    IFS=',' read -r -a raw_prefixes <<< "$prefix"
 
-  for p in "${prefixes[@]}"; do
-    matches=($(extract_values "$full_path" "$p" | tr -d '\r'))
-    values+=("${matches[@]}")
+    prefixes=()
+    for rp in "${raw_prefixes[@]}"; do
+      if [ -n "$group_base" ]; then
+        prefixes+=("$MODEL_BASE/$group_base/$rp")
+      else
+        prefixes+=("$MODEL_BASE/$rp")
+      fi
+    done
+
+    values=()
+
+    for p in "${prefixes[@]}"; do
+      matches=($(extract_values "$full_path" "$p" | tr -d '\r'))
+      values+=("${matches[@]}")
+    done
+
+    if [ ${#values[@]} -eq 0 ]; then
+      echo "No values found for $key"
+      continue
+    fi
+
+    case "$type" in
+
+      raw)
+        val="${values[0]}.0"
+        echo "Setting raw $key = $val"
+        jq --arg k "$key" --argjson v "$val" \
+           '.[$k] = $v' \
+           "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
+        ;;
+
+      float)
+        val="${values[0]}.0"
+        echo "Setting float $key = $val"
+        jq --arg k "$key" --argjson v "$val" \
+           '.floats[$k] = $v' \
+           "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
+        ;;
+
+      range)
+        sorted=($(printf '%s\n' "${values[@]}" | sort -n))
+        min="${sorted[0]}.0"
+        max="${sorted[-1]}.0"
+        echo "Setting range $key = [$min, $max]"
+        jq --arg k "$key" --arg lo "$min" --arg hi "$max" \
+           '.ranges[$k] = [($lo|tonumber), ($hi|tonumber)]' \
+           "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
+        ;;
+
+    esac
+
+    mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
   done
+}
 
-  if [ ${#values[@]} -eq 0 ]; then
-    echo "No values found for $key"
-    continue
-  fi
+cp "$OUTPUT_JSON" "$TEMP_OUTPUT"
 
-  case "$type" in
-
-    "raw")
-      raw="${values[0]}"
-      val="${raw}.0"
-      echo "Setting raw $key = $val"
-      jq --arg k "$key" --argjson v "$val" \
-         '.[$k] = $v' \
-         "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-      mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
-      ;;
-
-    "float")
-      raw="${values[0]}"
-      val="${raw}.0"
-      echo "Setting float $key = $val"
-      jq --arg k "$key" --argjson v "$val" \
-         '.floats[$k] = $v' \
-         "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-      mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
-      ;;
-
-    "range")
-      sorted=($(printf '%s\n' "${values[@]}" | tr -d '\r' | sort -n))
-      min="${sorted[0]}.0"
-      max="${sorted[-1]}.0"
-      echo "Setting range $key = [$min, $max]"
-      jq --arg k "$key" --arg lo "$min" --arg hi "$max" \
-         '.ranges[$k] = [($lo | tonumber), ($hi | tonumber)]' \
-         "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-      mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
-      ;;
-
-  esac
-done
+# Define the item file to look in for each lookup group
+# First argument is the item file to look in
+# Second argument is what to append after "item/wynn", used for groups with many entries
+# Third argument is the lookup group to use
+process_group "potion.json" "" "${LOOKUPS_MISC[@]}"
+process_group "potion.json" "weapon/archer" "${LOOKUPS_BOWS[@]}"
+process_group "potion.json" "weapon/assassin" "${LOOKUPS_DAGGERS[@]}"
+process_group "potion.json" "weapon/mage" "${LOOKUPS_WANDS[@]}"
+process_group "potion.json" "weapon/shaman" "${LOOKUPS_RELIKS[@]}"
+process_group "potion.json" "weapon/warrior" "${LOOKUPS_SPEARS[@]}"
+process_group "potion.json" "accessory/ring" "${LOOKUPS_RINGS[@]}"
+process_group "potion.json" "accessory/bracelet" "${LOOKUPS_BRACELETS[@]}"
+process_group "potion.json" "accessory/necklace" "${LOOKUPS_NECKLACES[@]}"
+process_group "potion.json" "charm" "${LOOKUPS_CHARMS[@]}"
+process_group "potion.json" "mastery_tome" "${LOOKUPS_TOMES[@]}"
+process_group "leather_helmet.json" "" "${LOOKUPS_LEATHER_HELMET[@]}"
+process_group "leather_chestplate.json" "" "${LOOKUPS_LEATHER_CHESTPLATE[@]}"
+process_group "leather_leggings.json" "" "${LOOKUPS_LEATHER_LEGGINGS[@]}"
+process_group "leather_boots.json" "" "${LOOKUPS_LEATHER_BOOTS[@]}"
 
 mv "$TEMP_OUTPUT" "$OUTPUT_JSON"
 echo "Model Data Updated"
