@@ -402,6 +402,19 @@
     "level": 1
   },
   {
+    "featureId": "espren",
+    "categoryId": "wynntils:place:city",
+    "attributes": {
+      "label": "Espren"
+    },
+    "location": {
+      "x": -2078,
+      "y": 0,
+      "z": -1029
+    },
+    "level": 104
+  },
+  {
     "featureId": "fallen-meteor",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -413,6 +426,19 @@
       "z": -4844
     },
     "level": 40
+  },
+  {
+    "featureId": "fort-torann",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Fort Torann"
+    },
+    "location": {
+      "x": -1915,
+      "y": 0,
+      "z": -1653
+    },
+    "level": 104
   },
   {
     "featureId": "gelibord",
@@ -1307,6 +1333,18 @@
     "level": 50
   },
   {
+    "featureId": "the-province-of-fruma",
+    "categoryId": "wynntils:place:province",
+    "attributes": {
+      "label": "The Province of Fruma"
+    },
+    "location": {
+      "x": -1649,
+      "y": 0,
+      "z": -1062
+    }
+  },
+  {
     "featureId": "the-province-of-gavel",
     "categoryId": "wynntils:place:province",
     "attributes": {
@@ -1380,6 +1418,19 @@
       "z": -5043
     },
     "level": 85
+  },
+  {
+    "featureId": "timasca",
+    "categoryId": "wynntils:place:city",
+    "attributes": {
+      "label": "Timasca"
+    },
+    "location": {
+      "x": -1742,
+      "y": 0,
+      "z": -566
+    },
+    "level": 108
   },
   {
     "featureId": "time-valley",

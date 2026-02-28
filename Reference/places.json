@@ -217,11 +217,25 @@
       "z": -1611
     },
     {
+      "layer": 2,
+      "level": "104",
+      "name": "Espren",
+      "x": -2078,
+      "z": -1029
+    },
+    {
       "layer": 3,
       "level": "40",
       "name": "Fallen Meteor",
       "x": -2199,
       "z": -4844
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Fort Torann",
+      "x": -1915,
+      "z": -1653
     },
     {
       "layer": 2,
@@ -703,6 +717,12 @@
     },
     {
       "layer": 1,
+      "name": "The Province of Fruma",
+      "x": -1649,
+      "z": -1062
+    },
+    {
+      "layer": 1,
       "name": "The Province of Gavel",
       "x": -110,
       "z": -5049
@@ -739,6 +759,13 @@
       "name": "Thesead",
       "x": 770,
       "z": -5043
+    },
+    {
+      "layer": 2,
+      "level": "108",
+      "name": "Timasca",
+      "x": -1742,
+      "z": -566
     },
     {
       "layer": 3,

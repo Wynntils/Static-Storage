@@ -27,6 +27,33 @@
       "name": "Outer Void",
       "x": 13823,
       "z": -3406
+    },
+    {
+      "layer": 1,
+      "name": "The Province of Fruma",
+      "x": -1649,
+      "z": -1062
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Fort Torann",
+      "x": -1915,
+      "z": -1653
+    },
+    {
+      "layer": 2,
+      "level": "104",
+      "name": "Espren",
+      "x": -2078,
+      "z": -1029
+    },
+    {
+      "layer": 2,
+      "level": "108",
+      "name": "Timasca",
+      "x": -1742,
+      "z": -566
     }
   ]
 }
