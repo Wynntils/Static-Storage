@@ -13,6 +13,19 @@
     "level": 25
   },
   {
+    "featureId": "aldwell",
+    "categoryId": "wynntils:place:city",
+    "attributes": {
+      "label": "Aldwell"
+    },
+    "location": {
+      "x": -1283,
+      "y": 0,
+      "z": -694
+    },
+    "level": 111
+  },
+  {
     "featureId": "ahmsord",
     "categoryId": "wynntils:place:city",
     "attributes": {
