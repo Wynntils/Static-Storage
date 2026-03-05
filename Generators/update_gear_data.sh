@@ -27,11 +27,8 @@ jq -s '.[0] + .[1]' gear.json.tmp "$DATA_STORAGE/gear_missing.json" > gear_merge
 
 # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
 jq --sort-keys -r '.' < gear_merged.json.tmp > gear.json.tmp2
-# Minimalize the json file
-jq -c < gear.json.tmp2 > gear.json
-# TODO: Remove the above and uncomment the python call below once the API fixes the major IDs
 # Run the Python script to save the file with the HTML major ID parsed to JSON
-# python ../Utils/html_parser.py gear.json.tmp2 gear.json true
+python ../Utils/html_parser.py gear.json.tmp2 gear.json true
 rm gear.json.tmp gear_merged.json.tmp gear.json.tmp2
 
 # To be able to review new data, we also need an expanded, human-readable version

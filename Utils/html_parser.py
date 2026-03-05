@@ -35,15 +35,17 @@ def clean_html(text):
     for key, value in COLOR_MAP.items():
         cleaned_text = cleaned_text.replace(key, value)
 
+    cleaned_text = cleaned_text.replace("<br>", "\n").replace("<br/>", "\n").replace("</br>", "\n")
+
     return cleaned_text
 
 def parse_html_to_json(html_string, default_color):
-    if html_string.strip() == "</br>":
+    if html_string.strip() in ("</br>", "", "<br>", "<br/>"):
         return []
 
     parts = []
-    styles = [{}]
-    current_style = {}
+    styles = [{"color": default_color}]
+    current_style = styles[-1]
 
     plain_text = ""
 
@@ -53,20 +55,23 @@ def parse_html_to_json(html_string, default_color):
         token = match.group()
 
         if token.startswith("<span"):
-            if len(plain_text) != 0:
+            if plain_text:
                 parts.append(create_part(plain_text, current_style))
                 plain_text = ""
 
             parent_style = styles[-1]
-            new_style = {
-                "color": parent_style.get("color", default_color)
-            }
+            new_style = dict(parent_style)
+
+            # Prevent everything from inheriting underline
+            new_style.pop("underline", None)
 
             class_matcher = CLASS_PATTERN.search(token)
             if class_matcher:
-                font_name = class_matcher.group(1).strip()
-                namespace = FONT_NAMESPACES.get(font_name, "default")
-                new_style["font"] = namespace
+                font_classes = class_matcher.group(1).split()
+                for font_name in font_classes:
+                    if font_name in FONT_NAMESPACES:
+                        new_style["font"] = FONT_NAMESPACES[font_name]
+                        break
 
             style_matcher = STYLE_PATTERN.search(token)
             if style_matcher:
@@ -74,11 +79,13 @@ def parse_html_to_json(html_string, default_color):
 
                 for style_entry in style.split(";"):
                     style_entry = style_entry.strip()
-
-                    if len(style_entry) == 0:
+                    if not style_entry:
                         continue
 
-                    style_pair = style_entry.split(":")
+                    style_pair = style_entry.split(":", 1)
+                    if len(style_pair) != 2:
+                        continue
+
                     style_key = style_pair[0].strip()
                     style_value = style_pair[1].strip()
 
@@ -97,23 +104,23 @@ def parse_html_to_json(html_string, default_color):
                         new_style["color"] = style_value
                     elif style_key == "margin-left":
                         if style_value == "7.5px":
-                            parts[-1]["margin-left"] = "thin"
+                            new_style["margin-left"] = "thin"
                         elif style_value == "20px":
-                            parts[-1]["margin-left"] = "large"
+                            new_style["margin-left"] = "large"
 
             styles.append(new_style)
             current_style = new_style
+
         elif token.startswith("</span>"):
-            if len(plain_text) != 0:
+            if plain_text:
                 parts.append(create_part(plain_text, current_style))
                 plain_text = ""
 
-            if len(styles) != 0:
+            if len(styles) > 1:
                 styles.pop()
 
-            parent_style = {} if not styles else styles[-1]
+            current_style = styles[-1]
 
-            current_style = parent_style
         else:
             plain_text += token
 
@@ -131,6 +138,10 @@ def create_part(text, style):
                 continue
 
             part[key] = style[key]
+
+            # margin-left should only apply once
+            if key == "margin-left":
+                style.pop("margin-left", None)
 
     return part
 
