@@ -13,17 +13,17 @@
     "level": 25
   },
   {
-    "featureId": "aldwell",
-    "categoryId": "wynntils:place:city",
+    "featureId": "aelumia-citadel",
+    "categoryId": "wynntils:place:town-or-place",
     "attributes": {
-      "label": "Aldwell"
+      "label": "Aelumia Citadel"
     },
     "location": {
-      "x": -1283,
+      "x": -1640,
       "y": 0,
-      "z": -694
+      "z": -774
     },
-    "level": 111
+    "level": 118
   },
   {
     "featureId": "ahmsord",
@@ -52,6 +52,32 @@
     "level": 75
   },
   {
+    "featureId": "aldwell",
+    "categoryId": "wynntils:place:city",
+    "attributes": {
+      "label": "Aldwell"
+    },
+    "location": {
+      "x": -1258,
+      "y": 0,
+      "z": -701
+    },
+    "level": 113
+  },
+  {
+    "featureId": "alekin-village",
+    "categoryId": "wynntils:place:city",
+    "attributes": {
+      "label": "Alekin Village"
+    },
+    "location": {
+      "x": -150,
+      "y": 0,
+      "z": -1630
+    },
+    "level": 5
+  },
+  {
     "featureId": "almuj",
     "categoryId": "wynntils:place:city",
     "attributes": {
@@ -76,6 +102,19 @@
       "z": -1884
     },
     "level": 20
+  },
+  {
+    "featureId": "auburn-forest",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Auburn Forest"
+    },
+    "location": {
+      "x": -1972,
+      "y": 0,
+      "z": -1276
+    },
+    "level": 104
   },
   {
     "featureId": "avos-territory",
@@ -126,6 +165,19 @@
       "x": 705,
       "y": 0,
       "z": -2096
+    },
+    "level": 15
+  },
+  {
+    "featureId": "bremynn-hierra",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Bremynn-Hierra"
+    },
+    "location": {
+      "x": 614,
+      "y": 0,
+      "z": -2595
     },
     "level": 15
   },
@@ -421,9 +473,9 @@
       "label": "Espren"
     },
     "location": {
-      "x": -2078,
+      "x": -2029,
       "y": 0,
-      "z": -1029
+      "z": -988
     },
     "level": 104
   },
@@ -441,15 +493,54 @@
     "level": 40
   },
   {
+    "featureId": "fort-hegea",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Fort Hegea"
+    },
+    "location": {
+      "x": -1080,
+      "y": 0,
+      "z": -733
+    },
+    "level": 115
+  },
+  {
+    "featureId": "fort-tericen",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Fort Tericen"
+    },
+    "location": {
+      "x": -1211,
+      "y": 0,
+      "z": -1106
+    },
+    "level": 117
+  },
+  {
     "featureId": "fort-torann",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Fort Torann"
     },
     "location": {
-      "x": -1915,
+      "x": -1917,
       "y": 0,
-      "z": -1653
+      "z": -1638
+    },
+    "level": 104
+  },
+  {
+    "featureId": "frog-bog",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Frog Bog"
+    },
+    "location": {
+      "x": -2166,
+      "y": 0,
+      "z": -1400
     },
     "level": 104
   },
@@ -518,6 +609,19 @@
     "level": 30
   },
   {
+    "featureId": "highlands",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Highlands"
+    },
+    "location": {
+      "x": -1132,
+      "y": 0,
+      "z": -1255
+    },
+    "level": 116
+  },
+  {
     "featureId": "house-of-twain",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -537,11 +641,11 @@
       "label": "Hyloch"
     },
     "location": {
-      "x": -1366,
+      "x": -1312,
       "y": 0,
-      "z": -1266
+      "z": -1320
     },
-    "level": 115
+    "level": 116
   },
   {
     "featureId": "iboju-village",
@@ -570,6 +674,19 @@
     "level": 45
   },
   {
+    "featureId": "industrial-district",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Industrial District"
+    },
+    "location": {
+      "x": -2092,
+      "y": 0,
+      "z": -742
+    },
+    "level": 109
+  },
+  {
     "featureId": "invaded-barracks",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -583,17 +700,17 @@
     "level": 30
   },
   {
-    "featureId": "isles-of-fiction",
+    "featureId": "isle-of-fiction",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
-      "label": "Isles of Fiction"
+      "label": "Isle of Fiction"
     },
     "location": {
-      "x": -275,
+      "x": -278,
       "y": 0,
-      "z": -4038
+      "z": -4036
     },
-    "level": 35
+    "level": 25
   },
   {
     "featureId": "jofash-dock",
@@ -815,6 +932,19 @@
     "level": 10
   },
   {
+    "featureId": "market-square",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Market Square"
+    },
+    "location": {
+      "x": -1554,
+      "y": 0,
+      "z": -790
+    },
+    "level": 118
+  },
+  {
     "featureId": "maro-peaks",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -826,6 +956,19 @@
       "z": -3947
     },
     "level": 60
+  },
+  {
+    "featureId": "mistwoods",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Mistwoods"
+    },
+    "location": {
+      "x": -1354,
+      "y": 0,
+      "z": -662
+    },
+    "level": 113
   },
   {
     "featureId": "molten-heights",
@@ -1112,6 +1255,19 @@
     }
   },
   {
+    "featureId": "royal-dam",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Royal Dam"
+    },
+    "location": {
+      "x": -1677,
+      "y": 0,
+      "z": -1192
+    },
+    "level": 104
+  },
+  {
     "featureId": "ruined-olmic-city",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -1175,19 +1331,6 @@
       "z": -3183
     },
     "level": 25
-  },
-  {
-    "featureId": "silverbull-company-headquarters",
-    "categoryId": "wynntils:place:town-or-place",
-    "attributes": {
-      "label": "Silverbull Company Headquarters"
-    },
-    "location": {
-      "x": -119,
-      "y": 0,
-      "z": -4795
-    },
-    "level": 75
   },
   {
     "featureId": "skiens-island",
@@ -1365,9 +1508,9 @@
       "label": "The Province of Fruma"
     },
     "location": {
-      "x": -1649,
+      "x": -1518,
       "y": 0,
-      "z": -1062
+      "z": -1303
     }
   },
   {
@@ -1452,11 +1595,11 @@
       "label": "Timasca"
     },
     "location": {
-      "x": -1742,
+      "x": -1746,
       "y": 0,
-      "z": -566
+      "z": -563
     },
-    "level": 108
+    "level": 109
   },
   {
     "featureId": "time-valley",
@@ -1573,6 +1716,32 @@
       "z": -3672
     },
     "level": 55
+  },
+  {
+    "featureId": "wellspring-of-eternity",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Wellspring of Eternity"
+    },
+    "location": {
+      "x": -2134,
+      "y": 0,
+      "z": -1660
+    },
+    "level": 104
+  },
+  {
+    "featureId": "xima-valley",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Xima Valley"
+    },
+    "location": {
+      "x": -1736,
+      "y": 0,
+      "z": -1578
+    },
+    "level": 104
   },
   {
     "featureId": "zhight-island",

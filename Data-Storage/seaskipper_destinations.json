@@ -24,6 +24,14 @@
         "endZ": -2791
     },
     {
+        "destination": "Fruma Gate",
+        "combatLevel": 105,
+        "startX": -2014,
+        "startZ": -2044,
+        "endX": -1814,
+        "endZ": -1874
+    },
+    {
         "destination": "Galleon's Graveyard",
         "combatLevel": 60,
         "startX": -688,

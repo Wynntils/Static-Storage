@@ -113,7 +113,7 @@
   },
   {
     "id": "dataStaticCaveInfo",
-    "md5": "2e8325f671f9453582b584f9ae5f0377",
+    "md5": "e6961f8594d4a9b29140344561db52d5",
     "path": "Reference/caves.json",
     "url": "https://cdn.wynntils.com/static/Reference/caves.json"
   },
@@ -209,7 +209,7 @@
   },
   {
     "id": "dataStaticLootrunTasksNamedV2",
-    "md5": "c8adc1151cb31ae30e3de9e1a7dd842b",
+    "md5": "466ae94cac4d7f393e3e8e2212c8f075",
     "path": "Data-Storage/lootrun_tasks_named_v2.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/lootrun_tasks_named_v2.json"
   },
@@ -245,19 +245,19 @@
   },
   {
     "id": "dataStaticPlaceMapFeatures",
-    "md5": "345a6f6bd04d1ddd56d44c643fa64569",
+    "md5": "6ed6840c78d7ab7ffca19652a29ab184",
     "path": "Reference/place_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Reference/place_mapfeatures.json"
   },
   {
     "id": "dataStaticPlaces",
-    "md5": "508b4154371e59f9019962d4cfaa2365",
+    "md5": "7d56c2da43d4c6af96de7c5992131afc",
     "path": "Reference/places.json",
     "url": "https://cdn.wynntils.com/static/Reference/places.json"
   },
   {
     "id": "dataStaticSeaskipperDestinations",
-    "md5": "9316de06eb80ef9a26f8b604e9ac13bd",
+    "md5": "dc9eb0e70e689368aec0ef0e41a77a96",
     "path": "Data-Storage/seaskipper_destinations.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/seaskipper_destinations.json"
   },
