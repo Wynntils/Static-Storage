@@ -2750,6 +2750,25 @@
   },
   {
     "type": "cave",
+    "name": "Siltswimmer Den",
+    "specialInfo": "",
+    "description": "§7Scaly tails leave sinister wakes through the stagnant water within the cave at §f[-2212, 31, -1381]",
+    "length": "short",
+    "lengthInfo": "30s",
+    "difficulty": "medium",
+    "requirements": 105,
+    "rewards": [
+      "1795000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2212,
+      "y": 31,
+      "z": -1381
+    }
+  },
+  {
+    "type": "cave",
     "name": "Sink Hole",
     "specialInfo": "",
     "description": "§7Some eerie houses have sunken into the mud at §f[-1512, 51, -5243]",
