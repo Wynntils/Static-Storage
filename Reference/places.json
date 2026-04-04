@@ -16,7 +16,7 @@
     },
     {
       "layer": 2,
-      "level": "100",
+      "level": "95",
       "name": "Ahmsord",
       "x": 1010,
       "z": -4554
@@ -36,7 +36,7 @@
       "z": -701
     },
     {
-      "layer": 2,
+      "layer": 3,
       "level": "5",
       "name": "Alekin Village",
       "x": -150,
@@ -260,6 +260,13 @@
     },
     {
       "layer": 3,
+      "level": "100",
+      "name": "Eyeball Forest",
+      "x": 973,
+      "z": -572
+    },
+    {
+      "layer": 3,
       "level": "40",
       "name": "Fallen Meteor",
       "x": -2199,
@@ -474,7 +481,7 @@
     },
     {
       "layer": 2,
-      "level": "105",
+      "level": "100",
       "name": "Lutho",
       "x": 979,
       "z": -675
@@ -599,7 +606,7 @@
     },
     {
       "layer": 3,
-      "level": "110",
+      "level": "103",
       "name": "Path to Darkness",
       "x": 1362,
       "z": -539
@@ -780,7 +787,7 @@
     },
     {
       "layer": 3,
-      "level": "100+",
+      "level": "103",
       "name": "The Eldritch Outlook",
       "x": 1350,
       "z": -904
@@ -873,7 +880,7 @@
     },
     {
       "layer": 3,
-      "level": "105",
+      "level": "102",
       "name": "Toxic Wastes",
       "x": 1106,
       "z": -1011
@@ -901,7 +908,7 @@
     },
     {
       "layer": 3,
-      "level": "105",
+      "level": "102",
       "name": "Void Valley",
       "x": 1464,
       "z": -1059
