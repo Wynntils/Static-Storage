@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_DIR="$(cd $(dirname "$0")/.. 2>/dev/null && pwd)"
-ASSETS_DIR="$BASE_DIR/Generators/assets/minecraft/models/item"
+ASSETS_DIR="$BASE_DIR/Generators/assets/minecraft/items"
 OUTPUT_JSON="$BASE_DIR/Data-Storage/model_data.json"
 TEMP_OUTPUT="$OUTPUT_JSON.tmp"
 
@@ -35,8 +35,7 @@ mv "$TEMP_OUTPUT" "$OUTPUT_JSON"
 # model_suffix is what comes after the "item/wynn/" for the model. Can be defined in the lookup or ignored and it will
 # need to be defined in the process_group call.
 # If looking for multiple model types, separate them with a "," e.g. "weapon/archer,skin/bow"
-# type is how the value should be stored. Currently supports: raw, float or range. Not including one will assume float
-# raw is kept for compatibility with old clients, don't use for new entries
+# type is how the value should be stored. Currently supports: float or range. Not including one will assume float
 # Split lookups per item, define the filename when calling process_group
 LOOKUPS_BOWS=(
   "bow.basicWood|bow_basic_wood"
@@ -229,8 +228,6 @@ LOOKUPS_TOMES=(
 )
 
 LOOKUPS_MISC=(
-  "mythic_box|loot/mythic|raw"
-  "beacon_color|gui/beacon/white|raw"
   "mythic_box|loot/mythic"
   "beacon_color|gui/beacon/white"
   "corkian_amplifier|augment/corkian_amplifier"
@@ -270,6 +267,8 @@ LOOKUPS_LEATHER_HELMET=(
   "helmet.pale_gold|armor/helmet/pale_gold_helmet"
   "helmet.diamond|armor/helmet/diamond_helmet"
   "helmet.pale_diamond|armor/helmet/pale_diamond_helmet"
+  "helmet.titanium|armor/helmet/titanium_helmet"
+  "helmet.pale_titanium|armor/helmet/pale_titanium_helmet"
   "helmet|armor/helmet|range"
 )
 
@@ -283,6 +282,8 @@ LOOKUPS_LEATHER_CHESTPLATE=(
   "chestplate.pale_gold|armor/chestplate/pale_gold_chestplate"
   "chestplate.diamond|armor/chestplate/diamond_chestplate"
   "chestplate.pale_diamond|armor/chestplate/pale_diamond_chestplate"
+  "chestplate.titanium|armor/chestplate/titanium_chestplate"
+  "chestplate.pale_titanium|armor/chestplate/pale_titanium_chestplate"
   "chestplate|armor/chestplate|range"
 )
 
@@ -296,6 +297,8 @@ LOOKUPS_LEATHER_LEGGINGS=(
   "leggings.pale_gold|armor/leggings/pale_gold_leggings"
   "leggings.diamond|armor/leggings/diamond_leggings"
   "leggings.pale_diamond|armor/leggings/pale_diamond_leggings"
+  "leggings.titanium|armor/leggings/titanium_leggings"
+  "leggings.pale_titanium|armor/leggings/pale_titanium_leggings"
   "leggings|armor/leggings|range"
 )
 
@@ -309,6 +312,8 @@ LOOKUPS_LEATHER_BOOTS=(
   "boots.pale_gold|armor/boots/pale_gold_boots"
   "boots.diamond|armor/boots/diamond_boots"
   "boots.pale_diamond|armor/boots/pale_diamond_boots"
+  "boots.titanium|armor/boots/titanium_boots"
+  "boots.pale_titanium|armor/boots/pale_titanium_boots"
   "boots|armor/boots|range"
 )
 
@@ -317,9 +322,24 @@ extract_values() {
   local prefix="$2"
 
   jq -r --arg p "$prefix" '
-    .overrides[]
-    | select(.model | startswith($p))
-    | .predicate.custom_model_data
+    [
+      (
+        .overrides[]?
+        | select(.model? | type == "string")
+        | select(.model | startswith($p))
+        | .predicate.custom_model_data?
+      ),
+      (
+        .. | objects
+        | select(has("threshold"))
+        | select(.model.model? | type == "string")
+        | select(.model.model | startswith($p))
+        | .threshold
+      )
+    ]
+    | flatten[]
+    | select(. != null)
+    | tonumber
   ' "$file"
 }
 
@@ -365,14 +385,6 @@ process_group() {
     fi
 
     case "$type" in
-
-      raw)
-        val="${values[0]}.0"
-        echo "Setting raw $key = $val"
-        jq --arg k "$key" --argjson v "$val" \
-           '.[$k] = $v' \
-           "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-        ;;
 
       float)
         val="${values[0]}.0"
