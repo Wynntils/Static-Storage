@@ -7,14 +7,14 @@
         "lootBonus": 5,
         "rawHealth": 15,
         "walkSpeed": 2,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "damage": 12,
         "lootBonus": 10,
         "rawHealth": 40,
         "walkSpeed": 5,
-        "xpBonus": 20
+        "combatExperience": 20
       },
       {
         "damage": 25,
@@ -22,7 +22,7 @@
         "manaRegen": 12,
         "rawHealth": 175,
         "walkSpeed": 15,
-        "xpBonus": 50
+        "combatExperience": 50
       }
     ],
     "items": [
@@ -39,20 +39,20 @@
         "lootBonus": 10,
         "rawHealth": 60,
         "walkSpeed": 10,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "lootBonus": 25,
         "rawHealth": 190,
         "walkSpeed": 20,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "lootBonus": 50,
         "rawAgility": 20,
         "rawHealth": 400,
         "walkSpeed": 60,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -88,17 +88,17 @@
       {
         "lootBonus": 4,
         "stealing": 1,
-        "xpBonus": 3
+        "combatExperience": 3
       },
       {
         "lootBonus": 9,
         "stealing": 3,
-        "xpBonus": 7
+        "combatExperience": 7
       },
       {
         "lootBonus": 15,
         "stealing": 6,
-        "xpBonus": 12
+        "combatExperience": 12
       }
     ],
     "items": [
@@ -170,14 +170,14 @@
   "Black Catalyst": {
     "bonuses": [
       {
-        "xpBonus": -5
+        "combatExperience": -5
       },
       {
         "1stSpellCost": -15,
         "3rdSpellCost": -15,
         "rawHealth": 650,
         "spellDamage": 15,
-        "xpBonus": 35
+        "combatExperience": 35
       }
     ],
     "items": [
@@ -318,7 +318,7 @@
       {
         "lifeSteal": 400,
         "manaSteal": 15,
-        "xpBonus": 20
+        "combatExperience": 20
       }
     ],
     "items": [
@@ -336,7 +336,7 @@
         "manaSteal": 4,
         "thunderDefence": 20,
         "waterDefence": 20,
-        "xpBonus": 25
+        "combatExperience": 25
       },
       {
         "airDefence": 50,
@@ -346,7 +346,7 @@
         "manaSteal": 8,
         "thunderDefence": 50,
         "waterDefence": 50,
-        "xpBonus": 50
+        "combatExperience": 50
       },
       {
         "airDefence": 100,
@@ -357,7 +357,7 @@
         "spellDamage": 40,
         "thunderDefence": 100,
         "waterDefence": 100,
-        "xpBonus": 75
+        "combatExperience": 75
       }
     ],
     "items": [
@@ -417,20 +417,20 @@
         "lootBonus": 10,
         "mainAttackDamage": 10,
         "rawHealth": 65,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "lootBonus": 25,
         "mainAttackDamage": 20,
         "rawHealth": 200,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "lootBonus": 50,
         "mainAttackDamage": 45,
         "rawHealth": 425,
         "rawStrength": 20,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -480,20 +480,20 @@
         "healthRegenRaw": 15,
         "lootBonus": 10,
         "rawHealth": 90,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "healthRegenRaw": 50,
         "lootBonus": 25,
         "rawHealth": 270,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "healthRegenRaw": 120,
         "lootBonus": 50,
         "rawDefence": 20,
         "rawHealth": 570,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -597,7 +597,7 @@
       {},
       {
         "stealing": 5,
-        "xpBonus": 15
+        "combatExperience": 15
       }
     ],
     "items": [
@@ -615,7 +615,7 @@
         "sprint": 25,
         "sprintRegen": 50,
         "walkSpeed": 17,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -627,14 +627,14 @@
     "bonuses": [
       {
         "lootBonus": 20,
-        "xpBonus": 20
+        "combatExperience": 20
       },
       {
         "lootBonus": 45,
         "rawHealth": 240,
         "stealing": 3,
         "walkSpeed": 5,
-        "xpBonus": 45
+        "combatExperience": 45
       },
       {
         "lootBonus": 75,
@@ -643,7 +643,7 @@
         "stealing": 8,
         "thorns": 12,
         "walkSpeed": 10,
-        "xpBonus": 75
+        "combatExperience": 75
       },
       {
         "lootBonus": 120,
@@ -652,7 +652,7 @@
         "stealing": 12,
         "thorns": 30,
         "walkSpeed": 25,
-        "xpBonus": 120
+        "combatExperience": 120
       }
     ],
     "items": [
@@ -669,7 +669,7 @@
         "healthRegenRaw": 220,
         "manaRegen": 12,
         "rawDefence": 25,
-        "xpBonus": 40
+        "combatExperience": 40
       }
     ],
     "items": [
@@ -711,14 +711,14 @@
       {},
       {
         "lootBonus": 5,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "lootBonus": 10,
         "manaRegen": 6,
         "raw2ndSpellCost": -5,
         "rawHealth": 125,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "lootBonus": 15,
@@ -730,7 +730,7 @@
         "rawHealth": 425,
         "rawIntelligence": 1,
         "rawStrength": 1,
-        "xpBonus": 15
+        "combatExperience": 15
       },
       {
         "lootBonus": 35,
@@ -743,7 +743,7 @@
         "rawHealth": 1325,
         "rawIntelligence": 1,
         "rawStrength": 1,
-        "xpBonus": 35
+        "combatExperience": 35
       },
       {
         "lootBonus": 55,
@@ -756,7 +756,7 @@
         "rawHealth": 2275,
         "rawIntelligence": 3,
         "rawStrength": 3,
-        "xpBonus": 55
+        "combatExperience": 55
       },
       {
         "lootBonus": 80,
@@ -770,7 +770,7 @@
         "rawHealth": 3850,
         "rawIntelligence": 3,
         "rawStrength": 3,
-        "xpBonus": 80
+        "combatExperience": 80
       },
       {
         "lootBonus": 100,
@@ -785,7 +785,7 @@
         "rawHealth": 6110,
         "rawIntelligence": 21,
         "rawStrength": 21,
-        "xpBonus": 100
+        "combatExperience": 100
       }
     ],
     "items": [
@@ -863,19 +863,19 @@
         "lifeSteal": 12,
         "rawAgility": 4,
         "stealing": 2,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "lifeSteal": 25,
         "rawAgility": 8,
         "stealing": 4,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "lifeSteal": 50,
         "rawAgility": 28,
         "stealing": 8,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -925,7 +925,7 @@
         "rawHealth": 65,
         "thunderDamage": 5,
         "waterDamage": 5,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "airDamage": 12,
@@ -935,7 +935,7 @@
         "rawHealth": 200,
         "thunderDamage": 12,
         "waterDamage": 12,
-        "xpBonus": 25
+        "combatExperience": 25
       },
       {
         "airDamage": 25,
@@ -950,7 +950,7 @@
         "rawStrength": 8,
         "thunderDamage": 25,
         "waterDamage": 25,
-        "xpBonus": 50
+        "combatExperience": 50
       }
     ],
     "items": [
@@ -1134,14 +1134,14 @@
         "rawAgility": 2,
         "rawDexterity": 2,
         "walkSpeed": 7,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "poison": 130,
         "rawAgility": 6,
         "rawDexterity": 6,
         "walkSpeed": 19,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -1278,20 +1278,20 @@
         "lootBonus": 10,
         "rawHealth": 55,
         "rawMainAttackDamage": 12,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "lootBonus": 25,
         "rawHealth": 180,
         "rawMainAttackDamage": 32,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "lootBonus": 50,
         "rawDexterity": 20,
         "rawHealth": 380,
         "rawMainAttackDamage": 105,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -1409,7 +1409,7 @@
       {
         "lootBonus": 60,
         "stealing": 8,
-        "xpBonus": 20
+        "combatExperience": 20
       }
     ],
     "items": [
@@ -1492,20 +1492,20 @@
         "lootBonus": 10,
         "manaRegen": 6,
         "rawHealth": 55,
-        "xpBonus": 5
+        "combatExperience": 5
       },
       {
         "lootBonus": 25,
         "manaRegen": 12,
         "rawHealth": 170,
-        "xpBonus": 10
+        "combatExperience": 10
       },
       {
         "lootBonus": 50,
         "manaRegen": 24,
         "rawHealth": 360,
         "rawIntelligence": 20,
-        "xpBonus": 25
+        "combatExperience": 25
       }
     ],
     "items": [
@@ -1520,17 +1520,17 @@
       {},
       {
         "healthRegenRaw": 12,
-        "xpBonus": 4
+        "combatExperience": 4
       },
       {
         "healthRegenRaw": 25,
         "manaRegen": 4,
-        "xpBonus": 8
+        "combatExperience": 8
       },
       {
         "healthRegenRaw": 60,
         "manaRegen": 10,
-        "xpBonus": 20
+        "combatExperience": 20
       }
     ],
     "items": [
