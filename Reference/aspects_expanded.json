@@ -1,5 +1,224 @@
 {
   "archer": {
+    "Archer's Embodiment of Perceptive Finesse": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Archer's Embodiment of Perceptive Finesse",
+      "rarity": "mythic",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Ascension",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Extinction Event",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spawns ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " bombs.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Twilight Zone",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s mark cap is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " higher.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Ascension",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Extinction Event",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spawns ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " bombs.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Twilight Zone",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s mark cap is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " higher.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        }
+      }
+    },
     "Aspect of Battlement Fortification": {
       "icon": {
         "format": "attribute",
@@ -1331,6 +1550,137 @@
         }
       }
     },
+    "Aspect of Olfactorial Enhancement": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of Olfactorial Enhancement",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Sniffer Dog",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.35s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Sniffer Dog",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.6s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Sniffer Dog",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.85s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Reduces ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Sniffer Dog",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Undercrank": {
       "icon": {
         "format": "attribute",
@@ -1592,6 +1942,247 @@
             ]
           ],
           "threshold": 150
+        }
+      }
+    },
+    "Aspect of the Battle-Fletcher": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of the Battle-Fletcher",
+      "rarity": "fabled",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum Flint Arrows by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-1% ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "(Main Attack Damage, per arrow)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "-1%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum Flint Arrows by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-2% ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "(Main Attack Damage, per arrow)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "-2%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum Flint Arrows by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-3% ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "(Main Attack Damage, per arrow)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "-3%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 75
         }
       }
     },
@@ -6871,6 +7462,225 @@
         }
       }
     },
+    "Assassin's Embodiment of Otherworldly Detachment": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              210
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectAssassin"
+        }
+      },
+      "name": "Assassin's Embodiment of Otherworldly Detachment",
+      "rarity": "mythic",
+      "requiredClass": "assassin",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Pierce the Veil",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Another Self",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " has ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more health.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Serpent's Garden",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " builds momentum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Pierce the Veil",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Another Self",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " has ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more health.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Serpent's Garden",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " builds momentum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        }
+      }
+    },
     "Shadestepper's Embodiment of Unseen Execution": {
       "icon": {
         "format": "attribute",
@@ -7424,6 +8234,354 @@
             [
               {
                 "text": "healing to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of Futures Rewritten": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of Futures Rewritten",
+      "rarity": "fabled",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Paradox",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " delays ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more damage.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Paradox",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " delays ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more damage and refunds ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more mana.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Paradox",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " delays ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more damage and refunds ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more mana.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of Indoctrination": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of Indoctrination",
+      "rarity": "legendary",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Gospel of Light",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.65 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Gospel of Light",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4.65 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Gospel of Light",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6.65 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Gospel of Light",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of Limitless Knowledge": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of Limitless Knowledge",
+      "rarity": "fabled",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mana Bank ✺",
+                "color": "#55FFFF"
+              }
+            ],
+            [
+              {
+                "text": "and your maximum Overflow Mana by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+17%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mana Bank ✺",
+                "color": "#55FFFF"
+              }
+            ],
+            [
+              {
+                "text": "and your maximum Overflow Mana by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Mana Bank ✺",
+                "color": "#55FFFF"
+              }
+            ],
+            [
+              {
+                "text": "and your maximum Overflow Mana by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+33%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -9278,6 +10436,380 @@
         }
       }
     },
+    "Aspect of the Indescribable": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of the Indescribable",
+      "rarity": "fabled",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Riftspawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s attack speed by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Riftspawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s attack speed by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Riftspawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Vision.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Riftspawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s attack speed by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+50%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Riftspawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Vision.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Inescapable Void": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of the Inescapable Void",
+      "rarity": "fabled",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Dimensional Tear",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Rift Rupture",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Dimensional Tear",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Rift Rupture",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Dimensional Tear",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁ ",
+                "color": "#55FF55"
+              },
+              {
+                "text": "Resistance.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Dimensional Tear",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Rift Rupture",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gain ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Dimensional Tear",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁ ",
+                "color": "#55FF55"
+              },
+              {
+                "text": "Resistance.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Aspect of the Magic Missile": {
       "icon": {
         "format": "attribute",
@@ -9767,6 +11299,241 @@
         }
       }
     },
+    "Aspect of the Vast Emptiness": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of the Vast Emptiness",
+      "rarity": "legendary",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Vacuokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Damage",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Distortion ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#D599FF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Vacuokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+12",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Damage",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Distortion ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#D599FF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Vacuokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+16%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Damage",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Distortion ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#D599FF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Vacuokinesis",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Damage",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " from ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Distortion ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#D599FF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Light Bender's Embodiment of Celestial Brilliance": {
       "icon": {
         "format": "attribute",
@@ -9898,6 +11665,225 @@
         }
       }
     },
+    "Mage's Embodiment of Morbid Curiosity": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Mage's Embodiment of Morbid Curiosity",
+      "rarity": "mythic",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Dawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spawns ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more wisps.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Gravitational Collapse",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.6s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Tangled Origin",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " attacks ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Dawn",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spawns ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " more wisps.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Gravitational Collapse",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.6s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Tangled Origin",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " attacks ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        }
+      }
+    },
     "Riftwalker's Embodiment of Reality Alteration": {
       "icon": {
         "format": "attribute",
@@ -9932,7 +11918,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-20%",
+                "text": "-10%",
                 "color": "#FFFFFF"
               },
               {
@@ -9960,7 +11946,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-20%",
+                "text": "-10%",
                 "color": "#FFFFFF"
               },
               {
@@ -10021,7 +12007,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-30%",
+                "text": "-15%",
                 "color": "#FFFFFF"
               },
               {
@@ -13138,6 +15124,97 @@
         }
       }
     },
+    "Aspect of the Artisan": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of the Artisan",
+      "rarity": "fabled",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Crystal Knives",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "pierce.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Crystal Knives",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "pierce.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Crystal Knives",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "pierce.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
     "Aspect of the Beckoned Legion": {
       "icon": {
         "format": "attribute",
@@ -13505,6 +15582,252 @@
             ]
           ],
           "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Blurred Line": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of the Blurred Line",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Corporeal Manifestation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spins ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Corporeal Manifestation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spins ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "40% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Corporeal Manifestation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spins ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "55% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Corporeal Manifestation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spins ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "65% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of the Bodyguard": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Aspect of the Bodyguard",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Fortified Formation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁ ",
+                "color": "#55FF55"
+              },
+              {
+                "text": "Resistance.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Fortified Formation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+13% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁ ",
+                "color": "#55FF55"
+              },
+              {
+                "text": "Resistance.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Fortified Formation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+17.5% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁ ",
+                "color": "#55FF55"
+              },
+              {
+                "text": "Resistance.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Fortified Formation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "❁ ",
+                "color": "#55FF55"
+              },
+              {
+                "text": "Resistance.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
         }
       }
     },
@@ -13952,6 +16275,237 @@
               },
               {
                 "text": "Duration.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        }
+      }
+    },
+    "Shaman's Embodiment of Serene Harmony": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              214
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "name": "Shaman's Embodiment of Serene Harmony",
+      "rarity": "mythic",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Patchwork Abomination",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Sundered Skies",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "' delay between lightning",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "strikes is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " shorter.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Monument to Gloom",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Patchwork Abomination",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Sundered Skies",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "' delay between lightning",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "strikes is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " shorter.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Monument to Gloom",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ]
@@ -16653,6 +19207,583 @@
         }
       }
     },
+    "Aspect of the Crimson Scrivener": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of the Crimson Scrivener",
+      "rarity": "legendary",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s angle by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+13°",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s angle by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+23°",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s angle by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+33°",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s angle by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+40°",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of the Enforcer": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of the Enforcer",
+      "rarity": "fabled",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase your damage per ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Harmony",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase your damage per ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Harmony",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase your damage per ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Harmony",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.2%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Golden Dawn": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of the Golden Dawn",
+      "rarity": "legendary",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " Main Attack Damage",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Main Attack Range.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " Main Attack Damage",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Main Attack Range.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " Main Attack Damage",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Main Attack Range.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Luster Purge",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " grants ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " Main Attack Damage",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Main Attack Range.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of the Humming Choir": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Aspect of the Humming Choir",
+      "rarity": "legendary",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Devout Union",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.35 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Devout Union",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.35 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Devout Union",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3.35 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Devout Union",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of the Megaphone": {
       "icon": {
         "format": "attribute",
@@ -18034,6 +21165,225 @@
               },
               {
                 "text": " to activate.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        }
+      }
+    },
+    "Warrior's Embodiment of Everlasting Perseverance": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              216
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectWarrior"
+        }
+      },
+      "name": "Warrior's Embodiment of Everlasting Perseverance",
+      "rarity": "mythic",
+      "requiredClass": "warrior",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Beyond Salvation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spawns ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " spikes.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Zenith Stance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Judgement",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ultimate",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " charges ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Beyond Salvation",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " spawns ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " spikes.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Zenith Stance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "Judgement",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " lasts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ]
