@@ -1,5 +1,8 @@
 {
   "Gathering Axe T1": {
+    "dropRestriction": "never",
+    "durability": 100,
+    "emblem": "square",
     "gatheringSpeed": 8,
     "icon": {
       "format": "attribute",
@@ -15,14 +18,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 1",
-    "rarity": "common",
     "requirements": {
       "level": 1
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T10": {
+    "dropRestriction": "never",
+    "durability": 280,
+    "emblem": "square",
     "gatheringSpeed": 230,
     "icon": {
       "format": "attribute",
@@ -38,14 +45,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 10",
-    "rarity": "common",
     "requirements": {
       "level": 85
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T11": {
+    "dropRestriction": "never",
+    "durability": 300,
+    "emblem": "square",
     "gatheringSpeed": 275,
     "icon": {
       "format": "attribute",
@@ -61,14 +72,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 11",
-    "rarity": "common",
     "requirements": {
       "level": 95
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T12": {
+    "dropRestriction": "never",
+    "durability": 320,
+    "emblem": "square",
     "gatheringSpeed": 330,
     "icon": {
       "format": "attribute",
@@ -84,14 +99,45 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 12",
-    "rarity": "common",
     "requirements": {
       "level": 105
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
+    "type": "tool"
+  },
+  "Gathering Axe T13": {
+    "dropRestriction": "never",
+    "durability": 350,
+    "emblem": "square",
+    "gatheringSpeed": 400,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            50
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "gatheringTool.axe13"
+      }
+    },
+    "identified": true,
+    "internalName": "Gathering Axe 13",
+    "requirements": {
+      "level": 115
+    },
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T2": {
+    "dropRestriction": "never",
+    "durability": 120,
+    "emblem": "square",
     "gatheringSpeed": 16,
     "icon": {
       "format": "attribute",
@@ -107,14 +153,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 2",
-    "rarity": "common",
     "requirements": {
       "level": 5
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T3": {
+    "dropRestriction": "never",
+    "durability": 140,
+    "emblem": "square",
     "gatheringSpeed": 28,
     "icon": {
       "format": "attribute",
@@ -130,14 +180,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 3",
-    "rarity": "common",
     "requirements": {
       "level": 15
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T4": {
+    "dropRestriction": "never",
+    "durability": 160,
+    "emblem": "square",
     "gatheringSpeed": 45,
     "icon": {
       "format": "attribute",
@@ -153,14 +207,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 4",
-    "rarity": "common",
     "requirements": {
       "level": 25
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T5": {
+    "dropRestriction": "never",
+    "durability": 180,
+    "emblem": "square",
     "gatheringSpeed": 65,
     "icon": {
       "format": "attribute",
@@ -176,14 +234,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 5",
-    "rarity": "common",
     "requirements": {
       "level": 35
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T6": {
+    "dropRestriction": "never",
+    "durability": 200,
+    "emblem": "square",
     "gatheringSpeed": 90,
     "icon": {
       "format": "attribute",
@@ -199,14 +261,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 6",
-    "rarity": "common",
     "requirements": {
       "level": 45
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T7": {
+    "dropRestriction": "never",
+    "durability": 220,
+    "emblem": "square",
     "gatheringSpeed": 120,
     "icon": {
       "format": "attribute",
@@ -222,14 +288,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 7",
-    "rarity": "common",
     "requirements": {
       "level": 55
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T8": {
+    "dropRestriction": "never",
+    "durability": 240,
+    "emblem": "square",
     "gatheringSpeed": 150,
     "icon": {
       "format": "attribute",
@@ -245,14 +315,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 8",
-    "rarity": "common",
     "requirements": {
       "level": 65
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Axe T9": {
+    "dropRestriction": "never",
+    "durability": 260,
+    "emblem": "square",
     "gatheringSpeed": 190,
     "icon": {
       "format": "attribute",
@@ -268,14 +342,18 @@
     },
     "identified": true,
     "internalName": "Gathering Axe 9",
-    "rarity": "common",
     "requirements": {
       "level": 75
     },
-    "toolType": "axe",
+    "restriction": "none",
+    "subType": "axe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T1": {
+    "dropRestriction": "never",
+    "durability": 100,
+    "emblem": "square",
     "gatheringSpeed": 8,
     "icon": {
       "format": "attribute",
@@ -291,14 +369,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 1",
-    "rarity": "common",
     "requirements": {
       "level": 1
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T10": {
+    "dropRestriction": "never",
+    "durability": 280,
+    "emblem": "square",
     "gatheringSpeed": 230,
     "icon": {
       "format": "attribute",
@@ -314,14 +396,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 10",
-    "rarity": "common",
     "requirements": {
       "level": 85
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T11": {
+    "dropRestriction": "never",
+    "durability": 300,
+    "emblem": "square",
     "gatheringSpeed": 275,
     "icon": {
       "format": "attribute",
@@ -337,14 +423,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 11",
-    "rarity": "common",
     "requirements": {
       "level": 95
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T12": {
+    "dropRestriction": "never",
+    "durability": 320,
+    "emblem": "square",
     "gatheringSpeed": 330,
     "icon": {
       "format": "attribute",
@@ -360,14 +450,45 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 12",
-    "rarity": "common",
     "requirements": {
       "level": 105
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
+    "type": "tool"
+  },
+  "Gathering Pickaxe T13": {
+    "dropRestriction": "never",
+    "durability": 350,
+    "emblem": "square",
+    "gatheringSpeed": 400,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            55
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "gatheringTool.pickaxe13"
+      }
+    },
+    "identified": true,
+    "internalName": "Gathering Pickaxe 13",
+    "requirements": {
+      "level": 115
+    },
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T2": {
+    "dropRestriction": "never",
+    "durability": 120,
+    "emblem": "square",
     "gatheringSpeed": 16,
     "icon": {
       "format": "attribute",
@@ -383,14 +504,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 2",
-    "rarity": "common",
     "requirements": {
       "level": 5
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T3": {
+    "dropRestriction": "never",
+    "durability": 140,
+    "emblem": "square",
     "gatheringSpeed": 28,
     "icon": {
       "format": "attribute",
@@ -406,14 +531,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 3",
-    "rarity": "common",
     "requirements": {
       "level": 15
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T4": {
+    "dropRestriction": "never",
+    "durability": 160,
+    "emblem": "square",
     "gatheringSpeed": 45,
     "icon": {
       "format": "attribute",
@@ -429,14 +558,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 4",
-    "rarity": "common",
     "requirements": {
       "level": 25
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T5": {
+    "dropRestriction": "never",
+    "durability": 180,
+    "emblem": "square",
     "gatheringSpeed": 65,
     "icon": {
       "format": "attribute",
@@ -452,14 +585,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 5",
-    "rarity": "common",
     "requirements": {
       "level": 35
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T6": {
+    "dropRestriction": "never",
+    "durability": 200,
+    "emblem": "square",
     "gatheringSpeed": 90,
     "icon": {
       "format": "attribute",
@@ -475,14 +612,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 6",
-    "rarity": "common",
     "requirements": {
       "level": 45
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T7": {
+    "dropRestriction": "never",
+    "durability": 220,
+    "emblem": "square",
     "gatheringSpeed": 120,
     "icon": {
       "format": "attribute",
@@ -498,14 +639,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 7",
-    "rarity": "common",
     "requirements": {
       "level": 55
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T8": {
+    "dropRestriction": "never",
+    "durability": 240,
+    "emblem": "square",
     "gatheringSpeed": 150,
     "icon": {
       "format": "attribute",
@@ -521,14 +666,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 8",
-    "rarity": "common",
     "requirements": {
       "level": 65
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Pickaxe T9": {
+    "dropRestriction": "never",
+    "durability": 260,
+    "emblem": "square",
     "gatheringSpeed": 190,
     "icon": {
       "format": "attribute",
@@ -544,14 +693,18 @@
     },
     "identified": true,
     "internalName": "Gathering Pickaxe 9",
-    "rarity": "common",
     "requirements": {
       "level": 75
     },
-    "toolType": "pickaxe",
+    "restriction": "none",
+    "subType": "pickaxe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T1": {
+    "dropRestriction": "never",
+    "durability": 100,
+    "emblem": "square",
     "gatheringSpeed": 8,
     "icon": {
       "format": "attribute",
@@ -567,14 +720,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 1",
-    "rarity": "common",
     "requirements": {
       "level": 1
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T10": {
+    "dropRestriction": "never",
+    "durability": 280,
+    "emblem": "square",
     "gatheringSpeed": 230,
     "icon": {
       "format": "attribute",
@@ -590,14 +747,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 10",
-    "rarity": "common",
     "requirements": {
       "level": 85
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T11": {
+    "dropRestriction": "never",
+    "durability": 300,
+    "emblem": "square",
     "gatheringSpeed": 275,
     "icon": {
       "format": "attribute",
@@ -613,14 +774,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 11",
-    "rarity": "common",
     "requirements": {
       "level": 95
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T12": {
+    "dropRestriction": "never",
+    "durability": 320,
+    "emblem": "square",
     "gatheringSpeed": 330,
     "icon": {
       "format": "attribute",
@@ -636,14 +801,45 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 12",
-    "rarity": "common",
     "requirements": {
       "level": 105
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
+    "type": "tool"
+  },
+  "Gathering Rod T13": {
+    "dropRestriction": "never",
+    "durability": 350,
+    "emblem": "square",
+    "gatheringSpeed": 400,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            60
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "gatheringTool.rod13"
+      }
+    },
+    "identified": true,
+    "internalName": "Gathering Rod 13",
+    "requirements": {
+      "level": 115
+    },
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T2": {
+    "dropRestriction": "never",
+    "durability": 120,
+    "emblem": "square",
     "gatheringSpeed": 16,
     "icon": {
       "format": "attribute",
@@ -659,14 +855,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 2",
-    "rarity": "common",
     "requirements": {
       "level": 5
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T3": {
+    "dropRestriction": "never",
+    "durability": 140,
+    "emblem": "square",
     "gatheringSpeed": 28,
     "icon": {
       "format": "attribute",
@@ -682,14 +882,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 3",
-    "rarity": "common",
     "requirements": {
       "level": 15
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T4": {
+    "dropRestriction": "never",
+    "durability": 160,
+    "emblem": "square",
     "gatheringSpeed": 45,
     "icon": {
       "format": "attribute",
@@ -705,14 +909,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 4",
-    "rarity": "common",
     "requirements": {
       "level": 25
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T5": {
+    "dropRestriction": "never",
+    "durability": 180,
+    "emblem": "square",
     "gatheringSpeed": 65,
     "icon": {
       "format": "attribute",
@@ -728,14 +936,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 5",
-    "rarity": "common",
     "requirements": {
       "level": 35
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T6": {
+    "dropRestriction": "never",
+    "durability": 200,
+    "emblem": "square",
     "gatheringSpeed": 90,
     "icon": {
       "format": "attribute",
@@ -751,14 +963,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 6",
-    "rarity": "common",
     "requirements": {
       "level": 45
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T7": {
+    "dropRestriction": "never",
+    "durability": 220,
+    "emblem": "square",
     "gatheringSpeed": 120,
     "icon": {
       "format": "attribute",
@@ -774,14 +990,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 7",
-    "rarity": "common",
     "requirements": {
       "level": 55
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T8": {
+    "dropRestriction": "never",
+    "durability": 240,
+    "emblem": "square",
     "gatheringSpeed": 150,
     "icon": {
       "format": "attribute",
@@ -797,14 +1017,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 8",
-    "rarity": "common",
     "requirements": {
       "level": 65
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Rod T9": {
+    "dropRestriction": "never",
+    "durability": 260,
+    "emblem": "square",
     "gatheringSpeed": 190,
     "icon": {
       "format": "attribute",
@@ -820,14 +1044,18 @@
     },
     "identified": true,
     "internalName": "Gathering Rod 9",
-    "rarity": "common",
     "requirements": {
       "level": 75
     },
-    "toolType": "rod",
+    "restriction": "none",
+    "subType": "rod",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T1": {
+    "dropRestriction": "never",
+    "durability": 100,
+    "emblem": "square",
     "gatheringSpeed": 8,
     "icon": {
       "format": "attribute",
@@ -843,14 +1071,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 1",
-    "rarity": "common",
     "requirements": {
       "level": 1
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T10": {
+    "dropRestriction": "never",
+    "durability": 280,
+    "emblem": "square",
     "gatheringSpeed": 230,
     "icon": {
       "format": "attribute",
@@ -866,14 +1098,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 10",
-    "rarity": "common",
     "requirements": {
       "level": 85
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T11": {
+    "dropRestriction": "never",
+    "durability": 300,
+    "emblem": "square",
     "gatheringSpeed": 275,
     "icon": {
       "format": "attribute",
@@ -889,14 +1125,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 11",
-    "rarity": "common",
     "requirements": {
       "level": 95
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T12": {
+    "dropRestriction": "never",
+    "durability": 320,
+    "emblem": "square",
     "gatheringSpeed": 330,
     "icon": {
       "format": "attribute",
@@ -912,14 +1152,45 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 12",
-    "rarity": "common",
     "requirements": {
       "level": 105
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
+    "type": "tool"
+  },
+  "Gathering Scythe T13": {
+    "dropRestriction": "never",
+    "durability": 350,
+    "emblem": "square",
+    "gatheringSpeed": 400,
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            65
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "gatheringTool.scythe13"
+      }
+    },
+    "identified": true,
+    "internalName": "Gathering Scythe 13",
+    "requirements": {
+      "level": 115
+    },
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T2": {
+    "dropRestriction": "never",
+    "durability": 120,
+    "emblem": "square",
     "gatheringSpeed": 16,
     "icon": {
       "format": "attribute",
@@ -935,14 +1206,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 2",
-    "rarity": "common",
     "requirements": {
       "level": 5
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T3": {
+    "dropRestriction": "never",
+    "durability": 140,
+    "emblem": "square",
     "gatheringSpeed": 28,
     "icon": {
       "format": "attribute",
@@ -958,14 +1233,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 3",
-    "rarity": "common",
     "requirements": {
       "level": 15
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T4": {
+    "dropRestriction": "never",
+    "durability": 160,
+    "emblem": "square",
     "gatheringSpeed": 45,
     "icon": {
       "format": "attribute",
@@ -981,14 +1260,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 4",
-    "rarity": "common",
     "requirements": {
       "level": 25
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T5": {
+    "dropRestriction": "never",
+    "durability": 180,
+    "emblem": "square",
     "gatheringSpeed": 65,
     "icon": {
       "format": "attribute",
@@ -1004,14 +1287,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 5",
-    "rarity": "common",
     "requirements": {
       "level": 35
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T6": {
+    "dropRestriction": "never",
+    "durability": 200,
+    "emblem": "square",
     "gatheringSpeed": 90,
     "icon": {
       "format": "attribute",
@@ -1027,14 +1314,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 6",
-    "rarity": "common",
     "requirements": {
       "level": 45
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T7": {
+    "dropRestriction": "never",
+    "durability": 220,
+    "emblem": "square",
     "gatheringSpeed": 120,
     "icon": {
       "format": "attribute",
@@ -1050,14 +1341,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 7",
-    "rarity": "common",
     "requirements": {
       "level": 55
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T8": {
+    "dropRestriction": "never",
+    "durability": 240,
+    "emblem": "square",
     "gatheringSpeed": 150,
     "icon": {
       "format": "attribute",
@@ -1073,14 +1368,18 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 8",
-    "rarity": "common",
     "requirements": {
       "level": 65
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   },
   "Gathering Scythe T9": {
+    "dropRestriction": "never",
+    "durability": 260,
+    "emblem": "square",
     "gatheringSpeed": 190,
     "icon": {
       "format": "attribute",
@@ -1096,11 +1395,12 @@
     },
     "identified": true,
     "internalName": "Gathering Scythe 9",
-    "rarity": "common",
     "requirements": {
       "level": 75
     },
-    "toolType": "scythe",
+    "restriction": "none",
+    "subType": "scythe",
+    "tier": "normal",
     "type": "tool"
   }
 }
