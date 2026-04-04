@@ -36,7 +36,7 @@
       "y": 0,
       "z": -4554
     },
-    "level": 100
+    "level": 95
   },
   {
     "featureId": "aldorei",
@@ -66,7 +66,7 @@
   },
   {
     "featureId": "alekin-village",
-    "categoryId": "wynntils:place:city",
+    "categoryId": "wynntils:place:town-or-place",
     "attributes": {
       "label": "Alekin Village"
     },
@@ -480,6 +480,19 @@
     "level": 104
   },
   {
+    "featureId": "eyeball-forest",
+    "categoryId": "wynntils:place:town-or-place",
+    "attributes": {
+      "label": "Eyeball Forest"
+    },
+    "location": {
+      "x": 973,
+      "y": 0,
+      "z": -572
+    },
+    "level": 100
+  },
+  {
     "featureId": "fallen-meteor",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
@@ -890,7 +903,7 @@
       "y": 0,
       "z": -675
     },
-    "level": 105
+    "level": 100
   },
   {
     "featureId": "maex",
@@ -1123,7 +1136,7 @@
       "y": 0,
       "z": -539
     },
-    "level": 110
+    "level": 103
   },
   {
     "featureId": "pigmens-ravines",
@@ -1460,7 +1473,7 @@
       "y": 0,
       "z": -904
     },
-    "level": 100
+    "level": 103
   },
   {
     "featureId": "the-forgery",
@@ -1637,7 +1650,7 @@
       "y": 0,
       "z": -1011
     },
-    "level": 105
+    "level": 102
   },
   {
     "featureId": "troms",
@@ -1689,7 +1702,7 @@
       "y": 0,
       "z": -1059
     },
-    "level": 105
+    "level": 102
   },
   {
     "featureId": "void-village",
