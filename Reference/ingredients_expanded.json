@@ -15212,7 +15212,15 @@
     "emblem": "square",
     "icon": {
       "format": "attribute",
-      "value": "ingredient.routerShield"
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            2276
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "ingredient.routerShield"
+      }
     },
     "identifications": {
       "healthRegenRaw": {
@@ -98108,7 +98116,7 @@
   "Ripe Aureate Fruit": {
     "consumableOnlyIDs": {
       "charges": 0,
-      "duration": -305
+      "duration": -365
     },
     "droppedBy": [
       {
@@ -101927,7 +101935,7 @@
           ]
         },
         "id": "minecraft:potion",
-        "name": "ingredient.routersShield"
+        "name": "ingredient.routerShield"
       }
     },
     "identifications": {
