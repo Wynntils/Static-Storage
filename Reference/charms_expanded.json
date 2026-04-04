@@ -12,22 +12,14 @@
         "raw": 30
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -732,
-        100,
-        -6412
-      ],
-      "name": "Orphion's Nexus of Light",
-      "type": "raid"
-    },
     "dropRestriction": "never",
+    "emblem": "sticker_5",
     "icon": {
       "format": "attribute",
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1209
+            1451
           ],
           "select": [
             "item_tier_fabled"
@@ -38,16 +30,11 @@
       }
     },
     "internalName": "Charm of the Light",
-    "raidReward": true,
-    "rarity": "fabled",
     "requirements": {
-      "level": 80,
-      "levelRange": {
-        "max": 100,
-        "min": 80
-      }
+      "level": 80
     },
-    "restrictions": "untradable",
+    "restriction": "untradable",
+    "tier": "fabled",
     "type": "charm"
   },
   "Charm of the Stone": {
@@ -63,22 +50,14 @@
         "raw": 30
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        662,
-        49,
-        -4448
-      ],
-      "name": "The Canyon Colossus",
-      "type": "raid"
-    },
     "dropRestriction": "never",
+    "emblem": "sticker_5",
     "icon": {
       "format": "attribute",
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1206
+            1448
           ],
           "select": [
             "item_tier_fabled"
@@ -89,16 +68,11 @@
       }
     },
     "internalName": "Charm of the Stone",
-    "raidReward": true,
-    "rarity": "fabled",
     "requirements": {
-      "level": 100,
-      "levelRange": {
-        "max": 110,
-        "min": 90
-      }
+      "level": 90
     },
-    "restrictions": "untradable",
+    "restriction": "untradable",
+    "tier": "fabled",
     "type": "charm"
   },
   "Charm of the Void": {
@@ -109,22 +83,14 @@
         "raw": 12
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        1193,
-        64,
-        -947
-      ],
-      "name": "The Nameless Anomaly",
-      "type": "raid"
-    },
     "dropRestriction": "never",
+    "emblem": "sticker_5",
     "icon": {
       "format": "attribute",
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1208
+            1450
           ],
           "select": [
             "item_tier_fabled"
@@ -135,23 +101,18 @@
       }
     },
     "identifications": {
-      "gatherXpBonus": {
+      "gatheringExperience": {
         "max": 21,
         "min": 14,
         "raw": 18
       }
     },
     "internalName": "Charm of the Void",
-    "raidReward": true,
-    "rarity": "fabled",
     "requirements": {
-      "level": 105,
-      "levelRange": {
-        "max": 110,
-        "min": 100
-      }
+      "level": 105
     },
-    "restrictions": "untradable",
+    "restriction": "untradable",
+    "tier": "fabled",
     "type": "charm"
   },
   "Charm of the Worm": {
@@ -167,22 +128,14 @@
         "raw": 30
       }
     },
-    "dropMeta": {
-      "coordinates": [
-        -1977,
-        63,
-        -5615
-      ],
-      "name": "Nest of the Grootslangs",
-      "type": "raid"
-    },
     "dropRestriction": "never",
+    "emblem": "sticker_4",
     "icon": {
       "format": "attribute",
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1207
+            1449
           ],
           "select": [
             "item_tier_fabled"
@@ -193,16 +146,11 @@
       }
     },
     "internalName": "Charm of the Worm",
-    "raidReward": true,
-    "rarity": "fabled",
     "requirements": {
-      "level": 60,
-      "levelRange": {
-        "max": 80,
-        "min": 60
-      }
+      "level": 60
     },
-    "restrictions": "untradable",
+    "restriction": "untradable",
+    "tier": "fabled",
     "type": "charm"
   }
 }
