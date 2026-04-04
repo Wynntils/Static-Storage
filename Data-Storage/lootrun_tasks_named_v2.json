@@ -908,5 +908,324 @@
       "name": "Seismic Bore Hole",
       "taskType": "loot"
     }
+  ],
+  "theFrumaForayWest": [
+    {
+      "location": {
+        "x": -2201,
+        "y": 41,
+        "z": -671
+      },
+      "name": "Thug Ambush",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1754,
+        "y": 21,
+        "z": -490
+      },
+      "name": "The Flush",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -2121,
+        "y": 57,
+        "z": -802
+      },
+      "name": "Water Tower",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -2176,
+        "y": 20,
+        "z": -561
+      },
+      "name": "Biofilm Overgrowth",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": -1876,
+        "y": 25,
+        "z": -1398
+      },
+      "name": "Auburn Patrol",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -2101,
+        "y": 67,
+        "z": -650
+      },
+      "name": "Pesticide Ventilation",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -2058,
+        "y": 25,
+        "z": -1479
+      },
+      "name": "Ancient Arthropods",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -2093,
+        "y": 42,
+        "z": -704
+      },
+      "name": "Railway Furnace",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -2165,
+        "y": 20,
+        "z": -1318
+      },
+      "name": "Bogged Spirits",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1658,
+        "y": 3,
+        "z": -516
+      },
+      "name": "Freight Interchange",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1671,
+        "y": 20,
+        "z": -1248
+      },
+      "name": "Autumnal Ruins",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": -2142,
+        "y": 11,
+        "z": -1379
+      },
+      "name": "Marsh Assault",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": -1833,
+        "y": 30,
+        "z": -794
+      },
+      "name": "Abandoned Steelworks",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1916,
+        "y": 23,
+        "z": -1198
+      },
+      "name": "Electrifying Outpost",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1836,
+        "y": 9,
+        "z": -1035
+      },
+      "name": "Auburn Lumbermill",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1891,
+        "y": 39,
+        "z": -695
+      },
+      "name": "Propaganda Vandal",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": -2187,
+        "y": 34,
+        "z": -751
+      },
+      "name": "Weapons Factory",
+      "taskType": "loot"
+    }
+  ],
+  "theFrumaForayEast": [
+    {
+      "location": {
+        "x": -1542,
+        "y": 51,
+        "z": -551
+      },
+      "name": "Nesting Place",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1505,
+        "y": 78,
+        "z": -733
+      },
+      "name": "Citadel Catacombs",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1186,
+        "y": 47,
+        "z": -640
+      },
+      "name": "Entozoon Takeover",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1323,
+        "y": 81,
+        "z": -912
+      },
+      "name": "Estalis Gallery",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1366,
+        "y": 107,
+        "z": -1019
+      },
+      "name": "Krisa Manor",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1443,
+        "y": 107,
+        "z": -1037
+      },
+      "name": "Liftal Castle",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1159,
+        "y": 70,
+        "z": -1014
+      },
+      "name": "Tericen Stables",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1288,
+        "y": 86,
+        "z": -1319
+      },
+      "name": "Saltpetre Mine",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1020,
+        "y": 125,
+        "z": -1335
+      },
+      "name": "Glacier Tunnels",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1112,
+        "y": 87,
+        "z": -1407
+      },
+      "name": "Northern Outpost",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -1152,
+        "y": 57,
+        "z": -870
+      },
+      "name": "Canopy Ambush",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1148,
+        "y": 62,
+        "z": -758
+      },
+      "name": "Fort Hegea Defense",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": -1492,
+        "y": 11,
+        "z": -1004
+      },
+      "name": "Aelumia Gatekeepers",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": -1302,
+        "y": 48,
+        "z": -598
+      },
+      "name": "Hornet Nest",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -1392,
+        "y": 97,
+        "z": -1088
+      },
+      "name": "Queen's Statue",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -1221,
+        "y": 78,
+        "z": -1189
+      },
+      "name": "Guard Supply Wagon",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": -1467,
+        "y": 51,
+        "z": -611
+      },
+      "name": "Sleeping Fox",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": -1300,
+        "y": 42,
+        "z": -755
+      },
+      "name": "Aldwell Invasion",
+      "taskType": "defend"
+    }
   ]
 }

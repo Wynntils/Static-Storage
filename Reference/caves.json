@@ -1,6 +1,25 @@
 [
   {
     "type": "cave",
+    "name": "Abandoned Steelworks",
+    "specialInfo": "",
+    "description": "§7The forgotten factory at §f[-1832, 33, -794]§7 may not be so empty after all.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "hard",
+    "requirements": 110,
+    "rewards": [
+      "3181000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1832,
+      "y": 33,
+      "z": -794
+    }
+  },
+  {
+    "type": "cave",
     "name": "Abyssal Shine",
     "specialInfo": "",
     "description": "§7In a cave dark as the depths of the ocean, shining stalks grow and attract glowing moths at §f[604, 31, -5074]§7, and...?",
@@ -20,6 +39,63 @@
   },
   {
     "type": "cave",
+    "name": "Aelumia Chemical Plant",
+    "specialInfo": "",
+    "description": "§7The acrid smell of ammonia mixes with the stench of synthetic solvents near the chemical plant at §f[-1510, 133, -753]",
+    "length": "medium",
+    "lengthInfo": "1m",
+    "difficulty": "hard",
+    "requirements": 120,
+    "rewards": [
+      "7500000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1510,
+      "y": 133,
+      "z": -753
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Aelumia Metalmill",
+    "specialInfo": "",
+    "description": "§7Pipes, gears, springs, bearings, all kinds of metalwork is sculpted in the mill at §f[-1500, 131, -808]",
+    "length": "medium",
+    "lengthInfo": "1m",
+    "difficulty": "hard",
+    "requirements": 119,
+    "rewards": [
+      "7500000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1500,
+      "y": 131,
+      "z": -808
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Aelumia Weaveworks",
+    "specialInfo": "",
+    "description": "§7Thread is spun through colossal looms into cloth and textile within the fabric mill at §f[-1523, 132, -737]",
+    "length": "medium",
+    "lengthInfo": "1m",
+    "difficulty": "hard",
+    "requirements": 119,
+    "rewards": [
+      "7500000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1523,
+      "y": 132,
+      "z": -737
+    }
+  },
+  {
+    "type": "cave",
     "name": "Ancestor Grotto",
     "specialInfo": "",
     "description": "§7A tiny cave of corrupted Old Timers at §f[-628, 49, -1953]",
@@ -29,13 +105,33 @@
     "requirements": 2,
     "rewards": [
       "60 XP",
-      "1 §dUnidentified Leggings",
+      "1 §f󐀂§dUnidentified Leggings",
       "Various Items"
     ],
     "location": {
       "x": -628,
       "y": 49,
       "z": -1953
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Ancient Arthropods",
+    "specialInfo": "",
+    "description": "§7Something has broken free from the amber within the cave at §f[-2058, 25, -1479]",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "hard",
+    "requirements": 104,
+    "rewards": [
+      "1795000 XP",
+      "1 §f󐀂§dAmberwalkers",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2058,
+      "y": 25,
+      "z": -1479
     }
   },
   {
@@ -78,8 +174,28 @@
   },
   {
     "type": "cave",
+    "name": "Auburn Lumbermill",
+    "specialInfo": "",
+    "description": "§7The cogs within the lumbermill at §f[-1836, 11, -1035]§7 continue to grind away the local woodland",
+    "length": "long",
+    "lengthInfo": "2m30s",
+    "difficulty": "hard",
+    "requirements": 107,
+    "rewards": [
+      "1800000 XP",
+      "1 §f󐀂§dBuzzsaw Bracer",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1836,
+      "y": 11,
+      "z": -1035
+    }
+  },
+  {
+    "type": "cave",
     "name": "Avos Animation Totem",
-    "specialInfo": "§eBoss Cave",
+    "specialInfo": "§aBoss Cave",
     "description": "§7Beware what lives at §f[-1759, 38, -2450]",
     "length": "long",
     "lengthInfo": "3m",
@@ -125,7 +241,7 @@
     "requirements": 94,
     "rewards": [
       "550000 XP",
-      "1 §bUnidentified Radiation",
+      "1 §f󐀂§bRadiation",
       "Various Items"
     ],
     "location": {
@@ -270,7 +386,7 @@
   {
     "type": "cave",
     "name": "Bovine Bedrock",
-    "specialInfo": "§eTower",
+    "specialInfo": "§aTower",
     "description": "§7Bedrock has shot out the ground, and some strange bovine creatures have made it home at §f[-608, 49, -4904]",
     "length": "medium",
     "lengthInfo": "1m45s",
@@ -308,7 +424,7 @@
   {
     "type": "cave",
     "name": "Broodmother's Bestiary",
-    "specialInfo": "§eTower",
+    "specialInfo": "§aTower",
     "description": "§7Harpies have taken to the mountaintops with a path beginning near §f[645, 92, -5328]",
     "length": "long",
     "lengthInfo": "1m50s",
@@ -346,7 +462,7 @@
   {
     "type": "cave",
     "name": "Burning Bog",
-    "specialInfo": "§eCave Complex",
+    "specialInfo": "§aCave Complex",
     "description": "§7Kandrekk warlocks have claimed a bog hidden behind ancient Gylia Ruins at §f[-411, 38, -5205]§7, and seek to watch the world burn",
     "length": "long",
     "lengthInfo": "2m30s",
@@ -479,15 +595,15 @@
   {
     "type": "cave",
     "name": "Cave of the Seasons",
-    "specialInfo": "§eCave Complex",
-    "description": "§7Light and the seasons have taken physical form under a strange tree growing out of §f[-864, 52, -6131] §bBlossom",
+    "specialInfo": "§aCave Complex",
+    "description": "§7Light and the seasons have taken physical form under a strange tree growing out of §f[-864, 52, -6131]",
     "length": "long",
     "lengthInfo": "5m",
     "difficulty": "hard",
     "requirements": 82,
     "rewards": [
       "500000 XP",
-      "1 §bUnidentified Equinox",
+      "1 §f󐀂§bEquinox Blossom",
       "Various Items"
     ],
     "location": {
@@ -513,6 +629,44 @@
       "x": 622,
       "y": 32,
       "z": -4695
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Citadel Catacombs",
+    "specialInfo": "",
+    "description": "§7Enter a forgotten watery realm at §f[-1505, 80, -733]§7.",
+    "length": "long",
+    "lengthInfo": "3m",
+    "difficulty": "medium",
+    "requirements": 115,
+    "rewards": [
+      "5123000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1505,
+      "y": 80,
+      "z": -733
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Colossi Infection",
+    "specialInfo": "",
+    "description": "§7The roots of the Colossi structures snakes through the valley like veins and arteries, and are sometimes exposed, like at §f[323, 69, -4633]",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 88,
+    "rewards": [
+      "320000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 323,
+      "y": 69,
+      "z": -4633
     }
   },
   {
@@ -565,7 +719,7 @@
     "rewards": [
       "340 XP",
       "64 Emeralds",
-      "1 §bUnidentified Helmet",
+      "1 §f󐀂§bUnidentified Helmet",
       "Various Items"
     ],
     "location": {
@@ -636,14 +790,14 @@
     "type": "cave",
     "name": "Crypt Excavation",
     "specialInfo": "",
-    "description": "§7Miners on an excavation have been corrupted! Find loot left behind around §f[-32, 70, -1432] §eBracelet",
+    "description": "§7Miners on an excavation have been corrupted! Find loot left behind around §f[-32, 70, -1432]",
     "length": "medium",
     "lengthInfo": "1m20s",
     "difficulty": "medium",
     "requirements": 6,
     "rewards": [
       "180 XP",
-      "1 §eUnidentified Rusted",
+      "1 §f󐀂§eRusted Bracelet",
       "Various Items"
     ],
     "location": {
@@ -788,7 +942,7 @@
   },
   {
     "type": "cave",
-    "name": "Deserter's Refuge",
+    "name": "Deserter's Camp",
     "specialInfo": "",
     "description": "§7A group of Gavellian army deserters are hiding in a cave underneath the path around §f[499, 80, -5299]",
     "length": "medium",
@@ -809,14 +963,14 @@
     "type": "cave",
     "name": "Detlas Salt Mine",
     "specialInfo": "",
-    "description": "§7The Detlas salt mine has been overrun with the corrupt at §f[21, 64, -1767] §eCleats",
+    "description": "§7The Detlas salt mine has been overrun with the corrupt at §f[21, 64, -1767]",
     "length": "medium",
     "lengthInfo": "1m20s",
     "difficulty": "medium",
     "requirements": 10,
     "rewards": [
       "300 XP",
-      "1 §eUnidentified Spiked",
+      "1 §f󐀂§eSpiked Cleats",
       "Various Items"
     ],
     "location": {
@@ -941,6 +1095,26 @@
   },
   {
     "type": "cave",
+    "name": "Electrifying Outpost",
+    "specialInfo": "",
+    "description": "§7A small watchtower sits at §f[-1916,25,-1198]§7. It is run by only a handful of soldiers, and could be easy to loot...",
+    "length": "medium",
+    "lengthInfo": "1m",
+    "difficulty": "medium",
+    "requirements": 104,
+    "rewards": [
+      "1975000 XP",
+      "1 §f󐀂§dStormleader",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1916,
+      "y": 25,
+      "z": -1198
+    }
+  },
+  {
+    "type": "cave",
     "name": "Elemental Hollow",
     "specialInfo": "",
     "description": "§7Chaotic conglomerations of elemental energies appear and threaten Gelibord at §f[-1110, 48, -5290]",
@@ -979,6 +1153,46 @@
   },
   {
     "type": "cave",
+    "name": "Entozoon Takeover",
+    "specialInfo": "",
+    "description": "§7Giant parasites consume the remnants of a fallen redwood at §f[-1186, 49, -640]§7.",
+    "length": "long",
+    "lengthInfo": "4m",
+    "difficulty": "hard",
+    "requirements": 114,
+    "rewards": [
+      "4657000 XP",
+      "1 §f󐀂§bEntozoon Maw",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1186,
+      "y": 49,
+      "z": -640
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Estalis Gallery",
+    "specialInfo": "",
+    "description": "§7The members of House Estalis rarely leave their manor as of late, find out why at §f[-1323, 82, -912]§7.",
+    "length": "long",
+    "lengthInfo": "5m",
+    "difficulty": "hard",
+    "requirements": 117,
+    "rewards": [
+      "6475000 XP",
+      "1 §f󐀂§dMarble Core",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1323,
+      "y": 82,
+      "z": -912
+    }
+  },
+  {
+    "type": "cave",
     "name": "Eyeball Gauntlet",
     "specialInfo": "",
     "description": "§7Nothing remains unseen within §f[1088, 138, -345]§7. All is lain bare",
@@ -988,6 +1202,7 @@
     "requirements": 100,
     "rewards": [
       "2000000 XP",
+      "1 §f󐀂§bMyopia",
       "Various Items"
     ],
     "location": {
@@ -1045,8 +1260,8 @@
     "requirements": 7,
     "rewards": [
       "150 XP",
-      "1 ❉ Water Powder I",
-      "1 ✹ Fire Powder I",
+      "1 §b Water Powder I",
+      "1 §c Fire Powder I",
       "Various Items"
     ],
     "location": {
@@ -1059,14 +1274,14 @@
     "type": "cave",
     "name": "Fire Swamp",
     "specialInfo": "",
-    "description": "§7A swampy cliffside cave has been seen alight at §f[-2098, 60, -5117] §dAtypical Expanse",
+    "description": "§7A swampy cliffside cave has been seen alight at §f[-2098, 60, -5117]",
     "length": "long",
     "lengthInfo": "2m20s",
     "difficulty": "hard",
     "requirements": 57,
     "rewards": [
       "30000 XP",
-      "1 §dUnidentified Claws of",
+      "1 §f󐀂§dClaws of Atypical Expanse",
       "3 Az Runes",
       "Various Items"
     ],
@@ -1098,7 +1313,7 @@
   {
     "type": "cave",
     "name": "Forgotten Excavation",
-    "specialInfo": "§eBoss Cave",
+    "specialInfo": "§aBoss Cave",
     "description": "§7A lost Golem stands guard over the spoils of an excavation at §f[987, 68, -4977]",
     "length": "medium",
     "lengthInfo": "1m",
@@ -1135,16 +1350,36 @@
   },
   {
     "type": "cave",
+    "name": "Freight Interchange",
+    "specialInfo": "",
+    "description": "§7A riot of steam, shouts and shunting sounds blasts from the vent at §f[-1651, 30, -515]§7.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "hard",
+    "requirements": 112,
+    "rewards": [
+      "3881000 XP",
+      "1 §f󐀂§dFreight Trainer",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1651,
+      "y": 30,
+      "z": -515
+    }
+  },
+  {
+    "type": "cave",
     "name": "Fungas Log",
     "specialInfo": "",
-    "description": "§7An old dead tree stump is overran with evolved fungi at §f[-147, 78, -1682]",
+    "description": "§7An old dead tree stump is overrun with evolved fungi at §f[-147, 78, -1682]",
     "length": "short",
     "lengthInfo": "40s",
     "difficulty": "easy",
     "requirements": 5,
     "rewards": [
       "110 XP",
-      "1 §aUnidentified Leaf Boots",
+      "1 §f󐀂§dLeaf Boots",
       "Various Items"
     ],
     "location": {
@@ -1175,21 +1410,41 @@
   {
     "type": "cave",
     "name": "Geodesic",
-    "specialInfo": "§eCave Complex",
-    "description": "§7Fall into a great cavern at §f[-1369, 122, -3060]§7 and behold the crystalline formations therein. §dFluxplate",
+    "specialInfo": "§aCave Complex",
+    "description": "§7Fall into a great cavern at §f[-1369, 122, -3060]§7 and behold the crystalline formations therein.",
     "length": "long",
     "lengthInfo": "5m",
     "difficulty": "hard",
     "requirements": 90,
     "rewards": [
       "400000 XP",
-      "1 §dUnidentified Geode",
+      "1 §f󐀂§dGeode Fluxplate",
       "Various Items"
     ],
     "location": {
       "x": -1369,
       "y": 122,
       "z": -3060
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Glacier Tunnels",
+    "specialInfo": "",
+    "description": "§7Moles and worms have dug out icy tunnels hiding valuables within at §f[-1020, 125, -1335]§7.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "medium",
+    "requirements": 119,
+    "rewards": [
+      "6855000 XP",
+      "1 §f󐀂§bEmbrittlement",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1020,
+      "y": 125,
+      "z": -1335
     }
   },
   {
@@ -1234,7 +1489,7 @@
     "type": "cave",
     "name": "Guardians Cove",
     "specialInfo": "",
-    "description": "§7Those who wish nature harm beware of it's guardians that reside at §f[129, 46, -5565]",
+    "description": "§7Those who wish nature harm, beware of its guardians that reside at §f[129, 46, -5565]",
     "length": "medium",
     "lengthInfo": "1m",
     "difficulty": "easy",
@@ -1252,7 +1507,7 @@
   {
     "type": "cave",
     "name": "Half Moon Island",
-    "specialInfo": "§eIsland",
+    "specialInfo": "§aIsland",
     "description": "§7Explore the strange Half Moon Island and find all its treasure and danger at §f[1085, 38, -2566]",
     "length": "long",
     "lengthInfo": "5m",
@@ -1260,8 +1515,8 @@
     "requirements": 37,
     "rewards": [
       "16000 XP",
-      "1 Lunar Charm [✫✫✫]",
-      "1 §bUnidentified New Moon",
+      "1 §#20aa20ffLunar Charm",
+      "1 §f󐀂§bNew Moon",
       "Various Items"
     ],
     "location": {
@@ -1312,7 +1567,7 @@
     "type": "cave",
     "name": "Hex Keep Gateway",
     "specialInfo": "§aCave Complex",
-    "description": "§7The entrance to a great subterranean keep; many more dangers await deeper in the keep §f[288, 69, -1639] §bAnchor",
+    "description": "§7The entrance to a great subterranean keep; many more dangers await deeper in the keep §f[288, 69, -1639]",
     "length": "medium",
     "lengthInfo": "1m30s",
     "difficulty": "hard",
@@ -1320,7 +1575,7 @@
     "rewards": [
       "1500 XP",
       "192 Emeralds",
-      "1 §bUnidentified Hex-Master",
+      "1 §f󐀂§bHex-Master Anchor",
       "Various Items"
     ],
     "location": {
@@ -1475,6 +1730,7 @@
     "requirements": 90,
     "rewards": [
       "400000 XP",
+      "1 §f󐀂§dClockwork Manifold",
       "Various Items"
     ],
     "location": {
@@ -1500,6 +1756,25 @@
       "x": -406,
       "y": 48,
       "z": -5444
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Krisa Manor",
+    "specialInfo": "",
+    "description": "§7The members of House Krisa dedicate their lives to scholarly study. Discover their secrets at §f[-1366, 108, -1019]§7.",
+    "length": "long",
+    "lengthInfo": "5m",
+    "difficulty": "hard",
+    "requirements": 118,
+    "rewards": [
+      "6650000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1366,
+      "y": 108,
+      "z": -1019
     }
   },
   {
@@ -1561,6 +1836,25 @@
   },
   {
     "type": "cave",
+    "name": "Liftal Castle",
+    "specialInfo": "",
+    "description": "§7The members of House Liftal train fiercely to qualify for the Wings military division. Challenge this brutish family at §f[-1443, 108, -1037]§7.",
+    "length": "long",
+    "lengthInfo": "6m",
+    "difficulty": "hard",
+    "requirements": 119,
+    "rewards": [
+      "7950000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1443,
+      "y": 108,
+      "z": -1037
+    }
+  },
+  {
+    "type": "cave",
     "name": "Lily Pad Parkour",
     "specialInfo": "",
     "description": "§7Jump through a cave full of giant lily pads at §f[-1834, 58, -5172]",
@@ -1570,7 +1864,7 @@
     "requirements": 55,
     "rewards": [
       "22000 XP",
-      "1 §dUnidentified Water Lily",
+      "1 §f󐀂§dWater Lily",
       "2 Az Runes",
       "Various Items"
     ],
@@ -1629,7 +1923,7 @@
     "requirements": 20,
     "rewards": [
       "700 XP",
-      "1 §dUnidentified Coeur Brise",
+      "1 §f󐀂§dCoeur Brise",
       "Various Items"
     ],
     "location": {
@@ -1699,7 +1993,7 @@
   {
     "type": "cave",
     "name": "Mesquis Tower",
-    "specialInfo": "§eTower",
+    "specialInfo": "§aTower",
     "description": "§7Great danger lies atop this tower at §f[-785, 59, -5036]",
     "length": "medium",
     "lengthInfo": "1m30s",
@@ -1719,14 +2013,14 @@
     "type": "cave",
     "name": "Mossy Grotto",
     "specialInfo": "",
-    "description": "§7An elegant little Grotto full of life and danger at §f[-449, 68, -1394] §eBoots",
+    "description": "§7An elegant little Grotto full of life and danger at §f[-449, 68, -1394]",
     "length": "medium",
     "lengthInfo": "1m",
     "difficulty": "easy",
     "requirements": 16,
     "rewards": [
       "400 XP",
-      "1 §eUnidentified Aerolia",
+      "1 §f󐀂§eAerolia Boots",
       "Various Items"
     ],
     "location": {
@@ -1776,7 +2070,7 @@
   {
     "type": "cave",
     "name": "Mystifying Stump",
-    "specialInfo": "§eCave Complex",
+    "specialInfo": "§aCave Complex",
     "description": "§7Find your way though the stump at §f[-754, 54, -5299]",
     "length": "long",
     "lengthInfo": "3m",
@@ -1795,7 +2089,7 @@
   {
     "type": "cave",
     "name": "Naga Dugout",
-    "specialInfo": "§eBoss Cave",
+    "specialInfo": "§aBoss Cave",
     "description": "§7A sneaky Naga Commander has made camp in a dugout at §f[-2025, 60, -5081]",
     "length": "long",
     "lengthInfo": "2m",
@@ -1803,7 +2097,7 @@
     "requirements": 58,
     "rewards": [
       "30000 XP",
-      "1 §dUnidentified Serpentine",
+      "1 §f󐀂§dSerpentine",
       "2 Az Runes",
       "Various Items"
     ],
@@ -1834,8 +2128,47 @@
   },
   {
     "type": "cave",
+    "name": "Nesting Place",
+    "specialInfo": "",
+    "description": "§7A Giant Redwood has brought many predatory eagles to nest at §f[-1542, 55, -551]§7.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "medium",
+    "requirements": 113,
+    "rewards": [
+      "4234000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1542,
+      "y": 55,
+      "z": -551
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Northern Outpost",
+    "specialInfo": "",
+    "description": "§7At the coldest point in Fruma, three Highlands captains head an outpost. Find their treasures at §f[-1112, 87, -1407]§7.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "hard",
+    "requirements": 120,
+    "rewards": [
+      "1500000 XP",
+      "1 §f󐀂§dStudhorn",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1112,
+      "y": 87,
+      "z": -1407
+    }
+  },
+  {
+    "type": "cave",
     "name": "Nymph Towers",
-    "specialInfo": "§eRock Towers",
+    "specialInfo": "§aRock Towers",
     "description": "§7Climb the earthen towers and find what treasure the nymphs have at §f[-1052, 47, -4768]",
     "length": "medium",
     "lengthInfo": "1m45s",
@@ -1862,8 +2195,8 @@
     "requirements": 7,
     "rewards": [
       "200 XP",
-      "1 §aUnidentified Leaf Cap",
-      "1 §aUnidentified Leaf Tunic",
+      "1 §f󐀂§dLeaf Cap",
+      "1 §f󐀂§dLeaf Tunic",
       "Various Items"
     ],
     "location": {
@@ -1894,7 +2227,7 @@
   {
     "type": "cave",
     "name": "Ovine Spire",
-    "specialInfo": "§eTower",
+    "specialInfo": "§aTower",
     "description": "§7A cabal of fluffy jumbucks have established a Guard Tower at §f[778, 82, -4721]",
     "length": "long",
     "lengthInfo": "2m30s",
@@ -1902,6 +2235,7 @@
     "requirements": 96,
     "rewards": [
       "700000 XP",
+      "1 §f󐀂§dAlpenglow",
       "Various Items"
     ],
     "location": {
@@ -1922,7 +2256,7 @@
     "rewards": [
       "40 XP",
       "13 Emeralds",
-      "1 §eUnidentified Blank",
+      "1 §f󐀂§eBlank",
       "Various Items"
     ],
     "location": {
@@ -1972,8 +2306,8 @@
   {
     "type": "cave",
     "name": "Pirate Sloop",
-    "specialInfo": "§eDock",
-    "description": "§7Find the pirates dock to their hideout at §f[-1341, 39, -2229]",
+    "specialInfo": "§aDock",
+    "description": "§7Find the pirates' dock to their hideout at §f[-1341, 39, -2229]",
     "length": "medium",
     "lengthInfo": "1m",
     "difficulty": "medium",
@@ -2048,7 +2382,7 @@
   {
     "type": "cave",
     "name": "Raging Tower",
-    "specialInfo": "§eTower",
+    "specialInfo": "§aTower",
     "description": "§7An old tower overtaken by fiery corrupt with a powerful being looming overtop at §f[144, 71, -1680]",
     "length": "medium",
     "lengthInfo": "1m10s",
@@ -2056,7 +2390,7 @@
     "requirements": 10,
     "rewards": [
       "210 XP",
-      "1 §eUnidentified Warmth",
+      "1 §eWarmth",
       "Various Items"
     ],
     "location": {
@@ -2069,14 +2403,14 @@
     "type": "cave",
     "name": "Raiders' Hideout",
     "specialInfo": "",
-    "description": "§7The last hideout of some lost Raiders taken by corruption long ago §f[-252, 35, -291] §bTwilight",
+    "description": "§7The last hideout of some lost Raiders taken by corruption long ago §f[-252, 35, -291]",
     "length": "long",
     "lengthInfo": "2m",
     "difficulty": "hard",
     "requirements": 44,
     "rewards": [
       "10000 XP",
-      "1 §bUnidentified Lingering",
+      "1 §f󐀂§bLingering Twilight",
       "Various Items"
     ],
     "location": {
@@ -2172,7 +2506,7 @@
     "requirements": 7,
     "rewards": [
       "200 XP",
-      "1 §aUnidentified Leaf Pants",
+      "1 §f󐀂§dLeaf Pants",
       "Various Items"
     ],
     "location": {
@@ -2202,21 +2536,23 @@
   },
   {
     "type": "cave",
-    "name": "Runaway Fleris Cranny",
+    "name": "Saltpetre Mine",
     "specialInfo": "",
-    "description": "§7Escaped Flerisi have heated everything in this cave into a frenetic boil at §f[323, 69, -4633]",
-    "length": "medium",
-    "lengthInfo": "1m30s",
+    "description": "§7More than just miners and pyrotechnics lurk within the old saltpetre mine below the Highlands at §f[-1288, 86, -1319]§7.",
+    "length": "long",
+    "lengthInfo": "2m",
     "difficulty": "medium",
-    "requirements": 88,
+    "requirements": 117,
     "rewards": [
-      "320000 XP",
+      "1100000 XP",
+      "1 §f󐀂§bArachnid Effigy",
+      "5 §#20aa20ffSaltpetres",
       "Various Items"
     ],
     "location": {
-      "x": 323,
-      "y": 69,
-      "z": -4633
+      "x": -1288,
+      "y": 86,
+      "z": -1319
     }
   },
   {
@@ -2299,14 +2635,14 @@
     "type": "cave",
     "name": "Sewer Herps",
     "specialInfo": "",
-    "description": "§7A collection of dangerous reptiles and monsters can be found in an ancient sewer around §f[-1983, 66, -5234] §dSlugger",
+    "description": "§7A collection of dangerous reptiles and monsters can be found in an ancient sewer around §f[-1983, 66, -5234]",
     "length": "long",
     "lengthInfo": "2m",
     "difficulty": "hard",
     "requirements": 57,
     "rewards": [
       "30000 XP",
-      "1 §dUnidentified Sewer",
+      "1 §f󐀂§dSewer Slugger",
       "3 Az Runes",
       "Various Items"
     ],
@@ -2319,7 +2655,7 @@
   {
     "type": "cave",
     "name": "Shadow Altar",
-    "specialInfo": "§eBoss Cave",
+    "specialInfo": "§aBoss Cave",
     "description": "§7Fill the altar and fight what lives inside at §f[1271, 65, -5427]",
     "length": "medium",
     "lengthInfo": "1m40s",
@@ -2357,7 +2693,7 @@
   {
     "type": "cave",
     "name": "Shineridge Orc Camp",
-    "specialInfo": "§eCamp",
+    "specialInfo": "§aCamp",
     "description": "§7The Orcish traders and jewelers gather riches at Shineridge, enough to make Llevigar traders jealous §f[-1621, 50, -4664]",
     "length": "long",
     "lengthInfo": "3m",
@@ -2414,6 +2750,25 @@
   },
   {
     "type": "cave",
+    "name": "Siltswimmer Den",
+    "specialInfo": "",
+    "description": "§7Scaly tails leave sinister wakes through the stagnant water within the cave at §f[-2212, 31, -1381]",
+    "length": "short",
+    "lengthInfo": "30s",
+    "difficulty": "medium",
+    "requirements": 105,
+    "rewards": [
+      "1795000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2212,
+      "y": 31,
+      "z": -1381
+    }
+  },
+  {
+    "type": "cave",
     "name": "Sink Hole",
     "specialInfo": "",
     "description": "§7Some eerie houses have sunken into the mud at §f[-1512, 51, -5243]",
@@ -2423,7 +2778,7 @@
     "requirements": 55,
     "rewards": [
       "30000 XP",
-      "1 §dUnidentified Coal Cadaver",
+      "1 §f󐀂§dCoal Cadaver",
       "2 Az Runes",
       "Various Items"
     ],
@@ -2455,7 +2810,7 @@
   {
     "type": "cave",
     "name": "Sky Shroom",
-    "specialInfo": "§eBoss Cave",
+    "specialInfo": "§aBoss Cave",
     "description": "§7A strange shroom grows up around §f[1199, 109, -4289]",
     "length": "medium",
     "lengthInfo": "1m30s",
@@ -2539,7 +2894,7 @@
     "requirements": 12,
     "rewards": [
       "300 XP",
-      "1 §aUnidentified Spore Cap",
+      "1 §f󐀂§dSpore Cap",
       "Various Items"
     ],
     "location": {
@@ -2578,6 +2933,7 @@
     "requirements": 95,
     "rewards": [
       "800000 XP",
+      "1 §f󐀂§dHydrothermal",
       "Various Items"
     ],
     "location": {
@@ -2627,15 +2983,15 @@
   {
     "type": "cave",
     "name": "Sundial Sanctum",
-    "specialInfo": "§eCave Complex",
-    "description": "§7Enter The Sanctum at §f[1062, 74, -1726]§7 if you dare §bSailers",
+    "specialInfo": "§aCave Complex",
+    "description": "§7Enter The Sanctum at §f[1062, 74, -1726]§7 if you dare",
     "length": "long",
     "lengthInfo": "15m",
     "difficulty": "hard",
     "requirements": 35,
     "rewards": [
       "10000 XP",
-      "1 §bUnidentified Solar",
+      "1 §f󐀂§bSolar Sailers",
       "Various Items"
     ],
     "location": {
@@ -2704,8 +3060,27 @@
   },
   {
     "type": "cave",
+    "name": "Tericen Stables",
+    "specialInfo": "",
+    "description": "§7Connected to Fort Tericen, the stables provide mounts to the Fruman military. Stop their operation at §f[-1159, 70, -1014]§7.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "hard",
+    "requirements": 116,
+    "rewards": [
+      "1000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1159,
+      "y": 70,
+      "z": -1014
+    }
+  },
+  {
+    "type": "cave",
     "name": "Termite Mounds",
-    "specialInfo": "§eCave Complex",
+    "specialInfo": "§aCave Complex",
     "description": "§7Termite Mounds across the Savannah! Find one of the entrances to their maze of tunnels and treasures at §f[727, 77, -1707]",
     "length": "long",
     "lengthInfo": "3m",
@@ -2742,6 +3117,25 @@
   },
   {
     "type": "cave",
+    "name": "The Barracks",
+    "specialInfo": "",
+    "description": "§7Walk accross the tall bridges and find the knights within the Barracks at §f[-1641, 151, -964]",
+    "length": "long",
+    "lengthInfo": "4m",
+    "difficulty": "hard",
+    "requirements": 119,
+    "rewards": [
+      "8000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1641,
+      "y": 151,
+      "z": -964
+    }
+  },
+  {
+    "type": "cave",
     "name": "The Donjon",
     "specialInfo": "",
     "description": "§7The Donjon has been cursed by a malicious totem, transforming its denizens at §f[900, 98, -4408]§7. It has been locked tight",
@@ -2757,6 +3151,25 @@
       "x": 900,
       "y": 98,
       "z": -4408
+    }
+  },
+  {
+    "type": "cave",
+    "name": "The Flush",
+    "specialInfo": "",
+    "description": "§7Strange voices can be heard coming from the drains in Timasca. The sewer entrance at §f[-1754, 20, -490]§7 may be worth investigating.",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 110,
+    "rewards": [
+      "3181000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1754,
+      "y": 20,
+      "z": -490
     }
   },
   {
@@ -2876,7 +3289,7 @@
   {
     "type": "cave",
     "name": "The Sacrificial Altar",
-    "specialInfo": "§eBoss Cave",
+    "specialInfo": "§aBoss Cave",
     "description": "§7Dark Cultists have gathered around an Altar in a cliffside cave around §f[-298, 39, -969]",
     "length": "medium",
     "lengthInfo": "1m30s",
@@ -2895,7 +3308,7 @@
   {
     "type": "cave",
     "name": "The Warehouse",
-    "specialInfo": "§eCave Complex",
+    "specialInfo": "§aCave Complex",
     "description": "§7Bots manage a complex warehouse deep in the ground at §f[-1847, 42, -2641]",
     "length": "long",
     "lengthInfo": "3m",
@@ -2909,6 +3322,26 @@
       "x": -1847,
       "y": 42,
       "z": -2641
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Theatre Royal",
+    "specialInfo": "",
+    "description": "§7The dazzling Showman captivates crowds and influences opinions in the theatre at §f[-1763, 136, -798]",
+    "length": "medium",
+    "lengthInfo": "1m",
+    "difficulty": "hard",
+    "requirements": 119,
+    "rewards": [
+      "7500000 XP",
+      "1 §f󐀂§bTheatre Cane",
+      "Various Items"
+    ],
+    "location": {
+      "x": -1763,
+      "y": 136,
+      "z": -798
     }
   },
   {
@@ -2941,7 +3374,7 @@
     "requirements": 4,
     "rewards": [
       "125 XP",
-      "1 §eUnidentified Shark Tooth",
+      "1 §f󐀂§eShark Tooth",
       "Various Items"
     ],
     "location": {
@@ -3144,7 +3577,7 @@
   {
     "type": "cave",
     "name": "Vortex Complex",
-    "specialInfo": "§eCave Complex",
+    "specialInfo": "§aCave Complex",
     "description": "§7Enter this deep and confusing complex and find what treasure lies within §f[-182, 73, -1210]",
     "length": "long",
     "lengthInfo": "3m",
@@ -3158,6 +3591,25 @@
       "x": -182,
       "y": 73,
       "z": -1210
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Water Tower",
+    "specialInfo": "",
+    "description": "§7The government advises citizens to stay away from the Water Tower at §f[-2121, 61, -802]§7, but since when have you been following their rules?",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "medium",
+    "requirements": 109,
+    "rewards": [
+      "3000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2121,
+      "y": 61,
+      "z": -802
     }
   },
   {
@@ -3200,6 +3652,26 @@
   },
   {
     "type": "cave",
+    "name": "Weapons Factory",
+    "specialInfo": "",
+    "description": "§7The weapons factory at §f[-2187, 36, -751]§7 is heavily guarded... Perhaps it contains valuable loot.",
+    "length": "long",
+    "lengthInfo": "2m",
+    "difficulty": "hard",
+    "requirements": 111,
+    "rewards": [
+      "3500000 XP",
+      "1 §f󐀂§bTitanium Rifle",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2187,
+      "y": 36,
+      "z": -751
+    }
+  },
+  {
+    "type": "cave",
     "name": "Weird Wilds",
     "specialInfo": "",
     "description": "§7As fate ordained, particularly strong Weirds have conglomerated at §f[-967, 66, -4353]§7 for purposes incomprehensible.",
@@ -3220,7 +3692,7 @@
   {
     "type": "cave",
     "name": "Weirding Ring",
-    "specialInfo": "§eTower",
+    "specialInfo": "§aTower",
     "description": "§7Instead of fae spirits, Weirds have congealed in a ring of giant climbable mushrooms at §f[-498, 42, -5293]",
     "length": "long",
     "lengthInfo": "2m",
@@ -3228,6 +3700,7 @@
     "requirements": 75,
     "rewards": [
       "140000 XP",
+      "1 §f󐀂§dParacausal",
       "Various Items"
     ],
     "location": {
@@ -3285,7 +3758,7 @@
     "requirements": 11,
     "rewards": [
       "340 XP",
-      "1 ✤ Earth Powder II",
+      "1 §2 Earth Powder II",
       "Various Items"
     ],
     "location": {

@@ -8,6 +8,13 @@
       "z": -1251
     },
     {
+      "layer": 3,
+      "level": "118",
+      "name": "Aelumia Citadel",
+      "x": -1640,
+      "z": -774
+    },
+    {
       "layer": 2,
       "level": "100",
       "name": "Ahmsord",
@@ -23,6 +30,20 @@
     },
     {
       "layer": 2,
+      "level": "113",
+      "name": "Aldwell",
+      "x": -1258,
+      "z": -701
+    },
+    {
+      "layer": 2,
+      "level": "5",
+      "name": "Alekin Village",
+      "x": -150,
+      "z": -1630
+    },
+    {
+      "layer": 2,
       "level": "30",
       "name": "Almuj",
       "x": 970,
@@ -34,6 +55,13 @@
       "name": "Ancient Nemract",
       "x": 206,
       "z": -1884
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Auburn Forest",
+      "x": -1972,
+      "z": -1276
     },
     {
       "layer": 3,
@@ -62,6 +90,13 @@
       "name": "Bremminglar",
       "x": 705,
       "z": -2096
+    },
+    {
+      "layer": 3,
+      "level": "15",
+      "name": "Bremynn-Hierra",
+      "x": 614,
+      "z": -2595
     },
     {
       "layer": 3,
@@ -217,11 +252,46 @@
       "z": -1611
     },
     {
+      "layer": 2,
+      "level": "104",
+      "name": "Espren",
+      "x": -2029,
+      "z": -988
+    },
+    {
       "layer": 3,
       "level": "40",
       "name": "Fallen Meteor",
       "x": -2199,
       "z": -4844
+    },
+    {
+      "layer": 3,
+      "level": "115",
+      "name": "Fort Hegea",
+      "x": -1080,
+      "z": -733
+    },
+    {
+      "layer": 3,
+      "level": "117",
+      "name": "Fort Tericen",
+      "x": -1211,
+      "z": -1106
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Fort Torann",
+      "x": -1917,
+      "z": -1638
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Frog Bog",
+      "x": -2166,
+      "z": -1400
     },
     {
       "layer": 2,
@@ -259,10 +329,24 @@
     },
     {
       "layer": 3,
+      "level": "116",
+      "name": "Highlands",
+      "x": -1132,
+      "z": -1255
+    },
+    {
+      "layer": 3,
       "level": "45",
       "name": "House of Twain",
       "x": 122,
       "z": -369
+    },
+    {
+      "layer": 2,
+      "level": "116",
+      "name": "Hyloch",
+      "x": -1312,
+      "z": -1320
     },
     {
       "layer": 3,
@@ -280,6 +364,13 @@
     },
     {
       "layer": 3,
+      "level": "109",
+      "name": "Industrial District",
+      "x": -2092,
+      "z": -742
+    },
+    {
+      "layer": 3,
       "level": "30",
       "name": "Invaded Barracks",
       "x": 1380,
@@ -287,10 +378,10 @@
     },
     {
       "layer": 3,
-      "level": "35",
-      "name": "Isles of Fiction",
-      "x": -275,
-      "z": -4038
+      "level": "25",
+      "name": "Isle of Fiction",
+      "x": -278,
+      "z": -4036
     },
     {
       "layer": 3,
@@ -411,10 +502,24 @@
     },
     {
       "layer": 3,
+      "level": "118",
+      "name": "Market Square",
+      "x": -1554,
+      "z": -790
+    },
+    {
+      "layer": 3,
       "level": "60",
       "name": "Maro Peaks",
       "x": 173,
       "z": -3947
+    },
+    {
+      "layer": 3,
+      "level": "113",
+      "name": "Mistwoods",
+      "x": -1354,
+      "z": -662
     },
     {
       "layer": 3,
@@ -570,6 +675,13 @@
     },
     {
       "layer": 3,
+      "level": "104",
+      "name": "Royal Dam",
+      "x": -1677,
+      "z": -1192
+    },
+    {
+      "layer": 3,
       "level": "100",
       "name": "Ruined Olmic City",
       "x": 603,
@@ -602,13 +714,6 @@
       "name": "Selchar",
       "x": 92,
       "z": -3183
-    },
-    {
-      "layer": 3,
-      "level": "75",
-      "name": "Silverbull Company Headquarters",
-      "x": -119,
-      "z": -4795
     },
     {
       "layer": 3,
@@ -703,6 +808,12 @@
     },
     {
       "layer": 1,
+      "name": "The Province of Fruma",
+      "x": -1518,
+      "z": -1303
+    },
+    {
+      "layer": 1,
       "name": "The Province of Gavel",
       "x": -110,
       "z": -5049
@@ -739,6 +850,13 @@
       "name": "Thesead",
       "x": 770,
       "z": -5043
+    },
+    {
+      "layer": 2,
+      "level": "109",
+      "name": "Timasca",
+      "x": -1746,
+      "z": -563
     },
     {
       "layer": 3,
@@ -801,6 +919,20 @@
       "name": "Volcanic Isles",
       "x": -992,
       "z": -3672
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Wellspring of Eternity",
+      "x": -2134,
+      "z": -1660
+    },
+    {
+      "layer": 3,
+      "level": "104",
+      "name": "Xima Valley",
+      "x": -1736,
+      "z": -1578
     },
     {
       "layer": 3,
