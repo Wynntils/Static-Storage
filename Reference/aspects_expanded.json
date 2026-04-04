@@ -34,13 +34,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance.",
@@ -67,13 +62,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance.",
@@ -100,13 +90,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance.",
@@ -133,13 +118,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance.",
@@ -995,11 +975,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " grapes.",
+                "text": " neutral damage.",
                 "color": "#AAAAAA"
               }
             ]
@@ -1019,11 +999,31 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " grapes.",
+                "text": " neutral damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Grape Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " grape.",
                 "color": "#AAAAAA"
               }
             ]
@@ -1043,11 +1043,31 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "+45%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " grapes.",
+                "text": " neutral damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Grape Bomb",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " grape.",
                 "color": "#AAAAAA"
               }
             ]
@@ -1311,137 +1331,6 @@
         }
       }
     },
-    "Aspect of Illegal Explosives": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              208
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectArcher"
-        }
-      },
-      "name": "Aspect of Illegal Explosives",
-      "rarity": "legendary",
-      "requiredClass": "archer",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Implosion",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "10%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Implosion",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "15%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Implosion",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "20%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Implosion",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "25%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
-        }
-      }
-    },
     "Aspect of Undercrank": {
       "icon": {
         "format": "attribute",
@@ -1468,11 +1357,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s maximum walk speed is increased by ",
+                "text": " builds walk speed ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "+3%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster and its",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "maximum walk speed is increased by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
@@ -1492,11 +1395,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s maximum walk speed is increased by ",
+                "text": " builds walk speed ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30%",
+                "text": "+4%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster and its",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "maximum walk speed is increased by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+15%",
                 "color": "#FFFFFF"
               },
               {
@@ -1516,11 +1433,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s maximum walk speed is increased by ",
+                "text": " builds walk speed ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+40%",
+                "text": "+5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster and its",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "maximum walk speed is increased by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
                 "color": "#FFFFFF"
               },
               {
@@ -1530,6 +1461,137 @@
             ]
           ],
           "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Barley-Woven": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              208
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "name": "Aspect of the Barley-Woven",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+18%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+26%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+30%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
         }
       }
     },
@@ -1729,7 +1791,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+67%",
+                "text": "+25%",
                 "color": "#FFFFFF"
               }
             ],
@@ -1739,7 +1801,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+25%",
+                "text": "+50%",
                 "color": "#FFFFFF"
               },
               {
@@ -2412,7 +2474,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1s",
+                "text": "-1.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -2440,7 +2502,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1.5s",
+                "text": "-2s",
                 "color": "#FFFFFF"
               },
               {
@@ -2468,7 +2530,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-2s",
+                "text": "-2.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -2637,7 +2699,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "3x",
+                "text": "1.8x",
                 "color": "#FFFFFF"
               },
               {
@@ -2672,7 +2734,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "3x",
+                "text": "1.8x",
                 "color": "#FFFFFF"
               },
               {
@@ -2767,7 +2829,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "3x",
+                "text": "1.8x",
                 "color": "#FFFFFF"
               },
               {
@@ -2781,7 +2843,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
@@ -3259,11 +3321,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#55FFFF"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#55FFFF"
+                "color": "#FFFFFF"
               },
               {
                 "text": "requires ",
@@ -3325,11 +3387,11 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#55FFFF"
+                "color": "#FFFFFF"
               },
               {
                 "text": " ",
-                "color": "#55FFFF"
+                "color": "#FFFFFF"
               },
               {
                 "text": "requires ",
@@ -4581,7 +4643,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " prepares ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Dextrous Hands",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " prepare ",
                 "color": "#AAAAAA"
               },
               {
@@ -4589,7 +4660,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " shuriken per Dash.",
+                "text": " shurikens.",
                 "color": "#AAAAAA"
               }
             ],
@@ -4644,8 +4715,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -4676,8 +4746,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -4713,7 +4782,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " prepares ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Dextrous Hands",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " prepare ",
                 "color": "#AAAAAA"
               },
               {
@@ -4721,7 +4799,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " shurikens per Dash.",
+                "text": " shurikens.",
                 "color": "#AAAAAA"
               }
             ],
@@ -4780,8 +4858,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -4812,8 +4889,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -4849,7 +4925,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " prepares ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Dextrous Hands",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " prepare ",
                 "color": "#AAAAAA"
               },
               {
@@ -4857,7 +4942,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " shurikens per Dash.",
+                "text": " shurikens.",
                 "color": "#AAAAAA"
               }
             ],
@@ -4916,8 +5001,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -4948,8 +5032,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -5014,11 +5097,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
+                "text": "+20°",
                 "color": "#FFFFFF"
               },
               {
@@ -5048,11 +5127,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+35",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
+                "text": "+35°",
                 "color": "#FFFFFF"
               },
               {
@@ -5082,11 +5157,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+50",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "°",
+                "text": "+50°",
                 "color": "#FFFFFF"
               },
               {
@@ -7243,11 +7314,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "Mana Bank ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "✺",
+                "text": "Mana Bank ✺",
                 "color": "#55FFFF"
               },
               {
@@ -7357,344 +7424,6 @@
             [
               {
                 "text": "healing to activate.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 75
-        }
-      }
-    },
-    "Aspect of Fatal Fulguration": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              212
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectMage"
-        }
-      },
-      "name": "Aspect of Fatal Fulguration",
-      "rarity": "fabled",
-      "requiredClass": "mage",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Thunderstorm",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " strike.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Arcane Transfer",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " Mana from ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Meteor",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Thunderstorm",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+2",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " strikes.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Arcane Transfer",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " Mana from ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Meteor",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 15
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Thunderstorm",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+3",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " strikes.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Arcane Transfer",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " Mana from ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Meteor",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 75
-        }
-      }
-    },
-    "Aspect of Flickering Transmission": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              212
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectMage"
-        }
-      },
-      "name": "Aspect of Flickering Transmission",
-      "rarity": "fabled",
-      "requiredClass": "mage",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Blink",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " teleport,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and loses ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-3.5 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Range.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Blink",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+2",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " teleports,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and loses ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-5 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Range.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 15
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Blink",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+3",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " teleports,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and loses ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-6 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " ",
-                "color": "#00AA00"
-              },
-              {
-                "text": "Range.",
                 "color": "#AAAAAA"
               }
             ]
@@ -8214,24 +7943,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.65s",
+                "text": "+5%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
+                "text": " speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -8251,24 +7967,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.15s",
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
+                "text": " speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -8288,24 +7991,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.65s",
+                "text": "+15%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
+                "text": " speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -8325,24 +8015,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2s",
+                "text": "+20%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
+                "text": " speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -8886,7 +8563,18 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Astral Fragmentation",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -8963,7 +8651,18 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Astral Fragmentation",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -9040,7 +8739,18 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Astral Fragmentation",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -9117,7 +8827,18 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Astral Fragmentation",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "gain ",
                 "color": "#AAAAAA"
               },
               {
@@ -9233,6 +8954,35 @@
                 "text": " Range.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Displacement",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+5",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 1
@@ -9251,6 +9001,35 @@
               },
               {
                 "text": "+3.5",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Displacement",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8.5",
                 "color": "#FFFFFF"
               },
               {
@@ -9299,6 +9078,35 @@
                 "text": " Range.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Displacement",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+12",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 30
@@ -9332,9 +9140,141 @@
                 "text": " Range.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Displacement",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+15",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " Range.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 150
+        }
+      }
+    },
+    "Aspect of the Forbidden Ritual": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              212
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectMage"
+        }
+      },
+      "name": "Aspect of the Forbidden Ritual",
+      "rarity": "fabled",
+      "requiredClass": "mage",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Judrajim",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "0.75s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Judrajim",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1.25s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Reduce ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Judrajim",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s cooldown by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1.5s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
         }
       }
     },
@@ -9515,6 +9455,15 @@
                 "color": "#AAAAAA"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Frozen Tornado",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " gains ",
                 "color": "#AAAAAA"
               },
@@ -9544,6 +9493,15 @@
             [
               {
                 "text": "Ice Snake",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Frozen Tornado",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -9581,6 +9539,15 @@
                 "color": "#AAAAAA"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Frozen Tornado",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " gains ",
                 "color": "#AAAAAA"
               },
@@ -9610,6 +9577,15 @@
             [
               {
                 "text": "Ice Snake",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Frozen Tornado",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -9922,7 +9898,7 @@
         }
       }
     },
-    "Riftwalker's Embodiment of Chronal Control": {
+    "Riftwalker's Embodiment of Reality Alteration": {
       "icon": {
         "format": "attribute",
         "value": {
@@ -9935,7 +9911,7 @@
           "name": "abilityTree.aspectMage"
         }
       },
-      "name": "Riftwalker's Embodiment of Chronal Control",
+      "name": "Riftwalker's Embodiment of Reality Alteration",
       "rarity": "mythic",
       "requiredClass": "mage",
       "tiers": {
@@ -9943,92 +9919,24 @@
           "description": [
             [
               {
-                "text": "Timelock",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+0.25s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "for every ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "5 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Winded ",
+                "text": "Distortion ",
                 "color": "#55FFFF"
               },
               {
                 "text": "",
                 "font": "common",
-                "color": "#55FFFF"
+                "color": "#D599FF"
               },
               {
-                "text": " ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "absorbed.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Timelock",
-                "underline": true,
+                "text": " decays ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1.5s",
+                "text": "-20%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " maximum ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
+                "text": " slower.",
                 "color": "#AAAAAA"
               }
             ]
@@ -10039,66 +9947,31 @@
           "description": [
             [
               {
-                "text": "Timelock",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+0.25s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "for every ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "5 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Winded ",
+                "text": "Distortion ",
                 "color": "#55FFFF"
               },
               {
                 "text": "",
                 "font": "common",
-                "color": "#55FFFF"
+                "color": "#D599FF"
               },
               {
-                "text": " ",
-                "color": "#55FFFF"
+                "text": " decays ",
+                "color": "#AAAAAA"
               },
               {
-                "text": "absorbed.",
+                "text": "-20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " slower.",
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
-                "text": "Timelock",
+                "text": "Riftbound",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -10107,11 +9980,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.5s",
+                "text": "+2s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " maximum ",
+                "text": " ",
                 "color": "#AAAAAA"
               },
               {
@@ -10125,34 +9998,6 @@
               },
               {
                 "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Increase your maximum ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Winded ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#55FFFF"
-              },
-              {
-                "text": " by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+5",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -10163,66 +10008,31 @@
           "description": [
             [
               {
-                "text": "Timelock",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+0.5s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "for every ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "5 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "Winded ",
+                "text": "Distortion ",
                 "color": "#55FFFF"
               },
               {
                 "text": "",
                 "font": "common",
-                "color": "#55FFFF"
+                "color": "#D599FF"
               },
               {
-                "text": " ",
-                "color": "#55FFFF"
+                "text": " decays ",
+                "color": "#AAAAAA"
               },
               {
-                "text": "absorbed.",
+                "text": "-30%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " slower.",
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
-                "text": "Timelock",
+                "text": "Riftbound",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -10231,11 +10041,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s",
+                "text": "+2s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " maximum ",
+                "text": " ",
                 "color": "#AAAAAA"
               },
               {
@@ -10249,34 +10059,6 @@
               },
               {
                 "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Increase your maximum ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Winded ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#55FFFF"
-              },
-              {
-                "text": " by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+5",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -10691,7 +10473,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2 ",
+                "text": "+1.25 ",
                 "color": "#FFFFFF"
               },
               {
@@ -10753,7 +10535,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3.5 ",
+                "text": "+2 ",
                 "color": "#FFFFFF"
               },
               {
@@ -10815,7 +10597,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5 ",
+                "text": "+2.5 ",
                 "color": "#FFFFFF"
               },
               {
@@ -10877,7 +10659,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+6 ",
+                "text": "+3 ",
                 "color": "#FFFFFF"
               },
               {
@@ -11223,7 +11005,6 @@
               },
               {
                 "text": "&BPuppet",
-                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -11256,7 +11037,6 @@
               },
               {
                 "text": "&BPuppet",
-                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -11289,7 +11069,6 @@
               },
               {
                 "text": "&BPuppet",
-                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -11322,7 +11101,6 @@
               },
               {
                 "text": "&BPuppet",
-                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -11387,6 +11165,38 @@
             ],
             [
               {
+                "text": "Flamint Tongue",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.25s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
                 "text": "",
                 "font": "common",
                 "color": "#FF5555"
@@ -11424,8 +11234,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11456,8 +11265,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11488,8 +11296,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11543,6 +11350,38 @@
             ],
             [
               {
+                "text": "Flamint Tongue",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.45s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
                 "text": "",
                 "font": "common",
                 "color": "#FF5555"
@@ -11580,8 +11419,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11612,8 +11450,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11644,8 +11481,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11699,6 +11535,38 @@
             ],
             [
               {
+                "text": "Flamint Tongue",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.55s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
                 "text": "",
                 "font": "common",
                 "color": "#FF5555"
@@ -11736,8 +11604,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11768,8 +11635,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11800,8 +11666,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11855,6 +11720,38 @@
             ],
             [
               {
+                "text": "Flamint Tongue",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "-0.65s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
                 "text": "",
                 "font": "common",
                 "color": "#FF5555"
@@ -11892,8 +11789,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11924,8 +11820,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -11956,8 +11851,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -12670,88 +12564,17 @@
           "description": [
             [
               {
-                "text": "Mask of the Lunatic",
+                "text": "Mystics Masks",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " bonus effect is increased by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5% ",
+                "text": "1.15x",
                 "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Damage Bonus.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Mask of the Fanatic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+5% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Resistance.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Mask of the Heretic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+10% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Walk Speed.",
-                "color": "#AAAAAA"
               }
             ]
           ],
@@ -12761,88 +12584,17 @@
           "description": [
             [
               {
-                "text": "Mask of the Lunatic",
+                "text": "Mystics Masks",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " bonus effect is increased by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8% ",
+                "text": "1.2x",
                 "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Damage Bonus.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Mask of the Fanatic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+8% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Resistance.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Mask of the Heretic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+16% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Walk Speed.",
-                "color": "#AAAAAA"
               }
             ]
           ],
@@ -12852,88 +12604,17 @@
           "description": [
             [
               {
-                "text": "Mask of the Lunatic",
+                "text": "Mystics Masks",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " bonus effect is increased by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10% ",
+                "text": "1.25x",
                 "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Damage Bonus.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Mask of the Fanatic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+10% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Resistance.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Mask of the Heretic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+20% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Walk Speed.",
-                "color": "#AAAAAA"
               }
             ]
           ],
@@ -13533,8 +13214,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -13620,8 +13300,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -13652,8 +13331,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -13739,8 +13417,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -13771,8 +13448,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -13803,8 +13479,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -13854,16 +13529,16 @@
           "description": [
             [
               {
-                "text": "Chant of the Lunatic",
+                "text": "Tribal Chants",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.25s",
+                "text": "+2",
                 "color": "#FFFFFF"
               },
               {
@@ -13871,69 +13546,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Chant of the Fanatic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+0.35s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Chant of the Heretic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " takes ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+15%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " longer to decay.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -13944,16 +13566,16 @@
           "description": [
             [
               {
-                "text": "Chant of the Lunatic",
+                "text": "Tribal Chants",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2.25s",
+                "text": "+3.35",
                 "color": "#FFFFFF"
               },
               {
@@ -13961,69 +13583,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Chant of the Fanatic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+0.7s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Chant of the Heretic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " takes ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+25%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " longer to decay.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -14034,16 +13603,16 @@
           "description": [
             [
               {
-                "text": "Chant of the Lunatic",
+                "text": "Tribal Chants",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " gain ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s",
+                "text": "+4",
                 "color": "#FFFFFF"
               },
               {
@@ -14051,69 +13620,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Chant of the Fanatic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Chant of the Heretic",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " takes ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+35%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " longer to decay.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -14849,13 +14365,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance to Allies.",
@@ -14882,13 +14393,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance to Allies.",
@@ -14915,13 +14421,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance to Allies.",
@@ -14948,13 +14449,8 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "❁",
+                "text": "❁ ",
                 "color": "#55FF55"
-              },
-              {
-                "text": " ",
-                "underline": true,
-                "color": "#AAAAAA"
               },
               {
                 "text": "Resistance to Allies.",
@@ -15781,7 +15277,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.25",
+                "text": "+0.1",
                 "color": "#FFFFFF"
               },
               {
@@ -15831,7 +15327,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.4",
+                "text": "+0.15",
                 "color": "#FFFFFF"
               },
               {
@@ -15881,7 +15377,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5",
+                "text": "+0.2",
                 "color": "#FFFFFF"
               },
               {
@@ -16040,12 +15536,8 @@
                 "color": "#55FFFF"
               },
               {
-                "text": "⚙",
+                "text": "⚙ ",
                 "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
               },
               {
                 "text": "by ",
@@ -16075,12 +15567,8 @@
                 "color": "#55FFFF"
               },
               {
-                "text": "⚙",
+                "text": "⚙ ",
                 "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
               },
               {
                 "text": "by ",
@@ -16110,12 +15598,8 @@
                 "color": "#55FFFF"
               },
               {
-                "text": "⚙",
+                "text": "⚙ ",
                 "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
               },
               {
                 "text": "by ",
@@ -16326,7 +15810,6 @@
               },
               {
                 "text": "and",
-                "underline": true,
                 "color": "#AAAAAA"
               }
             ],
@@ -16388,7 +15871,6 @@
               },
               {
                 "text": "and",
-                "underline": true,
                 "color": "#AAAAAA"
               }
             ],
@@ -16450,7 +15932,6 @@
               },
               {
                 "text": "and",
-                "underline": true,
                 "color": "#AAAAAA"
               }
             ],
@@ -16512,7 +15993,6 @@
               },
               {
                 "text": "and",
-                "underline": true,
                 "color": "#AAAAAA"
               }
             ],
@@ -17088,7 +16568,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4% ",
+                "text": "+3% ",
                 "color": "#FFFFFF"
               },
               {
@@ -17120,7 +16600,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+6% ",
+                "text": "+5% ",
                 "color": "#FFFFFF"
               },
               {
@@ -17152,7 +16632,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8% ",
+                "text": "+6% ",
                 "color": "#FFFFFF"
               },
               {
@@ -17354,6 +16834,15 @@
                 "color": "#AAAAAA"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " gains ",
                 "color": "#AAAAAA"
               },
@@ -17387,6 +16876,15 @@
               },
               {
                 "text": "Main Attack",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -17428,6 +16926,15 @@
                 "color": "#AAAAAA"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " gains ",
                 "color": "#AAAAAA"
               },
@@ -17461,6 +16968,15 @@
               },
               {
                 "text": "Main Attack",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bloodied Armory",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -17624,7 +17140,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1x",
+                "text": "+0.5x",
                 "color": "#FFFFFF"
               },
               {
@@ -17686,8 +17202,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -17718,8 +17233,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -17791,7 +17305,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1x",
+                "text": "+0.5x",
                 "color": "#FFFFFF"
               },
               {
@@ -17853,8 +17367,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -17885,8 +17398,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -18001,7 +17513,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1x",
+                "text": "+0.5x",
                 "color": "#FFFFFF"
               },
               {
@@ -18035,8 +17547,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -18114,8 +17625,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -18146,8 +17656,7 @@
               },
               {
                 "text": "(",
-                "color": "#555555",
-                "margin-left": "large"
+                "color": "#555555"
               },
               {
                 "text": "",
@@ -18312,7 +17821,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+4%",
                 "color": "#FFFFFF"
               },
               {
@@ -18320,7 +17829,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8.35%",
+                "text": "+6.25%",
                 "color": "#FFFFFF"
               },
               {
@@ -18363,7 +17872,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8%",
+                "text": "+6%",
                 "color": "#FFFFFF"
               },
               {
@@ -18371,7 +17880,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+13.35%",
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
