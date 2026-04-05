@@ -5,8 +5,15 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 
 cd $TARGET_DIR
 
+if [ -z "${WYNNCRAFT_API_KEY:-}" ]; then
+    echo "Error: WYNNCRAFT_API_KEY is not set"
+    exit 1
+fi
+
+AUTH_HEADER="Authorization: Bearer ${WYNNCRAFT_API_KEY}"
+
 # Download the json file from Wynncraft API
-curl -X POST -d '{"type":["tool"]}' -H "Content-Type: application/json" -o tools.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult"
+curl -X POST -d '{"type":["tool"]}' -H "Content-Type: application/json" -H "$AUTH_HEADER" -o tools.json.tmp "https://api.wynncraft.com/v3/item/search?fullResult"
 
 if [ ! -s tools.json.tmp ]; then
     rm tools.json.tmp

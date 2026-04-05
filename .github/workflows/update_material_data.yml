@@ -9,6 +9,8 @@ on:
 jobs:
   update-material-data:
     runs-on: ubuntu-latest
+    env:
+      WYNNCRAFT_API_KEY: ${{ secrets.WYNNCRAFT_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
