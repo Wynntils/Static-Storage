@@ -4,11 +4,18 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 
 cd $TARGET_DIR
 
+if [ -z "${WYNNCRAFT_API_KEY:-}" ]; then
+    echo "Error: WYNNCRAFT_API_KEY is not set"
+    exit 1
+fi
+
+AUTH_HEADER="Authorization: Bearer ${WYNNCRAFT_API_KEY}"
+
 TARGET="services.json"
 TARGET_MAPFEATURES="service_mapfeatures.json"
 
 # Download the json file from Wynncraft API
-wget -O markers.json.tmp "https://api.wynncraft.com/v3/map/locations/markers"
+wget --header="$AUTH_HEADER" -O markers.json.tmp "https://api.wynncraft.com/v3/map/locations/markers"
 
 if [ ! -s markers.json.tmp ]; then
     rm markers.json.tmp

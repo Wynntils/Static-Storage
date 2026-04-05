@@ -5,11 +5,18 @@ TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
 
 cd $TARGET_DIR
 
+if [ -z "${WYNNCRAFT_API_KEY:-}" ]; then
+    echo "Error: WYNNCRAFT_API_KEY is not set"
+    exit 1
+fi
+
+AUTH_HEADER="Authorization: Bearer ${WYNNCRAFT_API_KEY}"
+
 ASPECTS_FILE="aspects.json"
 echo "{}" > $ASPECTS_FILE
 
 # Download the class info from the Wynncraft API
-curl -o classes.json.tmp "https://api.wynncraft.com/v3/classes"
+curl -H "$AUTH_HEADER" -o classes.json.tmp "https://api.wynncraft.com/v3/classes"
 
 if [ ! -s classes.json.tmp ]; then
     rm classes.json.tmp
@@ -30,7 +37,7 @@ rm classes.json.tmp
 
 for CLASS in $ASPECT_CLASSES; do
     # Download the json file for each class' aspects
-    curl -o ${CLASS}_aspects.json.tmp "https://api.wynncraft.com/v3/aspects/$CLASS"
+    curl -H "$AUTH_HEADER" -o ${CLASS}_aspects.json.tmp "https://api.wynncraft.com/v3/aspects/$CLASS"
 
     if [ ! -s ${CLASS}_aspects.json.tmp ]; then
         rm ${CLASS}_aspects.json.tmp
