@@ -1,5 +1,6 @@
 {
   "Gathering Axe T1": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 100,
     "emblem": "square",
@@ -27,6 +28,7 @@
     "type": "tool"
   },
   "Gathering Axe T10": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 280,
     "emblem": "square",
@@ -54,6 +56,7 @@
     "type": "tool"
   },
   "Gathering Axe T11": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 300,
     "emblem": "square",
@@ -81,6 +84,7 @@
     "type": "tool"
   },
   "Gathering Axe T12": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 320,
     "emblem": "square",
@@ -108,6 +112,7 @@
     "type": "tool"
   },
   "Gathering Axe T13": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 350,
     "emblem": "square",
@@ -135,6 +140,7 @@
     "type": "tool"
   },
   "Gathering Axe T2": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 120,
     "emblem": "square",
@@ -162,6 +168,7 @@
     "type": "tool"
   },
   "Gathering Axe T3": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 140,
     "emblem": "square",
@@ -189,6 +196,7 @@
     "type": "tool"
   },
   "Gathering Axe T4": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 160,
     "emblem": "square",
@@ -216,6 +224,7 @@
     "type": "tool"
   },
   "Gathering Axe T5": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 180,
     "emblem": "square",
@@ -243,6 +252,7 @@
     "type": "tool"
   },
   "Gathering Axe T6": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 200,
     "emblem": "square",
@@ -270,6 +280,7 @@
     "type": "tool"
   },
   "Gathering Axe T7": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 220,
     "emblem": "square",
@@ -297,6 +308,7 @@
     "type": "tool"
   },
   "Gathering Axe T8": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 240,
     "emblem": "square",
@@ -324,6 +336,7 @@
     "type": "tool"
   },
   "Gathering Axe T9": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 260,
     "emblem": "square",
@@ -351,6 +364,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T1": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 100,
     "emblem": "square",
@@ -378,6 +392,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T10": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 280,
     "emblem": "square",
@@ -405,6 +420,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T11": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 300,
     "emblem": "square",
@@ -432,6 +448,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T12": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 320,
     "emblem": "square",
@@ -459,6 +476,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T13": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 350,
     "emblem": "square",
@@ -486,6 +504,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T2": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 120,
     "emblem": "square",
@@ -513,6 +532,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T3": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 140,
     "emblem": "square",
@@ -540,6 +560,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T4": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 160,
     "emblem": "square",
@@ -567,6 +588,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T5": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 180,
     "emblem": "square",
@@ -594,6 +616,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T6": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 200,
     "emblem": "square",
@@ -621,6 +644,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T7": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 220,
     "emblem": "square",
@@ -648,6 +672,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T8": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 240,
     "emblem": "square",
@@ -675,6 +700,7 @@
     "type": "tool"
   },
   "Gathering Pickaxe T9": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 260,
     "emblem": "square",
@@ -702,6 +728,7 @@
     "type": "tool"
   },
   "Gathering Rod T1": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 100,
     "emblem": "square",
@@ -729,6 +756,7 @@
     "type": "tool"
   },
   "Gathering Rod T10": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 280,
     "emblem": "square",
@@ -756,6 +784,7 @@
     "type": "tool"
   },
   "Gathering Rod T11": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 300,
     "emblem": "square",
@@ -783,6 +812,7 @@
     "type": "tool"
   },
   "Gathering Rod T12": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 320,
     "emblem": "square",
@@ -810,6 +840,7 @@
     "type": "tool"
   },
   "Gathering Rod T13": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 350,
     "emblem": "square",
@@ -837,6 +868,7 @@
     "type": "tool"
   },
   "Gathering Rod T2": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 120,
     "emblem": "square",
@@ -864,6 +896,7 @@
     "type": "tool"
   },
   "Gathering Rod T3": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 140,
     "emblem": "square",
@@ -891,6 +924,7 @@
     "type": "tool"
   },
   "Gathering Rod T4": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 160,
     "emblem": "square",
@@ -918,6 +952,7 @@
     "type": "tool"
   },
   "Gathering Rod T5": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 180,
     "emblem": "square",
@@ -945,6 +980,7 @@
     "type": "tool"
   },
   "Gathering Rod T6": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 200,
     "emblem": "square",
@@ -972,6 +1008,7 @@
     "type": "tool"
   },
   "Gathering Rod T7": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 220,
     "emblem": "square",
@@ -999,6 +1036,7 @@
     "type": "tool"
   },
   "Gathering Rod T8": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 240,
     "emblem": "square",
@@ -1026,6 +1064,7 @@
     "type": "tool"
   },
   "Gathering Rod T9": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 260,
     "emblem": "square",
@@ -1053,6 +1092,7 @@
     "type": "tool"
   },
   "Gathering Scythe T1": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 100,
     "emblem": "square",
@@ -1080,6 +1120,7 @@
     "type": "tool"
   },
   "Gathering Scythe T10": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 280,
     "emblem": "square",
@@ -1107,6 +1148,7 @@
     "type": "tool"
   },
   "Gathering Scythe T11": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 300,
     "emblem": "square",
@@ -1134,6 +1176,7 @@
     "type": "tool"
   },
   "Gathering Scythe T12": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 320,
     "emblem": "square",
@@ -1161,6 +1204,7 @@
     "type": "tool"
   },
   "Gathering Scythe T13": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 350,
     "emblem": "square",
@@ -1188,6 +1232,7 @@
     "type": "tool"
   },
   "Gathering Scythe T2": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 120,
     "emblem": "square",
@@ -1215,6 +1260,7 @@
     "type": "tool"
   },
   "Gathering Scythe T3": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 140,
     "emblem": "square",
@@ -1242,6 +1288,7 @@
     "type": "tool"
   },
   "Gathering Scythe T4": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 160,
     "emblem": "square",
@@ -1269,6 +1316,7 @@
     "type": "tool"
   },
   "Gathering Scythe T5": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 180,
     "emblem": "square",
@@ -1296,6 +1344,7 @@
     "type": "tool"
   },
   "Gathering Scythe T6": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 200,
     "emblem": "square",
@@ -1323,6 +1372,7 @@
     "type": "tool"
   },
   "Gathering Scythe T7": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 220,
     "emblem": "square",
@@ -1350,6 +1400,7 @@
     "type": "tool"
   },
   "Gathering Scythe T8": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 240,
     "emblem": "square",
@@ -1377,6 +1428,7 @@
     "type": "tool"
   },
   "Gathering Scythe T9": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "durability": 260,
     "emblem": "square",
