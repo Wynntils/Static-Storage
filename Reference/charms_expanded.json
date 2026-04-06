@@ -1,5 +1,6 @@
 {
   "Charm of the Light": {
+    "allowCraftsman": true,
     "base": {
       "damageFromMobs": {
         "max": 39,
@@ -38,6 +39,7 @@
     "type": "charm"
   },
   "Charm of the Stone": {
+    "allowCraftsman": true,
     "base": {
       "damageFromMobs": {
         "max": 91,
@@ -76,6 +78,7 @@
     "type": "charm"
   },
   "Charm of the Void": {
+    "allowCraftsman": true,
     "base": {
       "damageFromMobs": {
         "max": 16,
@@ -116,6 +119,7 @@
     "type": "charm"
   },
   "Charm of the Worm": {
+    "allowCraftsman": true,
     "base": {
       "damageFromMobs": {
         "max": 26,
