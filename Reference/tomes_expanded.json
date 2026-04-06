@@ -1,5 +1,6 @@
 {
   "Abyssal Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -45,6 +46,7 @@
     "type": "tome"
   },
   "Abyssal Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -90,6 +92,7 @@
     "type": "tome"
   },
   "Abyssal Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -135,6 +138,7 @@
     "type": "tome"
   },
   "Abyssal Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -180,6 +184,7 @@
     "type": "tome"
   },
   "Arsonist's Tome of Allegiance": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -216,6 +221,7 @@
     "type": "tome"
   },
   "Assimilator's Tome of Allegiance": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -256,6 +262,7 @@
     "type": "tome"
   },
   "Athletic Tome of Weapon Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -296,6 +303,7 @@
     "type": "tome"
   },
   "Blooming Tome of Defensive Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -341,6 +349,7 @@
     "type": "tome"
   },
   "Blooming Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -386,6 +395,7 @@
     "type": "tome"
   },
   "Blooming Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -422,6 +432,7 @@
     "type": "tome"
   },
   "Blooming Tome of Defensive Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -467,6 +478,7 @@
     "type": "tome"
   },
   "Blooming Tome of Defensive Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -512,6 +524,7 @@
     "type": "tome"
   },
   "Brute's Tome of Allegiance": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -548,6 +561,7 @@
     "type": "tome"
   },
   "Clouded Tome of Defensive Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -593,6 +607,7 @@
     "type": "tome"
   },
   "Clouded Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -638,6 +653,7 @@
     "type": "tome"
   },
   "Clouded Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -674,6 +690,7 @@
     "type": "tome"
   },
   "Courageous Tome of Defensive Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -709,7 +726,7 @@
         "raw": 165
       }
     },
-    "internalName": "Vampiric Tome of Armour Mastery I",
+    "internalName": "Courageous Tome of Defensive Mastery I",
     "requirements": {
       "level": 60
     },
@@ -719,6 +736,7 @@
     "type": "tome"
   },
   "Courageous Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -754,7 +772,7 @@
         "raw": 265
       }
     },
-    "internalName": "Vampiric Tome of Armour Mastery II",
+    "internalName": "Courageous Tome of Defensive Mastery II",
     "requirements": {
       "level": 100
     },
@@ -764,6 +782,7 @@
     "type": "tome"
   },
   "Courageous Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -800,6 +819,7 @@
     "type": "tome"
   },
   "Courageous Tome of Defensive Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -845,6 +865,7 @@
     "type": "tome"
   },
   "Courageous Tome of Defensive Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -890,6 +911,7 @@
     "type": "tome"
   },
   "Cyclonic Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -935,6 +957,7 @@
     "type": "tome"
   },
   "Cyclonic Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -980,6 +1003,7 @@
     "type": "tome"
   },
   "Cyclonic Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -1025,6 +1049,7 @@
     "type": "tome"
   },
   "Cyclonic Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -1070,6 +1095,7 @@
     "type": "tome"
   },
   "Dragon's Tome of Mysticism II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1110,6 +1136,7 @@
     "type": "tome"
   },
   "Dragon's Tome of Mysticism III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -1141,6 +1168,7 @@
     "type": "tome"
   },
   "Ephemeral Tome of Mysticism I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -1181,6 +1209,7 @@
     "type": "tome"
   },
   "Ephemeral Tome of Mysticism II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1221,6 +1250,7 @@
     "type": "tome"
   },
   "Ephemeral Tome of Mysticism III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -1252,6 +1282,7 @@
     "type": "tome"
   },
   "Ephemeral Tome of Mysticism II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1292,6 +1323,7 @@
     "type": "tome"
   },
   "Ephemeral Tome of Mysticism II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1332,6 +1364,7 @@
     "type": "tome"
   },
   "Ephemeral Tome of Mysticism I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -1372,6 +1405,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -1412,6 +1446,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -1452,6 +1487,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -1492,6 +1528,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -1532,6 +1569,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery III֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -1572,6 +1610,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -1612,6 +1651,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -1652,6 +1692,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -1692,6 +1733,7 @@
     "type": "tome"
   },
   "Esoteric Tome of Combat Mastery I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -1732,6 +1774,7 @@
     "type": "tome"
   },
   "Everlasting Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1777,6 +1820,7 @@
     "type": "tome"
   },
   "Everlasting Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -1813,6 +1857,7 @@
     "type": "tome"
   },
   "Everlasting Tome of Defensive Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1858,6 +1903,7 @@
     "type": "tome"
   },
   "Everlasting Tome of Defensive Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1903,6 +1949,7 @@
     "type": "tome"
   },
   "Everlasting Tome of Defensive Mastery II֎֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1948,6 +1995,7 @@
     "type": "tome"
   },
   "Faerie's Tome of Mysticism II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -1988,6 +2036,7 @@
     "type": "tome"
   },
   "Faerie's Tome of Mysticism III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -2019,6 +2068,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -2059,6 +2109,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -2099,6 +2150,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -2139,6 +2191,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -2179,6 +2232,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery III֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -2219,6 +2273,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -2259,6 +2314,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -2299,6 +2355,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -2339,6 +2396,7 @@
     "type": "tome"
   },
   "Fighter's Tome of Combat Mastery I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -2379,6 +2437,7 @@
     "type": "tome"
   },
   "Fleetfooted Tome of the Marathon I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -2419,6 +2478,7 @@
     "type": "tome"
   },
   "Fleetfooted Tome of the Marathon II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -2459,6 +2519,7 @@
     "type": "tome"
   },
   "Fleetfooted Tome of the Marathon III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -2490,6 +2551,7 @@
     "type": "tome"
   },
   "Fleetfooted Tome of the Marathon I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -2530,6 +2592,7 @@
     "type": "tome"
   },
   "Ghost's Tome of Allegiance": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -2566,6 +2629,7 @@
     "type": "tome"
   },
   "Golem's Tome of Mysticism II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -2606,6 +2670,7 @@
     "type": "tome"
   },
   "Golem's Tome of Mysticism III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -2637,6 +2702,7 @@
     "type": "tome"
   },
   "Harvester's Tome of Mysticism I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -2677,6 +2743,7 @@
     "type": "tome"
   },
   "Harvester's Tome of Mysticism II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -2717,6 +2784,7 @@
     "type": "tome"
   },
   "Harvester's Tome of Mysticism III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -2748,6 +2816,7 @@
     "type": "tome"
   },
   "Infernal Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -2793,6 +2862,7 @@
     "type": "tome"
   },
   "Infernal Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -2838,6 +2908,7 @@
     "type": "tome"
   },
   "Infernal Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -2883,6 +2954,7 @@
     "type": "tome"
   },
   "Infernal Tome of Combat Mastery III֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -2928,6 +3000,7 @@
     "type": "tome"
   },
   "Infernal Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -2973,6 +3046,7 @@
     "type": "tome"
   },
   "Infernal Tome of Combat Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -3018,6 +3092,7 @@
     "type": "tome"
   },
   "Mastermind's Tome of Allegiance": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -3054,6 +3129,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3094,6 +3170,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -3134,6 +3211,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -3174,6 +3252,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -3214,6 +3293,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -3254,6 +3334,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -3294,6 +3375,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3334,6 +3416,7 @@
     "type": "tome"
   },
   "Nimble Tome of Combat Mastery I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3374,6 +3457,7 @@
     "type": "tome"
   },
   "Oceanic Tome of Defensive Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3419,6 +3503,7 @@
     "type": "tome"
   },
   "Oceanic Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -3464,6 +3549,7 @@
     "type": "tome"
   },
   "Oceanic Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -3500,6 +3586,7 @@
     "type": "tome"
   },
   "Oceanic Tome of Defensive Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -3545,6 +3632,7 @@
     "type": "tome"
   },
   "Oceanic Tome of Defensive Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3590,6 +3678,7 @@
     "type": "tome"
   },
   "Pegasus' Tome of Mysticism II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -3630,6 +3719,7 @@
     "type": "tome"
   },
   "Pegasus' Tome of Mysticism III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -3661,6 +3751,7 @@
     "type": "tome"
   },
   "Pulsing Tome of Defensive Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3706,6 +3797,7 @@
     "type": "tome"
   },
   "Pulsing Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -3751,6 +3843,7 @@
     "type": "tome"
   },
   "Pulsing Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -3787,6 +3880,7 @@
     "type": "tome"
   },
   "Pulsing Tome of Defensive Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -3832,6 +3926,7 @@
     "type": "tome"
   },
   "Pulsing Tome of Defensive Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3877,6 +3972,7 @@
     "type": "tome"
   },
   "Pulsing Tome of Defensive Mastery I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -3922,6 +4018,7 @@
     "type": "tome"
   },
   "Sadist's Tome of Allegiance": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -3948,7 +4045,7 @@
     "identifications": {
       "rawDexterity": 4
     },
-    "internalName": "Sadist's Tome of Allegiance",
+    "internalName": "Devil's Tome of Allegiance",
     "requirements": {
       "level": 100
     },
@@ -3958,6 +4055,7 @@
     "type": "tome"
   },
   "Seismic Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -4003,6 +4101,7 @@
     "type": "tome"
   },
   "Seismic Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -4048,6 +4147,7 @@
     "type": "tome"
   },
   "Seismic Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -4093,6 +4193,7 @@
     "type": "tome"
   },
   "Seismic Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -4138,6 +4239,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -4178,6 +4280,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -4218,6 +4321,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -4258,6 +4362,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -4298,6 +4403,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery III֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -4338,6 +4444,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -4378,6 +4485,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -4418,6 +4526,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -4458,6 +4567,7 @@
     "type": "tome"
   },
   "Sorcerer's Tome of Combat Mastery I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -4498,6 +4608,7 @@
     "type": "tome"
   },
   "Surefooted Tome of the Marathon I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -4543,6 +4654,7 @@
     "type": "tome"
   },
   "Surefooted Tome of the Marathon II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -4588,6 +4700,7 @@
     "type": "tome"
   },
   "Surefooted Tome of the Marathon III": {
+    "allowCraftsman": true,
     "dropRestriction": "never",
     "emblem": "square_6",
     "icon": {
@@ -4624,6 +4737,7 @@
     "type": "tome"
   },
   "Surefooted Tome of the Marathon II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -4669,6 +4783,7 @@
     "type": "tome"
   },
   "Surefooted Tome of the Marathon I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -4714,6 +4829,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Care I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -4759,6 +4875,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Care I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -4804,6 +4921,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Caution I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -4849,6 +4967,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Caution I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -4894,6 +5013,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Dividends I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -4939,6 +5059,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Dividends I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -4984,6 +5105,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Dividends I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -5029,6 +5151,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Hospitality I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -5074,6 +5197,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Hospitality I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -5119,6 +5243,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Hospitality I֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -5164,6 +5289,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Safety I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -5209,6 +5335,7 @@
     "type": "tome"
   },
   "Syndicate's Tome of Safety I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         99999,
@@ -5254,6 +5381,7 @@
     "type": "tome"
   },
   "Tome of Combat Mastery": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5294,6 +5422,7 @@
     "type": "tome"
   },
   "Tome of Combat Mastery֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5334,6 +5463,7 @@
     "type": "tome"
   },
   "Tome of Countering Expertise I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5374,6 +5504,7 @@
     "type": "tome"
   },
   "Tome of Countering Expertise II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -5414,6 +5545,7 @@
     "type": "tome"
   },
   "Tome of Countering Expertise III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -5454,6 +5586,7 @@
     "type": "tome"
   },
   "Tome of Defensive Mastery": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5484,7 +5617,7 @@
         "raw": 145
       }
     },
-    "internalName": "Tome of Armour Mastery I",
+    "internalName": "Tome of Defensive Mastery",
     "requirements": {
       "level": 60
     },
@@ -5494,6 +5627,7 @@
     "type": "tome"
   },
   "Tome of Parrying Expertise I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5534,6 +5668,7 @@
     "type": "tome"
   },
   "Tome of Parrying Expertise II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -5574,6 +5709,7 @@
     "type": "tome"
   },
   "Tome of Parrying Expertise III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -5614,6 +5750,7 @@
     "type": "tome"
   },
   "Tome of Remedial Expertise II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -5654,6 +5791,7 @@
     "type": "tome"
   },
   "Tome of Remedial Expertise III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -5694,6 +5832,7 @@
     "type": "tome"
   },
   "Tome of Scavenging Expertise I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5734,6 +5873,7 @@
     "type": "tome"
   },
   "Tome of Scavenging Expertise II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -5774,6 +5914,7 @@
     "type": "tome"
   },
   "Tome of Scavenging Expertise III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -5814,6 +5955,7 @@
     "type": "tome"
   },
   "Tome of Scavenging Expertise II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -5854,6 +5996,7 @@
     "type": "tome"
   },
   "Tome of Scavenging Expertise I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5894,6 +6037,7 @@
     "type": "tome"
   },
   "Tome of Triage Expertise I": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -1977,
@@ -5934,6 +6078,7 @@
     "type": "tome"
   },
   "Tome of Triage Expertise II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -5974,6 +6119,7 @@
     "type": "tome"
   },
   "Tome of Triage Expertise III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -6014,6 +6160,7 @@
     "type": "tome"
   },
   "Tome of Triage Expertise I֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -6054,6 +6201,7 @@
     "type": "tome"
   },
   "Vampiric Tome of Defensive Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -6099,6 +6247,7 @@
     "type": "tome"
   },
   "Vampiric Tome of Defensive Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -6144,6 +6293,7 @@
     "type": "tome"
   },
   "Vampiric Tome of Defensive Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -6189,6 +6339,7 @@
     "type": "tome"
   },
   "Vampiric Tome of Defensive Mastery II֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -6234,6 +6385,7 @@
     "type": "tome"
   },
   "Vampiric Tome of Defensive Mastery II֎֎֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         662,
@@ -6279,6 +6431,7 @@
     "type": "tome"
   },
   "Voltaic Tome of Combat Mastery II": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
@@ -6324,6 +6477,7 @@
     "type": "tome"
   },
   "Voltaic Tome of Combat Mastery III": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -6369,6 +6523,7 @@
     "type": "tome"
   },
   "Voltaic Tome of Combat Mastery III֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         1193,
@@ -6414,6 +6569,7 @@
     "type": "tome"
   },
   "Voltaic Tome of Combat Mastery II֎": {
+    "allowCraftsman": true,
     "dropMeta": {
       "coordinates": [
         -732,
