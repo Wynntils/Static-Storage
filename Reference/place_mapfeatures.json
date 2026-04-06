@@ -169,15 +169,15 @@
     "level": 15
   },
   {
-    "featureId": "bremynn-hierra",
+    "featureId": "bremmyn-hierra",
     "categoryId": "wynntils:place:town-or-place",
     "attributes": {
-      "label": "Bremynn-Hierra"
+      "label": "Bremmyn-Hierra"
     },
     "location": {
-      "x": 614,
+      "x": 727,
       "y": 0,
-      "z": -2595
+      "z": -2229
     },
     "level": 15
   },
