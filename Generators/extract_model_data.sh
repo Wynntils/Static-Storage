@@ -239,6 +239,7 @@ LOOKUPS_MISC=(
   "rune_nii|rune/nii"
   "rune_uth|rune/uth"
   "rune_tol|rune/tol"
+  "rune_ek|rune/ek"
   "abilityTree.aspectArcher|gui/ability_tree/aspect/archer"
   "abilityTree.aspectAssassin|gui/ability_tree/aspect/assassin"
   "abilityTree.aspectMage|gui/ability_tree/aspect/mage"
