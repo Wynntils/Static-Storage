@@ -2,7 +2,7 @@
   "destinations": [
     {
       "location": "Ahmsord",
-      "abbreviation": "Ah"
+      "abbreviation": "Ahm"
     },
     {
       "location": "Aldorei Town",
@@ -10,51 +10,83 @@
     },
     {
       "location": "Aldwell",
-      "abbreviation": "Aw"
+      "abbreviation": "Ald"
     },
     {
       "location": "Almuj",
-      "abbreviation": "Aj"
+      "abbreviation": "Amj"
     },
     {
       "location": "Bantisu Air Temple",
-      "abbreviation": "BT"
+      "abbreviation": "BAT"
+    },
+    {
+      "location": "Bear Zoo Island",
+      "abbreviation": "BZI"
     },
     {
       "location": "Bucie",
-      "abbreviation": "Bu"
+      "abbreviation": "Buc"
     },
     {
       "location": "Cinfras",
-      "abbreviation": "Ci"
+      "abbreviation": "Cin"
     },
     {
       "location": "Corkus City",
       "abbreviation": "CC"
     },
     {
+      "location": "Dead Island",
+      "abbreviation": "Dea"
+    },
+    {
       "location": "Detlas",
-      "abbreviation": "De"
+      "abbreviation": "Det"
+    },
+    {
+      "location": "Durum Isles",
+      "abbreviation": "Dur"
     },
     {
       "location": "Eltom",
-      "abbreviation": "El"
+      "abbreviation": "Elt"
     },
     {
       "location": "Espren",
-      "abbreviation": "Es"
+      "abbreviation": "Esp"
     },
     {
       "location": "Fort Torann",
       "abbreviation": "FT"
     },
     {
+      "location": "Fruma Gate",
+      "abbreviation": "FG"
+    },
+    {
+      "location": "Galleon's Graveyard",
+      "abbreviation": "GG"
+    },
+    {
       "location": "Gelibord",
-      "abbreviation": "Ge"
+      "abbreviation": "Gel"
+    },
+    {
+      "location": "Half Moon Island",
+      "abbreviation": "HMI"
     },
     {
       "location": "Hyloch",
       "abbreviation": "Hy"
+    },
+    {
+      "location": "Isles of Fiction",
+      "abbreviation": "IoF"
+    },
+    {
+      "location": "Jofash Docks",
+      "abbreviation": "JD"
     },
     {
       "location": "Kandon-Beda",
@@ -66,7 +98,7 @@
     },
     {
       "location": "Llevigar",
-      "abbreviation": "Ll"
+      "abbreviation": "Llv"
     },
     {
       "location": "Lutho",
@@ -81,16 +113,24 @@
       "abbreviation": "MI"
     },
     {
+      "location": "Maro Peaks",
+      "abbreviation": "MP"
+    },
+    {
       "location": "Nemract",
-      "abbreviation": "Nr"
+      "abbreviation": "Nem"
     },
     {
       "location": "Nesaak",
-      "abbreviation": "Ns"
+      "abbreviation": "Nsk"
+    },
+    {
+      "location": "Nodguj Island",
+      "abbreviation": "NI"
     },
     {
       "location": "Olux",
-      "abbreviation": "Ol"
+      "abbreviation": "Olx"
     },
     {
       "location": "Pirate Cove",
@@ -98,19 +138,27 @@
     },
     {
       "location": "Ragni",
-      "abbreviation": "Ra"
+      "abbreviation": "Rag"
     },
     {
       "location": "Rodoroc",
-      "abbreviation": "Ro"
+      "abbreviation": "Rod"
+    },
+    {
+      "location": "Rooster Island",
+      "abbreviation": "RI"
     },
     {
       "location": "Rymek",
-      "abbreviation": "Ry"
+      "abbreviation": "Ryk"
     },
     {
       "location": "Selchar",
-      "abbreviation": "Se"
+      "abbreviation": "Sel"
+    },
+    {
+      "location": "Skiens Island",
+      "abbreviation": "SI"
     },
     {
       "location": "Tempo Town",
@@ -118,23 +166,31 @@
     },
     {
       "location": "Ternaves",
-      "abbreviation": "Te"
+      "abbreviation": "Ter"
     },
     {
       "location": "Thanos",
-      "abbreviation": "Tn"
+      "abbreviation": "Thn"
     },
     {
       "location": "Thesead",
-      "abbreviation": "Ts"
+      "abbreviation": "Ths"
     },
     {
       "location": "Timasca",
-      "abbreviation": "Ti"
+      "abbreviation": "Tim"
     },
     {
       "location": "Troms",
-      "abbreviation": "Tr"
+      "abbreviation": "Trm"
+    },
+    {
+      "location": "Volcanic Isles",
+      "abbreviation": "VI"
+    },
+    {
+      "location": "Zhight Island",
+      "abbreviation": "ZI"
     }
   ]
 }
