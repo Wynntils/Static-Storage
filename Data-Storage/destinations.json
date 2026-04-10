@@ -1,112 +1,112 @@
 {
   "destinations": [
     {
-      "location": "Ragni",
-      "abbreviation": "Ra"
-    },
-    {
-      "location": "Detlas",
-      "abbreviation": "De"
-    },
-    {
-      "location": "Nemract",
-      "abbreviation": "Nr"
-    },
-    {
-      "location": "Almuj",
-      "abbreviation": "Aj"
-    },
-    {
-      "location": "Rymek",
-      "abbreviation": "Ry"
-    },
-    {
-      "location": "Nesaak",
-      "abbreviation": "Ns"
-    },
-    {
-      "location": "Troms",
-      "abbreviation": "Tr"
-    },
-    {
-      "location": "Tempo Town",
-      "abbreviation": "TT"
-    },
-    {
-      "location": "Lutho",
-      "abbreviation": "Lu"
-    },
-    {
-      "location": "Selchar",
-      "abbreviation": "Se"
-    },
-    {
-      "location": "Mage Island",
-      "abbreviation": "MI"
-    },
-    {
-      "location": "Pirate Cove",
-      "abbreviation": "PC"
-    },
-    {
-      "location": "Llevigar",
-      "abbreviation": "Ll"
-    },
-    {
-      "location": "Bucie",
-      "abbreviation": "Bu"
-    },
-    {
-      "location": "Olux",
-      "abbreviation": "Ol"
-    },
-    {
-      "location": "Gelibord",
-      "abbreviation": "Ge"
-    },
-    {
-      "location": "Cinfras",
-      "abbreviation": "Ci"
-    },
-    {
-      "location": "Thanos",
-      "abbreviation": "Tn"
-    },
-    {
-      "location": "Eltom",
-      "abbreviation": "El"
+      "location": "Ahmsord",
+      "abbreviation": "Ah"
     },
     {
       "location": "Aldorei Town",
       "abbreviation": "AT"
     },
     {
-      "location": "Thesead",
-      "abbreviation": "Ts"
+      "location": "Almuj",
+      "abbreviation": "Aj"
     },
     {
-      "location": "Maex",
-      "abbreviation": "Mx"
+      "location": "Bucie",
+      "abbreviation": "Bu"
     },
     {
-      "location": "Rodoroc",
-      "abbreviation": "Ro"
-    },
-    {
-      "location": "Kandon-Beda",
-      "abbreviation": "KB"
-    },
-    {
-      "location": "Ahmsord",
-      "abbreviation": "Ah"
+      "location": "Cinfras",
+      "abbreviation": "Ci"
     },
     {
       "location": "Corkus City",
       "abbreviation": "CC"
     },
     {
+      "location": "Detlas",
+      "abbreviation": "De"
+    },
+    {
+      "location": "Eltom",
+      "abbreviation": "El"
+    },
+    {
+      "location": "Gelibord",
+      "abbreviation": "Ge"
+    },
+    {
+      "location": "Kandon-Beda",
+      "abbreviation": "KB"
+    },
+    {
       "location": "Legendary Island",
       "abbreviation": "LI"
+    },
+    {
+      "location": "Llevigar",
+      "abbreviation": "Ll"
+    },
+    {
+      "location": "Lutho",
+      "abbreviation": "Lu"
+    },
+    {
+      "location": "Maex",
+      "abbreviation": "Mx"
+    },
+    {
+      "location": "Mage Island",
+      "abbreviation": "MI"
+    },
+    {
+      "location": "Nemract",
+      "abbreviation": "Nr"
+    },
+    {
+      "location": "Nesaak",
+      "abbreviation": "Ns"
+    },
+    {
+      "location": "Olux",
+      "abbreviation": "Ol"
+    },
+    {
+      "location": "Pirate Cove",
+      "abbreviation": "PC"
+    },
+    {
+      "location": "Ragni",
+      "abbreviation": "Ra"
+    },
+    {
+      "location": "Rodoroc",
+      "abbreviation": "Ro"
+    },
+    {
+      "location": "Rymek",
+      "abbreviation": "Ry"
+    },
+    {
+      "location": "Selchar",
+      "abbreviation": "Se"
+    },
+    {
+      "location": "Tempo Town",
+      "abbreviation": "TT"
+    },
+    {
+      "location": "Thanos",
+      "abbreviation": "Tn"
+    },
+    {
+      "location": "Thesead",
+      "abbreviation": "Ts"
+    },
+    {
+      "location": "Troms",
+      "abbreviation": "Tr"
     }
   ]
 }
