@@ -9,8 +9,16 @@
       "abbreviation": "AT"
     },
     {
+      "location": "Aldwell",
+      "abbreviation": "Aw"
+    },
+    {
       "location": "Almuj",
       "abbreviation": "Aj"
+    },
+    {
+      "location": "Bantisu Air Temple",
+      "abbreviation": "BT"
     },
     {
       "location": "Bucie",
@@ -33,8 +41,20 @@
       "abbreviation": "El"
     },
     {
+      "location": "Espren",
+      "abbreviation": "Es"
+    },
+    {
+      "location": "Fort Torann",
+      "abbreviation": "FT"
+    },
+    {
       "location": "Gelibord",
       "abbreviation": "Ge"
+    },
+    {
+      "location": "Hyloch",
+      "abbreviation": "Hy"
     },
     {
       "location": "Kandon-Beda",
@@ -97,12 +117,20 @@
       "abbreviation": "TT"
     },
     {
+      "location": "Ternaves",
+      "abbreviation": "Te"
+    },
+    {
       "location": "Thanos",
       "abbreviation": "Tn"
     },
     {
       "location": "Thesead",
       "abbreviation": "Ts"
+    },
+    {
+      "location": "Timasca",
+      "abbreviation": "Ti"
     },
     {
       "location": "Troms",
