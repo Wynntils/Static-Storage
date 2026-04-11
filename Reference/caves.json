@@ -1409,6 +1409,25 @@
   },
   {
     "type": "cave",
+    "name": "Gargoyle Fortress",
+    "specialInfo": "",
+    "description": "§7Many seek the treasure at §f[-2265, 32, -3588]§7, none return from that haunted fortress",
+    "length": "long",
+    "lengthInfo": "4m",
+    "difficulty": "hard",
+    "requirements": 65,
+    "rewards": [
+      "65000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": -2265,
+      "y": 32,
+      "z": -3588
+    }
+  },
+  {
+    "type": "cave",
     "name": "Geodesic",
     "specialInfo": "§aCave Complex",
     "description": "§7Fall into a great cavern at §f[-1369, 122, -3060]§7 and behold the crystalline formations therein.",
