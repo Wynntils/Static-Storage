@@ -33,6 +33,14 @@
                     "y": 82,
                     "z": -908
                 }
+            },
+            {
+                "name": "The Wartorn Palace",
+                "coordinates":{
+                    "x": -1625,
+                    "y": 140,
+                    "z": -698
+                }
             }
         ]
     },
@@ -83,9 +91,9 @@
             {
                 "name": "Ice Barrows",
                 "coordinates": {
-                    "x": 177,
-                    "y": 78,
-                    "z": -666
+                    "x": 134,
+                    "y": 84,
+                    "z": -639
                 }
             },
             {
@@ -248,6 +256,30 @@
                     "x": -1834,
                     "y": 45,
                     "z": -5259
+                }
+            },
+            {
+                "name": "Rotten Passage",
+                "coordinates": {
+                    "x": 337,
+                    "y": 38,
+                    "z": -2038
+                }
+            },
+            {
+                "name": "Unknown Area",
+                "coordinates": {
+                    "x": 1323,
+                    "y": 33,
+                    "z": -4611
+                }
+            },
+            {
+                "name": "Deserter's Refuge",
+                "coordinates": {
+                    "x": -1727,
+                    "y": 135,
+                    "z": -946
                 }
             }
         ]
@@ -1522,6 +1554,91 @@
                     "x": 939,
                     "y": 65,
                     "z": -5010
+                }
+            },
+            {
+                "name": "Bat Cave",
+                "coordinates": {
+                    "x": -1689,
+                    "y": 4,
+                    "z": -936
+                }
+            },
+            {
+                "name": "Citadel Lighthouse",
+                "coordinates": {
+                    "x": -1613,
+                    "y": 129,
+                    "z": -834
+                }
+            },
+            {
+                "name": "Fort Hegea",
+                "coordinates": {
+                    "x": -1036,
+                    "y": 40,
+                    "z": -769
+                }
+            }
+        ]
+    },
+    {
+        "type": "Lootrun Camps",
+        "locations":[
+            {
+                "name": "Canyon of the Lost Excursion (South)",
+                "coordinates": {
+                    "x": 578,
+                    "y": 79,
+                    "z": -5018
+                }
+            },
+            {
+                "name": "The Corkus Traversal",
+                "coordinates": {
+                    "x": -1555,
+                    "y": 97,
+                    "z": -2668
+                }
+            },
+            {
+                "name": "Molten Heights Hike",
+                "coordinates": {
+                    "x": 1272,
+                    "y": 10,
+                    "z": -5135
+                }
+            },
+            {
+                "name": "Sky Islands Exploration",
+                "coordinates": {
+                    "x": 1034,
+                    "y": 135,
+                    "z": -4419
+                }
+            },
+            {
+                "name": "Silent Expanse Expedition",
+                "coordinates": {
+                    "x": 991,
+                    "y": 77,
+                    "z": -781
+                }
+            },
+            {
+                "name": "The Fruma Foray (West)",
+                "coordinates": {
+                    "x": -2023,
+                    "y": 4,
+                    "z": -776
+                }
+            },
+            {
+                "name": "The Fruma Foray (East)\n[",
+                "coordinates": {
+                    "x": -1295,
+                    "y": 75,
+                    "z": -1147
                 }
             }
         ]
