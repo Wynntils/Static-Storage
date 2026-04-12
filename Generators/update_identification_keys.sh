@@ -27,7 +27,7 @@ if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")
     exit
 fi
 
-jq --sort-keys '.identifications | sort | values[]' < metadata.json.tmp > ids.tmp
+jq --sort-keys '.filters.identifications | sort | values[]' < metadata.json.tmp > ids.tmp
 
 rm metadata.json.tmp
 
