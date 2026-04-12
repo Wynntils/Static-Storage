@@ -1,6 +1,10 @@
 {
   "destinations": [
     {
+      "location": "Aelumia Citadel",
+      "abbreviation": "AC"
+    },
+    {
       "location": "Ahmsord",
       "abbreviation": "Ahm"
     },
