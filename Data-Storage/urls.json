@@ -107,13 +107,13 @@
   },
   {
     "id": "dataStaticAspects",
-    "md5": "3de54328d3281c6a459f54ff6838fec5",
+    "md5": "52c416f27b3570945b47d26bdc59bf47",
     "path": "Reference/aspects.json",
     "url": "https://cdn.wynntils.com/static/Reference/aspects.json"
   },
   {
     "id": "dataStaticCaveInfo",
-    "md5": "e6961f8594d4a9b29140344561db52d5",
+    "md5": "7aaf1c50ebd9e075f15404e88eadbb88",
     "path": "Reference/caves.json",
     "url": "https://cdn.wynntils.com/static/Reference/caves.json"
   },
@@ -125,7 +125,7 @@
   },
   {
     "id": "dataStaticCombatLocations",
-    "md5": "5217e28bf1e91686a2258418ed7f27c3",
+    "md5": "a4a8abecf2dee0f8c228394323ef49ad",
     "path": "Data-Storage/combat_locations.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/combat_locations.json"
   },
@@ -137,13 +137,13 @@
   },
   {
     "id": "dataStaticDestinations",
-    "md5": "d2b4f0361ee675d029ff30331da37c54",
+    "md5": "a261e384376670ed06624687e6956daf",
     "path": "Data-Storage/destinations.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/destinations.json"
   },
   {
     "id": "dataStaticGear",
-    "md5": "9d7b3fb1aba2820e00bd337c7d3d8464",
+    "md5": "f1702e66c155b575aa3451e279d0424f",
     "path": "Reference/gear.json",
     "url": "https://cdn.wynntils.com/static/Reference/gear.json"
   },
@@ -173,7 +173,7 @@
   },
   {
     "id": "dataStaticIngredients",
-    "md5": "4c9292c184fb05ed096aa7f1bdf54b84",
+    "md5": "80c07b0e6e2f3fe48f63c498ceeb68e7",
     "path": "Reference/ingredients.json",
     "url": "https://cdn.wynntils.com/static/Reference/ingredients.json"
   },
@@ -221,7 +221,7 @@
   },
   {
     "id": "dataStaticMaps",
-    "md5": "0c7e73c6d592e0d288fe58df3b67f7ff",
+    "md5": "b522503043dbcd15e83a17fbc671b072",
     "path": "Reference/maps.json",
     "url": "https://cdn.wynntils.com/static/Reference/maps.json"
   },
@@ -239,7 +239,7 @@
   },
   {
     "id": "dataStaticModelData",
-    "md5": "482f1eb18820e40ed40a6ec5dd0c08b5",
+    "md5": "a9b3aaea76872942bd68362f0423b2e9",
     "path": "Data-Storage/model_data.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/model_data.json"
   },
@@ -275,7 +275,7 @@
   },
   {
     "id": "dataStaticServicesCrowdsourced",
-    "md5": "cb78712f5ca33bc56e9d4dd89b6d12ae",
+    "md5": "fe825871bc7e3d9af5aaaccaeb36087a",
     "path": "Data-Storage/services_crowdsourced.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/services_crowdsourced.json"
   },
