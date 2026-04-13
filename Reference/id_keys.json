@@ -119,5 +119,8 @@
   "rawMaxMana": 117,
   "mainAttackRange": 118,
   "criticalDamageBonus": 119,
-  "mainAttackFireDamage": 120
+  "mainAttackFireDamage": 120,
+  "combatExperience": 121,
+  "gatheringExperience": 122,
+  "waterMainAttackDamage": 123
 }
