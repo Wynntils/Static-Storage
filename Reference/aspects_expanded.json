@@ -7578,15 +7578,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " builds momentum ",
+                "text": " lasts ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+4s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster.",
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ]
@@ -7664,15 +7664,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " builds momentum ",
+                "text": " lasts ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+4s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster.",
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ]
@@ -13174,7 +13174,7 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#FF5555"
+                "color": "#F93131"
               },
               {
                 "text": ".",
@@ -13359,7 +13359,7 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#FF5555"
+                "color": "#F93131"
               },
               {
                 "text": ".",
@@ -13544,7 +13544,7 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#FF5555"
+                "color": "#F93131"
               },
               {
                 "text": ".",
@@ -13706,7 +13706,7 @@
             ],
             [
               {
-                "text": "Flamint Tongue",
+                "text": "Flaming Tongue",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -13729,7 +13729,7 @@
               {
                 "text": "",
                 "font": "common",
-                "color": "#FF5555"
+                "color": "#F93131"
               },
               {
                 "text": ".",
