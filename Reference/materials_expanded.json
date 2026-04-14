@@ -362,7 +362,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1570
+            1574
           ]
         },
         "id": "minecraft:potion",
@@ -370,7 +370,7 @@
       }
     },
     "internalName": "Refined Cinnabar Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 115
     },
@@ -416,7 +416,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1564
+            1568
           ]
         },
         "id": "minecraft:potion",
@@ -424,7 +424,7 @@
       }
     },
     "internalName": "Refined Cobalt Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 60
     },
@@ -470,7 +470,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1558
+            1562
           ]
         },
         "id": "minecraft:potion",
@@ -478,7 +478,7 @@
       }
     },
     "internalName": "Refined Copper Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 1
     },
@@ -659,7 +659,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1569
+            1573
           ]
         },
         "id": "minecraft:potion",
@@ -667,7 +667,7 @@
       }
     },
     "internalName": "Refined Dernic Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 105
     },
@@ -848,7 +848,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1566
+            1570
           ]
         },
         "id": "minecraft:potion",
@@ -856,7 +856,7 @@
       }
     },
     "internalName": "Refined Diamond Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 80
     },
@@ -902,7 +902,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1560
+            1564
           ]
         },
         "id": "minecraft:potion",
@@ -910,7 +910,7 @@
       }
     },
     "internalName": "Refined Gold Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 20
     },
@@ -956,7 +956,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1559
+            1563
           ]
         },
         "id": "minecraft:potion",
@@ -964,7 +964,7 @@
       }
     },
     "internalName": "Refined Granite Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 10
     },
@@ -1334,7 +1334,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1562
+            1566
           ]
         },
         "id": "minecraft:potion",
@@ -1342,7 +1342,7 @@
       }
     },
     "internalName": "Refined Iron Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 40
     },
@@ -1496,7 +1496,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1565
+            1569
           ]
         },
         "id": "minecraft:potion",
@@ -1504,7 +1504,7 @@
       }
     },
     "internalName": "Refined Kanderstone Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 70
     },
@@ -1874,7 +1874,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1567
+            1571
           ]
         },
         "id": "minecraft:potion",
@@ -1882,7 +1882,7 @@
       }
     },
     "internalName": "Refined Molten Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 90
     },
@@ -2414,7 +2414,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1561
+            1565
           ]
         },
         "id": "minecraft:potion",
@@ -2422,7 +2422,7 @@
       }
     },
     "internalName": "Refined Sandstone Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 30
     },
@@ -2468,7 +2468,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1563
+            1567
           ]
         },
         "id": "minecraft:potion",
@@ -2476,7 +2476,7 @@
       }
     },
     "internalName": "Refined Silver Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 50
     },
@@ -2792,7 +2792,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1571
+            1575
           ]
         },
         "id": "minecraft:potion",
@@ -2800,7 +2800,7 @@
       }
     },
     "internalName": "Refined Titanium Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 110
     },
@@ -2900,7 +2900,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1568
+            1572
           ]
         },
         "id": "minecraft:potion",
@@ -2908,7 +2908,7 @@
       }
     },
     "internalName": "Refined Voidstone Ingot",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Feed to your <span class='font-ascii' style='color:#bc8f62'>Mount</span> to upgrade its <span class='font-ascii' style='color:#bc8f62'>Toughness</span> and <span class='font-ascii' style='color:#bc8f62'>Energy</span> \n\nCan be used to purchase blocks in <span class='font-ascii' style='color:#FFFFFF'>Housing</span>, or to craft <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Spears</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Daggers</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Boots</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Leggings</span>, <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Helmets</span>, & <span class='font-ascii' style='color:#FFFFFF'><span class='font-profession'></span></span><span class='font-ascii' style='color:#FFFFFF'> Chestplates</span></span></span></span></span></span></span></span>",
     "requirements": {
       "level": 100
     },
