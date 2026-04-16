@@ -168,6 +168,6 @@ def process_file(input_path, output_path, gear):
                         tier_data["description"] = [parse_html_to_json(desc, "#AAAAAA") for desc in clean_description]
 
     with open(output_path, "w", encoding="utf-8") as outfile:
-        json.dump(data, outfile, indent=2)
+        json.dump(data, outfile)
 
 process_file(sys.argv[1], sys.argv[2], sys.argv[3] == "true")
