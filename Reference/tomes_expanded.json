@@ -1800,9 +1800,9 @@
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "rawHealth": {
         "max": 390,
@@ -1837,9 +1837,9 @@
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 52,
-        "min": 12,
-        "raw": 40
+        "max": 73,
+        "min": 17,
+        "raw": 56
       },
       "rawHealth": {
         "max": 455,
@@ -4855,9 +4855,9 @@
     },
     "identifications": {
       "healthRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 4,
+        "min": 1,
+        "raw": 3
       },
       "lootBonus": {
         "max": 20,
@@ -6063,9 +6063,9 @@
     },
     "identifications": {
       "healthRegen": {
-        "max": 8,
-        "min": 2,
-        "raw": 6
+        "max": 4,
+        "min": 1,
+        "raw": 3
       }
     },
     "internalName": "Tome of Triage Expertise I",
@@ -6104,9 +6104,9 @@
     },
     "identifications": {
       "healthRegen": {
-        "max": 10,
-        "min": 2,
-        "raw": 8
+        "max": 5,
+        "min": 1,
+        "raw": 4
       }
     },
     "internalName": "Tome of Triage Expertise II",
@@ -6145,9 +6145,9 @@
     },
     "identifications": {
       "healthRegen": {
-        "max": 13,
-        "min": 3,
-        "raw": 10
+        "max": 8,
+        "min": 2,
+        "raw": 6
       }
     },
     "internalName": "Tome of Triage Expertise III",
