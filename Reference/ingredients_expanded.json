@@ -926,7 +926,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1669
+            1685
           ]
         },
         "id": "minecraft:potion",
@@ -5257,7 +5257,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1687
+            1703
           ]
         },
         "id": "minecraft:potion",
@@ -7727,38 +7727,33 @@
         "name": "Secretcove Orc Sneak"
       },
       {
-        "coords": [
-          -1840,
-          27,
-          -4890,
-          3
-        ],
+        "coords": false,
         "name": "Secretcove Orc Ruinseeker"
       },
       {
         "coords": [
-          -1617,
-          49,
-          -4611,
-          24
+          -1619,
+          46,
+          -4635,
+          12
         ],
         "name": "Shineridge Orc Appraiser"
       },
       {
         "coords": [
-          -1617,
-          49,
-          -4611,
-          24
+          -1619,
+          46,
+          -4635,
+          12
         ],
         "name": "Shineridge Orc Barterer"
       },
       {
         "coords": [
-          -1617,
-          49,
-          -4611,
-          24
+          -1619,
+          46,
+          -4635,
+          12
         ],
         "name": "Shineridge Orc Jewelsetter"
       },
@@ -7796,7 +7791,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1699
+            1715
           ]
         },
         "id": "minecraft:potion",
@@ -9771,7 +9766,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1714
+            1730
           ]
         },
         "id": "minecraft:potion",
@@ -11349,7 +11344,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1728
+            1744
           ]
         },
         "id": "minecraft:potion",
@@ -13686,7 +13681,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1740
+            1756
           ]
         },
         "id": "minecraft:potion",
@@ -20145,7 +20140,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1781
+            1797
           ]
         },
         "id": "minecraft:potion",
@@ -33697,7 +33692,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1876
+            1892
           ]
         },
         "id": "minecraft:potion",
@@ -36437,34 +36432,40 @@
       {
         "coords": [
           [
-            -1638,
-            80,
-            -2248,
-            20
+            -1450,
+            54,
+            -2845,
+            10
           ],
           [
-            -1706,
-            70,
-            -2516,
-            20
+            -1425,
+            92,
+            -2845,
+            19
           ],
           [
-            -1721,
-            77,
-            -2560,
-            20
+            -1370,
+            92,
+            -2733,
+            45
           ],
           [
-            -1759,
-            73,
-            -2563,
-            20
+            -1370,
+            92,
+            -2733,
+            45
           ],
           [
-            -1767,
-            73,
-            -2620,
-            40
+            -1518,
+            38,
+            -2856,
+            10
+          ],
+          [
+            -1775,
+            61,
+            -2887,
+            10
           ]
         ],
         "name": "U-4epaired Bot"
@@ -36476,7 +36477,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1897
+            1913
           ]
         },
         "id": "minecraft:potion",
@@ -36721,58 +36722,22 @@
       {
         "coords": [
           [
-            -186,
-            48,
-            -5124,
-            20
+            -115,
+            38,
+            -5395,
+            8
           ],
           [
-            -73,
-            43,
-            -5049,
+            -86,
+            42,
+            -5375,
             15
           ],
           [
-            -16,
-            44,
-            -5083,
-            25
-          ],
-          [
-            -7,
-            43,
-            -5140,
-            38
-          ],
-          [
-            -7,
-            43,
-            -5140,
-            38
-          ],
-          [
-            -32,
-            37,
-            -5196,
+            -33,
+            33,
+            -5346,
             15
-          ],
-          [
-            12,
-            36,
-            -5229,
-            15
-          ],
-          [
-            8,
-            43,
-            -5310,
-            15
-          ],
-          [
-            -255,
-            41,
-            -5313,
-            20
           ]
         ],
         "name": "Redline Weird"
@@ -36789,58 +36754,22 @@
       {
         "coords": [
           [
-            -186,
-            48,
-            -5124,
-            20
+            -115,
+            38,
+            -5395,
+            8
           ],
           [
-            -73,
-            43,
-            -5049,
+            -86,
+            42,
+            -5375,
             15
           ],
           [
-            -16,
-            44,
-            -5083,
-            25
-          ],
-          [
-            -7,
-            43,
-            -5140,
-            38
-          ],
-          [
-            -7,
-            43,
-            -5140,
-            38
-          ],
-          [
-            -32,
-            37,
-            -5196,
+            -33,
+            33,
+            -5346,
             15
-          ],
-          [
-            12,
-            36,
-            -5229,
-            15
-          ],
-          [
-            8,
-            43,
-            -5310,
-            15
-          ],
-          [
-            -255,
-            41,
-            -5313,
-            20
           ]
         ],
         "name": "Breathless Weird"
@@ -37378,58 +37307,22 @@
       {
         "coords": [
           [
-            -186,
-            48,
-            -5124,
-            20
+            -115,
+            38,
+            -5395,
+            8
           ],
           [
-            -73,
-            43,
-            -5049,
+            -86,
+            42,
+            -5375,
             15
           ],
           [
-            -16,
-            44,
-            -5083,
-            25
-          ],
-          [
-            -7,
-            43,
-            -5140,
-            38
-          ],
-          [
-            -7,
-            43,
-            -5140,
-            38
-          ],
-          [
-            -32,
-            37,
-            -5196,
+            -33,
+            33,
+            -5346,
             15
-          ],
-          [
-            12,
-            36,
-            -5229,
-            15
-          ],
-          [
-            8,
-            43,
-            -5310,
-            15
-          ],
-          [
-            -255,
-            41,
-            -5313,
-            20
           ]
         ],
         "name": "Breathless Weird"
@@ -37437,16 +37330,16 @@
       {
         "coords": [
           [
-            -1080,
-            44,
-            -4415,
-            30
+            -851,
+            46,
+            -4256,
+            7
           ],
           [
-            -988,
-            72,
-            -4392,
-            30
+            -887,
+            56,
+            -4202,
+            7
           ]
         ],
         "name": "Prismatic Weird"
@@ -46354,7 +46247,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1963
+            1979
           ]
         },
         "id": "minecraft:potion",
@@ -46737,7 +46630,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            1967
+            1983
           ]
         },
         "id": "minecraft:potion",
@@ -59568,7 +59461,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2036
+            2052
           ]
         },
         "id": "minecraft:potion",
@@ -67547,7 +67440,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2091
+            2107
           ]
         },
         "id": "minecraft:potion",
@@ -68667,7 +68560,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2098
+            2114
           ]
         },
         "id": "minecraft:potion",
@@ -68747,7 +68640,7 @@
             10
           ]
         ],
-        "name": "Luciola Larvae"
+        "name": "Luciola"
       },
       {
         "coords": [
@@ -68785,7 +68678,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2099
+            2115
           ]
         },
         "id": "minecraft:potion",
@@ -74068,16 +73961,52 @@
       {
         "coords": [
           [
-            1001,
-            67,
-            -1725,
-            40
+            967,
+            72,
+            -2242,
+            5
           ],
           [
-            1303,
-            76,
-            -1772,
-            50
+            967,
+            72,
+            -2242,
+            5
+          ],
+          [
+            1090,
+            75,
+            -2185,
+            5
+          ],
+          [
+            1122,
+            75,
+            -2130,
+            5
+          ],
+          [
+            1190,
+            77,
+            -2087,
+            5
+          ],
+          [
+            1200,
+            77,
+            -1787,
+            5
+          ],
+          [
+            1047,
+            71,
+            -1733,
+            5
+          ],
+          [
+            919,
+            67,
+            -1773,
+            5
           ]
         ],
         "name": "Scarab"
@@ -74206,160 +74135,34 @@
       {
         "coords": [
           [
-            -2182,
-            55,
-            -5243,
-            4
-          ],
-          [
-            -2158,
-            56,
-            -5241,
-            4
-          ],
-          [
-            -2045,
-            56,
-            -5221,
-            6
-          ],
-          [
-            -2042,
-            55,
-            -5268,
-            4
-          ],
-          [
-            -1992,
-            56,
-            -5264,
-            4
-          ],
-          [
-            -1946,
+            -1927,
             57,
-            -5295,
-            4
+            -5294,
+            5
           ],
           [
-            -1976,
-            57,
-            -5318,
-            6
+            -2150,
+            62,
+            -5330,
+            5
           ],
           [
-            -2005,
-            58,
-            -5369,
-            6
+            -1744,
+            55,
+            -5138,
+            5
           ],
           [
-            -2025,
-            58,
+            -1521,
+            49,
             -5183,
-            6
+            5
           ],
           [
-            -2060,
-            58,
-            -5145,
-            6
-          ],
-          [
-            -2103,
-            56,
-            -5134,
-            6
-          ],
-          [
-            -1952,
-            55,
-            -5091,
-            12
-          ],
-          [
-            -1953,
-            55,
-            -5091,
-            12
-          ],
-          [
-            -2071,
-            56,
-            -5361,
-            6
-          ],
-          [
-            -1878,
-            59,
-            -5151,
-            8
-          ],
-          [
-            -1619,
-            53,
-            -5201,
-            6
-          ],
-          [
-            -1641,
-            53,
-            -5217,
-            6
-          ],
-          [
-            -1650,
-            53,
-            -5202,
-            6
-          ],
-          [
-            -1893,
-            54,
-            -5512,
-            8
-          ],
-          [
-            -1577,
-            53,
-            -5370,
-            8
-          ],
-          [
-            -1950,
-            58,
-            -5093,
-            12
-          ],
-          [
-            -1951,
-            58,
-            -5087,
-            12
-          ],
-          [
-            -1955,
-            58,
-            -5087,
-            12
-          ],
-          [
-            -1956,
-            58,
-            -5093,
-            12
-          ],
-          [
-            -1953,
-            58,
-            -5093,
-            6
-          ],
-          [
-            -1954,
-            58,
-            -5090,
-            8
+            -1456,
+            46,
+            -5333,
+            5
           ]
         ],
         "name": "Stirge"
@@ -74534,18 +74337,10 @@
       },
       {
         "coords": [
-          [
-            -1736,
-            43,
-            -5591,
-            6
-          ],
-          [
-            -1748,
-            19,
-            -5552,
-            8
-          ]
+          -1743,
+          20,
+          -5468,
+          8
         ],
         "name": "Aquifer Silkworm"
       },
@@ -74639,7 +74434,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2132
+            2148
           ]
         },
         "id": "minecraft:potion",
@@ -89539,7 +89334,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2217
+            2233
           ]
         },
         "id": "minecraft:potion",
@@ -95380,7 +95175,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2253
+            2269
           ]
         },
         "id": "minecraft:potion",
@@ -98462,7 +98257,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2278
+            2294
           ]
         },
         "id": "minecraft:potion",
@@ -98528,7 +98323,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2279
+            2295
           ]
         },
         "id": "minecraft:potion",
@@ -98597,7 +98392,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2280
+            2296
           ]
         },
         "id": "minecraft:potion",
@@ -98721,7 +98516,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2282
+            2298
           ]
         },
         "id": "minecraft:potion",
@@ -98918,7 +98713,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2285
+            2301
           ]
         },
         "id": "minecraft:potion",
@@ -105033,7 +104828,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2309
+            2325
           ]
         },
         "id": "minecraft:potion",
@@ -107643,7 +107438,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2329
+            2345
           ]
         },
         "id": "minecraft:potion",
@@ -110967,13 +110762,23 @@
       "charges": 0,
       "duration": -110
     },
+    "droppedBy": [
+      {
+        "coords": null,
+        "name": "Trapper "
+      },
+      {
+        "coords": null,
+        "name": "Poacher "
+      }
+    ],
     "emblem": "square",
     "icon": {
       "format": "attribute",
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2353
+            2369
           ]
         },
         "id": "minecraft:potion",
@@ -112970,48 +112775,10 @@
     "droppedBy": [
       {
         "coords": [
-          [
-            1051,
-            138,
-            -4908,
-            25
-          ],
-          [
-            1077,
-            133,
-            -4905,
-            25
-          ],
-          [
-            946,
-            101,
-            -4989,
-            25
-          ],
-          [
-            920,
-            119,
-            -4889,
-            45
-          ],
-          [
-            920,
-            119,
-            -4889,
-            45
-          ],
-          [
-            929,
-            169,
-            -4793,
-            45
-          ],
-          [
-            929,
-            169,
-            -4793,
-            45
-          ]
+          996,
+          160,
+          -4844,
+          35
         ],
         "name": "Sky Snail"
       }
@@ -113022,7 +112789,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2374
+            2390
           ]
         },
         "id": "minecraft:potion",
@@ -120037,7 +119804,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2415
+            2431
           ]
         },
         "id": "minecraft:potion",
@@ -140710,7 +140477,7 @@
       "value": {
         "customModelData": {
           "rangeDispatch": [
-            2550
+            2566
           ]
         },
         "id": "minecraft:potion",
