@@ -24,8 +24,8 @@ if [ ! -s classes.json.tmp ]; then
     exit
 fi
 
-# Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
-if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' classes.json.tmp > /dev/null; then
+# Check if the file is a JSON object with an API error payload
+if jq -e 'type == "object" and ((has("message") and has("request_id")) or has("error"))' classes.json.tmp > /dev/null; then
     rm classes.json.tmp
     echo "Error: Wynncraft API returned an error message, aborting"
     exit
@@ -45,15 +45,25 @@ for CLASS in $ASPECT_CLASSES; do
         exit
     fi
 
-    # Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
-    if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' ${CLASS}_aspects.json.tmp > /dev/null; then
+    # Check if the file is a JSON object with an API error payload
+    if jq -e 'type == "object" and ((has("message") and has("request_id")) or has("error"))' ${CLASS}_aspects.json.tmp > /dev/null; then
         rm ${CLASS}_aspects.json.tmp
         echo "Error: Wynncraft API returned an error message for $CLASS, aborting"
         exit
     fi
 
-    # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
-    jq --sort-keys < ${CLASS}_aspects.json.tmp > ${CLASS}_aspects.json.tmp2
+    # Reformat the API response to keep compatibility with the old key format.
+    # Aspects are keyed by "name" in legacy output.
+    # and then sort keys, since the Wynncraft API is not stable in its order.
+    jq -S 'if type == "array" then
+            (map(
+                if (.name // .displayName // .internalName) == null
+                then error("Missing name/displayName/internalName in aspects payload")
+                else { key: (.name // .displayName // .internalName), value: . }
+                end
+            ) | from_entries)
+        else .
+        end' < ${CLASS}_aspects.json.tmp > ${CLASS}_aspects.json.tmp2
     # Run the Python script to save the class file with the HTML description parsed to JSON
     python ../Utils/html_parser.py ${CLASS}_aspects.json.tmp2 ${CLASS}_aspects.json false
     rm ${CLASS}_aspects.json.tmp ${CLASS}_aspects.json.tmp2
