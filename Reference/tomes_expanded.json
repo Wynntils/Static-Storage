@@ -1883,9 +1883,9 @@
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "rawHealth": {
         "max": 390,
@@ -1929,9 +1929,9 @@
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "rawHealth": {
         "max": 390,
@@ -1975,9 +1975,9 @@
     },
     "identifications": {
       "healthRegenRaw": {
-        "max": 46,
-        "min": 11,
-        "raw": 35
+        "max": 65,
+        "min": 15,
+        "raw": 50
       },
       "rawHealth": {
         "max": 390,
