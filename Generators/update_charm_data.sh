@@ -21,15 +21,24 @@ if [ ! -s charms.json.tmp ]; then
     exit
 fi
 
-# Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
-if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' charms.json.tmp > /dev/null; then
+# Check if the file is a JSON object with an API error payload
+if jq -e 'type == "object" and ((has("message") and has("request_id")) or has("error"))' charms.json.tmp > /dev/null; then
     rm charms.json.tmp
     echo "Error: Wynncraft API returned an error message, aborting"
     exit
 fi
 
-# Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
-jq --sort-keys -r '.' < charms.json.tmp > charms.json.tmp2
+# Reformat the API response to keep compatibility with the old key format (displayName as key)
+# and then sort keys, since the Wynncraft API is not stable in its order.
+jq -S 'if type == "array" then
+        (map(
+            if (.displayName // .name // .internalName) == null
+            then error("Missing displayName/name/internalName in item payload")
+            else { key: (.displayName // .name // .internalName), value: (del(.displayName)) }
+            end
+        ) | from_entries)
+    else .
+    end' < charms.json.tmp > charms.json.tmp2
 # Minimalize the json file
 jq -c < charms.json.tmp2 > charms.json
 rm charms.json.tmp charms.json.tmp2

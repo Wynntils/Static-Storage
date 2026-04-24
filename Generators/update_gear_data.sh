@@ -22,21 +22,40 @@ if [ ! -s gear.json.tmp ]; then
     exit
 fi
 
-# Check if the file is a JSON with a "message" and "request_id" key or the "error" key is present
-if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")' gear.json.tmp > /dev/null; then
+# Check if the file is a JSON object with an API error payload
+if jq -e 'type == "object" and ((has("message") and has("request_id")) or has("error"))' gear.json.tmp > /dev/null; then
     rm gear.json.tmp
     echo "Error: Wynncraft API returned an error message, aborting"
     exit
 fi
 
-# Merge gear_missing.json into gear.json.tmp
-jq -s '.[0] + .[1]' gear.json.tmp "$DATA_STORAGE/gear_missing.json" > gear_merged.json.tmp
+# Reformat the API response to keep compatibility with the old key format.
+# For mythic masterwork gear, prefix displayName with "Ascended " to keep keys unique.
+jq 'if type == "array" then
+        (map({
+            key: (
+                (.displayName // .name // .internalName) as $baseName
+                | if $baseName == null then
+                    error("Missing displayName/name/internalName in gear payload")
+                  elif ((.internalName // "") | startswith("Masterwork ")) and ((.tier // "") == "mythic") then
+                    ("Ascended " + $baseName)
+                  else
+                    $baseName
+                  end
+              ),
+            value: (del(.displayName))
+        }) | from_entries)
+    else .
+    end' < gear.json.tmp > gear_reformatted.json.tmp
+
+# Merge gear_missing.json into reformatted gear data
+jq -s '.[0] + .[1]' gear_reformatted.json.tmp "$DATA_STORAGE/gear_missing.json" > gear_merged.json.tmp
 
 # Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
 jq --sort-keys -r '.' < gear_merged.json.tmp > gear.json.tmp2
 # Run the Python script to save the file with the HTML major ID parsed to JSON
 python ../Utils/html_parser.py gear.json.tmp2 gear.json true
-rm gear.json.tmp gear_merged.json.tmp gear.json.tmp2
+rm gear.json.tmp gear_reformatted.json.tmp gear_merged.json.tmp gear.json.tmp2
 
 # To be able to review new data, we also need an expanded, human-readable version
 jq '.' < gear.json > gear_expanded.json
