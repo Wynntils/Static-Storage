@@ -83289,17 +83289,6 @@
       "charges": 0,
       "duration": -225
     },
-    "droppedBy": [
-      {
-        "coords": [
-          -1902,
-          25,
-          -1169,
-          0
-        ],
-        "name": "Patrolling Cavalier"
-      }
-    ],
     "emblem": "square",
     "icon": {
       "format": "attribute",
