@@ -815,7 +815,7 @@
         "y": 31,
         "z": -4606
       },
-      "name": "Burning Delve",
+      "name": "Natural Sanctuary",
       "taskType": "loot"
     },
     {
@@ -939,9 +939,9 @@
     },
     {
       "location": {
-        "x": -2176,
+        "x": -2188,
         "y": 20,
-        "z": -561
+        "z": -566
       },
       "name": "Biofilm Overgrowth",
       "taskType": "defend"
@@ -1062,6 +1062,15 @@
       },
       "name": "Weapons Factory",
       "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": -2207,
+        "y": 32,
+        "z": -1381
+      },
+      "name": "Siltswimmer Den",
+      "taskType": "loot"
     }
   ],
   "theFrumaForayEast": [
@@ -1114,7 +1123,7 @@
       "location": {
         "x": -1443,
         "y": 107,
-        "z": -1037
+        "z": -1033
       },
       "name": "Liftal Castle",
       "taskType": "loot"

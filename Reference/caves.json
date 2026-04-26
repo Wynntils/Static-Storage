@@ -480,25 +480,6 @@
   },
   {
     "type": "cave",
-    "name": "Burning Delve",
-    "specialInfo": "",
-    "description": "§7Elephelks unfortunate enough to take a dip into the nearby open lava lake inhabit this cave at §f[346, 35, -4606]§7 as well as some nastier creatures",
-    "length": "medium",
-    "lengthInfo": "1m15s",
-    "difficulty": "medium",
-    "requirements": 87,
-    "rewards": [
-      "300000 XP",
-      "Various Items"
-    ],
-    "location": {
-      "x": 346,
-      "y": 35,
-      "z": -4606
-    }
-  },
-  {
-    "type": "cave",
     "name": "Caged Creatures",
     "specialInfo": "",
     "description": "§7The caretakers have become the pets. Rules are upturned in a twisted spectacle, hidden away at §f[1134, 136, -1121]",
@@ -899,6 +880,25 @@
       "x": 51,
       "y": 47,
       "z": -4456
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Dead Man's Dugout",
+    "specialInfo": "",
+    "description": "§7The dead remains of pirates past live at §f[853, 37, -2448]",
+    "length": "medium",
+    "lengthInfo": "2m",
+    "difficulty": "medium",
+    "requirements": 25,
+    "rewards": [
+      "2000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 853,
+      "y": 37,
+      "z": -2448
     }
   },
   {
@@ -1390,25 +1390,6 @@
   },
   {
     "type": "cave",
-    "name": "Gator Range",
-    "specialInfo": "",
-    "description": "§7Alligator people live in the little ponds of a cave around §f[1306, 32, -1452]",
-    "length": "medium",
-    "lengthInfo": "1m30s",
-    "difficulty": "medium",
-    "requirements": 37,
-    "rewards": [
-      "3200 XP",
-      "Various Items"
-    ],
-    "location": {
-      "x": 1306,
-      "y": 32,
-      "z": -1452
-    }
-  },
-  {
-    "type": "cave",
     "name": "Gargoyle Fortress",
     "specialInfo": "",
     "description": "§7Many seek the treasure at §f[-2265, 32, -3588]§7, none return from that haunted fortress",
@@ -1424,6 +1405,25 @@
       "x": -2265,
       "y": 32,
       "z": -3588
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Gator Range",
+    "specialInfo": "",
+    "description": "§7Alligator people live in the little ponds of a cave around §f[1306, 32, -1452]",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 37,
+    "rewards": [
+      "3200 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 1306,
+      "y": 32,
+      "z": -1452
     }
   },
   {
@@ -2124,6 +2124,25 @@
       "x": -2025,
       "y": 60,
       "z": -5081
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Natural Sanctuary",
+    "specialInfo": "",
+    "description": "§7The Canyons flora is more diverse than most realize, with sanctuaries of all sorts spread all throughout such as at §f[292, 25, -4554]§7.",
+    "length": "medium",
+    "lengthInfo": "1m35s",
+    "difficulty": "medium",
+    "requirements": 87,
+    "rewards": [
+      "300000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 292,
+      "y": 25,
+      "z": -4554
     }
   },
   {
