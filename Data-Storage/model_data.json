@@ -220,7 +220,17 @@
     "leggings.titanium": 9.0,
     "leggings.pale_titanium": 17.0,
     "boots.titanium": 9.0,
-    "boots.pale_titanium": 17.0
+    "boots.pale_titanium": 17.0,
+    "ward_black": 2644.0,
+    "ward_blue": 2645.0,
+    "ward_cyan": 2646.0,
+    "ward_green": 2647.0,
+    "ward_orange": 2648.0,
+    "ward_pink": 2649.0,
+    "ward_purple": 2650.0,
+    "ward_red": 2651.0,
+    "ward_white": 2652.0,
+    "ward_yellow": 2653.0
   },
   "ranges": {
     "tome": [
