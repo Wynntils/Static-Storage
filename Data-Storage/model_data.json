@@ -1,6 +1,6 @@
 {
   "floats": {
-    "mythic_box": 81.0,
+    "mythic_box": 2603.0,
     "beacon_color": 197.0,
     "corkian_amplifier": 188.0,
     "corkian_insulator": 189.0,
@@ -292,6 +292,10 @@
     "boots": [
       1.0,
       24.0
+    ],
+    "beacon_color": [
+      197.0,
+      222.0
     ]
   }
 }

@@ -229,7 +229,7 @@ LOOKUPS_TOMES=(
 
 LOOKUPS_MISC=(
   "mythic_box|loot/mythic"
-  "beacon_color|gui/beacon/white"
+  "beacon_color|gui/beacon/white|range"
   "corkian_amplifier|augment/corkian_amplifier"
   "corkian_insulator|augment/corkian_insulator"
   "corkian_simulator|augment/corkian_simulator"
@@ -334,17 +334,40 @@ extract_values() {
 
   jq -r --arg p "$prefix" '
     [
+      # override
       (
         .overrides[]?
         | select(.model? | type == "string")
         | select(.model | startswith($p))
         | .predicate.custom_model_data?
       ),
+
+      # default
       (
         .. | objects
         | select(has("threshold"))
         | select(.model.model? | type == "string")
         | select(.model.model | startswith($p))
+        | .threshold
+      ),
+
+      # cases[]
+      (
+        .. | objects
+        | select(has("threshold"))
+        | select(.model.cases?)
+        | .model.cases[]
+        | select(.model.model? | type == "string")
+        | select(.model.model | startswith($p))
+        | .threshold
+      ),
+
+      # fallback
+      (
+        .. | objects
+        | select(has("threshold"))
+        | select(.model.fallback?.model? | type == "string")
+        | select(.model.fallback.model | startswith($p))
         | .threshold
       )
     ]
