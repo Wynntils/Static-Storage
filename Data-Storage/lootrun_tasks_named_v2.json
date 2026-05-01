@@ -179,6 +179,15 @@
       },
       "name": "Fort Corkia",
       "taskType": "target"
+    },
+    {
+      "location": {
+        "x": -1369,
+        "y": 117,
+        "z": -3060
+      },
+      "name": "Geodesic",
+      "taskType": "loot"
     }
   ],
   "moltenHeightsHike": [
