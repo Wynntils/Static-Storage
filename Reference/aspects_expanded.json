@@ -8545,7 +8545,7 @@
         "value": {
           "customModelData": {
             "rangeDispatch": [
-              212
+              58
             ]
           },
           "id": "minecraft:potion",
@@ -8561,17 +8561,22 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Increase your ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Mana Bank ✺",
-                "color": "#55FFFF"
+                "text": "maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Arcane Overflow",
+                "underline": true,
+                "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and your maximum Overflow Mana by ",
+                "text": "Mana by ",
                 "color": "#AAAAAA"
               },
               {
@@ -8590,21 +8595,30 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Increase your ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Mana Bank ✺",
-                "color": "#55FFFF"
+                "text": "maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Arcane Overflow",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and your maximum Overflow Mana by ",
+                "text": "Mana by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+25%",
+                "text": "+33%",
                 "color": "#FFFFFF"
               },
               {
@@ -8619,17 +8633,26 @@
           "description": [
             [
               {
-                "text": "Increase your maximum ",
+                "text": "Increase your ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Mana Bank ✺",
-                "color": "#55FFFF"
+                "text": "maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Arcane Overflow",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and your maximum Overflow Mana by ",
+                "text": "Mana by ",
                 "color": "#AAAAAA"
               },
               {
@@ -13955,7 +13978,7 @@
         "value": {
           "customModelData": {
             "rangeDispatch": [
-              214
+              62
             ]
           },
           "id": "minecraft:potion",
@@ -13980,7 +14003,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+4%",
                 "color": "#FFFFFF"
               },
               {
@@ -14017,7 +14040,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+9%",
+                "text": "+6%",
                 "color": "#FFFFFF"
               },
               {
@@ -14054,7 +14077,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+12%",
+                "text": "+8%",
                 "color": "#FFFFFF"
               },
               {
@@ -14091,7 +14114,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
