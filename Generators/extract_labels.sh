@@ -9,8 +9,8 @@ MYDIR=$(cd $(dirname "$0") >/dev/null 2>&1 && pwd)
 TARGET="$MYDIR/../Reference/places.json"
 TARGET_MAPFEATURES="$MYDIR/../Reference/place_mapfeatures.json"
 
-# This file contain additional labels that are not provided by upstread.
-MISSING="$MYDIR/../Data-Storage/map-labels-missing.json"
+# This file contains label overrides/additions.
+OVERRIDES="$MYDIR/../Data-Storage/map_labels_overrides.json"
 
 command -v curl > /dev/null 2>&1
 if test $? -ne 0; then
@@ -95,12 +95,17 @@ jq -R -s '
       end
     )
   | { labels: . }
-' "$TARGET.tmp" \
-| jq -s '
-    (.[0].labels + (.[1].labels // []))
+' "$TARGET.tmp" |
+jq -s '
+    (
+      (.[0].labels // [])
+      + (.[1].labels // [])
+    )
+    | group_by(.name)
+    | map(.[-1])
     | sort_by(.name)
     | { labels: . }
-  ' - "$MISSING" \
+  ' - "$OVERRIDES" \
 > "$TARGET"
 rm "$TARGET.tmp"
 
