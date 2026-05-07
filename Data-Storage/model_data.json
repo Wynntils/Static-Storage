@@ -1,7 +1,6 @@
 {
   "floats": {
     "mythic_box": 2603.0,
-    "beacon_color": 197.0,
     "corkian_amplifier": 188.0,
     "corkian_insulator": 189.0,
     "corkian_simulator": 190.0,
@@ -170,6 +169,7 @@
     "charm.light": 595.0,
     "charm.stone": 596.0,
     "charm.void": 597.0,
+    "charm.corruption": 594.0,
     "tome.armour": 4112.0,
     "tome.guild": 4113.0,
     "tome.lootrun": 4114.0,
