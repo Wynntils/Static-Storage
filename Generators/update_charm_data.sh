@@ -2,6 +2,7 @@
 # This script is used to update the gear data from the Wynncraft API.
 
 TARGET_DIR=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Reference
+DATA_STORAGE=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Data-Storage
 
 cd $TARGET_DIR
 
@@ -38,10 +39,17 @@ jq -S 'if type == "array" then
             end
         ) | from_entries)
     else .
-    end' < charms.json.tmp > charms.json.tmp2
+    end' < charms.json.tmp > charms_reformatted.json.tmp
+
+# Merge charm_missing.json into reformatted charm data
+jq -s '.[1] + .[0]' charms_reformatted.json.tmp "$DATA_STORAGE/charm_missing.json" > charms_merged.json.tmp
+
+# Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
+jq --sort-keys -r '.' < charms_merged.json.tmp > charms.json.tmp2
+
 # Minimalize the json file
 jq -c < charms.json.tmp2 > charms.json
-rm charms.json.tmp charms.json.tmp2
+rm charms.json.tmp charms_reformatted.json.tmp charms_merged.json.tmp charms.json.tmp2
 
 # To be able to review new data, we also need an expanded, human-readable version
 jq '.' < charms.json > charms_expanded.json

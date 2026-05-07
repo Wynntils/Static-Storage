@@ -215,6 +215,7 @@ LOOKUPS_CHARMS=(
   "charm.light|light"
   "charm.stone|stone"
   "charm.void|void"
+  "charm.corruption|corruption"
 )
 
 LOOKUPS_TOMES=(
