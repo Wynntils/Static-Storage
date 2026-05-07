@@ -97,7 +97,7 @@
   },
   {
     "id": "dataAthenaTerritoryListV2",
-    "url": "https://athena.wynntils.com/v2/cache/get/territoryList"
+    "url": "https://athena.wynntils.com/cache/get/territoryList"
   },
   {
     "id": "dataStaticAbilities",
