@@ -15,11 +15,15 @@ JSON_METADATA_FILE="$WYNNDATA_DIR/Reference/maps.json"
 # ImageMagick respects SOURCE_DATE_EPOCH, and will make consistent timestamps if it is set
 export SOURCE_DATE_EPOCH=946684800
 
-if [ "$(uname -s)" == "Linux" ]; then
-    HEAD=head
-else # Use GNU head, macOS BSD head is too stupid
-    HEAD=ghead
-fi
+case "$(uname -s)" in
+    Linux*|MINGW*|MSYS*|CYGWIN*)
+        HEAD=head
+        ;;
+    *)
+        # Use GNU head, macOS BSD head is too stupid
+        HEAD=ghead
+        ;;
+esac
 
 mkdir -p $WYNNDATA_DIR/tmp/rawmap
 TMPDIR=$(mktemp -dt wynntils-map.XXXXX)
