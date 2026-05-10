@@ -209,6 +209,7 @@ do_map "Gateway Island" "gateway-island" 38 39 -10 -9
 do_map "Gateway Island Crash" "gateway-island-crash" 41 41 -9 -9
 do_map "The Feathers Fly Part II, Corkus City Plant" "feathers-fly-corkus-city-plant" -1 0 40 41
 do_map "Burning Bonds, Changeling Fight" "burning-bonds-changeling-fight" 11 11 -39 -38
+do_map "Apotheosis, Hyloch" "apotheosis-hyloch" -4 -4 9 9
 
 # Remove the trailing comma
 $HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp
