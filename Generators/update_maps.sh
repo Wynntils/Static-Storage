@@ -15,11 +15,15 @@ JSON_METADATA_FILE="$WYNNDATA_DIR/Reference/maps.json"
 # ImageMagick respects SOURCE_DATE_EPOCH, and will make consistent timestamps if it is set
 export SOURCE_DATE_EPOCH=946684800
 
-if [ "$(uname -s)" == "Linux" ]; then
-    HEAD=head
-else # Use GNU head, macOS BSD head is too stupid
-    HEAD=ghead
-fi
+case "$(uname -s)" in
+    Linux*|MINGW*|MSYS*|CYGWIN*)
+        HEAD=head
+        ;;
+    *)
+        # Use GNU head, macOS BSD head is too stupid
+        HEAD=ghead
+        ;;
+esac
 
 mkdir -p $WYNNDATA_DIR/tmp/rawmap
 TMPDIR=$(mktemp -dt wynntils-map.XXXXX)
@@ -208,6 +212,13 @@ do_map "On Board Little Wing" "on-board-little-wing" 4 5 -9 -8
 do_map "Gateway Island" "gateway-island" 38 39 -10 -9
 do_map "Gateway Island Crash" "gateway-island-crash" 41 41 -9 -9
 do_map "The Feathers Fly Part II, Corkus City Plant" "feathers-fly-corkus-city-plant" -1 0 40 41
+do_map "Burning Bonds, Changeling Fight" "burning-bonds-changeling-fight" 11 11 -39 -38
+do_map "Apotheosis, Hyloch" "apotheosis-hyloch" -4 -4 9 9
+do_map "Echoes of Change, Escape" "echoes-of-change-escape" -4 -4 4 5
+do_map "Overture to Despair, Fort Escape" "overture-to-despair-fort-escape" -3 -3 11 11
+do_map "The Strong Survive, Commander Fight" "the-strong-survive-commander-fight" -23 -23 12 12
+do_map "Revelations in Fall, Zhiraok fight" "revelations-in-fall-zhiraok-fight" -14 -14 3 3
+do_map "Ensemble of Hope, Elevator Fight" "ensemble-of-hope-elevator-fight" -1 0 10 10
 
 # Remove the trailing comma
 $HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp

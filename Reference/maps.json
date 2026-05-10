@@ -448,5 +448,75 @@
     "x2": 511,
     "z2": 21503,
     "md5": "0895240e2ce193aca80407a22d674daf"
+  },
+  {
+    "name": "Burning Bonds, Changeling Fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-burning-bonds-changeling-fight.png",
+    "path": "Reference/maps/map-burning-bonds-changeling-fight.png",
+    "x1": 5632,
+    "z1": -19968,
+    "x2": 6143,
+    "z2": -18945,
+    "md5": "ab98738e497deb9b9e9ac46a45fe81e7"
+  },
+  {
+    "name": "Apotheosis, Hyloch",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-apotheosis-hyloch.png",
+    "path": "Reference/maps/map-apotheosis-hyloch.png",
+    "x1": -2048,
+    "z1": 4608,
+    "x2": -1537,
+    "z2": 5119,
+    "md5": "6a460b1ec84cc5a167d701c9f1ead30b"
+  },
+  {
+    "name": "Echoes of Change, Escape",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-echoes-of-change-escape.png",
+    "path": "Reference/maps/map-echoes-of-change-escape.png",
+    "x1": -2048,
+    "z1": 2048,
+    "x2": -1537,
+    "z2": 3071,
+    "md5": "32a517e9894b9286d8ef5e82f0b92ec4"
+  },
+  {
+    "name": "Overture to Despair, Fort Escape",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-overture-to-despair-fort-escape.png",
+    "path": "Reference/maps/map-overture-to-despair-fort-escape.png",
+    "x1": -1536,
+    "z1": 5632,
+    "x2": -1025,
+    "z2": 6143,
+    "md5": "0ac614e911233e6b34a79515fdacd3a0"
+  },
+  {
+    "name": "The Strong Survive, Commander Fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-the-strong-survive-commander-fight.png",
+    "path": "Reference/maps/map-the-strong-survive-commander-fight.png",
+    "x1": -11776,
+    "z1": 6144,
+    "x2": -11265,
+    "z2": 6655,
+    "md5": "eaf9d1d95c08357828ebd3ccea3773c2"
+  },
+  {
+    "name": "Revelations in Fall, Zhiraok fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-revelations-in-fall-zhiraok-fight.png",
+    "path": "Reference/maps/map-revelations-in-fall-zhiraok-fight.png",
+    "x1": -7168,
+    "z1": 1536,
+    "x2": -6657,
+    "z2": 2047,
+    "md5": "c059963d0d5807d4d524deaaea0c888a"
+  },
+  {
+    "name": "Ensemble of Hope, Elevator Fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-ensemble-of-hope-elevator-fight.png",
+    "path": "Reference/maps/map-ensemble-of-hope-elevator-fight.png",
+    "x1": -512,
+    "z1": 5120,
+    "x2": 511,
+    "z2": 5631,
+    "md5": "40369ce88cc724035f8376e5b9ada332"
   }
 ]
