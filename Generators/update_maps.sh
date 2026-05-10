@@ -219,6 +219,8 @@ do_map "Overture to Despair, Fort Escape" "overture-to-despair-fort-escape" -3 -
 do_map "The Strong Survive, Commander Fight" "the-strong-survive-commander-fight" -23 -23 12 12
 do_map "Revelations in Fall, Zhiraok fight" "revelations-in-fall-zhiraok-fight" -14 -14 3 3
 do_map "Ensemble of Hope, Elevator Fight" "ensemble-of-hope-elevator-fight" -1 0 10 10
+do_map "Apotheosis, Tasim Fight" "apotheosis-tasim-fight" -5 -5 11 11
+do_map "Apotheosis, Queen Fight" "apotheosis-queen-fight" -6 -6 11 11
 
 # Remove the trailing comma
 $HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp
