@@ -518,5 +518,25 @@
     "x2": 511,
     "z2": 5631,
     "md5": "40369ce88cc724035f8376e5b9ada332"
+  },
+  {
+    "name": "Apotheosis, Tasim Fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-apotheosis-tasim-fight.png",
+    "path": "Reference/maps/map-apotheosis-tasim-fight.png",
+    "x1": -2560,
+    "z1": 5632,
+    "x2": -2049,
+    "z2": 6143,
+    "md5": "c372bd563a1bf60b537aff7a246067ca"
+  },
+  {
+    "name": "Apotheosis, Queen Fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-apotheosis-queen-fight.png",
+    "path": "Reference/maps/map-apotheosis-queen-fight.png",
+    "x1": -3072,
+    "z1": 5632,
+    "x2": -2561,
+    "z2": 6143,
+    "md5": "15e0dcf5e65cb50e87df0a041fc2a7fb"
   }
 ]
