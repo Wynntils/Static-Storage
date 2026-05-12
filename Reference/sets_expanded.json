@@ -1,0 +1,2463 @@
+{
+  "Adventurer": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "damage": 4,
+          "lootBonus": 5,
+          "rawHealth": 15,
+          "walkSpeed": 2
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "damage": 12,
+          "lootBonus": 10,
+          "rawHealth": 40,
+          "walkSpeed": 5
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 50,
+          "damage": 25,
+          "lootBonus": 30,
+          "manaRegen": 12,
+          "rawHealth": 175,
+          "walkSpeed": 15
+        }
+      }
+    },
+    "internalName": "adventurer",
+    "parts": [
+      "Adventurer's Boots",
+      "Adventurer's Tunic",
+      "Adventurer's Cap",
+      "Adventurer's Pants"
+    ]
+  },
+  "Air Relic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "lootBonus": 10,
+          "rawHealth": 60,
+          "walkSpeed": 10
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "lootBonus": 25,
+          "rawHealth": 190,
+          "walkSpeed": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "lootBonus": 50,
+          "rawAgility": 20,
+          "rawHealth": 400,
+          "walkSpeed": 60
+        }
+      }
+    },
+    "internalName": "air relic",
+    "parts": [
+      "Air Relic Boots",
+      "Air Relic Chestplate",
+      "Air Relic Helmet",
+      "Air Relic Leggings"
+    ]
+  },
+  "Ascension": {
+    "bonuses": {
+      "4": {
+        "major": [],
+        "minor": {
+          "damage": 75,
+          "healthRegenRaw": 600,
+          "lifeSteal": 500,
+          "manaRegen": 30,
+          "manaSteal": 20
+        }
+      }
+    },
+    "internalName": "ascension",
+    "parts": [
+      "Champion Boots",
+      "Champion Chestplate",
+      "Champion Leggings",
+      "Champion Helmet"
+    ]
+  },
+  "Bandit's": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 3,
+          "lootBonus": 4,
+          "stealing": 1
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 7,
+          "lootBonus": 9,
+          "stealing": 3
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 12,
+          "lootBonus": 15,
+          "stealing": 6
+        }
+      }
+    },
+    "internalName": "bandit's",
+    "parts": [
+      "Bandit's Bangle",
+      "Bandit's Locket",
+      "Bandit's Ring",
+      "Bandit's Knuckle"
+    ]
+  },
+  "Beachside": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healingEfficiency": 20,
+          "lootBonus": 20,
+          "rawMaxMana": 30,
+          "waterDefence": 25
+        }
+      }
+    },
+    "internalName": "beachside",
+    "parts": [
+      "Beachside Conch",
+      "Beachside Headwrap"
+    ]
+  },
+  "Bear": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "mainAttackDamage": 14,
+          "rawHealth": 75,
+          "rawMainAttackDamage": 25
+        }
+      }
+    },
+    "internalName": "bear",
+    "parts": [
+      "Bear Body",
+      "Bear Head",
+      "Bear Mask"
+    ]
+  },
+  "Black": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "manaSteal": 4,
+          "rawDexterity": 2,
+          "rawMainAttackDamage": 5,
+          "rawSpellDamage": 15
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "manaSteal": 4,
+          "rawDexterity": 6,
+          "rawMainAttackDamage": 10,
+          "rawSpellDamage": 35
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "manaSteal": 12,
+          "rawDexterity": 20,
+          "rawMainAttackDamage": 70,
+          "rawSpellDamage": 65
+        }
+      }
+    },
+    "internalName": "black",
+    "parts": [
+      "Black Boots",
+      "Black Tunic",
+      "Black Cap",
+      "Black Pants"
+    ]
+  },
+  "Black Catalyst": {
+    "bonuses": {
+      "1": {
+        "major": [],
+        "minor": {
+          "combatExperience": -5
+        }
+      },
+      "2": {
+        "major": [],
+        "minor": {
+          "1stSpellCost": -15,
+          "3rdSpellCost": -15,
+          "combatExperience": 35,
+          "rawHealth": 650,
+          "spellDamage": 15
+        }
+      }
+    },
+    "internalName": "black catalyst",
+    "parts": [
+      "Black Catalyst"
+    ]
+  },
+  "Bleeding": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "damage": 15,
+          "healthRegen": -20,
+          "healthRegenRaw": -60
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "damage": 25,
+          "healthRegen": -15,
+          "healthRegenRaw": -240,
+          "walkSpeed": 25
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "damage": 40,
+          "healthRegen": -25,
+          "healthRegenRaw": -360,
+          "rawAgility": 15,
+          "rawAirDamage": 85,
+          "rawDefence": 15,
+          "rawFireDamage": 85,
+          "rawStrength": -25,
+          "walkSpeed": 60
+        }
+      }
+    },
+    "internalName": "bleeding",
+    "parts": [
+      "Bleeding Soles",
+      "Bleeding Body",
+      "Bleeding Mind",
+      "Bleeding Crura"
+    ]
+  },
+  "Bony": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "airDamage": 15,
+          "rawAgility": 8,
+          "rawMainAttackDamage": 45
+        }
+      }
+    },
+    "internalName": "bony",
+    "parts": [
+      "Bony Bow",
+      "Bony Circlet"
+    ]
+  },
+  "Boundless": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "lifeSteal": 250,
+          "manaSteal": 15,
+          "stealing": 10,
+          "walkSpeed": 25
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegen": 50,
+          "healthRegenRaw": 150,
+          "manaRegen": 25,
+          "walkSpeed": 35
+        }
+      }
+    },
+    "internalName": "boundless",
+    "parts": [
+      "Recursion",
+      "Infinitesimal",
+      "Fractal",
+      "Divergence",
+      "Continuum",
+      "Nonexistence",
+      "Aleph Null"
+    ]
+  },
+  "Bovine": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "2ndSpellCost": -40,
+          "mainAttackDamage": 30,
+          "manaSteal": 8,
+          "walkSpeed": 25
+        }
+      }
+    },
+    "internalName": "bovine",
+    "parts": [
+      "Veekhat's Udders",
+      "Veekhat's Horns"
+    ]
+  },
+  "Builder": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 15
+        }
+      }
+    },
+    "internalName": "builder",
+    "parts": []
+  },
+  "Clock": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "airDamage": 5,
+          "earthDamage": 8,
+          "fireDamage": 15,
+          "thunderDamage": 18,
+          "waterDamage": 6
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "airDamage": 13,
+          "fireDamage": 14,
+          "waterDamage": 12
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "airDamage": 20,
+          "earthDamage": 14,
+          "fireDamage": 13,
+          "thunderDamage": 18,
+          "waterDamage": 18
+        }
+      },
+      "5": {
+        "major": [],
+        "minor": {
+          "airDamage": 28,
+          "fireDamage": 12,
+          "waterDamage": 24
+        }
+      },
+      "6": {
+        "major": [],
+        "minor": {
+          "airDamage": 24,
+          "earthDamage": 22,
+          "fireDamage": 11,
+          "thunderDamage": 18,
+          "waterDamage": 24
+        }
+      },
+      "7": {
+        "major": [],
+        "minor": {
+          "airDamage": 19,
+          "fireDamage": 10,
+          "waterDamage": 24
+        }
+      },
+      "8": {
+        "major": [],
+        "minor": {
+          "airDamage": 14,
+          "earthDamage": 34,
+          "fireDamage": 9,
+          "thunderDamage": 18,
+          "waterDamage": 24
+        }
+      }
+    },
+    "internalName": "clock",
+    "parts": [
+      "Clock Boots",
+      "Clock Mail",
+      "Clock Leggings",
+      "Clock Helm",
+      "Clock Amulet",
+      "Time Ring",
+      "Watch Bracelet",
+      "Clockwork Ring"
+    ]
+  },
+  "Conquered Skies": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "jumpHeight": 5,
+          "lifeSteal": 280,
+          "rawStrength": 100,
+          "slowEnemy": 8
+        }
+      }
+    },
+    "internalName": "conquered skies",
+    "parts": [
+      "Greatbird Eyrie",
+      "Perch of the Shrouded Sun"
+    ]
+  },
+  "Constellation": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "lifeSteal": 400,
+          "manaSteal": 15
+        }
+      }
+    },
+    "internalName": "constellation",
+    "parts": [
+      "Stargazing Lens"
+    ]
+  },
+  "Corrupted": {
+    "bonuses": {
+      "1": {
+        "major": [],
+        "minor": {
+          "combatExperience": 4
+        }
+      },
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 8,
+          "rawHealth": 40
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 12,
+          "rawHealth": 40,
+          "rawMainAttackDamage": 25,
+          "rawSpellDamage": 20
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 16,
+          "rawHealth": 40,
+          "rawMainAttackDamage": 25,
+          "rawSpellDamage": 20,
+          "thorns": 15,
+          "walkSpeed": 8
+        }
+      },
+      "5": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "rawHealth": 125,
+          "rawMainAttackDamage": 50,
+          "rawSpellDamage": 40,
+          "thorns": 15,
+          "walkSpeed": 8
+        }
+      },
+      "6": {
+        "major": [],
+        "minor": {
+          "combatExperience": 24,
+          "manaRegen": 6,
+          "manaSteal": 8,
+          "rawHealth": 125,
+          "rawMainAttackDamage": 50,
+          "rawSpellDamage": 40,
+          "spellDamage": 10,
+          "thorns": 15,
+          "walkSpeed": 8
+        }
+      },
+      "7": {
+        "major": [],
+        "minor": {
+          "combatExperience": 28,
+          "healthRegenRaw": -50,
+          "mainAttackDamage": 15,
+          "manaRegen": 6,
+          "manaSteal": 8,
+          "rawHealth": 125,
+          "rawMainAttackDamage": 50,
+          "rawSpellDamage": 40,
+          "spellDamage": 15,
+          "thorns": 30,
+          "walkSpeed": 8
+        }
+      },
+      "8": {
+        "major": [],
+        "minor": {
+          "combatExperience": 32,
+          "healthRegenRaw": -70,
+          "mainAttackDamage": 20,
+          "manaRegen": -6,
+          "manaSteal": 8,
+          "rawAttackSpeed": 1,
+          "rawHealth": -400,
+          "rawMainAttackDamage": 50,
+          "rawSpellDamage": 40,
+          "spellDamage": 15,
+          "thorns": 30,
+          "walkSpeed": 15
+        }
+      },
+      "9": {
+        "major": [],
+        "minor": {
+          "combatExperience": 36,
+          "healthRegenRaw": -120,
+          "mainAttackDamage": 30,
+          "manaRegen": -18,
+          "manaSteal": 8,
+          "rawAttackSpeed": 1,
+          "rawHealth": -1250,
+          "rawMainAttackDamage": 120,
+          "thorns": 30,
+          "walkSpeed": 20
+        }
+      }
+    },
+    "internalName": "corrupted",
+    "parts": [
+      "Cauterizer",
+      "Blighted Seraph",
+      "Rigor Mortis",
+      "Viscera Burst",
+      "Omnia Mors",
+      "Arterial Spray",
+      "Spinal Estoc",
+      "Backbiter",
+      "Goredrinker",
+      "Infernus Aeterna",
+      "Bloodbag",
+      "Intestine Lasso",
+      "Fractured Lyre",
+      "Boil Lance",
+      "Terminal Velocity",
+      "Sludge Slicer",
+      "Hecatomb",
+      "Dissever",
+      "Bugbite",
+      "Golem's Arm",
+      "Carnage Agglomerate",
+      "Scumlord",
+      "Fiend",
+      "Treachery",
+      "Empathy Purge",
+      "Woebegone",
+      "Repose",
+      "Desert Cyclone",
+      "Nevermore",
+      "Guard's Garment",
+      "Molten Fleshmass",
+      "Mutilated Corpse",
+      "Isostatic Rebound",
+      "Sanguine Spaulder",
+      "Ancient Jazerant",
+      "Giant's Kneecap",
+      "Brainy Beanie",
+      "Zombie Eye Pendant",
+      "Brainbleed",
+      "Bloodied Wreath",
+      "Crumbling Foundation",
+      "Inclemency",
+      "Glaring Issue",
+      "Mesoskeleton",
+      "Blazing Bangle",
+      "Purity Filter",
+      "Grisly Gauntlet",
+      "Glass Skin",
+      "Dogfight",
+      "Mummy's Talisman",
+      "Cremation",
+      "Warsong",
+      "Tainted Ruby",
+      "Rusted Cog",
+      "Jinxed Coif",
+      "Jagged Bone Necklace",
+      "Bloodied Chaps",
+      "Living Slime"
+    ]
+  },
+  "Cosmic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "elementalDefence": 20,
+          "lootBonus": 25,
+          "manaSteal": 4
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 50,
+          "elementalDefence": 50,
+          "lootBonus": 50,
+          "manaSteal": 8
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 75,
+          "elementalDefence": 100,
+          "lootBonus": 75,
+          "manaSteal": 24,
+          "spellDamage": 40
+        }
+      }
+    },
+    "internalName": "cosmic",
+    "parts": [
+      "Cosmic Walkers",
+      "Cosmic Vest",
+      "Cosmic Visor",
+      "Cosmic Ward"
+    ]
+  },
+  "Cosmic Foundations": {
+    "bonuses": {
+      "4": {
+        "major": [],
+        "minor": {
+          "elementalDefence": 50,
+          "elementalSpellDamage": 40,
+          "manaSteal": 20,
+          "rawAgility": 15,
+          "rawDefence": 15,
+          "rawDexterity": 15,
+          "rawElementalSpellDamage": 200,
+          "rawHealth": 1500,
+          "rawIntelligence": 15,
+          "rawStrength": 15,
+          "reflection": 20,
+          "thorns": 20
+        }
+      }
+    },
+    "internalName": "cosmic foundations",
+    "parts": [
+      "Fermion",
+      "Gravity",
+      "Neutrino"
+    ]
+  },
+  "Darkened": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "manaRegen": -20,
+          "manaSteal": -20,
+          "rawFireDamage": 100,
+          "rawMaxMana": 175,
+          "rawThunderDamage": 100
+        }
+      }
+    },
+    "internalName": "darkened",
+    "parts": [
+      "Darkened Heart",
+      "Darkened Mind"
+    ]
+  },
+  "Desert": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "damage": 10,
+          "rawHealth": 50
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "damage": 15,
+          "rawHealth": 60,
+          "walkSpeed": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "damage": 20,
+          "rawDamage": 25,
+          "rawHealth": 75,
+          "walkSpeed": 20
+        }
+      }
+    },
+    "internalName": "desert",
+    "parts": [
+      "Desert Wretch",
+      "Desert Sands",
+      "Desert Stalker",
+      "Desert Sepulcher",
+      "Desert Winds"
+    ]
+  },
+  "Earth Relic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "lootBonus": 10,
+          "mainAttackDamage": 10,
+          "rawHealth": 65
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "lootBonus": 25,
+          "mainAttackDamage": 20,
+          "rawHealth": 200
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "lootBonus": 50,
+          "mainAttackDamage": 45,
+          "rawHealth": 425,
+          "rawStrength": 20
+        }
+      }
+    },
+    "internalName": "earth relic",
+    "parts": [
+      "Earth Relic Boots",
+      "Earth Relic Chestplate",
+      "Earth Relic Helmet",
+      "Earth Relic Leggings"
+    ]
+  },
+  "Elf": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegen": 10,
+          "lootBonus": 8,
+          "rawAgility": 3,
+          "rawDefence": 3,
+          "walkSpeed": 8
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegen": 20,
+          "lootBonus": 20,
+          "rawAgility": 7,
+          "rawDefence": 7,
+          "walkSpeed": 16
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "healthRegen": 45,
+          "healthRegenRaw": 50,
+          "lootBonus": 35,
+          "rawAgility": 15,
+          "rawDefence": 15,
+          "walkSpeed": 25
+        }
+      }
+    },
+    "internalName": "elf",
+    "parts": [
+      "Elf Shoes",
+      "Elf Robe",
+      "Elf Pants",
+      "Elf Cap"
+    ]
+  },
+  "Firemoss": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "fireSpellDamage": 20,
+          "healthRegenRaw": 130,
+          "rawMaxMana": 15,
+          "thorns": 15
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "fireSpellDamage": 40,
+          "healthRegenRaw": 265,
+          "manaRegen": 8,
+          "raw4thSpellCost": -5,
+          "rawMaxMana": 35,
+          "thorns": 25
+        }
+      }
+    },
+    "internalName": "firemoss",
+    "parts": [
+      "Firemoss Lyre",
+      "Firemoss Veil",
+      "Firemoss Band"
+    ]
+  },
+  "Flashfire": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "rawAttackSpeed": 1,
+          "walkSpeed": 8,
+          "waterDamage": -15,
+          "waterDefence": -15
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "fireDamage": 12,
+          "rawAttackSpeed": 1,
+          "walkSpeed": 16,
+          "waterDamage": -15,
+          "waterDefence": -15
+        }
+      }
+    },
+    "internalName": "flashfire",
+    "parts": [
+      "Flashfire Knuckle",
+      "Flashfire Gauntlet"
+    ]
+  },
+  "Forgotten Chronicles": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "manaRegen": 5,
+          "spellDamage": 15
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "manaRegen": 10,
+          "rawMaxMana": 15,
+          "spellDamage": 25
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "elementalDamage": 25,
+          "manaRegen": 15,
+          "rawMaxMana": 25,
+          "spellDamage": 30
+        }
+      }
+    },
+    "internalName": "forgotten chronicles",
+    "parts": [
+      "Palimpsest",
+      "Clandestine",
+      "Valediction",
+      "Messenger",
+      "Dormancy"
+    ]
+  },
+  "Ghostly": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "earthDamage": -34,
+          "manaRegen": -6,
+          "manaSteal": 8,
+          "rawSpellDamage": 40,
+          "thunderDamage": 5,
+          "waterDamage": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "earthDamage": -67,
+          "manaRegen": -12,
+          "manaSteal": 16,
+          "rawSpellDamage": 115,
+          "thunderDamage": 10,
+          "waterDamage": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "earthDamage": -100,
+          "manaRegen": -17,
+          "manaSteal": 24,
+          "rawAttackSpeed": -2,
+          "rawSpellDamage": 230,
+          "thunderDamage": 32,
+          "waterDamage": 32
+        }
+      }
+    },
+    "internalName": "ghostly",
+    "parts": [
+      "Ghostly Boots",
+      "Ghostly Tunic",
+      "Ghostly Pants",
+      "Ghostly Cap"
+    ]
+  },
+  "Goblin": {
+    "bonuses": {
+      "1": {
+        "major": [],
+        "minor": {
+          "damage": -5,
+          "rawMainAttackDamage": 25,
+          "rawSpellDamage": 27
+        }
+      },
+      "2": {
+        "major": [],
+        "minor": {
+          "damage": -13,
+          "lifeSteal": 30,
+          "rawMainAttackDamage": 70,
+          "rawSpellDamage": 55
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "damage": -33,
+          "lifeSteal": 90,
+          "manaSteal": 8,
+          "rawAttackSpeed": 1,
+          "rawMainAttackDamage": 105,
+          "rawSpellDamage": 160
+        }
+      }
+    },
+    "internalName": "goblin",
+    "parts": [
+      "Goblin Runners",
+      "Goblin Cloak",
+      "Goblin Hood"
+    ]
+  },
+  "Hallowynn 2016": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 15,
+          "stealing": 5
+        }
+      }
+    },
+    "internalName": "hallowynn 2016",
+    "parts": [
+      "Treat",
+      "Trick"
+    ]
+  },
+  "Horse": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "airDamage": 15,
+          "combatExperience": 25,
+          "earthDamage": 15,
+          "mainAttackDamage": 11,
+          "sprint": 25,
+          "sprintRegen": 50,
+          "walkSpeed": 17
+        }
+      }
+    },
+    "internalName": "horse",
+    "parts": [
+      "Horse Hoof",
+      "Horse Mask"
+    ]
+  },
+  "Jester": {
+    "bonuses": {
+      "1": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "lootBonus": 20
+        }
+      },
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 45,
+          "lootBonus": 45,
+          "stealing": 3,
+          "walkSpeed": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 75,
+          "lootBonus": 75,
+          "rawHealth": 240,
+          "reflection": 12,
+          "stealing": 8,
+          "thorns": 12,
+          "walkSpeed": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 120,
+          "lootBonus": 120,
+          "rawHealth": 480,
+          "reflection": 30,
+          "stealing": 12,
+          "thorns": 30,
+          "walkSpeed": 25
+        }
+      }
+    },
+    "internalName": "jester",
+    "parts": [
+      "Jester Necklace",
+      "Jester Ring",
+      "Jester Bracelet"
+    ]
+  },
+  "Kaerynn": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 40,
+          "fireDamage": 20,
+          "healthRegenRaw": 220,
+          "manaRegen": 12,
+          "rawDefence": 25
+        }
+      }
+    },
+    "internalName": "kaerynn",
+    "parts": [
+      "Kaerynn's Body",
+      "Kaerynn's Mind"
+    ]
+  },
+  "Leaf": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegen": 5,
+          "healthRegenRaw": 5,
+          "rawHealth": 10,
+          "thorns": 8
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegen": 12,
+          "healthRegenRaw": 10,
+          "rawHealth": 25,
+          "thorns": 13
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "healthRegen": 25,
+          "healthRegenRaw": 20,
+          "rawHealth": 65,
+          "thorns": 25
+        }
+      }
+    },
+    "internalName": "leaf",
+    "parts": [
+      "Leaf Boots",
+      "Leaf Tunic",
+      "Leaf Cap",
+      "Leaf Pants"
+    ]
+  },
+  "Liffmail": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "lootBonus": 20,
+          "rawAgility": 5,
+          "rawDefence": 5,
+          "rawDexterity": 5,
+          "rawIntelligence": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 30,
+          "elementalDamage": 25,
+          "lootBonus": 30,
+          "rawAgility": 5,
+          "rawDefence": 5,
+          "rawDexterity": 5,
+          "rawIntelligence": 5,
+          "rawStrength": 15
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 40,
+          "elementalDamage": 55,
+          "lootBonus": 40,
+          "raw1stSpellCost": -3,
+          "raw2ndSpellCost": -3,
+          "raw3rdSpellCost": -3,
+          "raw4thSpellCost": -3,
+          "rawAgility": 5,
+          "rawDefence": 5,
+          "rawDexterity": 5,
+          "rawIntelligence": 5,
+          "rawStrength": 15
+        }
+      }
+    },
+    "internalName": "liffmail",
+    "parts": [
+      "Liffmail Sollerets",
+      "Liffmail Hauberk",
+      "Liffmail Coif",
+      "Liffmail Chausses"
+    ]
+  },
+  "Moirai": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "damage": 10,
+          "lootBonus": 10,
+          "manaRegen": 10,
+          "raw1stSpellCost": -2,
+          "raw2ndSpellCost": -2,
+          "raw3rdSpellCost": -2,
+          "raw4thSpellCost": -2,
+          "rawDexterity": 20,
+          "walkSpeed": 10
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "damage": 20,
+          "lootBonus": 25,
+          "manaRegen": 15,
+          "raw1stSpellCost": -4,
+          "raw2ndSpellCost": -4,
+          "raw3rdSpellCost": -4,
+          "raw4thSpellCost": -4,
+          "rawDexterity": 85,
+          "walkSpeed": 20
+        }
+      }
+    },
+    "internalName": "moirai",
+    "parts": [
+      "Atropos",
+      "Clotho",
+      "Lachesis"
+    ]
+  },
+  "Morph": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "lootBonus": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "lootBonus": 10,
+          "manaRegen": 6,
+          "raw2ndSpellCost": -5,
+          "rawHealth": 125
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 15,
+          "lootBonus": 15,
+          "manaRegen": 8,
+          "raw2ndSpellCost": -5,
+          "rawAgility": 1,
+          "rawDefence": 1,
+          "rawDexterity": 1,
+          "rawHealth": 425,
+          "rawIntelligence": 1,
+          "rawStrength": 1
+        }
+      },
+      "5": {
+        "major": [],
+        "minor": {
+          "combatExperience": 35,
+          "lootBonus": 35,
+          "manaRegen": 12,
+          "raw2ndSpellCost": -5,
+          "raw4thSpellCost": -5,
+          "rawAgility": 1,
+          "rawDefence": 1,
+          "rawDexterity": 1,
+          "rawHealth": 1325,
+          "rawIntelligence": 1,
+          "rawStrength": 1
+        }
+      },
+      "6": {
+        "major": [],
+        "minor": {
+          "combatExperience": 55,
+          "lootBonus": 55,
+          "manaRegen": 14,
+          "raw2ndSpellCost": -5,
+          "raw4thSpellCost": -5,
+          "rawAgility": 3,
+          "rawDefence": 3,
+          "rawDexterity": 3,
+          "rawHealth": 2275,
+          "rawIntelligence": 3,
+          "rawStrength": 3
+        }
+      },
+      "7": {
+        "major": [],
+        "minor": {
+          "combatExperience": 80,
+          "lootBonus": 80,
+          "manaRegen": 18,
+          "raw1stSpellCost": -5,
+          "raw2ndSpellCost": -5,
+          "raw4thSpellCost": -5,
+          "rawAgility": 3,
+          "rawDefence": 3,
+          "rawDexterity": 3,
+          "rawHealth": 3850,
+          "rawIntelligence": 3,
+          "rawStrength": 3
+        }
+      },
+      "8": {
+        "major": [],
+        "minor": {
+          "combatExperience": 100,
+          "lootBonus": 100,
+          "manaRegen": 24,
+          "raw1stSpellCost": -5,
+          "raw2ndSpellCost": -5,
+          "raw3rdSpellCost": -5,
+          "raw4thSpellCost": -5,
+          "rawAgility": 21,
+          "rawDefence": 21,
+          "rawDexterity": 21,
+          "rawHealth": 6110,
+          "rawIntelligence": 21,
+          "rawStrength": 21
+        }
+      }
+    },
+    "internalName": "morph",
+    "parts": [
+      "Morph-Gold",
+      "Morph-Steel",
+      "Morph-Stardust",
+      "Morph-Iron",
+      "Morph-Amethyst",
+      "Morph-Ruby",
+      "Morph-Topaz",
+      "Morph-Emerald"
+    ]
+  },
+  "Nether": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "exploding": 2,
+          "fireDamage": 2,
+          "healthRegenRaw": -1,
+          "lifeSteal": 5,
+          "waterDamage": -10
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "exploding": 10,
+          "fireDamage": 8,
+          "healthRegenRaw": -2,
+          "lifeSteal": 18,
+          "waterDamage": -25
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "exploding": 60,
+          "fireDamage": 42,
+          "healthRegenRaw": -25,
+          "lifeSteal": 55,
+          "rawDefence": 15,
+          "waterDamage": -45
+        }
+      }
+    },
+    "internalName": "nether",
+    "parts": [
+      "Nether Boots",
+      "Nether Tunic",
+      "Nether Cap",
+      "Nether Pants"
+    ]
+  },
+  "Nii": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 120,
+          "rawDefence": 3,
+          "rawIntelligence": 3
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "fireDefence": 75,
+          "healthRegenRaw": 400,
+          "manaRegen": 24,
+          "rawDefence": 20,
+          "rawHealth": 1500,
+          "rawIntelligence": 20,
+          "waterDefence": 75
+        }
+      }
+    },
+    "internalName": "nii",
+    "parts": [
+      "Corrupted Nii Mukluk",
+      "Corrupted Nii Plate",
+      "Corrupted Nii Shako"
+    ]
+  },
+  "Outlaw": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "lifeSteal": 12,
+          "rawAgility": 4,
+          "stealing": 2
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "lifeSteal": 25,
+          "rawAgility": 8,
+          "stealing": 4
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "lifeSteal": 50,
+          "rawAgility": 28,
+          "stealing": 8
+        }
+      }
+    },
+    "internalName": "outlaw",
+    "parts": [
+      "Outlaw Boots",
+      "Outlaw Tunic",
+      "Outlaw Cap",
+      "Outlaw Pants"
+    ]
+  },
+  "Petal": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "fireDefence": -15,
+          "jumpHeight": 1,
+          "lifeSteal": 85,
+          "rawElementalSpellDamage": 75
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "fireDefence": -35,
+          "jumpHeight": 2,
+          "lifeSteal": 315,
+          "rawElementalSpellDamage": 150,
+          "slowEnemy": 8,
+          "walkSpeed": 25
+        }
+      }
+    },
+    "internalName": "petal",
+    "parts": [
+      "Petal Blade",
+      "Petal Gliders",
+      "Petal Wristlet"
+    ]
+  },
+  "Pigman": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "earthDamage": 25,
+          "knockback": 40,
+          "mainAttackDamage": 25,
+          "rawStrength": 10
+        }
+      }
+    },
+    "internalName": "pigman",
+    "parts": [
+      "Pigman Battle Hammer",
+      "Pigman Helmet"
+    ]
+  },
+  "Regal": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "raw2ndSpellCost": -2,
+          "rawWaterSpellDamage": 75,
+          "spellDamage": 15,
+          "walkSpeed": -10
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "lootBonus": 20,
+          "mainAttackRange": -20,
+          "raw2ndSpellCost": -8,
+          "rawWaterSpellDamage": 200,
+          "spellDamage": 30,
+          "walkSpeed": -20
+        }
+      }
+    },
+    "internalName": "regal",
+    "parts": [
+      "Regal Sceptre",
+      "Regal Crown",
+      "Regal Pendant"
+    ]
+  },
+  "Relic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "elementalDamage": 5,
+          "lootBonus": 10,
+          "rawHealth": 65
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "elementalDamage": 12,
+          "lootBonus": 25,
+          "rawHealth": 200
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "elementalDamage": 25,
+          "lootBonus": 50,
+          "rawAgility": 8,
+          "rawDefence": 8,
+          "rawDexterity": 8,
+          "rawHealth": 425,
+          "rawIntelligence": 8,
+          "rawStrength": 8
+        }
+      }
+    },
+    "internalName": "relic",
+    "parts": [
+      "Relic Boots",
+      "Relic Chestplate",
+      "Relic Helmet",
+      "Relic Leggings"
+    ]
+  },
+  "Saint's": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "airDamage": 10,
+          "healingEfficiency": 5,
+          "mainAttackDamage": -10,
+          "manaRegen": 6,
+          "rawDefence": 5,
+          "spellDamage": -5,
+          "waterDamage": 10
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "airDamage": 20,
+          "healingEfficiency": 15,
+          "mainAttackDamage": -20,
+          "manaRegen": 18,
+          "rawDefence": 10,
+          "spellDamage": -10,
+          "waterDamage": 20
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "airDamage": 35,
+          "healingEfficiency": 50,
+          "mainAttackDamage": -35,
+          "manaRegen": 30,
+          "rawDefence": 30,
+          "spellDamage": -15,
+          "waterDamage": 35
+        }
+      }
+    },
+    "internalName": "saint's",
+    "parts": [
+      "Saint's Sandals",
+      "Saint's Tunic",
+      "Saint's Shawl",
+      "Saint's Leggings"
+    ]
+  },
+  "Scrap": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "3rdSpellCost": -8,
+          "manaSteal": 5,
+          "rawAttackSpeed": -3,
+          "rawHealth": 500
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "3rdSpellCost": -16,
+          "damage": 25,
+          "manaSteal": 10,
+          "raw1stSpellCost": -4,
+          "rawAttackSpeed": -12,
+          "rawHealth": 1500
+        }
+      }
+    },
+    "internalName": "scrap",
+    "parts": [
+      "Scrap Cannon",
+      "Scrap Bauble",
+      "Scrap Chausses"
+    ]
+  },
+  "Silverfish": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "poison": 800,
+          "rawAgility": 10,
+          "thorns": 20,
+          "walkSpeed": 20
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "manaSteal": 4,
+          "rawDexterity": 6,
+          "rawMainAttackDamage": 10,
+          "rawSpellDamage": 35
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "manaSteal": 12,
+          "rawDexterity": 20,
+          "rawMainAttackDamage": 70,
+          "rawSpellDamage": 65
+        }
+      }
+    },
+    "internalName": "silverfish",
+    "parts": [
+      "Silverfish Boots",
+      "Silverfish Helm"
+    ]
+  },
+  "Skien's": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "mainAttackDamage": 12,
+          "rawMainAttackDamage": 60,
+          "rawSpellDamage": -50,
+          "spellDamage": -12
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "mainAttackDamage": 35,
+          "rawDexterity": 30,
+          "rawMainAttackDamage": 180,
+          "rawSpellDamage": -150,
+          "spellDamage": -35,
+          "walkSpeed": 11
+        }
+      }
+    },
+    "internalName": "skien's",
+    "parts": [
+      "Skien Boots",
+      "Skien's Fatigues",
+      "Skien Leggings"
+    ]
+  },
+  "Slime": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegen": 35,
+          "jumpHeight": 1,
+          "poison": 2400,
+          "rawHealth": 600,
+          "thorns": 15,
+          "walkSpeed": -6
+        }
+      }
+    },
+    "internalName": "slime",
+    "parts": [
+      "Slime Boots",
+      "Slime Plate"
+    ]
+  },
+  "Snail": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 150,
+          "poison": 9500,
+          "rawAgility": -5,
+          "rawHealth": 1100,
+          "rawStrength": 7,
+          "thorns": 10,
+          "walkSpeed": -5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 350,
+          "poison": 21000,
+          "rawAgility": -10,
+          "rawHealth": 2675,
+          "rawStrength": 14,
+          "thorns": 20,
+          "walkSpeed": -10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 700,
+          "poison": 56000,
+          "rawAgility": -15,
+          "rawHealth": 5500,
+          "rawStrength": 21,
+          "thorns": 40,
+          "walkSpeed": -15
+        }
+      }
+    },
+    "internalName": "snail",
+    "parts": [
+      "Snail Boots",
+      "Snail Mail",
+      "Snail Helm",
+      "Snail Leggings"
+    ]
+  },
+  "Snow": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegen": -10,
+          "manaRegen": 6,
+          "reflection": 10,
+          "spellDamage": 6,
+          "thorns": 8
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegen": -20,
+          "manaRegen": 12,
+          "reflection": 35,
+          "spellDamage": 14,
+          "thorns": 24
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "healthRegen": -30,
+          "manaRegen": 24,
+          "reflection": 75,
+          "spellDamage": 30,
+          "thorns": 70
+        }
+      }
+    },
+    "internalName": "snow",
+    "parts": [
+      "Snow Boots",
+      "Snow Tunic",
+      "Snow Helmet",
+      "Snow Pants"
+    ]
+  },
+  "Spider": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "poison": 35,
+          "rawAgility": 2,
+          "rawDexterity": 2,
+          "walkSpeed": 7
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "poison": 130,
+          "rawAgility": 6,
+          "rawDexterity": 6,
+          "walkSpeed": 19
+        }
+      }
+    },
+    "internalName": "spider",
+    "parts": [
+      "Abdomen",
+      "Cephalothorax",
+      "Spinneret"
+    ]
+  },
+  "Spore": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "exploding": 25,
+          "lifeSteal": 25,
+          "poison": 175
+        }
+      }
+    },
+    "internalName": "spore",
+    "parts": [
+      "Spore Shortsword",
+      "Spore Cap"
+    ]
+  },
+  "Synch Core": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "elementalDefence": -8,
+          "healthRegenRaw": -25,
+          "sprint": -8
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "damage": 14,
+          "elementalDefence": -40,
+          "healthRegenRaw": 180,
+          "jumpHeight": 1,
+          "manaRegen": -1,
+          "manaSteal": -1,
+          "rawHealth": 1150,
+          "sprint": -35,
+          "walkSpeed": 16
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "damage": 7,
+          "elementalDefence": 8,
+          "healthRegenRaw": 60,
+          "jumpHeight": 1,
+          "rawHealth": 666,
+          "sprint": 10,
+          "walkSpeed": 8
+        }
+      }
+    },
+    "internalName": "synch core",
+    "parts": [
+      "Overload Core",
+      "Dodge Core",
+      "Hustle Core",
+      "Harden Core",
+      "Synchro Core"
+    ]
+  },
+  "Taiga Elk": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "2ndSpellCost": -14,
+          "mainAttackRange": 33,
+          "rawAttackSpeed": 1
+        }
+      }
+    },
+    "internalName": "taiga elk",
+    "parts": [
+      "Elk's Hoof",
+      "Rime-Webbed Antlers"
+    ]
+  },
+  "Thanos Legionnaire": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 70,
+          "rawAgility": 2,
+          "rawDefence": 2,
+          "rawDexterity": -2,
+          "rawIntelligence": -2,
+          "rawMainAttackDamage": 135,
+          "rawStrength": 2,
+          "walkSpeed": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 250,
+          "rawAgility": 5,
+          "rawDefence": 5,
+          "rawDexterity": -5,
+          "rawIntelligence": -5,
+          "rawMainAttackDamage": 270,
+          "rawStrength": 5,
+          "walkSpeed": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "healthRegenRaw": 650,
+          "rawAgility": 15,
+          "rawAttackSpeed": 1,
+          "rawDefence": 15,
+          "rawDexterity": -15,
+          "rawIntelligence": -15,
+          "rawMainAttackDamage": 540,
+          "rawStrength": 15,
+          "walkSpeed": 25
+        }
+      }
+    },
+    "internalName": "thanos legionnaire",
+    "parts": [
+      "Thanos Legionnaire Greaves",
+      "Thanos Legionnaire Plate",
+      "Thanos Legionnaire Helm",
+      "Thanos Legionnaire Leggings"
+    ]
+  },
+  "Thunder Relic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "lootBonus": 10,
+          "rawHealth": 55,
+          "rawMainAttackDamage": 12
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "lootBonus": 25,
+          "rawHealth": 180,
+          "rawMainAttackDamage": 32
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "lootBonus": 50,
+          "rawDexterity": 20,
+          "rawHealth": 380,
+          "rawMainAttackDamage": 105
+        }
+      }
+    },
+    "internalName": "thunder relic",
+    "parts": [
+      "Thunder Relic Boots",
+      "Thunder Relic Chestplate",
+      "Thunder Relic Helmet",
+      "Thunder Relic Leggings"
+    ]
+  },
+  "Toxic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegen": -25,
+          "poison": 6000,
+          "rawMainAttackDamage": 300,
+          "walkSpeed": 10
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegen": -60,
+          "poison": 12000,
+          "rawAttackSpeed": 1,
+          "rawMainAttackDamage": 600,
+          "walkSpeed": 20,
+          "weakenEnemy": 8
+        }
+      }
+    },
+    "internalName": "toxic",
+    "parts": [
+      "Toxic Spike",
+      "Toxic Cloak",
+      "Toxic Shackles"
+    ]
+  },
+  "Tribal": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "mainAttackRange": 5,
+          "rawMainAttackDamage": 10,
+          "walkSpeed": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "mainAttackRange": 10,
+          "rawMainAttackDamage": 20,
+          "walkSpeed": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "mainAttackRange": 25,
+          "rawAttackSpeed": 1,
+          "rawMainAttackDamage": 50,
+          "walkSpeed": 25
+        }
+      }
+    },
+    "internalName": "tribal",
+    "parts": [
+      "Tribal Boots",
+      "Tribal Tunic",
+      "Tribal Cap",
+      "Tribal Pants"
+    ]
+  },
+  "Ultramarine": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "mainAttackDamage": -24,
+          "manaRegen": 12,
+          "rawIntelligence": 5,
+          "thunderDamage": -8,
+          "waterDamage": 10,
+          "waterDefence": 16
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "mainAttackDamage": -54,
+          "manaRegen": 30,
+          "rawIntelligence": 15,
+          "thunderDamage": -18,
+          "waterDamage": 20,
+          "waterDefence": 36
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "mainAttackDamage": -90,
+          "manaRegen": 48,
+          "rawIntelligence": 25,
+          "thunderDamage": -30,
+          "waterDamage": 40,
+          "waterDefence": 56
+        }
+      }
+    },
+    "internalName": "ultramarine",
+    "parts": [
+      "Ultramarine Boots",
+      "Ultramarine Cape",
+      "Ultramarine Belt",
+      "Ultramarine Crown"
+    ]
+  },
+  "Uth": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "lifeSteal": 200,
+          "rawAgility": 3,
+          "rawDefence": 3
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "airDefence": 125,
+          "fireDefence": 125,
+          "lifeSteal": 800,
+          "rawAgility": 25,
+          "rawDefence": 25,
+          "reflection": 80,
+          "thorns": 80
+        }
+      }
+    },
+    "internalName": "uth",
+    "parts": [
+      "Corrupted Uth Sandals",
+      "Corrupted Uth Plume",
+      "Corrupted Uth Belt"
+    ]
+  },
+  "Vexing": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "2ndSpellCost": -50,
+          "mainAttackDamage": -15,
+          "manaRegen": 14,
+          "rawSpellDamage": 30,
+          "spellDamage": 15
+        }
+      }
+    },
+    "internalName": "vexing",
+    "parts": [
+      "Staff of the Dark Vexations",
+      "Mask of the Dark Vexations"
+    ]
+  },
+  "Villager": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "lootBonus": 60,
+          "stealing": 8
+        }
+      }
+    },
+    "internalName": "villager",
+    "parts": [
+      "Villager Mail",
+      "Villager Pants"
+    ]
+  },
+  "Visceral": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "healthRegen": 10,
+          "healthRegenRaw": 50,
+          "lifeSteal": 55,
+          "mainAttackDamage": 10,
+          "rawHealth": -1000,
+          "rawMainAttackDamage": 40
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "healthRegen": 40,
+          "healthRegenRaw": 100,
+          "lifeSteal": 110,
+          "mainAttackDamage": 25,
+          "rawHealth": -2500,
+          "rawMainAttackDamage": 80
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "healthRegen": 140,
+          "healthRegenRaw": 200,
+          "lifeSteal": 220,
+          "mainAttackDamage": 50,
+          "rawHealth": -4000,
+          "rawMainAttackDamage": 165
+        }
+      }
+    },
+    "internalName": "visceral",
+    "parts": [
+      "Visceral Toe",
+      "Visceral Chest",
+      "Visceral Skullcap",
+      "Visceral Legs"
+    ]
+  },
+  "Voidglass": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "airDamage": 12,
+          "jumpHeight": 1,
+          "lifeSteal": 150,
+          "manaSteal": 5,
+          "rawAirMainAttackDamage": 500
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "airDamage": 20,
+          "jumpHeight": 1,
+          "lifeSteal": 280,
+          "manaSteal": 8,
+          "rawAirMainAttackDamage": 900
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "airDamage": 50,
+          "jumpHeight": 3,
+          "lifeSteal": 660,
+          "manaSteal": 10,
+          "rawAirMainAttackDamage": 2100,
+          "rawAttackSpeed": 1
+        }
+      }
+    },
+    "internalName": "voidglass",
+    "parts": [
+      "Voidglass Striders",
+      "Voidglass Cloak",
+      "Voidglass Crown",
+      "Voidglass Greaves"
+    ]
+  },
+  "Water Relic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "lootBonus": 10,
+          "manaRegen": 6,
+          "rawHealth": 55
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "lootBonus": 25,
+          "manaRegen": 12,
+          "rawHealth": 170
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "lootBonus": 50,
+          "manaRegen": 24,
+          "rawHealth": 360,
+          "rawIntelligence": 20
+        }
+      }
+    },
+    "internalName": "water relic",
+    "parts": [
+      "Water Relic Boots",
+      "Water Relic Chestplate",
+      "Water Relic Helmet",
+      "Water Relic Leggings"
+    ]
+  },
+  "Wynnterfest 2016": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 4,
+          "healthRegenRaw": 12
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 8,
+          "healthRegenRaw": 25,
+          "manaRegen": 4
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 20,
+          "healthRegenRaw": 60,
+          "manaRegen": 10
+        }
+      }
+    },
+    "internalName": "wynnterfest 2016",
+    "parts": [
+      "Red Ornament",
+      "Yellow Ornament",
+      "Green Ornament",
+      "Blue Ornament"
+    ]
+  },
+  "fire Relic": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5,
+          "healthRegenRaw": 15,
+          "lootBonus": 10,
+          "rawHealth": 90
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10,
+          "healthRegenRaw": 50,
+          "lootBonus": 25,
+          "rawHealth": 270
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 25,
+          "healthRegenRaw": 120,
+          "lootBonus": 50,
+          "rawDefence": 20,
+          "rawHealth": 570
+        }
+      }
+    },
+    "internalName": "fire relic",
+    "parts": [
+      "Fire Relic Boots",
+      "Fire Relic Chestplate",
+      "Fire Relic Helmet",
+      "Fire Relic Leggings"
+    ]
+  },
+  "gm": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "combatExperience": 5
+        }
+      },
+      "3": {
+        "major": [],
+        "minor": {
+          "combatExperience": 10
+        }
+      },
+      "4": {
+        "major": [],
+        "minor": {
+          "combatExperience": 15
+        }
+      }
+    },
+    "internalName": "gm",
+    "parts": []
+  }
+}
