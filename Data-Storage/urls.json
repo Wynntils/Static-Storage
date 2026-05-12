@@ -280,6 +280,12 @@
     "url": "https://cdn.wynntils.com/static/Data-Storage/services_crowdsourced.json"
   },
   {
+    "id": "dataStaticSets",
+    "md5": "36709b87da596d8bc585c16c8732de83",
+    "path": "Reference/sets.json",
+    "url": "https://cdn.wynntils.com/static/Reference/sets.json"
+  },
+  {
     "id": "dataStaticShinyStats",
     "md5": "43227d9e0f0327fd68e852feb2a5a728",
     "path": "Data-Storage/shiny_stats.json",
