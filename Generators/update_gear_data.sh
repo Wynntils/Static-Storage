@@ -30,7 +30,7 @@ if jq -e 'type == "object" and ((has("message") and has("request_id")) or has("e
 fi
 
 # Reformat the API response to keep compatibility with the old key format.
-# For mythic masterwork gear, prefix displayName with "Ascended " to keep keys unique.
+# For mythic masterwork gear, prefix displayName with "Masterwork " to keep keys unique.
 jq 'if type == "array" then
         (map({
             key: (
@@ -38,7 +38,7 @@ jq 'if type == "array" then
                 | if $baseName == null then
                     error("Missing displayName/name/internalName in gear payload")
                   elif ((.internalName // "") | startswith("Masterwork ")) and ((.tier // "") == "mythic") then
-                    ("Ascended " + $baseName)
+                    ("Masterwork " + $baseName)
                   else
                     $baseName
                   end
