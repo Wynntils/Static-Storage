@@ -229,7 +229,7 @@ do_map "Mixed Feelings, Corkus Docks" "mixed-feelings-corkus-docks" -12 -12 -6 -
 do_map "Cowfusion, Canyon of the Lost" "cowfusion-canyon-of-the-lost" -30 -30 37 37
 do_map "Redbeard's Booty, Island Choices" "redbeards-booty-island-choices" 16 17 13 13
 do_map "Redbeard's Booty, Islands" "redbeards-booty-islands" -16 -15 -8 -7
-do_map "Redbeard's Booty, Island 4" "redbeards-booty-island-4" 0 0 -30 -30
+do_map "Redbeard's Booty, Island 4" "redbeards-booty-island-4" -1 0 -30 -30
 do_map "Reclaiming the House, Fort" "reclaiming-the-house-fort" -18 -17 14 15
 do_map "Aldorei's Secret Part II, Canyon" "aldoreis-secret-part-ii-canyon" 10 11 13 15
 
