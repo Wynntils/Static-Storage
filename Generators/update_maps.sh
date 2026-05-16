@@ -232,6 +232,8 @@ do_map "Redbeard's Booty, Island 1" "redbeards-booty-island-1" -16 -16 -7 -7
 do_map "Redbeard's Booty, Island 2" "redbeards-booty-island-2" -15 -15 -8 -8
 do_map "Redbeard's Booty, Island 3" "redbeards-booty-island-3" -16 -16 -8 -8
 do_map "Redbeard's Booty, Island 4" "redbeards-booty-island-4" 0 0 -30 -30
+do_map "Reclaiming the House, Orc Attack" "reclaiming-the-house-orc-attack" -18 -18 14 14
+do_map "Reclaiming the House, Fort" "reclaiming-the-house-fort" -17 -17 14 15
 
 # Remove the trailing comma
 $HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp
