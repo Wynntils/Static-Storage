@@ -26,6 +26,7 @@ jobs:
           jq -R -s -c '
             split("\n")
             | map(select(length > 0))
+            | map(select(startswith("Data-Storage/raw/") | not))
             | map("'"$BASE"'/" + .)
           ' files.txt > purge_urls.json
 

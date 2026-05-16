@@ -221,6 +221,17 @@ do_map "Revelations in Fall, Zhiraok fight" "revelations-in-fall-zhiraok-fight" 
 do_map "Ensemble of Hope, Elevator Fight" "ensemble-of-hope-elevator-fight" -1 0 10 10
 do_map "Apotheosis, Tasim Fight" "apotheosis-tasim-fight" -5 -5 11 11
 do_map "Apotheosis, Queen Fight" "apotheosis-queen-fight" -6 -6 11 11
+do_map "A Journey Home, Fort Torran" "a-journey-home-fort-torran" 9 10 -37 -37
+do_map "Taproot, Light Forest" "taproot-light-forest" -5 -3 -15 -13
+do_map "Find the Light, Lari Fight" "find-the-light-lari-fight" -2 -2 -26 -25
+do_map "Shattered Minds, Strange Forest" "shattered-minds-strange-forest" 48 49 45 47
+do_map "Mixed Feelings, Corkus Docks" "mixed-feelings-corkus-docks" -12 -12 -6 -5
+do_map "Cowfusion, Canyon of the Lost" "cowfusion-canyon-of-the-lost" -30 -30 37 37
+do_map "Redbeard's Booty, Island Choices" "redbeards-booty-island-choices" 16 17 13 13
+do_map "Redbeard's Booty, Islands" "redbeards-booty-islands" -16 -15 -8 -7
+do_map "Redbeard's Booty, Island 4" "redbeards-booty-island-4" -1 0 -30 -30
+do_map "Reclaiming the House, Fort" "reclaiming-the-house-fort" -18 -17 14 15
+do_map "Aldorei's Secret Part II, Canyon" "aldoreis-secret-part-ii-canyon" 10 11 13 15
 
 # Remove the trailing comma
 $HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp
