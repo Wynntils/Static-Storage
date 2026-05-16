@@ -217,7 +217,7 @@
     "z1": -2560,
     "x2": -10241,
     "z2": -1537,
-    "md5": "ab538625a70c75ca0e7100d428f16025"
+    "md5": "2defaed494dda01272e1b726f1a4704f"
   },
   {
     "name": "Misadventure on the Sea",
@@ -538,5 +538,115 @@
     "x2": -2561,
     "z2": 6143,
     "md5": "15e0dcf5e65cb50e87df0a041fc2a7fb"
+  },
+  {
+    "name": "A Journey Home, Fort Torran",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-a-journey-home-fort-torran.png",
+    "path": "Reference/maps/map-a-journey-home-fort-torran.png",
+    "x1": 4608,
+    "z1": -18944,
+    "x2": 5631,
+    "z2": -18433,
+    "md5": "dabb23ddf52a8dba5ff32eb233ad9ed5"
+  },
+  {
+    "name": "Taproot, Light Forest",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-taproot-light-forest.png",
+    "path": "Reference/maps/map-taproot-light-forest.png",
+    "x1": -2560,
+    "z1": -7680,
+    "x2": -1025,
+    "z2": -6145,
+    "md5": "8fab2a07a9273450046e8408f9828cbf"
+  },
+  {
+    "name": "Find the Light, Lari Fight",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-find-the-light-lari-fight.png",
+    "path": "Reference/maps/map-find-the-light-lari-fight.png",
+    "x1": -1024,
+    "z1": -13312,
+    "x2": -513,
+    "z2": -12289,
+    "md5": "79cf7a94383b0f90adea38b4499771d7"
+  },
+  {
+    "name": "Shattered Minds, Strange Forest",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-shattered-minds-strange-forest.png",
+    "path": "Reference/maps/map-shattered-minds-strange-forest.png",
+    "x1": 24576,
+    "z1": 23040,
+    "x2": 25599,
+    "z2": 24575,
+    "md5": "8425153d08034d837f69e13ed177d378"
+  },
+  {
+    "name": "Mixed Feelings, Corkus Docks",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-mixed-feelings-corkus-docks.png",
+    "path": "Reference/maps/map-mixed-feelings-corkus-docks.png",
+    "x1": -6144,
+    "z1": -3072,
+    "x2": -5633,
+    "z2": -2049,
+    "md5": "d388606d8c31eb0a192ecb526c3aa128"
+  },
+  {
+    "name": "Cowfusion, Canyon of the Lost",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-cowfusion-canyon-of-the-lost.png",
+    "path": "Reference/maps/map-cowfusion-canyon-of-the-lost.png",
+    "x1": -15360,
+    "z1": 18944,
+    "x2": -14849,
+    "z2": 19455,
+    "md5": "2bc3546de4976c62b6867168b6d3abb2"
+  },
+  {
+    "name": "Redbeard's Booty, Island Choices",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-redbeards-booty-island-choices.png",
+    "path": "Reference/maps/map-redbeards-booty-island-choices.png",
+    "x1": 8192,
+    "z1": 6656,
+    "x2": 9215,
+    "z2": 7167,
+    "md5": "bc06acdaeca5160c6ecb8162bbc4122e"
+  },
+  {
+    "name": "Redbeard's Booty, Islands",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-redbeards-booty-islands.png",
+    "path": "Reference/maps/map-redbeards-booty-islands.png",
+    "x1": -8192,
+    "z1": -4096,
+    "x2": -7169,
+    "z2": -3073,
+    "md5": "59b994b5b3e51dd84915ce8f3b0a7684"
+  },
+  {
+    "name": "Redbeard's Booty, Island 4",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-redbeards-booty-island-4.png",
+    "path": "Reference/maps/map-redbeards-booty-island-4.png",
+    "x1": -512,
+    "z1": -15360,
+    "x2": 511,
+    "z2": -14849,
+    "md5": "588a1d583a7bda223bce9918d6cea217"
+  },
+  {
+    "name": "Reclaiming the House, Fort",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-reclaiming-the-house-fort.png",
+    "path": "Reference/maps/map-reclaiming-the-house-fort.png",
+    "x1": -9216,
+    "z1": 7168,
+    "x2": -8193,
+    "z2": 8191,
+    "md5": "49df5c17eb955125457d3723927967bc"
+  },
+  {
+    "name": "Aldorei's Secret Part II, Canyon",
+    "url": "https://cdn.wynntils.com/static/Reference/maps/map-aldoreis-secret-part-ii-canyon.png",
+    "path": "Reference/maps/map-aldoreis-secret-part-ii-canyon.png",
+    "x1": 5120,
+    "z1": 6656,
+    "x2": 6143,
+    "z2": 8191,
+    "md5": "fe9edf37a1e7efa5dbbadb74d1a5fea8"
   }
 ]
