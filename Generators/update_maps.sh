@@ -225,6 +225,7 @@ do_map "A Journey Home, Fort Torran" "a-journey-home-fort-torran" 9 10 -37 -37
 do_map "Taproot, Light Forest" "taproot-light-forest" -5 -3 -15 -13
 do_map "Find the Light, Lari Fight" "find-the-light-lari-fight" -2 -2 -26 -25
 do_map "Shattered Minds, Strange Forest" "shattered-minds-strange-forest" 48 49 45 47
+do_map "Mixed Feelings, Corkus Docks" "mixed-feelings-corkus-docks" -12 -12 -6 -5
 
 # Remove the trailing comma
 $HEAD -n -1 $JSON_METADATA_FILE > $JSON_METADATA_FILE.tmp
