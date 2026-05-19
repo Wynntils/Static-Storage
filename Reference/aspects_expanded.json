@@ -4854,7 +4854,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.71",
+                "text": "+1.7",
                 "color": "#FFFFFF"
               },
               {
@@ -8618,7 +8618,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+33%",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
@@ -10553,8 +10553,7 @@
               },
               {
                 "text": "Riftspawn",
-                "underline": true,
-                "color": "#AAAAAA"
+                "color": "#55FFFF"
               },
               {
                 "text": "'s attack speed by ",
@@ -10581,8 +10580,7 @@
               },
               {
                 "text": "Riftspawn",
-                "underline": true,
-                "color": "#AAAAAA"
+                "color": "#55FFFF"
               },
               {
                 "text": "'s attack speed by ",
@@ -10601,8 +10599,7 @@
             [
               {
                 "text": "Riftspawn",
-                "underline": true,
-                "color": "#AAAAAA"
+                "color": "#55FFFF"
               },
               {
                 "text": " gains ",
@@ -10642,15 +10639,14 @@
               },
               {
                 "text": "Riftspawn",
-                "underline": true,
-                "color": "#AAAAAA"
+                "color": "#55FFFF"
               },
               {
                 "text": "'s attack speed by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+50%",
+                "text": "+40%",
                 "color": "#FFFFFF"
               },
               {
@@ -10662,8 +10658,7 @@
             [
               {
                 "text": "Riftspawn",
-                "underline": true,
-                "color": "#AAAAAA"
+                "color": "#55FFFF"
               },
               {
                 "text": " gains ",
@@ -13064,6 +13059,174 @@
         }
       }
     },
+    "Aspect of Gushing Blood": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              62
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "internalName": "acfaae21",
+      "name": "Aspect of Gushing Blood",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Lashing Lance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.15s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#F93131"
+              },
+              {
+                "text": " per hit.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Lashing Lance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#F93131"
+              },
+              {
+                "text": " per hit.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Lashing Lance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.25s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#F93131"
+              },
+              {
+                "text": " per hit.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Lashing Lance",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " inflicts ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.3s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " of ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Bleeding ",
+                "color": "#55FFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#F93131"
+              },
+              {
+                "text": " per hit.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Incineration": {
       "icon": {
         "format": "attribute",
@@ -13205,766 +13368,6 @@
               {
                 "text": ".",
                 "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
-        }
-      }
-    },
-    "Aspect of Lashing Fire": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              62
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectShaman"
-        }
-      },
-      "internalName": "acfaae21",
-      "name": "Aspect of Lashing Fire",
-      "rarity": "legendary",
-      "requiredClass": "shaman",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "hit, and doubles in speed.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " inflicts ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-0.25s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " of ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Bleeding ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#F93131"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-14% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, for ",
-                "color": "#555555"
-              },
-              {
-                "text": "Uproot",
-                "underline": true,
-                "color": "#FF5555"
-              },
-              {
-                "text": ", per hit)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-11%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-1%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Fire: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+2",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "hits, and doubles in speed.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " inflicts ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-0.45s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " of ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Bleeding ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#F93131"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-23% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, for ",
-                "color": "#555555"
-              },
-              {
-                "text": "Uproot",
-                "underline": true,
-                "color": "#FF5555"
-              },
-              {
-                "text": ", per hit)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-17%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-2%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Fire: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-4%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+3",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "hits, and doubles in speed.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " inflicts ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-0.55s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " of ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Bleeding ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#F93131"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-29% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, for ",
-                "color": "#555555"
-              },
-              {
-                "text": "Uproot",
-                "underline": true,
-                "color": "#FF5555"
-              },
-              {
-                "text": ", per hit)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-20%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-3%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Fire: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-6%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+4",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "hits, and doubles in speed.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "Flaming Tongue",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " inflicts ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-0.65s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " of ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Bleeding ",
-                "color": "#55FFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#F93131"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "-34% ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "(of your DPS, for ",
-                "color": "#555555"
-              },
-              {
-                "text": "Uproot",
-                "underline": true,
-                "color": "#FF5555"
-              },
-              {
-                "text": ", per hit)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-22%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFFF55"
-              },
-              {
-                "text": " ",
-                "color": "#FFFF55"
-              },
-              {
-                "text": "Thunder: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-4%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Fire: ",
-                "color": "#555555"
-              },
-              {
-                "text": "-8%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
