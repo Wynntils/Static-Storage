@@ -124,16 +124,16 @@
     "url": "https://cdn.wynntils.com/static/Reference/caves.json"
   },
   {
-    "id": "dataStaticClasses",
-    "md5": "",
-    "path": "Reference/classes.json",
-    "url": "https://cdn.wynntils.com/static/Reference/classes.json"
-  },
-  {
     "id": "dataStaticCharms",
     "md5": "7d9c175c4a13f154eabb8cf77af1cb82",
     "path": "Reference/charms.json",
     "url": "https://cdn.wynntils.com/static/Reference/charms.json"
+  },
+  {
+    "id": "dataStaticClasses",
+    "md5": "",
+    "path": "Reference/classes.json",
+    "url": "https://cdn.wynntils.com/static/Reference/classes.json"
   },
   {
     "id": "dataStaticCombatLocations",
