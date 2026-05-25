@@ -1,0 +1,36 @@
+# Github actions runner will run this script on a schedule
+
+name: Update Map Camps
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight
+
+jobs:
+  update-map-camps:
+    runs-on: ubuntu-latest
+    env:
+      WYNNCRAFT_API_KEY: ${{ secrets.WYNNCRAFT_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Update Map Camps Data
+        run: |
+          chmod +x ./Generators/extract_map_camps.sh
+          ./Generators/extract_map_camps.sh
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6.0.2
+        with:
+            token: ${{ secrets.PRIVATE_TOKEN }}
+            labels: auto-generated
+            committer: 'WynntilsBot <admin@wynntils.com>'
+            author: 'WynntilsBot <admin@wynntils.com>'
+            commit-message: "chore: [auto-generated] Update map camps data from upstream"
+            title: "chore: [auto-generated] Update map camps data from upstream"
+            body: |
+              Upstream Wynncraft API has been updated with new map camps data.
+
+              This PR has been automatically generated.
+            branch: update-map-camps-data
