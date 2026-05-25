@@ -142,6 +142,12 @@
     "url": "https://cdn.wynntils.com/static/Data-Storage/destinations.json"
   },
   {
+    "id": "dataStaticGatheringNodes",
+    "md5": "",
+    "path": "Reference/gathering_nodes.json",
+    "url": "https://cdn.wynntils.com/static/Reference/gathering_nodes.json"
+  },
+  {
     "id": "dataStaticGear",
     "md5": "48e4e8f1e7db05aa65c3a6e320295682",
     "path": "Reference/gear.json",
@@ -218,6 +224,24 @@
     "md5": "38bb5299f66016271f5bf3a1f49ec0ae",
     "path": "Data-Storage/major_ids.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/major_ids.json"
+  },
+  {
+    "id": "dataStaticMapCamps",
+    "md5": "",
+    "path": "Reference/map_camps.json",
+    "url": "https://cdn.wynntils.com/static/Reference/map_camps.json"
+  },
+  {
+    "id": "dataStaticMapLootPools",
+    "md5": "",
+    "path": "Reference/map_loot_pools.json",
+    "url": "https://cdn.wynntils.com/static/Reference/map_loot_pools.json"
+  },
+  {
+    "id": "dataStaticMapRaids",
+    "md5": "",
+    "path": "Reference/map_raids.json",
+    "url": "https://cdn.wynntils.com/static/Reference/map_raids.json"
   },
   {
     "id": "dataStaticMaps",
@@ -313,6 +337,12 @@
     "id": "dataStaticUrls",
     "path": "Data-Storage/urls.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/urls.json"
+  },
+  {
+    "id": "dataStaticWorldEvents",
+    "md5": "",
+    "path": "Reference/world_events.json",
+    "url": "https://cdn.wynntils.com/static/Reference/world_events.json"
   },
   {
     "arguments": [
