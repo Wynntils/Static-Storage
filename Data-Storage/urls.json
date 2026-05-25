@@ -106,6 +106,12 @@
     "url": "https://cdn.wynntils.com/static/Reference/abilities.json"
   },
   {
+    "id": "dataStaticAbilityMap",
+    "md5": "",
+    "path": "Reference/ability_map.json",
+    "url": "https://cdn.wynntils.com/static/Reference/ability_map.json"
+  },
+  {
     "id": "dataStaticAspects",
     "md5": "10826b4a7c9ef99c9c4a96a787b668cc",
     "path": "Reference/aspects.json",
