@@ -33,7 +33,15 @@ if jq -e 'type == "object" and ((has("message") and has("request_id")) or has("e
 fi
 
 CLASSES=$(jq -r 'keys | join(" ")' classes.json.tmp)
+
+# Save classes data to Reference
+jq -S '.' < classes.json.tmp > classes.json
 rm -f classes.json.tmp
+
+# Update md5 for dataStaticClasses
+MD5_CLASSES=$(md5sum "$TARGET_DIR/classes.json" | cut -d' ' -f1)
+jq '. = [.[] | if (.id == "dataStaticClasses") then (.md5 = "'$MD5_CLASSES'") else . end]' < "$DATA_STORAGE/urls.json" > "$DATA_STORAGE/urls.json.tmp"
+mv "$DATA_STORAGE/urls.json.tmp" "$DATA_STORAGE/urls.json"
 
 # Fetch ability tree for each class and save to raw files
 for CLASS in $CLASSES; do
