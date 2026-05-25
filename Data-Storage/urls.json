@@ -101,13 +101,13 @@
   },
   {
     "id": "dataStaticAbilities",
-    "md5": "fd5e9a5b76988ae00265695ee90d622a",
+    "md5": "0de9330202e0d2b9402b46a6d1bf8c15",
     "path": "Reference/abilities.json",
     "url": "https://cdn.wynntils.com/static/Reference/abilities.json"
   },
   {
     "id": "dataStaticAbilityMap",
-    "md5": "",
+    "md5": "ad4482846dca718cb21851894d6a9d32",
     "path": "Reference/ability_map.json",
     "url": "https://cdn.wynntils.com/static/Reference/ability_map.json"
   },
@@ -131,7 +131,7 @@
   },
   {
     "id": "dataStaticClasses",
-    "md5": "",
+    "md5": "83bd9b36be5a0d83f2bac0c4d0f2dc74",
     "path": "Reference/classes.json",
     "url": "https://cdn.wynntils.com/static/Reference/classes.json"
   },
