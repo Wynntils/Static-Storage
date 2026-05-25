@@ -1,0 +1,22 @@
+{
+  "archer": {
+    "name": "Archer (Hunter)",
+    "overallDifficulty": 1
+  },
+  "assassin": {
+    "name": "Assassin (Ninja)",
+    "overallDifficulty": 2
+  },
+  "mage": {
+    "name": "Mage (Dark Wizard)",
+    "overallDifficulty": 1
+  },
+  "shaman": {
+    "name": "Shaman (Skyseer)",
+    "overallDifficulty": 3
+  },
+  "warrior": {
+    "name": "Warrior (Knight)",
+    "overallDifficulty": 2
+  }
+}
