@@ -226,24 +226,6 @@
     "url": "https://cdn.wynntils.com/static/Data-Storage/major_ids.json"
   },
   {
-    "id": "dataStaticMapCamps",
-    "md5": "42ce14e3c17a69646a4fdf1420022171",
-    "path": "Reference/map_camps.json",
-    "url": "https://cdn.wynntils.com/static/Reference/map_camps.json"
-  },
-  {
-    "id": "dataStaticMapLootPools",
-    "md5": "f17f44012a07e29b58ef6684ce107223",
-    "path": "Reference/map_loot_pools.json",
-    "url": "https://cdn.wynntils.com/static/Reference/map_loot_pools.json"
-  },
-  {
-    "id": "dataStaticMapRaids",
-    "md5": "ccc82624797eef28dcc1016cd9859641",
-    "path": "Reference/map_raids.json",
-    "url": "https://cdn.wynntils.com/static/Reference/map_raids.json"
-  },
-  {
     "id": "dataStaticMaps",
     "md5": "a4ef527f7aa0314ab679a8493f1a4e0a",
     "path": "Reference/maps.json",
@@ -337,12 +319,6 @@
     "id": "dataStaticUrls",
     "path": "Data-Storage/urls.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/urls.json"
-  },
-  {
-    "id": "dataStaticWorldEvents",
-    "md5": "9ea0056236c2008a8efeda9922f1de0d",
-    "path": "Reference/world_events.json",
-    "url": "https://cdn.wynntils.com/static/Reference/world_events.json"
   },
   {
     "arguments": [
