@@ -92,12 +92,20 @@
     "url": "https://athena.wynntils.com/cache/get/leaderboard"
   },
   {
+    "id": "dataAthenaLootpools",
+    "url": "https://athena.wynntils.com/cache/get/lootPools"
+  },
+  {
     "id": "dataAthenaServerList",
     "url": "https://athena.wynntils.com/cache/get/serverList"
   },
   {
     "id": "dataAthenaTerritoryListV2",
     "url": "https://athena.wynntils.com/cache/get/territoryList"
+  },
+  {
+    "id": "dataAthenaWorldEvents",
+    "url": "https://athena.wynntils.com/cache/get/worldEvents"
   },
   {
     "id": "dataStaticAbilities",
