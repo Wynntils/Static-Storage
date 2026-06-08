@@ -323,6 +323,12 @@
     "path": "Data-Storage/splashes.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/splashes.json"
   },
+    {
+    "id": "dataStaticTextureAndFingerprintHashes",
+    "md5": "temp",
+    "path": "Data-Storage/texture_and_fingerprint_hashes.json",
+    "url": "https://cdn.wynntils.com/static/Data-Storage/texture_and_fingerprint_hashes.json"
+  },
   {
     "id": "dataStaticTomes",
     "md5": "83d773feb4f8ba278621567884cd7f30",
