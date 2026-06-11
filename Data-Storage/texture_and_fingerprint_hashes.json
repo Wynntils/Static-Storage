@@ -1,0 +1,52 @@
+{
+    "models": {
+        "Mantle": {
+            "textures": [
+                "e1642ce27ab672f742af2395275c55f8433a466d6fc6c28c9f201d83659f9891"
+            ],
+            "fingerprints": []
+        },
+        "Guardian Angels": {
+            "textures": [
+                "dc24efe75918338d3f2f9bac61a48c632ed270f96c0e0a36f4f3c740520d57a5"
+            ],
+            "fingerprints": []
+        },
+        "Angelic Ascension Guardian Angels": {
+            "textures": [
+                "03ef681add633b538ebc1b0d89ba9775840a9b823246c99583b4d4d763a0d6b0"
+            ],
+            "fingerprints": []
+        },
+        "Arrow Shield": {
+            "textures": [
+                "ac92d13b690ddfbc013bba1134b2e1b56e04c2a865b2532a873c55be15b4a15e"
+            ],
+            "fingerprints": []
+        },
+        "Judrajim": {
+            "textures": [
+                "0a347b9ece55a7c131d926bb1c27caa63cb32c1d17d9fa2f057d373c1634cb5c"
+            ],
+            "fingerprints": []
+        },
+        "Meteor Trail": {
+            "textures": [
+                "662b0544d2eaa5f74a31c492a382cb5767cc441c832dfdde74b5de39661a0086"
+            ],
+            "fingerprints": [
+              "4aa761cc79b8e1a17d786253ef423aca6bb92cd65f5afba467a6c38d36662702",
+              "5559c862acd173f8f333eb409634cd6f5b7582e53a15013b98cb19348ea3c123",
+              "fecc509fe5d212d14d9cf3bf93b339c80076f33cd7cc8254b0a93b8beeef0927"
+            ]
+        },
+        "Meteor Ball": {
+            "textures": [
+                "662b0544d2eaa5f74a31c492a382cb5767cc441c832dfdde74b5de39661a0086"
+            ],
+            "fingerprints": [
+                "4918908e2c891617ee71ca135251d6e17c610e40e7aa47670fd449b9a8dd3518"
+            ]
+        }
+    }
+}
