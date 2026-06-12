@@ -199,9 +199,15 @@
   },
   {
     "id": "dataStaticItemDisplayModelData",
-    "md5": "2744faa5c512e1807a3dad412cd70bbc",
+    "md5": "8422357382ce61015140507281cf538f",
     "path": "Data-Storage/item_display_model_data.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/item_display_model_data.json"
+  },
+  {
+    "id": "dataStaticItemDisplayModelData",
+    "md5": "8422357382ce61015140507281cf538f",
+    "path": "Data-Storage/item_display_model_data.json",
+    "url": "https://raw.githubusercontent.com/EshrealDev/Wynntils-Static-Storage/refs/heads/feature/resourcepack-handling/Data-Storage/item_display_model_data.json"
   },
   {
     "id": "dataStaticItemObtain",
@@ -262,12 +268,6 @@
     "md5": "e9dd911a30d64379aad614ccf71df01c",
     "path": "Data-Storage/model_data.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/model_data.json"
-  },
-  {
-    "id": "dataStaticItemDisplayModelData",
-    "md5": "21bb00e312605959e093c88b6396518c",
-    "path": "Data-Storage/item_display_model_data.json",
-    "url": "https://raw.githubusercontent.com/EshrealDev/Wynntils-Static-Storage/refs/heads/feature/resourcepack-handling/Data-Storage/item_display_model_data.json"
   },
   {
     "id": "dataStaticPlaceMapFeatures",
