@@ -204,12 +204,6 @@
     "url": "https://cdn.wynntils.com/static/Data-Storage/item_display_model_data.json"
   },
   {
-    "id": "dataStaticItemDisplayModelData",
-    "md5": "8422357382ce61015140507281cf538f",
-    "path": "Data-Storage/item_display_model_data.json",
-    "url": "https://raw.githubusercontent.com/EshrealDev/Wynntils-Static-Storage/refs/heads/feature/resourcepack-handling/Data-Storage/item_display_model_data.json"
-  },
-  {
     "id": "dataStaticItemObtain",
     "md5": "20e9a265f5e2ed91b02d80623b3765bd",
     "path": "Data-Storage/item_obtain.json",
