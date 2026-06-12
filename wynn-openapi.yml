@@ -1,0 +1,4149 @@
+openapi: 3.1.0
+info:
+  title: Modules
+  version: 1.0.0
+paths:
+  /player:
+    get:
+      operationId: list-online-players
+      summary: List online players
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>30 seconds</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>PLAYER</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        <Warning>
+
+        Online player list is subject to [Access Rules](/privacy), which can hide some players from the list. Rely on
+        the field `total` to have the accurate player count.
+
+        </Warning>
+      tags:
+        - subpackage_player
+      parameters:
+        - name: identifier
+          in: query
+          description: Switches player descriptor between either their username or their uuid.
+          required: false
+          schema:
+            $ref: '#/components/schemas/PlayerGetParametersIdentifier'
+        - name: server
+          in: query
+          description: Filter online players to a specific world such as `WC1` or `1`.
+          required: false
+          schema:
+            $ref: '#/components/schemas/PlayerGetParametersServer'
+      responses:
+        '200':
+          description: Online player summary.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OnlinePlayerList'
+  /player/whoami:
+    get:
+      operationId: get-player-identity
+      summary: Who Am I
+      description: >-
+        <Note>
+
+        This endpoint is not cached.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to the
+        <Badge intent="warning" minimal>PLAYER</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        <Warning>
+
+        Try it will not return usable data for this route. It depends on authentication and IP-aware context, so test it
+        against the live API outside the docs.
+
+        </Warning>
+
+
+        Data returned here depends on the accounts you used to join Wynncraft. Those accounts represent who we think you
+        are and are used for account-aware features such as store auto-login and map live position viewing.
+      tags:
+        - subpackage_player
+      responses:
+        '200':
+          description: Identity mapping keyed by player UUID.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  $ref: '#/components/schemas/PlayerIdentity'
+        '403':
+          description: No eligible online identity could be resolved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /player/{username}:
+    get:
+      operationId: get-player
+      summary: Get player profile
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>PLAYER</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        <Warning>
+
+        Player stats are subject to [Access Rules](/privacy), which can hide some of the stats. Check the `restrictions`
+        object to see which access rules affected the response.
+
+        </Warning>
+
+        <Info>
+
+        It is recommended to request players by UUID. Username lookups can return `300 MultipleObjectsReturned` with a
+        multi-selector response when more than one player matches the query.
+
+        </Info>
+
+        `previousRanking` is stored daily based on player activity. Subtracting `previousRanking` from the current
+        ranking gives the player's leaderboard progression.
+
+
+        <Info>
+
+        Use `fullResult` to include full character data. The `characters` object uses the same structure as [GET
+        /player/{username}/characters/{uuid}](api:GET/player/{username}/characters/{uuid}).
+
+        </Info>
+      tags:
+        - subpackage_player
+      parameters:
+        - name: username
+          in: path
+          description: Username or UUID accepted by the player route.
+          required: true
+          schema:
+            type: string
+        - name: fullResult
+          in: query
+          description: >-
+            Presence-based flag that expands responses. Send it without a value as `?fullResult`. Using
+            `?fullResult=true` or `?fullResult=false` is not accepted.
+          required: false
+          schema:
+            $ref: '#/components/schemas/PlayerUsernameGetParametersFullResult'
+      responses:
+        '200':
+          description: Player profile.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Player'
+        '404':
+          description: No matching player was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Player payload construction failed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /player/{username}/characters:
+    get:
+      operationId: list-player-characters
+      summary: List a player's characters
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>PLAYER</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        <Warning>
+
+        This response can be restricted by player [Access Rules](/privacy).
+
+        </Warning>
+
+        <Info>
+
+        It is recommended to request players by UUID. Username lookups can return `300 MultipleObjectsReturned` with a
+        multi-selector response when more than one player matches the query.
+
+        </Info>
+
+
+        Returns the player's characters keyed by character UUID.
+      tags:
+        - subpackage_player
+      parameters:
+        - name: username
+          in: path
+          description: Username or UUID accepted by the player route.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Character map keyed by character UUID.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  $ref: '#/components/schemas/LightCharacter'
+        '400':
+          description: The player has no characters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '403':
+          description: Character list visibility is restricted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: No matching player was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Player payload construction failed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /player/{username}/characters/{uuid}:
+    get:
+      operationId: get-player-character
+      summary: Get detailed character data
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>PLAYER</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        <Warning>
+
+        Character data is subject to [Access Rules](/privacy), which can hide some stats. Check the `restrictions`
+        object to see which access rules affected the response. You can also check the `removedStat` field to check when
+        the character skeleton customization affect the response.
+
+        </Warning>
+
+        <Info>
+
+        It is recommended to request players by UUID. Username lookups can return `300 MultipleObjectsReturned` with a
+        multi-selector response when more than one player matches the query.
+
+        </Info>
+
+
+        Returns the full stat payload for a single character.
+      tags:
+        - subpackage_player
+      parameters:
+        - name: username
+          in: path
+          description: Username or UUID accepted by the player route.
+          required: true
+          schema:
+            type: string
+        - name: uuid
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Character detail.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Character'
+        '400':
+          description: Unknown character UUID.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '403':
+          description: Character data visibility is restricted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: No matching player was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Player payload construction failed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /player/{username}/characters/{uuid}/abilities:
+    get:
+      operationId: get-player-character-abilities
+      summary: Get character ability map
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="warning" minimal>10 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>PLAYER</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+        <Warning>
+
+        Ability Tree is subject to [Access Rules](/privacy), which can make it unavailable.
+
+        </Warning>
+
+        <Info>
+
+        It is recommended to request players by UUID. Username lookups can return `300 MultipleObjectsReturned` with a
+        multi-selector response when more than one player matches the query.
+
+        </Info>
+
+        This endpoint only lists abilities the player has enabled and performs pathfinding on the fly.
+
+
+        To render a full in-game style ability tree, combine this response with:
+
+        - [GET /ability/tree/{tree}](api:GET/ability/tree/{tree})
+
+        - [GET /ability/map/{tree}](api:GET/ability/map/{tree}) 
+      tags:
+        - subpackage_player
+      parameters:
+        - name: username
+          in: path
+          description: Username or UUID accepted by the player route.
+          required: true
+          schema:
+            type: string
+        - name: uuid
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Ability tree nodes grouped by page.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AbilityMapPages'
+        '400':
+          description: Unknown character UUID.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '403':
+          description: Ability tree visibility is restricted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: No matching player was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: The character ability tree could not be rendered.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /guild/list/guild:
+    get:
+      operationId: list-guilds
+      summary: List guilds
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>GUILD</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_guild
+      parameters:
+        - name: identifier
+          in: query
+          description: Switches player descriptor between either their username or their uuid.
+          required: false
+          schema:
+            $ref: '#/components/schemas/GuildListGuildGetParametersIdentifier'
+      responses:
+        '200':
+          description: Guild directory keyed by name or UUID.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Guild_listGuilds_Response_200'
+  /guild/list/territory:
+    get:
+      operationId: list-guild-territories
+      summary: List territories
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>10 seconds</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>GUILD</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_guild
+      responses:
+        '200':
+          description: Territory ownership map keyed by territory name.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  $ref: '#/components/schemas/Territory'
+        '500':
+          description: Territory list cache could not be loaded.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /guild/prefix/{query}:
+    get:
+      operationId: get-guild-by-prefix
+      summary: Get guild by prefix
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>GUILD</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+        <Info>
+
+        Prefix lookups can return `300 MultipleObjectsReturned` with a multi-selector response when more than one guild
+        matches the query.
+
+        </Info>
+
+        Prefix queries are useful when your input is a guild tag rather than a full guild name.
+
+
+        Use the `identifier` query parameter with either `username` or `uuid` to control how guild members are
+        identified in the response.
+      tags:
+        - subpackage_guild
+      parameters:
+        - name: query
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: identifier
+          in: query
+          description: Switches player descriptor between either their username or their uuid.
+          required: false
+          schema:
+            $ref: '#/components/schemas/GuildPrefixQueryGetParametersIdentifier'
+      responses:
+        '200':
+          description: Guild detail.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Guild'
+        '400':
+          description: The provided guild prefix is malformed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: No matching guild was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /guild/uuid/{query}:
+    get:
+      operationId: get-guild-by-uuid
+      summary: Get guild by UUID
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>GUILD</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+        Use the `identifier` query parameter with either `username` or `uuid` to control how guild members are
+        identified in the response.
+      tags:
+        - subpackage_guild
+      parameters:
+        - name: query
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: identifier
+          in: query
+          description: Switches player descriptor between either their username or their uuid.
+          required: false
+          schema:
+            $ref: '#/components/schemas/GuildUuidQueryGetParametersIdentifier'
+      responses:
+        '200':
+          description: Guild detail.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Guild'
+        '404':
+          description: No matching guild was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /guild/{query}:
+    get:
+      operationId: get-guild-by-name
+      summary: Get guild by name
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>GUILD</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+        Name queries are case-insensitive.
+
+        Use the `identifier` query parameter with either `username` or `uuid` to control how guild members are
+        identified in the response.
+      tags:
+        - subpackage_guild
+      parameters:
+        - name: query
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: identifier
+          in: query
+          description: Switches player descriptor between either their username or their uuid.
+          required: false
+          schema:
+            $ref: '#/components/schemas/GuildQueryGetParametersIdentifier'
+      responses:
+        '200':
+          description: Guild detail.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Guild'
+        '404':
+          description: No matching guild was found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /item/database:
+    get:
+      operationId: list-items
+      summary: List item database entries
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>ITEMS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Items use the [API Markup parser](/welcome#api-markup-parser) for Major IDs.
+
+
+        <Info>
+
+        `fullResult` bypasses pagination and returns the `results` object for all objects at once.
+
+        </Info>
+
+
+        This endpoint uses the generic pagination response format.
+
+
+        <Footer>
+
+        Enum values in these docs are based on the item metadata available on April 23, 2026. New item content can add
+        or change values over time.
+
+        </Footer>
+      tags:
+        - subpackage_item
+      parameters:
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+        - name: fullResult
+          in: query
+          description: >-
+            Presence-based flag that expands responses. Send it without a value as `?fullResult`. Using
+            `?fullResult=true` or `?fullResult=false` is not accepted.
+          required: false
+          schema:
+            $ref: '#/components/schemas/ItemDatabaseGetParametersFullResult'
+      responses:
+        '200':
+          description: Paginated item list.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedItemResponse'
+  /item/search:
+    post:
+      operationId: search-items
+      summary: Search item database
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>ITEMS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Filters can be empty and do not always need to be present in the payload. To understand the endpoint better, try
+        the official Wynncraft item guide while monitoring the network tab in your browser devtools.
+
+
+        <Info>
+
+        `fullResult` bypasses pagination and returns the `results` object for all objects at once.
+
+        </Info>
+
+
+        This endpoint uses the generic pagination response format.
+
+
+        <Footer>
+
+        Enum values in these docs are based on the item metadata available on April 23, 2026. New item content can add
+        or change values over time.
+
+        </Footer>
+      tags:
+        - subpackage_item
+      parameters:
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+        - name: fullResult
+          in: query
+          description: >-
+            Presence-based flag that expands responses. Send it without a value as `?fullResult`. Using
+            `?fullResult=true` or `?fullResult=false` is not accepted.
+          required: false
+          schema:
+            $ref: '#/components/schemas/ItemSearchPostParametersFullResult'
+      responses:
+        '200':
+          description: Paginated search results.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedItemResponse'
+        '400':
+          description: Invalid request payload.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: No items matched the request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ItemSearchRequest'
+  /item/search/{query}:
+    get:
+      operationId: quick-search-items
+      summary: Quick item search
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>ITEMS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Items use the [API Markup parser](/welcome#api-markup-parser) for Major IDs.
+
+
+        <Footer>
+
+        Enum values in these docs are based on the item metadata available on April 23, 2026. New item content can add
+        or change values over time.
+
+        </Footer>
+      tags:
+        - subpackage_item
+      parameters:
+        - name: query
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Item matches.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItemDatabaseFull'
+        '404':
+          description: No items matched the query.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /item/metadata:
+    get:
+      operationId: get-item-metadata
+      summary: Get item filter metadata
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>3 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>ITEMS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+        Returns all available filters for advanced item search. If you need an exact filter or lookup key, this endpoint
+        is the authoritative source.
+
+
+        <Info>
+
+        Prefer `?static` when you only need the static lookup map. The default response also includes website-oriented
+        filter groupings used by the item guide.
+
+        </Info>
+      tags:
+        - subpackage_item
+      parameters:
+        - name: static
+          in: query
+          description: >-
+            Presence-based flag that returns only the static metadata payload. Prefer sending it as `?static`.
+            `?static=` is also accepted.
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Filter metadata or static metadata only.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Item_getItemMetadata_Response_200'
+  /item/sets:
+    get:
+      operationId: list-item-sets
+      summary: List item sets
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>ITEMS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_item
+      responses:
+        '200':
+          description: Item set map keyed by set name.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  $ref: '#/components/schemas/ItemSet'
+  /ability/tree/{tree}:
+    get:
+      operationId: get-ability-tree
+      summary: Get class ability tree
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Ability and aspect responses use the [API Markup parser](/welcome#api-markup-parser).
+
+
+        Use these endpoints together to render a player ability tree like the in-game view:
+
+        - [GET /ability/tree/{tree}](api:GET/ability/tree/{tree})
+
+        - [GET /ability/map/{tree}](api:GET/ability/map/{tree})
+
+        - [GET /player/{username}/characters/{uuid}/abilities](api:GET/player/{username}/characters/{uuid}/abilities)
+      tags:
+        - subpackage_ability
+      parameters:
+        - name: tree
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/AbilityTreeTreeGetParametersTree'
+      responses:
+        '200':
+          description: Ability tree definition.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AbilityTree'
+        '400':
+          description: Invalid class tree identifier.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /ability/map/{tree}:
+    get:
+      operationId: get-ability-map
+      summary: Get class ability tree map
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Ability and aspect responses use the [API Markup parser](/welcome#api-markup-parser).
+
+
+        Use these endpoints together to render a player ability tree like the in-game view:
+
+        - [GET /ability/tree/{tree}](api:GET/ability/tree/{tree})
+
+        - [GET /ability/map/{tree}](api:GET/ability/map/{tree})
+
+        - [GET /player/{username}/characters/{uuid}/abilities](api:GET/player/{username}/characters/{uuid}/abilities)
+
+
+        The map structure is shared with [GET
+        /player/{username}/characters/{uuid}/abilities](api:GET/player/{username}/characters/{uuid}/abilities).
+      tags:
+        - subpackage_ability
+      parameters:
+        - name: tree
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/AbilityMapTreeGetParametersTree'
+      responses:
+        '200':
+          description: Ability nodes grouped by page.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AbilityMapPages'
+        '400':
+          description: Invalid class tree identifier.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /aspects/{tree}:
+    get:
+      operationId: list-aspects
+      summary: List aspects for a class
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Ability and aspect responses use the [API Markup parser](/welcome#api-markup-parser).
+      tags:
+        - subpackage_ability
+      parameters:
+        - name: tree
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/AspectsTreeGetParametersTree'
+      responses:
+        '200':
+          description: Aspect list.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Aspect'
+        '400':
+          description: Invalid class tree identifier.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /classes:
+    get:
+      operationId: list-classes
+      summary: List classes
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_classes
+      responses:
+        '200':
+          description: Class summary map keyed by class identifier.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  $ref: '#/components/schemas/ClassSummary'
+        '500':
+          description: Class metadata could not be loaded.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /classes/{class_name}:
+    get:
+      operationId: get-class
+      summary: Get class detail
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_classes
+      parameters:
+        - name: class_name
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/ClassesClassNameGetParametersClassName'
+      responses:
+        '200':
+          description: Class detail.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ClassDetail'
+        '400':
+          description: Invalid class tree identifier.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Class metadata could not be loaded.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /map/locations/markers:
+    get:
+      operationId: list-map-markers
+      summary: List map markers
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>MAP</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_map
+      responses:
+        '200':
+          description: Map markers.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MapMarker'
+  /map/locations/player:
+    get:
+      operationId: list-player-locations
+      summary: List visible player locations
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>15 seconds</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>MAP</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        <Warning>
+
+        Try it will not return usable data for this route. It depends on authentication and IP-aware context, so test it
+        against the live API outside the docs.
+
+        </Warning>
+      tags:
+        - subpackage_map
+      responses:
+        '200':
+          description: Visible player locations.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PlayerLocation'
+        '403':
+          description: No eligible online player location could be resolved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /map/quests:
+    get:
+      operationId: get-quest-count
+      summary: Get total quest count
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>MAP</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_map
+      responses:
+        '200':
+          description: Quest count summary.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Map_getQuestCount_Response_200'
+  /search/{query}:
+    get:
+      operationId: global-search
+      summary: Search across public resources
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="warning" minimal>10 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Item results use the same structure as item responses.
+
+
+        Player results are limited to 20 entries and guild results are limited to 50 entries.
+      tags:
+        - subpackage_search
+      parameters:
+        - name: query
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: only
+          in: query
+          description: Restrict global search to one result category.
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Grouped search results.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GlobalSearchResult'
+        '400':
+          description: Malformed search query.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: No matches were found in any requested category.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /leaderboards/types:
+    get:
+      operationId: list-leaderboard-types
+      summary: List leaderboard types
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="warning" minimal>10 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>LEADERBOARDS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Use this list to know which leaderboard types can be requested from `GET /leaderboards/{lb_type}`.
+      tags:
+        - subpackage_leaderboards
+      responses:
+        '200':
+          description: Leaderboard type identifiers.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /leaderboards/{lb_type}:
+    get:
+      operationId: get-leaderboard
+      summary: Get leaderboard entries
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="warning" minimal>10 minutes</Badge> in the <Badge intent="warning"
+        minimal>USER</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs to
+        the <Badge intent="warning" minimal>LEADERBOARDS</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Leaderboards update every 10 minutes for online players. Players who go offline between update intervals are
+        flagged to update on the next interval.
+
+
+        Use `resultLimit` with an integer below 1000 to limit the response size. The default limit is `100`.
+
+
+        Character-based leaderboards can include `characterUuid` and `characterType`, such as profession or gamemode
+        leaderboards.
+
+
+        `metadata` contains variable keys depending on the leaderboard type. Some gamemode leaderboards also include
+        top-level `characterData`, which has the same structure as player character data.
+
+
+        Some entries also include optional rank presentation fields such as `rank`, `supportRank`, `shortenedRank`,
+        `legacyRankColour`, and `rankBadge`.
+
+
+        Raid leaderboards include a score and gambits used. Completion starts at 200, then adds +10, +20, or +30 for
+        each gambit.
+
+
+        `previousRanking` is stored daily depending on player activity. Subtracting `previousRanking` from the current
+        ranking gives the player's leaderboard progression.
+      tags:
+        - subpackage_leaderboards
+      parameters:
+        - name: lb_type
+          in: path
+          description: Leaderboard identifier such as `playerContent`.
+          required: true
+          schema:
+            type: string
+        - name: resultLimit
+          in: query
+          description: Defaults to 100.
+          required: false
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Leaderboard entries keyed by ranking position.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  $ref: '#/components/schemas/LeaderboardEntry'
+        '400':
+          description: Invalid leaderboard type.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /publisher/articles/fetch/{article_type}/{pk}:
+    get:
+      operationId: fetch-publisher-article
+      summary: Fetch a published article
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Article content uses standard Markdown syntax alongside Discord-specific syntax such as timestamps. See Discord
+        Markdown and timestamp formatting for supported syntax.
+      tags:
+        - subpackage_news
+      parameters:
+        - name: article_type
+          in: path
+          description: Publisher content type. Use `article` to return every published article type.
+          required: true
+          schema:
+            $ref: '#/components/schemas/PublisherArticleType'
+        - name: pk
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Article detail.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PublisherArticle'
+        '404':
+          description: The requested article is not visible or does not exist.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /publisher/articles/list/{article_type}:
+    get:
+      operationId: list-publisher-articles
+      summary: List published articles
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Lists published articles.
+
+
+        <Info>
+
+        Use `article` to return every published article type in the same response.
+
+        </Info>
+
+        This endpoint uses the generic pagination response format.
+      tags:
+        - subpackage_news
+      parameters:
+        - name: article_type
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/PublisherArticleType'
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Paginated article list.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PublisherArticleList'
+  /publisher/videos/list:
+    get:
+      operationId: list-publisher-videos
+      summary: List featured videos
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="success" minimal>2 minutes</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+      tags:
+        - subpackage_news
+      responses:
+        '200':
+          description: Video list keyed by display position.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: string
+                  format: uri
+  /latest-news:
+    get:
+      operationId: list-latest-news
+      summary: Get legacy news
+      description: >-
+        <Note>
+
+        This endpoint is cached for <Badge intent="error" minimal>1 hour</Badge> in the <Badge intent="success"
+        minimal>SHARED</Badge> cache source.   See [Caching](/welcome#caching). <Indent></Indent> This endpoint belongs
+        to the <Badge intent="warning" minimal>SHARED</Badge> rate-limit bucket. See [Throttling and Rate
+        Limits](/welcome#throttling-and-rate-limits).
+
+        </Note>
+
+
+        Returns the latest legacy forum news.
+      tags:
+        - subpackage_news
+      responses:
+        '200':
+          description: Latest news entries.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LatestNewsEntry'
+servers:
+  - url: https://api.wynncraft.com/v3
+components:
+  schemas:
+    PlayerGetParametersIdentifier:
+      type: string
+      enum:
+        - username
+        - uuid
+      title: PlayerGetParametersIdentifier
+    PlayerGetParametersServer:
+      oneOf:
+        - type: string
+        - type: integer
+      title: PlayerGetParametersServer
+    OnlinePlayerListPlayers:
+      type: object
+      properties:
+        identifier:
+          type: string
+          format: server
+      title: OnlinePlayerListPlayers
+    OnlinePlayerList:
+      type: object
+      properties:
+        total:
+          type: integer
+        players:
+          $ref: '#/components/schemas/OnlinePlayerListPlayers'
+      required:
+        - total
+        - players
+      title: OnlinePlayerList
+    LegacyRankColour:
+      type: object
+      properties:
+        main:
+          type: string
+        sub:
+          type: string
+      required:
+        - main
+        - sub
+      title: LegacyRankColour
+    PlayerIdentity:
+      type: object
+      properties:
+        username:
+          type: string
+        online:
+          type: boolean
+        nickname:
+          type:
+            - string
+            - 'null'
+        rank:
+          type: string
+        supportRank:
+          type:
+            - string
+            - 'null'
+        shortenedRank:
+          type: string
+        legacyRankColour:
+          $ref: '#/components/schemas/LegacyRankColour'
+        rankBadge:
+          type: string
+      required:
+        - username
+        - online
+        - nickname
+        - rank
+        - supportRank
+        - shortenedRank
+        - legacyRankColour
+        - rankBadge
+      title: PlayerIdentity
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+        detail:
+          type: string
+        code:
+          type: integer
+      required:
+        - error
+        - detail
+        - code
+      title: Error
+    PlayerUsernameGetParametersFullResult:
+      type: string
+      enum:
+        - ''
+      title: PlayerUsernameGetParametersFullResult
+    GuildReference:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        prefix:
+          type: string
+        rank:
+          type:
+            - string
+            - 'null'
+        rankStars:
+          type:
+            - string
+            - 'null'
+      required:
+        - uuid
+        - name
+        - prefix
+      title: GuildReference
+    RankMap:
+      type: object
+      additionalProperties:
+        type: integer
+      description: >-
+        Map of leaderboard type/name to rank position. See [GET /leaderboards/types](api:GET/leaderboards/types) for
+        possible types.
+      title: RankMap
+    DungeonList:
+      type: object
+      properties:
+        Skeleton:
+          type: integer
+        Decrepit Sewers:
+          type: integer
+        Corrupted Decrepit Sewers:
+          type: integer
+        Spider:
+          type: integer
+        Infested Pit:
+          type: integer
+        Zombie:
+          type: integer
+        Timelost Sanctum:
+          type: integer
+        Underworld Crypt:
+          type: integer
+        Corrupted Underworld Crypt:
+          type: integer
+        Animal:
+          type: integer
+        Lost Sanctuary:
+          type: integer
+        Corrupted Lost Sanctuary:
+          type: integer
+        Silverfish:
+          type: integer
+        Sand-Swept Tomb:
+          type: integer
+        Corrupted Sand-Swept Tomb:
+          type: integer
+        Ice:
+          type: integer
+        Ice Barrows:
+          type: integer
+        Corrupted Ice Barrows:
+          type: integer
+        Jungle:
+          type: integer
+        Undergrowth Ruins:
+          type: integer
+        Corrupted Undergrowth Ruins:
+          type: integer
+        Ocean:
+          type: integer
+        Galleon's Graveyard:
+          type: integer
+        Corrupted Galleon's Graveyard:
+          type: integer
+        Fallen Factory:
+          type: integer
+        Eldritch Outlook:
+          type: integer
+      title: DungeonList
+    DungeonCountList:
+      type: object
+      properties:
+        total:
+          type: integer
+        list:
+          $ref: '#/components/schemas/DungeonList'
+      required:
+        - total
+        - list
+      title: DungeonCountList
+    RaidList:
+      type: object
+      properties:
+        Nest of the Grootslang:
+          type: integer
+        Orphion's Nexus of Light:
+          type: integer
+        The Canyon Colossus:
+          type: integer
+        The Nameless Anomaly:
+          type: integer
+        The Wartorn Palace:
+          type: integer
+      title: RaidList
+    RaidCountList:
+      type: object
+      properties:
+        total:
+          type: integer
+        list:
+          $ref: '#/components/schemas/RaidList'
+      required:
+        - total
+        - list
+      title: RaidCountList
+    RaidStats:
+      type: object
+      properties:
+        damageTaken:
+          type: integer
+        damageDealt:
+          type: integer
+        healthHealed:
+          type: integer
+        deaths:
+          type: integer
+        buffsTaken:
+          type: integer
+        gambitsUsed:
+          type: integer
+      required:
+        - damageTaken
+        - damageDealt
+        - healthHealed
+        - deaths
+        - buffsTaken
+        - gambitsUsed
+      title: RaidStats
+    PvpStats:
+      type: object
+      properties:
+        kills:
+          type: integer
+        deaths:
+          type: integer
+      title: PvpStats
+    PlayerGlobalData:
+      type: object
+      properties:
+        contentCompletion:
+          type: integer
+        wars:
+          type: integer
+        totalLevel:
+          type: integer
+        mobsKilled:
+          type: integer
+        chestsFound:
+          type: integer
+        dungeons:
+          $ref: '#/components/schemas/DungeonCountList'
+        raids:
+          $ref: '#/components/schemas/RaidCountList'
+        worldEvents:
+          type: integer
+        lootruns:
+          type: integer
+        caves:
+          type: integer
+        completedQuests:
+          type: integer
+        guildRaids:
+          oneOf:
+            - $ref: '#/components/schemas/RaidCountList'
+            - type: 'null'
+        raidStats:
+          oneOf:
+            - $ref: '#/components/schemas/RaidStats'
+            - type: 'null'
+        pvp:
+          $ref: '#/components/schemas/PvpStats'
+      required:
+        - contentCompletion
+        - wars
+        - totalLevel
+        - mobsKilled
+        - chestsFound
+        - dungeons
+        - raids
+        - worldEvents
+        - lootruns
+        - caves
+        - completedQuests
+        - guildRaids
+        - raidStats
+        - pvp
+      title: PlayerGlobalData
+    FeaturedStats:
+      oneOf:
+        - type: string
+        - type: integer
+      title: FeaturedStats
+    ProfessionProgress:
+      type: object
+      properties:
+        level:
+          type: integer
+        xpPercent:
+          type: integer
+      required:
+        - level
+        - xpPercent
+      title: ProfessionProgress
+    Professions:
+      type: object
+      properties:
+        fishing:
+          $ref: '#/components/schemas/ProfessionProgress'
+        woodcutting:
+          $ref: '#/components/schemas/ProfessionProgress'
+        mining:
+          $ref: '#/components/schemas/ProfessionProgress'
+        farming:
+          $ref: '#/components/schemas/ProfessionProgress'
+        scribing:
+          $ref: '#/components/schemas/ProfessionProgress'
+        jeweling:
+          $ref: '#/components/schemas/ProfessionProgress'
+        alchemism:
+          $ref: '#/components/schemas/ProfessionProgress'
+        cooking:
+          $ref: '#/components/schemas/ProfessionProgress'
+        weaponsmithing:
+          $ref: '#/components/schemas/ProfessionProgress'
+        tailoring:
+          $ref: '#/components/schemas/ProfessionProgress'
+        woodworking:
+          $ref: '#/components/schemas/ProfessionProgress'
+        armouring:
+          $ref: '#/components/schemas/ProfessionProgress'
+      title: Professions
+    Character:
+      type: object
+      properties:
+        type:
+          type: string
+        reskin:
+          type:
+            - string
+            - 'null'
+        nickname:
+          type:
+            - string
+            - 'null'
+        level:
+          type: integer
+        xp:
+          type: integer
+        xpPercent:
+          type: integer
+        totalLevel:
+          type: integer
+        preEconomy:
+          type:
+            - boolean
+            - 'null'
+        gamemode:
+          type: array
+          items:
+            type: string
+        contentCompletion:
+          type: integer
+        wars:
+          type: integer
+        playtime:
+          type: number
+          format: double
+        mobsKilled:
+          type: integer
+        chestsFound:
+          type: integer
+        itemsIdentified:
+          type: integer
+        blocksWalked:
+          type: integer
+        logins:
+          type: integer
+        deaths:
+          type: integer
+        discoveries:
+          type: integer
+        pvp:
+          $ref: '#/components/schemas/PvpStats'
+        skillPoints:
+          type:
+            - object
+            - 'null'
+          additionalProperties:
+            type: integer
+        professions:
+          $ref: '#/components/schemas/Professions'
+        dungeons:
+          oneOf:
+            - $ref: '#/components/schemas/DungeonCountList'
+            - type: 'null'
+        raids:
+          oneOf:
+            - $ref: '#/components/schemas/RaidCountList'
+            - type: 'null'
+        worldEvents:
+          type: integer
+        lootruns:
+          type: integer
+        caves:
+          type: integer
+        quests:
+          type: array
+          items:
+            type: string
+        restrictions:
+          type: object
+          additionalProperties:
+            type: boolean
+        removedStat:
+          type: array
+          items:
+            type: string
+      required:
+        - type
+        - reskin
+        - nickname
+        - level
+        - xp
+        - xpPercent
+        - totalLevel
+        - preEconomy
+        - gamemode
+        - contentCompletion
+        - wars
+        - playtime
+        - mobsKilled
+        - chestsFound
+        - itemsIdentified
+        - blocksWalked
+        - logins
+        - deaths
+        - discoveries
+        - pvp
+        - skillPoints
+        - professions
+        - dungeons
+        - raids
+        - worldEvents
+        - lootruns
+        - caves
+        - quests
+        - restrictions
+        - removedStat
+      title: Character
+    Player:
+      type: object
+      properties:
+        username:
+          type: string
+        online:
+          type: boolean
+        server:
+          type:
+            - string
+            - 'null'
+        activeCharacter:
+          type:
+            - string
+            - 'null'
+          format: uuid
+        nickname:
+          type:
+            - string
+            - 'null'
+        uuid:
+          type: string
+          format: uuid
+        rank:
+          type: string
+        rankBadge:
+          type: string
+        legacyRankColour:
+          $ref: '#/components/schemas/LegacyRankColour'
+        shortenedRank:
+          type: string
+        supportRank:
+          type:
+            - string
+            - 'null'
+        veteran:
+          type: boolean
+        lastJoin:
+          type: string
+          format: date-time
+        guild:
+          oneOf:
+            - $ref: '#/components/schemas/GuildReference'
+            - type: 'null'
+        ranking:
+          $ref: '#/components/schemas/RankMap'
+        previousRanking:
+          $ref: '#/components/schemas/RankMap'
+        firstJoin:
+          type: string
+          format: date-time
+        playtime:
+          type: number
+          format: double
+        globalData:
+          $ref: '#/components/schemas/PlayerGlobalData'
+        featuredStats:
+          $ref: '#/components/schemas/FeaturedStats'
+        wallpaper:
+          type: string
+        avatar:
+          type: string
+        restrictions:
+          type: object
+          additionalProperties:
+            type: boolean
+        characters:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/Character'
+          description: |
+            <Info>
+            Only present when `fullResult` is enabled.
+            </Info>
+      required:
+        - username
+        - online
+        - server
+        - activeCharacter
+        - nickname
+        - uuid
+        - rank
+        - rankBadge
+        - legacyRankColour
+        - shortenedRank
+        - supportRank
+        - veteran
+        - lastJoin
+        - guild
+        - ranking
+        - previousRanking
+        - firstJoin
+        - playtime
+        - globalData
+        - featuredStats
+        - wallpaper
+        - avatar
+        - restrictions
+      title: Player
+    LightCharacterMeta:
+      type: object
+      properties:
+        died:
+          type: boolean
+      title: LightCharacterMeta
+    LightCharacter:
+      type: object
+      properties:
+        type:
+          type: string
+        reskin:
+          type:
+            - string
+            - 'null'
+        nickname:
+          type:
+            - string
+            - 'null'
+        level:
+          type: integer
+        xp:
+          type: integer
+        xpPercent:
+          type: integer
+        totalLevel:
+          type: integer
+        gamemode:
+          type: array
+          items:
+            type: string
+        meta:
+          $ref: '#/components/schemas/LightCharacterMeta'
+      required:
+        - type
+        - reskin
+        - nickname
+        - level
+        - xp
+        - xpPercent
+        - totalLevel
+        - gamemode
+        - meta
+      title: LightCharacter
+    AbilityMapNodeType:
+      type: string
+      enum:
+        - ability
+        - connector
+      title: AbilityMapNodeType
+    AbilityMapNodeCoordinates:
+      type: object
+      properties:
+        x:
+          type: integer
+        'y':
+          type: integer
+      required:
+        - x
+        - 'y'
+      title: AbilityMapNodeCoordinates
+    AbilityIconValueCustomModelData:
+      type: object
+      properties:
+        rangeDispatch:
+          type: array
+          items:
+            type: integer
+      required:
+        - rangeDispatch
+      title: AbilityIconValueCustomModelData
+    AbilityIconValue:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        customModelData:
+          $ref: '#/components/schemas/AbilityIconValueCustomModelData'
+      required:
+        - id
+        - name
+        - customModelData
+      title: AbilityIconValue
+    AbilityIcon:
+      type: object
+      properties:
+        name:
+          type: string
+        value:
+          $ref: '#/components/schemas/AbilityIconValue'
+        format:
+          type: string
+      required:
+        - value
+        - format
+      title: AbilityIcon
+    AbilityMapNodeMetaIcon:
+      oneOf:
+        - $ref: '#/components/schemas/AbilityIcon'
+        - type: string
+      title: AbilityMapNodeMetaIcon
+    AbilityMapNodeMeta:
+      type: object
+      properties:
+        icon:
+          $ref: '#/components/schemas/AbilityMapNodeMetaIcon'
+        page:
+          type: integer
+        id:
+          type: string
+      required:
+        - page
+      title: AbilityMapNodeMeta
+    AbilityMapNode:
+      type: object
+      properties:
+        type:
+          $ref: '#/components/schemas/AbilityMapNodeType'
+        coordinates:
+          $ref: '#/components/schemas/AbilityMapNodeCoordinates'
+        meta:
+          $ref: '#/components/schemas/AbilityMapNodeMeta'
+        family:
+          type: array
+          items:
+            type: string
+      required:
+        - type
+        - coordinates
+        - meta
+        - family
+      title: AbilityMapNode
+    AbilityMapPages:
+      type: object
+      additionalProperties:
+        type: array
+        items:
+          $ref: '#/components/schemas/AbilityMapNode'
+      title: AbilityMapPages
+    GuildListGuildGetParametersIdentifier:
+      type: string
+      enum:
+        - username
+        - uuid
+      title: GuildListGuildGetParametersIdentifier
+    GuildListEntryByName:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        prefix:
+          type: string
+      required:
+        - uuid
+        - prefix
+      title: GuildListEntryByName
+    GuildListByName:
+      type: object
+      additionalProperties:
+        $ref: '#/components/schemas/GuildListEntryByName'
+      title: GuildListByName
+    GuildListEntryByUuid:
+      type: object
+      properties:
+        name:
+          type: string
+        prefix:
+          type: string
+      required:
+        - name
+        - prefix
+      title: GuildListEntryByUuid
+    GuildListByUuid:
+      type: object
+      additionalProperties:
+        $ref: '#/components/schemas/GuildListEntryByUuid'
+      title: GuildListByUuid
+    Guild_listGuilds_Response_200:
+      oneOf:
+        - $ref: '#/components/schemas/GuildListByName'
+        - $ref: '#/components/schemas/GuildListByUuid'
+      title: Guild_listGuilds_Response_200
+    TerritoryGuildReference:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        prefix:
+          type: string
+      required:
+        - uuid
+        - name
+        - prefix
+      title: TerritoryGuildReference
+    TerritoryLocation:
+      type: object
+      properties:
+        start:
+          type: array
+          items:
+            description: Any type
+        end:
+          type: array
+          items:
+            description: Any type
+      required:
+        - start
+        - end
+      title: TerritoryLocation
+    Territory:
+      type: object
+      properties:
+        guild:
+          $ref: '#/components/schemas/TerritoryGuildReference'
+        acquired:
+          type: string
+          format: date-time
+        location:
+          $ref: '#/components/schemas/TerritoryLocation'
+      required:
+        - guild
+        - acquired
+        - location
+      title: Territory
+    GuildPrefixQueryGetParametersIdentifier:
+      type: string
+      enum:
+        - username
+        - uuid
+      title: GuildPrefixQueryGetParametersIdentifier
+    GuildMemberWeekly:
+      type: object
+      properties:
+        completed:
+          type: boolean
+        streak:
+          type: integer
+      description: >-
+        Weekly guild objective data. This object is empty unless the authenticated requester is at least STRATEGIST in
+        the guild.
+      title: GuildMemberWeekly
+    GuildMemberGlobalData:
+      type: object
+      properties:
+        contentCompletion:
+          type: integer
+        wars:
+          type: integer
+        totalLevel:
+          type: integer
+        mobsKilled:
+          type: integer
+        chestsFound:
+          type: integer
+        dungeons:
+          $ref: '#/components/schemas/DungeonCountList'
+        raids:
+          $ref: '#/components/schemas/RaidCountList'
+        worldEvents:
+          type: integer
+        lootruns:
+          type: integer
+        caves:
+          type: integer
+        completedQuests:
+          type: integer
+        pvp:
+          $ref: '#/components/schemas/PvpStats'
+        guildRaids:
+          oneOf:
+            - $ref: '#/components/schemas/RaidCountList'
+            - type: 'null'
+        playtime:
+          type: number
+          format: double
+      title: GuildMemberGlobalData
+    GuildMemberRestrictions:
+      type: object
+      properties:
+        online_status:
+          type: boolean
+        main_access:
+          type: boolean
+        weekly_access:
+          type: boolean
+      title: GuildMemberRestrictions
+    GuildMember:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        username:
+          type: string
+        online:
+          type: boolean
+        lastJoin:
+          type:
+            - string
+            - 'null'
+          format: date-time
+        server:
+          type:
+            - string
+            - 'null'
+        contributed:
+          type: integer
+        contributionRank:
+          type: integer
+        joined:
+          type: string
+          format: date-time
+        weekly:
+          $ref: '#/components/schemas/GuildMemberWeekly'
+        globalData:
+          $ref: '#/components/schemas/GuildMemberGlobalData'
+        restrictions:
+          $ref: '#/components/schemas/GuildMemberRestrictions'
+      required:
+        - online
+        - lastJoin
+        - server
+        - contributed
+        - contributionRank
+        - joined
+        - weekly
+        - globalData
+        - restrictions
+      title: GuildMember
+    GuildMembers:
+      type: object
+      properties:
+        total:
+          type: integer
+        owner:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/GuildMember'
+        chief:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/GuildMember'
+        strategist:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/GuildMember'
+        recruiter:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/GuildMember'
+        recruit:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/GuildMember'
+      required:
+        - total
+      title: GuildMembers
+    BannerColour:
+      type: string
+      enum:
+        - BLACK
+        - RED
+        - GREEN
+        - BROWN
+        - BLUE
+        - PURPLE
+        - CYAN
+        - SILVER
+        - GRAY
+        - PINK
+        - LIME
+        - YELLOW
+        - LIGHT_BLUE
+        - MAGENTA
+        - ORANGE
+        - WHITE
+      title: BannerColour
+    BannerPattern:
+      type: string
+      enum:
+        - MOJANG
+        - RHOMBUS_MIDDLE
+        - SKULL
+        - SQUARE_BOTTOM_LEFT
+        - SQUARE_BOTTOM_RIGHT
+        - SQUARE_TOP_LEFT
+        - SQUARE_TOP_RIGHT
+        - STRAIGHT_CROSS
+        - STRIPE_BOTTOM
+        - STRIPE_CENTER
+        - STRIPE_DOWNLEFT
+        - STRIPE_DOWNRIGHT
+        - STRIPE_LEFT
+        - STRIPE_MIDDLE
+        - STRIPE_RIGHT
+        - STRIPE_SMALL
+        - STRIPE_TOP
+        - TRIANGLE_BOTTOM
+        - TRIANGLE_TOP
+        - TRIANGLES_BOTTOM
+        - TRIANGLES_TOP
+        - BASE
+        - BLANK
+        - BORDER
+        - BRICKS
+        - CIRCLE_MIDDLE
+        - CREEPER
+        - CROSS
+        - CURLY_BORDER
+        - DIAGONAL_LEFT
+        - DIAGONAL_LEFT_MIRROR
+        - DIAGONAL_RIGHT
+        - DIAGONAL_RIGHT_MIRROR
+        - FLOWER
+        - GRADIENT
+        - GRADIENT_UP
+        - HALF_HORIZONTAL
+        - HALF_HORIZONTAL_MIRROR
+        - HALF_VERTICAL
+        - HALF_VERTICAL_MIRROR
+      title: BannerPattern
+    BannerLayer:
+      type: object
+      properties:
+        color:
+          $ref: '#/components/schemas/BannerColour'
+        pattern:
+          $ref: '#/components/schemas/BannerPattern'
+      required:
+        - color
+        - pattern
+      title: BannerLayer
+    GuildBanner:
+      type: object
+      properties:
+        base:
+          $ref: '#/components/schemas/BannerColour'
+        tier:
+          type: integer
+        structure:
+          type: string
+        layers:
+          type: array
+          items:
+            $ref: '#/components/schemas/BannerLayer'
+      required:
+        - base
+        - tier
+        - structure
+        - layers
+      title: GuildBanner
+    GuildSeasonRank:
+      type: object
+      properties:
+        rating:
+          type: integer
+        finalTerritories:
+          type: integer
+      required:
+        - rating
+        - finalTerritories
+      title: GuildSeasonRank
+    GuildSeasonRanks:
+      type: object
+      additionalProperties:
+        $ref: '#/components/schemas/GuildSeasonRank'
+      title: GuildSeasonRanks
+    Guild:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        prefix:
+          type: string
+        level:
+          type: integer
+        xpPercent:
+          type: integer
+        territories:
+          type: integer
+        wars:
+          type: integer
+        raids:
+          type: integer
+        created:
+          type: string
+          format: date-time
+        members:
+          $ref: '#/components/schemas/GuildMembers'
+        online:
+          type: integer
+        banner:
+          $ref: '#/components/schemas/GuildBanner'
+        seasonRanks:
+          $ref: '#/components/schemas/GuildSeasonRanks'
+        ranking:
+          $ref: '#/components/schemas/RankMap'
+      required:
+        - uuid
+        - name
+        - prefix
+        - level
+        - xpPercent
+        - territories
+        - wars
+        - raids
+        - created
+        - members
+        - online
+        - banner
+        - seasonRanks
+        - ranking
+      title: Guild
+    GuildUuidQueryGetParametersIdentifier:
+      type: string
+      enum:
+        - username
+        - uuid
+      title: GuildUuidQueryGetParametersIdentifier
+    GuildQueryGetParametersIdentifier:
+      type: string
+      enum:
+        - username
+        - uuid
+      title: GuildQueryGetParametersIdentifier
+    ItemDatabaseGetParametersFullResult:
+      type: string
+      enum:
+        - ''
+      title: ItemDatabaseGetParametersFullResult
+    PaginationController:
+      type: object
+      properties:
+        count:
+          type: integer
+        current_count:
+          type: integer
+        pages:
+          type: integer
+        prev:
+          type:
+            - integer
+            - 'null'
+        current:
+          type: integer
+        next:
+          type:
+            - integer
+            - 'null'
+      required:
+        - count
+        - current_count
+        - pages
+        - prev
+        - current
+        - next
+      title: PaginationController
+    ItemTypeName:
+      type: string
+      enum:
+        - weapon
+        - armour
+        - accessory
+        - charm
+        - tome
+        - tool
+        - material
+        - ingredient
+      title: ItemTypeName
+    ItemSubTypeName:
+      type: string
+      enum:
+        - bow
+        - dagger
+        - relik
+        - spear
+        - wand
+        - boots
+        - chestplate
+        - helmet
+        - leggings
+        - bracelet
+        - necklace
+        - ring
+        - guildTome
+        - armourTome
+        - expertiseTome
+        - marathonTome
+        - mysticismTome
+        - lootrunTome
+        - weaponTome
+        - axe
+        - rod
+        - pickaxe
+        - scythe
+        - farming
+        - fishing
+        - mining
+        - woodcutting
+      title: ItemSubTypeName
+    ItemIcon:
+      type: object
+      properties:
+        value:
+          $ref: '#/components/schemas/AbilityIconValue'
+        format:
+          type: string
+      required:
+        - value
+        - format
+      title: ItemIcon
+    ItemEmblemName:
+      type: string
+      enum:
+        - diamond5
+        - diamond_5
+        - diamond1
+        - diamond_1
+        - diamond4
+        - diamond_4
+        - diamond6
+        - diamond_6
+        - diamond3
+        - diamond_3
+        - diamond2
+        - diamond_2
+        - shield5
+        - shield_5
+        - shield1
+        - shield_1
+        - shield4
+        - shield_4
+        - shield6
+        - shield_6
+        - shield3
+        - shield_3
+        - shield2
+        - shield_2
+        - shield
+        - sticker5
+        - sticker_5
+        - sticker1
+        - sticker_1
+        - sticker4
+        - sticker_4
+        - sticker6
+        - sticker_6
+        - sticker3
+        - sticker_3
+        - sticker2
+        - sticker_2
+        - square5
+        - square_5
+        - square4
+        - square_4
+        - square6
+        - square_6
+        - square
+      title: ItemEmblemName
+    ItemTierName:
+      type: string
+      enum:
+        - rare
+        - unique
+        - normal
+        - legendary
+        - mythic
+        - fabled
+        - TIER3
+        - TIER2
+        - TIER1
+        - TIER0
+      title: ItemTierName
+    ItemAttackSpeedName:
+      type: string
+      enum:
+        - slow
+        - fast
+        - superSlow
+        - normal
+        - verySlow
+        - veryFast
+        - superFast
+      title: ItemAttackSpeedName
+    ItemGatheringName:
+      type: string
+      enum:
+        - farming
+        - fishing
+        - mining
+        - woodcutting
+      title: ItemGatheringName
+    ItemSetName:
+      type: string
+      enum:
+        - boundless
+        - corrupted
+        - firemoss
+        - bony
+        - spore
+        - petal
+        - scrap
+        - beachside
+        - pigman
+        - toxic
+        - regal
+        - vexing
+        - voidglass
+        - cosmicFoundations
+        - snail
+        - thanosLegionnaire
+        - uth
+        - cosmic
+        - leaf
+        - tribal
+        - saint's
+        - visceral
+        - ascension
+        - ultramarine
+        - taigaElk
+        - clock
+        - nii
+        - moirai
+        - bleeding
+        - liffmail
+        - elf
+        - slime
+        - goblin
+        - ghostly
+        - horse
+        - snow
+        - skien's
+        - thunderRelic
+        - morph
+        - black
+        - earthRelic
+        - waterRelic
+        - relic
+        - outlaw
+        - silverfish
+        - nether
+        - fireRelic
+        - airRelic
+        - adventurer
+        - darkened
+        - bovine
+        - bear
+        - kaerynn
+        - villager
+        - spider
+        - conqueredSkies
+        - synchCore
+        - flashfire
+        - jester
+        - forgottenChronicles
+        - wynnterfest2016
+        - bandit's
+        - desert
+        - blackCatalyst
+        - constellation
+        - hallowynn2016
+      title: ItemSetName
+    ItemRequirements:
+      type: object
+      properties:
+        level:
+          type: integer
+        classRequirement:
+          type: string
+        strength:
+          type: integer
+        dexterity:
+          type: integer
+        intelligence:
+          type: integer
+        defence:
+          type: integer
+        agility:
+          type: integer
+      title: ItemRequirements
+    IdentificationValue1:
+      type: object
+      properties:
+        min:
+          type: integer
+        raw:
+          type: integer
+        max:
+          type: integer
+      required:
+        - min
+        - raw
+        - max
+      title: IdentificationValue1
+    IdentificationValue:
+      oneOf:
+        - type: integer
+        - $ref: '#/components/schemas/IdentificationValue1'
+      title: IdentificationValue
+    Item:
+      type: object
+      properties:
+        displayName:
+          type: string
+        internalName:
+          type: string
+        type:
+          $ref: '#/components/schemas/ItemTypeName'
+        subType:
+          $ref: '#/components/schemas/ItemSubTypeName'
+        icon:
+          $ref: '#/components/schemas/ItemIcon'
+        emblem:
+          $ref: '#/components/schemas/ItemEmblemName'
+        tier:
+          $ref: '#/components/schemas/ItemTierName'
+        attackSpeed:
+          $ref: '#/components/schemas/ItemAttackSpeedName'
+        averageDps:
+          type: number
+          format: double
+        restriction:
+          type: string
+        dropRestriction:
+          type: string
+        gathering:
+          $ref: '#/components/schemas/ItemGatheringName'
+        set:
+          $ref: '#/components/schemas/ItemSetName'
+        elements:
+          type: array
+          items:
+            type: string
+        requirements:
+          $ref: '#/components/schemas/ItemRequirements'
+        majorIds:
+          type: object
+          additionalProperties:
+            type: string
+        powderSlots:
+          type: integer
+        lore:
+          type: string
+        identifications:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/IdentificationValue'
+        base:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/IdentificationValue'
+      required:
+        - displayName
+        - internalName
+        - type
+        - subType
+        - icon
+        - emblem
+        - tier
+      title: Item
+    ItemDatabaseFull:
+      type: array
+      items:
+        $ref: '#/components/schemas/Item'
+      title: ItemDatabaseFull
+    PaginatedItemResponse:
+      type: object
+      properties:
+        controller:
+          $ref: '#/components/schemas/PaginationController'
+        results:
+          $ref: '#/components/schemas/ItemDatabaseFull'
+      required:
+        - controller
+        - results
+      title: PaginatedItemResponse
+    ItemSearchPostParametersFullResult:
+      type: string
+      enum:
+        - ''
+      title: ItemSearchPostParametersFullResult
+    ItemSearchRequestType1:
+      type: array
+      items:
+        $ref: '#/components/schemas/ItemTypeName'
+      title: ItemSearchRequestType1
+    ItemSearchRequestType:
+      oneOf:
+        - $ref: '#/components/schemas/ItemTypeName'
+        - $ref: '#/components/schemas/ItemSearchRequestType1'
+      title: ItemSearchRequestType
+    ItemSearchRequestTier1:
+      type: array
+      items:
+        $ref: '#/components/schemas/ItemTierName'
+      title: ItemSearchRequestTier1
+    ItemSearchRequestTier:
+      oneOf:
+        - $ref: '#/components/schemas/ItemTierName'
+        - $ref: '#/components/schemas/ItemSearchRequestTier1'
+      title: ItemSearchRequestTier
+    ItemSearchRequestAttackSpeed1:
+      type: array
+      items:
+        $ref: '#/components/schemas/ItemAttackSpeedName'
+      title: ItemSearchRequestAttackSpeed1
+    ItemSearchRequestAttackSpeed:
+      oneOf:
+        - $ref: '#/components/schemas/ItemAttackSpeedName'
+        - $ref: '#/components/schemas/ItemSearchRequestAttackSpeed1'
+      title: ItemSearchRequestAttackSpeed
+    ItemSearchRequestLevelRange:
+      oneOf:
+        - type: integer
+        - type: array
+          items:
+            type: integer
+      title: ItemSearchRequestLevelRange
+    ItemSearchRequestProfessions1:
+      type: array
+      items:
+        $ref: '#/components/schemas/ItemGatheringName'
+      title: ItemSearchRequestProfessions1
+    ItemSearchRequestProfessions:
+      oneOf:
+        - $ref: '#/components/schemas/ItemGatheringName'
+        - $ref: '#/components/schemas/ItemSearchRequestProfessions1'
+      title: ItemSearchRequestProfessions
+    ItemIdentificationKey:
+      type: string
+      enum:
+        - baseDamage
+        - baseEarthDamage
+        - baseThunderDamage
+        - baseWaterDamage
+        - baseFireDamage
+        - baseAirDamage
+        - strength
+        - dexterity
+        - intelligence
+        - defence
+        - agility
+        - healthRegenRaw
+        - rawSpellDamage
+        - rawMainAttackDamage
+        - elementalDefence
+        - rawDefence
+        - walkSpeed
+        - airDamage
+        - thunderDamage
+        - spellDamage
+        - raw1stSpellCost
+        - knockback
+        - fireDamage
+        - mainAttackDamage
+        - lifeSteal
+        - manaSteal
+        - weakenEnemy
+        - waterDefence
+        - airDefence
+        - rawDexterity
+        - manaRegen
+        - combatExperience
+        - slowEnemy
+        - waterDamage
+        - earthDefence
+        - exploding
+        - thunderDefence
+        - rawAgility
+        - reflection
+        - earthDamage
+        - healthRegen
+        - rawHealth
+        - damage
+        - elementalDamage
+        - rawAttackSpeed
+        - sprint
+        - raw4thSpellCost
+        - rawIntelligence
+        - rawAirDamage
+        - jumpHeight
+        - rawStrength
+        - rawElementalSpellDamage
+        - thorns
+        - fireDefence
+        - raw3rdSpellCost
+        - sprintRegen
+        - poison
+        - elementalSpellDamage
+        - rawThunderMainAttackDamage
+        - rawEarthMainAttackDamage
+        - fireSpellDamage
+        - stealing
+        - rawThunderDamage
+        - mainAttackRange
+        - raw2ndSpellCost
+        - 1stSpellCost
+        - 3rdSpellCost
+        - rawFireDamage
+        - lootBonus
+        - fireMainAttackDamage
+        - rawAirMainAttackDamage
+        - rawDamage
+        - 4thSpellCost
+        - rawElementalDamage
+        - elementalMainAttackDamage
+        - earthMainAttackDamage
+        - thunderMainAttackDamage
+        - rawMaxMana
+        - rawAirSpellDamage
+        - 2ndSpellCost
+        - rawEarthDamage
+        - earthSpellDamage
+        - waterSpellDamage
+        - rawFireSpellDamage
+        - criticalDamageBonus
+        - airSpellDamage
+        - rawThunderSpellDamage
+        - rawWaterSpellDamage
+        - rawFireMainAttackDamage
+        - neutralSpellDamage
+        - neutralDamage
+        - rawNeutralMainAttackDamage
+        - thunderSpellDamage
+        - rawEarthSpellDamage
+        - rawNeutralDamage
+        - rawWaterDamage
+        - healingEfficiency
+        - rawElementalMainAttackDamage
+        - airMainAttackDamage
+        - rawNeutralSpellDamage
+        - baseHealth
+        - baseEarthDefence
+        - baseFireDefence
+        - baseThunderDefence
+        - baseWaterDefence
+        - baseAirDefence
+        - neutralMainAttackDamage
+        - leveledXpBonus
+        - damageFromMobs
+        - leveledLootBonus
+        - gatheringExperience
+        - gatherXpBonus
+        - gatherSpeed
+        - lootQuality
+        - rawWaterMainAttackDamage
+        - AGILITYBONUS
+        - STRENGTHBONUS
+      title: ItemIdentificationKey
+    ItemSearchRequestIdentifications1:
+      type: array
+      items:
+        $ref: '#/components/schemas/ItemIdentificationKey'
+      title: ItemSearchRequestIdentifications1
+    ItemSearchRequestIdentifications:
+      oneOf:
+        - $ref: '#/components/schemas/ItemIdentificationKey'
+        - $ref: '#/components/schemas/ItemSearchRequestIdentifications1'
+      title: ItemSearchRequestIdentifications
+    ItemMajorIdKey:
+      type: string
+      enum:
+        - evershot
+        - forestSBlessing
+        - fallout
+        - twistingThreads
+        - pioneerSEcho
+        - altruism
+        - freerunner
+        - vedette
+        - realityRevision
+        - seekingModule
+        - fission
+        - freneticSpirit
+        - netShot
+        - deathSentence
+        - regicide
+        - selfSufficient
+        - napalm
+        - riverofSouls
+        - comboStomp
+        - gunkShot
+        - heartbeat
+        - methodical
+        - fantheHammer
+        - wormhole
+        - punishment
+        - grandInfluence
+        - cherryBombs
+        - greed
+        - windsurf
+        - hurricaneSEye
+        - sorcery
+        - rovingAssassin
+        - transcendence
+        - efflorescence
+        - spaceGlide
+        - heatShimmer
+        - soulEater
+        - juggle
+        - flurryofBlows
+        - incisionElegy
+        - lightningCrash
+        - livingMuseum
+        - manicEdge
+        - enlightenment
+        - ignitionWhirlwind
+        - lifestream
+        - peacefulEffigy
+        - stringsofFate
+        - ergosphere
+        - deadWeight
+        - sublimation
+        - furiousEffigy
+        - faustianGambit
+        - totemicFuse
+        - geocentrism
+        - gruesomeKnots
+        - starcrossed
+        - chaosReach
+        - flainRemnants
+        - litFuse
+        - rally
+        - hellfire
+        - paragon
+        - divineHonor
+        - trollBarge
+        - tidalDrift
+        - guardian
+        - lastResort
+        - saviourSSacrifice
+        - scarceComfort
+        - vitriol
+        - tackle
+        - divineRight
+        - slowBoil
+        - stagnantAir
+        - oldSpark
+        - oneselfUntoAll
+        - temblor
+        - overwhelm
+        - meteorCrash
+        - earthenSplinter
+        - entropy
+        - fixate
+        - lustrate
+        - inversion
+        - cosmicCapture
+        - orbitalChain
+        - perfectRecall
+        - gravityWell
+        - displace
+        - lockdown
+        - plague
+        - solarWind
+        - wavebreak
+        - ֎
+        - gentleGlow
+        - blindingLights
+        - oneiro
+        - dauntlessInferno
+        - fissure
+        - flashfreeze
+        - perilousFlare
+        - explosiveImpact
+        - escapeRoute
+        - lightweight
+        - pirouette
+        - lunge
+        - taunt
+        - desperateMeasures
+        - rockShield
+        - cannulate
+        - snowySteps
+        - phoenixBorn
+        - superconductor
+        - magnet
+        - alterEgo
+        - mangle
+        - intangible
+        - iceStorm
+        - pounce
+        - hawkeye
+        - orbwalk
+        - burntShadows
+        - frightorFlight
+        - festiveSpirit
+        - sunEater
+        - recklessAbandon
+        - expunge
+        - brachiate
+        - rustedIchor
+        - findThyself
+        - madness
+        - clamber
+        - splitSecond
+        - spectralMemory
+        - insoluble
+        - boundbyBlood
+        - mobMentality
+        - lasso
+        - coagulate
+        - flightBurst
+        - culicidaeCreed
+        - powerFist
+        - brutalBlow
+      title: ItemMajorIdKey
+    ItemSearchRequestMajorIds1:
+      type: array
+      items:
+        $ref: '#/components/schemas/ItemMajorIdKey'
+      title: ItemSearchRequestMajorIds1
+    ItemSearchRequestMajorIds:
+      oneOf:
+        - $ref: '#/components/schemas/ItemMajorIdKey'
+        - $ref: '#/components/schemas/ItemSearchRequestMajorIds1'
+      title: ItemSearchRequestMajorIds
+    ItemSearchRequest:
+      type: object
+      properties:
+        query:
+          type:
+            - string
+            - 'null'
+        type:
+          $ref: '#/components/schemas/ItemSearchRequestType'
+        tier:
+          $ref: '#/components/schemas/ItemSearchRequestTier'
+        attackSpeed:
+          $ref: '#/components/schemas/ItemSearchRequestAttackSpeed'
+        levelRange:
+          $ref: '#/components/schemas/ItemSearchRequestLevelRange'
+        professions:
+          $ref: '#/components/schemas/ItemSearchRequestProfessions'
+        identifications:
+          $ref: '#/components/schemas/ItemSearchRequestIdentifications'
+        majorIds:
+          $ref: '#/components/schemas/ItemSearchRequestMajorIds'
+      title: ItemSearchRequest
+    ItemMetadataFilters:
+      type: object
+      properties:
+        type:
+          type: array
+          items:
+            type: string
+        advanced:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+        tier:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+        identifications:
+          type: array
+          items:
+            type: string
+        majorIds:
+          type: array
+          items:
+            type: string
+        levelRange:
+          type: array
+          items:
+            type: integer
+      required:
+        - type
+        - advanced
+        - tier
+        - identifications
+        - majorIds
+        - levelRange
+      title: ItemMetadataFilters
+    ItemStaticValueMap:
+      type: object
+      additionalProperties:
+        type: integer
+      title: ItemStaticValueMap
+    ItemMetadata:
+      type: object
+      properties:
+        filters:
+          $ref: '#/components/schemas/ItemMetadataFilters'
+        static:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+      required:
+        - filters
+        - static
+      title: ItemMetadata
+    ItemStaticMetadata:
+      type: object
+      properties:
+        attackSpeed:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        emblem:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        gathering:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        identifications:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        majorIds:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        set:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        subType:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        tier:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+        type:
+          $ref: '#/components/schemas/ItemStaticValueMap'
+      required:
+        - attackSpeed
+        - emblem
+        - gathering
+        - identifications
+        - majorIds
+        - set
+        - subType
+        - tier
+        - type
+      title: ItemStaticMetadata
+    Item_getItemMetadata_Response_200:
+      oneOf:
+        - $ref: '#/components/schemas/ItemMetadata'
+        - $ref: '#/components/schemas/ItemStaticMetadata'
+      title: Item_getItemMetadata_Response_200
+    ItemSetBonusMinor:
+      oneOf:
+        - type: integer
+        - type: string
+      title: ItemSetBonusMinor
+    ItemSetBonus:
+      type: object
+      properties:
+        major:
+          type: array
+          items:
+            type: string
+        minor:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/ItemSetBonusMinor'
+      required:
+        - major
+        - minor
+      title: ItemSetBonus
+    ItemSet:
+      type: object
+      properties:
+        internalName:
+          type: string
+        bonuses:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/ItemSetBonus'
+        parts:
+          type: array
+          items:
+            type: string
+      required:
+        - internalName
+        - bonuses
+        - parts
+      title: ItemSet
+    AbilityTreeTreeGetParametersTree:
+      type: string
+      enum:
+        - archer
+        - warrior
+        - assassin
+        - mage
+        - shaman
+      title: AbilityTreeTreeGetParametersTree
+    AbilityTreeArchetype:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        shortDescription:
+          type: string
+        icon:
+          $ref: '#/components/schemas/AbilityIcon'
+        slot:
+          type: integer
+      required:
+        - name
+        - description
+        - shortDescription
+        - icon
+        - slot
+      title: AbilityTreeArchetype
+    AbilityDefinitionCoordinates:
+      type: object
+      properties:
+        x:
+          type: integer
+        'y':
+          type: integer
+      required:
+        - x
+        - 'y'
+      title: AbilityDefinitionCoordinates
+    AbilityDefinition:
+      type: object
+      properties:
+        name:
+          type: string
+        icon:
+          $ref: '#/components/schemas/AbilityIcon'
+        slot:
+          type: integer
+        coordinates:
+          $ref: '#/components/schemas/AbilityDefinitionCoordinates'
+        description:
+          type: array
+          items:
+            type: string
+        requirements:
+          type: object
+          additionalProperties:
+            type: integer
+        links:
+          type: array
+          items:
+            type: string
+        locks:
+          type:
+            - array
+            - 'null'
+          items:
+            type: string
+        page:
+          type: integer
+      required:
+        - name
+        - icon
+        - slot
+        - coordinates
+        - description
+        - requirements
+        - links
+        - locks
+        - page
+      title: AbilityDefinition
+    AbilityTree:
+      type: object
+      properties:
+        archetypes:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/AbilityTreeArchetype'
+        pages:
+          type: object
+          additionalProperties:
+            type: object
+            additionalProperties:
+              $ref: '#/components/schemas/AbilityDefinition'
+      required:
+        - archetypes
+        - pages
+      title: AbilityTree
+    AbilityMapTreeGetParametersTree:
+      type: string
+      enum:
+        - archer
+        - warrior
+        - assassin
+        - mage
+        - shaman
+      title: AbilityMapTreeGetParametersTree
+    AspectsTreeGetParametersTree:
+      type: string
+      enum:
+        - archer
+        - warrior
+        - assassin
+        - mage
+        - shaman
+      title: AspectsTreeGetParametersTree
+    AspectTier:
+      type: object
+      properties:
+        threshold:
+          type: integer
+        description:
+          type: array
+          items:
+            type: string
+      required:
+        - threshold
+        - description
+      title: AspectTier
+    Aspect:
+      type: object
+      properties:
+        name:
+          type: string
+        internalName:
+          type: string
+        icon:
+          $ref: '#/components/schemas/AbilityIcon'
+        rarity:
+          type: string
+        requiredClass:
+          type: string
+        tiers:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/AspectTier'
+      required:
+        - name
+        - internalName
+        - icon
+        - rarity
+        - requiredClass
+        - tiers
+      title: Aspect
+    ClassSummary:
+      type: object
+      properties:
+        name:
+          type: string
+        overallDifficulty:
+          type: integer
+      required:
+        - name
+        - overallDifficulty
+      title: ClassSummary
+    ClassesClassNameGetParametersClassName:
+      type: string
+      enum:
+        - archer
+        - warrior
+        - assassin
+        - mage
+        - shaman
+      title: ClassesClassNameGetParametersClassName
+    ClassArchetype:
+      type: object
+      properties:
+        name:
+          type: string
+        difficulty:
+          type: integer
+        max:
+          type: integer
+        icon:
+          type: string
+        damage:
+          type: integer
+        defence:
+          type: integer
+        range:
+          type: integer
+        speed:
+          type: integer
+      required:
+        - name
+        - difficulty
+        - max
+        - icon
+        - damage
+        - defence
+        - range
+        - speed
+      title: ClassArchetype
+    ClassDetail:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        lore:
+          type: string
+        overallDifficulty:
+          type: integer
+        overallMax:
+          type: integer
+        archetypes:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/ClassArchetype'
+      required:
+        - id
+        - name
+        - lore
+        - overallDifficulty
+        - overallMax
+        - archetypes
+      title: ClassDetail
+    MapMarker:
+      type: object
+      properties:
+        name:
+          type: string
+        icon:
+          type: string
+        x:
+          type: string
+        'y':
+          type: string
+        z:
+          type: string
+      required:
+        - name
+        - icon
+        - x
+        - 'y'
+        - z
+      title: MapMarker
+    PlayerLocationMember:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        nickname:
+          type:
+            - string
+            - 'null'
+        character:
+          type: string
+          format: uuid
+        server:
+          type:
+            - string
+            - 'null'
+        x:
+          type: integer
+        'y':
+          type: integer
+        z:
+          type: integer
+      required:
+        - uuid
+        - name
+        - nickname
+        - character
+        - server
+        - x
+        - 'y'
+        - z
+      title: PlayerLocationMember
+    PlayerLocation:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        nickname:
+          type:
+            - string
+            - 'null'
+        character:
+          type: string
+          format: uuid
+        server:
+          type:
+            - string
+            - 'null'
+        x:
+          type: integer
+        'y':
+          type: integer
+        z:
+          type: integer
+        friends:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlayerLocationMember'
+        party:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlayerLocationMember'
+        guild:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlayerLocationMember'
+      required:
+        - uuid
+        - name
+        - nickname
+        - character
+        - server
+        - x
+        - 'y'
+        - z
+        - friends
+        - party
+        - guild
+      title: PlayerLocation
+    Map_getQuestCount_Response_200:
+      type: object
+      properties:
+        quests:
+          type: integer
+      required:
+        - quests
+      title: Map_getQuestCount_Response_200
+    SearchGuildResult:
+      type: object
+      properties:
+        name:
+          type: string
+        prefix:
+          type: string
+      required:
+        - name
+        - prefix
+      title: SearchGuildResult
+    SearchTerritoryResult:
+      type: object
+      properties:
+        start:
+          type: array
+          items:
+            description: Any type
+        end:
+          type: array
+          items:
+            description: Any type
+      required:
+        - start
+        - end
+      title: SearchTerritoryResult
+    SearchDiscoveryResult:
+      type: object
+      properties:
+        start:
+          type: array
+          items:
+            description: Any type
+        end:
+          type: array
+          items:
+            description: Any type
+      required:
+        - start
+        - end
+      title: SearchDiscoveryResult
+    GlobalSearchResult:
+      type: object
+      properties:
+        query:
+          type: string
+        players:
+          type: object
+          additionalProperties:
+            type: string
+        guilds:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/SearchGuildResult'
+        items:
+          $ref: '#/components/schemas/ItemDatabaseFull'
+        guildsPrefix:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/SearchGuildResult'
+        territories:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/SearchTerritoryResult'
+        discoveries:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/SearchDiscoveryResult'
+      required:
+        - query
+      title: GlobalSearchResult
+    GuildEntryScore:
+      oneOf:
+        - type: integer
+        - type: number
+          format: double
+      title: GuildEntryScore
+    LeaderboardMetadataXpPlaytime:
+      type: object
+      properties:
+        xp:
+          type: integer
+        playtime:
+          type: number
+          format: double
+      required:
+        - xp
+        - playtime
+      title: LeaderboardMetadataXpPlaytime
+    LeaderboardMetadataTotalLevelXpPlaytime:
+      type: object
+      properties:
+        totalLevel:
+          type: integer
+        xp:
+          type: integer
+        playtime:
+          type: number
+          format: double
+      required:
+        - totalLevel
+        - xp
+        - playtime
+      title: LeaderboardMetadataTotalLevelXpPlaytime
+    LeaderboardMetadataPlaytime:
+      type: object
+      properties:
+        playtime:
+          type: number
+          format: double
+      required:
+        - playtime
+      title: LeaderboardMetadataPlaytime
+    LeaderboardMetadataCompletionsGambits:
+      type: object
+      properties:
+        completions:
+          type: integer
+        gambits:
+          type: integer
+      required:
+        - completions
+        - gambits
+      title: LeaderboardMetadataCompletionsGambits
+    LeaderboardMetadata:
+      oneOf:
+        - $ref: '#/components/schemas/LeaderboardMetadataXpPlaytime'
+        - $ref: '#/components/schemas/LeaderboardMetadataTotalLevelXpPlaytime'
+        - $ref: '#/components/schemas/LeaderboardMetadataPlaytime'
+        - $ref: '#/components/schemas/LeaderboardMetadataCompletionsGambits'
+      title: LeaderboardMetadata
+    GuildEntry:
+      type: object
+      properties:
+        metaScore:
+          type: integer
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        prefix:
+          type: string
+        score:
+          $ref: '#/components/schemas/GuildEntryScore'
+        metadata:
+          $ref: '#/components/schemas/LeaderboardMetadata'
+        banner:
+          $ref: '#/components/schemas/GuildBanner'
+        previousRanking:
+          type: integer
+      required:
+        - metaScore
+        - uuid
+        - name
+        - prefix
+        - score
+        - metadata
+        - banner
+      title: GuildEntry
+    GuildLegacyEntry:
+      type: object
+      properties:
+        uuid:
+          type: string
+          format: uuid
+        name:
+          type: string
+        prefix:
+          type: string
+        level:
+          type: integer
+        xp:
+          type: integer
+        territories:
+          type: integer
+        wars:
+          type: integer
+        created:
+          type: string
+          format: date-time
+        banner:
+          $ref: '#/components/schemas/GuildBanner'
+      required:
+        - uuid
+        - name
+        - prefix
+        - level
+        - xp
+        - territories
+        - wars
+        - created
+        - banner
+      title: GuildLegacyEntry
+    PlayerEntryScore:
+      oneOf:
+        - type: integer
+        - type: number
+          format: double
+      title: PlayerEntryScore
+    PlayerEntry:
+      type: object
+      properties:
+        metaScore:
+          type: integer
+        name:
+          type: string
+        uuid:
+          type: string
+          format: uuid
+        score:
+          $ref: '#/components/schemas/PlayerEntryScore'
+        metadata:
+          $ref: '#/components/schemas/LeaderboardMetadata'
+        prefix:
+          type: string
+        characterUuid:
+          type: string
+          format: uuid
+        characterType:
+          type: string
+        characterData:
+          $ref: '#/components/schemas/Character'
+        rank:
+          type: string
+        supportRank:
+          type:
+            - string
+            - 'null'
+        shortenedRank:
+          type: string
+        legacyRankColour:
+          $ref: '#/components/schemas/LegacyRankColour'
+        rankBadge:
+          type: string
+        previousRanking:
+          type: integer
+        restricted:
+          type: boolean
+      required:
+        - metaScore
+        - name
+        - uuid
+        - score
+        - metadata
+        - restricted
+      title: PlayerEntry
+    LeaderboardEntry:
+      oneOf:
+        - $ref: '#/components/schemas/GuildEntry'
+        - $ref: '#/components/schemas/GuildLegacyEntry'
+        - $ref: '#/components/schemas/PlayerEntry'
+      title: LeaderboardEntry
+    PublisherArticleType:
+      type: string
+      enum:
+        - blog
+        - event
+        - giveaway
+        - article
+      title: PublisherArticleType
+    PublisherArticleContentBlock:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+        focus:
+          type: boolean
+        content:
+          type: string
+        discord:
+          type: boolean
+        website:
+          type: boolean
+      required:
+        - id
+        - type
+        - focus
+        - content
+        - discord
+        - website
+      title: PublisherArticleContentBlock
+    PublisherArticle:
+      type: object
+      properties:
+        id:
+          type: integer
+        type:
+          $ref: '#/components/schemas/PublisherArticleType'
+        created_by:
+          type: string
+        discord_messages:
+          type: object
+          additionalProperties:
+            type: string
+        discord_recap:
+          type: boolean
+        allow_discord:
+          type: boolean
+        destination:
+          type: string
+        published:
+          type: boolean
+        pinned:
+          type: boolean
+        visible:
+          type: boolean
+        content:
+          type: array
+          items:
+            $ref: '#/components/schemas/PublisherArticleContentBlock'
+        start_date:
+          type: string
+          format: date-time
+        end_date:
+          type:
+            - string
+            - 'null'
+          format: date-time
+        recap:
+          type: string
+        title:
+          type: string
+        banner:
+          type: string
+        banner_zoom:
+          type: boolean
+        likes:
+          type: integer
+        published_at:
+          type: string
+          format: date-time
+        require_discord:
+          type: boolean
+        require_clan:
+          type: boolean
+      required:
+        - id
+        - type
+        - created_by
+        - discord_messages
+        - discord_recap
+        - allow_discord
+        - destination
+        - published
+        - pinned
+        - visible
+        - content
+        - start_date
+        - end_date
+        - recap
+        - title
+        - banner
+        - banner_zoom
+        - likes
+        - published_at
+        - require_discord
+        - require_clan
+      title: PublisherArticle
+    PublisherArticleSummary:
+      type: object
+      properties:
+        pk:
+          type: integer
+        title:
+          type: string
+        type:
+          $ref: '#/components/schemas/PublisherArticleType'
+        banner:
+          type: string
+        banner_zoom:
+          type: boolean
+        recap:
+          type: string
+        visible:
+          type: boolean
+        start_date:
+          type: string
+          format: date-time
+        end_date:
+          type:
+            - string
+            - 'null'
+          format: date-time
+        pinned:
+          type: boolean
+        has_content:
+          type: boolean
+        published_at:
+          type: string
+          format: date-time
+      required:
+        - pk
+        - title
+        - type
+        - banner
+        - banner_zoom
+        - recap
+        - visible
+        - start_date
+        - end_date
+        - pinned
+        - has_content
+        - published_at
+      title: PublisherArticleSummary
+    PublisherArticleList:
+      type: object
+      properties:
+        controller:
+          $ref: '#/components/schemas/PaginationController'
+        results:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/PublisherArticleSummary'
+      required:
+        - controller
+        - results
+      title: PublisherArticleList
+    LatestNewsEntry:
+      type: object
+      properties:
+        title:
+          type: string
+        date:
+          type: string
+        forumThread:
+          type: string
+          format: uri
+        author:
+          type: string
+        content:
+          type: string
+        comments:
+          type: string
+      required:
+        - title
+        - date
+        - forumThread
+        - author
+        - content
+        - comments
+      title: LatestNewsEntry
