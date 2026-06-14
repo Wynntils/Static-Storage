@@ -39,35 +39,36 @@ missingFile="../Data-Storage/services_missing.json"
 jq '
   # Define the mappings as a key-value object
   def mappings: {
-    "Merchant_Armour.png": "Armour Merchant",
-    "Merchant_Dungeon.png": "Dungeon Scroll Merchant",
-    "Merchant_Emerald.png": "Emerald Merchant",
-    "Merchant_Liquid.png": "Liquid Merchant",
-    "Merchant_Potion.png": "Potion Merchant",
-    "Merchant_Scroll.png": "Scroll Merchant",
-    "Merchant_Tool.png": "Tool Merchant",
-    "Merchant_Weapon.png": "Weapon Merchant",
-    "NPC_Blacksmith.png": "Blacksmith",
-    "NPC_ItemIdentifier.png": "Item Identifier",
-    "NPC_PowderMaster.png": "Powder Master",
-    "NPC_TradeMarket.png": "Trade Market",
-    "Profession_Alchemism.png": "Alchemism Station",
-    "Profession_Armouring.png": "Armouring Station",
-    "Profession_Cooking.png": "Cooking Station",
-    "Profession_Jeweling.png": "Jeweling Station",
-    "Profession_Scribing.png": "Scribing Station",
-    "Profession_Tailoring.png": "Tailoring Station",
-    "Profession_Weaponsmithing.png": "Weaponsmithing Station",
-    "Profession_Woodworking.png": "Woodworking Station",
-    "Special_FastTravel.png": "Fast Travel",
-    "Special_HousingAirBalloon.png": "Housing Balloon",
-    "Special_SeaskipperFastTravel.png": "Seaskipper"
+    "Armour Merchant": "Armour Merchant",
+    "Dungeon Merchant": "Dungeon Merchant",
+    "Dungeon Scroll Merchant": "Dungeon Scroll Merchant",
+    "Emerald Merchant": "Emerald Merchant",
+    "Mount Merchant": "Mount Merchant",
+    "Potion Merchant": "Potion Merchant",
+    "Scroll Merchant": "Scroll Merchant",
+    "Tool Merchant": "Tool Merchant",
+    "Weapon Merchant": "Weapon Merchant",
+    "Blacksmith": "Blacksmith",
+    "Item Identifier": "Item Identifier",
+    "Item Upgrader": "Item Upgrader",
+    "Trade Market": "Trade Market",
+    "Alchemism Station": "Alchemism Station",
+    "Armouring Station": "Armouring Station",
+    "Cooking Station": "Cooking Station",
+    "Jeweling Station": "Jeweling Station",
+    "Scribing Station": "Scribing Station",
+    "Tailoring Station": "Tailoring Station",
+    "Weaponsmithing Station": "Weaponsmithing Station",
+    "Woodworking Station": "Woodworking Station",
+    "Fast Travel": "Fast Travel",
+    "Housing Air Balloon": "Housing Balloon",
+    "Seaskipper Fast Travel": "Seaskipper"
   };
 
   # Transform the array of items
   map(
     {
-      type: mappings[.icon],
+      type: mappings[.name],
       locations: [{ x: (.x | tonumber), y: (.y | tonumber), z: (.z | tonumber) }]
     }
   )
