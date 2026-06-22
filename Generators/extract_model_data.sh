@@ -269,6 +269,7 @@ LOOKUPS_MISC=(
 # L = Left
 # R = Right
 # For the three way the direction in the name is the middle part.
+# Multi-direction combos are ordered U, R, D, L.
 LOOKUPS_ABILITY_TREE=(
   "abilityTree.aspectArcher|aspect/archer"
   "abilityTree.aspectAssassin|aspect/assassin"
@@ -276,32 +277,32 @@ LOOKUPS_ABILITY_TREE=(
   "abilityTree.aspectShaman|aspect/shaman"
   "abilityTree.aspectWarrior|aspect/warrior"
   "abilityTree.branchFourWay|branch/0"
-  "abilityTree.branchFourWayActiveUDLR|branch/0_active_0"
-  "abilityTree.branchFourWayActiveULR|branch/0_active_1"
-  "abilityTree.branchFourWayActiveUDR|branch/0_active_2"
-  "abilityTree.branchFourWayActiveDLR|branch/0_active_3"
+  "abilityTree.branchFourWayActiveURDL|branch/0_active_0"
+  "abilityTree.branchFourWayActiveURL|branch/0_active_1"
+  "abilityTree.branchFourWayActiveURD|branch/0_active_2"
+  "abilityTree.branchFourWayActiveRDL|branch/0_active_3"
   "abilityTree.branchFourWayActiveUDL|branch/0_active_4"
   "abilityTree.branchFourWayActiveUL|branch/0_active_5"
   "abilityTree.branchFourWayActiveUR|branch/0_active_6"
-  "abilityTree.branchFourWayActiveDR|branch/0_active_7"
+  "abilityTree.branchFourWayActiveRD|branch/0_active_7"
   "abilityTree.branchFourWayActiveDL|branch/0_active_8"
   "abilityTree.branchFourWayActiveUD|branch/0_active_9"
-  "abilityTree.branchFourWayActiveLR|branch/0_active_10"
+  "abilityTree.branchFourWayActiveRL|branch/0_active_10"
   "abilityTree.branchThreeWayUp|branch/1"
-  "abilityTree.branchThreeWayUpActiveULR|branch/1_active_0"
+  "abilityTree.branchThreeWayUpActiveURL|branch/1_active_0"
   "abilityTree.branchThreeWayUpActiveUL|branch/1_active_1"
   "abilityTree.branchThreeWayUpActiveUR|branch/1_active_2"
-  "abilityTree.branchThreeWayUpActiveLR|branch/1_active_3"
+  "abilityTree.branchThreeWayUpActiveRL|branch/1_active_3"
   "abilityTree.branchThreeWayRight|branch/2"
-  "abilityTree.branchThreeWayRightActiveUDR|branch/2_active_0"
+  "abilityTree.branchThreeWayRightActiveURD|branch/2_active_0"
   "abilityTree.branchThreeWayRightActiveUR|branch/2_active_1"
-  "abilityTree.branchThreeWayRightActiveDR|branch/2_active_2"
+  "abilityTree.branchThreeWayRightActiveRD|branch/2_active_2"
   "abilityTree.branchThreeWayRightActiveUD|branch/2_active_3"
   "abilityTree.branchThreeWayDown|branch/3"
-  "abilityTree.branchThreeWayDownActiveDLR|branch/3_active_0"
+  "abilityTree.branchThreeWayDownActiveRDL|branch/3_active_0"
   "abilityTree.branchThreeWayDownActiveDL|branch/3_active_1"
-  "abilityTree.branchThreeWayDownActiveDR|branch/3_active_2"
-  "abilityTree.branchThreeWayDownActiveLR|branch/3_active_3"
+  "abilityTree.branchThreeWayDownActiveRD|branch/3_active_2"
+  "abilityTree.branchThreeWayDownActiveRL|branch/3_active_3"
   "abilityTree.branchThreeWayLeft|branch/4"
   "abilityTree.branchThreeWayLeftActiveUDL|branch/4_active_0"
   "abilityTree.branchThreeWayLeftActiveDL|branch/4_active_1"
@@ -312,13 +313,139 @@ LOOKUPS_ABILITY_TREE=(
   "abilityTree.branchUpRightTurn|branch/6"
   "abilityTree.branchUpRightTurnActiveUR|branch/6_active_0"
   "abilityTree.branchDownRightTurn|branch/7"
-  "abilityTree.branchDownRightTurnActiveDR|branch/7_active_0"
+  "abilityTree.branchDownRightTurnActiveRD|branch/7_active_0"
   "abilityTree.branchDownLeftTurn|branch/8"
   "abilityTree.branchDownLeftTurnActiveDL|branch/8_active_0"
   "abilityTree.branchVertical|branch/9"
   "abilityTree.branchVerticalActiveUD|branch/9_active_0"
   "abilityTree.branchHorizontal|branch/10"
-  "abilityTree.branchHorizontalActiveLR|branch/10_active_0"
+  "abilityTree.branchHorizontalActiveRL|branch/10_active_0"
+
+  #archer
+  "abilityTree.archerAbilityLocked|node/archer"
+  "abilityTree.archerAbilityUnlockable|node/archer_available"
+  "abilityTree.archerAbilityUnlocked|node/archer_selected"
+
+  "abilityTree.boltslingerUltimateLocked|ultimate/boltslinger"
+  "abilityTree.boltslingerUltimateUnlockable|ultimate/boltslinger_available"
+  "abilityTree.boltslingerUltimateBlocked|ultimate/boltslinger_disabled"
+  "abilityTree.boltslingerUltimateUnlocked|ultimate/boltslinger_selected"
+
+  "abilityTree.trapperUltimateLocked|ultimate/trapper"
+  "abilityTree.trapperUltimateUnlockable|ultimate/trapper_available"
+  "abilityTree.trapperUltimateBlocked|ultimate/trapper_disabled"
+  "abilityTree.trapperUltimateUnlocked|ultimate/trapper_selected"
+
+  "abilityTree.sharpshooterUltimateLocked|ultimate/sharpshooter"
+  "abilityTree.sharpshooterUltimateUnlockable|ultimate/sharpshooter_available"
+  "abilityTree.sharpshooterUltimateBlocked|ultimate/sharpshooter_disabled"
+  "abilityTree.sharpshooterUltimateUnlocked|ultimate/sharpshooter_selected"
+
+  #assassin
+  "abilityTree.assassinAbilityLocked|node/assassin"
+  "abilityTree.assassinAbilityUnlockable|node/assassin_available"
+  "abilityTree.assassinAbilityUnlocked|node/assassin_selected"
+
+  "abilityTree.shadestepperUltimateLocked|ultimate/shadestepper"
+  "abilityTree.shadestepperUltimateUnlockable|ultimate/shadestepper_available"
+  "abilityTree.shadestepperUltimateBlocked|ultimate/shadestepper_disabled"
+  "abilityTree.shadestepperUltimateUnlocked|ultimate/shadestepper_selected"
+
+  "abilityTree.tricksterUltimateLocked|ultimate/trickster"
+  "abilityTree.tricksterUltimateUnlockable|ultimate/trickster_available"
+  "abilityTree.tricksterUltimateBlocked|ultimate/trickster_disabled"
+  "abilityTree.tricksterUltimateUnlocked|ultimate/trickster_selected"
+
+  "abilityTree.acrobatUltimateLocked|ultimate/acrobat"
+  "abilityTree.acrobatUltimateUnlockable|ultimate/acrobat_available"
+  "abilityTree.acrobatUltimateBlocked|ultimate/acrobat_disabled"
+  "abilityTree.acrobatUltimateUnlocked|ultimate/acrobat_selected"
+
+  #mage
+  "abilityTree.mageAbilityLocked|node/mage"
+  "abilityTree.mageAbilityUnlockable|node/mage_available"
+  "abilityTree.mageAbilityUnlocked|node/mage_selected"
+
+  "abilityTree.lightbenderUltimateLocked|ultimate/light_bender"
+  "abilityTree.lightbenderUltimateUnlockable|ultimate/light_bender_available"
+  "abilityTree.lightbenderUltimateBlocked|ultimate/light_bender_disabled"
+  "abilityTree.lightbenderUltimateUnlocked|ultimate/light_bender_selected"
+
+  "abilityTree.riftwalkerUltimateLocked|ultimate/riftwalker"
+  "abilityTree.riftwalkerUltimateUnlockable|ultimate/riftwalker_available"
+  "abilityTree.riftwalkerUltimateBlocked|ultimate/riftwalker_disabled"
+  "abilityTree.riftwalkerUltimateUnlocked|ultimate/riftwalker_selected"
+
+  "abilityTree.arcanistUltimateLocked|ultimate/arcanist"
+  "abilityTree.arcanistUltimateUnlockable|ultimate/arcanist_available"
+  "abilityTree.arcanistUltimateBlocked|ultimate/arcanist_disabled"
+  "abilityTree.arcanistUltimateUnlocked|ultimate/arcanist_selected"
+
+  #shaman
+  "abilityTree.shamanAbilityLocked|node/shaman"
+  "abilityTree.shamanAbilityUnlockable|node/shaman_available"
+  "abilityTree.shamanAbilityUnlocked|node/shaman_selected"
+
+  "abilityTree.summonerUltimateLocked|ultimate/summoner"
+  "abilityTree.summonerUltimateUnlockable|ultimate/summoner_available"
+  "abilityTree.summonerUltimateBlocked|ultimate/summoner_disabled"
+  "abilityTree.summonerUltimateUnlocked|ultimate/summoner_selected"
+
+  "abilityTree.ritualistUltimateLocked|ultimate/ritualist"
+  "abilityTree.ritualistUltimateUnlockable|ultimate/ritualist_available"
+  "abilityTree.ritualistUltimateBlocked|ultimate/ritualist_disabled"
+  "abilityTree.ritualistUltimateUnlocked|ultimate/ritualist_selected"
+
+  "abilityTree.acolyteUltimateLocked|ultimate/acolyte"
+  "abilityTree.acolyteUltimateUnlockable|ultimate/acolyte_available"
+  "abilityTree.acolyteUltimateBlocked|ultimate/acolyte_disabled"
+  "abilityTree.acolyteUltimateUnlocked|ultimate/acolyte_selected"
+
+  #warrior
+  "abilityTree.warriorAbilityLocked|node/warrior"
+  "abilityTree.warriorAbilityUnlockable|node/warrior_available"
+  "abilityTree.warriorAbilityUnlocked|node/warrior_selected"
+
+  "abilityTree.fallenUltimateLocked|ultimate/fallen"
+  "abilityTree.fallenUltimateUnlockable|ultimate/fallen_available"
+  "abilityTree.fallenUltimateBlocked|ultimate/fallen_disabled"
+  "abilityTree.fallenUltimateUnlocked|ultimate/fallen_selected"
+
+  "abilityTree.battlemonkUltimateLocked|ultimate/battle_monk"
+  "abilityTree.battlemonkUltimateUnlockable|ultimate/battle_monk_available"
+  "abilityTree.battlemonkUltimateBlocked|ultimate/battle_monk_disabled"
+  "abilityTree.battlemonkUltimateUnlocked|ultimate/battle_monk_selected"
+
+  "abilityTree.paladinUltimateLocked|ultimate/paladin"
+  "abilityTree.paladinUltimateUnlockable|ultimate/paladin_available"
+  "abilityTree.paladinUltimateBlocked|ultimate/paladin_disabled"
+  "abilityTree.paladinUltimateUnlocked|ultimate/paladin_selected"
+
+  #abilities
+  "abilityTree.whiteAbilityLocked|node/white"
+  "abilityTree.whiteAbilityUnlockable|node/white_available"
+  "abilityTree.whiteAbilityBlocked|node/white_disabled"
+  "abilityTree.whiteAbilityUnlocked|node/white_selected"
+
+  "abilityTree.yellowAbilityLocked|node/yellow"
+  "abilityTree.yellowAbilityUnlockable|node/yellow_available"
+  "abilityTree.yellowAbilityBlocked|node/yellow_disabled"
+  "abilityTree.yellowAbilityUnlocked|node/yellow_selected"
+
+  "abilityTree.purpleAbilityLocked|node/purple"
+  "abilityTree.purpleAbilityUnlockable|node/purple_available"
+  "abilityTree.purpleAbilityBlocked|node/purple_disabled"
+  "abilityTree.purpleAbilityUnlocked|node/purple_selected"
+
+  "abilityTree.blueAbilityLocked|node/blue"
+  "abilityTree.blueAbilityUnlockable|node/blue_available"
+  "abilityTree.blueAbilityBlocked|node/blue_disabled"
+  "abilityTree.blueAbilityUnlocked|node/blue_selected"
+
+  "abilityTree.redAbilityLocked|node/red"
+  "abilityTree.redAbilityUnlockable|node/red_available"
+  "abilityTree.redAbilityBlocked|node/red_disabled"
+  "abilityTree.redAbilityUnlocked|node/red_selected"
 )
 
 LOOKUPS_LEATHER_HELMET=(
