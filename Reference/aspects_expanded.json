@@ -1199,16 +1199,63 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " deals additional damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+25%",
+                "text": "+25% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " neutral damage.",
+                "text": "(of your DPS)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
                 "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+25%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
               }
             ]
           ],
@@ -1223,15 +1270,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+25%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " neutral damage.",
+                "text": " deals additional damage.",
                 "color": "#AAAAAA"
               }
             ],
@@ -1253,6 +1292,61 @@
               {
                 "text": " grape.",
                 "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+25%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
               }
             ]
           ],
@@ -1267,15 +1361,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+45%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " neutral damage.",
+                "text": " deals additional damage.",
                 "color": "#AAAAAA"
               }
             ],
@@ -1297,6 +1383,61 @@
               {
                 "text": " grape.",
                 "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+45% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "  ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FFAA00"
+              },
+              {
+                "text": " ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+45%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
               }
             ]
           ],
@@ -16859,7 +17000,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2s",
+                "text": "+1s",
                 "color": "#FFFFFF"
               },
               {
@@ -16896,7 +17037,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3.5s",
+                "text": "+1.65s",
                 "color": "#FFFFFF"
               },
               {
@@ -16933,7 +17074,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4.5s",
+                "text": "+2s",
                 "color": "#FFFFFF"
               },
               {
