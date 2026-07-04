@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Meteor",
         "formattedName": "§#87dd47ff§lMeteor",
-        "abilityTreeNodeType": "mageAbilityUnlockable",
+        "abilityTreeNodeType": "mageAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -636,7 +636,7 @@
         "description": [
           "[]",
           "[{\"text\":\"Hitting an enemy with \",\"color\":\"#AAAAAA\"},{\"text\":\"Etheric Slash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" grants up\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"to \",\"color\":\"#AAAAAA\"},{\"text\":\"+20 \",\"color\":\"#FFFFFF\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" per \",\"color\":\"#AAAAAA\"},{\"text\":\"4s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"to \",\"color\":\"#AAAAAA\"},{\"text\":\"+20 \",\"color\":\"#FFFFFF\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" per \",\"color\":\"#AAAAAA\"},{\"text\":\"4s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Each \",\"color\":\"#AAAAAA\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" gives \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"},{\"text\":\" Raw Damage\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"and decays at a rate of \",\"color\":\"#AAAAAA\"},{\"text\":\"-1\",\"color\":\"#FFFFFF\"},{\"text\":\" per second,\",\"color\":\"#AAAAAA\"}]",
@@ -701,9 +701,9 @@
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", \",\"color\":\"#AAAAAA\"},{\"text\":\"Ice Snake\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", and \",\"color\":\"#AAAAAA\"},{\"text\":\"Wind Slash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"13\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana to\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", \",\"color\":\"#AAAAAA\"},{\"text\":\"Ice Snake\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", and \",\"color\":\"#AAAAAA\"},{\"text\":\"Etheric Slash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+13\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana to\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"a \",\"color\":\"#AAAAAA\"},{\"text\":\"Mana Bank ✺\",\"color\":\"#55FFFF\"},{\"text\":\" for every aggressive enemy you hit.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Frozen Tornado\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Meteor Shower\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"4\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Frozen Tornado\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Meteor Shower\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+4\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Heal\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will now transfer the contents of your\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Mana Bank ✺\",\"color\":\"#55FFFF\"},{\"text\":\" into usable Mana instead of healing.\",\"color\":\"#AAAAAA\"}]"
@@ -1224,7 +1224,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"5/3s\",\"color\":\"#FFFFFF\"},{\"text\":\" Lifesteal you have\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"from items, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1%\",\"color\":\"#FFFFFF\"},{\"text\":\" Spell Damage (Max 50%)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"from items, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1%\",\"color\":\"#FFFFFF\"},{\"text\":\" Spell Damage. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 50%)\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -1413,7 +1413,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Healing \",\"color\":\"#AAAAAA\"},{\"text\":\"50%\",\"color\":\"#FFFFFF\"},{\"text\":\" of your max health within\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"10s \",\"color\":\"#FFFFFF\"},{\"text\":\"will summon a rotating orb that\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"damages enemies upon contact. (Max 3 orbs)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"damages enemies upon contact. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 3 orbs)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"150% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"120%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -1775,7 +1775,7 @@
           "[{\"text\":\"Creates an area of effect when sprinting\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"that increases the walk speed of all\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"allies the longer they run in it.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"(You lose 20% Speed Bonus every second\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"(You lose 20% Walk Speed Bonus every second\",\"color\":\"#555555\"}]",
           "[{\"text\":\"once you stop running)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+10% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed to Allies \",\"color\":\"#AAAAAA\"},{\"text\":\"(per 1s, +200% Max)\",\"color\":\"#555555\"}]",
@@ -1894,7 +1894,7 @@
         "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", \",\"color\":\"#AAAAAA\"},{\"text\":\"Ice Snake\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", and \",\"color\":\"#AAAAAA\"},{\"text\":\"Wind Slash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+8\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana to\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", \",\"color\":\"#AAAAAA\"},{\"text\":\"Ice Snake\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", and \",\"color\":\"#AAAAAA\"},{\"text\":\"Etheric Slash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+8\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana to\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"your \",\"color\":\"#AAAAAA\"},{\"text\":\"Mana Bank ✺\",\"color\":\"#55FFFF\"},{\"text\":\" for each aggressive enemy you hit.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Frozen Tornado\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Meteor Shower\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+4\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -1954,7 +1954,7 @@
           "[{\"text\":\"You gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+5\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" for every enemy weakened.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"(Up to +15)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"-15%\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"-15%\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"6s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"6s\",\"color\":\"#FFFFFF\"}]"
         ],
@@ -2110,7 +2110,7 @@
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"6s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"20s\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Range: \",\"color\":\"#AAAAAA\"},{\"text\":\"+50% Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+50% Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -2640,7 +2640,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Judrajim\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" applies \",\"color\":\"#AAAAAA\"},{\"text\":\"Unstable \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#7A3CFF\"},{\"text\":\" to enemies.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", \",\"color\":\"#AAAAAA\"},{\"text\":\"Pyrokinesis\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and Powder Specials\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", \",\"color\":\"#AAAAAA\"},{\"text\":\"Pyrokinesis\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Powder Specials\",\"underline\":true,\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"consume \",\"color\":\"#AAAAAA\"},{\"text\":\"Unstable \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#7A3CFF\"},{\"text\":\" \",\"color\":\"#7A3CFF\"},{\"text\":\"to deal \",\"color\":\"#AAAAAA\"},{\"text\":\"+100%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage.\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
@@ -2696,11 +2696,11 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"After casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Meteor\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", generate a lightning\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"strike near the point of impact, that\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"strike near the point of impact that\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"adds \",\"color\":\"#AAAAAA\"},{\"text\":\"+8\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana to your \",\"color\":\"#AAAAAA\"},{\"text\":\"Mana Bank ✺\",\"color\":\"#55FFFF\"}]",
           "[{\"text\":\"for each aggressive enemy you hit.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"270% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per strike)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"270% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"150%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"120%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"2.5 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
@@ -2772,7 +2772,7 @@
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"F\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[]",
-          "[{\"text\":\"Summons a \",\"color\":\"#AAAAAA\"},{\"text\":\"Thunder Serpent \",\"color\":\"#55FFFF\"},{\"text\":\"and a \",\"color\":\"#AAAAAA\"},{\"text\":\"Fire\",\"color\":\"#55FFFF\"}]",
+          "[{\"text\":\"Summon a \",\"color\":\"#AAAAAA\"},{\"text\":\"Thunder Serpent \",\"color\":\"#55FFFF\"},{\"text\":\"and a \",\"color\":\"#AAAAAA\"},{\"text\":\"Fire\",\"color\":\"#55FFFF\"}]",
           "[{\"text\":\"Serpent\",\"color\":\"#55FFFF\"},{\"text\":\", which will attack nearby enemies.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"The \",\"color\":\"#AAAAAA\"},{\"text\":\"Thunder Serpent\",\"color\":\"#55FFFF\"},{\"text\":\" strikes up to\",\"color\":\"#AAAAAA\"}]",
@@ -2871,7 +2871,7 @@
         "id": 1,
         "name": "Totem",
         "formattedName": "§#87dd47ff§lTotem",
-        "abilityTreeNodeType": "shamanAbilityUnlocked",
+        "abilityTreeNodeType": "shamanAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT-LEFT-RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -3022,7 +3022,7 @@
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT-RIGHT-RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Leap towards your \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\",\"color\":\"#55FFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Leap towards your \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#66E6FF\"},{\"text\":\" \",\"color\":\"#66E6FF\"},{\"text\":\"Mana Cost: \",\"color\":\"#AAAAAA\"},{\"text\":\"15\",\"color\":\"#FFFFFF\"}]"
         ],
@@ -3333,7 +3333,7 @@
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Increase your damage\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Increase your base damage\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"from all Water attacks.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+2-4\",\"color\":\"#FFFFFF\"}]",
@@ -3523,7 +3523,7 @@
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will summon \",\"color\":\"#AAAAAA\"},{\"text\":\"1 \",\"color\":\"#55FFFF\"},{\"text\":\"Puppet\",\"color\":\"#55FFFF\"}]",
+          "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will summon \",\"color\":\"#AAAAAA\"},{\"text\":\"1 \",\"color\":\"#FFFFFF\"},{\"text\":\"Puppet\",\"color\":\"#55FFFF\"}]",
           "[{\"text\":\"every \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"},{\"text\":\". (Max 3) They throw knives\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"at nearby enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.5s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
@@ -3568,7 +3568,7 @@
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#F4557D\"},{\"text\":\" Lunatic\",\"color\":\"#F4557D\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus to Self\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"-15%\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus to Self\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+25% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance to Self\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+25% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus to Self\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"-25%\",\"color\":\"#FF5555\"},{\"text\":\" Walk Speed to Self\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#99E9FF\"},{\"text\":\" Heretic\",\"color\":\"#99E9FF\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+50% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed to Self\",\"color\":\"#AAAAAA\"}]",
@@ -4100,7 +4100,7 @@
           "[{\"text\":\"inflict \",\"color\":\"#AAAAAA\"},{\"text\":\"+6s \",\"color\":\"#FFFFFF\"},{\"text\":\"of \",\"color\":\"#AAAAAA\"},{\"text\":\"Bleeding \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Bleeding\",\"color\":\"#55FFFF\"},{\"text\":\" \"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\" \"},{\"text\":\"enemies take damage every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.5s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Bleeding\",\"color\":\"#55FFFF\"},{\"text\":\" \"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\" \"},{\"text\":\"damage dealt within \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\u0027s\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"range\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Bleeding\",\"color\":\"#55FFFF\"},{\"text\":\" \"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\" \"},{\"text\":\"damage dealt within \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s \",\"color\":\"#AAAAAA\"},{\"text\":\"range\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"also adds \",\"color\":\"#AAAAAA\"},{\"text\":\"+0.8\",\"color\":\"#FFFFFF\"},{\"text\":\" points to your \",\"color\":\"#AAAAAA\"},{\"text\":\"Blood Pool\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, for \",\"color\":\"#555555\"},{\"text\":\"Uproot\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\", per hit)\",\"color\":\"#555555\"}]",
@@ -4163,7 +4163,7 @@
         "description": [
           "[]",
           "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\" reduce the cost of different\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"abilities based on the active mask.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"abilities based on the active \",\"color\":\"#AAAAAA\"},{\"text\":\"Mask\",\"color\":\"#55FFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#F4557D\"},{\"text\":\" Lunatic\",\"color\":\"#F4557D\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"-30% \",\"color\":\"#FFFFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#66E6FF\"},{\"text\":\" \",\"color\":\"#66E6FF\"},{\"text\":\"Aura Cost\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"-65% \",\"color\":\"#FFFFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#66E6FF\"},{\"text\":\" \",\"color\":\"#66E6FF\"},{\"text\":\"Totem Cost\",\"color\":\"#AAAAAA\"}]",
@@ -4444,13 +4444,12 @@
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           "[]",
-          "[{\"text\":\"When switching masks, cause an\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"effect around yourself.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Switching \",\"color\":\"#AAAAAA\"},{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\" buffs nearby allies.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#F4557D\"},{\"text\":\" Lunatic\",\"color\":\"#F4557D\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"6s\",\"color\":\"#FFFFFF\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"45% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus to Allies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+45% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#99E9FF\"},{\"text\":\" Heretic\",\"color\":\"#99E9FF\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+60%\",\"color\":\"#FFFFFF\"},{\"text\":\" Walk Speed to Allies\",\"color\":\"#AAAAAA\"}]",
@@ -4535,8 +4534,8 @@
           "[{\"text\":\"Uproot\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will slow down enemies. Additionally,\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"increase the damage bonus granted by \",\"color\":\"#AAAAAA\"},{\"text\":\"Bullwhip\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"40% \",\"color\":\"#FFFFFF\"},{\"text\":\"Slowness (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Bullwhip Damage Bonus\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"40% \",\"color\":\"#FFFFFF\"},{\"text\":\"Slowness (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Bullwhip Damage Bonus\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
@@ -4645,7 +4644,7 @@
         "description": [
           "[]",
           "[{\"text\":\"Sacrificial Shrine\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" boosts \",\"color\":\"#AAAAAA\"},{\"text\":\"Aura\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s damage by \",\"color\":\"#AAAAAA\"},{\"text\":\"+15%\",\"color\":\"#FFFFFF\"},{\"text\":\" and consumes\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"up to \",\"color\":\"#AAAAAA\"},{\"text\":\"2s\",\"color\":\"#FFFFFF\"},{\"text\":\" of \",\"color\":\"#AAAAAA\"},{\"text\":\"Bleeding\",\"color\":\"#55FFFF\"},{\"text\":\" \"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\" \"},{\"text\":\", granting \",\"color\":\"#AAAAAA\"},{\"text\":\"+2.2 \",\"color\":\"#FFFFFF\"},{\"text\":\"Blood Pool \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\" \",\"color\":\"#AA0000\"},{\"text\":\"for each\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"up to \",\"color\":\"#AAAAAA\"},{\"text\":\"2s\",\"color\":\"#FFFFFF\"},{\"text\":\" of \",\"color\":\"#AAAAAA\"},{\"text\":\"Bleeding\",\"color\":\"#55FFFF\"},{\"text\":\" \"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\", granting \",\"color\":\"#AAAAAA\"},{\"text\":\"+2.2 \",\"color\":\"#FFFFFF\"},{\"text\":\"Blood Pool \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\" \",\"color\":\"#AA0000\"},{\"text\":\"for each\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"second of \",\"color\":\"#AAAAAA\"},{\"text\":\"Bleeding\",\"color\":\"#55FFFF\"},{\"text\":\" \"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F93131\"},{\"text\":\" \"},{\"text\":\"consumed.\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
@@ -4830,7 +4829,7 @@
           "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\" will give higher bonuses.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#F4557D\"},{\"text\":\" Lunatic\",\"color\":\"#F4557D\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+25% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#99E9FF\"},{\"text\":\" Heretic\",\"color\":\"#99E9FF\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+40% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
@@ -5035,7 +5034,7 @@
           "[{\"text\":\"Increase the power of all Chants.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#F4557D\"},{\"text\":\" Lunatic\",\"color\":\"#F4557D\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus to Allies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFC251\"},{\"text\":\" Fanatic\",\"color\":\"#FFC251\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#99E9FF\"},{\"text\":\" Heretic\",\"color\":\"#99E9FF\"},{\"text\":\": \",\"color\":\"#AAAAAA\"},{\"text\":\"+60%\",\"color\":\"#FFFFFF\"},{\"text\":\" Walk Speed to Allies\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
@@ -5077,7 +5076,7 @@
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, from Bleeding)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"60%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"2s \",\"color\":\"#FFFFFF\"},{\"text\":\"(per enemy)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"2s \",\"color\":\"#FFFFFF\"},{\"text\":\"(per enemy)\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -5130,7 +5129,7 @@
           "[{\"text\":\"effects are improved.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed to Self\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"+2\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Jump Height to Self\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"+2\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Jump Height to Self\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -5186,13 +5185,15 @@
           "[]",
           "[{\"text\":\"After saving \",\"color\":\"#AAAAAA\"},{\"text\":\"150\",\"color\":\"#FFFFFF\"},{\"text\":\" mana from your \",\"color\":\"#AAAAAA\"},{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\"\u0027\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"mana reductions, switching \",\"color\":\"#AAAAAA\"},{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\" will\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"cause you to become \",\"color\":\"#AAAAAA\"},{\"text\":\"Awakened ♚\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"for \",\"color\":\"#AAAAAA\"},{\"text\":\"25s\",\"color\":\"#FFFFFF\"},{\"text\":\", giving you the upsides of all\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"cause you to become \",\"color\":\"#AAAAAA\"},{\"text\":\"Awakened ♚\",\"color\":\"#FFFFFF\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"giving you the upsides of all\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\" at once with no downsides.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Switching to an attached \",\"color\":\"#AAAAAA\"},{\"text\":\"Mask\",\"color\":\"#55FFFF\"}]",
           "[{\"text\":\"while \",\"color\":\"#AAAAAA\"},{\"text\":\"Awakened ♚ \",\"color\":\"#FFFFFF\"},{\"text\":\"will immediately\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"recall the \",\"color\":\"#AAAAAA\"},{\"text\":\"Mask \",\"color\":\"#55FFFF\"},{\"text\":\"back to you.\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"recall the \",\"color\":\"#AAAAAA\"},{\"text\":\"Mask \",\"color\":\"#55FFFF\"},{\"text\":\"back to you.\",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"25s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -5290,7 +5291,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Increase your maximum \",\"color\":\"#AAAAAA\"},{\"text\":\"Puppets\",\"color\":\"#55FFFF\"},{\"text\":\" by \",\"color\":\"#AAAAAA\"},{\"text\":\"+2\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" summons Puppets \",\"color\":\"#AAAAAA\"},{\"text\":\"25%\",\"color\":\"#FFFFFF\"},{\"text\":\" faster.\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" summons \",\"color\":\"#AAAAAA\"},{\"text\":\"Puppets\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"25%\",\"color\":\"#FFFFFF\"},{\"text\":\" faster.\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -5317,12 +5318,12 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Refreshing \",\"color\":\"#AAAAAA\"},{\"text\":\"Eldritch Call\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" while it is already active\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"will imbue its attacks with blood, granting it \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"},{\"text\":\" stack\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"of \",\"color\":\"#AAAAAA\"},{\"text\":\"Transfused \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\" \"},{\"text\":\"(Max 3)\",\"color\":\"#555555\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"will imbue its attacks with blood, granting it \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"Transfused \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 3)\",\"color\":\"#555555\"}]",
           "[]",
-          "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"1 \",\"color\":\"#FFFFFF\"},{\"text\":\"stack of \",\"color\":\"#AAAAAA\"},{\"text\":\"Transfused \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"Eldritch Call\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" has,\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"its attacks deal more damage. All stacks are lost\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"when \",\"color\":\"#AAAAAA\"},{\"text\":\"Eldritch Call\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" ends.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"For each \",\"color\":\"#AAAAAA\"},{\"text\":\"Transfused \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"Eldritch Call\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" has, its\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"attacks deal more damage. All \",\"color\":\"#AAAAAA\"},{\"text\":\"Transfused \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"}]",
+          "[{\"text\":\"is lost when \",\"color\":\"#AAAAAA\"},{\"text\":\"Eldritch Call\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" expires.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"damage to Eldritch Call \",\"color\":\"#AAAAAA\"},{\"text\":\"(Per stack)\",\"color\":\"#555555\"}]"
         ],
@@ -5606,7 +5607,7 @@
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"180%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Fire: \",\"color\":\"#555555\"},{\"text\":\"80%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"40%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"50% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"50% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"}]"
         ],
@@ -5636,7 +5637,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"When wearing the \",\"color\":\"#AAAAAA\"},{\"text\":\"Mask of the Heretic \",\"color\":\"#99E9FF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#99E9FF\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Frog Dance\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will create a small pool\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"when hitting the ground. (Max 3)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"when hitting the ground. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 3)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"Gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.2s\",\"color\":\"#FFFFFF\"},{\"text\":\" while\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"inside of at least one pool.\",\"color\":\"#AAAAAA\"}]",
@@ -5698,7 +5699,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"When wearing the \",\"color\":\"#AAAAAA\"},{\"text\":\"Mask of the Awakened ♚\",\"color\":\"#FFFFFF\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"all of your other Masks will spin around\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"all of your other \",\"color\":\"#AAAAAA\"},{\"text\":\"Masks\",\"color\":\"#55FFFF\"},{\"text\":\" will spin around\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"you, dealing damage and applying\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Haunting Memory\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s effects.\",\"color\":\"#AAAAAA\"}]",
           "[]",
@@ -5728,12 +5729,12 @@
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"F\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[]",
-          "[{\"text\":\"Summons the \",\"color\":\"#AAAAAA\"},{\"text\":\"Patchwork Abomination\",\"color\":\"#55FFFF\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Summon the \",\"color\":\"#AAAAAA\"},{\"text\":\"Patchwork Abomination\",\"color\":\"#55FFFF\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"a highly unstable summon.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Hit the \",\"color\":\"#AAAAAA\"},{\"text\":\"Abomination\",\"color\":\"#55FFFF\"},{\"text\":\" with \",\"color\":\"#AAAAAA\"},{\"text\":\"Overseer\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" to \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"switch between close-ranged and \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"long-range attack mode.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Hit the \",\"color\":\"#AAAAAA\"},{\"text\":\"Abomination\",\"color\":\"#55FFFF\"},{\"text\":\" with \",\"color\":\"#AAAAAA\"},{\"text\":\"Overseer\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" whilst\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"sneaking to switch between close and\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"long ranged mode.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"The \",\"color\":\"#AAAAAA\"},{\"text\":\"Abomination\",\"color\":\"#55FFFF\"},{\"text\":\" will attack enemies \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"every \",\"color\":\"#AAAAAA\"},{\"text\":\"1.25s\",\"color\":\"#FFFFFF\"},{\"text\":\" in close-ranged mode, \",\"color\":\"#AAAAAA\"}]",
@@ -5783,9 +5784,9 @@
           "[]",
           "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Totem\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" becomes possessed by an eldritch\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"demon, granting \",\"color\":\"#AAAAAA\"},{\"text\":\"+5% \",\"color\":\"#FFFFFF\"},{\"text\":\"Blood Pool \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\" \",\"color\":\"#AA0000\"},{\"text\":\"to nearby\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"acolytes every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.4s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"acolytes every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.4s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Others receive \",\"color\":\"#AAAAAA\"},{\"text\":\"+5% \",\"color\":\"#FFFFFF\"},{\"text\":\"Health \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#DB5B3C\"},{\"text\":\" \",\"color\":\"#DB5B3C\"},{\"text\":\"every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.4s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"Others receive \",\"color\":\"#AAAAAA\"},{\"text\":\"+5% \",\"color\":\"#FFFFFF\"},{\"text\":\"Health \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#DB5B3C\"},{\"text\":\" \",\"color\":\"#DB5B3C\"},{\"text\":\"every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.4s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"}]",
           "[]",
@@ -5831,8 +5832,8 @@
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"400%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water: \",\"color\":\"#555555\"},{\"text\":\"400%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"100% \",\"color\":\"#FFFFFF\"},{\"text\":\"Slowness (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Radius: \",\"color\":\"#AAAAAA\"},{\"text\":\"24 Blocks\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"18s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"24 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Activate abilities to charge\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"your \",\"color\":\"#AAAAAA\"},{\"text\":\"Ultimate Meter \",\"color\":\"#82EFF4\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#82EFF4\"},{\"text\":\" \",\"color\":\"#82EFF4\"},{\"text\":\"to 100%\",\"color\":\"#AAAAAA\"}]"
@@ -5862,7 +5863,7 @@
         "id": 1,
         "name": "Bash",
         "formattedName": "§#87dd47ff§lBash",
-        "abilityTreeNodeType": "warriorAbilityUnlocked",
+        "abilityTreeNodeType": "warriorAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -5986,7 +5987,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"1%\",\"color\":\"#FFFFFF\"},{\"text\":\" or \",\"color\":\"#AAAAAA\"},{\"text\":\"1 Raw\",\"color\":\"#FFFFFF\"},{\"text\":\" Main\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Attack Damage you have from items,\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+2%\",\"color\":\"#FFFFFF\"},{\"text\":\" Walk Speed (Max 20%)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+2%\",\"color\":\"#FFFFFF\"},{\"text\":\" Walk Speed. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 20%)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Damage Bonus: \",\"color\":\"#AAAAAA\"},{\"text\":\"+5 \",\"color\":\"#FFFFFF\"},{\"text\":\"(Raw)\",\"color\":\"#AAAAAA\"}]"
         ],
@@ -6049,7 +6050,7 @@
           "[{\"text\":\"+5% \",\"color\":\"#FFFFFF\"},{\"text\":\"Base Resistance.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"1%\",\"color\":\"#FFFFFF\"},{\"text\":\" or \",\"color\":\"#AAAAAA\"},{\"text\":\"1 Raw\",\"color\":\"#FFFFFF\"},{\"text\":\" Health Regen you have\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"from items, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+10\",\"color\":\"#FFFFFF\"},{\"text\":\" Health (Max 100)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"from items, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+10\",\"color\":\"#FFFFFF\"},{\"text\":\" Health. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 100)\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [
@@ -6078,7 +6079,7 @@
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Hurls enemies upwards and\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"deal massive damage.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"deals massive damage.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#66E6FF\"},{\"text\":\" \",\"color\":\"#66E6FF\"},{\"text\":\"Mana Cost: \",\"color\":\"#AAAAAA\"},{\"text\":\"40\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"340% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
@@ -6333,7 +6334,7 @@
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Increase your damage\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Increase your base damage\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"from all Water attacks.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+2-4\",\"color\":\"#FFFFFF\"}]",
@@ -6419,7 +6420,7 @@
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Bash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will cast 4 times consecutively\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Bash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will cast \",\"color\":\"#AAAAAA\"},{\"text\":\"4\",\"color\":\"#FFFFFF\"},{\"text\":\" times consecutively\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"at double the speed.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-20% \",\"color\":\"#FF5555\"},{\"text\":\"(of your DPS, per bash)\",\"color\":\"#555555\"}]",
@@ -6512,8 +6513,8 @@
       {
         "id": 22,
         "name": "Iron Lungs",
-        "formattedName": "§#ffe14dff§lIron Lungs",
-        "abilityTreeNodeType": "yellowAbilityLocked",
+        "formattedName": "§f§lIron Lungs",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"War Scream\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will deal more damage.\",\"color\":\"#AAAAAA\"}]",
@@ -6645,7 +6646,7 @@
           "[{\"text\":\"to \",\"color\":\"#AAAAAA\"},{\"text\":\"heal\",\"color\":\"#FFFFFF\"},{\"text\":\", and every \",\"color\":\"#AAAAAA\"},{\"text\":\"1% \",\"color\":\"#FFFFFF\"},{\"text\":\"health you lose will\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"grant you \",\"color\":\"#AAAAAA\"},{\"text\":\"+1%\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"Corrupted \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+4\",\"color\":\"#FFFFFF\"},{\"text\":\" Raw Damage per \",\"color\":\"#AAAAAA\"},{\"text\":\"2%\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"Corrupted \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\". (Max +120)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+4\",\"color\":\"#FFFFFF\"},{\"text\":\" Raw Damage per \",\"color\":\"#AAAAAA\"},{\"text\":\"2%\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"Corrupted \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#AA0000\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max +120)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]"
         ],
@@ -6894,7 +6895,7 @@
           "[{\"text\":\"cast a spell, spend health instead.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"(\",\"color\":\"#AAAAAA\"},{\"text\":\"0.35% \",\"color\":\"#FFFFFF\"},{\"text\":\"health per mana)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"A spell cast using health instead of mana will\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"A spell cast using health will\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"deal \",\"color\":\"#AAAAAA\"},{\"text\":\"+15%\",\"color\":\"#FFFFFF\"},{\"text\":\" to \",\"color\":\"#AAAAAA\"},{\"text\":\"+25%\",\"color\":\"#FFFFFF\"},{\"text\":\" bonus damage, depending\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"on how much of its cost is paid in blood.\",\"color\":\"#AAAAAA\"}]"
         ],
@@ -6963,7 +6964,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Increase the damage of \",\"color\":\"#AAAAAA\"},{\"text\":\"Bash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+30% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per Bash)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+30% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per bash)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
@@ -7365,7 +7366,7 @@
           "[{\"text\":\"granting players a damage bonus\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"and additional resistance.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+8% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Players\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+8% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+5% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
@@ -7550,7 +7551,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"4%\",\"color\":\"#FFFFFF\"},{\"text\":\" Reflection you have from\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"items, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1/5s\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana Regen (Max 10/5s)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"items, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1/5s\",\"color\":\"#FFFFFF\"},{\"text\":\" Mana Regen. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 10/5s)\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -7598,7 +7599,7 @@
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Increase the damage reduction of \",\"color\":\"#AAAAAA\"},{\"text\":\"Counter\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" by \",\"color\":\"#AAAAAA\"},{\"text\":\"+10%\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"Increase the damage reduction of \",\"color\":\"#AAAAAA\"},{\"text\":\"Counter\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" by \",\"color\":\"#AAAAAA\"},{\"text\":\"+10%\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Increase the damage of \",\"color\":\"#AAAAAA\"},{\"text\":\"Counter\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and reduce its\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"cooldown by \",\"color\":\"#AAAAAA\"},{\"text\":\"-0.5s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
@@ -7695,8 +7696,8 @@
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Flaming Uppercut\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will deal more damage,\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"and grant \",\"color\":\"#AAAAAA\"},{\"text\":\"1 \",\"color\":\"#FFFFFF\"},{\"text\":\"Holy Power \",\"color\":\"#55FFFF\"},{\"text\":\"✧\",\"bold\":true,\"color\":\"#FFAA00\"},{\"text\":\", whenever\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Flaming Uppercut\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will deal more damage\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"and grant \",\"color\":\"#AAAAAA\"},{\"text\":\"1 \",\"color\":\"#FFFFFF\"},{\"text\":\"Holy Power \",\"color\":\"#55FFFF\"},{\"text\":\"✧\",\"bold\":true,\"color\":\"#FFAA00\"},{\"text\":\" whenever\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"it deals damage.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+30% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
@@ -8158,10 +8159,10 @@
           "[{\"text\":\"Air Shout\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" can hit \",\"color\":\"#AAAAAA\"},{\"text\":\"+2\",\"color\":\"#FFFFFF\"},{\"text\":\" times,\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"and deals more damage.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"40% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Air: \",\"color\":\"#555555\"},{\"text\":\"10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+40% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"+10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Air: \",\"color\":\"#555555\"},{\"text\":\"+10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -8736,7 +8737,7 @@
           "[{\"text\":\"to \",\"color\":\"#AAAAAA\"},{\"text\":\"Mantle of the Bovemists\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Shield Strike\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will deal more damage and grant\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"1\",\"color\":\"#FFFFFF\"},{\"text\":\" charge of \",\"color\":\"#AAAAAA\"},{\"text\":\"Mantle of the Bovemist\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" to nearby\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"1\",\"color\":\"#FFFFFF\"},{\"text\":\" charge of \",\"color\":\"#AAAAAA\"},{\"text\":\"Mantle of the Bovemists\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" to nearby\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"allies for every \",\"color\":\"#AAAAAA\"},{\"text\":\"2\",\"color\":\"#FFFFFF\"},{\"text\":\" broken mantles used. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 4)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+150% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
@@ -8814,16 +8815,16 @@
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"F\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[]",
-          "[{\"text\":\"Call upon a blade from the heavens,\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"that will deal damage upon impact\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"and grant buffs to nearby allies.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Call upon a blade from the heavens\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"that deals damage upon impact\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"and grants buffs to nearby allies.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"5000% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"3500%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Fire: \",\"color\":\"#555555\"},{\"text\":\"1000%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Earth: \",\"color\":\"#555555\"},{\"text\":\"500%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"12 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Players\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"          À  \",\"color\":\"#AAAAAA\",\"margin-left\":\"thin\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"          À  \",\"color\":\"#AAAAAA\",\"margin-left\":\"thin\"},{\"text\":\"+40% \",\"color\":\"#FFFFFF\"},{\"text\":\"ID Effectiveness (\",\"color\":\"#AAAAAA\"},{\"text\":\"❈\",\"color\":\"#FFAA00\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"}]",
@@ -8856,12 +8857,15 @@
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"F\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[]",
-          "[{\"text\":\"Manifest your combat mastery as 2 floating\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Manifest your combat mastery as two floating\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"fists that you freely command.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" while active performs\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"an attack, and casting \",\"color\":\"#AAAAAA\"},{\"text\":\"F\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\" switches them \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"between dealing Spell and Main Attack damage.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"F\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\" switches them\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"between Spell and Main Attack form. \",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"In Spell form, casting a spell performs\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"an attack. In Main Attack form,\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Main Attacks\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" perform an attack instead.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"2400% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, spell)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"2100%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -8901,7 +8905,7 @@
         "id": 1,
         "name": "Arrow Bomb",
         "formattedName": "§#87dd47ff§lArrow Bomb",
-        "abilityTreeNodeType": "archerAbilityUnlocked",
+        "abilityTreeNodeType": "archerAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -8936,7 +8940,7 @@
         "id": 2,
         "name": "Bow Proficiency",
         "formattedName": "§f§lBow Proficiency",
-        "abilityTreeNodeType": "whiteAbilityUnlocked",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Improve your \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s damage\",\"color\":\"#AAAAAA\"}]",
@@ -8966,7 +8970,7 @@
         "id": 3,
         "name": "Cheaper Arrow Bomb",
         "formattedName": "§f§lCheaper Arrow Bomb",
-        "abilityTreeNodeType": "whiteAbilityUnlocked",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Reduce the Mana cost of \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
@@ -8991,10 +8995,10 @@
         "id": 4,
         "name": "Heart Shatter",
         "formattedName": "§#ffe14dff§lHeart Shatter",
-        "abilityTreeNodeType": "yellowAbilityUnlocked",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Hitting a mob directly with \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Hitting a mob directly with \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"will shatter its heart and deal additional damage.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+100% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
@@ -9051,7 +9055,7 @@
         "id": 6,
         "name": "Escape",
         "formattedName": "§#87dd47ff§lEscape",
-        "abilityTreeNodeType": "archerAbilityUnlocked",
+        "abilityTreeNodeType": "archerAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -9657,7 +9661,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"When you hit the ground with \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", leave\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"a \",\"color\":\"#AAAAAA\"},{\"text\":\"Trap\",\"color\":\"#55FFFF\"},{\"text\":\" that damages enemies. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 2 Traps)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"a \",\"color\":\"#AAAAAA\"},{\"text\":\"Trap\",\"color\":\"#55FFFF\"},{\"text\":\" that damages enemies. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 2 Traps)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"250% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"210%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -9694,10 +9698,10 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"When hitting an aggressive enemy \",\"color\":\"#AAAAAA\"},{\"text\":\"5+\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"blocks away, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 Focus \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\". (Max 3)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"blocks away, gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#FFFFFF\"},{\"text\":\"Focus \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 3)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"(Lose 50% Focus if you miss once)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Damage Bonus: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"(per focus)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Damage Bonus: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"(per Focus)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
@@ -9913,7 +9917,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Traps\",\"color\":\"#55FFFF\"},{\"text\":\" will deal \",\"color\":\"#AAAAAA\"},{\"text\":\"+20%\",\"color\":\"#FFFFFF\"},{\"text\":\" more damage\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"for every second it\u0027s active. (Max +100%)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"for every second it\u0027s active. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max +100%)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Increase your maximum \",\"color\":\"#AAAAAA\"},{\"text\":\"Traps\",\"color\":\"#55FFFF\"},{\"text\":\" by \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]"
         ],
@@ -9999,7 +10003,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Basaltic Trap\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" summons a \",\"color\":\"#AAAAAA\"},{\"text\":\"Crow\",\"color\":\"#55FFFF\"},{\"text\":\" upon detonation that\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"will peck at aggressive enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.9s\",\"color\":\"#FFFFFF\"},{\"text\":\". (Max 2)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"will peck at aggressive enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.9s\",\"color\":\"#FFFFFF\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 2)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"Damaged enemies will be distracted for \",\"color\":\"#AAAAAA\"},{\"text\":\"0.2s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
@@ -10056,7 +10060,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Phantom Ray\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" gains extra forward\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"range, and becomes wider.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"range and becomes wider.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Range: \",\"color\":\"#AAAAAA\"},{\"text\":\"+8 Blocks\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+0.2 Blocks\",\"color\":\"#FFFFFF\"}]"
@@ -10156,7 +10160,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Bryophyte Roots\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" summons a \",\"color\":\"#AAAAAA\"},{\"text\":\"Snake\",\"color\":\"#55FFFF\"},{\"text\":\" after\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"disappearing that will spit weakening\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"venom at aggressive enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"},{\"text\":\". (Max 1)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"venom at aggressive enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 1)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"Enemies will be weakened for \",\"color\":\"#AAAAAA\"},{\"text\":\"1.5s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"100% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
@@ -10194,7 +10198,7 @@
         "abilityTreeNodeType": "blueAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"If you have \",\"color\":\"#AAAAAA\"},{\"text\":\"2+ Focus \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\", holding shift will\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"If you have \",\"color\":\"#AAAAAA\"},{\"text\":\"2+ \",\"color\":\"#FFFFFF\"},{\"text\":\"Focus \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\", holding shift will\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"summon Twain\u0027s Arc. Charge it up to\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"shoot a destructive long-range beam.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -10699,7 +10703,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Landing after \",\"color\":\"#AAAAAA\"},{\"text\":\"Leap\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" triggers \",\"color\":\"#AAAAAA\"},{\"text\":\"Fierce Stomp\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per wave)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
         ],
@@ -10726,7 +10730,7 @@
         "abilityTreeNodeType": "blueAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Increase \",\"color\":\"#AAAAAA\"},{\"text\":\"Guardian Angels\u0027\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" range and damage.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Increase \",\"color\":\"#AAAAAA\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027 range and damage.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Shield\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" while \",\"color\":\"#AAAAAA\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" are active\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"will also cast \",\"color\":\"#AAAAAA\"},{\"text\":\"Buckshot\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\". Increase \",\"color\":\"#AAAAAA\"},{\"text\":\"Buckshot\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s damage.\",\"color\":\"#AAAAAA\"}]",
@@ -10799,7 +10803,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Phantom Ray\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will increase its damage by \",\"color\":\"#AAAAAA\"},{\"text\":\"15%\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"every time you do not miss with it. (Max 90%)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"every time you do not miss with it. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 90%)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Phantom Ray\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" gains extra forward range.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -11529,16 +11533,16 @@
           "[]",
           "[{\"text\":\"When \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Shield\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" loses a charge, \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"summon a \",\"color\":\"#AAAAAA\"},{\"text\":\"Wisp\",\"color\":\"#55FFFF\"},{\"text\":\" that follows and \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"protects you. (Max 12)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"protects you. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 12)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Wisps\",\"color\":\"#55FFFF\"},{\"text\":\" can possess nearby\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"enemies for \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"},{\"text\":\", dealing damage\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.75s\",\"color\":\"#FFFFFF\"},{\"text\":\" and slowing them.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"100% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Neutral: \",\"color\":\"#555555\"},{\"text\":\"75%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"75%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water: \",\"color\":\"#555555\"},{\"text\":\"25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Slowness (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"20% \",\"color\":\"#FFFFFF\"},{\"text\":\"Slowness (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"30s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
@@ -11608,7 +11612,7 @@
           "[{\"text\":\"Bryophyte Roots\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" spreads further\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"and deals damage \",\"color\":\"#AAAAAA\"},{\"text\":\"33%\",\"color\":\"#FFFFFF\"},{\"text\":\" faster.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 Block \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -11667,7 +11671,7 @@
         "description": [
           "[]",
           "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Hound\",\"color\":\"#55FFFF\"},{\"text\":\" has a \",\"color\":\"#AAAAAA\"},{\"text\":\"15%\",\"color\":\"#FFFFFF\"},{\"text\":\" chance to\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"dig up a \",\"color\":\"#AAAAAA\"},{\"text\":\"Trap\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" when attacking enemies.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"dig up a \",\"color\":\"#AAAAAA\"},{\"text\":\"Trap\",\"color\":\"#55FFFF\"},{\"text\":\" when attacking enemies.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"}]"
         ],
@@ -11701,7 +11705,7 @@
           "[{\"text\":\"Reduce this ability\u0027s cooldown by \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"every time \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Shield\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" loses a charge.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\")\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"6 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]"
@@ -11793,7 +11797,7 @@
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Increase the damage of \",\"color\":\"#AAAAAA\"},{\"text\":\"Crepuscular Ray\",\"underline\":true,\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Increase the damage of \",\"color\":\"#AAAAAA\"},{\"text\":\"Crepuscular Ray\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+40% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per arrow)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -11857,7 +11861,7 @@
           "[{\"text\":\"to empower your attacks for \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"and make \",\"color\":\"#AAAAAA\"},{\"text\":\"Leap\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" \"},{\"text\":\"have no cooldown.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will instead shoot Light Arrows,\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will instead shoot Light Arrows\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"that deal \",\"color\":\"#AAAAAA\"},{\"text\":\"50%\",\"color\":\"#FFFFFF\"},{\"text\":\" more damage over \",\"color\":\"#AAAAAA\"},{\"text\":\"2s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Divine Intervention\",\"underline\":true,\"color\":\"#AAAAAA\"}]",
@@ -11866,13 +11870,13 @@
           "[{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will smite enemies it hits\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"directly with a bolt from the heavens.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will have unlimited ammunition,\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will have unlimited ammunition\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"and trigger \",\"color\":\"#AAAAAA\"},{\"text\":\"Buckshot\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" after firing \",\"color\":\"#AAAAAA\"},{\"text\":\"14\",\"color\":\"#FFFFFF\"},{\"text\":\" volleys.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"550% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, Arrow Bomb\u0027s smite)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"550% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, \",\"color\":\"#555555\"},{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\"\u0027s smite)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"300%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"150%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"100%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"150%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Air: \",\"color\":\"#555555\"},{\"text\":\"100%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"Activate abilities to charge\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"your \",\"color\":\"#AAAAAA\"},{\"text\":\"Ultimate Meter \",\"color\":\"#82EFF4\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#82EFF4\"},{\"text\":\" \",\"color\":\"#82EFF4\"},{\"text\":\"to 100%\",\"color\":\"#AAAAAA\"}]"
@@ -11915,10 +11919,10 @@
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"2000% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"1500%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"500%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water: \",\"color\":\"#555555\"},{\"text\":\"500%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+100% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per Twilight)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+75%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water: \",\"color\":\"#555555\"},{\"text\":\"+25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"300% \",\"color\":\"#FFFFFF\"},{\"text\":\"(Main Attack Damage)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"300%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"(Main Attack Damage, per Twilight)\",\"color\":\"#555555\"}]",
@@ -11994,7 +11998,7 @@
         "id": 1,
         "name": "Spin Attack",
         "formattedName": "§#87dd47ff§lSpin Attack",
-        "abilityTreeNodeType": "assassinAbilityUnlocked",
+        "abilityTreeNodeType": "assassinAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -12027,7 +12031,7 @@
         "id": 2,
         "name": "Cheaper Spin Attack",
         "formattedName": "§f§lCheaper Spin Attack",
-        "abilityTreeNodeType": "whiteAbilityUnlocked",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Reduce the Mana cost of \",\"color\":\"#AAAAAA\"},{\"text\":\"Spin Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
@@ -12052,7 +12056,7 @@
         "id": 3,
         "name": "Dagger Proficiency I",
         "formattedName": "§f§lDagger Proficiency I",
-        "abilityTreeNodeType": "whiteAbilityUnlocked",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Increases your Walk Speed and\",\"color\":\"#AAAAAA\"}]",
@@ -12079,7 +12083,7 @@
         "id": 4,
         "name": "Double Spin",
         "formattedName": "§#ffe14dff§lDouble Spin",
-        "abilityTreeNodeType": "yellowAbilityUnlocked",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Spin Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will activate twice, with a\",\"color\":\"#AAAAAA\"}]",
@@ -12109,7 +12113,7 @@
         "id": 5,
         "name": "Poisoned Blade",
         "formattedName": "§#ffe14dff§lPoisoned Blade",
-        "abilityTreeNodeType": "yellowAbilityUnlocked",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"2%\",\"color\":\"#FFFFFF\"},{\"text\":\" or \",\"color\":\"#AAAAAA\"},{\"text\":\"2 Raw \",\"color\":\"#FFFFFF\"},{\"text\":\"Main Attack Damage you have\",\"color\":\"#AAAAAA\"}]",
@@ -12141,7 +12145,7 @@
         "id": 6,
         "name": "Dash",
         "formattedName": "§#87dd47ff§lDash",
-        "abilityTreeNodeType": "assassinAbilityUnlocked",
+        "abilityTreeNodeType": "assassinAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -12171,21 +12175,21 @@
         "id": 7,
         "name": "Double Slice",
         "formattedName": "§#ffe14dff§lDouble Slice",
-        "abilityTreeNodeType": "yellowAbilityBlocked",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
-          "[{\"text\":\" \",\"color\":\"#555555\"}]",
-          "[{\"text\":\"Your \",\"color\":\"#555555\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\" will hit twice,\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"but deal \",\"color\":\"#555555\"},{\"text\":\"-40% \",\"color\":\"#AAAAAA\"},{\"text\":\"damage per hit.\",\"color\":\"#555555\"}]"
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will hit twice,\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"but deal \",\"color\":\"#AAAAAA\"},{\"text\":\"-40% \",\"color\":\"#FFFFFF\"},{\"text\":\"damage per hit.\",\"color\":\"#AAAAAA\"}]"
         ],
-        "cost": 0,
-        "willBlock": [],
-        "blockedBy": [
+        "cost": 1,
+        "willBlock": [
           "Poisoned Blade"
         ],
+        "blockedBy": [],
         "requiredAbility": null,
         "requiredArchetype": null,
         "requiredLevel": 0,
-        "archetype": null,
+        "archetype": "Acrobat",
         "location": {
           "page": 2,
           "row": 1,
@@ -12199,7 +12203,7 @@
         "id": 8,
         "name": "Smoke Bomb",
         "formattedName": "§#87dd47ff§lSmoke Bomb",
-        "abilityTreeNodeType": "assassinAbilityUnlocked",
+        "abilityTreeNodeType": "assassinAbilityLocked",
         "description": [
           "[{\"text\":\"Click Combo: \",\"color\":\"#FFAA00\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"RIGHT\",\"bold\":true,\"color\":\"#FF55FF\"},{\"text\":\"-\",\"color\":\"#AAAAAA\"},{\"text\":\"LEFT\",\"bold\":true,\"color\":\"#FF55FF\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
@@ -12238,7 +12242,7 @@
         "id": 9,
         "name": "Cheaper Dash",
         "formattedName": "§f§lCheaper Dash",
-        "abilityTreeNodeType": "whiteAbilityUnlocked",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Reduce the Mana cost of \",\"color\":\"#AAAAAA\"},{\"text\":\"Dash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
@@ -12680,9 +12684,9 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"When hit, lose a \",\"color\":\"#AAAAAA\"},{\"text\":\"Mirror Clone \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#C267F7\"},{\"text\":\", reducing\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"-25%\",\"color\":\"#FFFFFF\"},{\"text\":\" of incoming damage and granting you\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"a damage bonus for \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"},{\"text\":\". (1s cooldown)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"a damage bonus for \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(1s cooldown)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"30% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to self\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"30% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
@@ -13114,7 +13118,7 @@
           "[{\"text\":\"deal additional damage.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Fire: \",\"color\":\"#555555\"},{\"text\":\"+20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -13373,7 +13377,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"When you hold shift while airborne, slowly\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"glide and become immune to fall damage. (Max 10s)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"glide and become immune to fall damage. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 10s)\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -13396,8 +13400,8 @@
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Smoke Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 Mark \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"to\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"enemies it hits. (Max 4, 0.1s Cooldown)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Smoke Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will add \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#FFFFFF\"},{\"text\":\"Mark \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"to\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"enemies it hits. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 4, 0.1s Cooldown)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Marked \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"enemies will take \",\"color\":\"#AAAAAA\"},{\"text\":\"+7% \",\"color\":\"#FFFFFF\"},{\"text\":\"damage\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"from attacks for each mark they have.\",\"color\":\"#AAAAAA\"}]",
@@ -13435,7 +13439,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Last Laugh\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" stores a number of \",\"color\":\"#AAAAAA\"},{\"text\":\"Tricks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#6AFA65\"},{\"text\":\" \",\"color\":\"#6AFA65\"},{\"text\":\"on\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"enemies based on the type of \",\"color\":\"#AAAAAA\"},{\"text\":\"Clone \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#C267F7\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#F5CFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D84C4C\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"(Max 25)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"(Max 25)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Dash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" while sneaking will detonate\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"all nearby stored \",\"color\":\"#AAAAAA\"},{\"text\":\"Tricks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#6AFA65\"},{\"text\":\", dealing damage\",\"color\":\"#AAAAAA\"}]",
@@ -13544,7 +13548,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"After killing an enemy, salvage \",\"color\":\"#AAAAAA\"},{\"text\":\"50%\",\"color\":\"#FFFFFF\"},{\"text\":\" of\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"their \",\"color\":\"#AAAAAA\"},{\"text\":\"Tricks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#6AFA65\"},{\"text\":\". (Max 10 per mob, 40 total)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"their \",\"color\":\"#AAAAAA\"},{\"text\":\"Tricks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#6AFA65\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 10 per mob, 40 total)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Spin Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" while sneaking will\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"transfer salvaged \",\"color\":\"#AAAAAA\"},{\"text\":\"Tricks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#6AFA65\"},{\"text\":\" onto enemies\",\"color\":\"#AAAAAA\"}]",
@@ -13782,7 +13786,7 @@
           "[{\"text\":\"If cast while in \",\"color\":\"#AAAAAA\"},{\"text\":\"Vanish\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Spin Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will consume all\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Marks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"from nearby enemies.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"2 Marks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"consumed,\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"For every \",\"color\":\"#AAAAAA\"},{\"text\":\"2 \",\"color\":\"#FFFFFF\"},{\"text\":\"Marks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"consumed,\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"summon a \",\"color\":\"#AAAAAA\"},{\"text\":\"Knife\",\"color\":\"#55FFFF\"},{\"text\":\". (Max 5 Knives)\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Dealing damage will send your\",\"color\":\"#AAAAAA\"}]",
@@ -13946,7 +13950,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Increases \",\"color\":\"#AAAAAA\"},{\"text\":\"Spin Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Lacerate\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s range\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"and damage, and adds \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#55FFFF\"},{\"text\":\"Mark \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"to enemies hit.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"and damage, and adds \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#FFFFFF\"},{\"text\":\"Mark \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"to enemies hit.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+20% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -14053,7 +14057,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Lacerate\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" deals more damage,\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"and will slash \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#FFFFFF\"},{\"text\":\"more time.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Lacerate has increased range.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Lacerate\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" has increased range.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+10% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"+10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -14110,7 +14114,7 @@
           "[{\"text\":\"When entering and exiting \",\"color\":\"#AAAAAA\"},{\"text\":\"Vanish\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", become immune to\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"knockback and gain resistance for a brief moment.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+60% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"✾\",\"color\":\"#555555\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+60% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"❁\",\"color\":\"#55FF55\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"0.5s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 1,
@@ -14318,13 +14322,13 @@
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"If an enemy has \",\"color\":\"#AAAAAA\"},{\"text\":\"4+ Marks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\", your next\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"If an enemy has \",\"color\":\"#AAAAAA\"},{\"text\":\"4+ \",\"color\":\"#FFFFFF\"},{\"text\":\"Marks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\", your next\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Backstab\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"will deal \",\"color\":\"#AAAAAA\"},{\"text\":\"+200%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage, or your next\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Powder Special\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" \",\"color\":\"#AAAAAA\"},{\"text\":\"will deal \",\"color\":\"#AAAAAA\"},{\"text\":\"+100%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Both consume all \",\"color\":\"#AAAAAA\"},{\"text\":\"Marks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" on the enemy.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"15s \",\"color\":\"#FFFFFF\"},{\"text\":\"(per enemy)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"15s \",\"color\":\"#FFFFFF\"},{\"text\":\"(per enemy)\",\"color\":\"#555555\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -14397,9 +14401,9 @@
           "[{\"text\":\"enemies below it every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.3s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"The duration is reset and the radius is\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"increased after every bloom. (Max 5 Blooms)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"increased after every bloom. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 5 Blooms)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"120% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, from bloom)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"120% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"75%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Earth: \",\"color\":\"#555555\"},{\"text\":\"15%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#55FFFF\"},{\"text\":\" \",\"color\":\"#55FFFF\"},{\"text\":\"Water: \",\"color\":\"#555555\"},{\"text\":\"15%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
@@ -14441,7 +14445,7 @@
           "[{\"text\":\"Whenever you or an ally attacks a\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Drained \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#A1FAD9\"},{\"text\":\" enemy, siphon \",\"color\":\"#AAAAAA\"},{\"text\":\"7.5% \",\"color\":\"#FFFFFF\"},{\"text\":\"of it,\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"converting it into \",\"color\":\"#AAAAAA\"},{\"text\":\"7.5% \",\"color\":\"#FFFFFF\"},{\"text\":\"Overhealth \",\"color\":\"#55FFFF\"},{\"text\":\"❤\",\"color\":\"#FFAA00\"}]",
-          "[{\"text\":\"that decays over \",\"color\":\"#AAAAAA\"},{\"text\":\"20s\",\"color\":\"#FFFFFF\"},{\"text\":\". (Max 25%)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"that decays over \",\"color\":\"#AAAAAA\"},{\"text\":\"20s\",\"color\":\"#FFFFFF\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 25%)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"You may store \",\"color\":\"#AAAAAA\"},{\"text\":\"+20\",\"color\":\"#FFFFFF\"},{\"text\":\" more \",\"color\":\"#AAAAAA\"},{\"text\":\"Tricks \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#6AFA65\"},{\"text\":\" \",\"color\":\"#6AFA65\"},{\"text\":\"on enemies.\",\"color\":\"#AAAAAA\"}]",
           "[]",
@@ -14790,7 +14794,7 @@
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"800% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"550%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"250%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Fire: \",\"color\":\"#555555\"},{\"text\":\"250%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"5 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
