@@ -369,7 +369,9 @@
     "boots.diamond": 8.0,
     "boots.pale_diamond": 16.0,
     "boots.titanium": 9.0,
-    "boots.pale_titanium": 17.0
+    "boots.pale_titanium": 17.0,
+    "white_arrow_down": 432.0,
+    "white_arrow_up": 481.0
   },
   "ranges": {
     "beacon_color": [
