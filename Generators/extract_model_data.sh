@@ -1686,7 +1686,6 @@ process_group() {
 
       float)
         val="${values[0]}.0"
-        echo "Setting float $key = $val"
         jq --arg c "$container" --arg k "$key" --argjson v "$val" \
            '.[$c][$k] = $v' \
            "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
@@ -1696,7 +1695,6 @@ process_group() {
         sorted=($(printf '%s\n' "${values[@]}" | sort -n))
         min="${sorted[0]}.0"
         max="${sorted[-1]}.0"
-        echo "Setting range $key = [$min, $max]"
         jq --arg c "$container" --arg k "$key" --arg lo "$min" --arg hi "$max" \
            '.[$c][$k] = [($lo|tonumber), ($hi|tonumber)]' \
            "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
@@ -1714,24 +1712,43 @@ echo "{}" > "$TEMP_OUTPUT"
 # First argument is the item file to look in
 # Second argument is what to append after "item/wynn", used for groups with many entries
 # Third argument is the lookup group to use
+echo "Processing misc group"
 process_group "potion.json" "" "${LOOKUPS_MISC[@]}"
+echo "Processing ability tree group"
 process_group "potion.json" "gui/ability_tree" "${LOOKUPS_ABILITY_TREE[@]}"
+echo "Processing bows group"
 process_group "potion.json" "weapon/archer" "${LOOKUPS_BOWS[@]}"
+echo "Processing daggers group"
 process_group "potion.json" "weapon/assassin" "${LOOKUPS_DAGGERS[@]}"
+echo "Processing wands group"
 process_group "potion.json" "weapon/mage" "${LOOKUPS_WANDS[@]}"
+echo "Processing reliks group"
 process_group "potion.json" "weapon/shaman" "${LOOKUPS_RELIKS[@]}"
+echo "Processing spears group"
 process_group "potion.json" "weapon/warrior" "${LOOKUPS_SPEARS[@]}"
+echo "Processing rings group"
 process_group "potion.json" "accessory/ring" "${LOOKUPS_RINGS[@]}"
+echo "Processing bracelets group"
 process_group "potion.json" "accessory/bracelet" "${LOOKUPS_BRACELETS[@]}"
+echo "Processing necklaces group"
 process_group "potion.json" "accessory/necklace" "${LOOKUPS_NECKLACES[@]}"
+echo "Processing charms group"
 process_group "potion.json" "charm" "${LOOKUPS_CHARMS[@]}"
+echo "Processing tomes group"
 process_group "potion.json" "mastery_tome" "${LOOKUPS_TOMES[@]}"
+echo "Processing ingredients group"
 process_group "potion.json" "ingredient" "${LOOKUPS_INGREDIENTS[@]}"
+echo "Processing materials group"
 process_group "potion.json" "economy" "${LOOKUPS_MATERIALS[@]}"
+echo "Processing tools group"
 process_group "potion.json" "tool" "${LOOKUPS_TOOLS[@]}"
+echo "Processing leather helmet group"
 process_group "leather_helmet.json" "" "${LOOKUPS_LEATHER_HELMET[@]}"
+echo "Processing leather chestplate group"
 process_group "leather_chestplate.json" "" "${LOOKUPS_LEATHER_CHESTPLATE[@]}"
+echo "Processing leather leggings group"
 process_group "leather_leggings.json" "" "${LOOKUPS_LEATHER_LEGGINGS[@]}"
+echo "Processing leather boots group"
 process_group "leather_boots.json" "" "${LOOKUPS_LEATHER_BOOTS[@]}"
 
 mv "$TEMP_OUTPUT" "$OUTPUT_JSON"
