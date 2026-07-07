@@ -1570,53 +1570,74 @@ LOOKUPS_LEATHER_BOOTS=(
   "boots|armor/boots|range"
 )
 
-extract_values() {
-  local file="$1"
-  local prefix="$2"
+CACHE_DIR="$(mktemp -d "${TMPDIR:-/tmp}/model-data-cache.XXXXXX")"
+declare -A CACHE_FILES=()
+OUTPUT_ROWS=()
 
-  jq -r --arg p "$prefix" '
-    [
-      # override
+cleanup() {
+  rm -rf "$CACHE_DIR"
+}
+trap cleanup EXIT
+
+cache_file_key() {
+  local file="$1"
+  printf '%s' "$file" | tr '/.' '__'
+}
+
+ensure_model_cache() {
+  local file="$1"
+  local full_path="$2"
+
+  if [[ -n "${CACHE_FILES[$file]:-}" ]]; then
+    return
+  fi
+
+  local cache_file="$CACHE_DIR/$(cache_file_key "$file").tsv"
+
+  jq -r '
+    def rows:
       (
         .overrides[]?
         | select(.model? | type == "string")
-        | select(.model | startswith($p))
-        | .predicate.custom_model_data?
+        | select(.predicate.custom_model_data? != null)
+        | [.model, .predicate.custom_model_data]
       ),
-
-      # default
       (
         .. | objects
         | select(has("threshold"))
         | select(.model.model? | type == "string")
-        | select(.model.model | startswith($p))
-        | .threshold
+        | [.model.model, .threshold]
       ),
-
-      # cases[]
       (
         .. | objects
         | select(has("threshold"))
         | select(.model.cases?)
         | .model.cases[]
         | select(.model.model? | type == "string")
-        | select(.model.model | startswith($p))
-        | .threshold
+        | [.model.model, .threshold]
       ),
-
-      # fallback
       (
         .. | objects
         | select(has("threshold"))
         | select(.model.fallback?.model? | type == "string")
-        | select(.model.fallback.model | startswith($p))
-        | .threshold
-      )
-    ]
-    | flatten[]
-    | select(. != null)
-    | tonumber
-  ' "$file"
+        | [.model.fallback.model, .threshold]
+      );
+
+    rows
+    | select(.[1] != null)
+    | [.[0], (.[1] | tonumber)]
+    | @tsv
+  ' "$full_path" > "$cache_file"
+
+  CACHE_FILES[$file]="$cache_file"
+}
+
+extract_values() {
+  local file="$1"
+  local prefix="$2"
+  local cache_file="${CACHE_FILES[$file]}"
+
+  awk -F '\t' -v p="$prefix" 'index($1, p) == 1 { print $2 }' "$cache_file"
 }
 
 process_group() {
@@ -1631,6 +1652,8 @@ process_group() {
     echo "Missing file: $full_path"
     return
   fi
+
+  ensure_model_cache "$file" "$full_path"
 
   for entry in "${entries[@]}"; do
     IFS="|" read -r key prefix type <<< "$entry"
@@ -1649,10 +1672,10 @@ process_group() {
     done
 
     values=()
-
     for p in "${prefixes[@]}"; do
-      matches=($(extract_values "$full_path" "$p" | tr -d '\r'))
-      values+=("${matches[@]}")
+      while IFS= read -r match; do
+        values+=("$match")
+      done < <(extract_values "$file" "$p")
     done
 
     if [ ${#values[@]} -eq 0 ]; then
@@ -1663,11 +1686,21 @@ process_group() {
     case "$type" in
 
       float)
-        container="floats"
+        OUTPUT_ROWS+=("float"$'\t'"$key"$'\t'"${values[0]}.0")
         ;;
 
       range)
-        container="ranges"
+        min="${values[0]}"
+        max="${values[0]}"
+        for value in "${values[@]}"; do
+          if (( value < min )); then
+            min="$value"
+          fi
+          if (( value > max )); then
+            max="$value"
+          fi
+        done
+        OUTPUT_ROWS+=("range"$'\t'"$key"$'\t'"${min}.0"$'\t'"${max}.0")
         ;;
 
       *)
@@ -1676,37 +1709,23 @@ process_group() {
         ;;
 
     esac
-
-    jq --arg c "$container" \
-       'if .[$c] == null then .[$c] = {} else . end' \
-       "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-    mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
-
-    case "$type" in
-
-      float)
-        val="${values[0]}.0"
-        jq --arg c "$container" --arg k "$key" --argjson v "$val" \
-           '.[$c][$k] = $v' \
-           "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-        ;;
-
-      range)
-        sorted=($(printf '%s\n' "${values[@]}" | sort -n))
-        min="${sorted[0]}.0"
-        max="${sorted[-1]}.0"
-        jq --arg c "$container" --arg k "$key" --arg lo "$min" --arg hi "$max" \
-           '.[$c][$k] = [($lo|tonumber), ($hi|tonumber)]' \
-           "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
-        ;;
-
-    esac
-
-    mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
   done
 }
 
-echo "{}" > "$TEMP_OUTPUT"
+write_output_json() {
+  printf '%s\n' "${OUTPUT_ROWS[@]}" | jq -Rn '
+    reduce inputs as $line ({};
+      ($line | split("\t")) as $parts
+      | if $parts[0] == "float" then
+          .floats[$parts[1]] = ($parts[2] | tonumber)
+        elif $parts[0] == "range" then
+          .ranges[$parts[1]] = [($parts[2] | tonumber), ($parts[3] | tonumber)]
+        else
+          .
+        end
+    )
+  ' > "$TEMP_OUTPUT"
+}
 
 # Define the item file to look in for each lookup group
 # First argument is the item file to look in
@@ -1751,5 +1770,6 @@ process_group "leather_leggings.json" "" "${LOOKUPS_LEATHER_LEGGINGS[@]}"
 echo "Processing leather boots group"
 process_group "leather_boots.json" "" "${LOOKUPS_LEATHER_BOOTS[@]}"
 
+write_output_json
 mv "$TEMP_OUTPUT" "$OUTPUT_JSON"
 echo "Model Data Updated"
