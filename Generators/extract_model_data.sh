@@ -14,19 +14,6 @@ if [ ! -d "$BASE_DIR/Generators/assets" ]; then
   exit 1
 fi
 
-# Check the model_data file exists, otherwise create it
-if [ ! -f "$OUTPUT_JSON" ]; then
-  echo "model_data.json not found — creating a new one"
-  echo "{}" > "$OUTPUT_JSON"
-fi
-
-# Ensure floats/ranges objects exist
-jq '
-  if .floats == null then .floats = {} else . end |
-  if .ranges == null then .ranges = {} else . end
-' "$OUTPUT_JSON" > "$TEMP_OUTPUT"
-mv "$TEMP_OUTPUT" "$OUTPUT_JSON"
-
 # Define the looks
 # 2 Formats
 # 1. "key|model_suffix"
@@ -1676,10 +1663,32 @@ process_group() {
     case "$type" in
 
       float)
+        container="floats"
+        ;;
+
+      range)
+        container="ranges"
+        ;;
+
+      *)
+        echo "Unknown type: $type"
+        continue
+        ;;
+
+    esac
+
+    jq --arg c "$container" \
+       'if .[$c] == null then .[$c] = {} else . end' \
+       "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
+    mv "${TEMP_OUTPUT}.new" "$TEMP_OUTPUT"
+
+    case "$type" in
+
+      float)
         val="${values[0]}.0"
         echo "Setting float $key = $val"
-        jq --arg k "$key" --argjson v "$val" \
-           '.floats[$k] = $v' \
+        jq --arg c "$container" --arg k "$key" --argjson v "$val" \
+           '.[$c][$k] = $v' \
            "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
         ;;
 
@@ -1688,8 +1697,8 @@ process_group() {
         min="${sorted[0]}.0"
         max="${sorted[-1]}.0"
         echo "Setting range $key = [$min, $max]"
-        jq --arg k "$key" --arg lo "$min" --arg hi "$max" \
-           '.ranges[$k] = [($lo|tonumber), ($hi|tonumber)]' \
+        jq --arg c "$container" --arg k "$key" --arg lo "$min" --arg hi "$max" \
+           '.[$c][$k] = [($lo|tonumber), ($hi|tonumber)]' \
            "$TEMP_OUTPUT" > "${TEMP_OUTPUT}.new"
         ;;
 
@@ -1699,7 +1708,7 @@ process_group() {
   done
 }
 
-cp "$OUTPUT_JSON" "$TEMP_OUTPUT"
+echo "{}" > "$TEMP_OUTPUT"
 
 # Define the item file to look in for each lookup group
 # First argument is the item file to look in
