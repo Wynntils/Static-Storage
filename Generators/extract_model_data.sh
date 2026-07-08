@@ -1637,7 +1637,11 @@ extract_values() {
   local prefix="$2"
   local cache_file="${CACHE_FILES[$file]}"
 
-  awk -F '\t' -v p="$prefix" 'index($1, p) == 1 { print $2 }' "$cache_file"
+  if [ "$type" = "range" ]; then
+    awk -F '\t' -v p="$prefix" 'index($1, p) == 1 { print $2 }' "$cache_file"
+  else
+    awk -F '\t' -v p="$prefix" '$1 == p { print $2 }' "$cache_file"
+  fi
 }
 
 process_group() {
@@ -1675,7 +1679,7 @@ process_group() {
     for p in "${prefixes[@]}"; do
       while IFS= read -r match; do
         values+=("$match")
-      done < <(extract_values "$file" "$p")
+      done < <(extract_values "$file" "$p" "$type")
     done
 
     if [ ${#values[@]} -eq 0 ]; then
