@@ -711,7 +711,6 @@
         "cost": 2,
         "willBlock": [
           "Orphion\u0027s Pulse",
-          "Larger Heal",
           "Paradox"
         ],
         "blockedBy": [],
@@ -900,8 +899,7 @@
         },
         "connections": [
           31,
-          27,
-          35
+          27
         ]
       },
       {
@@ -916,9 +914,7 @@
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Range: \",\"color\":\"#AAAAAA\"},{\"text\":\"+2 Blocks\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 1,
-        "willBlock": [
-          "Arcane Transfer"
-        ],
+        "willBlock": [],
         "blockedBy": [],
         "requiredAbility": "Heal",
         "requiredArchetype": null,
@@ -977,7 +973,9 @@
           "row": 4,
           "col": 7
         },
-        "connections": []
+        "connections": [
+          35
+        ]
       },
       {
         "id": 32,
@@ -1070,7 +1068,8 @@
         "connections": [
           37,
           41,
-          38
+          38,
+          35
         ]
       },
       {
@@ -1104,7 +1103,6 @@
           "col": 8
         },
         "connections": [
-          34,
           38,
           39
         ]
@@ -1174,7 +1172,8 @@
           "col": 3
         },
         "connections": [
-          41
+          41,
+          38
         ]
       },
       {
@@ -1211,7 +1210,6 @@
         },
         "connections": [
           41,
-          37,
           39,
           42
         ]
@@ -1778,8 +1776,8 @@
           "[{\"text\":\"(You lose 20% Walk Speed Bonus every second\",\"color\":\"#555555\"}]",
           "[{\"text\":\"once you stop running)\",\"color\":\"#555555\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+10% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed to Allies \",\"color\":\"#AAAAAA\"},{\"text\":\"(per 1s, +200% Max)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"2 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+10% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed to Allies \",\"color\":\"#AAAAAA\"},{\"text\":\"(per 1s, +140% Max)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"4 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -1985,8 +1983,7 @@
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Increase the amount of \",\"color\":\"#AAAAAA\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" generated\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"by \",\"color\":\"#AAAAAA\"},{\"text\":\"+20%\",\"color\":\"#FFFFFF\"},{\"text\":\" and effects gained from it by \",\"color\":\"#AAAAAA\"},{\"text\":\"+25%\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"Increase the effects gained from \",\"color\":\"#AAAAAA\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" by \",\"color\":\"#AAAAAA\"},{\"text\":\"+25%\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -2369,7 +2366,7 @@
           "[{\"text\":\"turning it into a \",\"color\":\"#AAAAAA\"},{\"text\":\"Time Vortex\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Time Vortex\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" deals damage \",\"color\":\"#AAAAAA\"},{\"text\":\"25%\",\"color\":\"#FFFFFF\"},{\"text\":\" faster, lasts\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"longer and grants \",\"color\":\"#AAAAAA\"},{\"text\":\"+1.5 \",\"color\":\"#FFFFFF\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" every\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"longer and grants \",\"color\":\"#AAAAAA\"},{\"text\":\"+1.25 \",\"color\":\"#FFFFFF\"},{\"text\":\"Distortion \",\"color\":\"#55FFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#D599FF\"},{\"text\":\" every\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"time it deals damage to an enemy.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Tornado Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"+3s\",\"color\":\"#FFFFFF\"}]"
@@ -2392,6 +2389,7 @@
         "connections": [
           81,
           82,
+          76,
           78
         ]
       },
@@ -2422,7 +2420,6 @@
         },
         "connections": [
           78,
-          75,
           82,
           83
         ]
@@ -2594,6 +2591,7 @@
           "col": 3
         },
         "connections": [
+          82,
           88
         ]
       },
@@ -2627,7 +2625,6 @@
           "col": 5
         },
         "connections": [
-          81,
           88
         ]
       },
@@ -2852,7 +2849,7 @@
         "requiredAbility": null,
         "requiredArchetype": {
           "name": "Riftwalker",
-          "required": 16
+          "required": 15
         },
         "requiredLevel": 90,
         "archetype": "Riftwalker",
@@ -4411,8 +4408,8 @@
           "[{\"text\":\"Each additional \",\"color\":\"#AAAAAA\"},{\"text\":\"Effigy\",\"color\":\"#55FFFF\"},{\"text\":\" summoned will\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"decrease all \",\"color\":\"#AAAAAA\"},{\"text\":\"Effigy\",\"color\":\"#55FFFF\"},{\"text\":\" damage by \",\"color\":\"#AAAAAA\"},{\"text\":\"0.8x\",\"color\":\"#FF5555\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"100% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"75%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"115% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"90%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Fire: \",\"color\":\"#555555\"},{\"text\":\"25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Vision: \",\"color\":\"#AAAAAA\"},{\"text\":\"18 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
         ],
@@ -4706,7 +4703,7 @@
           "[{\"text\":\"side, granting them increased\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"attack speed and accuracy.\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" deals \",\"color\":\"#AAAAAA\"},{\"text\":\"5% \",\"color\":\"#FFFFFF\"},{\"text\":\"more\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Your \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" deals \",\"color\":\"#AAAAAA\"},{\"text\":\"6% \",\"color\":\"#FFFFFF\"},{\"text\":\"more\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"damage for each rallied \",\"color\":\"#AAAAAA\"},{\"text\":\"Puppet\",\"color\":\"#55FFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"While not rallied, your \",\"color\":\"#AAAAAA\"},{\"text\":\"Summons\",\"color\":\"#55FFFF\"},{\"text\":\"\u0027 attacks\",\"color\":\"#AAAAAA\"}]",
@@ -4895,8 +4892,8 @@
           "[{\"text\":\"While they are attacking, your \",\"color\":\"#AAAAAA\"},{\"text\":\"Hummingbirds\",\"color\":\"#55FFFF\"}]",
           "[{\"text\":\"will not apply their passive effects to you.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"30% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"35% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Air: \",\"color\":\"#555555\"},{\"text\":\"5%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"5%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]",
@@ -5266,7 +5263,7 @@
           "[]",
           "[{\"text\":\"When you or your \",\"color\":\"#AAAAAA\"},{\"text\":\"Summons\",\"color\":\"#55FFFF\"},{\"text\":\" kill an enemy,\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"or when you kill a \",\"color\":\"#AAAAAA\"},{\"text\":\"Puppet\",\"color\":\"#55FFFF\"},{\"text\":\" with \",\"color\":\"#AAAAAA\"},{\"text\":\"Friendly Fire\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\",\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#55FFFF\"},{\"text\":\"Max Puppets \",\"color\":\"#55FFFF\"},{\"text\":\"⚘ \",\"color\":\"#FFAA00\"},{\"text\":\"for \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"},{\"text\":\". (Max +8)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"gain \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#55FFFF\"},{\"text\":\"Max Puppets \",\"color\":\"#55FFFF\"},{\"text\":\"⚘ \",\"color\":\"#FFAA00\"},{\"text\":\"for \",\"color\":\"#AAAAAA\"},{\"text\":\"15s\",\"color\":\"#FFFFFF\"},{\"text\":\". (Max +4)\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -5643,7 +5640,7 @@
           "[{\"text\":\"inside of at least one pool.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"8s\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"5 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"{poolRadius} Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -6364,7 +6361,7 @@
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Bash\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s last hit is delayed, but deals\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"+40%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage and has \",\"color\":\"#AAAAAA\"},{\"text\":\"+50%\",\"color\":\"#FFFFFF\"},{\"text\":\" radius.\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"+100%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage and has \",\"color\":\"#AAAAAA\"},{\"text\":\"+50%\",\"color\":\"#FFFFFF\"},{\"text\":\" radius.\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -7524,7 +7521,7 @@
           "[{\"text\":\"next \",\"color\":\"#AAAAAA\"},{\"text\":\"Uppercut\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" give you a damage boost.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+30% \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"⚔\",\"color\":\"#55FF55\"},{\"text\":\") to Self\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"8s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"12s\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"16s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
@@ -9123,8 +9120,8 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#66E6FF\"},{\"text\":\" \",\"color\":\"#66E6FF\"},{\"text\":\"Mana Cost: \",\"color\":\"#AAAAAA\"},{\"text\":\"35\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"40% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per arrow)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"35%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"5%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Range: \",\"color\":\"#AAAAAA\"},{\"text\":\"±16 Blocks\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 1,
@@ -9266,6 +9263,7 @@
           "col": 0
         },
         "connections": [
+          13,
           17
         ]
       },
@@ -9295,7 +9293,7 @@
           "col": 2
         },
         "connections": [
-          18,
+          17,
           16,
           14
         ]
@@ -9327,7 +9325,7 @@
         },
         "connections": [
           16,
-          20
+          21
         ]
       },
       {
@@ -9356,7 +9354,7 @@
           "col": 8
         },
         "connections": [
-          21
+          22
         ]
       },
       {
@@ -9385,11 +9383,43 @@
           "col": 4
         },
         "connections": [
-          19
+          20
         ]
       },
       {
         "id": 17,
+        "name": "Nimble String",
+        "formattedName": "§#f747c2ff§lNimble String",
+        "abilityTreeNodeType": "purpleAbilityLocked",
+        "description": [
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" fires twice as fast and\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"shoots \",\"color\":\"#AAAAAA\"},{\"text\":\"+6\",\"color\":\"#FFFFFF\"},{\"text\":\" arrows per stream.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Phantom Ray\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" hits twice as fast but lasts half as long.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-10% \",\"color\":\"#FF5555\"},{\"text\":\"(of your DPS, per arrow/ray)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"-10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
+        ],
+        "cost": 2,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Arrow Storm",
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetype": null,
+        "location": {
+          "page": 3,
+          "row": 3,
+          "col": 1
+        },
+        "connections": [
+          18,
+          19
+        ]
+      },
+      {
+        "id": 18,
         "name": "Buckshot",
         "formattedName": "§#ffe14dff§lBuckshot",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -9408,51 +9438,48 @@
         "requiredAbility": "Arrow Shield",
         "requiredArchetype": null,
         "requiredLevel": 0,
-        "archetype": null,
+        "archetype": "Boltslinger",
         "location": {
           "page": 3,
-          "row": 3,
+          "row": 4,
           "col": 0
         },
         "connections": [
-          22,
-          18
-        ]
-      },
-      {
-        "id": 18,
-        "name": "Nimble String",
-        "formattedName": "§#f747c2ff§lNimble String",
-        "abilityTreeNodeType": "purpleAbilityLocked",
-        "description": [
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Doubles the speed of \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"shoots \",\"color\":\"#AAAAAA\"},{\"text\":\"+6\",\"color\":\"#FFFFFF\"},{\"text\":\" arrows per stream.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-10% \",\"color\":\"#FF5555\"},{\"text\":\"(of your DPS, per arrow)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"-5%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"-5%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
-        ],
-        "cost": 2,
-        "willBlock": [
-          "Phantom Ray"
-        ],
-        "blockedBy": [],
-        "requiredAbility": "Arrow Storm",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetype": null,
-        "location": {
-          "page": 3,
-          "row": 3,
-          "col": 2
-        },
-        "connections": [
+          19,
           23
         ]
       },
       {
         "id": 19,
+        "name": "Triple Shots",
+        "formattedName": "§#ffe14dff§lTriple Shots",
+        "abilityTreeNodeType": "yellowAbilityLocked",
+        "description": [
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Triples \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" arrows but they deal\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"-10% \",\"color\":\"#FFFFFF\"},{\"text\":\"of normal \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" arrow damage.\",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Main Attack Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-10%\",\"color\":\"#FF5555\"}]"
+        ],
+        "cost": 1,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Double Shots",
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetype": "Boltslinger",
+        "location": {
+          "page": 3,
+          "row": 4,
+          "col": 2
+        },
+        "connections": [
+          23,
+          20
+        ]
+      },
+      {
+        "id": 20,
         "name": "Bryophyte Roots",
         "formattedName": "§#f747c2ff§lBryophyte Roots",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -9485,11 +9512,11 @@
           "col": 4
         },
         "connections": [
-          25
+          24
         ]
       },
       {
-        "id": 20,
+        "id": 21,
         "name": "Fire Creep",
         "formattedName": "§#f747c2ff§lFire Creep",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -9518,12 +9545,12 @@
           "col": 6
         },
         "connections": [
-          19,
-          21
+          20,
+          22
         ]
       },
       {
-        "id": 21,
+        "id": 22,
         "name": "Phantom Ray",
         "formattedName": "§#99e9ffff§lPhantom Ray",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -9542,7 +9569,6 @@
         "cost": 2,
         "willBlock": [
           "Arrow Hurricane",
-          "Nimble String",
           "Windstorm",
           "Transience"
         ],
@@ -9557,67 +9583,11 @@
           "col": 8
         },
         "connections": [
-          26
-        ]
-      },
-      {
-        "id": 22,
-        "name": "Frenzy",
-        "formattedName": "§#f747c2ff§lFrenzy",
-        "abilityTreeNodeType": "purpleAbilityLocked",
-        "description": [
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Hitting an enemy will give you a brief buff\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"of \",\"color\":\"#AAAAAA\"},{\"text\":\"+1% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed, up to \",\"color\":\"#AAAAAA\"},{\"text\":\"15%\",\"color\":\"#FFFFFF\"},{\"text\":\" per second. (Max +60%)\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"-5%\",\"color\":\"#FFFFFF\"},{\"text\":\" of \",\"color\":\"#AAAAAA\"},{\"text\":\"the bonus decays every second.\",\"color\":\"#AAAAAA\"}]"
-        ],
-        "cost": 2,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": null,
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetype": "Boltslinger",
-        "location": {
-          "page": 3,
-          "row": 5,
-          "col": 0
-        },
-        "connections": [
-          23,
-          24
+          25
         ]
       },
       {
         "id": 23,
-        "name": "Triple Shots",
-        "formattedName": "§#ffe14dff§lTriple Shots",
-        "abilityTreeNodeType": "yellowAbilityLocked",
-        "description": [
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Triples \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" arrows but they deal\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"-10% \",\"color\":\"#FFFFFF\"},{\"text\":\"of normal \",\"color\":\"#AAAAAA\"},{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" arrow damage.\",\"color\":\"#AAAAAA\"}]",
-          "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Main Attack Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-10%\",\"color\":\"#FF5555\"}]"
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Double Shots",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetype": "Boltslinger",
-        "location": {
-          "page": 3,
-          "row": 5,
-          "col": 2
-        },
-        "connections": [
-          24
-        ]
-      },
-      {
-        "id": 24,
         "name": "Guardian Angels",
         "formattedName": "§#ff4545ff§lGuardian Angels",
         "abilityTreeNodeType": "redAbilityLocked",
@@ -9650,11 +9620,11 @@
           "col": 1
         },
         "connections": [
-          27
+          26
         ]
       },
       {
-        "id": 25,
+        "id": 24,
         "name": "Basaltic Trap",
         "formattedName": "§#ff4545ff§lBasaltic Trap",
         "abilityTreeNodeType": "redAbilityLocked",
@@ -9686,12 +9656,12 @@
           "col": 4
         },
         "connections": [
-          28,
-          29
+          27,
+          28
         ]
       },
       {
-        "id": 26,
+        "id": 25,
         "name": "Focus",
         "formattedName": "§#ff4545ff§lFocus",
         "abilityTreeNodeType": "redAbilityLocked",
@@ -9722,49 +9692,47 @@
           "col": 8
         },
         "connections": [
-          30
+          29
         ]
       },
       {
-        "id": 27,
-        "name": "Windstorm",
-        "formattedName": "§#99e9ffff§lWindstorm",
-        "abilityTreeNodeType": "blueAbilityLocked",
+        "id": 26,
+        "name": "Leap",
+        "formattedName": "§#f747c2ff§lLeap",
+        "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will shoot \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#FFFFFF\"},{\"text\":\"stream\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"of arrows and \",\"color\":\"#AAAAAA\"},{\"text\":\"+2\",\"color\":\"#FFFFFF\"},{\"text\":\" extra arrows per stream.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" gains recoil while midair.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-10% \",\"color\":\"#FF5555\"},{\"text\":\"(of your DPS, per arrow)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"-9%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"-3%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Air: \",\"color\":\"#555555\"},{\"text\":\"+2%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
+          "[{\"text\":\"Leap in the direction of your movement\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"when you double jump.\",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"The distance scales with your Walk Speed.\",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"2s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
-        "willBlock": [
-          "Phantom Ray"
-        ],
+        "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Arrow Storm",
-        "requiredArchetype": null,
+        "requiredAbility": null,
+        "requiredArchetype": {
+          "name": "Boltslinger",
+          "required": 3
+        },
         "requiredLevel": 0,
-        "archetype": null,
+        "archetype": "Boltslinger",
         "location": {
           "page": 4,
           "row": 3,
           "col": 1
         },
         "connections": [
-          31,
-          39,
-          28,
-          32
+          30,
+          38,
+          27,
+          31
         ]
       },
       {
-        "id": 28,
+        "id": 27,
         "name": "Cheaper Arrow Storm",
         "formattedName": "§f§lCheaper Arrow Storm",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -9787,13 +9755,13 @@
           "col": 3
         },
         "connections": [
-          32,
-          29,
-          33
+          31,
+          28,
+          32
         ]
       },
       {
-        "id": 29,
+        "id": 28,
         "name": "Implosion",
         "formattedName": "§#ffe14dff§lImplosion",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -9820,12 +9788,12 @@
           "col": 5
         },
         "connections": [
-          33,
-          34
+          32,
+          33
         ]
       },
       {
-        "id": 30,
+        "id": 29,
         "name": "Arrow Wall",
         "formattedName": "§f§lArrow Wall",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -9847,40 +9815,13 @@
           "col": 7
         },
         "connections": [
-          34,
-          29,
-          35
+          33,
+          28,
+          34
         ]
       },
       {
-        "id": 31,
-        "name": "Stormy Feet",
-        "formattedName": "§#ffe14dff§lStormy Feet",
-        "abilityTreeNodeType": "yellowAbilityLocked",
-        "description": [
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Windy Feet\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will last longer and grant a stronger\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"speed buff.\",\"color\":\"#AAAAAA\"}]",
-          "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+60% \",\"color\":\"#FFFFFF\"},{\"text\":\"Speed Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"➲\",\"color\":\"#00AAAA\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"+60s\",\"color\":\"#FFFFFF\"}]"
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Windy Feet",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetype": "Boltslinger",
-        "location": {
-          "page": 4,
-          "row": 4,
-          "col": 0
-        },
-        "connections": []
-      },
-      {
-        "id": 32,
+        "id": 30,
         "name": "Arsenal Synergy",
         "formattedName": "§#ffe14dff§lArsenal Synergy",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -9891,8 +9832,8 @@
           "[{\"text\":\"fire a flint arrow that damages enemies.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"(Max 5 flints per main attack)\",\"color\":\"#555555\"}]",
           "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"25% \",\"color\":\"#FFFFFF\"},{\"text\":\"(Main Attack Damage, per arrow)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"20% \",\"color\":\"#FFFFFF\"},{\"text\":\"(Main Attack Damage, per arrow)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"6s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 1,
@@ -9905,12 +9846,44 @@
         "location": {
           "page": 4,
           "row": 4,
+          "col": 0
+        },
+        "connections": []
+      },
+      {
+        "id": 31,
+        "name": "Fierce Stomp",
+        "formattedName": "§#ffe14dff§lFierce Stomp",
+        "abilityTreeNodeType": "yellowAbilityLocked",
+        "description": [
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"When using \",\"color\":\"#AAAAAA\"},{\"text\":\"Escape\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", hold shift to\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"quickly drop down to deal damage\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"and blind enemies.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"250% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"250%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"6 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"Blindness \",\"color\":\"#FFFFFF\"},{\"text\":\"(\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"0.5s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"}]"
+        ],
+        "cost": 1,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": null,
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetype": "Boltslinger",
+        "location": {
+          "page": 4,
+          "row": 4,
           "col": 2
         },
         "connections": []
       },
       {
-        "id": 33,
+        "id": 32,
         "name": "Patient Hunter",
         "formattedName": "§#f747c2ff§lPatient Hunter",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -9934,13 +9907,13 @@
           "col": 4
         },
         "connections": [
-          36,
-          40,
-          37
+          35,
+          39,
+          36
         ]
       },
       {
-        "id": 34,
+        "id": 33,
         "name": "Grappling Hook",
         "formattedName": "§#ffe14dff§lGrappling Hook",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -9970,7 +9943,7 @@
         "connections": []
       },
       {
-        "id": 35,
+        "id": 34,
         "name": "More Focus",
         "formattedName": "§f§lMore Focus",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -9991,12 +9964,12 @@
           "col": 8
         },
         "connections": [
-          38,
-          42
+          37,
+          41
         ]
       },
       {
-        "id": 36,
+        "id": 35,
         "name": "Murder Flock",
         "formattedName": "§#99e9ffff§lMurder Flock",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -10006,8 +9979,8 @@
           "[{\"text\":\"will peck at aggressive enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"0.9s\",\"color\":\"#FFFFFF\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 2)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"Damaged enemies will be distracted for \",\"color\":\"#AAAAAA\"},{\"text\":\"0.2s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"60%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"80% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"80%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"Blindness (\",\"color\":\"#FFFFFF\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#FFFFFF\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Vision: \",\"color\":\"#AAAAAA\"},{\"text\":\"18 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"12s\",\"color\":\"#FFFFFF\"}]"
@@ -10027,7 +10000,7 @@
         "connections": []
       },
       {
-        "id": 37,
+        "id": 36,
         "name": "Refined Gunpowder",
         "formattedName": "§f§lRefined Gunpowder",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -10053,7 +10026,7 @@
         "connections": []
       },
       {
-        "id": 38,
+        "id": 37,
         "name": "Phantom Force",
         "formattedName": "§#ffe14dff§lPhantom Force",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -10078,47 +10051,49 @@
           "col": 7
         },
         "connections": [
-          37
+          36
         ]
       },
       {
-        "id": 39,
-        "name": "Leap",
-        "formattedName": "§#f747c2ff§lLeap",
-        "abilityTreeNodeType": "purpleAbilityLocked",
+        "id": 38,
+        "name": "Windstorm",
+        "formattedName": "§#99e9ffff§lWindstorm",
+        "abilityTreeNodeType": "blueAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Leap in the direction of your movement\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"when you double jump.\",\"color\":\"#AAAAAA\"}]",
-          "[]",
-          "[{\"text\":\"The distance scales with your Walk Speed.\",\"color\":\"#AAAAAA\"}]",
-          "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"4s\",\"color\":\"#FFFFFF\"}]"
+          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will shoot \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 \",\"color\":\"#FFFFFF\"},{\"text\":\"stream\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"of arrows and \",\"color\":\"#AAAAAA\"},{\"text\":\"+2\",\"color\":\"#FFFFFF\"},{\"text\":\" extra arrows per stream.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" gains recoil while midair.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"-10% \",\"color\":\"#FF5555\"},{\"text\":\"(of your DPS, per arrow)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"-9%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"-3%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Air: \",\"color\":\"#555555\"},{\"text\":\"+2%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
         ],
         "cost": 2,
-        "willBlock": [],
+        "willBlock": [
+          "Phantom Ray"
+        ],
         "blockedBy": [],
-        "requiredAbility": null,
-        "requiredArchetype": {
-          "name": "Boltslinger",
-          "required": 4
-        },
+        "requiredAbility": "Arrow Storm",
+        "requiredArchetype": null,
         "requiredLevel": 0,
-        "archetype": "Boltslinger",
+        "archetype": null,
         "location": {
           "page": 5,
           "row": 1,
           "col": 1
         },
         "connections": [
+          42,
           43,
-          44,
-          40,
-          47
+          39,
+          46
         ]
       },
       {
-        "id": 40,
+        "id": 39,
         "name": "Grape Bomb",
         "formattedName": "§#99e9ffff§lGrape Bomb",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -10145,14 +10120,14 @@
           "col": 4
         },
         "connections": [
-          44,
-          47,
-          41,
-          45
+          43,
+          46,
+          40,
+          44
         ]
       },
       {
-        "id": 41,
+        "id": 40,
         "name": "Ivyroot Mamba",
         "formattedName": "§#99e9ffff§lIvyroot Mamba",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -10163,12 +10138,12 @@
           "[{\"text\":\"venom at aggressive enemies every \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"},{\"text\":\". \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 1)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"Enemies will be weakened for \",\"color\":\"#AAAAAA\"},{\"text\":\"1.5s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"100% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"80%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Earth: \",\"color\":\"#555555\"},{\"text\":\"20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"120% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"90%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Earth: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effects: \",\"color\":\"#AAAAAA\"},{\"text\":\"-15%\",\"color\":\"#FFFFFF\"},{\"text\":\" \",\"color\":\"#FFFFFF\"},{\"text\":\"Damage Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Vision: \",\"color\":\"#AAAAAA\"},{\"text\":\"12 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"18s\",\"color\":\"#FFFFFF\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -10186,13 +10161,13 @@
           "col": 6
         },
         "connections": [
-          45,
-          50,
-          46
+          44,
+          49,
+          45
         ]
       },
       {
-        "id": 42,
+        "id": 41,
         "name": "Twain\u0027s Arc",
         "formattedName": "§#99e9ffff§lTwain\u0027s Arc",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -10222,9 +10197,37 @@
           "col": 8
         },
         "connections": [
-          46,
-          41,
-          51
+          45,
+          40,
+          50
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Frenzy",
+        "formattedName": "§#f747c2ff§lFrenzy",
+        "abilityTreeNodeType": "purpleAbilityLocked",
+        "description": [
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Hitting an enemy will give you a brief buff\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"of \",\"color\":\"#AAAAAA\"},{\"text\":\"+1% \",\"color\":\"#FFFFFF\"},{\"text\":\"Walk Speed, up to \",\"color\":\"#AAAAAA\"},{\"text\":\"15%\",\"color\":\"#FFFFFF\"},{\"text\":\" per second. (Max +60%)\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"-5%\",\"color\":\"#FFFFFF\"},{\"text\":\" of \",\"color\":\"#AAAAAA\"},{\"text\":\"the bonus decays every second.\",\"color\":\"#AAAAAA\"}]"
+        ],
+        "cost": 2,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": null,
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetype": "Boltslinger",
+        "location": {
+          "page": 5,
+          "row": 2,
+          "col": 0
+        },
+        "connections": [
+          43,
+          47
         ]
       },
       {
@@ -10255,49 +10258,14 @@
         "location": {
           "page": 5,
           "row": 2,
-          "col": 0
+          "col": 2
         },
         "connections": [
-          44,
-          48
+          47
         ]
       },
       {
         "id": 44,
-        "name": "Fierce Stomp",
-        "formattedName": "§#ffe14dff§lFierce Stomp",
-        "abilityTreeNodeType": "yellowAbilityLocked",
-        "description": [
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"When using \",\"color\":\"#AAAAAA\"},{\"text\":\"Escape\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\", hold shift to\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"quickly drop down to deal damage\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"and blind enemies.\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"250% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"250%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"6 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"Blindness \",\"color\":\"#FFFFFF\"},{\"text\":\"(\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"0.5s\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"1s\",\"color\":\"#FFFFFF\"}]"
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": null,
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetype": "Boltslinger",
-        "location": {
-          "page": 5,
-          "row": 2,
-          "col": 2
-        },
-        "connections": [
-          48
-        ]
-      },
-      {
-        "id": 45,
         "name": "Rocket Jump",
         "formattedName": "§#ffe14dff§lRocket Jump",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -10321,7 +10289,7 @@
         "connections": []
       },
       {
-        "id": 46,
+        "id": 45,
         "name": "Scorched Earth",
         "formattedName": "§f§lScorched Earth",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -10349,7 +10317,7 @@
         "connections": []
       },
       {
-        "id": 47,
+        "id": 46,
         "name": "More Traps",
         "formattedName": "§f§lMore Traps",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -10370,11 +10338,11 @@
           "col": 3
         },
         "connections": [
-          49
+          48
         ]
       },
       {
-        "id": 48,
+        "id": 47,
         "name": "Divine Intervention",
         "formattedName": "§#ff4545ff§lDivine Intervention",
         "abilityTreeNodeType": "redAbilityLocked",
@@ -10385,12 +10353,10 @@
           "[{\"text\":\"become briefly empowered.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will cause them to\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"shoot \",\"color\":\"#AAAAAA\"},{\"text\":\"1.5x \",\"color\":\"#FFFFFF\"},{\"text\":\"faster.\",\"color\":\"#AAAAAA\"}]",
-          "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"1.35s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"shoot \",\"color\":\"#AAAAAA\"},{\"text\":\"1.5x \",\"color\":\"#FFFFFF\"},{\"text\":\"faster while \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" is active\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will cause them to\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"shoot explosive shots, dealing \",\"color\":\"#AAAAAA\"},{\"text\":\"+20%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"shoot explosive shots, dealing \",\"color\":\"#AAAAAA\"},{\"text\":\"+25%\",\"color\":\"#FFFFFF\"},{\"text\":\" damage.\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"3 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"3s\",\"color\":\"#FFFFFF\"}]"
@@ -10411,14 +10377,15 @@
           "col": 1
         },
         "connections": [
+          51,
           54,
           52,
-          49,
+          48,
           55
         ]
       },
       {
-        "id": 49,
+        "id": 48,
         "name": "Cheaper Arrow Shield",
         "formattedName": "§f§lCheaper Arrow Shield",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -10443,12 +10410,12 @@
         "connections": [
           52,
           55,
-          50,
+          49,
           53
         ]
       },
       {
-        "id": 50,
+        "id": 49,
         "name": "Honed Shield",
         "formattedName": "§f§lHoned Shield",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -10463,8 +10430,8 @@
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AAAA\"},{\"text\":\" \",\"color\":\"#00AAAA\"},{\"text\":\"Area of Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+1 Blocks \",\"color\":\"#FFFFFF\"},{\"text\":\"(Circle-Shaped)\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+15% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, for \",\"color\":\"#555555\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\", per shot)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+15%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+10% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, for \",\"color\":\"#555555\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\", per shot)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+10%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -10484,7 +10451,7 @@
         ]
       },
       {
-        "id": 51,
+        "id": 50,
         "name": "Shocking Bomb",
         "formattedName": "§#f747c2ff§lShocking Bomb",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -10513,9 +10480,36 @@
           "col": 8
         },
         "connections": [
-          50,
+          49,
           57
         ]
+      },
+      {
+        "id": 51,
+        "name": "Stormy Feet",
+        "formattedName": "§#ffe14dff§lStormy Feet",
+        "abilityTreeNodeType": "yellowAbilityLocked",
+        "description": [
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Windy Feet\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will last longer and grant a stronger\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"speed buff.\",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"+60% \",\"color\":\"#FFFFFF\"},{\"text\":\"Speed Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"➲\",\"color\":\"#00AAAA\"},{\"text\":\") to Allies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"+60s\",\"color\":\"#FFFFFF\"}]"
+        ],
+        "cost": 1,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Windy Feet",
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetype": "Boltslinger",
+        "location": {
+          "page": 5,
+          "row": 5,
+          "col": 0
+        },
+        "connections": []
       },
       {
         "id": 52,
@@ -10524,7 +10518,7 @@
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Reduce \",\"color\":\"#AAAAAA\"},{\"text\":\"Leap\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s cooldown by \",\"color\":\"#AAAAAA\"},{\"text\":\"2s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"Leap\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will launch you further.\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -10705,7 +10699,8 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"60% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, per wave)\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]"
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Thunder: \",\"color\":\"#555555\"},{\"text\":\"30%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Range: \",\"color\":\"#AAAAAA\"},{\"text\":\"25 Blocks\",\"color\":\"#FFFFFF\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -10735,8 +10730,8 @@
           "[{\"text\":\"Casting \",\"color\":\"#AAAAAA\"},{\"text\":\"Arrow Shield\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" while \",\"color\":\"#AAAAAA\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" are active\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"will also cast \",\"color\":\"#AAAAAA\"},{\"text\":\"Buckshot\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\". Increase \",\"color\":\"#AAAAAA\"},{\"text\":\"Buckshot\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\"\u0027s damage.\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+25% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, for \",\"color\":\"#555555\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\", per shot)\",\"color\":\"#555555\"}]",
-          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+20%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Total Damage: \",\"color\":\"#AAAAAA\"},{\"text\":\"+30% \",\"color\":\"#FFFFFF\"},{\"text\":\"(of your DPS, for \",\"color\":\"#555555\"},{\"text\":\"Guardian Angels\",\"underline\":true,\"color\":\"#555555\"},{\"text\":\", per shot)\",\"color\":\"#555555\"}]",
+          "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFAA00\"},{\"text\":\" \",\"color\":\"#FFAA00\"},{\"text\":\"Damage: \",\"color\":\"#555555\"},{\"text\":\"+25%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"  \",\"color\":\"#AAAAAA\",\"margin-left\":\"large\"},{\"text\":\"(\",\"color\":\"#555555\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\" \",\"color\":\"#FF5555\"},{\"text\":\"Fire: \",\"color\":\"#555555\"},{\"text\":\"+5%\",\"color\":\"#555555\"},{\"text\":\")\",\"color\":\"#555555\"}]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#00AA00\"},{\"text\":\" \",\"color\":\"#00AA00\"},{\"text\":\"Range: \",\"color\":\"#AAAAAA\"},{\"text\":\"+3 Blocks\",\"color\":\"#FFFFFF\"}]",
           "[]",
@@ -10868,6 +10863,7 @@
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Slow Falling \",\"color\":\"#FFFFFF\"},{\"text\":\"is applied upon using \",\"color\":\"#AAAAAA\"},{\"text\":\"Escape\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"Crouching at any point will cancel this effect.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"(Effect cannot be refreshed mid-air)\",\"color\":\"#555555\"}]",
           "[]",
           "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"5s\",\"color\":\"#FFFFFF\"}]"
         ],
@@ -10917,7 +10913,7 @@
         },
         "connections": [
           65,
-          71
+          70
         ]
       },
       {
@@ -10927,8 +10923,8 @@
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will bounce once\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"when hitting a block or enemy.\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will travel \",\"color\":\"#AAAAAA\"},{\"text\":\"20%\",\"color\":\"#FFFFFF\"},{\"text\":\" slower and\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"bounce once when hitting a block or enemy.\",\"color\":\"#AAAAAA\"}]"
         ],
         "cost": 2,
         "willBlock": [],
@@ -10943,9 +10939,8 @@
           "col": 2
         },
         "connections": [
-          71,
-          66,
-          68
+          70,
+          66
         ]
       },
       {
@@ -10972,9 +10967,8 @@
           "col": 4
         },
         "connections": [
-          68,
-          73,
-          69
+          72,
+          68
         ]
       },
       {
@@ -11001,11 +10995,11 @@
           "col": 7
         },
         "connections": [
-          69,
+          68,
           66,
+          72,
           73,
-          78,
-          70
+          69
         ]
       },
       {
@@ -11033,7 +11027,7 @@
         "location": {
           "page": 6,
           "row": 5,
-          "col": 3
+          "col": 6
         },
         "connections": []
       },
@@ -11061,40 +11055,12 @@
         "location": {
           "page": 6,
           "row": 5,
-          "col": 6
-        },
-        "connections": []
-      },
-      {
-        "id": 70,
-        "name": "Coursing Restraints",
-        "formattedName": "§#99e9ffff§lCoursing Restraints",
-        "abilityTreeNodeType": "blueAbilityLocked",
-        "description": [
-          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Shocking Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will temporarily shock\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"enemies, reducing their defences.\",\"color\":\"#AAAAAA\"}]",
-          "[]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"-15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"4s\",\"color\":\"#FFFFFF\"}]",
-          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]"
-        ],
-        "cost": 2,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Shocking Bomb",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetype": "Sharpshooter",
-        "location": {
-          "page": 6,
-          "row": 5,
           "col": 8
         },
         "connections": []
       },
       {
-        "id": 71,
+        "id": 70,
         "name": "Arrow Hurricane",
         "formattedName": "§#ff4545ff§lArrow Hurricane",
         "abilityTreeNodeType": "redAbilityLocked",
@@ -11128,7 +11094,7 @@
         ]
       },
       {
-        "id": 72,
+        "id": 71,
         "name": "Beast Lore",
         "formattedName": "§f§lBeast Lore",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -11163,7 +11129,7 @@
         ]
       },
       {
-        "id": 73,
+        "id": 72,
         "name": "Tangled Traps",
         "formattedName": "§#f747c2ff§lTangled Traps",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -11192,7 +11158,37 @@
         },
         "connections": [
           75,
-          72
+          71
+        ]
+      },
+      {
+        "id": 73,
+        "name": "Coursing Restraints",
+        "formattedName": "§#99e9ffff§lCoursing Restraints",
+        "abilityTreeNodeType": "blueAbilityLocked",
+        "description": [
+          "[{\"text\":\" \",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Shocking Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will temporarily shock\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"enemies, reducing their defences.\",\"color\":\"#AAAAAA\"}]",
+          "[]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FFFF55\"},{\"text\":\" \",\"color\":\"#FFFF55\"},{\"text\":\"Effect: \",\"color\":\"#AAAAAA\"},{\"text\":\"-15% \",\"color\":\"#FFFFFF\"},{\"text\":\"Resistance Bonus (\",\"color\":\"#AAAAAA\"},{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF5555\"},{\"text\":\") to Enemies\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#FF55FF\"},{\"text\":\" \",\"color\":\"#FF55FF\"},{\"text\":\"Duration: \",\"color\":\"#AAAAAA\"},{\"text\":\"4s\",\"color\":\"#FFFFFF\"}]",
+          "[{\"text\":\"\",\"font\":\"common\",\"color\":\"#4DFFC3\"},{\"text\":\" \",\"color\":\"#4DFFC3\"},{\"text\":\"Cooldown: \",\"color\":\"#AAAAAA\"},{\"text\":\"10s\",\"color\":\"#FFFFFF\"}]"
+        ],
+        "cost": 2,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Shocking Bomb",
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetype": "Sharpshooter",
+        "location": {
+          "page": 7,
+          "row": 1,
+          "col": 7
+        },
+        "connections": [
+          78
         ]
       },
       {
@@ -11269,7 +11265,7 @@
         "description": [
           "[]",
           "[{\"text\":\"Hitting \",\"color\":\"#AAAAAA\"},{\"text\":\"1\",\"color\":\"#FFFFFF\"},{\"text\":\" flint arrow will make your next\",\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" shoot \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"},{\"text\":\" arrow per stream.\",\"color\":\"#AAAAAA\"}]"
+          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" shoot \",\"color\":\"#AAAAAA\"},{\"text\":\"+1\",\"color\":\"#FFFFFF\"},{\"text\":\" arrow per stream. \",\"color\":\"#AAAAAA\"},{\"text\":\"(Max 40)\",\"color\":\"#555555\"}]"
         ],
         "cost": 1,
         "willBlock": [],
@@ -11569,8 +11565,8 @@
       {
         "id": 86,
         "name": "Shrieking Arrows",
-        "formattedName": "§#ffe14dff§lShrieking Arrows",
-        "abilityTreeNodeType": "yellowAbilityLocked",
+        "formattedName": "§f§lShrieking Arrows",
+        "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           "[]",
           "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Phantom Ray\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will deal additional damage.\",\"color\":\"#AAAAAA\"}]",
@@ -11864,8 +11860,8 @@
           "[{\"text\":\"Main Attack\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will instead shoot Light Arrows\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"that deal \",\"color\":\"#AAAAAA\"},{\"text\":\"50%\",\"color\":\"#FFFFFF\"},{\"text\":\" more damage over \",\"color\":\"#AAAAAA\"},{\"text\":\"2s\",\"color\":\"#FFFFFF\"},{\"text\":\".\",\"color\":\"#AAAAAA\"}]",
           "[]",
-          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" and \",\"color\":\"#AAAAAA\"},{\"text\":\"Divine Intervention\",\"underline\":true,\"color\":\"#AAAAAA\"}]",
-          "[{\"text\":\"will last \",\"color\":\"#AAAAAA\"},{\"text\":\"2.5 \",\"color\":\"#FFFFFF\"},{\"text\":\"times as long.\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"Arrow Storm\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" last \",\"color\":\"#AAAAAA\"},{\"text\":\"2.5 \",\"color\":\"#FFFFFF\"},{\"text\":\"times longer\",\"color\":\"#AAAAAA\"}]",
+          "[{\"text\":\"and releases in a tighter spread\",\"color\":\"#AAAAAA\"}]",
           "[]",
           "[{\"text\":\"Arrow Bomb\",\"underline\":true,\"color\":\"#AAAAAA\"},{\"text\":\" will smite enemies it hits\",\"color\":\"#AAAAAA\"}]",
           "[{\"text\":\"directly with a bolt from the heavens.\",\"color\":\"#AAAAAA\"}]",
@@ -14601,7 +14597,9 @@
           "col": 4
         },
         "connections": [
-          86
+          86,
+          84,
+          87
         ]
       },
       {
@@ -14629,7 +14627,8 @@
           "col": 8
         },
         "connections": [
-          87
+          87,
+          86
         ]
       },
       {
@@ -14705,7 +14704,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Swan Dive",
+        "requiredAbility": "Jasmine Bloom",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetype": "Acrobat",
