@@ -63,7 +63,7 @@
     },
     "internalName": "A16-L31 Handheld Mortar",
     "majorIds": {
-      "Totemic Fuse": "<span class='font-ascii' style='color:#AAAAAA'>Totemic Smash deals <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+40%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+90%</span>, <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>+90%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+60%</span> at the cost of half of Totem's duration.</span></span></span></span></span>"
+      "Totemic Fuse": "<span class='font-ascii' style='color:#AAAAAA'>Totemic Smash deals <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+150%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+150%</span>, <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>+150%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+120%</span> but totemic smash loses 30% radius.</span></span></span></span></span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -89,7 +89,7 @@
           "color": "#FFAA00"
         },
         {
-          "text": "+40%",
+          "text": "+150%",
           "color": "#FFAA00"
         },
         {
@@ -102,7 +102,7 @@
           "color": "#00AA00"
         },
         {
-          "text": "+90%",
+          "text": "+150%",
           "color": "#00AA00"
         },
         {
@@ -115,7 +115,7 @@
           "color": "#FFFF55"
         },
         {
-          "text": "+90%",
+          "text": "+150%",
           "color": "#FFFF55"
         },
         {
@@ -128,11 +128,11 @@
           "color": "#FF5555"
         },
         {
-          "text": "+60%",
+          "text": "+120%",
           "color": "#FF5555"
         },
         {
-          "text": " at the cost of half of Totem's duration.",
+          "text": " but totemic smash loses 30% radius.",
           "color": "#AAAAAA"
         }
       ]
@@ -14771,6 +14771,71 @@
     "tier": "unique",
     "type": "armour"
   },
+  "Arcane Parasite": {
+    "base": {
+      "baseFireDefence": -120,
+      "baseHealth": 3000,
+      "baseThunderDefence": 160,
+      "baseWaterDefence": 140
+    },
+    "dropRestriction": "normal",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "shield_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            8
+          ]
+        },
+        "id": "minecraft:leather_helmet",
+        "name": "helmet.diamond"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": {
+        "max": -11,
+        "min": -21,
+        "raw": -16
+      },
+      "healthRegenRaw": {
+        "max": -245,
+        "min": -455,
+        "raw": -350
+      },
+      "manaRegen": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      },
+      "manaSteal": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "rawDefence": -7,
+      "rawDexterity": 10,
+      "rawIntelligence": 5,
+      "rawThunderSpellDamage": {
+        "max": 182,
+        "min": 42,
+        "raw": 140
+      }
+    },
+    "internalName": "Arcane Parasite",
+    "powderSlots": 3,
+    "requirements": {
+      "dexterity": 70,
+      "level": 104
+    },
+    "restriction": "none",
+    "subType": "helmet",
+    "tier": "rare",
+    "type": "armour"
+  },
   "Arcanic": {
     "base": {
       "baseAirDefence": 4,
@@ -15985,7 +16050,7 @@
     "internalName": "Arsene",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>I am thou... Thou art I.</span>",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Nearby players gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -16000,7 +16065,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Nearby players gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
           "color": "#AAAAAA"
         }
       ]
@@ -38092,6 +38157,61 @@
     "subType": "wand",
     "tier": "rare",
     "type": "weapon"
+  },
+  "Broken Lifeloop": {
+    "base": {
+      "baseHealth": -350,
+      "baseThunderDefence": 60,
+      "baseWaterDefence": -50
+    },
+    "dropRestriction": "lootchest",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "sticker_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3710
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "ring.thunder2"
+      }
+    },
+    "identifications": {
+      "lifeSteal": {
+        "max": 221,
+        "min": 51,
+        "raw": 170
+      },
+      "mainAttackRange": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "manaSteal": {
+        "max": -4,
+        "min": -8,
+        "raw": -6
+      },
+      "rawMainAttackDamage": {
+        "max": 91,
+        "min": 21,
+        "raw": 70
+      }
+    },
+    "internalName": "Broken Lifeloop",
+    "requirements": {
+      "dexterity": 50,
+      "level": 101
+    },
+    "restriction": "none",
+    "subType": "ring",
+    "tier": "unique",
+    "type": "accessory"
   },
   "Broken Pipe": {
     "attackSpeed": "fast",
@@ -90379,7 +90499,7 @@
     "internalName": "Eleventh Hour",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The last stand, a hero's rally, a turning tide-is it a tale of a champion who conquered, or a martyr who inspired? This is your story to tell.</span>",
     "majorIds": {
-      "Saviour's Sacrifice": "<span class='font-ascii' style='color:#AAAAAA'>While under 50% maximum health, nearby allies gain 15% bonus damage and defence.</span>"
+      "Saviour's Sacrifice": "<span class='font-ascii' style='color:#AAAAAA'>While under 50% maximum health, allies within 8 blocks gain 15% bonus damage and defence.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -90394,7 +90514,7 @@
     "jsonMajorIds": {
       "Saviour's Sacrifice": [
         {
-          "text": "While under 50% maximum health, nearby allies gain 15% bonus damage and defence.",
+          "text": "While under 50% maximum health, allies within 8 blocks gain 15% bonus damage and defence.",
           "color": "#AAAAAA"
         }
       ]
@@ -130139,7 +130259,7 @@
     "internalName": "Hearthkeeper",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Childhood memories, days of late nights and snow fights and cocoa by the fireside. Loving smiles and friendly faces. The beating heart of the world: home. This is what you fight for, beating back those dark and wicked forces which work to break down all that is loved. There is no sacrifice too great for the hearth.</span>",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Nearby players gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -130155,7 +130275,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Nearby players gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
           "color": "#AAAAAA"
         }
       ]
@@ -133302,7 +133422,7 @@
     "internalName": "Hero",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Enigmatically, this weapon will only show itself to those who believe themselves to be worth nothing, or to be weak. While utilizing this weapon will greatly strengthen one's resolve, it will disappear when it is no longer needed, going to the next wielder.</span>",
     "majorIds": {
-      "Saviour's Sacrifice": "<span class='font-ascii' style='color:#AAAAAA'>While under 50% maximum health, nearby allies gain 15% bonus damage and defence.</span>"
+      "Saviour's Sacrifice": "<span class='font-ascii' style='color:#AAAAAA'>While under 50% maximum health, allies within 8 blocks gain 15% bonus damage and defence.</span>"
     },
     "powderSlots": 4,
     "requirements": {
@@ -133317,7 +133437,7 @@
     "jsonMajorIds": {
       "Saviour's Sacrifice": [
         {
-          "text": "While under 50% maximum health, nearby allies gain 15% bonus damage and defence.",
+          "text": "While under 50% maximum health, allies within 8 blocks gain 15% bonus damage and defence.",
           "color": "#AAAAAA"
         }
       ]
@@ -139714,7 +139834,7 @@
     "internalName": "Ignis",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>This bow, used by the dwarves to land the final blow in the slaughter of Garaheth, is extremely powerful. Special fire resistant gloves must be worn at all times to prevent burns to the user.</span>",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Nearby players gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -139729,7 +139849,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Nearby players gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
           "color": "#AAAAAA"
         }
       ]
@@ -170637,7 +170757,7 @@
     "internalName": "Masterwork Archangel",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The unwieldy, yet imposing stature of this massive sickle strikes awe into those who view it. Those who have the will to wield it, however, seem to garner respect from all those around them, as though they had become a god.</span>",
     "majorIds": {
-      "Grand Influence": "<span class='font-ascii' style='color:#AAAAAA'>While above 80% maximum health, nearby allies gain 15% increased health gain from all sources and 25% Walk Speed.</span>"
+      "Grand Influence": "<span class='font-ascii' style='color:#AAAAAA'>While above 80% maximum health, allies within 12 blocks gain 15% increased health gain from all sources and 25% Walk Speed.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -170652,7 +170772,7 @@
     "jsonMajorIds": {
       "Grand Influence": [
         {
-          "text": "While above 80% maximum health, nearby allies gain 15% increased health gain from all sources and 25% Walk Speed.",
+          "text": "While above 80% maximum health, allies within 12 blocks gain 15% increased health gain from all sources and 25% Walk Speed.",
           "color": "#AAAAAA"
         }
       ]
@@ -203457,7 +203577,7 @@
   },
   "Phoenix's Emblem": {
     "attackSpeed": "fast",
-    "averageDps": 88,
+    "averageDps": 81,
     "base": {
       "baseDamage": {
         "max": 40,
@@ -203499,7 +203619,7 @@
   },
   "Phoenix's Hammer": {
     "attackSpeed": "fast",
-    "averageDps": 55,
+    "averageDps": 50,
     "base": {
       "baseDamage": {
         "max": 26,
@@ -203541,7 +203661,7 @@
   },
   "Phoenix's Saber": {
     "attackSpeed": "fast",
-    "averageDps": 75,
+    "averageDps": 68,
     "base": {
       "baseDamage": {
         "max": 35,
@@ -203583,7 +203703,7 @@
   },
   "Phoenix's Span": {
     "attackSpeed": "fast",
-    "averageDps": 88,
+    "averageDps": 81,
     "base": {
       "baseDamage": {
         "max": 40,
@@ -203625,7 +203745,7 @@
   },
   "Phoenix's Staff": {
     "attackSpeed": "fast",
-    "averageDps": 38,
+    "averageDps": 35,
     "base": {
       "baseDamage": {
         "max": 17,
@@ -226218,7 +226338,7 @@
     "internalName": "Restitution",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'><span class='font-old_fruman' style='font-weight:normal'>recnal il <span class='font-common'></span>il. alac toc, pasad il, atlruc il, kaclahpokc il cefos. lahes il nikcrolad kec pahsofmal uc ifrah tofnikcsif. etlefrofmad uc, etlaces uc tofnikcsoftahal. <span class='font-common'></span>rofmel <span class='font-common'></span>lahrakctriltod uc tofpahnuc. <span class='font-common'></span>lahic cof efrofmad il pahsadiled uc tofifrah. etlalnes ah rofmedes uc tofpestal. pasad uc tofmahatskritsec. etlrakc kec. etlrakc kec.</span></span></span></span></span></span>",
     "majorIds": {
-      "Old Spark": "<span class='font-ascii' style='color:#AAAAAA'>Whirlwind transforms into a travelling projectile, exploding on contact and knocking enemies into the air. Hold shift to rise with them.</span>"
+      "Old Spark": "<span class='font-ascii' style='color:#AAAAAA'>Whirlwind transforms into a travelling projectile, exploding on contact and knocking enemies into the air. Crouch to rise with them.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -226235,7 +226355,7 @@
     "jsonMajorIds": {
       "Old Spark": [
         {
-          "text": "Whirlwind transforms into a travelling projectile, exploding on contact and knocking enemies into the air. Hold shift to rise with them.",
+          "text": "Whirlwind transforms into a travelling projectile, exploding on contact and knocking enemies into the air. Crouch to rise with them.",
           "color": "#AAAAAA"
         }
       ]
@@ -248588,7 +248708,7 @@
     },
     "internalName": "Signal Flare",
     "majorIds": {
-      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's Cooldown is lowered by -3s.</span>"
+      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -248603,7 +248723,7 @@
     "jsonMajorIds": {
       "Taunt": [
         {
-          "text": "Provoke's Cooldown is lowered by -3s.",
+          "text": "Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.",
           "color": "#AAAAAA"
         }
       ]
@@ -258920,7 +259040,7 @@
     "internalName": "Song of Solitude",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>It is an apathy born from lonely desperation with which one sends a blinding ray as their signal flare, uncaring if it hails friend or foe.</span>",
     "majorIds": {
-      "Pioneer's Echo": "<span class='font-ascii' style='color:#AAAAAA'>Phantom Ray deals two bursts of <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span> 150%</span>, <span class='font-ascii' style='color:#55FFFF'><span class='font-common'></span> 60%</span> over 1 second. Decimator's increase and cap are raised to 140% and Quick Draw's activation threshold is decreased to 2.</span></span></span>"
+      "Pioneer's Echo": "<span class='font-ascii' style='color:#AAAAAA'>Phantom Ray deals 7x damage, but only hits twice over 1 second. Decimator's increase and cap are raised to 140% and Quick Draw's activation threshold is decreased to 2.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -258935,33 +259055,7 @@
     "jsonMajorIds": {
       "Pioneer's Echo": [
         {
-          "text": "Phantom Ray deals two bursts of ",
-          "color": "#AAAAAA"
-        },
-        {
-          "text": "",
-          "font": "common",
-          "color": "#FFAA00"
-        },
-        {
-          "text": " 150%",
-          "color": "#FFAA00"
-        },
-        {
-          "text": ", ",
-          "color": "#AAAAAA"
-        },
-        {
-          "text": "",
-          "font": "common",
-          "color": "#55FFFF"
-        },
-        {
-          "text": " 60%",
-          "color": "#55FFFF"
-        },
-        {
-          "text": " over 1 second. Decimator's increase and cap are raised to 140% and Quick Draw's activation threshold is decreased to 2.",
+          "text": "Phantom Ray deals 7x damage, but only hits twice over 1 second. Decimator's increase and cap are raised to 140% and Quick Draw's activation threshold is decreased to 2.",
           "color": "#AAAAAA"
         }
       ]
@@ -263373,6 +263467,64 @@
     "subType": "wand",
     "tier": "unique",
     "type": "weapon"
+  },
+  "Spirit Shackles": {
+    "base": {
+      "baseAirDefence": 30,
+      "baseEarthDefence": -25,
+      "baseHealth": 300,
+      "baseWaterDefence": 30
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "water"
+    ],
+    "emblem": "sticker_4",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            407
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "bracelet.water2"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "lootBonus": {
+        "max": 13,
+        "min": 3,
+        "raw": 10
+      },
+      "rawIntelligence": 3,
+      "rawMaxMana": {
+        "max": 25,
+        "min": 6,
+        "raw": 19
+      },
+      "walkSpeed": {
+        "max": -8,
+        "min": -16,
+        "raw": -12
+      }
+    },
+    "internalName": "Spirit Shackles",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Unfinished business.</span>",
+    "requirements": {
+      "intelligence": 40,
+      "level": 73
+    },
+    "restriction": "none",
+    "subType": "bracelet",
+    "tier": "legendary",
+    "type": "accessory"
   },
   "Spirit Spark": {
     "attackSpeed": "fast",
@@ -272124,7 +272276,7 @@
     },
     "internalName": "Strobelight",
     "majorIds": {
-      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's Cooldown is lowered by -3s.</span>"
+      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.</span>"
     },
     "requirements": {
       "defence": 30,
@@ -272136,7 +272288,7 @@
     "jsonMajorIds": {
       "Taunt": [
         {
-          "text": "Provoke's Cooldown is lowered by -3s.",
+          "text": "Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.",
           "color": "#AAAAAA"
         }
       ]
@@ -310746,7 +310898,7 @@
     },
     "internalName": "Vulcan",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Nearby players gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -310761,7 +310913,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Nearby players gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
           "color": "#AAAAAA"
         }
       ]
