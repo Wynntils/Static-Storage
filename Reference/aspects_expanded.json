@@ -3493,27 +3493,21 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": " faster instead.",
+                "text": " faster instead, and cause explosive",
                 "color": "#AAAAAA"
               }
             ],
-            [],
             [
               {
-                "text": "Arrow Storm",
-                "underline": true,
+                "text": "shots to deal ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
+                "text": "+5%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " arrow per stream.",
+                "text": " more damage.",
                 "color": "#AAAAAA"
               }
             ],
@@ -3603,26 +3597,6 @@
               },
               {
                 "text": " more damage.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Arrow Storm",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " arrow per stream.",
                 "color": "#AAAAAA"
               }
             ],
@@ -9594,7 +9568,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.35",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
@@ -9611,13 +9585,7 @@
                 "color": "#00AAAA"
               },
               {
-                "text": "Area of Effect,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and increases your speed more quickly.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -9637,7 +9605,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.6",
+                "text": "+1.75",
                 "color": "#FFFFFF"
               },
               {
@@ -9654,13 +9622,7 @@
                 "color": "#00AAAA"
               },
               {
-                "text": "Area of Effect,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and increases your speed more quickly.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -9680,7 +9642,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.85",
+                "text": "+2.5",
                 "color": "#FFFFFF"
               },
               {
@@ -9697,13 +9659,7 @@
                 "color": "#00AAAA"
               },
               {
-                "text": "Area of Effect,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and increases your speed more quickly.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -9723,7 +9679,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+3",
                 "color": "#FFFFFF"
               },
               {
@@ -9740,13 +9696,7 @@
                 "color": "#00AAAA"
               },
               {
-                "text": "Area of Effect,",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "and increases your speed more quickly.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
