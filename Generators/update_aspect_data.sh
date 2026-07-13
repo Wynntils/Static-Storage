@@ -65,7 +65,7 @@ for CLASS in $ASPECT_CLASSES; do
         else .
         end' < ${CLASS}_aspects.json.tmp > ${CLASS}_aspects.json.tmp2
     # Run the Python script to save the class file with the HTML description parsed to JSON
-    python ../Utils/html_parser.py ${CLASS}_aspects.json.tmp2 ${CLASS}_aspects.json false
+    python ../Utils/html_parser.py ${CLASS}_aspects.json.tmp2 ${CLASS}_aspects.json aspect
     rm ${CLASS}_aspects.json.tmp ${CLASS}_aspects.json.tmp2
 
     # Create/merge the minimized version

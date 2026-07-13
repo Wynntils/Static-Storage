@@ -39,8 +39,9 @@ jq -S 'if type == "array" then
         ) | from_entries)
     else .
     end' < materials.json.tmp > materials.json.tmp2
-# Minimalize the json file
-jq -c < materials.json.tmp2 > materials.json
+# Run the Python script to save the file with the HTML lore parsed to JSON
+python ../Utils/html_parser.py materials.json.tmp2 materials.json material
+
 rm materials.json.tmp materials.json.tmp2
 
 # To be able to review new data, we also need an expanded, human-readable version
