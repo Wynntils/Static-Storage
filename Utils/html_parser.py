@@ -145,11 +145,11 @@ def create_part(text, style):
 
     return part
 
-def process_file(input_path, output_path, gear):
+def process_file(input_path, output_path, type):
     with open(input_path, "r", encoding="utf-8") as infile:
         data = json.load(infile)
 
-    if gear:
+    if type == "gear":
         for item_data in data.values():
             if "majorIds" in item_data:
                 json_major_ids = {}
@@ -159,15 +159,20 @@ def process_file(input_path, output_path, gear):
                     json_major_ids[key] = parse_html_to_json(cleaned, "#55FFFF")
 
                 item_data["jsonMajorIds"] = json_major_ids
-    else:
+    elif type == "aspect":
         for aspect, aspect_data in data.items():
             if "tiers" in aspect_data:
                 for tier, tier_data in aspect_data["tiers"].items():
                     if "description" in tier_data:
                         clean_description = [clean_html(desc) for desc in tier_data["description"]]
                         tier_data["description"] = [parse_html_to_json(desc, "#AAAAAA") for desc in clean_description]
+    elif type == "material":
+        for material_data in data.values():
+            if "lore" in material_data:
+                cleaned = clean_html(material_data["lore"])
+                material_data["jsonLore"] = parse_html_to_json(cleaned, "#AAAAAA")
 
     with open(output_path, "w", encoding="utf-8") as outfile:
         json.dump(data, outfile)
 
-process_file(sys.argv[1], sys.argv[2], sys.argv[3] == "true")
+process_file(sys.argv[1], sys.argv[2], sys.argv[3])

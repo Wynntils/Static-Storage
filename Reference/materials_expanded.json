@@ -24,7 +24,77 @@
       "level": 30
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Acacia Plank": {
     "chances": {
@@ -51,7 +121,101 @@
       "level": 30
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Avo Paper": {
     "chances": {
@@ -78,7 +242,77 @@
       "level": 90
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Avo Plank": {
     "chances": {
@@ -105,7 +339,101 @@
       "level": 90
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Barley Grains": {
     "chances": {
@@ -132,7 +460,65 @@
       "level": 10
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Barley String": {
     "chances": {
@@ -159,7 +545,89 @@
       "level": 10
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Bass Meat": {
     "chances": {
@@ -186,7 +654,53 @@
       "level": 80
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Bass Oil": {
     "chances": {
@@ -213,7 +727,113 @@
       "level": 80
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Birch Paper": {
     "chances": {
@@ -240,7 +860,77 @@
       "level": 10
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Birch Plank": {
     "chances": {
@@ -267,7 +957,101 @@
       "level": 10
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Carp Meat": {
     "chances": {
@@ -294,7 +1078,53 @@
       "level": 30
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Carp Oil": {
     "chances": {
@@ -321,7 +1151,113 @@
       "level": 30
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Cinnabar Gem": {
     "chances": {
@@ -348,7 +1284,77 @@
       "level": 115
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Cinnabar Ingot": {
     "chances": {
@@ -375,7 +1381,113 @@
       "level": 115
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Cobalt Gem": {
     "chances": {
@@ -402,7 +1514,77 @@
       "level": 60
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Cobalt Ingot": {
     "chances": {
@@ -429,7 +1611,113 @@
       "level": 60
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Copper Gem": {
     "chances": {
@@ -456,7 +1744,77 @@
       "level": 1
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Copper Ingot": {
     "chances": {
@@ -483,7 +1841,113 @@
       "level": 1
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dark Paper": {
     "chances": {
@@ -510,7 +1974,77 @@
       "level": 60
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dark Plank": {
     "chances": {
@@ -537,7 +2071,101 @@
       "level": 60
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Decay Grains": {
     "chances": {
@@ -564,7 +2192,65 @@
       "level": 70
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Decay String": {
     "chances": {
@@ -591,7 +2277,89 @@
       "level": 70
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Gem": {
     "chances": {
@@ -618,7 +2386,77 @@
       "level": 105
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Grains": {
     "chances": {
@@ -645,7 +2483,65 @@
       "level": 105
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Ingot": {
     "chances": {
@@ -672,7 +2568,113 @@
       "level": 105
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Meat": {
     "chances": {
@@ -699,7 +2701,53 @@
       "level": 105
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Oil": {
     "chances": {
@@ -726,7 +2774,113 @@
       "level": 105
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Paper": {
     "chances": {
@@ -753,7 +2907,77 @@
       "level": 105
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic Plank": {
     "chances": {
@@ -780,7 +3004,101 @@
       "level": 105
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Dernic String": {
     "chances": {
@@ -807,7 +3125,89 @@
       "level": 105
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Diamond Gem": {
     "chances": {
@@ -834,7 +3234,77 @@
       "level": 80
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Diamond Ingot": {
     "chances": {
@@ -861,7 +3331,113 @@
       "level": 80
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Gold Gem": {
     "chances": {
@@ -888,7 +3464,77 @@
       "level": 20
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Gold Ingot": {
     "chances": {
@@ -915,7 +3561,113 @@
       "level": 20
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Granite Gem": {
     "chances": {
@@ -942,7 +3694,77 @@
       "level": 10
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Granite Ingot": {
     "chances": {
@@ -969,7 +3791,113 @@
       "level": 10
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Gudgeon Meat": {
     "chances": {
@@ -996,7 +3924,53 @@
       "level": 1
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Gudgeon Oil": {
     "chances": {
@@ -1023,7 +3997,113 @@
       "level": 1
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Gylia Meat": {
     "chances": {
@@ -1050,7 +4130,53 @@
       "level": 70
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Gylia Oil": {
     "chances": {
@@ -1077,7 +4203,113 @@
       "level": 70
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Heather Grains": {
     "chances": {
@@ -1104,7 +4336,65 @@
       "level": 115
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Heather String": {
     "chances": {
@@ -1131,7 +4421,89 @@
       "level": 115
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Hemp Grains": {
     "chances": {
@@ -1158,7 +4530,65 @@
       "level": 100
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Hemp String": {
     "chances": {
@@ -1185,7 +4615,89 @@
       "level": 100
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Hops Grains": {
     "chances": {
@@ -1212,7 +4724,65 @@
       "level": 40
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Hops String": {
     "chances": {
@@ -1239,7 +4809,89 @@
       "level": 40
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Icefish Meat": {
     "chances": {
@@ -1266,7 +4918,53 @@
       "level": 40
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Icefish Oil": {
     "chances": {
@@ -1293,7 +4991,113 @@
       "level": 40
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Iron Gem": {
     "chances": {
@@ -1320,7 +5124,77 @@
       "level": 40
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Iron Ingot": {
     "chances": {
@@ -1347,7 +5221,113 @@
       "level": 40
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Jungle Paper": {
     "chances": {
@@ -1374,7 +5354,77 @@
       "level": 50
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Jungle Plank": {
     "chances": {
@@ -1401,7 +5451,101 @@
       "level": 50
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Jute Grains": {
     "chances": {
@@ -1428,7 +5572,65 @@
       "level": 110
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Jute String": {
     "chances": {
@@ -1455,7 +5657,89 @@
       "level": 110
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Kanderstone Gem": {
     "chances": {
@@ -1482,7 +5766,77 @@
       "level": 70
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Kanderstone Ingot": {
     "chances": {
@@ -1509,7 +5863,113 @@
       "level": 70
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Koi Meat": {
     "chances": {
@@ -1536,7 +5996,53 @@
       "level": 60
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Koi Oil": {
     "chances": {
@@ -1563,7 +6069,113 @@
       "level": 60
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Light Paper": {
     "chances": {
@@ -1590,7 +6202,77 @@
       "level": 70
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Light Plank": {
     "chances": {
@@ -1617,7 +6299,101 @@
       "level": 70
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Mahseer Meat": {
     "chances": {
@@ -1644,7 +6420,53 @@
       "level": 115
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Mahseer Oil": {
     "chances": {
@@ -1671,7 +6493,113 @@
       "level": 115
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Malt Grains": {
     "chances": {
@@ -1698,7 +6626,65 @@
       "level": 30
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Malt String": {
     "chances": {
@@ -1725,7 +6711,89 @@
       "level": 30
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Maple Paper": {
     "chances": {
@@ -1752,7 +6820,77 @@
       "level": 110
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Maple Plank": {
     "chances": {
@@ -1779,7 +6917,101 @@
       "level": 110
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Millet Grains": {
     "chances": {
@@ -1806,7 +7038,65 @@
       "level": 60
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Millet String": {
     "chances": {
@@ -1833,7 +7123,89 @@
       "level": 60
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Molten Gem": {
     "chances": {
@@ -1860,7 +7232,77 @@
       "level": 90
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Molten Ingot": {
     "chances": {
@@ -1887,7 +7329,113 @@
       "level": 90
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Molten Meat": {
     "chances": {
@@ -1914,7 +7462,53 @@
       "level": 90
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Molten Oil": {
     "chances": {
@@ -1941,7 +7535,113 @@
       "level": 90
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Oak Paper": {
     "chances": {
@@ -1968,7 +7668,77 @@
       "level": 1
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Oak Plank": {
     "chances": {
@@ -1995,7 +7765,101 @@
       "level": 1
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Oat Grains": {
     "chances": {
@@ -2022,7 +7886,65 @@
       "level": 20
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Oat String": {
     "chances": {
@@ -2049,7 +7971,89 @@
       "level": 20
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Pine Paper": {
     "chances": {
@@ -2076,7 +8080,77 @@
       "level": 80
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Pine Plank": {
     "chances": {
@@ -2103,7 +8177,101 @@
       "level": 80
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Piranha Meat": {
     "chances": {
@@ -2130,7 +8298,53 @@
       "level": 50
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Piranha Oil": {
     "chances": {
@@ -2157,7 +8371,113 @@
       "level": 50
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Redwood Paper": {
     "chances": {
@@ -2184,7 +8504,77 @@
       "level": 115
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Redwood Plank": {
     "chances": {
@@ -2211,7 +8601,101 @@
       "level": 115
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Rice Grains": {
     "chances": {
@@ -2238,7 +8722,65 @@
       "level": 80
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Rice String": {
     "chances": {
@@ -2265,7 +8807,89 @@
       "level": 80
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Rye Grains": {
     "chances": {
@@ -2292,7 +8916,65 @@
       "level": 50
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Rye String": {
     "chances": {
@@ -2319,7 +9001,89 @@
       "level": 50
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Salmon Meat": {
     "chances": {
@@ -2346,7 +9110,53 @@
       "level": 20
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Salmon Oil": {
     "chances": {
@@ -2373,7 +9183,113 @@
       "level": 20
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sandstone Gem": {
     "chances": {
@@ -2400,7 +9316,77 @@
       "level": 30
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sandstone Ingot": {
     "chances": {
@@ -2427,7 +9413,113 @@
       "level": 30
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Silver Gem": {
     "chances": {
@@ -2454,7 +9546,77 @@
       "level": 50
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Silver Ingot": {
     "chances": {
@@ -2481,7 +9643,113 @@
       "level": 50
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sky Paper": {
     "chances": {
@@ -2508,7 +9776,77 @@
       "level": 100
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sky Plank": {
     "chances": {
@@ -2535,7 +9873,101 @@
       "level": 100
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sorghum Grains": {
     "chances": {
@@ -2562,7 +9994,65 @@
       "level": 90
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sorghum String": {
     "chances": {
@@ -2589,7 +10079,89 @@
       "level": 90
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Spruce Paper": {
     "chances": {
@@ -2616,7 +10188,77 @@
       "level": 40
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Spruce Plank": {
     "chances": {
@@ -2643,7 +10285,101 @@
       "level": 40
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Starfish Meat": {
     "chances": {
@@ -2670,7 +10406,53 @@
       "level": 100
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Starfish Oil": {
     "chances": {
@@ -2697,7 +10479,113 @@
       "level": 100
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sturgeon Meat": {
     "chances": {
@@ -2724,7 +10612,53 @@
       "level": 110
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Sturgeon Oil": {
     "chances": {
@@ -2751,7 +10685,113 @@
       "level": 110
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Titanium Gem": {
     "chances": {
@@ -2778,7 +10818,77 @@
       "level": 110
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Titanium Ingot": {
     "chances": {
@@ -2805,7 +10915,113 @@
       "level": 110
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Trout Meat": {
     "chances": {
@@ -2832,7 +11048,53 @@
       "level": 10
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Trout Oil": {
     "chances": {
@@ -2859,7 +11121,113 @@
       "level": 10
     },
     "subType": "fishing",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Handling, Training",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Voidstone Gem": {
     "chances": {
@@ -2886,7 +11254,77 @@
       "level": 100
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Training, Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Rings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bracelets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Necklaces",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Voidstone Ingot": {
     "chances": {
@@ -2913,7 +11351,113 @@
       "level": 100
     },
     "subType": "mining",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Energy",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Wheat Grains": {
     "chances": {
@@ -2940,7 +11484,65 @@
       "level": 1
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Potions",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Food",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Wheat String": {
     "chances": {
@@ -2967,7 +11569,89 @@
       "level": 1
     },
     "subType": "farming",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost, Handling",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Boots",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Leggings",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Willow Paper": {
     "chances": {
@@ -2994,7 +11678,77 @@
       "level": 20
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Altitude",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Boost",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Scrolls",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Helmets",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "󐀁",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Chestplates",
+        "color": "#FFFFFF"
+      }
+    ]
   },
   "Willow Plank": {
     "chances": {
@@ -3021,6 +11775,100 @@
       "level": 20
     },
     "subType": "woodcutting",
-    "type": "material"
+    "type": "material",
+    "jsonLore": [
+      {
+        "text": "Feed to your ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Mount",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " to upgrade its ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Acceleration, Toughness",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " and ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Speed",
+        "color": "#bc8f62"
+      },
+      {
+        "text": " \n\nCan be used to purchase blocks in ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Housing",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", or to craft ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Spears",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Daggers",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Bows",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": ", ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Reliks",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " & ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "",
+        "color": "#FFFFFF"
+      },
+      {
+        "text": " Wands",
+        "color": "#FFFFFF"
+      }
+    ]
   }
 }
