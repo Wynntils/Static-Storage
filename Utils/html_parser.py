@@ -25,6 +25,8 @@ FONT_NAMESPACES = {
     "font-five": "language/five",
     "font-wynnic": "language/wynnic",
     "font-high_gavelian": "language/high_gavelian",
+    "font-old_fruman": "language/old_fruman",
+    "font-profession": "profession",
 }
 
 def clean_html(text):
