@@ -81,6 +81,7 @@
       "Totemic Fuse": [
         {
           "text": "Totemic Smash deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -90,10 +91,12 @@
         },
         {
           "text": "+150%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -103,10 +106,12 @@
         },
         {
           "text": "+150%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -116,10 +121,12 @@
         },
         {
           "text": "+150%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -129,10 +136,12 @@
         },
         {
           "text": "+120%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": " but totemic smash loses 30% radius.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -1410,6 +1419,7 @@
       "Temblor": [
         {
           "text": "Bash gains +1 Area of Effect and is 0.05s faster.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -5063,6 +5073,7 @@
       "Explosive Impact": [
         {
           "text": "Exploding gives an additional chance to deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -5072,10 +5083,12 @@
         },
         {
           "text": "300%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " Main Attack damage in a radius of 5 blocks upon killing an enemy.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -5163,6 +5176,7 @@
       "Freerunner": [
         {
           "text": "When your sprint bar is under 30% full, increase your sprint speed by +150%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -7286,6 +7300,7 @@
       "Insoluble": [
         {
           "text": "Dissolution now lasts 2.5 seconds, but grants only 35% resistance.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -10855,6 +10870,7 @@
       "Hurricane's Eye": [
         {
           "text": "Violent Vortex applies 2 marks to every enemy it hits.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -11347,6 +11363,7 @@
       "Reckless Abandon": [
         {
           "text": "Sacrifice War Scream's defense bonus to give Tempest ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -11356,10 +11373,12 @@
         },
         {
           "text": "+5%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -11369,10 +11388,12 @@
         },
         {
           "text": "+15%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -11382,10 +11403,12 @@
         },
         {
           "text": "5%",
+          "font": "language/wynncraft",
           "color": "#FFFFFF"
         },
         {
           "text": " and 3 extra hits.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -12491,6 +12514,7 @@
       "Alter Ego": [
         {
           "text": "Awakened can be activated after saving 40% less mana, but its duration is reduced by 25%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -12680,6 +12704,7 @@
       "Paragon": [
         {
           "text": "Shield Strike deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -12689,10 +12714,12 @@
         },
         {
           "text": "600%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " damage. Mantle of the Bovemist's cooldown is reduced by 15s, but is limited to one shield charge.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -12947,6 +12974,7 @@
       "Hellfire": [
         {
           "text": "Bash is replaced by a single hit, gaining +3 radius and dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -12956,10 +12984,12 @@
         },
         {
           "text": "+85%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -12969,10 +12999,12 @@
         },
         {
           "text": "+10%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -12982,10 +13014,12 @@
         },
         {
           "text": "+60%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ". Boiling Blood's cooldown is set to 2s, gains ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -12995,10 +13029,12 @@
         },
         {
           "text": "+40%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -13008,10 +13044,12 @@
         },
         {
           "text": "+50%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", and burns twice as fast for 1s, but can't slow.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -13253,6 +13291,7 @@
       "Paragon": [
         {
           "text": "Shield Strike deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -13262,10 +13301,12 @@
         },
         {
           "text": "600%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " damage. Mantle of the Bovemist's cooldown is reduced by 15s, but is limited to one shield charge.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -13515,6 +13556,7 @@
       "Gentle Glow": [
         {
           "text": "Orphion's Pulse restores 10% more max health per pulse, but heals at a slower rate.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -15178,6 +15220,7 @@
       "Living Museum": [
         {
           "text": "Players within 10 blocks of Mirage, Shadow, or Another Self clones will get 20% resistance, and be healed 8%, 15%, or 50% max health when the respective clone is destroyed.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -16066,6 +16109,7 @@
       "Altruism": [
         {
           "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -16575,6 +16619,7 @@
       "Divine Right": [
         {
           "text": "Your Maximum Health is reduced by 75%. For every 100 HP lost, Sacred Surge's damage is increased by 3%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -17685,6 +17730,7 @@
       "Flurry of Blows": [
         {
           "text": "Turn Double Slice into a 10-hit pummeling of 16% damage per hit.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -17993,6 +18039,7 @@
       "Orbwalk": [
         {
           "text": "Lightweaver Orbs gain +1 area of effect, ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -18002,10 +18049,12 @@
         },
         {
           "text": "20%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -18015,10 +18064,12 @@
         },
         {
           "text": "20%",
+          "font": "language/wynncraft",
           "color": "#FFFFFF"
         },
         {
           "text": ", but move slower.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -19049,6 +19100,7 @@
       "Methodical": [
         {
           "text": "Initiator's reset time is reduced by 75%. Arrow Bomb area damage is halved, but direct hit damage is doubled.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -19575,6 +19627,7 @@
       "Perfect Recall": [
         {
           "text": "Memory Recollection speeds up Chaos Explosion by 0.1s per spell but increases Chaos Explosion's mana bank requirement by 30.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -19958,6 +20011,7 @@
       "Self-sufficient": [
         {
           "text": "Powder Specials can no longer be charged manually, but accumulate 8% charge every second.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -20297,6 +20351,7 @@
       "Windsurf": [
         {
           "text": "Righting Reflex has 75% reduced fall speed, lasts twice as long, and is affected stronger by movement speed.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -20564,6 +20619,7 @@
       "Reality Revision": [
         {
           "text": "Phasing Beam instead makes Twain's Arc explode upon hitting an enemy, dealing its damage in a 5 block radius. Twain's Arc now has extreme recoil.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -22110,6 +22166,7 @@
       "Ice Storm": [
         {
           "text": "Arrow Shield and Snowstorm's radius' increase by 6 blocks. Arrow Shield's charges are doubled, but no longer give defense.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -24037,6 +24094,7 @@
       "Stagnant Air": [
         {
           "text": "Air Shout gains doubled area and damage, but is delayed with decreased velocity and hit rate.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -26363,6 +26421,7 @@
       "Gunk Shot": [
         {
           "text": "Arrow Bomb's velocity is doubled but loses -66% radius and -20% damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -27877,6 +27936,7 @@
       "Find Thyself": [
         {
           "text": "Masquerade now grants 75 Mana after switching between Masks 3 times.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -29808,6 +29868,7 @@
       "Frenetic Spirit": [
         {
           "text": "Guardian Angels damage is set to 10%, but shoot 40% faster and last 5 times longer. Frenzy's cap is increased by 55.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -29955,6 +30016,7 @@
       "Explosive Impact": [
         {
           "text": "Exploding gives an additional chance to deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -29964,10 +30026,12 @@
         },
         {
           "text": "300%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " Main Attack damage in a radius of 5 blocks upon killing an enemy.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -30745,6 +30809,7 @@
       "Coagulate": [
         {
           "text": "Blood Connection and Eldritch Call's teleports launch you further and higher.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -31285,6 +31350,7 @@
       "Cherry Bombs": [
         {
           "text": "Turns Smoke Bomb into firecrackers that fly farther, tighter, and deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -31294,10 +31360,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -31307,10 +31375,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -31320,10 +31390,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -31333,10 +31405,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#FFFFFF"
         },
         {
           "text": " instantly.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -31970,6 +32044,7 @@
       "Vitriol": [
         {
           "text": "Uncontainable Corruption decreases Corrupted duration by 75% and gives drastically more damage, but disables Enraged Blow. Massacre adds 5 times as much corruption.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -33852,6 +33927,7 @@
       "Perilous Flare": [
         {
           "text": "Pyrokinesis moves much slower, but has an increased Area of Effect and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -33861,10 +33937,12 @@
         },
         {
           "text": " +50%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -34445,6 +34523,7 @@
       "Cherry Bombs": [
         {
           "text": "Turns Smoke Bomb into firecrackers that fly farther, tighter, and deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -34454,10 +34533,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -34467,10 +34548,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -34480,10 +34563,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -34493,10 +34578,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#FFFFFF"
         },
         {
           "text": " instantly.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -36838,6 +36925,7 @@
       "Forest's Blessing": [
         {
           "text": "Your hound gains 50% more movement speed, attack speed and vision. Arrow Bomb's damage is reduced by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -36847,10 +36935,12 @@
         },
         {
           "text": "-30%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -39689,6 +39779,7 @@
       "Combo Stomp": [
         {
           "text": "Landing directly on an enemy with Fierce Stomp sends you back into the air and resets Escape.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -42106,6 +42197,7 @@
       "Final Gambit": [
         {
           "text": "When Second Chance activates, all allies within 10 blocks of you get a 20% damage boost for 15s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -44458,6 +44550,7 @@
       "Displace": [
         {
           "text": "Etheric Slash deals massive knockback to enemies hit by Teleport.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -44609,6 +44702,7 @@
       "Incision Elegy": [
         {
           "text": "Lacerate becomes a forward-moving projectile, but no longer lunges.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -45100,6 +45194,7 @@
       "Last Resort": [
         {
           "text": "Bloodlust has doubled corrupted scaling and knockback, but deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -45109,10 +45204,12 @@
         },
         {
           "text": "-100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -45122,10 +45219,12 @@
         },
         {
           "text": "-60%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -45289,6 +45388,7 @@
       "Rally": [
         {
           "text": "Cleansing Breeze heals you for 15% and allies for 20%, but Charge becomes harmless.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -46914,6 +47014,7 @@
       "Meteor Crash": [
         {
           "text": "Burning Sigil gains +6 radius and deals 4x the damage, but lasts half as long.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -56157,6 +56258,7 @@
       "Flashfreeze": [
         {
           "text": "Ice Snake travels instantly.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -56264,6 +56366,7 @@
       "Fission": [
         {
           "text": "Explosions from your Exploding ID are twice as big and twice as strong.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -58123,6 +58226,7 @@
       "Cherry Bombs": [
         {
           "text": "Turns Smoke Bomb into firecrackers that fly farther, tighter, and deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -58132,10 +58236,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -58145,10 +58251,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -58158,10 +58266,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -58171,10 +58281,12 @@
         },
         {
           "text": "30%",
+          "font": "language/wynncraft",
           "color": "#FFFFFF"
         },
         {
           "text": " instantly.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -64308,6 +64420,7 @@
       "Ignition Whirlwind": [
         {
           "text": "Blazing Powder adds +8 rotations to spin attack, but lowers the damage by 75%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -64594,6 +64707,7 @@
       "Entropy": [
         {
           "text": "Meteor's speed is increased by 50%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -67009,6 +67123,7 @@
       "Perilous Flare": [
         {
           "text": "Pyrokinesis moves much slower, but has an increased Area of Effect and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -67018,10 +67133,12 @@
         },
         {
           "text": " +50%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -67105,6 +67222,7 @@
       "Plague": [
         {
           "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -67484,6 +67602,7 @@
       "Space Glide": [
         {
           "text": "Lacerate performs a single horizontal jump and slash, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -67493,10 +67612,12 @@
         },
         {
           "text": "500%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -67962,6 +68083,7 @@
       "Lunge": [
         {
           "text": "Hop and Leap's horizontal velocity is greatly increased.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -68344,6 +68466,7 @@
       "Intangible": [
         {
           "text": "The knockback you take is drastically reduced, and reflected damage deals large knockback.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -69505,6 +69628,7 @@
       "Phantom Slip": [
         {
           "text": "Activating Life Steal or Mana Steal will grant +60% speed bonus for 0.7 seconds.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -69904,6 +70028,7 @@
       "Fan the Hammer": [
         {
           "text": "Arrow Storm becomes a single stream of 6 high-powered arrows that deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -69913,10 +70038,12 @@
         },
         {
           "text": "90%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -69926,10 +70053,12 @@
         },
         {
           "text": "35%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ". ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -70686,6 +70815,7 @@
       "Gruesome Knots": [
         {
           "text": "Bleeding and Twisted Tether deal double the damage, but Bleeding duration is reduced.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -71507,6 +71637,7 @@
       "Tackle": [
         {
           "text": "Flying Kick deals much more knockback and increases Collide damage by an additional ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -71516,10 +71647,12 @@
         },
         {
           "text": "150%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -71529,10 +71662,12 @@
         },
         {
           "text": "60%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -71542,10 +71677,12 @@
         },
         {
           "text": "10%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -72174,6 +72311,7 @@
       "Lustrate": [
         {
           "text": "Heal restores health at a slower rate, but Searing Light deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -72183,10 +72321,12 @@
         },
         {
           "text": "+150%",
+          "font": "language/wynncraft",
           "color": "#55FFFF"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -72841,6 +72981,7 @@
       "Gruesome Knots": [
         {
           "text": "Bleeding and Twisted Tether deal double the damage, but Bleeding duration is reduced.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -74165,6 +74306,7 @@
       "Last Resort": [
         {
           "text": "Bloodlust has doubled corrupted scaling and knockback, but deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -74174,10 +74316,12 @@
         },
         {
           "text": "-100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -74187,10 +74331,12 @@
         },
         {
           "text": "-60%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -75125,6 +75271,7 @@
       "Faustian Gambit": [
         {
           "text": "Frog Dance triggers once with increased vertical velocity and knockback, and deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -75134,10 +75281,12 @@
         },
         {
           "text": "+400%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -79066,6 +79215,7 @@
       "Mangle": [
         {
           "text": "Lacerate will deal +1 slash.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -79408,6 +79558,7 @@
       "Scarce Comfort": [
         {
           "text": "Freestream Flow becomes slightly stronger and lasts indefinitely.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -81103,6 +81254,7 @@
       "Lightweight": [
         {
           "text": "You no longer take fall damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -83129,6 +83281,7 @@
       "Oneiro": [
         {
           "text": "Your maximum Mana Bank is increased by 50, but your spells now charge it by -3 less per hit.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -87720,6 +87873,7 @@
       "Sorcery": [
         {
           "text": "25% chance for spells and attacks to cast a second time at no additional cost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -88481,6 +88635,7 @@
       "Oneself Unto All": [
         {
           "text": "Radiance's radius extends 4 blocks beyond Bash and buffs allies with your stats instead of theirs.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -90515,6 +90670,7 @@
       "Saviour's Sacrifice": [
         {
           "text": "While under 50% maximum health, allies within 8 blocks gain 15% bonus damage and defence.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -92341,6 +92497,7 @@
       "Divine Honor": [
         {
           "text": "Increases the bonus from Radiance by 5%. Bash deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -92350,10 +92507,12 @@
         },
         {
           "text": "-15%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": " per hit.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -94867,6 +95026,7 @@
       "Self-sufficient": [
         {
           "text": "Powder Specials can no longer be charged manually, but accumulate 8% charge every second.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -95790,6 +95950,7 @@
       "Death Sentence": [
         {
           "text": "Courage will immediately combust Guardian Angels, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -95799,10 +95960,12 @@
         },
         {
           "text": "4000%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and enkindling Buckshot's arrows with ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -95812,10 +95975,12 @@
         },
         {
           "text": "20%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " Main Attack damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -99074,6 +99239,7 @@
       "Sun Eater": [
         {
           "text": "Failing to backstab an enemy from behind blinds them for 0.5s and slows them by 20% for 5s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -99610,6 +99776,7 @@
       "Unstable Reaction": [
         {
           "text": "Judrajim no longer ramps in damage after each hit. When it expires, it releases 115% of its potential in an explosion of 20 blocks.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -99710,6 +99877,7 @@
       "Starcrossed": [
         {
           "text": "Hitting an enemy with Haunting Memory makes it Linked. You can have up to two targets Linked at once. When one Linked enemy takes damage, the other Linked enemy takes that damage as well. Haunted Memory's duration is increased by 5 seconds and its range is increased by 10 blocks.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -101846,6 +102014,7 @@
       "Desperate Measures": [
         {
           "text": "Walk Speed increases by 1% and Jump Height increases by 2% for every 1% hp missing.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -103120,6 +103289,7 @@
       "Phoenix-Born": [
         {
           "text": "Health Regeneration is increased by 0.75% for every 1% Health missing.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -103208,6 +103378,7 @@
       "Napalm": [
         {
           "text": "Fire Creep increases Arrow Bomb damage by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -103217,10 +103388,12 @@
         },
         {
           "text": "+15%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", but deals 15 times the self-damage and lowers velocity. Scorched Earth radius is increased and deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -103230,10 +103403,12 @@
         },
         {
           "text": "+65%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -104607,6 +104782,7 @@
       "Temblor": [
         {
           "text": "Bash gains +1 Area of Effect and is 0.05s faster.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -110427,6 +110603,7 @@
       "Slow Boil": [
         {
           "text": "Bakal's Grasp and Enraged Blow have their caps doubled, but Corruption charges 20% as fast.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -110693,6 +110870,7 @@
       "Pounce": [
         {
           "text": "Escape becomes a forward lunge.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -111500,6 +111678,7 @@
       "Scarce Comfort": [
         {
           "text": "Freestream Flow becomes slightly stronger and lasts indefinitely.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -114355,6 +114534,7 @@
       "Juggle": [
         {
           "text": "Mutilate adds an additional 12 hits. All hits are reduced by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -114364,10 +114544,12 @@
         },
         {
           "text": "-10%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -114532,6 +114714,7 @@
       "Self-sufficient": [
         {
           "text": "Powder Specials can no longer be charged manually, but accumulate 8% charge every second.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -114949,6 +115132,7 @@
       "Earthen Splinter": [
         {
           "text": "Quake channels nature energy into a powerful root, travelling underground and emerging under the nearest mob for ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -114958,10 +115142,12 @@
         },
         {
           "text": "1200%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -120868,6 +121054,7 @@
       "Geocentrism": [
         {
           "text": "Aura radiates from you instead of your Totem and can be cast any time.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -123125,6 +123312,7 @@
       "Ergosphere": [
         {
           "text": "Storm Dance instead lets your Totems pull enemies within their radius. Totem duration is decreased.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -123746,6 +123934,7 @@
       "Rock Shield": [
         {
           "text": "Arrow Shield's defense is increased by 10%, but its number of charges is reduced by 1.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -124208,6 +124397,7 @@
       "Magnet": [
         {
           "text": "Pulls items dropped by mobs towards you.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -125327,6 +125517,7 @@
       "Torment Liturgy": [
         {
           "text": "Shadow Siphon now immediately refreshes Vanish when triggered, but reduces Surprise Strike's multiplier by -30%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -126156,6 +126347,7 @@
       "Guardian": [
         {
           "text": "Devout Union gains +20% damage redirection and +4 radius.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -126777,6 +126969,7 @@
       "Sublimation": [
         {
           "text": "Totemic Shatter heals 75% of Regeneration's usual amount at the cost of 2 blocks of radius.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -127234,6 +127427,7 @@
       "Blinding Lights": [
         {
           "text": "All Ophanim orbs deal 250% damage, gain +5 Crystallize per hit, and instead orbit around you. Using Main Attack causes all orbs to travel faster.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -127693,14 +127887,17 @@
       "Efflorescence": [
         {
           "text": "Serpent's Garden now centers to where you land with Swan Dive. Damage of Swan Dive, Serpent's Garden and Jasmine Bloom are distributed across ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
           "text": "all elements",
+          "font": "language/wynncraft",
           "color": "#00f000"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -129831,6 +130028,7 @@
       "Bound by Blood": [
         {
           "text": "Shadow Projection's teleport range, duration, and launch strength is doubled.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -129911,6 +130109,7 @@
       "Forest's Blessing": [
         {
           "text": "Your hound gains 50% more movement speed, attack speed and vision. Arrow Bomb's damage is reduced by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -129920,10 +130119,12 @@
         },
         {
           "text": "-30%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -130276,6 +130477,7 @@
       "Altruism": [
         {
           "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -130654,6 +130856,7 @@
       "Flashfreeze": [
         {
           "text": "Ice Snake travels instantly.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -131552,6 +131755,7 @@
       "Gentle Glow": [
         {
           "text": "Orphion's Pulse restores 10% more max health per pulse, but heals at a slower rate.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -131852,6 +132056,7 @@
       "Dauntless Inferno": [
         {
           "text": "Courage casts a series of 5 infernos that expand after the last, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -131861,10 +132066,12 @@
         },
         {
           "text": "150%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": " each, and grants 20% resistance instead of a damage boost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -133250,6 +133457,7 @@
       "Fallout": [
         {
           "text": "Bomb Arrow gains +7.5 range, ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -133259,10 +133467,12 @@
         },
         {
           "text": "+50%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", severely increased recoil, and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -133272,10 +133482,12 @@
         },
         {
           "text": "25%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " self-damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -133349,6 +133561,7 @@
       "Burnt Shadows": [
         {
           "text": "Buried Light burns faster and is controlled by the direction you face. Enemies in the light instead take ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -133358,10 +133571,12 @@
         },
         {
           "text": "120%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -133438,6 +133653,7 @@
       "Saviour's Sacrifice": [
         {
           "text": "While under 50% maximum health, allies within 8 blocks gain 15% bonus damage and defence.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -133754,6 +133970,7 @@
       "Fission": [
         {
           "text": "Explosions from your Exploding ID are twice as big and twice as strong.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -137027,6 +137244,7 @@
       "Geocentrism": [
         {
           "text": "Aura radiates from you instead of your Totem and can be cast any time.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -139547,6 +139765,7 @@
       "Tidal Drift": [
         {
           "text": "Flying Kick will instead send you forwards. This effect is limited to once per Charge cast.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -139850,6 +140069,7 @@
       "Altruism": [
         {
           "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -140407,6 +140627,7 @@
       "Flashfreeze": [
         {
           "text": "Ice Snake travels instantly.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -140474,6 +140695,7 @@
       "Split Second": [
         {
           "text": "Aura now travels faster with Invigorating Wave unlocked, but no longer gives mana.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -143404,6 +143626,7 @@
       "Disassociate": [
         {
           "text": "You can now have twice the Nightcloak Knives, but they each deal 30% less damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -144186,6 +144409,7 @@
       "Rally": [
         {
           "text": "Cleansing Breeze heals you for 15% and allies for 20%, but Charge becomes harmless.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -144427,6 +144651,7 @@
       "Geocentrism": [
         {
           "text": "Aura radiates from you instead of your Totem and can be cast any time.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -144770,6 +144995,7 @@
       "Evershot": [
         {
           "text": "Arrow Hurricane becomes a consistent, straight stream of arrows with a slower fire rate, dealing greater knockback and triple damage per arrow. Additionally, Arsenal Synergy requires 10 less arrows for each flint arrow.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -145613,6 +145839,7 @@
       "Seeking Module": [
         {
           "text": "Homing Shots track towards nearby enemies much more aggressively.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -146093,6 +146320,7 @@
       "Superconductor": [
         {
           "text": "Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -146102,10 +146330,12 @@
         },
         {
           "text": "270%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": " and stunning them for 1s. You take 10% more damage for 4s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -147240,6 +147470,7 @@
       "Temblor": [
         {
           "text": "Bash gains +1 Area of Effect and is 0.05s faster.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -150958,6 +151189,7 @@
       "Brachiate": [
         {
           "text": "Grappling Hook has 25% increased range and increased velocity.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -152697,6 +152929,7 @@
       "Soul Eater": [
         {
           "text": "Devour and Harvester grant double mana. Decreases maximum marks by 1.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -154967,6 +155200,7 @@
       "Twisting Threads": [
         {
           "text": "Tangled Traps ropes gain +1 range, can overlap up to 3 times, and deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -154976,10 +155210,12 @@
         },
         {
           "text": "65%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ". Gain +12 traps with 66% duration that cannot be triggered by enemies.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -156249,6 +156485,7 @@
       "Lockdown": [
         {
           "text": "Meteor will snap onto a target in range, regardless of aim.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -156455,6 +156692,7 @@
       "Chaos Reach": [
         {
           "text": "Blood Sorrow spends 20 less points of Blood Pool and inflicts enemies with 0.3 seconds of Bleeding per hit, but no longer grants overhealth.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -163979,6 +164217,7 @@
       "Juggle": [
         {
           "text": "Mutilate adds an additional 12 hits. All hits are reduced by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -163988,10 +164227,12 @@
         },
         {
           "text": "-10%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -164699,6 +164940,7 @@
       "Lunge": [
         {
           "text": "Hop and Leap's horizontal velocity is greatly increased.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -167626,6 +167868,7 @@
       "Sorcery": [
         {
           "text": "25% chance for spells and attacks to cast a second time at no additional cost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -169017,6 +169260,7 @@
       "Strings of Fate": [
         {
           "text": "Your puppets have a lifetime of 3 seconds and deal 50% increased damage with attacks and explosions.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -169385,6 +169629,7 @@
       "Seeking Module": [
         {
           "text": "Homing Shots track towards nearby enemies much more aggressively.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -170618,6 +170863,7 @@
       "Hellfire": [
         {
           "text": "Bash is replaced by a single hit, gaining +3 radius and dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170627,10 +170873,12 @@
         },
         {
           "text": "+85%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170640,10 +170888,12 @@
         },
         {
           "text": "+10%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170653,10 +170903,12 @@
         },
         {
           "text": "+60%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ". Boiling Blood's cooldown is set to 2s, gains ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170666,10 +170918,12 @@
         },
         {
           "text": "+40%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170679,10 +170933,12 @@
         },
         {
           "text": "+50%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", and burns twice as fast for 1s, but can't slow.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -170773,6 +171029,7 @@
       "Grand Influence": [
         {
           "text": "While above 80% maximum health, allies within 12 blocks gain 15% increased health gain from all sources and 25% Walk Speed.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -170858,6 +171115,7 @@
       "Fallout": [
         {
           "text": "Bomb Arrow gains +7.5 range, ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170867,10 +171125,12 @@
         },
         {
           "text": "+50%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", severely increased recoil, and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -170880,10 +171140,12 @@
         },
         {
           "text": "25%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " self-damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -171495,6 +171757,7 @@
       "Unstable Reaction": [
         {
           "text": "Judrajim no longer ramps in damage after each hit. When it expires, it releases 115% of its potential in an explosion of 20 blocks.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -171589,6 +171852,7 @@
       "Heroine's Blessing": [
         {
           "text": "Devout Union gains +25% damage redirection and +8 radius. Additionally, Mantles given by Enlightenment have +20% damage reduction.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -171668,6 +171932,7 @@
       "Tidal Drift": [
         {
           "text": "Flying Kick will instead send you forwards. This effect is limited to once per Charge cast.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -171759,6 +172024,7 @@
       "Blazing Effigy": [
         {
           "text": " Regeneration increases Totem's damage by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -171768,10 +172034,12 @@
         },
         {
           "text": "+14%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -171781,10 +172049,12 @@
         },
         {
           "text": "+6%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": " instead of restoring health.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -171869,6 +172139,7 @@
       "Requiem": [
         {
           "text": "Sunflare regenerates twice the health and mana.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -172828,6 +173099,7 @@
       "Enlightenment": [
         {
           "text": "25% chance for spells to cost no mana and instead refund 25% of their original cost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -172912,6 +173184,7 @@
       "Lightweight": [
         {
           "text": "You no longer take fall damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -173181,6 +173454,7 @@
       "Cosmic Capture": [
         {
           "text": "Meteor falls twice as fast, has +3 blast radius, and pulls enemies upon impact.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -173620,6 +173894,7 @@
       "Elven Current": [
         {
           "text": "Escape can be re-cast twice in mid-air.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -174845,6 +175120,7 @@
       "Entropy": [
         {
           "text": "Meteor's speed is increased by 50%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -175804,6 +176080,7 @@
       "Faustian Gambit": [
         {
           "text": "Frog Dance triggers once with increased vertical velocity and knockback, and deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -175813,10 +176090,12 @@
         },
         {
           "text": "+400%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -177899,6 +178178,7 @@
       "Sun Eater": [
         {
           "text": "Failing to backstab an enemy from behind blinds them for 0.5s and slows them by 20% for 5s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -179997,6 +180277,7 @@
       "Temblor": [
         {
           "text": "Bash gains +1 Area of Effect and is 0.05s faster.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -180434,6 +180715,7 @@
       "Hurricane's Eye": [
         {
           "text": "Violent Vortex applies 2 marks to every enemy it hits.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -182257,6 +182539,7 @@
       "Lunge": [
         {
           "text": "Hop and Leap's horizontal velocity is greatly increased.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -184986,6 +185269,7 @@
       "Geocentrism": [
         {
           "text": "Aura radiates from you instead of your Totem and can be cast any time.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -187436,6 +187720,7 @@
       "Fright or Flight": [
         {
           "text": "Plays spooky tunes.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -188009,6 +188294,7 @@
       "Hawkeye": [
         {
           "text": "Arrow Hurricane becomes a condensed stream of 25 arrows, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -188018,10 +188304,12 @@
         },
         {
           "text": "45%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -188031,10 +188319,12 @@
         },
         {
           "text": "6%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -188044,10 +188334,12 @@
         },
         {
           "text": "6%",
+          "font": "language/wynncraft",
           "color": "#FFFFFF"
         },
         {
           "text": " each.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -189075,6 +189367,7 @@
       "Transcendence": [
         {
           "text": "25% chance for spells to cost no mana when casted.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -190538,6 +190831,7 @@
       "Napalm": [
         {
           "text": "Fire Creep increases Arrow Bomb damage by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -190547,10 +190841,12 @@
         },
         {
           "text": "+15%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", but deals 15 times the self-damage and lowers velocity. Scorched Earth radius is increased and deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -190560,10 +190856,12 @@
         },
         {
           "text": "+65%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -190851,6 +191149,7 @@
       "Punishment": [
         {
           "text": "Reflected damage blinds enemies for 1s and makes them 10% more vulnerable to attacks for 3s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -193210,6 +193509,7 @@
       "Greed": [
         {
           "text": "Picking up emeralds heals you and nearby players for 8% max health.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -193721,6 +194021,7 @@
       "Lightweight": [
         {
           "text": "You no longer take fall damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -193956,6 +194257,7 @@
       "Flurry of Blows": [
         {
           "text": "Turn Double Slice into a 10-hit pummeling of 16% damage per hit.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -195659,6 +195961,7 @@
       "Freerunner": [
         {
           "text": "When your sprint bar is under 30% full, increase your sprint speed by +150%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -197087,6 +197390,7 @@
       "Overwhelm": [
         {
           "text": "Bash will hit +2 times.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -198032,6 +198336,7 @@
       "Gruesome Knots": [
         {
           "text": "Bleeding and Twisted Tether deal double the damage, but Bleeding duration is reduced.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -198661,6 +198966,7 @@
       "Madness": [
         {
           "text": "Casts a random spell of your class every 3 seconds.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -198796,6 +199102,7 @@
       "Freerunner": [
         {
           "text": "When your sprint bar is under 30% full, increase your sprint speed by +150%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -198894,6 +199201,7 @@
       "Furious Effigy": [
         {
           "text": "Totem effects are twice as fast, but duration is halved.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -198969,6 +199277,7 @@
       "Superconductor": [
         {
           "text": "Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -198978,10 +199287,12 @@
         },
         {
           "text": "270%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": " and stunning them for 1s. You take 10% more damage for 4s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -200139,6 +200450,7 @@
       "Aubri's Tears": [
         {
           "text": "Pool of Rejuvenation's range and duration are doubled, but Frog Dance deals no damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -200279,6 +200591,7 @@
       "Lightweight": [
         {
           "text": "You no longer take fall damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -202868,6 +203181,7 @@
       "Alter Ego": [
         {
           "text": "Awakened can be activated after saving 40% less mana, but its duration is reduced by 25%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -203281,6 +203595,7 @@
       "Peaceful Effigy": [
         {
           "text": "Your Totem will last twice as long.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -203352,6 +203667,7 @@
       "Cannulate": [
         {
           "text": "Sacrificial Shrine costs -5 Blood Pool to cast and health drain is halved.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -205597,6 +205913,7 @@
       "Plague": [
         {
           "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -206798,6 +207115,7 @@
       "Heartbeat": [
         {
           "text": "Arrow Shield is set to 2 charges but deals doubled damage. Arrow Wall instead triples Arrow Shield damage and doubles Guardian Angels ammo.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -208104,6 +208422,7 @@
       "Spectral Memory": [
         {
           "text": "Ghostly Trigger lasts until landing, but no longer increases attack speed. Its cooldown is reduced by 33%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -210063,6 +210382,7 @@
       "Divine Honor": [
         {
           "text": "Increases the bonus from Radiance by 5%. Bash deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -210072,10 +210392,12 @@
         },
         {
           "text": "-15%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": " per hit.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -210303,6 +210625,7 @@
       "Peaceful Effigy": [
         {
           "text": "Your Totem will last twice as long.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -210663,6 +210986,7 @@
       "Windsurf": [
         {
           "text": "Righting Reflex has 75% reduced fall speed, lasts twice as long, and is affected stronger by movement speed.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -210747,6 +211071,7 @@
       "Self-sufficient": [
         {
           "text": "Powder Specials can no longer be charged manually, but accumulate 8% charge every second.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -211946,6 +212271,7 @@
       "Expunge": [
         {
           "text": "When using Heal, cast one instant pulse that heals 15% of your max health.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -212835,6 +213161,7 @@
       "Gravity Well": [
         {
           "text": "Meteor has increased blast radius and pulls enemies instead.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -215948,6 +216275,7 @@
       "Gentle Glow": [
         {
           "text": "Orphion's Pulse restores 10% more max health per pulse, but heals at a slower rate.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -216617,6 +216945,7 @@
       "Mob Mentality": [
         {
           "text": "Commander places puppets ahead of where you are facing.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -217189,6 +217518,7 @@
       "Transcendence": [
         {
           "text": "25% chance for spells to cost no mana when casted.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -224517,6 +224847,7 @@
       "Rusted Ichor": [
         {
           "text": "Boiling Blood cooldown is reduced by 0.5s and inflicts 40% slowness, but deals no damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -225250,6 +225581,7 @@
       "Lit Fuse": [
         {
           "text": "Friendly Fire now works on Totem as well. When Totem's timer runs out, it explodes, firing 5 beams in all directions, each dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -225259,10 +225591,12 @@
         },
         {
           "text": "500%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -225659,6 +225993,7 @@
       "Dead Weight": [
         {
           "text": "Totem's horizontal velocity is greatly increased at the cost of vertical movement.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -226134,6 +226469,7 @@
       "Lifestream": [
         {
           "text": "Blood Sorrow has 4 times the damage and overhealth, but its duration is shortened by 75%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -226356,6 +226692,7 @@
       "Old Spark": [
         {
           "text": "Whirlwind transforms into a travelling projectile, exploding on contact and knocking enemies into the air. Crouch to rise with them.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -226617,6 +226954,7 @@
       "Net Shot": [
         {
           "text": "Bryophyte Roots is now triggered from Buckshot, doubling its slowness and damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -227866,6 +228204,7 @@
       "Regicide": [
         {
           "text": "You deal 2% more damage for every block you are away from your target (Max 120%).",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -228028,6 +228367,7 @@
       "Sorcery": [
         {
           "text": "25% chance for spells and attacks to cast a second time at no additional cost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -228451,6 +228791,7 @@
       "Rally": [
         {
           "text": "Cleansing Breeze heals you for 15% and allies for 20%, but Charge becomes harmless.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -229570,6 +229911,7 @@
       "Wavebreak": [
         {
           "text": "Meteor's ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -229579,6 +229921,7 @@
         },
         {
           "text": " damage is replaced by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -229588,6 +229931,7 @@
         },
         {
           "text": " damage.\nPsychokinesis can bounce up to 5 times, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -229597,10 +229941,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -229610,10 +229956,12 @@
         },
         {
           "text": "50%",
+          "font": "language/wynncraft",
           "color": "#55FFFF"
         },
         {
           "text": " area damage, as well\nas ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -229623,10 +229971,12 @@
         },
         {
           "text": "200%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -229636,10 +229986,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#55FFFF"
         },
         {
           "text": " direct hit damage, increasing by 10% after each bounce. Mana Bank gains 3 less mana from Meteor.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -230052,6 +230404,7 @@
       "Lightning Crash": [
         {
           "text": "Dash becomes a downward dive. Ripple has tripled height amplification and deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -230061,10 +230414,12 @@
         },
         {
           "text": "250%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -230074,10 +230429,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -230745,6 +231102,7 @@
       "Juggle": [
         {
           "text": "Mutilate adds an additional 12 hits. All hits are reduced by ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -230754,10 +231112,12 @@
         },
         {
           "text": "-10%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -232777,6 +233137,7 @@
       "Sorcery": [
         {
           "text": "25% chance for spells and attacks to cast a second time at no additional cost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -236483,6 +236844,7 @@
       "Festive Spirit": [
         {
           "text": "Plays wintery tunes.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -238035,6 +238397,7 @@
       "Explosive Impact": [
         {
           "text": "Exploding gives an additional chance to deal ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -238044,10 +238407,12 @@
         },
         {
           "text": "300%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " Main Attack damage in a radius of 5 blocks upon killing an enemy.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -238159,6 +238524,7 @@
       "Furious Effigy": [
         {
           "text": "Totem effects are twice as fast, but duration is halved.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -238318,6 +238684,7 @@
       "Strings of Fate": [
         {
           "text": "Your puppets have a lifetime of 3 seconds and deal 50% increased damage with attacks and explosions.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -240040,6 +240407,7 @@
       "Backstep": [
         {
           "text": "Charge and Teleport will travel backwards.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -240894,6 +241262,7 @@
       "Lustrate": [
         {
           "text": "Heal restores health at a slower rate, but Searing Light deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -240903,10 +241272,12 @@
         },
         {
           "text": "+150%",
+          "font": "language/wynncraft",
           "color": "#55FFFF"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -241471,6 +241842,7 @@
       "Self-sufficient": [
         {
           "text": "Powder Specials can no longer be charged manually, but accumulate 8% charge every second.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -242914,6 +243286,7 @@
       "Lightweight": [
         {
           "text": "You no longer take fall damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -244903,6 +245276,7 @@
       "Entropy": [
         {
           "text": "Meteor's speed is increased by 50%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -247172,6 +247546,7 @@
       "Troll Barge": [
         {
           "text": "Quake allows you to charge forth, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -247181,10 +247556,12 @@
         },
         {
           "text": "80%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -247194,10 +247571,12 @@
         },
         {
           "text": "20%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": " to any mobs hit, and ending with a powerful stomp for ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -247207,10 +247586,12 @@
         },
         {
           "text": "400%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -247220,10 +247601,12 @@
         },
         {
           "text": "150%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": ". This will leave you vulnerable.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -248076,6 +248459,7 @@
       "Combo Stomp": [
         {
           "text": "Landing directly on an enemy with Fierce Stomp sends you back into the air and resets Escape.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -248724,6 +249108,7 @@
       "Taunt": [
         {
           "text": "Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -251421,6 +251806,7 @@
       "Meteor Crash": [
         {
           "text": "Burning Sigil gains +6 radius and deals 4x the damage, but lasts half as long.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -251533,6 +251919,7 @@
       "Orbital Chain": [
         {
           "text": "Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -251542,10 +251929,12 @@
         },
         {
           "text": "8000%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " explosion spell. ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -252107,6 +252496,7 @@
       "Culicidae Creed": [
         {
           "text": "Leap becomes fully vertical, and Spectral Hover lasts twice as long.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -253477,6 +253867,7 @@
       "Pirouette": [
         {
           "text": "Dancing Blade enhances Dash. Dashing into an enemy now vaults you upwards and resets dash as if you touched the ground.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -257381,6 +257772,7 @@
       "Snowy Steps": [
         {
           "text": "Leaves a trail of snow behind you.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -259056,6 +259448,7 @@
       "Pioneer's Echo": [
         {
           "text": "Phantom Ray deals 7x damage, but only hits twice over 1 second. Decimator's increase and cap are raised to 140% and Quick Draw's activation threshold is decreased to 2.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -259342,6 +259735,7 @@
       "Power Fist": [
         {
           "text": "Striking enemies with an empty hand greatly knocks them back.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -259795,6 +260189,7 @@
       "Intangible": [
         {
           "text": "The knockback you take is drastically reduced, and reflected damage deals large knockback.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -261931,6 +262326,7 @@
       "Strings of Fate": [
         {
           "text": "Your puppets have a lifetime of 3 seconds and deal 50% increased damage with attacks and explosions.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -264704,6 +265100,7 @@
       "Pounce": [
         {
           "text": "Escape becomes a forward lunge.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -266513,6 +266910,7 @@
       "Pounce": [
         {
           "text": "Escape becomes a forward lunge.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -267103,6 +267501,7 @@
       "Solar Wind": [
         {
           "text": "Thunderstorm disables Meteor, grants +3 thunderbolts, +3 radius and deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -267112,10 +267511,12 @@
         },
         {
           "text": "100%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -267125,10 +267526,12 @@
         },
         {
           "text": "110%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": " each. Unstable now activates on Thunderstorm for 400% bonus damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -268347,6 +268750,7 @@
       "Rock Shield": [
         {
           "text": "Arrow Shield's defense is increased by 10%, but its number of charges is reduced by 1.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -268668,6 +269072,7 @@
       "Lightweight": [
         {
           "text": "You no longer take fall damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -269575,6 +269980,7 @@
       "Plague": [
         {
           "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -272289,6 +272695,7 @@
       "Taunt": [
         {
           "text": "Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -272829,6 +273236,7 @@
       "River of Souls": [
         {
           "text": "Phantom Ray gains massive radius, but reduced damage by 20%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -276114,6 +276522,7 @@
       "Inversion": [
         {
           "text": "Teleport will grant you 3 seconds of levitation.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -277544,6 +277953,7 @@
       "Heat Shimmer": [
         {
           "text": "Foul Play will no longer slay a Mirror Clone and will still provide its effects, but Mirror Clone count is reduced to 1. Tricks application is increased by 50%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -277827,6 +278237,7 @@
       "Escape Route": [
         {
           "text": "Frenzy and Time Dilation charge twice as fast but also decay twice as fast.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -277911,6 +278322,7 @@
       "Furious Effigy": [
         {
           "text": "Totem effects are twice as fast, but duration is halved.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -278149,6 +278561,7 @@
       "Battlefield Brilliance": [
         {
           "text": "Generalist instead makes your next Main Attack deal quadruple damage, followed by a tactical retreat.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -278522,6 +278935,7 @@
       "Lunge": [
         {
           "text": "Hop and Leap's horizontal velocity is greatly increased.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -280341,6 +280755,7 @@
       "Fissure": [
         {
           "text": "Ice Snake moves much more slowly, but deals massive knockback, ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -280350,10 +280765,12 @@
         },
         {
           "text": "+275%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -280363,10 +280780,12 @@
         },
         {
           "text": "+155%",
+          "font": "language/wynncraft",
           "color": "#55FFFF"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -282037,6 +282456,7 @@
       "Tackle": [
         {
           "text": "Flying Kick deals much more knockback and increases Collide damage by an additional ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -282046,10 +282466,12 @@
         },
         {
           "text": "150%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -282059,10 +282481,12 @@
         },
         {
           "text": "60%",
+          "font": "language/wynncraft",
           "color": "#FFFF55"
         },
         {
           "text": ", and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -282072,10 +282496,12 @@
         },
         {
           "text": "10%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ".",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -284902,6 +285328,7 @@
       "Greed": [
         {
           "text": "Picking up emeralds heals you and nearby players for 8% max health.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -285572,6 +285999,7 @@
       "Wormhole": [
         {
           "text": "Last Laugh instead casts Meteor. Malicious Mockery causes Meteor to apply 13 Trick stacks.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -285654,6 +286082,7 @@
       "Greed": [
         {
           "text": "Picking up emeralds heals you and nearby players for 8% max health.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -287290,6 +287719,7 @@
       "Clamber": [
         {
           "text": "Wall Jump becomes a sheer vertical climb.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -287866,6 +288296,7 @@
       "Escape Route": [
         {
           "text": "Frenzy and Time Dilation charge twice as fast but also decay twice as fast.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -289776,6 +290207,7 @@
       "Perfect Recall": [
         {
           "text": "Memory Recollection speeds up Chaos Explosion by 0.1s per spell but increases Chaos Explosion's mana bank requirement by 30.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -292996,6 +293428,7 @@
       "Sorcery": [
         {
           "text": "25% chance for spells and attacks to cast a second time at no additional cost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -294068,6 +294501,7 @@
       "Dauntless Inferno": [
         {
           "text": "Courage casts a series of 5 infernos that expand after the last, dealing ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -294077,10 +294511,12 @@
         },
         {
           "text": "150%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": " each, and grants 20% resistance instead of a damage boost.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -295436,6 +295872,7 @@
       "Outbreak": [
         {
           "text": "When you are within Totem range, the Totem becomes Primed, adding 4% of your Poison ID every 0.25s. Hitting a Primed totem with Uproot will create a 6 block wide poison cloud instantly dealing the stored Poison.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -295935,6 +296372,7 @@
       "Fixate": [
         {
           "text": "Distortion decays at a halved rate and Devitalize effects are doubled. However, Distortion effects on abilities are reduced by 40% and Meteor Shower now requires +50% Distortion per Meteor.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -296078,6 +296516,7 @@
       "Flain Remnants": [
         {
           "text": "Destroying a Puppet with Friendly Fire calls forth a Remnant. (Max 5) Each Remnant lasts for 20 seconds, fires an explosive tracking projectile every second that deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -296087,10 +296526,12 @@
         },
         {
           "text": "95%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": ", and increases your Main Attack damage by 15%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -296884,6 +297325,7 @@
       "Dead Weight": [
         {
           "text": "Totem's horizontal velocity is greatly increased at the cost of vertical movement.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -297816,6 +298258,7 @@
       "Three Bodies": [
         {
           "text": "Pressure grants additional effects: Bash gains +4 radius, Uppercut gains ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -297825,10 +298268,12 @@
         },
         {
           "text": "+75%",
+          "font": "language/wynncraft",
           "color": "#55FFFF"
         },
         {
           "text": ", and War Scream's buff gains +12s duration",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -297959,6 +298404,7 @@
       "Sublimation": [
         {
           "text": "Totemic Shatter heals 75% of Regeneration's usual amount at the cost of 2 blocks of radius.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -298885,6 +299331,7 @@
       "Heartbeat": [
         {
           "text": "Arrow Shield is set to 2 charges but deals doubled damage. Arrow Wall instead triples Arrow Shield damage and doubles Guardian Angels ammo.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -303110,6 +303557,7 @@
       "Plague": [
         {
           "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -305772,6 +306220,7 @@
       "Manic Edge": [
         {
           "text": "While vanished, lose 5% of your max mana per second. Surprise Strike further increases your damage by 3% per mana lost from this effect, up to 70%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -306352,6 +306801,7 @@
       "Divine Honor": [
         {
           "text": "Increases the bonus from Radiance by 5%. Bash deals ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -306361,10 +306811,12 @@
         },
         {
           "text": "-15%",
+          "font": "language/wynncraft",
           "color": "#00AA00"
         },
         {
           "text": " per hit.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -307210,6 +307662,7 @@
       "Flight Burst": [
         {
           "text": "Arrow Storm recoil is increased and activates while grounded.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -307423,6 +307876,7 @@
       "Magnet": [
         {
           "text": "Pulls items dropped by mobs towards you.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -307888,6 +308342,7 @@
       "Entropy": [
         {
           "text": "Meteor's speed is increased by 50%.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -308452,6 +308907,7 @@
       "Fallout": [
         {
           "text": "Bomb Arrow gains +7.5 range, ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -308461,10 +308917,12 @@
         },
         {
           "text": "+50%",
+          "font": "language/wynncraft",
           "color": "#FF5555"
         },
         {
           "text": ", severely increased recoil, and ",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         },
         {
@@ -308474,10 +308932,12 @@
         },
         {
           "text": "25%",
+          "font": "language/wynncraft",
           "color": "#FFAA00"
         },
         {
           "text": " self-damage.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -310914,6 +311374,7 @@
       "Altruism": [
         {
           "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -311334,6 +311795,7 @@
       "Seeking Module": [
         {
           "text": "Homing Shots track towards nearby enemies much more aggressively.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -311677,6 +312139,7 @@
       "Lockdown": [
         {
           "text": "Meteor will snap onto a target in range, regardless of aim.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -312560,6 +313023,7 @@
       "Vedette": [
         {
           "text": "Focus gets +10% damage per stack, but caps at 2. Crepuscular Ray can be cast at 2 Focus with decreased Focus drain, launching you into the air and immobilizing you.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -314242,6 +314706,7 @@
       "Roving Assassin": [
         {
           "text": "Vanish will no longer block mana and health regeneration.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -314756,6 +315221,7 @@
       "Evershot": [
         {
           "text": "Arrow Hurricane becomes a consistent, straight stream of arrows with a slower fire rate, dealing greater knockback and triple damage per arrow. Additionally, Arsenal Synergy requires 10 less arrows for each flint arrow.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -315036,6 +315502,7 @@
       "Lasso": [
         {
           "text": "Grappling Hook, War Scream, and Uproot now pull enemies with much more force.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -315182,6 +315649,7 @@
       "Hurricane's Eye": [
         {
           "text": "Violent Vortex applies 2 marks to every enemy it hits.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -320634,6 +321102,7 @@
       "Self-sufficient": [
         {
           "text": "Powder Specials can no longer be charged manually, but accumulate 8% charge every second.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
@@ -322603,6 +323072,7 @@
       "Soul Eater": [
         {
           "text": "Devour and Harvester grant double mana. Decreases maximum marks by 1.",
+          "font": "language/wynncraft",
           "color": "#AAAAAA"
         }
       ]
