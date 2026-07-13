@@ -6,8 +6,19 @@ DATA_STORAGE=$(cd $(dirname "$0")/.. >/dev/null 2>&1 && pwd)/Data-Storage
 
 cd $TARGET_DIR
 
+# Find the repository root relative to this script.
+ROOT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+
+# Load .local-env if the variable isn't already set.
+if [ -z "${WYNNCRAFT_API_KEY:-}" ] && [ -f "$ROOT_DIR/.local-env" ]; then
+    . "$ROOT_DIR/.local-env"
+fi
+
 if [ -z "${WYNNCRAFT_API_KEY:-}" ]; then
     echo "Error: WYNNCRAFT_API_KEY is not set"
+    echo "Either export it or create $ROOT_DIR/.local-env containing the following"
+    echo "WYNNCRAFT_API_KEY=\"<api_key_here>\""
+    echo "export WYNNCRAFT_API_KEY"
     exit 1
 fi
 
