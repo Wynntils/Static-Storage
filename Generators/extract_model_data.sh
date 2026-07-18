@@ -1291,6 +1291,7 @@ LOOKUPS_TOOLS=(
 
 LOOKUPS_MISC=(
   "mythic_box|loot/mythic"
+  "ingredient_pouch_full|pouch/ingredient_full"
   "beacon_color|gui/beacon/white|range"
   "corkian_amplifier|augment/corkian_amplifier"
   "corkian_insulator|augment/corkian_insulator"
@@ -1629,8 +1630,8 @@ ensure_model_cache() {
       (
         .. | objects
         | select(has("threshold"))
-        | select(.model.model? | type == "string")
-        | [.model.model, .threshold]
+        | [(.model.model // .model.on_false.model // .model.on_true.model), .threshold]
+        | select(.[0] != null)
       ),
       (
         .. | objects
