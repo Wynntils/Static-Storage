@@ -110,6 +110,12 @@
   {
     "id": "dataStaticAbilities",
     "md5": "",
+    "path": "Reference/abilities.json",
+    "url": "https://cdn.wynntils.com/static/Reference/abilities.json"
+  },
+    {
+    "id": "dataStaticAbilitiesV2",
+    "md5": "",
     "path": "Reference/abilities_v2.json",
     "url": "https://cdn.wynntils.com/static/Reference/abilities_v2.json"
   },
