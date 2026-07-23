@@ -109,13 +109,13 @@
   },
   {
     "id": "dataStaticAbilities",
-    "md5": "",
+    "md5": "db40a968adf20e1d6e37d05f8f9f3a27",
     "path": "Reference/abilities.json",
     "url": "https://cdn.wynntils.com/static/Reference/abilities.json"
   },
-    {
+  {
     "id": "dataStaticAbilitiesV2",
-    "md5": "",
+    "md5": "22aa3213b0cacb7af22fc6e9a1fc795d",
     "path": "Reference/abilities_v2.json",
     "url": "https://cdn.wynntils.com/static/Reference/abilities_v2.json"
   },
