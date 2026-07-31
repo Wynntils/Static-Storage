@@ -145,7 +145,7 @@
   },
   {
     "id": "dataStaticCombatMapFeatures",
-    "md5": "ae014dde3797591343e40170a9884d32",
+    "md5": "6cc7d6e1eba310bb64da1d37c91b04f8",
     "path": "Reference/combat_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Reference/combat_mapfeatures.json"
   },
@@ -295,7 +295,7 @@
   },
   {
     "id": "dataStaticServiceMapFeatures",
-    "md5": "f8da52e87a8d35843a57bc8fa2c4a260",
+    "md5": "b3dfac646f57308040c9e73bbd34afd9",
     "path": "Data-Storage/service_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/service_mapfeatures.json"
   },
