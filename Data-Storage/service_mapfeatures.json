@@ -4467,18 +4467,18 @@
     "featureId": "fast-travel-19",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
-      "x": -868,
-      "y": 59,
-      "z": -5997
+      "x": -966,
+      "y": 68,
+      "z": -1610
     }
   },
   {
     "featureId": "fast-travel-20",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
-      "x": -820,
-      "y": 95,
-      "z": -1167
+      "x": -868,
+      "y": 59,
+      "z": -5997
     }
   },
   {
@@ -4487,11 +4487,20 @@
     "location": {
       "x": -820,
       "y": 95,
-      "z": -1033
+      "z": -1167
     }
   },
   {
     "featureId": "fast-travel-22",
+    "categoryId": "wynntils:service:fast-travel",
+    "location": {
+      "x": -820,
+      "y": 95,
+      "z": -1033
+    }
+  },
+  {
+    "featureId": "fast-travel-23",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -750,
@@ -4500,7 +4509,7 @@
     }
   },
   {
-    "featureId": "fast-travel-23",
+    "featureId": "fast-travel-24",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -731,
@@ -4509,7 +4518,7 @@
     }
   },
   {
-    "featureId": "fast-travel-24",
+    "featureId": "fast-travel-25",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -673,
@@ -4518,7 +4527,7 @@
     }
   },
   {
-    "featureId": "fast-travel-25",
+    "featureId": "fast-travel-26",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -477,
@@ -4527,7 +4536,7 @@
     }
   },
   {
-    "featureId": "fast-travel-26",
+    "featureId": "fast-travel-27",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -281,
@@ -4536,7 +4545,7 @@
     }
   },
   {
-    "featureId": "fast-travel-27",
+    "featureId": "fast-travel-28",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -209,
@@ -4545,7 +4554,7 @@
     }
   },
   {
-    "featureId": "fast-travel-28",
+    "featureId": "fast-travel-29",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": -124,
@@ -4554,7 +4563,7 @@
     }
   },
   {
-    "featureId": "fast-travel-29",
+    "featureId": "fast-travel-30",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 72,
@@ -4563,7 +4572,7 @@
     }
   },
   {
-    "featureId": "fast-travel-30",
+    "featureId": "fast-travel-31",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 98,
@@ -4572,7 +4581,7 @@
     }
   },
   {
-    "featureId": "fast-travel-31",
+    "featureId": "fast-travel-32",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 158,
@@ -4581,7 +4590,7 @@
     }
   },
   {
-    "featureId": "fast-travel-32",
+    "featureId": "fast-travel-33",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 161,
@@ -4590,7 +4599,7 @@
     }
   },
   {
-    "featureId": "fast-travel-33",
+    "featureId": "fast-travel-34",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 208,
@@ -4599,7 +4608,7 @@
     }
   },
   {
-    "featureId": "fast-travel-34",
+    "featureId": "fast-travel-35",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 377,
@@ -4608,7 +4617,7 @@
     }
   },
   {
-    "featureId": "fast-travel-35",
+    "featureId": "fast-travel-36",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 383,
@@ -4617,7 +4626,7 @@
     }
   },
   {
-    "featureId": "fast-travel-36",
+    "featureId": "fast-travel-37",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 414,
@@ -4626,7 +4635,7 @@
     }
   },
   {
-    "featureId": "fast-travel-37",
+    "featureId": "fast-travel-38",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 589,
@@ -4635,7 +4644,7 @@
     }
   },
   {
-    "featureId": "fast-travel-38",
+    "featureId": "fast-travel-39",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 736,
@@ -4644,7 +4653,7 @@
     }
   },
   {
-    "featureId": "fast-travel-39",
+    "featureId": "fast-travel-40",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 771,
@@ -4653,7 +4662,7 @@
     }
   },
   {
-    "featureId": "fast-travel-40",
+    "featureId": "fast-travel-41",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 860,
@@ -4662,7 +4671,7 @@
     }
   },
   {
-    "featureId": "fast-travel-41",
+    "featureId": "fast-travel-42",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 892,
@@ -4671,7 +4680,7 @@
     }
   },
   {
-    "featureId": "fast-travel-42",
+    "featureId": "fast-travel-43",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 942,
@@ -4680,7 +4689,7 @@
     }
   },
   {
-    "featureId": "fast-travel-43",
+    "featureId": "fast-travel-44",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1015,
@@ -4689,7 +4698,7 @@
     }
   },
   {
-    "featureId": "fast-travel-44",
+    "featureId": "fast-travel-45",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1028,
@@ -4698,7 +4707,7 @@
     }
   },
   {
-    "featureId": "fast-travel-45",
+    "featureId": "fast-travel-46",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1093,
@@ -4707,7 +4716,7 @@
     }
   },
   {
-    "featureId": "fast-travel-46",
+    "featureId": "fast-travel-47",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1347,
@@ -4716,7 +4725,7 @@
     }
   },
   {
-    "featureId": "fast-travel-47",
+    "featureId": "fast-travel-48",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1355,
@@ -4725,7 +4734,7 @@
     }
   },
   {
-    "featureId": "fast-travel-48",
+    "featureId": "fast-travel-49",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1391,
@@ -4734,7 +4743,7 @@
     }
   },
   {
-    "featureId": "fast-travel-49",
+    "featureId": "fast-travel-50",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1393,
@@ -4743,7 +4752,7 @@
     }
   },
   {
-    "featureId": "fast-travel-50",
+    "featureId": "fast-travel-51",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1550,
@@ -4752,7 +4761,7 @@
     }
   },
   {
-    "featureId": "fast-travel-51",
+    "featureId": "fast-travel-52",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 1555,
@@ -4761,7 +4770,7 @@
     }
   },
   {
-    "featureId": "fast-travel-52",
+    "featureId": "fast-travel-53",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 6333,
@@ -4770,7 +4779,7 @@
     }
   },
   {
-    "featureId": "fast-travel-53",
+    "featureId": "fast-travel-54",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 6335,
@@ -4779,7 +4788,7 @@
     }
   },
   {
-    "featureId": "fast-travel-54",
+    "featureId": "fast-travel-55",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 6369,
@@ -4788,7 +4797,7 @@
     }
   },
   {
-    "featureId": "fast-travel-55",
+    "featureId": "fast-travel-56",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 6374,
@@ -4797,7 +4806,7 @@
     }
   },
   {
-    "featureId": "fast-travel-56",
+    "featureId": "fast-travel-57",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 6375,
@@ -4806,7 +4815,7 @@
     }
   },
   {
-    "featureId": "fast-travel-57",
+    "featureId": "fast-travel-58",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 13967,
@@ -4815,7 +4824,7 @@
     }
   },
   {
-    "featureId": "fast-travel-58",
+    "featureId": "fast-travel-59",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 14019,
@@ -4824,7 +4833,7 @@
     }
   },
   {
-    "featureId": "fast-travel-59",
+    "featureId": "fast-travel-60",
     "categoryId": "wynntils:service:fast-travel",
     "location": {
       "x": 14034,
