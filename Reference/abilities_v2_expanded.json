@@ -254,7 +254,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -466,7 +466,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -591,7 +591,7 @@
           ],
           [
             {
-              "text": "direction you\u0027re facing.",
+              "text": "direction you're facing.",
               "color": "#AAAAAA"
             }
           ],
@@ -782,7 +782,7 @@
           ],
           [
             {
-              "text": "(When healing others, you can\u0027t heal",
+              "text": "(When healing others, you can't heal",
               "color": "#555555"
             }
           ],
@@ -2843,7 +2843,7 @@
           ],
           [
             {
-              "text": "You\u0027re teleported to its location upon recasting it.",
+              "text": "You're teleported to its location upon recasting it.",
               "color": "#AAAAAA"
             }
           ],
@@ -3032,7 +3032,7 @@
         ],
         "cost": 2,
         "willBlock": [
-          "Orphion\u0027s Pulse",
+          "Orphion's Pulse",
           "Paradox"
         ],
         "blockedBy": [],
@@ -3561,7 +3561,7 @@
           ],
           [
             {
-              "text": "+0.025",
+              "text": "+0.015",
               "color": "#FFFFFF"
             },
             {
@@ -3870,7 +3870,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " will follow the direction you\u0027re",
+              "text": " will follow the direction you're",
               "color": "#AAAAAA"
             }
           ],
@@ -4005,7 +4005,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+20% ",
+              "text": "+15% ",
               "color": "#FFFFFF"
             },
             {
@@ -4037,7 +4037,7 @@
               "color": "#555555"
             },
             {
-              "text": "+15%",
+              "text": "+10%",
               "color": "#555555"
             },
             {
@@ -4137,7 +4137,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s range.",
+              "text": "'s range.",
               "color": "#AAAAAA"
             }
           ],
@@ -4429,7 +4429,7 @@
           ],
           [
             {
-              "text": "to every player you\u0027ve healed.",
+              "text": "to every player you've healed.",
               "color": "#AAAAAA"
             }
           ],
@@ -5108,7 +5108,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+1%",
+              "text": "+0.8%",
               "color": "#FFFFFF"
             },
             {
@@ -5414,7 +5414,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+25% ",
+              "text": "+20% ",
               "color": "#FFFFFF"
             },
             {
@@ -5446,7 +5446,7 @@
               "color": "#555555"
             },
             {
-              "text": "+20%",
+              "text": "+15%",
               "color": "#555555"
             },
             {
@@ -5569,8 +5569,8 @@
       },
       {
         "id": 40,
-        "name": "Orphion\u0027s Pulse",
-        "formattedName": "§#99e9ffff§lOrphion\u0027s Pulse",
+        "name": "Orphion's Pulse",
+        "formattedName": "§#99e9ffff§lOrphion's Pulse",
         "abilityTreeNodeType": "blueAbilityLocked",
         "description": [
           [
@@ -6032,7 +6032,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s",
+              "text": "'s",
               "color": "#AAAAAA"
             }
           ],
@@ -6537,7 +6537,7 @@
           ],
           [
             {
-              "text": "The rift\u0027s benefits and damage linger",
+              "text": "The rift's benefits and damage linger",
               "color": "#AAAAAA"
             }
           ],
@@ -7511,7 +7511,7 @@
               "color": "#FFFFFF"
             },
             {
-              "text": "spells you\u0027ve cast in order.",
+              "text": "spells you've cast in order.",
               "color": "#AAAAAA"
             }
           ]
@@ -7742,7 +7742,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+20% ",
+              "text": "+15% ",
               "color": "#FFFFFF"
             },
             {
@@ -7774,7 +7774,7 @@
               "color": "#555555"
             },
             {
-              "text": "+15%",
+              "text": "+10%",
               "color": "#555555"
             },
             {
@@ -9089,7 +9089,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s speed and increase its damage.",
+              "text": "'s speed and increase its damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -10240,7 +10240,7 @@
           ],
           [
             {
-              "text": "any distance, and they deal the orb\u0027s",
+              "text": "any distance, and they deal the orb's",
               "color": "#AAAAAA"
             }
           ],
@@ -13364,7 +13364,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s beam speed and",
+              "text": "'s beam speed and",
               "color": "#AAAAAA"
             }
           ],
@@ -13668,7 +13668,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s spread,",
+              "text": "'s spread,",
               "color": "#AAAAAA"
             }
           ],
@@ -14298,6 +14298,25 @@
             {
               "text": ")",
               "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "1.4s",
+              "color": "#FFFFFF"
             }
           ],
           [
@@ -14995,8 +15014,8 @@
       },
       {
         "id": 17,
-        "name": "Nature\u0027s Jolt",
-        "formattedName": "§#f747c2ff§lNature\u0027s Jolt",
+        "name": "Nature's Jolt",
+        "formattedName": "§#f747c2ff§lNature's Jolt",
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           [],
@@ -15178,7 +15197,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s range.",
+              "text": "'s range.",
               "color": "#AAAAAA"
             }
           ],
@@ -15454,7 +15473,15 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " will travel much faster and",
+              "text": " will travel ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "0.5s",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " faster and",
               "color": "#AAAAAA"
             }
           ],
@@ -16477,7 +16504,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Nature\u0027s Jolt",
+              "text": "Nature's Jolt",
               "underline": true,
               "color": "#AAAAAA"
             }
@@ -16544,7 +16571,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Nature\u0027s Jolt",
+        "requiredAbility": "Nature's Jolt",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": null,
@@ -17156,7 +17183,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s area of effect.",
+              "text": "'s area of effect.",
               "color": "#AAAAAA"
             }
           ],
@@ -17222,7 +17249,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s",
+              "text": "'s",
               "color": "#AAAAAA"
             }
           ],
@@ -18210,7 +18237,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s ",
+              "text": "'s ",
               "color": "#AAAAAA"
             },
             {
@@ -18492,8 +18519,8 @@
       },
       {
         "id": 42,
-        "name": "Artist\u0027s Immersion",
-        "formattedName": "§#f747c2ff§lArtist\u0027s Immersion",
+        "name": "Artist's Immersion",
+        "formattedName": "§#f747c2ff§lArtist's Immersion",
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           [],
@@ -20461,7 +20488,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -20564,7 +20591,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage by ",
+              "text": "'s damage by ",
               "color": "#AAAAAA"
             },
             {
@@ -20873,7 +20900,7 @@
               "color": "#55FFFF"
             },
             {
-              "text": "\u0027 attacks",
+              "text": "' attacks",
               "color": "#AAAAAA"
             }
           ],
@@ -21351,7 +21378,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -21433,8 +21460,8 @@
       },
       {
         "id": 65,
-        "name": "Hummingbird\u0027s Song",
-        "formattedName": "§#ff4545ff§lHummingbird\u0027s Song",
+        "name": "Hummingbird's Song",
+        "formattedName": "§#ff4545ff§lHummingbird's Song",
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           [
@@ -21781,7 +21808,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s range, ",
+              "text": "'s range, ",
               "color": "#AAAAAA"
             },
             {
@@ -22000,7 +22027,7 @@
               "color": "#55FFFF"
             },
             {
-              "text": "\u0027 attack speed.",
+              "text": "' attack speed.",
               "color": "#AAAAAA"
             }
           ],
@@ -22329,7 +22356,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Totem\u0027s",
+              "text": "Totem's",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -22583,7 +22610,7 @@
               "color": "#55FFFF"
             },
             {
-              "text": "\u0027 passive",
+              "text": "' passive",
               "color": "#AAAAAA"
             }
           ],
@@ -22640,7 +22667,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Hummingbird\u0027s Song",
+        "requiredAbility": "Hummingbird's Song",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -22747,7 +22774,7 @@
               "color": "#55FFFF"
             },
             {
-              "text": "\u0027",
+              "text": "'",
               "color": "#AAAAAA"
             }
           ],
@@ -22858,7 +22885,7 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Artist\u0027s Immersion",
+        "requiredAbility": "Artist's Immersion",
         "requiredArchetype": {
           "name": "Ritualist",
           "required": 11
@@ -23523,7 +23550,7 @@
               "color": "#55FFFF"
             },
             {
-              "text": "\u0027s knives become stronger,",
+              "text": "'s knives become stronger,",
               "color": "#AAAAAA"
             }
           ],
@@ -23878,7 +23905,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Hummingbird\u0027s Song",
+        "requiredAbility": "Hummingbird's Song",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -23961,7 +23988,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -24098,7 +24125,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -24938,7 +24965,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s effects.",
+              "text": "'s effects.",
               "color": "#AAAAAA"
             }
           ],
@@ -26287,7 +26314,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -28076,7 +28103,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s last hit is delayed, but deals",
+              "text": "'s last hit is delayed, but deals",
               "color": "#AAAAAA"
             }
           ],
@@ -29247,8 +29274,8 @@
       },
       {
         "id": 26,
-        "name": "Bak\u0027al\u0027s Grasp",
-        "formattedName": "§#ff4545ff§lBak\u0027al\u0027s Grasp",
+        "name": "Bak'al's Grasp",
+        "formattedName": "§#ff4545ff§lBak'al's Grasp",
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           [
@@ -29492,7 +29519,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -29705,7 +29732,7 @@
           ],
           [
             {
-              "text": "If you receive a hit that\u0027s less than",
+              "text": "If you receive a hit that's less than",
               "color": "#AAAAAA"
             }
           ],
@@ -29874,7 +29901,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -30824,7 +30851,7 @@
           "Radiance"
         ],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -32237,7 +32264,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": {
           "name": "Fallen",
           "required": 5
@@ -32357,7 +32384,7 @@
         ],
         "cost": 2,
         "willBlock": [
-          "Bak\u0027al\u0027s Grasp"
+          "Bak'al's Grasp"
         ],
         "blockedBy": [],
         "requiredAbility": "War Scream",
@@ -32392,7 +32419,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Bak\u0027al\u0027s Grasp",
+              "text": "Bak'al's Grasp",
               "underline": true,
               "color": "#AAAAAA"
             }
@@ -32441,7 +32468,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": null,
@@ -33032,7 +33059,7 @@
           "Pressure"
         ],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -33682,7 +33709,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+30% ",
+              "text": "+60% ",
               "color": "#FFFFFF"
             },
             {
@@ -33714,7 +33741,7 @@
               "color": "#555555"
             },
             {
-              "text": "+15%",
+              "text": "+30%",
               "color": "#555555"
             },
             {
@@ -33746,7 +33773,7 @@
               "color": "#555555"
             },
             {
-              "text": "+15%",
+              "text": "+30%",
               "color": "#555555"
             },
             {
@@ -33797,7 +33824,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s area of effect radius",
+              "text": "'s area of effect radius",
               "color": "#AAAAAA"
             }
           ],
@@ -33840,7 +33867,7 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": {
           "name": "Fallen",
           "required": 7
@@ -34960,7 +34987,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " will cast at the player\u0027s position at",
+              "text": " will cast at the player's position at",
               "color": "#AAAAAA"
             }
           ],
@@ -35526,7 +35553,7 @@
           "Sacred Surge"
         ],
         "blockedBy": [],
-        "requiredAbility": "Bak\u0027al\u0027s Grasp",
+        "requiredAbility": "Bak'al's Grasp",
         "requiredArchetype": {
           "name": "Fallen",
           "required": 10
@@ -36050,7 +36077,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s health cost.",
+              "text": "'s health cost.",
               "color": "#AAAAAA"
             }
           ],
@@ -36641,7 +36668,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage by ",
+              "text": "'s damage by ",
               "color": "#AAAAAA"
             },
             {
@@ -36735,7 +36762,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -36880,7 +36907,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -36948,7 +36975,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s effectiveness.",
+              "text": "'s effectiveness.",
               "color": "#AAAAAA"
             }
           ],
@@ -37234,7 +37261,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s bonus damage per",
+              "text": "'s bonus damage per",
               "color": "#AAAAAA"
             }
           ],
@@ -37533,7 +37560,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "300% ",
+              "text": "400% ",
               "color": "#FFFFFF"
             },
             {
@@ -37565,7 +37592,7 @@
               "color": "#555555"
             },
             {
-              "text": "200%",
+              "text": "280%",
               "color": "#555555"
             },
             {
@@ -37597,7 +37624,7 @@
               "color": "#555555"
             },
             {
-              "text": "50%",
+              "text": "60%",
               "color": "#555555"
             },
             {
@@ -37629,7 +37656,7 @@
               "color": "#555555"
             },
             {
-              "text": "50%",
+              "text": "60%",
               "color": "#555555"
             },
             {
@@ -37743,7 +37770,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027 and ",
+              "text": "' and ",
               "color": "#AAAAAA"
             },
             {
@@ -37752,7 +37779,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -38184,7 +38211,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+150% ",
+              "text": "+200% ",
               "color": "#FFFFFF"
             },
             {
@@ -38216,7 +38243,7 @@
               "color": "#555555"
             },
             {
-              "text": "+120%",
+              "text": "+160%",
               "color": "#555555"
             },
             {
@@ -38248,7 +38275,7 @@
               "color": "#555555"
             },
             {
-              "text": "+30%",
+              "text": "+40%",
               "color": "#555555"
             },
             {
@@ -39678,7 +39705,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -43104,7 +43131,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -43658,7 +43685,7 @@
           ],
           [
             {
-              "text": "for every second it\u0027s active. ",
+              "text": "for every second it's active. ",
               "color": "#AAAAAA"
             },
             {
@@ -44938,8 +44965,8 @@
       },
       {
         "id": 41,
-        "name": "Twain\u0027s Arc",
-        "formattedName": "§#99e9ffff§lTwain\u0027s Arc",
+        "name": "Twain's Arc",
+        "formattedName": "§#99e9ffff§lTwain's Arc",
         "abilityTreeNodeType": "blueAbilityLocked",
         "description": [
           [
@@ -44973,7 +45000,7 @@
           ],
           [
             {
-              "text": "summon Twain\u0027s Arc. Charge it up to",
+              "text": "summon Twain's Arc. Charge it up to",
               "color": "#AAAAAA"
             }
           ],
@@ -45182,7 +45209,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s explosion will fling ",
+              "text": "'s explosion will fling ",
               "color": "#AAAAAA"
             },
             {
@@ -45337,7 +45364,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s recoil is increased, and",
+              "text": "'s recoil is increased, and",
               "color": "#AAAAAA"
             }
           ],
@@ -45858,7 +45885,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s radius, knockback,",
+              "text": "'s radius, knockback,",
               "color": "#AAAAAA"
             }
           ],
@@ -45876,7 +45903,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027 damage is increased.",
+              "text": "' damage is increased.",
               "color": "#AAAAAA"
             }
           ],
@@ -46741,8 +46768,8 @@
       },
       {
         "id": 58,
-        "name": "Courier\u0027s Edict",
-        "formattedName": "§#ffe14dff§lCourier\u0027s Edict",
+        "name": "Courier's Edict",
+        "formattedName": "§#ffe14dff§lCourier's Edict",
         "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           [],
@@ -46948,7 +46975,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027 range and damage.",
+              "text": "' range and damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -46997,7 +47024,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage.",
+              "text": "'s damage.",
               "color": "#AAAAAA"
             }
           ],
@@ -47497,7 +47524,7 @@
           ],
           [
             {
-              "text": "Twain\u0027s Arc",
+              "text": "Twain's Arc",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -47614,7 +47641,7 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Twain\u0027s Arc",
+        "requiredAbility": "Twain's Arc",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -48121,7 +48148,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s",
+              "text": "'s",
               "color": "#AAAAAA"
             }
           ],
@@ -48235,7 +48262,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Twain\u0027s Arc",
+              "text": "Twain's Arc",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -48273,7 +48300,7 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Twain\u0027s Arc",
+        "requiredAbility": "Twain's Arc",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -48331,7 +48358,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s recoil is doubled.",
+              "text": "'s recoil is doubled.",
               "color": "#AAAAAA"
             }
           ]
@@ -49851,7 +49878,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage by ",
+              "text": "'s damage by ",
               "color": "#AAAAAA"
             },
             {
@@ -50728,7 +50755,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Twain\u0027s Arc",
+              "text": "Twain's Arc",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -50745,7 +50772,7 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Twain\u0027s Arc",
+        "requiredAbility": "Twain's Arc",
         "requiredArchetype": {
           "name": "Sharpshooter",
           "required": 7
@@ -50879,7 +50906,7 @@
           [],
           [
             {
-              "text": "Reduce this ability\u0027s cooldown by ",
+              "text": "Reduce this ability's cooldown by ",
               "color": "#AAAAAA"
             },
             {
@@ -51324,8 +51351,8 @@
       },
       {
         "id": 93,
-        "name": "Mael\u0027s Quiver",
-        "formattedName": "§f§lMael\u0027s Quiver",
+        "name": "Mael's Quiver",
+        "formattedName": "§f§lMael's Quiver",
         "abilityTreeNodeType": "whiteAbilityLocked",
         "description": [
           [
@@ -51481,7 +51508,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Twain\u0027s Arc",
+              "text": "Twain's Arc",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -51545,7 +51572,7 @@
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Twain\u0027s Arc",
+        "requiredAbility": "Twain's Arc",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -51756,7 +51783,7 @@
               "color": "#555555"
             },
             {
-              "text": "\u0027s smite)",
+              "text": "'s smite)",
               "color": "#555555"
             }
           ],
@@ -52948,7 +52975,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage by ",
+              "text": "'s damage by ",
               "color": "#AAAAAA"
             },
             {
@@ -53268,7 +53295,7 @@
           ],
           [
             {
-              "text": "you\u0027re facing.",
+              "text": "you're facing.",
               "color": "#AAAAAA"
             }
           ],
@@ -55779,7 +55806,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s cooldown",
+              "text": "'s cooldown",
               "color": "#AAAAAA"
             }
           ],
@@ -56216,7 +56243,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s range",
+              "text": "'s range",
               "color": "#AAAAAA"
             }
           ],
@@ -56456,7 +56483,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage ramps up every ",
+              "text": "'s damage ramps up every ",
               "color": "#AAAAAA"
             }
           ],
@@ -56610,7 +56637,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s cooldown by ",
+              "text": "'s cooldown by ",
               "color": "#AAAAAA"
             },
             {
@@ -57271,7 +57298,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s amount of hits by ",
+              "text": "'s amount of hits by ",
               "color": "#AAAAAA"
             },
             {
@@ -57300,7 +57327,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage cap by ",
+              "text": "'s damage cap by ",
               "color": "#AAAAAA"
             },
             {
@@ -58927,7 +58954,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s",
+              "text": "'s",
               "color": "#AAAAAA"
             }
           ],
@@ -59252,7 +59279,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s cooldown by",
+              "text": "'s cooldown by",
               "color": "#AAAAAA"
             }
           ],
@@ -60420,7 +60447,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s range",
+              "text": "'s range",
               "color": "#AAAAAA"
             }
           ],
@@ -61135,7 +61162,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage ",
+              "text": "'s damage ",
               "color": "#AAAAAA"
             }
           ],
@@ -62958,7 +62985,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s damage",
+              "text": "'s damage",
               "color": "#AAAAAA"
             }
           ],
@@ -63213,7 +63240,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s horizontal velocity is increased by ",
+              "text": "'s horizontal velocity is increased by ",
               "color": "#AAAAAA"
             },
             {
@@ -63586,7 +63613,7 @@
           ],
           [
             {
-              "text": "of the enemy\u0027s ",
+              "text": "of the enemy's ",
               "color": "#AAAAAA"
             },
             {
@@ -64023,7 +64050,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s duration by ",
+              "text": "'s duration by ",
               "color": "#AAAAAA"
             },
             {
@@ -64462,8 +64489,8 @@
       },
       {
         "id": 95,
-        "name": "Serpent\u0027s Garden",
-        "formattedName": "§#ac22acff§lSerpent\u0027s Garden",
+        "name": "Serpent's Garden",
+        "formattedName": "§#ac22acff§lSerpent's Garden",
         "abilityTreeNodeType": "acrobatUltimateLocked",
         "description": [
           [
@@ -64810,7 +64837,7 @@
           [],
           [
             {
-              "text": "The clone\u0027s health is proportional to your ",
+              "text": "The clone's health is proportional to your ",
               "color": "#AAAAAA"
             }
           ],
