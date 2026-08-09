@@ -83,7 +83,7 @@ UNMAPPED=$(jq -n -r --slurpfile materials "$TARGET_DIR/materials.json" --slurpfi
     "$GATHERING_LOOKUP"'lookup as $lookup
      | [$nodes[0][] | select(.type == "NODE") | .resource | select($lookup[.] == null)] | unique | .[]')
 if [ -n "$UNMAPPED" ]; then
-    echo "Warning: no profession known for these gathering resources, they will use the unknown category:" >&2
+    echo "Warning: no profession known for these gathering resources, they will be skipped:" >&2
     echo "$UNMAPPED" >&2
 fi
 
@@ -97,7 +97,8 @@ lookup as $lookup
 | [ $nodes[0][]
     | select(.type == "NODE")
     | . as $node
-    | ($lookup[$node.resource] // {src: $node.resource, sub: "unknown"}) as $material
+    | $lookup[$node.resource] as $material
+    | select($material != null)   # warned about above
     | { resource: ($material.src | ascii_downcase | gsub(" |_"; "-") | gsub("[^a-z0-9\\-]+"; "")),
         profession: $material.sub,
         location: {x: $node.x, y: $node.y, z: $node.z} } ]
@@ -105,7 +106,7 @@ lookup as $lookup
 | map(to_entries | map(.value + {index: .key}))
 | flatten
 | map({
-    featureId: (.resource + "-" + (material_suffix[.profession] // "node") + "-" + (.index | tostring)),
+    featureId: (.resource + "-" + material_suffix[.profession] + "-" + (.index | tostring)),
     categoryId: ("wynntils:gathering:" + .profession + ":" + .resource),
     location: .location
   })
