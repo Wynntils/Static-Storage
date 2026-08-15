@@ -1,0 +1,6 @@
+{
+  "DEXETERITY": {
+    "replacement": "rawDexterity",
+    "mode": "raw"
+  }
+}

@@ -42,8 +42,10 @@ fi
 
 # Reformat the API response to keep compatibility with the old key format.
 # For mythic masterwork gear, prefix displayName with "Masterwork " to keep keys unique.
-jq 'if type == "array" then
-        (map({
+# Also fix known invalid identification keys from the Wynncraft API.
+jq --slurpfile invalid_identifications "$DATA_STORAGE/invalid_identifications.json" '
+    if type == "array" then
+        map({
             key: (
                 (.displayName // .name // .internalName) as $baseName
                 | if $baseName == null then
@@ -53,11 +55,48 @@ jq 'if type == "array" then
                   else
                     $baseName
                   end
-              ),
+            ),
             value: (del(.displayName))
-        }) | from_entries)
-    else .
-    end' < gear.json.tmp > gear_reformatted.json.tmp
+        }) | from_entries
+    else
+        .
+    end
+
+    | with_entries(
+        if .value.identifications then
+            .value.identifications |= (
+                to_entries
+                | map(
+                    . as $ident
+                    | if ($invalid_identifications[0] | has($ident.key)) then
+                        $invalid_identifications[0][$ident.key] as $fix
+                        | {
+                            key: $fix.replacement,
+                            value: (
+                                if $fix.mode == "raw" then
+                                    if ($ident.value | type) == "object" and ($ident.value | has("raw")) then
+                                        $ident.value.raw
+                                    else
+                                        $ident.value
+                                    end
+                                elif $fix.mode == "rename" then
+                                    $ident.value
+                                else
+                                    error("Unknown invalid identification mode: " + ($fix.mode | tostring))
+                                end
+                            )
+                        }
+                    else
+                        $ident
+                    end
+                )
+                | from_entries
+            )
+        else
+            .
+        end
+    )
+' < gear.json.tmp > gear_reformatted.json.tmp
 
 # Merge gear_missing.json into reformatted gear data
 jq -s '.[0] + .[1]' gear_reformatted.json.tmp "$DATA_STORAGE/gear_missing.json" > gear_merged.json.tmp

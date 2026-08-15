@@ -38,7 +38,7 @@ if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")
     exit
 fi
 
-jq --sort-keys '.filters.identifications | sort | values[]' < metadata.json.tmp > ids.tmp
+jq --sort-keys -r '.filters.identifications | sort | values[]' < metadata.json.tmp > ids.tmp
 
 rm metadata.json.tmp
 
@@ -58,11 +58,17 @@ fi
 
 # Read the ids.json.tmp file, and put ids that are not present as keys into the file with the next available id
 while IFS= read -r id; do
-    if jq -e --argjson id "$id" 'has($id)' < id_keys.json >/dev/null 2>&1; then
+    # Ignore known invalid Wynncraft API identification keys.
+    if jq -e --arg id "$id" 'has($id)' < ../Data-Storage/invalid_identifications.json >/dev/null 2>&1; then
+        echo "Skipping invalid identification key: $id"
         continue
     fi
 
-    jq --argjson id "$id" --argjson next_id "$next_id" '. + {($id): $next_id}' < id_keys.json > id_keys.json.tmp
+    if jq -e --arg id "$id" 'has($id)' < id_keys.json >/dev/null 2>&1; then
+        continue
+    fi
+
+    jq --arg id "$id" --argjson next_id "$next_id" '. + {($id): $next_id}' < id_keys.json > id_keys.json.tmp
     mv id_keys.json.tmp id_keys.json
     next_id=$((next_id + 1))
 done < ids.tmp
