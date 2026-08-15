@@ -51664,7 +51664,7 @@
         "raw": 180
       }
     },
-    "dropRestriction": "normal",
+    "dropRestriction": "never",
     "elements": [
       "fire",
       "air"
@@ -51731,7 +51731,7 @@
       "baseHealth": 4000,
       "baseWaterDefence": -120
     },
-    "dropRestriction": "normal",
+    "dropRestriction": "never",
     "elements": [
       "fire",
       "air"
@@ -51800,7 +51800,7 @@
       "baseHealth": 4200,
       "baseWaterDefence": -100
     },
-    "dropRestriction": "normal",
+    "dropRestriction": "never",
     "elements": [
       "fire",
       "air"
@@ -51878,7 +51878,7 @@
         "raw": 135
       }
     },
-    "dropRestriction": "normal",
+    "dropRestriction": "never",
     "elements": [
       "fire",
       "air"
@@ -175618,7 +175618,7 @@
     "internalName": "Masterwork Singularity",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The existence of all things is reflected in the otherworldly jewels of this grand staff, dense enough to have its own gravitational pull. Users have reported their limbs being stretched after usage.</span>",
     "majorIds": {
-      "Orbital Chain": "<span class='font-ascii' style='color:#AAAAAA'>Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>9999%</span> explosion spell. </span></span>"
+      "Accretion Chain": "<span class='font-ascii' style='color:#AAAAAA'>Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>9999%</span> explosion spell. </span></span>"
     },
     "powderSlots": 15,
     "requirements": {
@@ -175635,7 +175635,7 @@
     "tier": "mythic",
     "type": "weapon",
     "jsonMajorIds": {
-      "Orbital Chain": [
+      "Accretion Chain": [
         {
           "text": "Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a ",
           "color": "#AAAAAA"
@@ -266450,6 +266450,75 @@
     "tier": "legendary",
     "type": "weapon"
   },
+  "Spiritstone Signet": {
+    "base": {
+      "baseAirDefence": 40,
+      "baseEarthDefence": 40,
+      "baseFireDefence": 40,
+      "baseHealth": 500,
+      "baseThunderDefence": -80,
+      "baseWaterDefence": 40
+    },
+    "dropRestriction": "lootchest",
+    "elements": [
+      "earth",
+      "water",
+      "fire",
+      "air"
+    ],
+    "emblem": "sticker_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3750
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "ring.multi2"
+      }
+    },
+    "identifications": {
+      "criticalDamageBonus": {
+        "max": -3,
+        "min": -5,
+        "raw": -4
+      },
+      "manaRegen": {
+        "max": 5,
+        "min": 1,
+        "raw": 4
+      },
+      "rawAgility": 1,
+      "rawDefence": 1,
+      "rawDexterity": -4,
+      "rawElementalDamage": {
+        "max": 60,
+        "min": 14,
+        "raw": 46
+      },
+      "rawIntelligence": 1,
+      "rawStrength": 1,
+      "walkSpeed": {
+        "max": 10,
+        "min": 2,
+        "raw": 8
+      }
+    },
+    "internalName": "Spiritstone Signet",
+    "requirements": {
+      "agility": 40,
+      "defence": 40,
+      "intelligence": 40,
+      "level": 103,
+      "strength": 40
+    },
+    "restriction": "none",
+    "subType": "ring",
+    "tier": "rare",
+    "type": "accessory"
+  },
   "Spiritual Siphoner": {
     "attackSpeed": "normal",
     "averageDps": 43,
@@ -283812,60 +283881,6 @@
     },
     "restriction": "untradable",
     "subType": "wand",
-    "tier": "legendary",
-    "type": "weapon"
-  },
-  "Tempo Totem": {
-    "attackSpeed": "normal",
-    "averageDps": 180,
-    "base": {
-      "baseDamage": {
-        "max": 90,
-        "min": 86,
-        "raw": 86
-      }
-    },
-    "dropMeta": {
-      "coordinates": [
-        -299,
-        49,
-        -1159
-      ],
-      "name": "Tempo Town",
-      "type": "merchant"
-    },
-    "dropRestriction": "never",
-    "emblem": "diamond_2",
-    "icon": {
-      "format": "attribute",
-      "value": {
-        "customModelData": {
-          "rangeDispatch": [
-            3678
-          ]
-        },
-        "id": "minecraft:potion",
-        "name": "relik.fire2"
-      }
-    },
-    "identifications": {
-      "combatExperience": 20,
-      "healthRegenRaw": 30,
-      "lifeSteal": 35,
-      "lootBonus": 20,
-      "manaRegen": 12,
-      "manaSteal": 4
-    },
-    "identified": true,
-    "internalName": "Tempo Totem",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Moderato. Like the disciplined steps of a march, never skipping its appointed mark. A wand defined by a constancy that brings order to chaos.</span>",
-    "powderSlots": 2,
-    "requirements": {
-      "classRequirement": "shaman",
-      "level": 35
-    },
-    "restriction": "untradable",
-    "subType": "relik",
     "tier": "legendary",
     "type": "weapon"
   },
