@@ -9710,7 +9710,6 @@
       }
     },
     "internalName": "Ancient Jazerant",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "intelligence": 20,
@@ -16283,7 +16282,6 @@
       }
     },
     "internalName": "Arterial Spray",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "assassin",
@@ -21713,7 +21711,6 @@
       }
     },
     "internalName": "Backbiter",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "classRequirement": "assassin",
       "defence": 5,
@@ -29425,7 +29422,7 @@
       "rawDefence": 3
     },
     "internalName": "Blazing Bangle",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>This bracelet is imbued with both the oppressive heat of the mesa sun and the embers of an extinguished corrupted flame. It is known to spontaneously ignite anything that touches it for too long.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>This bracelet is imbued with both the oppressive heat of the mesa sun and the embers of an extinguished corrupted flame. It is known to spontaneously ignite anything that touches it for too long.</span>",
     "requirements": {
       "defence": 15,
       "level": 41
@@ -30032,7 +30029,7 @@
       }
     },
     "internalName": "Blighted Seraph",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Your saviour is not coming.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Your saviour is not coming.</span>",
     "majorIds": {
       "Frenetic Spirit": "<span class='font-ascii' style='color:#AAAAAA'>Guardian Angels damage is set to 10%, but shoot 40% faster and last 5 times longer. Frenzy's cap is increased by 55.</span>"
     },
@@ -30823,7 +30820,6 @@
       }
     },
     "internalName": "Bloodbag",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "shaman",
@@ -31045,7 +31041,6 @@
       }
     },
     "internalName": "Bloodied Chaps",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "defence": 10,
       "level": 29,
@@ -31112,7 +31107,6 @@
       }
     },
     "internalName": "Bloodied Wreath",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 2,
     "requirements": {
       "agility": 15,
@@ -32902,7 +32896,6 @@
       }
     },
     "internalName": "Boil Lance",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "classRequirement": "warrior",
       "level": 15
@@ -35334,7 +35327,7 @@
       }
     },
     "internalName": "Brainbleed",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>An otherwise healthy soldier once writhed and collapsed in the confines of an outpost. His autopsy was quickly canceled when military doctors noticed an unusually rapid spread of corruption in his corpse.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>An otherwise healthy soldier once writhed and collapsed in the confines of an outpost. His autopsy was quickly canceled when military doctors noticed an unusually rapid spread of corruption in his corpse.</span>",
     "powderSlots": 2,
     "requirements": {
       "defence": 20,
@@ -35519,7 +35512,6 @@
       }
     },
     "internalName": "Brainy Beanie",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "dexterity": 5,
@@ -39640,7 +39632,6 @@
       }
     },
     "internalName": "Bugbite",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "classRequirement": "warrior",
@@ -44841,7 +44832,7 @@
       }
     },
     "internalName": "Carnage Agglomerate",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Behind you are the corpses of the weak, of those who deserved to die. Before you are those willing to join them.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Behind you are the corpses of the weak, of those who deserved to die. Before you are those willing to join them.</span>",
     "majorIds": {
       "Displace": "<span class='font-ascii' style='color:#AAAAAA'>Etheric Slash deals massive knockback to enemies hit by Teleport.</span>"
     },
@@ -46181,7 +46172,6 @@
       }
     },
     "internalName": "Cauterizer",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "classRequirement": "archer",
       "level": 10
@@ -63851,7 +63841,7 @@
       }
     },
     "internalName": "Cremation",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The dead are often burned to nullify the risk of return. For creatures of corruption, however, that fire can be enough for them to rise again.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The dead are often burned to nullify the risk of return. For creatures of corruption, however, that fire can be enough for them to rise again.</span>",
     "requirements": {
       "defence": 15,
       "level": 50
@@ -65431,7 +65421,7 @@
       }
     },
     "internalName": "Crumbling Foundation",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>It always returns a little weaker than what it was before. Perhaps someday, it'll be put down for good.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>It always returns a little weaker than what it was before. Perhaps someday, it'll be put down for good.</span>",
     "majorIds": {
       "Entropy": "<span class='font-ascii' style='color:#AAAAAA'>Meteor's speed is increased by 50%.</span>"
     },
@@ -74425,7 +74415,6 @@
       }
     },
     "internalName": "Desert Cyclone",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "agility": 20,
@@ -80479,7 +80468,6 @@
       }
     },
     "internalName": "Dissever",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "agility": 15,
@@ -81430,7 +81418,7 @@
       }
     },
     "internalName": "Dogfight",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The Nesaak wolves have been driven to aggression by corruption. Witnesses have seen entire packs decimate each other in fierce and brutal skirmishes. This necklace is adorned with teeth recovered from those incidents, and wearing it gives you the feeling of a wolf about to bite at your neck.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The Nesaak wolves have been driven to aggression by corruption. Witnesses have seen entire packs decimate each other in fierce and brutal skirmishes. This necklace is adorned with teeth recovered from those incidents, and wearing it gives you the feeling of a wolf about to bite at your neck.</span>",
     "requirements": {
       "agility": 15,
       "intelligence": 15,
@@ -92903,7 +92891,7 @@
       }
     },
     "internalName": "Empathy Purge",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Tiny spikes lining the inside of these boots suppress the grey matter in the wearer's brain, enhancing their capabilities and making them capable of murderous and immoral acts while in this trance-like, numbed state.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Tiny spikes lining the inside of these boots suppress the grey matter in the wearer's brain, enhancing their capabilities and making them capable of murderous and immoral acts while in this trance-like, numbed state.</span>",
     "powderSlots": 1,
     "requirements": {
       "defence": 50,
@@ -102332,7 +102320,6 @@
       }
     },
     "internalName": "Fiend",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "classRequirement": "mage",
@@ -113383,7 +113370,6 @@
       }
     },
     "internalName": "Fractured Lyre",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "agility": 20,
@@ -115798,7 +115784,7 @@
     "tier": "rare",
     "type": "accessory"
   },
-  "Futulism": {
+  "Futilism": {
     "attackSpeed": "superSlow",
     "averageDps": 442,
     "base": {
@@ -120170,7 +120156,6 @@
       }
     },
     "internalName": "Giant's Kneecap",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "defence": 10,
@@ -120926,7 +120911,6 @@
       }
     },
     "internalName": "Glaring Issue",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "level": 20
     },
@@ -120976,7 +120960,7 @@
       "rawDefence": -2
     },
     "internalName": "Glass Skin",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Peeled off of a desiccated corpse, what remains of the skin is brittle. A precise enough strike can crack the wrapping and embed sharp fragments straight into the wearer's wrist.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Peeled off of a desiccated corpse, what remains of the skin is brittle. A precise enough strike can crack the wrapping and embed sharp fragments straight into the wearer's wrist.</span>",
     "requirements": {
       "level": 35
     },
@@ -123868,7 +123852,7 @@
       }
     },
     "internalName": "Golem's Arm",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The stalwart Guard Golems stand as the protectors of Wynn's cities. To wield the remains of one so viciously dismembered by the undead... just how deadly are these hordes?It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The stalwart Guard Golems stand as the protectors of Wynn's cities. To wield the remains of one so viciously dismembered by the undead... just how deadly are these hordes?</span>",
     "requirements": {
       "classRequirement": "mage",
       "level": 15,
@@ -124042,7 +124026,7 @@
       }
     },
     "internalName": "Goredrinker",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Little spikes of corruption grow out of the blades on this weapon, serrating it. They seem to grow after drawing blood, guiding your body to dig further into the enemy's viscera even after they've already died.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Little spikes of corruption grow out of the blades on this weapon, serrating it. They seem to grow after drawing blood, guiding your body to dig further into the enemy's viscera even after they've already died.</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "assassin",
@@ -126958,7 +126942,7 @@
       }
     },
     "internalName": "Grisly Gauntlet",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A thick layer of blood and gore coats this gauntlet. Every time you glance at it, images of being torn to pieces by the undead flash into your mind, and you shudder.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A thick layer of blood and gore coats this gauntlet. Every time you glance at it, images of being torn to pieces by the undead flash into your mind, and you shudder.</span>",
     "requirements": {
       "level": 37,
       "strength": 20
@@ -127459,7 +127443,7 @@
       "rawStrength": 3
     },
     "internalName": "Guard's Garment",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The previous owner seems to have met an untimely fate in the undead hordes outside Ragni. Stained but salvageable... a little corruption never hurt anybody, yet....It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The previous owner seems to have met an untimely fate in the undead hordes outside Ragni. Stained but salvageable... a little corruption never hurt anybody, yet...</span>",
     "requirements": {
       "level": 5
     },
@@ -132783,7 +132767,7 @@
       }
     },
     "internalName": "Hecatomb",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>For the hundreds sacrificed for Troms's survival, death was not the end. Residual dark magic and corrupted energy manifests in this weapon as faint echoes of sorrow and agony from the slain who were denied peace.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>For the hundreds sacrificed for Troms's survival, death was not the end. Residual dark magic and corrupted energy manifests in this weapon as faint echoes of sorrow and agony from the slain who were denied peace.</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "warrior",
@@ -145057,7 +145041,7 @@
       }
     },
     "internalName": "Inclemency",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Only the strongest are able to survive Nesaak's unforgivingly harsh conditions. From the frigid temperatures to the vicious wildlife and grotesque corrupteds, life here can feel like challenge after challenge.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Only the strongest are able to survive Nesaak's unforgivingly harsh conditions. From the frigid temperatures to the vicious wildlife and grotesque corrupteds, life here can feel like challenge after challenge.</span>",
     "powderSlots": 2,
     "requirements": {
       "level": 45,
@@ -146157,7 +146141,7 @@
       }
     },
     "internalName": "Infernus Aeterna",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>From coals to conflagration, the flames of War flicker forever.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>From coals to conflagration, the flames of War flicker forever.</span>",
     "majorIds": {
       "Geocentrism": "<span class='font-ascii' style='color:#AAAAAA'>Aura radiates from you instead of your Totem and can be cast any time.</span>"
     },
@@ -148404,7 +148388,6 @@
       }
     },
     "internalName": "Intestine Lasso",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "classRequirement": "shaman",
@@ -150222,7 +150205,7 @@
       }
     },
     "internalName": "Isostatic Rebound",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Death is naught but an inconvenience for the strongest of the corrupted. With time, the weight of destruction will pass, and the fires of War will rise anew from within.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Death is naught but an inconvenience for the strongest of the corrupted. With time, the weight of destruction will pass, and the fires of War will rise anew from within.</span>",
     "powderSlots": 2,
     "requirements": {
       "defence": 45,
@@ -150918,7 +150901,6 @@
       }
     },
     "internalName": "Jagged Bone Necklace",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "agility": 15,
       "dexterity": 15,
@@ -152148,7 +152130,6 @@
       }
     },
     "internalName": "Jinxed Coif",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 2,
     "requirements": {
       "dexterity": 25,
@@ -164086,7 +164067,7 @@
       }
     },
     "internalName": "Living Slime",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>It turns out that having an acidic, slightly corrupted slime attached to your hands has benefits in combat... still, you should probably get that stuff taken off before it eats the flesh away from your fingerbones.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>It turns out that having an acidic, slightly corrupted slime attached to your hands has benefits in combat... still, you should probably get that stuff taken off before it eats the flesh away from your fingerbones.</span>",
     "requirements": {
       "dexterity": 25,
       "level": 53
@@ -178680,7 +178661,7 @@
       }
     },
     "internalName": "Mesoskeleton",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Ancient bones, fractured by corruption and the elements, have twisted themselves into these leggings. The armor shifts to fit its wearer before turning the bones inwards, inflicting unending agony.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Ancient bones, fractured by corruption and the elements, have twisted themselves into these leggings. The armor shifts to fit its wearer before turning the bones inwards, inflicting unending agony.</span>",
     "powderSlots": 1,
     "requirements": {
       "defence": 20,
@@ -182271,7 +182252,7 @@
       }
     },
     "internalName": "Molten Fleshmass",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The scorching heat, the shifting bodies, the screeching cries of anguish... they're all the least of your problems now.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The scorching heat, the shifting bodies, the screeching cries of anguish... they're all the least of your problems now.</span>",
     "majorIds": {
       "Temblor": "<span class='font-ascii' style='color:#AAAAAA'>Bash gains +1 Area of Effect and is 0.05s faster.</span>"
     },
@@ -185853,7 +185834,7 @@
       }
     },
     "internalName": "Mummy's Talisman",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Upon the death of a mummy, the curse it inflicts is lifted. Despite the mummy's defeat, its mad shrieks still pierce your ears in moments otherwise tranquil.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Upon the death of a mummy, the curse it inflicts is lifted. Despite the mummy's defeat, its mad shrieks still pierce your ears in moments otherwise tranquil.</span>",
     "requirements": {
       "level": 35
     },
@@ -186155,7 +186136,7 @@
       }
     },
     "internalName": "Mutilated Corpse",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Freshly slain foes in well below freezing conditions often provide enough warmth to weather the storm. However, this Corrupted seems to still be alive in some sickening way, draining life force to sustain itself.It's pulling towards something. </span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Freshly slain foes in well below freezing conditions often provide enough warmth to weather the storm. However, this Corrupted seems to still be alive in some sickening way, draining life force to sustain itself.</span>",
     "powderSlots": 2,
     "requirements": {
       "agility": 15,
@@ -189787,7 +189768,6 @@
       }
     },
     "internalName": "Nevermore",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "intelligence": 30,
@@ -196147,7 +196127,7 @@
       }
     },
     "internalName": "Omnia Mors",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Everything dies. Show those who resist the foolishness of their ambitions.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Everything dies. Show those who resist the foolishness of their ambitions.</span>",
     "majorIds": {
       "Flurry of Blows": "<span class='font-ascii' style='color:#AAAAAA'>Turn Double Slice into a 10-hit pummeling of 16% damage per hit.</span>"
     },
@@ -217590,7 +217570,7 @@
       "rawIntelligence": 3
     },
     "internalName": "Purity Filter",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Originally intended to remove corruption from the world in small amounts, the item became ineffective after overuse. Traces of corruption linger in the metal, displaying the futility of attempting such a feat.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Originally intended to remove corruption from the world in small amounts, the item became ineffective after overuse. Traces of corruption linger in the metal, displaying the futility of attempting such a feat.</span>",
     "requirements": {
       "intelligence": 25,
       "level": 52
@@ -227705,7 +227685,7 @@
       }
     },
     "internalName": "Repose",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Found on the mangled body of a famous Tromsian general fallen to a corrupted siege some time ago, these boots allow the wearer to remain calm and steadfast in the face of overwhelming odds.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Found on the mangled body of a famous Tromsian general fallen to a corrupted siege some time ago, these boots allow the wearer to remain calm and steadfast in the face of overwhelming odds.</span>",
     "powderSlots": 2,
     "requirements": {
       "agility": 12,
@@ -230982,7 +230962,7 @@
       }
     },
     "internalName": "Rigor Mortis",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>After this crossbow's original wielder fell in battle, its mechanisms stiffened and locked into place. A spark of life, or undeath, can temporarily reverse the effect before the weapon seizes up again.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>After this crossbow's original wielder fell in battle, its mechanisms stiffened and locked into place. A spark of life, or undeath, can temporarily reverse the effect before the weapon seizes up again.</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "archer",
@@ -235547,7 +235527,6 @@
       }
     },
     "internalName": "Rusted Cog",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "level": 30
     },
@@ -238460,7 +238439,7 @@
       }
     },
     "internalName": "Sanguine Spaulder",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Blood, gore, and bone fragments have congealed to your shoulder with the power of sheer corruption. The longer the mass is attached to you, the more of you it takes when you try to remove it.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Blood, gore, and bone fragments have congealed to your shoulder with the power of sheer corruption. The longer the mass is attached to you, the more of you it takes when you try to remove it.</span>",
     "powderSlots": 1,
     "requirements": {
       "defence": 20,
@@ -242400,7 +242379,7 @@
       }
     },
     "internalName": "Scumlord",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Ooze secretes out of every inch of this quarterstaff. Is it simply just more of the slime harassing travelers in the jungle, or is there something sinister at play?It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Ooze secretes out of every inch of this quarterstaff. Is it simply just more of the slime harassing travelers in the jungle, or is there something sinister at play?</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "mage",
@@ -257861,7 +257840,7 @@
       }
     },
     "internalName": "Sludge Slicer",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Many who venture into the jungle are swallowed by the thick undergrowth and are never seen again. This weapon and an accompanying skeleton were found inside the very adversary the spear was meant to vanquish as a perfect display of its owner's untimely demise.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Many who venture into the jungle are swallowed by the thick undergrowth and are never seen again. This weapon and an accompanying skeleton were found inside the very adversary the spear was meant to vanquish as a perfect display of its owner's untimely demise.</span>",
     "powderSlots": 2,
     "requirements": {
       "classRequirement": "warrior",
@@ -265816,7 +265795,6 @@
       }
     },
     "internalName": "Spinal Estoc",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "classRequirement": "assassin",
       "level": 40
@@ -281151,7 +281129,6 @@
       }
     },
     "internalName": "Tainted Ruby",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "defence": 5,
       "level": 37
@@ -283884,6 +283861,60 @@
     "tier": "legendary",
     "type": "weapon"
   },
+  "Tempo Totem": {
+    "attackSpeed": "normal",
+    "averageDps": 180,
+    "base": {
+      "baseDamage": {
+        "max": 90,
+        "min": 86,
+        "raw": 86
+      }
+    },
+    "dropMeta": {
+      "coordinates": [
+        -299,
+        49,
+        -1159
+      ],
+      "name": "Tempo Town",
+      "type": "merchant"
+    },
+    "dropRestriction": "never",
+    "emblem": "diamond_2",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3678
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "relik.fire2"
+      }
+    },
+    "identifications": {
+      "combatExperience": 20,
+      "healthRegenRaw": 30,
+      "lifeSteal": 35,
+      "lootBonus": 20,
+      "manaRegen": 12,
+      "manaSteal": 4
+    },
+    "identified": true,
+    "internalName": "Tempo Totem",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Andante. Like the gentle drift of the forest canopy, swaying in a timeless dance. An effigy defined by the steady rhythms of nature.</span>",
+    "powderSlots": 2,
+    "requirements": {
+      "classRequirement": "shaman",
+      "level": 35
+    },
+    "restriction": "untradable",
+    "subType": "relik",
+    "tier": "legendary",
+    "type": "weapon"
+  },
   "Tempo Trebuchet": {
     "attackSpeed": "slow",
     "averageDps": 182,
@@ -284852,7 +284883,7 @@
       }
     },
     "internalName": "Terminal Velocity",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Don't give them time for even a warning.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Don't give them time for even a warning.</span>",
     "majorIds": {
       "Tackle": "<span class='font-ascii' style='color:#AAAAAA'>Flying Kick deals much more knockback and increases Collide damage by an additional <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>150%</span>, <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>60%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>10%</span>.</span></span></span></span>"
     },
@@ -299351,7 +299382,6 @@
       }
     },
     "internalName": "Treachery",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "powderSlots": 1,
     "requirements": {
       "classRequirement": "mage",
@@ -315705,7 +315735,7 @@
       }
     },
     "internalName": "Warsong",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Soldiers claim that the sounds of undead hordes are one of the most feared things to hear across Wynn. Wearing this ring, the gruesome cries of corrupted legions permanently echo throughout your mind.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Soldiers claim that the sounds of undead hordes are one of the most feared things to hear across Wynn. Wearing this ring, the gruesome cries of corrupted legions permanently echo throughout your mind.</span>",
     "requirements": {
       "dexterity": 10,
       "level": 33,
@@ -323115,7 +323145,7 @@
       }
     },
     "internalName": "Woebegone",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>For some, the psychological impact of the undead incursions becomes too much to bear. They leave their lives behind hoping to find solace, only to return as an undead themselves.It's pulling towards something.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>For some, the psychological impact of the undead incursions becomes too much to bear. They leave their lives behind hoping to find solace, only to return as an undead themselves.</span>",
     "powderSlots": 1,
     "requirements": {
       "defence": 20,
@@ -327521,7 +327551,6 @@
       "rawStrength": 2
     },
     "internalName": "Zombie Eye Pendant",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>...It's pulling towards something.</span>",
     "requirements": {
       "level": 27,
       "strength": 8
