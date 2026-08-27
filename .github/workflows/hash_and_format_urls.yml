@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out source code
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v7
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           token: ${{ secrets.PRIVATE_TOKEN }}
@@ -33,7 +33,7 @@ jobs:
           chmod +x ./Utils/format_urls.sh
           ./Utils/format_urls.sh
             
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_user_name: 'WynntilsBot'
           commit_user_email: 'admin@wynntils.com'
