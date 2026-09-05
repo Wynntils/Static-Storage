@@ -4203,8 +4203,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-0",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-0",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1646,
       "y": 68,
@@ -4212,8 +4212,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-1",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-1",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1646,
       "y": 68,
@@ -4221,8 +4221,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-2",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-2",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1642,
       "y": 68,
@@ -4230,8 +4230,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-3",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-3",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1642,
       "y": 68,
@@ -4239,8 +4239,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-4",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-4",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1638,
       "y": 68,
@@ -4248,8 +4248,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-5",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-5",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1638,
       "y": 68,
@@ -4257,8 +4257,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-6",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-6",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1634,
       "y": 68,
@@ -4266,8 +4266,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-7",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-7",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1634,
       "y": 68,
@@ -4275,8 +4275,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-8",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-8",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1630,
       "y": 68,
@@ -4284,8 +4284,8 @@
     }
   },
   {
-    "featureId": "liquid-merchant-9",
-    "categoryId": "wynntils:service:merchant:liquid-emerald",
+    "featureId": "exchange-merchant-9",
+    "categoryId": "wynntils:service:merchant:exchange",
     "location": {
       "x": -1630,
       "y": 68,
