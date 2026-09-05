@@ -1,0 +1,137 @@
+[
+  {
+    "featureId": "aerie-of-the-recluse",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -1747,
+      "y": 69,
+      "z": -3070
+    }
+  },
+  {
+    "featureId": "altar-of-sanctification",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -912,
+      "y": 29,
+      "z": -624
+    }
+  },
+  {
+    "featureId": "arena-of-the-legends",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -693,
+      "y": 77,
+      "z": -1069
+    }
+  },
+  {
+    "featureId": "bottomless-pit",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": 1333,
+      "y": 15,
+      "z": -514
+    }
+  },
+  {
+    "featureId": "bovine-barn",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": 469,
+      "y": 45,
+      "z": -2908
+    }
+  },
+  {
+    "featureId": "challenge-of-the-blades",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -803,
+      "y": 81,
+      "z": -5395
+    }
+  },
+  {
+    "featureId": "deserters-refuge",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -1728,
+      "y": 139,
+      "z": -947
+    }
+  },
+  {
+    "featureId": "geyser-pit",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -1574,
+      "y": 31,
+      "z": -3205
+    }
+  },
+  {
+    "featureId": "magmastream-core",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -1026,
+      "y": 99,
+      "z": -3658
+    }
+  },
+  {
+    "featureId": "plague-laboratory",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -1834,
+      "y": 50,
+      "z": -5259
+    }
+  },
+  {
+    "featureId": "prison-of-souls",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": 50,
+      "y": 72,
+      "z": -487
+    }
+  },
+  {
+    "featureId": "rotten-passage",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": 320,
+      "y": 36,
+      "z": -2036
+    }
+  },
+  {
+    "featureId": "sunrise-canyon",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": 1418,
+      "y": 104,
+      "z": -1463
+    }
+  },
+  {
+    "featureId": "tribal-sanctuary",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": -712,
+      "y": 62,
+      "z": -658
+    }
+  },
+  {
+    "featureId": "unknown-area",
+    "categoryId": "wynntils:content:boss-altar",
+    "location": {
+      "x": 1296,
+      "y": 23,
+      "z": -4671
+    }
+  }
+]
