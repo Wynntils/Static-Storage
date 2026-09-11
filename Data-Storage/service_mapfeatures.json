@@ -4944,18 +4944,18 @@
     "featureId": "housing-balloon-11",
     "categoryId": "wynntils:service:housing-balloon",
     "location": {
-      "x": -839,
-      "y": 78,
-      "z": -918
+      "x": -843,
+      "y": 68,
+      "z": -1662
     }
   },
   {
     "featureId": "housing-balloon-12",
     "categoryId": "wynntils:service:housing-balloon",
     "location": {
-      "x": -835,
-      "y": 68,
-      "z": -1541
+      "x": -839,
+      "y": 78,
+      "z": -918
     }
   },
   {
