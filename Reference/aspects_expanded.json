@@ -12734,6 +12734,7 @@
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
                 "text": "⚔ ",
@@ -12748,13 +12749,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "(of your DPS, as Main Attack",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "damage)",
+                "text": "(of your DPS, as Main Attack damage)",
                 "color": "#555555"
               }
             ],
@@ -12796,6 +12791,7 @@
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
                 "text": "⚔ ",
@@ -12810,13 +12806,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "(of your DPS, as Main Attack",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "damage)",
+                "text": "(of your DPS, as Main Attack damage)",
                 "color": "#555555"
               }
             ],
@@ -12858,6 +12848,7 @@
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
                 "text": "⚔ ",
@@ -12872,13 +12863,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "(of your DPS, as Main Attack",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "damage)",
+                "text": "(of your DPS, as Main Attack damage)",
                 "color": "#555555"
               }
             ],
@@ -12920,6 +12905,7 @@
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
                 "text": "⚔ ",
@@ -12934,13 +12920,7 @@
                 "color": "#FFFFFF"
               },
               {
-                "text": "(of your DPS, as Main Attack",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "damage)",
+                "text": "(of your DPS, as Main Attack damage)",
                 "color": "#555555"
               }
             ],
@@ -14421,12 +14401,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " bonus effect is increased by ",
+                "text": "' positive buffs are ",
                 "color": "#AAAAAA"
               },
               {
                 "text": "1.15x",
                 "color": "#FFFFFF"
+              },
+              {
+                "text": " as strong.",
+                "color": "#AAAAAA"
               }
             ]
           ],
@@ -14441,12 +14425,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " bonus effect is increased by ",
+                "text": "' positive buffs are ",
                 "color": "#AAAAAA"
               },
               {
                 "text": "1.2x",
                 "color": "#FFFFFF"
+              },
+              {
+                "text": " as strong.",
+                "color": "#AAAAAA"
               }
             ]
           ],
@@ -14461,12 +14449,16 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " bonus effect is increased by ",
+                "text": "' positive buffs are ",
                 "color": "#AAAAAA"
               },
               {
                 "text": "1.25x",
                 "color": "#FFFFFF"
+              },
+              {
+                "text": " as strong.",
+                "color": "#AAAAAA"
               }
             ]
           ],
@@ -15870,7 +15862,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "0.5s",
+                "text": "0.3s",
                 "color": "#FFFFFF"
               },
               {
@@ -15894,7 +15886,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "0.5s",
+                "text": "0.3s",
                 "color": "#FFFFFF"
               },
               {
@@ -15941,7 +15933,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "0.5s",
+                "text": "0.3s",
                 "color": "#FFFFFF"
               },
               {
@@ -16131,7 +16123,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+6s",
+                "text": "30%",
                 "color": "#FFFFFF"
               },
               {
@@ -16150,11 +16142,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "5",
+                "text": "20%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "s longer.",
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ],
@@ -16169,7 +16161,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30%",
+                "text": "30%",
                 "color": "#FFFFFF"
               },
               {
@@ -16217,7 +16209,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+6s",
+                "text": "30%",
                 "color": "#FFFFFF"
               },
               {
@@ -16236,11 +16228,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "5",
+                "text": "20%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "s longer.",
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ],
@@ -16255,7 +16247,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30%",
+                "text": "30%",
                 "color": "#FFFFFF"
               },
               {
