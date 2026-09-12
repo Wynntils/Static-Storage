@@ -14801,11 +14801,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "+20%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " bounces.",
+                "text": " velocity.",
                 "color": "#AAAAAA"
               }
             ]
@@ -14825,11 +14825,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "+30%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " bounces.",
+                "text": " velocity.",
                 "color": "#AAAAAA"
               }
             ]
@@ -14849,11 +14849,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4",
+                "text": "+40%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " bounces.",
+                "text": " velocity.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15861,20 +15861,20 @@
           "description": [
             [
               {
-                "text": "Awakened",
+                "text": "Eye of the Storm",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " requires ",
+                "text": " strikes ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-30",
+                "text": "0.5s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " mana to activate.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15885,52 +15885,43 @@
           "description": [
             [
               {
-                "text": "Awakened",
+                "text": "Eye of the Storm",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " requires ",
+                "text": " strikes ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-30",
+                "text": "0.5s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " mana to activate.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ],
+            [],
             [
               {
-                "text": "Awakened",
-                "underline": true,
+                "text": "Increase your maximum ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": "Surge",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10s",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF55FF"
-              },
-              {
-                "text": " ",
-                "color": "#FF55FF"
-              },
-              {
-                "text": "Duration.",
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -15941,53 +15932,115 @@
           "description": [
             [
               {
-                "text": "Awakened",
+                "text": "Eye of the Storm",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " requires ",
+                "text": " strikes ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-50",
+                "text": "0.5s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " mana to activate.",
+                "text": " faster.",
                 "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Increase your maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Surge",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Increase the damage of your ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ritual Circle",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "",
+                "font": "common",
+                "color": "#FF5555"
+              },
+              {
+                "text": " ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS)",
+                "color": "#555555"
               }
             ],
             [
               {
-                "text": "Awakened",
-                "underline": true,
+                "text": "  ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
+                "text": "(",
+                "color": "#555555"
               },
               {
-                "text": "+15s",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FF55FF"
+                "color": "#FFAA00"
               },
               {
                 "text": " ",
-                "color": "#FF55FF"
+                "color": "#FFAA00"
               },
               {
-                "text": "Duration.",
-                "color": "#AAAAAA"
+                "text": "Damage: ",
+                "color": "#555555"
+              },
+              {
+                "text": "+10%",
+                "color": "#555555"
+              },
+              {
+                "text": ")",
+                "color": "#555555"
               }
             ]
           ],
