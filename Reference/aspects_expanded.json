@@ -12587,6 +12587,386 @@
         }
       }
     },
+    "Aspect of Bile Waters": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              62
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "internalName": "b336c3c0",
+      "name": "Aspect of Bile Waters",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Corroded",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Corroded",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Corroded",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.5%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Corroded",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " is ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " stronger.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
+    "Aspect of Damnation": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              62
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "internalName": "fb515ac3",
+      "name": "Aspect of Damnation",
+      "rarity": "legendary",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Malediction",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "⚔ ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+4% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS, as Main Attack",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "damage)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "   ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "✣ ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: +4%)",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Malediction",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "⚔ ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+6% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS, as Main Attack",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "damage)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "   ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "✣ ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: +6%)",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Malediction",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "⚔ ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS, as Main Attack",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "damage)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "   ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "✣ ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: +8%)",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Malediction",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s damage.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "⚔ ",
+                "color": "#FF5555"
+              },
+              {
+                "text": "Total Damage: ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10% ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "(of your DPS, as Main Attack",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "damage)",
+                "color": "#555555"
+              }
+            ],
+            [
+              {
+                "text": "   ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "(",
+                "color": "#555555"
+              },
+              {
+                "text": "✣ ",
+                "color": "#FFAA00"
+              },
+              {
+                "text": "Damage: +10%)",
+                "color": "#555555"
+              }
+            ]
+          ],
+          "threshold": 150
+        }
+      }
+    },
     "Aspect of Emanant Force": {
       "icon": {
         "format": "attribute",
@@ -14014,125 +14394,6 @@
         }
       }
     },
-    "Aspect of Seismic Sense": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              62
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectShaman"
-        }
-      },
-      "internalName": "e88be934",
-      "name": "Aspect of Seismic Sense",
-      "rarity": "fabled",
-      "requiredClass": "shaman",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Nature's Jolt",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1.25 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Nature's Jolt",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+2.25 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 15
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Nature's Jolt",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+3 ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 75
-        }
-      }
-    },
     "Aspect of Stances": {
       "icon": {
         "format": "attribute",
@@ -14210,138 +14471,6 @@
             ]
           ],
           "threshold": 75
-        }
-      }
-    },
-    "Aspect of Summer Storms": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              62
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectShaman"
-        }
-      },
-      "internalName": "fb515ac3",
-      "name": "Aspect of Summer Storms",
-      "rarity": "legendary",
-      "requiredClass": "shaman",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Storm Dance",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "10%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Storm Dance",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "15%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Storm Dance",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "20%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Storm Dance",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s pull strength by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "25%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
         }
       }
     },
@@ -15196,122 +15325,6 @@
         }
       }
     },
-    "Aspect of the Blurred Line": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              62
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectShaman"
-        }
-      },
-      "internalName": "b336c3c0",
-      "name": "Aspect of the Blurred Line",
-      "rarity": "legendary",
-      "requiredClass": "shaman",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Corporeal Manifestation",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " spins ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "25% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Corporeal Manifestation",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " spins ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "40% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Corporeal Manifestation",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " spins ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "55% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Corporeal Manifestation",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " spins ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "65% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "faster.",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
-        }
-      }
-    },
     "Aspect of the Bodyguard": {
       "icon": {
         "format": "attribute",
@@ -15471,28 +15484,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gain ",
+                "text": " applies stacks ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2",
+                "text": "0.1s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15508,28 +15508,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gain ",
+                "text": " applies stacks ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3.35",
+                "text": "0.15s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
-              },
-              {
-                "text": " ",
-                "color": "#00AAAA"
-              },
-              {
-                "text": "Area of Effect.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ]
@@ -15545,28 +15532,137 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gain ",
+                "text": " applies stacks ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4",
+                "text": "0.2s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
+                "text": " faster.",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Eternal Dance": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              62
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectShaman"
+        }
+      },
+      "internalName": "e88be934",
+      "name": "Aspect of the Eternal Dance",
+      "rarity": "fabled",
+      "requiredClass": "shaman",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase the maximum ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "",
-                "font": "common",
-                "color": "#00AAAA"
+                "text": "Ritual Circle",
+                "underline": true,
+                "color": "#AAAAAA"
               },
               {
-                "text": " ",
-                "color": "#00AAAA"
+                "text": " hits",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and radius by ",
+                "color": "#AAAAAA"
               },
               {
-                "text": "Area of Effect.",
+                "text": "+1",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase the maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ritual Circle",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " hits",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and radius by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 15
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase the maximum ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Ritual Circle",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " hits",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and radius by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+3",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -15992,26 +16088,20 @@
             ],
             [
               {
-                "text": "Sundered Skies",
+                "text": "Awakened",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "' delay between lightning",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "strikes is ",
+                "text": " lasts ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-0.3s",
+                "text": "5",
                 "color": "#FFFFFF"
               },
               {
-                "text": " shorter.",
+                "text": "s longer.",
                 "color": "#AAAAAA"
               }
             ],
@@ -16084,26 +16174,20 @@
             ],
             [
               {
-                "text": "Sundered Skies",
+                "text": "Awakened",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": "' delay between lightning",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "strikes is ",
+                "text": " lasts ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "-0.3s",
+                "text": "5",
                 "color": "#FFFFFF"
               },
               {
-                "text": " shorter.",
+                "text": "s longer.",
                 "color": "#AAAAAA"
               }
             ],
