@@ -23061,6 +23061,9 @@
       "baseWaterDefence": 10
     },
     "dropRestriction": "normal",
+    "elements": [
+      "air"
+    ],
     "emblem": "shield_5",
     "icon": {
       "format": "attribute",
@@ -174169,9 +174172,9 @@
         "raw": 1000
       },
       "manaSteal": {
-        "max": 33,
-        "min": 8,
-        "raw": 25
+        "max": 31,
+        "min": 7,
+        "raw": 24
       },
       "rawAgility": -550,
       "rawAttackSpeed": 1,
@@ -176710,9 +176713,9 @@
         "raw": 40
       },
       "thunderDamage": {
-        "max": 33,
+        "max": 35,
         "min": 8,
-        "raw": 25
+        "raw": 27
       }
     },
     "internalName": "Masterwork Sunstar",
@@ -176783,9 +176786,9 @@
         "raw": 50
       },
       "healingEfficiency": {
-        "max": -10,
-        "min": -19,
-        "raw": -15
+        "max": -13,
+        "min": -23,
+        "raw": -18
       },
       "healthRegen": {
         "max": -70,
