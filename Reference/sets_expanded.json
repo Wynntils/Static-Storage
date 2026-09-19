@@ -76,9 +76,9 @@
     },
     "internalName": "air relic",
     "parts": [
-      "Air Relic Helmet",
-      "Air Relic Chestplate",
       "Air Relic Boots",
+      "Air Relic Chestplate",
+      "Air Relic Helmet",
       "Air Relic Leggings"
     ]
   },
@@ -97,8 +97,8 @@
     },
     "internalName": "ascension",
     "parts": [
-      "Champion Chestplate",
       "Champion Boots",
+      "Champion Chestplate",
       "Champion Helmet",
       "Champion Leggings"
     ]
@@ -132,10 +132,10 @@
     },
     "internalName": "bandit's",
     "parts": [
+      "Bandit's Bangle",
       "Bandit's Locket",
-      "Bandit's Ring",
       "Bandit's Knuckle",
-      "Bandit's Bangle"
+      "Bandit's Ring"
     ]
   },
   "Beachside": {
@@ -152,8 +152,8 @@
     },
     "internalName": "beachside",
     "parts": [
-      "Beachside Headwrap",
-      "Beachside Conch"
+      "Beachside Conch",
+      "Beachside Headwrap"
     ]
   },
   "Bear": {
@@ -170,8 +170,8 @@
     "internalName": "bear",
     "parts": [
       "Bear Body",
-      "Bear Head",
-      "Bear Mask"
+      "Bear Mask",
+      "Bear Head"
     ]
   },
   "Black": {
@@ -206,10 +206,10 @@
     },
     "internalName": "black",
     "parts": [
-      "Black Tunic",
-      "Black Cap",
       "Black Boots",
-      "Black Pants"
+      "Black Tunic",
+      "Black Pants",
+      "Black Cap"
     ]
   },
   "Black Catalyst": {
@@ -272,8 +272,8 @@
     },
     "internalName": "bleeding",
     "parts": [
-      "Bleeding Body",
       "Bleeding Soles",
+      "Bleeding Body",
       "Bleeding Mind",
       "Bleeding Crura"
     ]
@@ -320,11 +320,11 @@
     "parts": [
       "Recursion",
       "Infinitesimal",
-      "Continuum",
+      "Fractal",
       "Divergence",
+      "Continuum",
       "Nonexistence",
-      "Aleph Null",
-      "Fractal"
+      "Aleph Null"
     ]
   },
   "Bovine": {
@@ -401,10 +401,10 @@
     },
     "internalName": "cindercurse",
     "parts": [
-      "Cindercurse Cuisses",
       "Cindercurse Curtana",
       "Cindercurse Crosier",
-      "Cindercurse Cuirass"
+      "Cindercurse Cuirass",
+      "Cindercurse Cuisses"
     ]
   },
   "Clock": {
@@ -476,13 +476,13 @@
     },
     "internalName": "clock",
     "parts": [
+      "Clock Boots",
       "Clock Mail",
-      "Clock Helm",
-      "Clock Leggings",
+      "Time Ring",
       "Clock Amulet",
       "Watch Bracelet",
-      "Clock Boots",
-      "Time Ring",
+      "Clock Helm",
+      "Clock Leggings",
       "Clockwork Ring"
     ]
   },
@@ -631,64 +631,64 @@
     },
     "internalName": "corrupted",
     "parts": [
+      "Blighted Seraph",
       "Rigor Mortis",
-      "Omnia Mors",
-      "Arterial Spray",
+      "Cauterizer",
+      "Viscera Burst",
       "Spinal Estoc",
+      "Arterial Spray",
+      "Omnia Mors",
+      "Backbiter",
       "Goredrinker",
+      "Infernus Aeterna",
       "Bloodbag",
+      "Fractured Lyre",
+      "Intestine Lasso",
       "Terminal Velocity",
+      "Sludge Slicer",
       "Dissever",
+      "Hecatomb",
+      "Boil Lance",
       "Bugbite",
-      "Golem's Arm",
       "Carnage Agglomerate",
-      "Fiend",
+      "Scumlord",
+      "Golem's Arm",
       "Treachery",
-      "Guard's Garment",
-      "Mutilated Corpse",
+      "Fiend",
+      "Woebegone",
+      "Repose",
+      "Empathy Purge",
+      "Desert Cyclone",
+      "Nevermore",
       "Isostatic Rebound",
+      "Molten Fleshmass",
+      "Mutilated Corpse",
+      "Guard's Garment",
+      "Sanguine Spaulder",
       "Ancient Jazerant",
-      "Jinxed Coif",
+      "Bloodied Chaps",
+      "Bloodied Wreath",
+      "Brainy Beanie",
       "Inclemency",
       "Mummy's Talisman",
       "Zombie Eye Pendant",
-      "Cauterizer",
-      "Intestine Lasso",
-      "Fractured Lyre",
-      "Sludge Slicer",
-      "Hecatomb",
-      "Sanguine Spaulder",
+      "Glaring Issue",
+      "Mesoskeleton",
+      "Purity Filter",
       "Brainbleed",
-      "Bloodied Wreath",
+      "Jinxed Coif",
+      "Blazing Bangle",
+      "Glass Skin",
+      "Grisly Gauntlet",
+      "Jagged Bone Necklace",
+      "Dogfight",
       "Giant's Kneecap",
-      "Brainy Beanie",
+      "Crumbling Foundation",
       "Cremation",
       "Living Slime",
       "Warsong",
       "Tainted Ruby",
-      "Rusted Cog",
-      "Blighted Seraph",
-      "Viscera Burst",
-      "Infernus Aeterna",
-      "Desert Cyclone",
-      "Nevermore",
-      "Glaring Issue",
-      "Mesoskeleton",
-      "Bloodied Chaps",
-      "Backbiter",
-      "Boil Lance",
-      "Scumlord",
-      "Empathy Purge",
-      "Woebegone",
-      "Repose",
-      "Molten Fleshmass",
-      "Crumbling Foundation",
-      "Blazing Bangle",
-      "Purity Filter",
-      "Grisly Gauntlet",
-      "Glass Skin",
-      "Jagged Bone Necklace",
-      "Dogfight"
+      "Rusted Cog"
     ]
   },
   "Cosmic": {
@@ -752,9 +752,9 @@
     },
     "internalName": "cosmic foundations",
     "parts": [
-      "Neutrino",
       "Fermion",
-      "Gravity"
+      "Gravity",
+      "Neutrino"
     ]
   },
   "Darkened": {
@@ -806,10 +806,10 @@
     "internalName": "desert",
     "parts": [
       "Desert Wretch",
+      "Desert Sands",
       "Desert Stalker",
       "Desert Winds",
-      "Desert Sepulcher",
-      "Desert Sands"
+      "Desert Sepulcher"
     ]
   },
   "Earth Relic": {
@@ -848,8 +848,8 @@
     "internalName": "earth relic",
     "parts": [
       "Earth Relic Boots",
-      "Earth Relic Helmet",
       "Earth Relic Chestplate",
+      "Earth Relic Helmet",
       "Earth Relic Leggings"
     ]
   },
@@ -889,10 +889,10 @@
     },
     "internalName": "elf",
     "parts": [
-      "Elf Robe",
       "Elf Shoes",
-      "Elf Pants",
-      "Elf Cap"
+      "Elf Robe",
+      "Elf Cap",
+      "Elf Pants"
     ]
   },
   "Empty": {
@@ -924,12 +924,12 @@
     "internalName": "empty",
     "parts": [
       "Empty Body",
-      "Empty Joy",
-      "Empty Agony",
+      "Empty Heart",
       "Empty Mind",
       "Empty Symphony",
       "Empty Cadenza",
-      "Empty Heart"
+      "Empty Agony",
+      "Empty Joy"
     ]
   },
   "Firemoss": {
@@ -957,9 +957,9 @@
     },
     "internalName": "firemoss",
     "parts": [
-      "Firemoss Band",
       "Firemoss Lyre",
-      "Firemoss Veil"
+      "Firemoss Veil",
+      "Firemoss Band"
     ]
   },
   "Flashfire": {
@@ -1019,11 +1019,11 @@
     },
     "internalName": "forgotten chronicles",
     "parts": [
-      "Clandestine",
       "Palimpsest",
       "Valediction",
       "Messenger",
-      "Dormancy"
+      "Dormancy",
+      "Clandestine"
     ]
   },
   "Ghostly": {
@@ -1069,10 +1069,10 @@
     },
     "internalName": "ghostly",
     "parts": [
-      "Ghostly Tunic",
-      "Ghostly Pants",
       "Ghostly Boots",
-      "Ghostly Cap"
+      "Ghostly Tunic",
+      "Ghostly Cap",
+      "Ghostly Pants"
     ]
   },
   "Goblin": {
@@ -1108,9 +1108,9 @@
     },
     "internalName": "goblin",
     "parts": [
+      "Goblin Runners",
       "Goblin Cloak",
-      "Goblin Hood",
-      "Goblin Runners"
+      "Goblin Hood"
     ]
   },
   "Hallowynn 2016": {
@@ -1125,8 +1125,8 @@
     },
     "internalName": "hallowynn 2016",
     "parts": [
-      "Treat",
-      "Trick"
+      "Trick",
+      "Treat"
     ]
   },
   "Horse": {
@@ -1195,8 +1195,8 @@
     },
     "internalName": "jester",
     "parts": [
-      "Jester Bracelet",
       "Jester Necklace",
+      "Jester Bracelet",
       "Jester Ring"
     ]
   },
@@ -1252,10 +1252,10 @@
     },
     "internalName": "leaf",
     "parts": [
-      "Leaf Tunic",
-      "Leaf Pants",
       "Leaf Boots",
-      "Leaf Cap"
+      "Leaf Tunic",
+      "Leaf Cap",
+      "Leaf Pants"
     ]
   },
   "Liffmail": {
@@ -1304,10 +1304,10 @@
     },
     "internalName": "liffmail",
     "parts": [
-      "Liffmail Chausses",
+      "Liffmail Sollerets",
       "Liffmail Hauberk",
       "Liffmail Coif",
-      "Liffmail Sollerets"
+      "Liffmail Chausses"
     ]
   },
   "Moirai": {
@@ -1345,9 +1345,9 @@
     },
     "internalName": "moirai",
     "parts": [
+      "Atropos",
       "Clotho",
-      "Lachesis",
-      "Atropos"
+      "Lachesis"
     ]
   },
   "Morph": {
@@ -1454,14 +1454,14 @@
     },
     "internalName": "morph",
     "parts": [
-      "Morph-Steel",
-      "Morph-Emerald",
       "Morph-Gold",
+      "Morph-Steel",
       "Morph-Stardust",
-      "Morph-Topaz",
-      "Morph-Iron",
       "Morph-Amethyst",
-      "Morph-Ruby"
+      "Morph-Ruby",
+      "Morph-Iron",
+      "Morph-Topaz",
+      "Morph-Emerald"
     ]
   },
   "Nether": {
@@ -1500,10 +1500,10 @@
     },
     "internalName": "nether",
     "parts": [
+      "Nether Boots",
       "Nether Tunic",
       "Nether Pants",
-      "Nether Cap",
-      "Nether Boots"
+      "Nether Cap"
     ]
   },
   "Nii": {
@@ -1531,9 +1531,9 @@
     },
     "internalName": "nii",
     "parts": [
+      "Corrupted Nii Mukluk",
       "Corrupted Nii Plate",
-      "Corrupted Nii Shako",
-      "Corrupted Nii Mukluk"
+      "Corrupted Nii Shako"
     ]
   },
   "Outlaw": {
@@ -1568,10 +1568,10 @@
     },
     "internalName": "outlaw",
     "parts": [
-      "Outlaw Cap",
+      "Outlaw Boots",
       "Outlaw Tunic",
       "Outlaw Pants",
-      "Outlaw Boots"
+      "Outlaw Cap"
     ]
   },
   "Petal": {
@@ -1618,8 +1618,8 @@
     },
     "internalName": "pigman",
     "parts": [
-      "Pigman Helmet",
-      "Pigman Battle Hammer"
+      "Pigman Battle Hammer",
+      "Pigman Helmet"
     ]
   },
   "Regal": {
@@ -1647,9 +1647,9 @@
     },
     "internalName": "regal",
     "parts": [
-      "Regal Pendant",
+      "Regal Sceptre",
       "Regal Crown",
-      "Regal Sceptre"
+      "Regal Pendant"
     ]
   },
   "Relic": {
@@ -1689,10 +1689,10 @@
     },
     "internalName": "relic",
     "parts": [
-      "Relic Helmet",
-      "Relic Leggings",
       "Relic Boots",
-      "Relic Chestplate"
+      "Relic Chestplate",
+      "Relic Leggings",
+      "Relic Helmet"
     ]
   },
   "Saint's": {
@@ -1736,8 +1736,8 @@
     },
     "internalName": "saint's",
     "parts": [
-      "Saint's Tunic",
       "Saint's Sandals",
+      "Saint's Tunic",
       "Saint's Shawl",
       "Saint's Leggings"
     ]
@@ -1767,9 +1767,9 @@
     },
     "internalName": "scrap",
     "parts": [
-      "Scrap Chausses",
+      "Scrap Cannon",
       "Scrap Bauble",
-      "Scrap Cannon"
+      "Scrap Chausses"
     ]
   },
   "Silverfish": {
@@ -1833,8 +1833,8 @@
     },
     "internalName": "skien's",
     "parts": [
-      "Skien's Fatigues",
       "Skien Boots",
+      "Skien's Fatigues",
       "Skien Leggings"
     ]
   },
@@ -1854,8 +1854,8 @@
     },
     "internalName": "slime",
     "parts": [
-      "Slime Plate",
-      "Slime Boots"
+      "Slime Boots",
+      "Slime Plate"
     ]
   },
   "Snail": {
@@ -1899,10 +1899,10 @@
     },
     "internalName": "snail",
     "parts": [
-      "Snail Leggings",
+      "Snail Boots",
       "Snail Mail",
       "Snail Helm",
-      "Snail Boots"
+      "Snail Leggings"
     ]
   },
   "Snow": {
@@ -1947,9 +1947,9 @@
     },
     "internalName": "snow",
     "parts": [
-      "Snow Helmet",
       "Snow Boots",
       "Snow Tunic",
+      "Snow Helmet",
       "Snow Pants"
     ]
   },
@@ -2038,10 +2038,10 @@
     "internalName": "synch core",
     "parts": [
       "Synchro Core",
-      "Hustle Core",
-      "Harden Core",
       "Overload Core",
-      "Dodge Core"
+      "Hustle Core",
+      "Dodge Core",
+      "Harden Core"
     ]
   },
   "Taiga Elk": {
@@ -2106,10 +2106,10 @@
     },
     "internalName": "thanos legionnaire",
     "parts": [
-      "Thanos Legionnaire Leggings",
+      "Thanos Legionnaire Greaves",
       "Thanos Legionnaire Plate",
       "Thanos Legionnaire Helm",
-      "Thanos Legionnaire Greaves"
+      "Thanos Legionnaire Leggings"
     ]
   },
   "Thunder Relic": {
@@ -2147,9 +2147,9 @@
     },
     "internalName": "thunder relic",
     "parts": [
+      "Thunder Relic Boots",
       "Thunder Relic Chestplate",
       "Thunder Relic Helmet",
-      "Thunder Relic Boots",
       "Thunder Relic Leggings"
     ]
   },
@@ -2213,10 +2213,10 @@
     },
     "internalName": "tribal",
     "parts": [
-      "Tribal Tunic",
       "Tribal Boots",
-      "Tribal Cap",
-      "Tribal Pants"
+      "Tribal Tunic",
+      "Tribal Pants",
+      "Tribal Cap"
     ]
   },
   "Ultramarine": {
@@ -2259,8 +2259,8 @@
     "parts": [
       "Ultramarine Boots",
       "Ultramarine Cape",
-      "Ultramarine Crown",
-      "Ultramarine Belt"
+      "Ultramarine Belt",
+      "Ultramarine Crown"
     ]
   },
   "Uth": {
@@ -2288,8 +2288,8 @@
     },
     "internalName": "uth",
     "parts": [
-      "Corrupted Uth Plume",
       "Corrupted Uth Sandals",
+      "Corrupted Uth Plume",
       "Corrupted Uth Belt"
     ]
   },
@@ -2367,10 +2367,10 @@
     },
     "internalName": "visceral",
     "parts": [
-      "Visceral Chest",
-      "Visceral Legs",
       "Visceral Toe",
-      "Visceral Skullcap"
+      "Visceral Chest",
+      "Visceral Skullcap",
+      "Visceral Legs"
     ]
   },
   "Voidglass": {
@@ -2410,9 +2410,9 @@
     "internalName": "voidglass",
     "parts": [
       "Voidglass Striders",
+      "Voidglass Cloak",
       "Voidglass Crown",
-      "Voidglass Greaves",
-      "Voidglass Cloak"
+      "Voidglass Greaves"
     ]
   },
   "Water Relic": {
@@ -2484,10 +2484,10 @@
     },
     "internalName": "wynnterfest 2016",
     "parts": [
-      "Yellow Ornament",
-      "Blue Ornament",
       "Red Ornament",
-      "Green Ornament"
+      "Green Ornament",
+      "Blue Ornament",
+      "Yellow Ornament"
     ]
   },
   "X-PM": {
@@ -2523,8 +2523,8 @@
     },
     "internalName": "x-pm",
     "parts": [
-      "X-PM2 Insurgency",
       "X-PM4 Deadlock",
+      "X-PM2 Insurgency",
       "X-PM1 Adjudicator",
       "X-PM3 Exclusion Zone"
     ]
@@ -2564,8 +2564,8 @@
     },
     "internalName": "fire relic",
     "parts": [
-      "Fire Relic Chestplate",
       "Fire Relic Boots",
+      "Fire Relic Chestplate",
       "Fire Relic Helmet",
       "Fire Relic Leggings"
     ]
