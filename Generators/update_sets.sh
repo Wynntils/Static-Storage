@@ -39,8 +39,9 @@ if jq -e '(length == 2 and has("message") and has("request_id")) or has("error")
     exit
 fi
 
-# Sort the items and keys in the json file, since the Wynncraft API is not stable in its order
-jq --sort-keys -r '.' < sets.json.tmp > sets.json.tmp2
+# Sort the items within each set alphabetically, and sort all JSON keys,
+# since the Wynncraft API is not stable in its order.
+jq 'map_values(if .items then .items |= sort else . end)' --sort-keys -r < sets.json.tmp > sets.json.tmp2
 # Minimalize the json file
 jq -c < sets.json.tmp2 > sets.json
 rm sets.json.tmp sets.json.tmp2
