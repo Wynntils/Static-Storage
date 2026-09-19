@@ -7,7 +7,7 @@ on:
     - cron: '0 * * * *' # Runs every hour
 
 jobs:
-  update-gear-data:
+  update-ingredient-data:
     runs-on: ubuntu-latest
     env:
       WYNNCRAFT_API_KEY: ${{ secrets.WYNNCRAFT_API_KEY }}
