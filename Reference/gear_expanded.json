@@ -13568,7 +13568,7 @@
   },
   "Apsara": {
     "attackSpeed": "slow",
-    "averageDps": 390,
+    "averageDps": 435,
     "base": {
       "baseDamage": {
         "max": 95,
@@ -17109,6 +17109,65 @@
     "subType": "relik",
     "tier": "rare",
     "type": "weapon"
+  },
+  "Ashes to Ashes": {
+    "base": {
+      "baseEarthDefence": 195,
+      "baseHealth": 3200,
+      "baseThunderDefence": 90,
+      "baseWaterDefence": -130
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "shield_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            9
+          ]
+        },
+        "id": "minecraft:leather_leggings",
+        "name": "leggings.titanium"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": 14,
+        "min": 26,
+        "raw": 20
+      },
+      "damage": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      },
+      "lifeSteal": {
+        "max": -280,
+        "min": -520,
+        "raw": -400
+      },
+      "raw1stSpellCost": 1,
+      "rawAttackSpeed": 1,
+      "rawDamage": {
+        "max": 220,
+        "min": 51,
+        "raw": 169
+      },
+      "rawDefence": -10,
+      "rawStrength": 12
+    },
+    "internalName": "Ashes to Ashes",
+    "requirements": {
+      "dexterity": 75,
+      "level": 106
+    },
+    "subType": "leggings",
+    "tier": "fabled",
+    "type": "armour"
   },
   "Ashfall Amulet": {
     "base": {
@@ -48918,7 +48977,7 @@
     "internalName": "Chaos Theory",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>War does not bring destruction. With war comes chaos, and with chaos comes destruction.</span>",
     "majorIds": {
-      "Uncertainty Principle": "<span class='font-ascii' style='color:#AAAAAA'>Arrow and Grape Bombs gain +1 radius and phase through enemies. Bouncing Bomb has decreased velocity and gains +1 bounces, and Grape Bombs gain increased randomness and +2 projectiles.</span>"
+      "Uncertainty Principle": "<span class='font-ascii' style='color:#AAAAAA'>\nArrow and Grape Bombs gain +1 radius and phase through enemies. Bouncing Bomb has decreased velocity and gains +1 bounces, and Grape Bombs gain increased randomness and +2 projectiles.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -48935,7 +48994,7 @@
     "jsonMajorIds": {
       "Uncertainty Principle": [
         {
-          "text": "Arrow and Grape Bombs gain +1 radius and phase through enemies. Bouncing Bomb has decreased velocity and gains +1 bounces, and Grape Bombs gain increased randomness and +2 projectiles.",
+          "text": "\nArrow and Grape Bombs gain +1 radius and phase through enemies. Bouncing Bomb has decreased velocity and gains +1 bounces, and Grape Bombs gain increased randomness and +2 projectiles.",
           "color": "#AAAAAA"
         }
       ]
@@ -73773,7 +73832,7 @@
   },
   "Demonomicon": {
     "attackSpeed": "slow",
-    "averageDps": 841,
+    "averageDps": 828,
     "base": {
       "baseDamage": {
         "max": 700,
@@ -77952,7 +78011,7 @@
     },
     "identified": true,
     "internalName": "Diamond Static Necklace",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The lethal amount of electricity emmited from this often desired necklace fails to kill you, as its pure energy runs through your veins.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The lethal amount of electricity emitted from this often desired necklace fails to kill you, as its pure energy runs through your veins.</span>",
     "requirements": {
       "dexterity": 100,
       "level": 95
@@ -101669,6 +101728,53 @@
     "tier": "rare",
     "type": "accessory"
   },
+  "Fearmonger": {
+    "base": {
+      "baseAirDefence": -130,
+      "baseHealth": -3300,
+      "baseThunderDefence": -130,
+      "baseWaterDefence": -300
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder",
+      "air"
+    ],
+    "emblem": "shield_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            8
+          ]
+        },
+        "id": "minecraft:leather_boots",
+        "name": "boots.diamond"
+      }
+    },
+    "identifications": {
+      "knockback": 75,
+      "mainAttackRange": -20,
+      "rawAttackSpeed": -30,
+      "rawIntelligence": -10,
+      "rawMainAttackDamage": 2700,
+      "rawSpellDamage": -84213,
+      "walkSpeed": 80
+    },
+    "identified": true,
+    "internalName": "Fearmonger",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'> \"There's... nothing here?\" </span>",
+    "requirements": {
+      "agility": 60,
+      "dexterity": 60,
+      "level": 105
+    },
+    "restriction": "untradable",
+    "subType": "boots",
+    "tier": "legendary",
+    "type": "armour"
+  },
   "Featherweight": {
     "base": {
       "baseHealth": 18
@@ -120750,6 +120856,60 @@
     "tier": "rare",
     "type": "accessory"
   },
+  "Gift of Life": {
+    "base": {
+      "baseAirDefence": 78,
+      "baseEarthDefence": 177,
+      "baseFireDefence": 34,
+      "baseHealth": 3863,
+      "baseThunderDefence": 132,
+      "baseWaterDefence": 63
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "earth",
+      "thunder"
+    ],
+    "emblem": "shield_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            9
+          ]
+        },
+        "id": "minecraft:leather_helmet",
+        "name": "helmet.titanium"
+      }
+    },
+    "identifications": {
+      "damage": 13,
+      "earthDefence": 53,
+      "healthRegenRaw": -334,
+      "lifeSteal": 546,
+      "mainAttackRange": 84,
+      "neutralDamage": 38,
+      "rawAgility": 1,
+      "rawDefence": 1,
+      "rawDexterity": 1,
+      "rawIntelligence": 1,
+      "rawStrength": 1
+    },
+    "identified": true,
+    "internalName": "Gift of Life",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'> \"Now, dance for me! Hehehahehah!\" </span>",
+    "powderSlots": 7,
+    "requirements": {
+      "dexterity": 53,
+      "level": 116,
+      "strength": 71
+    },
+    "restriction": "untradable",
+    "subType": "helmet",
+    "tier": "legendary",
+    "type": "armour"
+  },
   "Gift of the Magi": {
     "attackSpeed": "fast",
     "averageDps": 506,
@@ -135149,7 +135309,7 @@
     "internalName": "Heretic",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>What once crowned the Commander of Aelumia's Gendarmerie, now reduced to a singed fragment of its former self.</span>",
     "majorIds": {
-      "Burnt Shadows": "<span class='font-ascii' style='color:#AAAAAA'>Buried Light burns faster and is controlled by the direction you face. Enemies in the light instead take <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>120%</span>.</span></span>"
+      "Burnt Shadows": "<span class='font-ascii' style='color:#AAAAAA'>Buried Light has faster travel speed and damage, and is controlled by the direction you face. Enemies in the light instead take <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>120%</span> and recieve 10% more damage.</span></span>"
     },
     "powderSlots": 4,
     "requirements": {
@@ -135163,7 +135323,7 @@
     "jsonMajorIds": {
       "Burnt Shadows": [
         {
-          "text": "Buried Light burns faster and is controlled by the direction you face. Enemies in the light instead take ",
+          "text": "Buried Light has faster travel speed and damage, and is controlled by the direction you face. Enemies in the light instead take ",
           "color": "#AAAAAA"
         },
         {
@@ -135176,7 +135336,7 @@
           "color": "#FF5555"
         },
         {
-          "text": ".",
+          "text": " and recieve 10% more damage.",
           "color": "#AAAAAA"
         }
       ]
@@ -158500,6 +158660,50 @@
     "subType": "relik",
     "tier": "unique",
     "type": "weapon"
+  },
+  "Last Rites": {
+    "base": {
+      "baseAirDefence": 20,
+      "baseHealth": 575,
+      "baseThunderDefence": 20,
+      "baseWaterDefence": 20
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "air"
+    ],
+    "emblem": "shield_3",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            12
+          ]
+        },
+        "id": "minecraft:leather_boots",
+        "name": "boots.pale_chainmail"
+      }
+    },
+    "identifications": {
+      "lifeSteal": 75,
+      "manaSteal": 8,
+      "reflection": 20,
+      "spellDamage": 20,
+      "walkSpeed": -10
+    },
+    "identified": true,
+    "internalName": "Last Rites",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>I         ,        ;                , t      o  '   l   d'       ;              y   ' o   u  ,                t    o   ' ,     .       ;    . s   , t      '     a .    y       ,         ;                                                              a  '     w   ;   ,a      . y</span>",
+    "powderSlots": 2,
+    "requirements": {
+      "agility": 35,
+      "level": 52
+    },
+    "restriction": "untradable",
+    "subType": "boots",
+    "tier": "rare",
+    "type": "armour"
   },
   "Last Stand": {
     "base": {
@@ -289948,7 +290152,7 @@
     "internalName": "The Incomprehensible",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>After eons spent in parochial search for something familiar, perhaps this blade should have been a hint to think outside the box.</span>",
     "majorIds": {
-      "Wormhole": "<span class='font-ascii' style='color:#AAAAAA'>Mirror and Shadow clones will cast Meteor with Last Laugh. Malicious Mockery causes Meteor to apply 13 Trick stacks.</span>"
+      "Wormhole": "<span class='font-ascii' style='color:#AAAAAA'>Clones instead cast Meteor with Last Laugh. Malicious Mockery causes Meteor to apply 13 Trick stacks.</span>"
     },
     "powderSlots": 1,
     "requirements": {
@@ -289964,7 +290168,7 @@
     "jsonMajorIds": {
       "Wormhole": [
         {
-          "text": "Mirror and Shadow clones will cast Meteor with Last Laugh. Malicious Mockery causes Meteor to apply 13 Trick stacks.",
+          "text": "Clones instead cast Meteor with Last Laugh. Malicious Mockery causes Meteor to apply 13 Trick stacks.",
           "color": "#AAAAAA"
         }
       ]
@@ -325635,7 +325839,7 @@
   },
   "Wraith": {
     "attackSpeed": "veryFast",
-    "averageDps": 640,
+    "averageDps": 680,
     "base": {
       "baseAirDamage": {
         "max": 140,
