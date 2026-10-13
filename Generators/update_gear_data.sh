@@ -51,7 +51,7 @@ jq --slurpfile invalid_identifications "$DATA_STORAGE/invalid_identifications.js
                 | if $baseName == null then
                     error("Missing displayName/name/internalName in gear payload")
                   elif ((.internalName // "") | startswith("Masterwork ")) and ((.tier // "") == "mythic") then
-                    ("Masterwork " + $baseName)
+                    ("Masterwork " + ($baseName | gsub("֎"; "")))
                   else
                     $baseName
                   end
