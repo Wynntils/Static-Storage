@@ -174523,7 +174523,7 @@
     "tier": "mythic",
     "type": "weapon"
   },
-  "Masterwork Fatal֎": {
+  "Masterwork Fatal": {
     "attackSpeed": "veryFast",
     "averageDps": 513,
     "base": {
@@ -206337,7 +206337,7 @@
     },
     "identified": true,
     "internalName": "Phantasmal Hostage",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A soul sacrificed willingly, to an eternity in captivity. Imprints and memories; all that remain of a hero of the lands.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands.</span>",
     "requirements": {
       "agility": 50,
       "intelligence": 65,
