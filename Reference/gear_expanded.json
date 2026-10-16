@@ -16778,6 +16778,1845 @@
     "tier": "rare",
     "type": "armour"
   },
+  "Ascended Aftershock": {
+    "attackSpeed": "superSlow",
+    "averageDps": 768,
+    "base": {
+      "baseDamage": {
+        "max": 110,
+        "min": 100,
+        "raw": 100
+      },
+      "baseEarthDamage": {
+        "max": 1500,
+        "min": 1300,
+        "raw": 1300
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "earth"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3678
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "relik.earth3"
+      }
+    },
+    "identifications": {
+      "4thSpellCost": {
+        "max": -55,
+        "min": -13,
+        "raw": -42
+      },
+      "earthDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "earthDefence": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "exploding": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "rawDefence": 20,
+      "rawHealth": {
+        "max": 2405,
+        "min": 555,
+        "raw": 1850
+      },
+      "rawStrength": 20,
+      "slowEnemy": {
+        "max": 16,
+        "min": 4,
+        "raw": 12
+      },
+      "spellDamage": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      }
+    },
+    "internalName": "Masterwork Aftershock",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The Fracturing brought Ahms into a shattered sky, sundering cliffs into an archipelago against the void. The tremors that linger carry an ancient power, bringing mountains to heel with ease and leaving devastation in its wake.</span>",
+    "powderSlots": 4,
+    "requirements": {
+      "classRequirement": "shaman",
+      "level": 100,
+      "strength": 80
+    },
+    "restriction": "none",
+    "subType": "relik",
+    "tier": "mythic",
+    "type": "weapon"
+  },
+  "Ascended Apocalypse": {
+    "attackSpeed": "superSlow",
+    "averageDps": 599,
+    "base": {
+      "baseDamage": {
+        "max": 575,
+        "min": 375,
+        "raw": 375
+      },
+      "baseFireDamage": {
+        "max": 850,
+        "min": 550,
+        "raw": 550
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "fire"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3845
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "spear.fire3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": -32,
+        "min": -7,
+        "raw": -25
+      },
+      "exploding": {
+        "max": 60,
+        "min": 14,
+        "raw": 46
+      },
+      "fireDefence": {
+        "max": 325,
+        "min": 75,
+        "raw": 250
+      },
+      "fireMainAttackDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "healthRegen": {
+        "max": -87,
+        "min": -162,
+        "raw": -125
+      },
+      "lifeSteal": {
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
+      },
+      "mainAttackRange": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "rawDefence": 35,
+      "waterDamage": {
+        "max": -35,
+        "min": -65,
+        "raw": -50
+      },
+      "waterDefence": {
+        "max": -49,
+        "min": -91,
+        "raw": -70
+      }
+    },
+    "internalName": "Masterwork Apocalypse",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.</span>",
+    "majorIds": {
+      "Hellfire": "<span class='font-ascii' style='color:#AAAAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+85%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+10%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+60%</span>, but further delays Final Crush. Boiling Blood's cooldown is set to 2s, deals <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+40%</span>, <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+50%</span>, and burns twice as fast for 1s.</span></span></span></span></span></span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "warrior",
+      "defence": 95,
+      "level": 102
+    },
+    "restriction": "none",
+    "subType": "spear",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Hellfire": [
+        {
+          "text": "Bash is replaced by a single hit, gaining +3 radius and dealing ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FFAA00"
+        },
+        {
+          "text": "+85%",
+          "color": "#FFAA00"
+        },
+        {
+          "text": ", ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#00AA00"
+        },
+        {
+          "text": "+10%",
+          "color": "#00AA00"
+        },
+        {
+          "text": ", and ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FF5555"
+        },
+        {
+          "text": "+60%",
+          "color": "#FF5555"
+        },
+        {
+          "text": ", but further delays Final Crush. Boiling Blood's cooldown is set to 2s, deals ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FFAA00"
+        },
+        {
+          "text": "+40%",
+          "color": "#FFAA00"
+        },
+        {
+          "text": ", ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FF5555"
+        },
+        {
+          "text": "+50%",
+          "color": "#FF5555"
+        },
+        {
+          "text": ", and burns twice as fast for 1s.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Archangel": {
+    "attackSpeed": "fast",
+    "averageDps": 600,
+    "base": {
+      "baseAirDamage": {
+        "max": 200,
+        "min": 180,
+        "raw": 180
+      },
+      "baseDamage": {
+        "max": 70,
+        "min": 30,
+        "raw": 30
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "air"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3804
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "spear.air3"
+      }
+    },
+    "identifications": {
+      "healthRegen": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
+      "healthRegenRaw": {
+        "max": 637,
+        "min": 147,
+        "raw": 490
+      },
+      "mainAttackRange": {
+        "max": 163,
+        "min": 38,
+        "raw": 125
+      },
+      "rawAgility": 15,
+      "rawDefence": 10,
+      "rawHealth": {
+        "max": 2470,
+        "min": 570,
+        "raw": 1900
+      },
+      "walkSpeed": {
+        "max": 53,
+        "min": 12,
+        "raw": 41
+      },
+      "weakenEnemy": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Masterwork Archangel",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The unwieldy, yet imposing stature of this massive sickle strikes awe into those who view it. Those who have the will to wield it, however, seem to garner respect from all those around them, as though they had become a god.</span>",
+    "majorIds": {
+      "Grand Influence": "<span class='font-ascii' style='color:#AAAAAA'>While above 80% maximum health, allies within 12 blocks gain 15% increased health gain from all sources and 25% Walk Speed.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 70,
+      "classRequirement": "assassin",
+      "level": 94
+    },
+    "restriction": "none",
+    "subType": "dagger",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Grand Influence": [
+        {
+          "text": "While above 80% maximum health, allies within 12 blocks gain 15% increased health gain from all sources and 25% Walk Speed.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Az": {
+    "attackSpeed": "fast",
+    "averageDps": 720,
+    "base": {
+      "baseDamage": {
+        "max": 190,
+        "min": 120,
+        "raw": 120
+      },
+      "baseThunderDamage": {
+        "max": 265,
+        "min": 1,
+        "raw": 1
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            384
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "bow.thunder3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": -30,
+        "min": -7,
+        "raw": -23
+      },
+      "3rdSpellCost": {
+        "max": -32,
+        "min": -7,
+        "raw": -25
+      },
+      "combatExperience": {
+        "max": 20,
+        "min": 5,
+        "raw": 15
+      },
+      "fireDamage": {
+        "max": 100,
+        "min": 23,
+        "raw": 77
+      },
+      "rawDefence": 15,
+      "rawIntelligence": 15,
+      "waterDamage": {
+        "max": 100,
+        "min": 23,
+        "raw": 77
+      }
+    },
+    "internalName": "Masterwork Az",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Mysterious runes, held by inexplicable ancient guardians, were once moulded together for study purposes. The experiment went awry, as the runic words Nii, Az, and Ek were combined in a reaction that resulted in the collapse of a civilization.</span>",
+    "majorIds": {
+      "Fallout": "<span class='font-ascii' style='color:#AAAAAA'>Bomb Arrow gains +7.5 area, <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+50%</span>, severely increased recoil, and <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>25%</span> self-damage.</span></span></span>"
+    },
+    "powderSlots": 5,
+    "requirements": {
+      "classRequirement": "archer",
+      "dexterity": 80,
+      "level": 98
+    },
+    "restriction": "none",
+    "subType": "bow",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Fallout": [
+        {
+          "text": "Bomb Arrow gains +7.5 area, ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FF5555"
+        },
+        {
+          "text": "+50%",
+          "color": "#FF5555"
+        },
+        {
+          "text": ", severely increased recoil, and ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FFAA00"
+        },
+        {
+          "text": "25%",
+          "color": "#FFAA00"
+        },
+        {
+          "text": " self-damage.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Cataclysm": {
+    "attackSpeed": "superFast",
+    "averageDps": 968,
+    "base": {
+      "baseDamage": {
+        "max": 120,
+        "min": 25,
+        "raw": 25
+      },
+      "baseThunderDamage": {
+        "max": 260,
+        "min": 45,
+        "raw": 45
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            875
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "dagger.thunder3"
+      }
+    },
+    "identifications": {
+      "raw1stSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
+      "raw3rdSpellCost": {
+        "max": -5,
+        "min": -1,
+        "raw": -4
+      },
+      "rawDexterity": 30,
+      "rawHealth": {
+        "max": -4200,
+        "min": -7800,
+        "raw": -6000
+      },
+      "stealing": {
+        "max": 7,
+        "min": 2,
+        "raw": 5
+      },
+      "thorns": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "thunderDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      }
+    },
+    "internalName": "Masterwork Cataclysm",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Despite the existence of the Nether Portal, few believe that it is possible to open such rifts with sheer force alone. None believe that a tool with enough power to accomplish such a monumental feat could exist. And yet...</span>",
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "assassin",
+      "dexterity": 120,
+      "level": 113
+    },
+    "restriction": "none",
+    "subType": "dagger",
+    "tier": "mythic",
+    "type": "weapon"
+  },
+  "Ascended Divzer": {
+    "attackSpeed": "superFast",
+    "averageDps": 1021,
+    "base": {
+      "baseDamage": {
+        "max": 24,
+        "min": 23,
+        "raw": 23
+      },
+      "baseThunderDamage": {
+        "max": 214,
+        "min": 214,
+        "raw": 214
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            384
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "bow.thunder3"
+      }
+    },
+    "identifications": {
+      "fireDamage": {
+        "max": -385,
+        "min": -715,
+        "raw": -550
+      },
+      "lifeSteal": {
+        "max": 1300,
+        "min": 300,
+        "raw": 1000
+      },
+      "manaSteal": {
+        "max": 31,
+        "min": 7,
+        "raw": 24
+      },
+      "rawAgility": -550,
+      "rawAttackSpeed": 1,
+      "rawDefence": -73,
+      "rawDexterity": 37,
+      "rawMainAttackDamage": {
+        "max": 845,
+        "min": 195,
+        "raw": 650
+      },
+      "rawSpellDamage": {
+        "max": 350,
+        "min": 81,
+        "raw": 269
+      },
+      "waterDamage": {
+        "max": -385,
+        "min": -715,
+        "raw": -550
+      }
+    },
+    "internalName": "Masterwork Divzer",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Unruly magics of void and darkness are tamed within this bow's string. While those energies are never to be released, arrows fired from it fire at such blinding speeds so as to phase out of existence when they hit their target.</span>",
+    "majorIds": {
+      "Phase Vector": "<span class='font-ascii' style='color:#AAAAAA'>Shocking Bomb and Arrow Storm become lightning fast with reduced spread.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "archer",
+      "dexterity": 115,
+      "level": 111
+    },
+    "restriction": "none",
+    "subType": "bow",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Phase Vector": [
+        {
+          "text": "Shocking Bomb and Arrow Storm become lightning fast with reduced spread.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Epoch": {
+    "attackSpeed": "superSlow",
+    "averageDps": 877,
+    "base": {
+      "baseAirDamage": {
+        "max": 600,
+        "min": 530,
+        "raw": 530
+      },
+      "baseDamage": {
+        "max": 660,
+        "min": 520,
+        "raw": 520
+      },
+      "baseThunderDamage": {
+        "max": 620,
+        "min": 510,
+        "raw": 510
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder",
+      "air"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            304
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "bow.basicGold"
+      }
+    },
+    "identifications": {
+      "lifeSteal": {
+        "max": 1200,
+        "min": 277,
+        "raw": 923
+      },
+      "mainAttackRange": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "manaSteal": {
+        "max": -4,
+        "min": -8,
+        "raw": -6
+      },
+      "raw1stSpellCost": {
+        "max": -6,
+        "min": -1,
+        "raw": -5
+      },
+      "raw4thSpellCost": {
+        "max": -6,
+        "min": -1,
+        "raw": -5
+      },
+      "rawMainAttackDamage": {
+        "max": 1000,
+        "min": 231,
+        "raw": 769
+      },
+      "spellDamage": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "sprint": {
+        "max": 91,
+        "min": 21,
+        "raw": 70
+      },
+      "walkSpeed": {
+        "max": -14,
+        "min": -26,
+        "raw": -20
+      }
+    },
+    "internalName": "Masterwork Epoch",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>This ornate bow holds a sinister beauty. Each rediscovery marks impending disaster, against any force that attempts to overcome it. Such is the inevitability of fate: irreverent to the will of masses, an epoch starts anew.</span>",
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 70,
+      "classRequirement": "archer",
+      "dexterity": 70,
+      "level": 114
+    },
+    "restriction": "none",
+    "subType": "bow",
+    "tier": "mythic",
+    "type": "weapon"
+  },
+  "Ascended Fatal": {
+    "attackSpeed": "veryFast",
+    "averageDps": 513,
+    "base": {
+      "baseThunderDamage": {
+        "max": 330,
+        "min": 1,
+        "raw": 1
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            4368
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "wand.thunder3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": 20,
+        "min": 36,
+        "raw": 28
+      },
+      "2ndSpellCost": {
+        "max": -64,
+        "min": -15,
+        "raw": -49
+      },
+      "3rdSpellCost": {
+        "max": -19,
+        "min": -4,
+        "raw": -15
+      },
+      "manaSteal": {
+        "max": 14,
+        "min": 3,
+        "raw": 11
+      },
+      "rawDexterity": 25,
+      "spellDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "walkSpeed": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      }
+    },
+    "internalName": "Masterwork Fatal",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A mage by the name of Lero claims to have harnessed the sheer power of lightning using a magical staff, however, the weapon is very unreliable in a pinch.</span>",
+    "majorIds": {
+      "Unstable Reaction": "<span class='font-ascii' style='color:#AAAAAA'>Judrajim no longer ramps in damage after each hit. When it expires, it releases 115% of its potential in an explosion of 20 blocks.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "mage",
+      "dexterity": 110,
+      "level": 111
+    },
+    "restriction": "none",
+    "subType": "wand",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Unstable Reaction": [
+        {
+          "text": "Judrajim no longer ramps in damage after each hit. When it expires, it releases 115% of its potential in an explosion of 20 blocks.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Guardian": {
+    "attackSpeed": "normal",
+    "averageDps": 533,
+    "base": {
+      "baseDamage": {
+        "max": 95,
+        "min": 50,
+        "raw": 50
+      },
+      "baseFireDamage": {
+        "max": 220,
+        "min": 155,
+        "raw": 155
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "fire"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3845
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "spear.fire3"
+      }
+    },
+    "identifications": {
+      "earthDefence": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "fireDefence": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "healthRegenRaw": {
+        "max": 1170,
+        "min": 270,
+        "raw": 900
+      },
+      "manaRegen": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "rawDefence": 20,
+      "rawHealth": {
+        "max": 10000,
+        "min": 2308,
+        "raw": 7692
+      },
+      "thorns": {
+        "max": 33,
+        "min": 8,
+        "raw": 25
+      },
+      "waterDefence": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      }
+    },
+    "internalName": "Masterwork Guardian",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A vow of protection hangs over this spear, now inhabited by the spirit of a legendary heroine. Even simply a glimpse of the burning blade will instill a feeling of protection and security, and that feeling will hold true if one is brave enough to wield it.</span>",
+    "majorIds": {
+      "Heroine's Blessing": "<span class='font-ascii' style='color:#AAAAAA'>Devout Union gains +25% damage redirection and +8 radius. Additionally, Mantles given by Enlightenment have +20% damage reduction.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "warrior",
+      "defence": 110,
+      "level": 109
+    },
+    "restriction": "none",
+    "subType": "spear",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Heroine's Blessing": [
+        {
+          "text": "Devout Union gains +25% damage redirection and +8 radius. Additionally, Mantles given by Enlightenment have +20% damage reduction.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Idol": {
+    "attackSpeed": "normal",
+    "averageDps": 584,
+    "base": {
+      "baseWaterDamage": {
+        "max": 330,
+        "min": 240,
+        "raw": 240
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "water"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3901
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "spear.water3"
+      }
+    },
+    "identifications": {
+      "manaRegen": {
+        "max": 23,
+        "min": 5,
+        "raw": 18
+      },
+      "raw2ndSpellCost": {
+        "max": -78,
+        "min": -18,
+        "raw": -60
+      },
+      "rawIntelligence": 26,
+      "rawSpellDamage": {
+        "max": 490,
+        "min": 113,
+        "raw": 377
+      },
+      "reflection": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "waterDefence": {
+        "max": 36,
+        "min": 8,
+        "raw": 28
+      }
+    },
+    "internalName": "Masterwork Idol",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Intricate carvings and images, almost like that of a totem pole, cover the shaft of this marvelous trident, dredged up from the Seavale Reef. Foreign magics heighten the senses of its user in battle, but also instills a longing for the ocean. Many have succumbed to this urge and drowned themselves.</span>",
+    "majorIds": {
+      "Tidal Drift": "<span class='font-ascii' style='color:#AAAAAA'>Flying Kick will instead send you forwards. This effect is limited to once per Charge cast.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "warrior",
+      "intelligence": 120,
+      "level": 111
+    },
+    "restriction": "none",
+    "subType": "spear",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Tidal Drift": [
+        {
+          "text": "Flying Kick will instead send you forwards. This effect is limited to once per Charge cast.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Immolation": {
+    "attackSpeed": "slow",
+    "averageDps": 1020,
+    "base": {
+      "baseAirDamage": {
+        "max": 355,
+        "min": 325,
+        "raw": 325
+      },
+      "baseFireDamage": {
+        "max": 475,
+        "min": 205,
+        "raw": 205
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "fire",
+      "air"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3686
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "relik.fire3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": -25,
+        "min": -6,
+        "raw": -19
+      },
+      "3rdSpellCost": {
+        "max": -35,
+        "min": -8,
+        "raw": -27
+      },
+      "airDamage": {
+        "max": 99,
+        "min": 23,
+        "raw": 76
+      },
+      "fireDamage": {
+        "max": 99,
+        "min": 23,
+        "raw": 76
+      },
+      "healingEfficiency": {
+        "max": -350,
+        "min": -650,
+        "raw": -500
+      },
+      "healthRegen": {
+        "max": -56,
+        "min": -104,
+        "raw": -80
+      },
+      "rawAgility": 75,
+      "rawDefence": 75
+    },
+    "internalName": "Masterwork Immolation",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The act of self-immolation is never taken lightly, and is always a sacrifice. This idol was carved to honor one such instance, in which a master of flame burned through his life force in a final act of heroism-purging an encroaching army of the undead, saving the people of the jungle from destruction.</span>",
+    "majorIds": {
+      "Blazing Effigy": "<span class='font-ascii' style='color:#AAAAAA'>Regeneration increases Totem's damage by <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+8%</span> <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+6%</span> instead of restoring health.</span></span></span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 75,
+      "classRequirement": "shaman",
+      "defence": 75,
+      "level": 113
+    },
+    "subType": "relik",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Blazing Effigy": [
+        {
+          "text": "Regeneration increases Totem's damage by ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FFAA00"
+        },
+        {
+          "text": "+8%",
+          "color": "#FFAA00"
+        },
+        {
+          "text": " ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FF5555"
+        },
+        {
+          "text": "+6%",
+          "color": "#FF5555"
+        },
+        {
+          "text": " instead of restoring health.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Lament": {
+    "attackSpeed": "slow",
+    "averageDps": 412,
+    "base": {
+      "baseDamage": {
+        "max": 100,
+        "min": 70,
+        "raw": 70
+      },
+      "baseWaterDamage": {
+        "max": 200,
+        "min": 180,
+        "raw": 180
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "water"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            4376
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "wand.water3"
+      }
+    },
+    "identifications": {
+      "1stSpellCost": {
+        "max": -35,
+        "min": -8,
+        "raw": -27
+      },
+      "healingEfficiency": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "lifeSteal": {
+        "max": -420,
+        "min": -780,
+        "raw": -600
+      },
+      "manaSteal": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "rawIntelligence": 35,
+      "waterDamage": {
+        "max": 130,
+        "min": 30,
+        "raw": 100
+      }
+    },
+    "internalName": "Masterwork Lament",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>When the lost city of Sarnfic sunk beneath the depths, nothing but the bubbles of screams and this single wand surfaced. When used, you can still hear the town's lament.</span>",
+    "majorIds": {
+      "Requiem": "<span class='font-ascii' style='color:#AAAAAA'>Sunflare regenerates twice the health and mana.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "mage",
+      "intelligence": 110,
+      "level": 110
+    },
+    "restriction": "none",
+    "subType": "wand",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Requiem": [
+        {
+          "text": "Sunflare regenerates twice the health and mana.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Nirvana": {
+    "attackSpeed": "normal",
+    "averageDps": 717,
+    "base": {
+      "baseWaterDamage": {
+        "max": 370,
+        "min": 330,
+        "raw": 330
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "water"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            884
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "dagger.water3"
+      }
+    },
+    "identifications": {
+      "mainAttackDamage": {
+        "max": -56,
+        "min": -104,
+        "raw": -80
+      },
+      "manaRegen": {
+        "max": 18,
+        "min": 4,
+        "raw": 14
+      },
+      "manaSteal": {
+        "max": -7,
+        "min": -13,
+        "raw": -10
+      },
+      "rawHealth": {
+        "max": -1400,
+        "min": -2600,
+        "raw": -2000
+      },
+      "rawIntelligence": 40,
+      "reflection": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "spellDamage": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      }
+    },
+    "internalName": "Masterwork Nirvana",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Spiritual enlightenment is a goal that many monks hope to one day grasp the barest glimpse of, often thought to be a goal that must be worked towards over a lifetime. Holding this polished, translucent blade will instantly induce that lofty state until it is let go.</span>",
+    "majorIds": {
+      "Enlightenment": "<span class='font-ascii' style='color:#AAAAAA'>25% chance for spells to cost no mana and instead refund 25% of their original cost.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "assassin",
+      "intelligence": 110,
+      "level": 111
+    },
+    "restriction": "none",
+    "subType": "dagger",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Enlightenment": [
+        {
+          "text": "25% chance for spells to cost no mana and instead refund 25% of their original cost.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Olympic": {
+    "attackSpeed": "fast",
+    "averageDps": 912,
+    "base": {
+      "baseAirDamage": {
+        "max": 380,
+        "min": 350,
+        "raw": 350
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "air"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3647
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "relik.air3"
+      }
+    },
+    "identifications": {
+      "airDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "airDefence": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "jumpHeight": {
+        "max": 8,
+        "min": 2,
+        "raw": 6
+      },
+      "raw1stSpellCost": {
+        "max": -13,
+        "min": -3,
+        "raw": -10
+      },
+      "raw2ndSpellCost": {
+        "max": -13,
+        "min": -3,
+        "raw": -10
+      },
+      "rawAgility": 35,
+      "walkSpeed": {
+        "max": 60,
+        "min": 14,
+        "raw": 46
+      }
+    },
+    "internalName": "Masterwork Olympic",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>When one has climbed the highest mountain, traversed the vastest plain, what is left to conquer? One challenges the human limit, and attempts to push beyond what any has accomplished before. Sculpted in honor of the first champion, this idol emboldens you to best your greatest opponent: yourself.</span>",
+    "majorIds": {
+      "Lightweight": "<span class='font-ascii' style='color:#AAAAAA'>You no longer take fall damage.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 105,
+      "classRequirement": "shaman",
+      "level": 109
+    },
+    "restriction": "none",
+    "subType": "relik",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Lightweight": [
+        {
+          "text": "You no longer take fall damage.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Pure": {
+    "attackSpeed": "fast",
+    "averageDps": 181,
+    "base": {
+      "baseAirDamage": {
+        "max": 55,
+        "min": 15,
+        "raw": 15
+      },
+      "baseDamage": {
+        "max": 5,
+        "min": 5,
+        "raw": 5
+      },
+      "baseWaterDamage": {
+        "max": 40,
+        "min": 25,
+        "raw": 25
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "water",
+      "air"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            4343
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "wand.multi1"
+      }
+    },
+    "identifications": {
+      "combatExperience": {
+        "max": 39,
+        "min": 9,
+        "raw": 30
+      },
+      "mainAttackDamage": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "manaSteal": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "raw3rdSpellCost": {
+        "max": -6,
+        "min": -1,
+        "raw": -5
+      },
+      "reflection": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "spellDamage": {
+        "max": 650,
+        "min": 150,
+        "raw": 500
+      }
+    },
+    "internalName": "Masterwork Pure",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Carved directly from the mysterious rock that hit Gavel 50 years ago, this pure white wand glows with cosmic energy unknown.</span>",
+    "majorIds": {
+      "Cosmic Capture": "<span class='font-ascii' style='color:#AAAAAA'>Meteor falls twice as fast, has +3 blast radius, and pulls enemies upon impact.</span>"
+    },
+    "requirements": {
+      "agility": 30,
+      "classRequirement": "mage",
+      "intelligence": 50,
+      "level": 91
+    },
+    "restriction": "none",
+    "subType": "wand",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Cosmic Capture": [
+        {
+          "text": "Meteor falls twice as fast, has +3 blast radius, and pulls enemies upon impact.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Singularity": {
+    "attackSpeed": "superSlow",
+    "averageDps": 504,
+    "base": {
+      "baseAirDamage": {
+        "max": 300,
+        "min": 95,
+        "raw": 95
+      },
+      "baseEarthDamage": {
+        "max": 225,
+        "min": 170,
+        "raw": 170
+      },
+      "baseFireDamage": {
+        "max": 275,
+        "min": 120,
+        "raw": 120
+      },
+      "baseThunderDamage": {
+        "max": 325,
+        "min": 70,
+        "raw": 70
+      },
+      "baseWaterDamage": {
+        "max": 250,
+        "min": 145,
+        "raw": 145
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "earth",
+      "thunder",
+      "water",
+      "fire",
+      "air"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            4345
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "wand.multi3"
+      }
+    },
+    "identifications": {
+      "healthRegenRaw": {
+        "max": 572,
+        "min": 132,
+        "raw": 440
+      },
+      "mainAttackDamage": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      },
+      "rawDexterity": 35,
+      "rawMainAttackDamage": {
+        "max": 1100,
+        "min": 254,
+        "raw": 846
+      },
+      "rawSpellDamage": {
+        "max": 325,
+        "min": 75,
+        "raw": 250
+      },
+      "spellDamage": {
+        "max": 26,
+        "min": 6,
+        "raw": 20
+      },
+      "walkSpeed": {
+        "max": -28,
+        "min": -52,
+        "raw": -40
+      }
+    },
+    "internalName": "Masterwork Singularity",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The existence of all things is reflected in the otherworldly jewels of this grand staff, dense enough to have its own gravitational pull. Users have reported their limbs being stretched after usage.</span>",
+    "majorIds": {
+      "Accretion Chain": "<span class='font-ascii' style='color:#AAAAAA'>Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>9999%</span> explosion spell. </span></span>"
+    },
+    "powderSlots": 15,
+    "requirements": {
+      "agility": 42,
+      "classRequirement": "mage",
+      "defence": 42,
+      "dexterity": 42,
+      "intelligence": 42,
+      "level": 112,
+      "strength": 42
+    },
+    "restriction": "none",
+    "subType": "wand",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Accretion Chain": [
+        {
+          "text": "Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FFAA00"
+        },
+        {
+          "text": "9999%",
+          "color": "#FFAA00"
+        },
+        {
+          "text": " explosion spell. ",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Stratiformis": {
+    "attackSpeed": "fast",
+    "averageDps": 938,
+    "base": {
+      "baseAirDamage": {
+        "max": 320,
+        "min": 160,
+        "raw": 160
+      },
+      "baseDamage": {
+        "max": 185,
+        "min": 85,
+        "raw": 85
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "air"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            297
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "bow.air3"
+      }
+    },
+    "identifications": {
+      "raw2ndSpellCost": {
+        "max": -10,
+        "min": -2,
+        "raw": -8
+      },
+      "rawAgility": 35,
+      "rawAirMainAttackDamage": {
+        "max": 1000,
+        "min": 231,
+        "raw": 769
+      },
+      "rawHealth": {
+        "max": -1400,
+        "min": -2600,
+        "raw": -2000
+      },
+      "reflection": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "spellDamage": {
+        "max": 40,
+        "min": 9,
+        "raw": 31
+      },
+      "walkSpeed": {
+        "max": 99,
+        "min": 23,
+        "raw": 76
+      }
+    },
+    "internalName": "Masterwork Stratiformis",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The Elves managed to harness the power of air itself, forming a bow made entirely of air currents, allowing the user to move swift like the wind, but vulnerable to attacks.</span>",
+    "majorIds": {
+      "Elven Current": "<span class='font-ascii' style='color:#AAAAAA'>Escape can be re-cast twice in mid-air.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 115,
+      "classRequirement": "archer",
+      "level": 110
+    },
+    "restriction": "none",
+    "subType": "bow",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Elven Current": [
+        {
+          "text": "Escape can be re-cast twice in mid-air.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Sunstar": {
+    "attackSpeed": "verySlow",
+    "averageDps": 1098,
+    "base": {
+      "baseDamage": {
+        "max": 355,
+        "min": 290,
+        "raw": 290
+      },
+      "baseThunderDamage": {
+        "max": 1015,
+        "min": 985,
+        "raw": 985
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "thunder"
+    ],
+    "emblem": "diamond_5",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            3734
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "relik.thunder3"
+      }
+    },
+    "identifications": {
+      "healingEfficiency": {
+        "max": -10,
+        "min": -19,
+        "raw": -15
+      },
+      "lifeSteal": {
+        "max": 1040,
+        "min": 240,
+        "raw": 800
+      },
+      "rawAttackSpeed": 1,
+      "rawMainAttackDamage": {
+        "max": 1430,
+        "min": 330,
+        "raw": 1100
+      },
+      "reflection": {
+        "max": 156,
+        "min": 36,
+        "raw": 120
+      },
+      "thorns": {
+        "max": 52,
+        "min": 12,
+        "raw": 40
+      },
+      "thunderDamage": {
+        "max": 35,
+        "min": 8,
+        "raw": 27
+      }
+    },
+    "internalName": "Masterwork Sunstar",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Once known as the Doomsday Weapon, it was ultimately never used for its intended purpose - its solar focus was cracked upon the day of its completion. All but a fraction of its energy was expelled, obliterating its creators, but overwhelming magical force still pulses and thrums through the web of fractures in its design.</span>",
+    "majorIds": {
+      "Solar Fracture": "<span class='font-ascii' style='color:#AAAAAA'>Hand of the Shaman gains +2 beams.</span>"
+    },
+    "powderSlots": 3,
+    "requirements": {
+      "classRequirement": "shaman",
+      "dexterity": 115,
+      "level": 113
+    },
+    "restriction": "none",
+    "subType": "relik",
+    "tier": "mythic",
+    "type": "weapon",
+    "jsonMajorIds": {
+      "Solar Fracture": [
+        {
+          "text": "Hand of the Shaman gains +2 beams.",
+          "color": "#AAAAAA"
+        }
+      ]
+    }
+  },
+  "Ascended Warp": {
+    "attackSpeed": "veryFast",
+    "averageDps": 597,
+    "base": {
+      "baseAirDamage": {
+        "max": 160,
+        "min": 130,
+        "raw": 130
+      },
+      "baseDamage": {
+        "max": 65,
+        "min": 30,
+        "raw": 30
+      }
+    },
+    "dropRestriction": "never",
+    "elements": [
+      "air"
+    ],
+    "emblem": "diamond_6",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            4277
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "wand.air3"
+      }
+    },
+    "identifications": {
+      "airDamage": {
+        "max": 30,
+        "min": 7,
+        "raw": 23
+      },
+      "exploding": {
+        "max": 65,
+        "min": 15,
+        "raw": 50
+      },
+      "healingEfficiency": {
+        "max": -13,
+        "min": -23,
+        "raw": -18
+      },
+      "healthRegen": {
+        "max": -70,
+        "min": -130,
+        "raw": -100
+      },
+      "healthRegenRaw": {
+        "max": -588,
+        "min": -1092,
+        "raw": -840
+      },
+      "manaRegen": {
+        "max": -21,
+        "min": -39,
+        "raw": -30
+      },
+      "raw2ndSpellCost": {
+        "max": -1000,
+        "min": -231,
+        "raw": -769
+      },
+      "rawAgility": 25,
+      "reflection": {
+        "max": 117,
+        "min": 27,
+        "raw": 90
+      },
+      "walkSpeed": {
+        "max": 234,
+        "min": 54,
+        "raw": 180
+      }
+    },
+    "internalName": "Masterwork Warp",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>The notorious and erratic magical inventor Gawrick once attempted to make teleportation scrolls obsolete, by creating items which would allow the user to phase into an ethereal state to move unhindered. He did not account for the physical ramifications of this process, however.</span>",
+    "powderSlots": 3,
+    "requirements": {
+      "agility": 125,
+      "classRequirement": "mage",
+      "level": 119
+    },
+    "restriction": "none",
+    "subType": "wand",
+    "tier": "mythic",
+    "type": "weapon"
+  },
   "Ascension": {
     "attackSpeed": "veryFast",
     "averageDps": 465,
