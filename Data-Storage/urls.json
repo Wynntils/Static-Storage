@@ -211,7 +211,7 @@
   },
   {
     "id": "dataStaticItemDisplayModelData",
-    "md5": "5dcb7bd48696c8952d486e292848cdf6",
+    "md5": "391b42a88f25569c57dbbd677555c07e",
     "path": "Data-Storage/item_display_model_data.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/item_display_model_data.json"
   },
@@ -271,7 +271,7 @@
   },
   {
     "id": "dataStaticModelData",
-    "md5": "ce33ff5b7328c7773c880f95f814230c",
+    "md5": "59988e5bb93c5300c459545323779cdd",
     "path": "Data-Storage/model_data.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/model_data.json"
   },
