@@ -12538,7 +12538,7 @@
     },
     "internalName": "Apex",
     "majorIds": {
-      "Alter Ego": "<span class='font-ascii' style='color:#AAAAAA'>Mantra will overload Masks 150% faster, but also decay them 100% faster.</span>"
+      "Alter Ego": "<span class='font-ascii' style='color:#AAAAAA'>Mantra will overload Masks 150% faster, but decays them 100% faster and halves their grace period.</span>"
     },
     "powderSlots": 4,
     "requirements": {
@@ -12553,7 +12553,7 @@
     "jsonMajorIds": {
       "Alter Ego": [
         {
-          "text": "Mantra will overload Masks 150% faster, but also decay them 100% faster.",
+          "text": "Mantra will overload Masks 150% faster, but decays them 100% faster and halves their grace period.",
           "color": "#AAAAAA"
         }
       ]
@@ -12994,7 +12994,7 @@
     "internalName": "Apocalypse",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.</span>",
     "majorIds": {
-      "Hellfire": "<span class='font-ascii' style='color:#AAAAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+85%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+10%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+60%</span>. Boiling Blood's cooldown is set to 2s, gains <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+40%</span>, <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+50%</span>, and burns twice as fast for 1s, but can't slow.</span></span></span></span></span></span>"
+      "Hellfire": "<span class='font-ascii' style='color:#AAAAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+85%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+10%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+60%</span>, but further delays Final Crush. Boiling Blood's cooldown is set to 2s, deals <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+40%</span>, <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+50%</span>, and burns twice as fast for 1s.</span></span></span></span></span></span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -13048,7 +13048,7 @@
           "color": "#FF5555"
         },
         {
-          "text": ". Boiling Blood's cooldown is set to 2s, gains ",
+          "text": ", but further delays Final Crush. Boiling Blood's cooldown is set to 2s, deals ",
           "color": "#AAAAAA"
         },
         {
@@ -13074,7 +13074,7 @@
           "color": "#FF5555"
         },
         {
-          "text": ", and burns twice as fast for 1s, but can't slow.",
+          "text": ", and burns twice as fast for 1s.",
           "color": "#AAAAAA"
         }
       ]
@@ -16184,7 +16184,7 @@
     "internalName": "Arsene",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>I am thou... Thou art I.</span>",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Whenever you gain health from your Life Steal and Health Regen IDs, allies within 16 blocks will receive the same amount.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -16199,7 +16199,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Whenever you gain health from your Life Steal and Health Regen IDs, allies within 16 blocks will receive the same amount.",
           "color": "#AAAAAA"
         }
       ]
@@ -68092,7 +68092,7 @@
     },
     "internalName": "Cytotoxic Striders",
     "majorIds": {
-      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>Poisoned mobs spread their poison to nearby mobs.</span>"
+      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -68107,7 +68107,7 @@
     "jsonMajorIds": {
       "Plague": [
         {
-          "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "text": "10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.",
           "color": "#AAAAAA"
         }
       ]
@@ -112152,7 +112152,7 @@
     "internalName": "Folds of Infinity",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Lose yourself in the climb.</span>",
     "majorIds": {
-      "Slow Boil": "<span class='font-ascii' style='color:#AAAAAA'>Bakal's Grasp and Enraged Blow have their caps doubled, but Corruption charges 40% as fast.</span>"
+      "Slow Boil": "<span class='font-ascii' style='color:#AAAAAA'>Bakal's Grasp and Enraged Blow grant 40% less damage, but have their caps increased by 50%. Corrupted lasts twice as long and can go up to 200%.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -112168,7 +112168,7 @@
     "jsonMajorIds": {
       "Slow Boil": [
         {
-          "text": "Bakal's Grasp and Enraged Blow have their caps doubled, but Corruption charges 40% as fast.",
+          "text": "Bakal's Grasp and Enraged Blow grant 40% less damage, but have their caps increased by 50%. Corrupted lasts twice as long and can go up to 200%.",
           "color": "#AAAAAA"
         }
       ]
@@ -128730,7 +128730,7 @@
     "internalName": "H-215 Plasmatic Exograft",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>A paper cut triggers immediate cauterization. A cracked rib is instantly encased in a cage of white-hot plasma. You did not ask to wake up smoking every morning, but according to diagnostic logs, your survival rate has never been higher.</span>",
     "majorIds": {
-      "Sublimation": "<span class='font-ascii' style='color:#AAAAAA'>Totemic Shatter heals 150% of Regeneration's usual amount at the cost of 2 blocks of radius.</span>"
+      "Sublimation": "<span class='font-ascii' style='color:#AAAAAA'>Totemic Shatter heals 75% of Regeneration's usual amount at the cost of 2 blocks of radius.</span>"
     },
     "powderSlots": 1,
     "requirements": {
@@ -128745,7 +128745,7 @@
     "jsonMajorIds": {
       "Sublimation": [
         {
-          "text": "Totemic Shatter heals 150% of Regeneration's usual amount at the cost of 2 blocks of radius.",
+          "text": "Totemic Shatter heals 75% of Regeneration's usual amount at the cost of 2 blocks of radius.",
           "color": "#AAAAAA"
         }
       ]
@@ -132234,7 +132234,7 @@
     "internalName": "Hearthkeeper",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Childhood memories, days of late nights and snow fights and cocoa by the fireside. Loving smiles and friendly faces. The beating heart of the world: home. This is what you fight for, beating back those dark and wicked forces which work to break down all that is loved. There is no sacrifice too great for the hearth.</span>",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Whenever you gain health from your Life Steal and Health Regen IDs, allies within 16 blocks will receive the same amount.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -132250,7 +132250,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Whenever you gain health from your Life Steal and Health Regen IDs, allies within 16 blocks will receive the same amount.",
           "color": "#AAAAAA"
         }
       ]
@@ -141976,7 +141976,7 @@
     "internalName": "Ignis",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>This bow, used by the dwarves to land the final blow in the slaughter of Garaheth, is extremely powerful. Special fire resistant gloves must be worn at all times to prevent burns to the user.</span>",
     "majorIds": {
-      "Dragon's Breath": "<span class='font-ascii' style='color:#AAAAAA'>Buckshot will heal allies for 100% of your total Health Regen.</span>"
+      "Dragon's Breath": "<span class='font-ascii' style='color:#AAAAAA'>Buckshot will heal allies for the sum of your total Health Regen IDs (Affected by Healing Efficiency).</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -141991,7 +141991,7 @@
     "jsonMajorIds": {
       "Dragon's Breath": [
         {
-          "text": "Buckshot will heal allies for 100% of your total Health Regen.",
+          "text": "Buckshot will heal allies for the sum of your total Health Regen IDs (Affected by Healing Efficiency).",
           "color": "#AAAAAA"
         }
       ]
@@ -173617,7 +173617,7 @@
     "internalName": "Masterwork Apocalypse",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>To forge a weapon such as this from the cursed lava of the portal basin requires dozens, for each smith would lose themselves to the force of corruption before it is finished. The nightmarishly hooked blade serves no purpose but destruction, as intended.</span>",
     "majorIds": {
-      "Hellfire": "<span class='font-ascii' style='color:#AAAAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+85%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+10%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+60%</span>. Boiling Blood's cooldown is set to 2s, gains <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+40%</span>, <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+50%</span>, and burns twice as fast for 1s, but can't slow.</span></span></span></span></span></span>"
+      "Hellfire": "<span class='font-ascii' style='color:#AAAAAA'>Bash is replaced by a single hit, gaining +3 radius and dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+85%</span>, <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>+10%</span>, and <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+60%</span>, but further delays Final Crush. Boiling Blood's cooldown is set to 2s, deals <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+40%</span>, <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+50%</span>, and burns twice as fast for 1s.</span></span></span></span></span></span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -173671,7 +173671,7 @@
           "color": "#FF5555"
         },
         {
-          "text": ". Boiling Blood's cooldown is set to 2s, gains ",
+          "text": ", but further delays Final Crush. Boiling Blood's cooldown is set to 2s, deals ",
           "color": "#AAAAAA"
         },
         {
@@ -173697,7 +173697,7 @@
           "color": "#FF5555"
         },
         {
-          "text": ", and burns twice as fast for 1s, but can't slow.",
+          "text": ", and burns twice as fast for 1s.",
           "color": "#AAAAAA"
         }
       ]
@@ -174850,7 +174850,7 @@
     "internalName": "Masterwork Immolation",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The act of self-immolation is never taken lightly, and is always a sacrifice. This idol was carved to honor one such instance, in which a master of flame burned through his life force in a final act of heroism-purging an encroaching army of the undead, saving the people of the jungle from destruction.</span>",
     "majorIds": {
-      "Blazing Effigy": "<span class='font-ascii' style='color:#AAAAAA'> Regeneration increases Totem's damage by <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+14%</span> <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+6%</span> instead of restoring health.</span></span></span>"
+      "Blazing Effigy": "<span class='font-ascii' style='color:#AAAAAA'>Regeneration increases Totem's damage by <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+8%</span> <span class='font-ascii' style='color:#FF5555'><span class='font-common'></span>+6%</span> instead of restoring health.</span></span></span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -174865,7 +174865,7 @@
     "jsonMajorIds": {
       "Blazing Effigy": [
         {
-          "text": " Regeneration increases Totem's damage by ",
+          "text": "Regeneration increases Totem's damage by ",
           "color": "#AAAAAA"
         },
         {
@@ -174874,7 +174874,7 @@
           "color": "#FFAA00"
         },
         {
-          "text": "+14%",
+          "text": "+8%",
           "color": "#FFAA00"
         },
         {
@@ -191610,7 +191610,7 @@
     },
     "internalName": "Nighthawk",
     "majorIds": {
-      "Hawkeye": "<span class='font-ascii' style='color:#AAAAAA'>Arrow Hurricane becomes a condensed stream of 25 arrows, dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>45%</span>, <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>6%</span>, and <span class='font-ascii' style='color:#FFFFFF'><span class='font-common'></span>6%</span> each. Feedback loop arrow cap is reduced by 90%</span></span></span></span>"
+      "Hawkeye": "<span class='font-ascii' style='color:#AAAAAA'>Arrow Hurricane becomes a condensed stream of 25 arrows, dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>45%</span>, <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>6%</span>, and <span class='font-ascii' style='color:#FFFFFF'><span class='font-common'></span>6%</span> each. Feedback loop arrow cap is reduced by 50%.</span></span></span></span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -191662,7 +191662,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text": " each. Feedback loop arrow cap is reduced by 90%",
+          "text": " each. Feedback loop arrow cap is reduced by 50%.",
           "color": "#AAAAAA"
         }
       ]
@@ -206397,7 +206397,7 @@
     "internalName": "Phantasmal Remnants",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Memories take on lives of their own, left long enough.</span>",
     "majorIds": {
-      "Alter Ego": "<span class='font-ascii' style='color:#AAAAAA'>Mantra will overload Masks 150% faster, but also decay them 100% faster.</span>"
+      "Alter Ego": "<span class='font-ascii' style='color:#AAAAAA'>Mantra will overload Masks 150% faster, but decays them 100% faster and halves their grace period.</span>"
     },
     "requirements": {
       "level": 71
@@ -206409,7 +206409,7 @@
     "jsonMajorIds": {
       "Alter Ego": [
         {
-          "text": "Mantra will overload Masks 150% faster, but also decay them 100% faster.",
+          "text": "Mantra will overload Masks 150% faster, but decays them 100% faster and halves their grace period.",
           "color": "#AAAAAA"
         }
       ]
@@ -209232,7 +209232,7 @@
     "internalName": "Plague Staff",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Carried by the Olux Plague Doctor, this simple-looking stick subtly oozes with an unidentifiable substance that is invigorating to the holder, and lethally venomous to anything else.</span>",
     "majorIds": {
-      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>Poisoned mobs spread their poison to nearby mobs.</span>"
+      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -209247,7 +209247,7 @@
     "jsonMajorIds": {
       "Plague": [
         {
-          "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "text": "10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.",
           "color": "#AAAAAA"
         }
       ]
@@ -230066,7 +230066,7 @@
     "internalName": "Restitution",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'><span class='font-old_fruman' style='font-weight:normal'>recnal il <span class='font-common'></span>il. alac toc, pasad il, atlruc il, kaclahpokc il cefos. lahes il nikcrolad kec pahsofmal uc ifrah tofnikcsif. etlefrofmad uc, etlaces uc tofnikcsoftahal. <span class='font-common'></span>rofmel <span class='font-common'></span>lahrakctriltod uc tofpahnuc. <span class='font-common'></span>lahic cof efrofmad il pahsadiled uc tofifrah. etlalnes ah rofmedes uc tofpestal. pasad uc tofmahatskritsec. etlrakc kec. etlrakc kec.</span></span></span></span></span></span>",
     "majorIds": {
-      "Old Spark": "<span class='font-ascii' style='color:#AAAAAA'>Whirlwind transforms into a travelling projectile, dealing <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>+40%</span> and knocking enemies into the air. Crouch to rise with them.</span></span>"
+      "Old Spark": "<span class='font-ascii' style='color:#AAAAAA'>Whirlwind transforms into a travelling projectile, dealing <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span>+60%</span> and doubled <span class='font-ascii' style='color:#FFFF55'><span class='font-common'></span></span> damage against airborne enemies. Crouch to rise with them.</span></span></span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -230092,11 +230092,20 @@
           "color": "#FFFF55"
         },
         {
-          "text": "+40%",
+          "text": "+60%",
           "color": "#FFFF55"
         },
         {
-          "text": " and knocking enemies into the air. Crouch to rise with them.",
+          "text": " and doubled ",
+          "color": "#AAAAAA"
+        },
+        {
+          "text": "",
+          "font": "common",
+          "color": "#FFFF55"
+        },
+        {
+          "text": " damage against airborne enemies. Crouch to rise with them.",
           "color": "#AAAAAA"
         }
       ]
@@ -231591,7 +231600,7 @@
     "internalName": "Revolution",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>A boiling rage has been gathering, the pain of an entire empire yearning to be freed. With all the power of the downtrodden and the overlooked and the starved, you echo out a shout with ten thousand voices, each too quiet to hear by itself, but together a catastrophic force to make the heavens cower.</span>",
     "majorIds": {
-      "Regicide": "<span class='font-ascii' style='color:#AAAAAA'>You deal 2% more damage for every block you are away from your target (Max 120%).</span>"
+      "Regicide": "<span class='font-ascii' style='color:#AAAAAA'>You deal 2.5% more damage for every block you are away from your target (Max 150%).</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -231608,7 +231617,7 @@
     "jsonMajorIds": {
       "Regicide": [
         {
-          "text": "You deal 2% more damage for every block you are away from your target (Max 120%).",
+          "text": "You deal 2.5% more damage for every block you are away from your target (Max 150%).",
           "color": "#AAAAAA"
         }
       ]
@@ -251173,7 +251182,7 @@
     "internalName": "Shredder Club",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>There's a scrawling etched onto the handle: \"UNGA BUNGA'S. NO TOUCH.\"</span>",
     "majorIds": {
-      "Troll Barge": "<span class='font-ascii' style='color:#AAAAAA'>Quake allows you to charge forth, dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>80%</span> and <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>20%</span> to any mobs hit, and ending with a powerful stomp for <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>400%</span> and <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>150%</span>. This will leave you vulnerable.</span></span></span></span></span>"
+      "Troll Barge": "<span class='font-ascii' style='color:#AAAAAA'>Quake allows you to charge forth, dealing <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>96%</span> and <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>24%</span> to any mobs hit, and ending with a powerful stomp for <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>480%</span> and <span class='font-ascii' style='color:#00AA00'><span class='font-common'></span>180%</span>. This will leave you vulnerable.</span></span></span></span></span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -251197,7 +251206,7 @@
           "color": "#FFAA00"
         },
         {
-          "text": "80%",
+          "text": "96%",
           "color": "#FFAA00"
         },
         {
@@ -251210,7 +251219,7 @@
           "color": "#00AA00"
         },
         {
-          "text": "20%",
+          "text": "24%",
           "color": "#00AA00"
         },
         {
@@ -251223,7 +251232,7 @@
           "color": "#FFAA00"
         },
         {
-          "text": "400%",
+          "text": "480%",
           "color": "#FFAA00"
         },
         {
@@ -251236,7 +251245,7 @@
           "color": "#00AA00"
         },
         {
-          "text": "150%",
+          "text": "180%",
           "color": "#00AA00"
         },
         {
@@ -252725,7 +252734,7 @@
     },
     "internalName": "Signal Flare",
     "majorIds": {
-      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.</span>"
+      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's cooldown and duration are doubled</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -252740,7 +252749,7 @@
     "jsonMajorIds": {
       "Taunt": [
         {
-          "text": "Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.",
+          "text": "Provoke's cooldown and duration are doubled",
           "color": "#AAAAAA"
         }
       ]
@@ -273947,7 +273956,7 @@
     "internalName": "Stifling Spores",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The beauty of this peculiar grotto takes your breath away. Unfortunately, its spores do too...</span>",
     "majorIds": {
-      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>Poisoned mobs spread their poison to nearby mobs.</span>"
+      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -273960,7 +273969,7 @@
     "jsonMajorIds": {
       "Plague": [
         {
-          "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "text": "10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.",
           "color": "#AAAAAA"
         }
       ]
@@ -276743,7 +276752,7 @@
     },
     "internalName": "Strobelight",
     "majorIds": {
-      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.</span>"
+      "Taunt": "<span class='font-ascii' style='color:#AAAAAA'>Provoke's cooldown and duration are doubled</span>"
     },
     "requirements": {
       "defence": 30,
@@ -276755,7 +276764,7 @@
     "jsonMajorIds": {
       "Taunt": [
         {
-          "text": "Provoke's Cooldown is reduced to 8s but its duration is reduced to 3s.",
+          "text": "Provoke's cooldown and duration are doubled",
           "color": "#AAAAAA"
         }
       ]
@@ -284858,7 +284867,7 @@
     "internalName": "Tectonics֎",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The stones have a language. You can learn to direct their shiftings and discover their names; all you must do in return is forget your own.</span>",
     "majorIds": {
-      "Fissure": "<span class='font-ascii' style='color:#AAAAAA'>Ice Snake moves much more slowly, but deals massive knockback, <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+350%</span>, and <span class='font-ascii' style='color:#55FFFF'><span class='font-common'></span>+200%</span>.</span></span></span>"
+      "Fissure": "<span class='font-ascii' style='color:#AAAAAA'>Ice Snake moves much more slowly, but deals massive knockback, <span class='font-ascii' style='color:#FFAA00'><span class='font-common'></span>+500%</span>, and <span class='font-ascii' style='color:#55FFFF'><span class='font-common'></span>+350%</span>.</span></span></span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -284882,7 +284891,7 @@
           "color": "#FFAA00"
         },
         {
-          "text": "+350%",
+          "text": "+500%",
           "color": "#FFAA00"
         },
         {
@@ -284895,7 +284904,7 @@
           "color": "#55FFFF"
         },
         {
-          "text": "+200%",
+          "text": "+350%",
           "color": "#55FFFF"
         },
         {
@@ -300146,7 +300155,7 @@
     "internalName": "Toxoplasmosis",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>Can you feel the burning inside? Something has made itself at home. Time to tuck away the parts of you it has no need for, to shuffle your little brain around so you may Carry. Carry and Spread. Give it a new home-melting you down is how it says thank you. Be grateful, won't you?</span>",
     "majorIds": {
-      "Outbreak": "<span class='font-ascii' style='color:#AAAAAA'>When you are within Totem range, the Totem becomes Primed, adding 4% of your Poison ID every 0.25s. Hitting a Primed totem with Uproot will create a 6 block wide poison cloud instantly dealing the stored Poison.</span>"
+      "Outbreak": "<span class='font-ascii' style='color:#AAAAAA'>When you are within Totem range, the Totem becomes Primed, adding 4% of your Poison ID every 0.1s. Hitting a Primed totem with Uproot will create a 6 block wide poison cloud instantly dealing the stored Poison.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -300161,7 +300170,7 @@
     "jsonMajorIds": {
       "Outbreak": [
         {
-          "text": "When you are within Totem range, the Totem becomes Primed, adding 4% of your Poison ID every 0.25s. Hitting a Primed totem with Uproot will create a 6 block wide poison cloud instantly dealing the stored Poison.",
+          "text": "When you are within Totem range, the Totem becomes Primed, adding 4% of your Poison ID every 0.1s. Hitting a Primed totem with Uproot will create a 6 block wide poison cloud instantly dealing the stored Poison.",
           "color": "#AAAAAA"
         }
       ]
@@ -302668,7 +302677,7 @@
     },
     "internalName": "Triple Point",
     "majorIds": {
-      "Sublimation": "<span class='font-ascii' style='color:#AAAAAA'>Totemic Shatter heals 150% of Regeneration's usual amount at the cost of 2 blocks of radius.</span>"
+      "Sublimation": "<span class='font-ascii' style='color:#AAAAAA'>Totemic Shatter heals 75% of Regeneration's usual amount at the cost of 2 blocks of radius.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -302684,7 +302693,7 @@
     "jsonMajorIds": {
       "Sublimation": [
         {
-          "text": "Totemic Shatter heals 150% of Regeneration's usual amount at the cost of 2 blocks of radius.",
+          "text": "Totemic Shatter heals 75% of Regeneration's usual amount at the cost of 2 blocks of radius.",
           "color": "#AAAAAA"
         }
       ]
@@ -307962,7 +307971,7 @@
     },
     "internalName": "Uranium Aegis",
     "majorIds": {
-      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>Poisoned mobs spread their poison to nearby mobs.</span>"
+      "Plague": "<span class='font-ascii' style='color:#AAAAAA'>10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -307977,7 +307986,7 @@
     "jsonMajorIds": {
       "Plague": [
         {
-          "text": "Poisoned mobs spread their poison to nearby mobs.",
+          "text": "10% of Poison's damage is dealt in a 5 block radius around each Poisoned enemy.",
           "color": "#AAAAAA"
         }
       ]
@@ -315287,7 +315296,7 @@
     "internalName": "Volatility2",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>When it feels like anything could set you off, prepare to go out with a bang!</span>",
     "majorIds": {
-      "Chain Reaction": "<span class='font-ascii' style='color:#AAAAAA'>Basaltic Traps arm faster and detonate immediately after arming, gaining +2 range.</span>"
+      "Chain Reaction": "<span class='font-ascii' style='color:#AAAAAA'>Basaltic Traps arm twice as fast and detonate immediately after arming.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -315302,7 +315311,7 @@
     "jsonMajorIds": {
       "Chain Reaction": [
         {
-          "text": "Basaltic Traps arm faster and detonate immediately after arming, gaining +2 range.",
+          "text": "Basaltic Traps arm twice as fast and detonate immediately after arming.",
           "color": "#AAAAAA"
         }
       ]
@@ -316053,7 +316062,7 @@
     },
     "internalName": "Vulcan",
     "majorIds": {
-      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.</span>"
+      "Altruism": "<span class='font-ascii' style='color:#AAAAAA'>Whenever you gain health from your Life Steal and Health Regen IDs, allies within 16 blocks will receive the same amount.</span>"
     },
     "powderSlots": 2,
     "requirements": {
@@ -316068,7 +316077,7 @@
     "jsonMajorIds": {
       "Altruism": [
         {
-          "text": "Allies within 16 blocks gain 100% of the health you gain from Health Regen and Life Steal.",
+          "text": "Whenever you gain health from your Life Steal and Health Regen IDs, allies within 16 blocks will receive the same amount.",
           "color": "#AAAAAA"
         }
       ]
@@ -320315,7 +320324,7 @@
     "internalName": "Whiplash",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The world is a blur around you. The swirls of colour interweave and blend to an amalgam of light in every direction. The worst thing you can do is stop. </span>",
     "majorIds": {
-      "Lasso": "<span class='font-ascii' style='color:#AAAAAA'>Grappling Hook, War Scream, and Uproot now pull enemies with much more force.</span>"
+      "Lasso": "<span class='font-ascii' style='color:#AAAAAA'>All abilities with pull effects pull with greater force.</span>"
     },
     "requirements": {
       "agility": 60,
@@ -320328,7 +320337,7 @@
     "jsonMajorIds": {
       "Lasso": [
         {
-          "text": "Grappling Hook, War Scream, and Uproot now pull enemies with much more force.",
+          "text": "All abilities with pull effects pull with greater force.",
           "color": "#AAAAAA"
         }
       ]
