@@ -449,5 +449,11 @@
   {
     "id": "linkWynntilsStatus",
     "url": "https://status.wynntils.com/"
+  },
+  {
+    "id": "dataStaticMountFood",
+    "md5": "",
+    "path": "Data-Storage/mount_food.json",
+    "url": "https://cdn.wynntils.com/static/Data-Storage/mount_food.json"
   }
 ]
