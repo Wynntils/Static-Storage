@@ -294,6 +294,12 @@
     "url": "https://cdn.wynntils.com/static/Reference/places.json"
   },
   {
+    "id": "dataStaticQuests",
+    "md5": "1266f6942b773e4f4a5f7a758407a517",
+    "path": "Reference/quests.json",
+    "url": "https://cdn.wynntils.com/static/Reference/quests.json"
+  },
+  {
     "id": "dataStaticRecipes",
     "md5": "6d25bde3e5ecd4e43bf5614b3605ba8a",
     "path": "Reference/recipes.json",
