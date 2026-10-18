@@ -32,11 +32,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "66666 XP"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "xp": [
+          "66666 XP"
         ]
       },
       "location": null
@@ -83,11 +83,11 @@
         "item": [
           "1 Corrupted Soul Token"
         ],
-        "xp": [
-          "10008000 XP"
-        ],
         "access": [
           "Access to Hunted Mode"
+        ],
+        "xp": [
+          "10008000 XP"
         ]
       },
       "location": null
@@ -106,14 +106,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "6000000 XP"
-        ],
         "access": [
           "Access to the Silent Expanse"
         ],
         "emeralds": [
           "12288 Emeralds"
+        ],
+        "xp": [
+          "6000000 XP"
         ]
       },
       "location": null
@@ -134,15 +134,15 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "7500000 XP"
-        ],
         "access": [
           "Access to the Eldritch Outlook Dungeon",
           "Access to The Nameless Anomaly"
         ],
         "emeralds": [
           "20480 Emeralds"
+        ],
+        "xp": [
+          "7500000 XP"
         ]
       },
       "location": null
@@ -192,11 +192,11 @@
         "item": [
           "Access through the gate to Thesead"
         ],
-        "xp": [
-          "1375000 XP"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "1375000 XP"
         ]
       },
       "location": null
@@ -243,11 +243,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "24000 XP"
-        ],
         "emeralds": [
           "256 Emeralds"
+        ],
+        "xp": [
+          "24000 XP"
         ]
       },
       "location": null
@@ -269,14 +269,14 @@
         "item": [
           "1 Gavellian Passport"
         ],
-        "xp": [
-          "300000 XP"
-        ],
         "access": [
           "Access to the Letvus Elevator"
         ],
         "emeralds": [
           "768 Emeralds"
+        ],
+        "xp": [
+          "300000 XP"
         ]
       },
       "location": null
@@ -295,14 +295,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "512500 XP"
-        ],
         "access": [
           "Access to Aldorei Valley Proper"
         ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "512500 XP"
         ]
       },
       "location": null
@@ -327,14 +327,14 @@
           "1 Kaerynn\u0027s Mind",
           "1 Kaerynn\u0027s Body"
         ],
-        "xp": [
-          "1200000 XP"
-        ],
         "access": [
           "Access to Juggler\u0027s fast travel to Aldorei Town"
         ],
         "emeralds": [
           "10240 Emeralds"
+        ],
+        "xp": [
+          "1200000 XP"
         ]
       },
       "location": null
@@ -360,11 +360,11 @@
         "item": [
           "1 Upgraded Orc Mask"
         ],
-        "xp": [
-          "350000 XP"
-        ],
         "emeralds": [
           "3072 Emeralds"
+        ],
+        "xp": [
+          "350000 XP"
         ]
       },
       "location": null
@@ -386,11 +386,11 @@
         "item": [
           "1 Mechanical Reactor"
         ],
-        "xp": [
-          "42000 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "42000 XP"
         ]
       },
       "location": null
@@ -441,14 +441,14 @@
           "4 Ek Runes",
           "1 Shattershard"
         ],
-        "xp": [
-          "45000000 XP"
-        ],
         "access": [
           "Access to the Wartorn Palace"
         ],
         "emeralds": [
           "32768 Emeralds"
+        ],
+        "xp": [
+          "45000000 XP"
         ]
       },
       "location": null
@@ -522,11 +522,11 @@
         "item": [
           "Raging Wind"
         ],
-        "xp": [
-          "2100000 XP"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "2100000 XP"
         ]
       },
       "location": null
@@ -548,11 +548,11 @@
         "item": [
           "Hide of Poxper"
         ],
-        "xp": [
-          "38000 XP"
-        ],
         "emeralds": [
           "512 Emeralds"
+        ],
+        "xp": [
+          "38000 XP"
         ]
       },
       "location": null
@@ -574,11 +574,11 @@
         "item": [
           "1 Bob\u0027s Battle Chestplate"
         ],
-        "xp": [
-          "55000 XP"
-        ],
         "access": [
           "Access to Bob\u0027s Tomb"
+        ],
+        "xp": [
+          "55000 XP"
         ]
       },
       "location": null
@@ -597,14 +597,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "3300 XP"
-        ],
         "access": [
           "Access to the Saint\u0027s Row Graveyard"
         ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "3300 XP"
         ]
       },
       "location": null
@@ -626,14 +626,14 @@
         "item": [
           "1 Medallion"
         ],
-        "xp": [
-          "24000000 XP"
-        ],
         "access": [
           "Access to Aldwell Sanctuary"
         ],
         "emeralds": [
           "21600 Emeralds"
+        ],
+        "xp": [
+          "24000000 XP"
         ]
       },
       "location": null
@@ -652,14 +652,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "21000 XP"
-        ],
         "access": [
           "Access to Rymek elevators"
         ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "xp": [
+          "21000 XP"
         ]
       },
       "location": null
@@ -678,11 +678,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "22000000 XP"
-        ],
         "emeralds": [
           "36864 Emeralds"
+        ],
+        "xp": [
+          "22000000 XP"
         ]
       },
       "location": null
@@ -701,11 +701,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "23000 XP"
-        ],
         "emeralds": [
           "320 Emeralds"
+        ],
+        "xp": [
+          "23000 XP"
         ]
       },
       "location": null
@@ -751,11 +751,11 @@
           "1 Waist Apron",
           "Ability to use First Steps"
         ],
-        "xp": [
-          "250 XP"
-        ],
         "emeralds": [
           "28 Emeralds"
+        ],
+        "xp": [
+          "250 XP"
         ]
       },
       "location": null
@@ -778,11 +778,11 @@
           "1 Undergrowth Ruins Key",
           "1 Slykaar\u0027s Heart"
         ],
-        "xp": [
-          "87725 XP"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "xp": [
+          "87725 XP"
         ]
       },
       "location": null
@@ -803,11 +803,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "2300000 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "2300000 XP"
         ]
       },
       "location": null
@@ -826,11 +826,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "5000 XP"
-        ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "xp": [
+          "5000 XP"
         ]
       },
       "location": null
@@ -852,11 +852,11 @@
         "item": [
           "5 Oat Strings and Grains"
         ],
-        "xp": [
-          "57500 XP"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "xp": [
+          "57500 XP"
         ]
       },
       "location": null
@@ -874,7 +874,14 @@
         "professionLevels": {},
         "quests": []
       },
-      "rewards": {},
+      "rewards": {
+        "emeralds": [
+          "25 Emeralds"
+        ],
+        "xp": [
+          "145 XP"
+        ]
+      },
       "location": null
     },
     {
@@ -920,11 +927,11 @@
         "item": [
           "1 Familiar Essence"
         ],
-        "xp": [
-          "5500 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "5500 XP"
         ]
       },
       "location": null
@@ -946,11 +953,11 @@
         "item": [
           "1 Mech Core"
         ],
-        "xp": [
-          "1580000 XP"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "1580000 XP"
         ]
       },
       "location": null
@@ -972,11 +979,11 @@
         "item": [
           "1 Dogun Badge of Trust"
         ],
-        "xp": [
-          "3300000 XP"
-        ],
         "access": [
           "Access to the Molten Heights elevators"
+        ],
+        "xp": [
+          "3300000 XP"
         ]
       },
       "location": null
@@ -1000,12 +1007,12 @@
         "item": [
           "1 Letter to Korzim"
         ],
-        "xp": [
-          "3500000 XP"
-        ],
         "access": [
           "Access to the Thanos-Rodoroc trading tunnel",
           "Access to Juggler\u0027s fast travel to Rodoroc"
+        ],
+        "xp": [
+          "3500000 XP"
         ]
       },
       "location": null
@@ -1029,11 +1036,11 @@
         "item": [
           "The Staff of the True Ice"
         ],
-        "xp": [
-          "4000000 XP"
-        ],
         "access": [
           "Access to the Maex Resource Mine"
+        ],
+        "xp": [
+          "4000000 XP"
         ]
       },
       "location": null
@@ -1054,14 +1061,14 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "6000000 XP"
-        ],
         "access": [
           "Access to the Ingredient shop in Maex"
         ],
         "emeralds": [
           "20480 Emeralds"
+        ],
+        "xp": [
+          "6000000 XP"
         ]
       },
       "location": null
@@ -1080,11 +1087,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "3650 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "3650 XP"
         ]
       },
       "location": null
@@ -1108,11 +1115,11 @@
         "item": [
           "1 Mutiny"
         ],
-        "xp": [
-          "25000000 XP"
-        ],
         "emeralds": [
           "28672 Emeralds"
+        ],
+        "xp": [
+          "25000000 XP"
         ]
       },
       "location": null
@@ -1136,11 +1143,11 @@
         "item": [
           "Ragon\u0027s Bracelet"
         ],
-        "xp": [
-          "1250 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "1250 XP"
         ]
       },
       "location": null
@@ -1164,14 +1171,14 @@
         "item": [
           "1 Dimachaerus"
         ],
-        "xp": [
-          "41000000 XP"
-        ],
         "access": [
           "Access to Aelumia Citadel"
         ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "xp": [
+          "41000000 XP"
         ]
       },
       "location": null
@@ -1236,14 +1243,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "1300000 XP"
-        ],
         "access": [
           "Access to Gawrick\u0027s Experimental Scrolls"
         ],
         "emeralds": [
           "6144 Emeralds"
+        ],
+        "xp": [
+          "1300000 XP"
         ]
       },
       "location": null
@@ -1265,11 +1272,11 @@
         "item": [
           "1 Pendant of Prosperity"
         ],
-        "xp": [
-          "3100000 XP"
-        ],
         "emeralds": [
           "6144 Emeralds"
+        ],
+        "xp": [
+          "3100000 XP"
         ]
       },
       "location": null
@@ -1318,11 +1325,11 @@
         "item": [
           "1 Clearsight Spectacles"
         ],
-        "xp": [
-          "675000 XP"
-        ],
         "access": [
           "Access to the Realm of Light"
+        ],
+        "xp": [
+          "675000 XP"
         ]
       },
       "location": null
@@ -1346,11 +1353,11 @@
         "item": [
           "1 Ring of Rubies"
         ],
-        "xp": [
-          "750000 XP"
-        ],
         "access": [
           "Access to fast-travel between Cinfras and Detlas"
+        ],
+        "xp": [
+          "750000 XP"
         ]
       },
       "location": null
@@ -1372,11 +1379,11 @@
         "item": [
           "Various Ingredients"
         ],
-        "xp": [
-          "740000 XP"
-        ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "xp": [
+          "740000 XP"
         ]
       },
       "location": null
@@ -1399,11 +1406,11 @@
           "40 Platinum Ingot",
           "1 Troll Hair"
         ],
-        "xp": [
-          "750000 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "750000 XP"
         ]
       },
       "location": null
@@ -1448,11 +1455,11 @@
         "item": [
           "1 Glaciate"
         ],
-        "xp": [
-          "61000 XP"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "xp": [
+          "61000 XP"
         ]
       },
       "location": null
@@ -1494,11 +1501,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "425000 XP"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "xp": [
+          "425000 XP"
         ]
       },
       "location": null
@@ -1517,14 +1524,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "9500 XP"
-        ],
         "access": [
           "Access to the Glassblowing Merchant"
         ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "xp": [
+          "9500 XP"
         ]
       },
       "location": null
@@ -1543,11 +1550,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "300000 XP"
-        ],
         "emeralds": [
           "1408 Emeralds"
+        ],
+        "xp": [
+          "300000 XP"
         ]
       },
       "location": null
@@ -1569,11 +1576,11 @@
         "item": [
           "1 Generator Amulet"
         ],
-        "xp": [
-          "24500 XP"
-        ],
         "emeralds": [
           "224 Emeralds"
+        ],
+        "xp": [
+          "24500 XP"
         ]
       },
       "location": null
@@ -1595,11 +1602,11 @@
         "item": [
           "1 The Siren\u0027s Call"
         ],
-        "xp": [
-          "735000 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "735000 XP"
         ]
       },
       "location": null
@@ -1666,14 +1673,14 @@
         "item": [
           "1 Climbing Helmet"
         ],
-        "xp": [
-          "25000 XP"
-        ],
         "access": [
           "Access to the Dujgon Blacksmith"
         ],
         "emeralds": [
           "256 Emeralds"
+        ],
+        "xp": [
+          "25000 XP"
         ]
       },
       "location": null
@@ -1695,11 +1702,11 @@
         "item": [
           "Ability to use Waist Apron"
         ],
-        "xp": [
-          "270 XP"
-        ],
         "emeralds": [
           "32 Emeralds"
+        ],
+        "xp": [
+          "270 XP"
         ]
       },
       "location": null
@@ -1721,11 +1728,11 @@
         "item": [
           "1 Undergrowth Ruins Key"
         ],
-        "xp": [
-          "86250 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "86250 XP"
         ]
       },
       "location": null
@@ -1747,14 +1754,14 @@
         "item": [
           "1 Ragni Teleportation Scroll"
         ],
-        "xp": [
-          "35 XP"
-        ],
         "access": [
           "Access to the Province of Wynn"
         ],
         "emeralds": [
           "6 Emeralds"
+        ],
+        "xp": [
+          "35 XP"
         ]
       },
       "location": null
@@ -1777,11 +1784,11 @@
           "1 Sand-Swept Tomb Dungeon Key",
           "1 Hashr\u0027s Crown"
         ],
-        "xp": [
-          "10000 XP"
-        ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "xp": [
+          "10000 XP"
         ]
       },
       "location": null
@@ -1800,14 +1807,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "4000 XP"
-        ],
         "access": [
           "Access to Bremminglar\u0027s Healer Shop"
         ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "xp": [
+          "4000 XP"
         ]
       },
       "location": null
@@ -1829,11 +1836,11 @@
         "item": [
           "1 Lazarus Brace"
         ],
-        "xp": [
-          "500000 XP"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "xp": [
+          "500000 XP"
         ]
       },
       "location": null
@@ -1852,14 +1859,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "650000 XP"
-        ],
         "access": [
           "Access to the Lexdale Accessory Merchant"
         ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "650000 XP"
         ]
       },
       "location": null
@@ -1878,11 +1885,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "290000 XP"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "290000 XP"
         ]
       },
       "location": null
@@ -1906,11 +1913,11 @@
         "item": [
           "Sodeta Boots"
         ],
-        "xp": [
-          "352000 XP"
-        ],
         "emeralds": [
           "1152 Emeralds"
+        ],
+        "xp": [
+          "352000 XP"
         ]
       },
       "location": null
@@ -1929,11 +1936,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "6500 XP"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "xp": [
+          "6500 XP"
         ]
       },
       "location": null
@@ -1955,11 +1962,11 @@
         "item": [
           "3 Jungle Jet Shards"
         ],
-        "xp": [
-          "225000 XP"
-        ],
         "access": [
           "Access to Gracen\u0027s house"
+        ],
+        "xp": [
+          "225000 XP"
         ]
       },
       "location": null
@@ -2021,11 +2028,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "15000 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "15000 XP"
         ]
       },
       "location": null
@@ -2047,11 +2054,11 @@
         "item": [
           "Ring of Generosity"
         ],
-        "xp": [
-          "375000 XP"
-        ],
         "emeralds": [
           "1536 Emeralds"
+        ],
+        "xp": [
+          "375000 XP"
         ]
       },
       "location": null
@@ -2074,11 +2081,11 @@
           "Passes to Selchar from the Seaskipper are now free",
           "Various Ingredients"
         ],
-        "xp": [
-          "8500 XP"
-        ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "xp": [
+          "8500 XP"
         ]
       },
       "location": null
@@ -2097,11 +2104,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "1750000 XP"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "1750000 XP"
         ]
       },
       "location": null
@@ -2123,11 +2130,11 @@
         "item": [
           "1 Detective\u0027s Ring"
         ],
-        "xp": [
-          "350000 XP"
-        ],
         "emeralds": [
           "3072 Emeralds"
+        ],
+        "xp": [
+          "350000 XP"
         ]
       },
       "location": null
@@ -2148,11 +2155,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "500 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "500 XP"
         ]
       },
       "location": null
@@ -2171,14 +2178,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "12390000 XP"
-        ],
         "access": [
           "Access to the Fruman Underground"
         ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "xp": [
+          "12390000 XP"
         ]
       },
       "location": null
@@ -2200,14 +2207,14 @@
         "item": [
           "1 Ominous Wind"
         ],
-        "xp": [
-          "5500000 XP"
-        ],
         "access": [
           "Access to the Void"
         ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "5500000 XP"
         ]
       },
       "location": null
@@ -2229,11 +2236,11 @@
         "item": [
           "Troms Kid Badge"
         ],
-        "xp": [
-          "300000 XP"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "xp": [
+          "300000 XP"
         ]
       },
       "location": null
@@ -2257,11 +2264,11 @@
         "item": [
           "1 Concord Protocol"
         ],
-        "xp": [
-          "35000000 XP"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "xp": [
+          "35000000 XP"
         ]
       },
       "location": null
@@ -2280,11 +2287,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "26000 XP"
-        ],
         "emeralds": [
           "150 Emeralds"
+        ],
+        "xp": [
+          "26000 XP"
         ]
       },
       "location": null
@@ -2326,11 +2333,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "7000000 XP"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "7000000 XP"
         ]
       },
       "location": null
@@ -2373,11 +2380,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "775000 XP"
-        ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "xp": [
+          "775000 XP"
         ]
       },
       "location": null
@@ -2400,11 +2407,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "10000000 XP"
-        ],
         "emeralds": [
           "20480 Emeralds"
+        ],
+        "xp": [
+          "10000000 XP"
         ]
       },
       "location": null
@@ -2426,14 +2433,14 @@
         "item": [
           "Apron"
         ],
-        "xp": [
-          "4200000 XP"
-        ],
         "access": [
           "Access to Juggler\u0027s fast travel to Ahmsord"
         ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "4200000 XP"
         ]
       },
       "location": null
@@ -2452,11 +2459,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "250000 XP"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "xp": [
+          "250000 XP"
         ]
       },
       "location": null
@@ -2479,11 +2486,11 @@
           "6 Ability Shards",
           "1 Shattered Memory Shard"
         ],
-        "xp": [
-          "7000 XP"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "xp": [
+          "7000 XP"
         ]
       },
       "location": null
@@ -2558,14 +2565,14 @@
         "item": [
           "1 Sureshot"
         ],
-        "xp": [
-          "17000000 XP"
-        ],
         "access": [
           "Access to the Roughworks"
         ],
         "emeralds": [
           "24576 Emeralds"
+        ],
+        "xp": [
+          "17000000 XP"
         ]
       },
       "location": null
@@ -2587,14 +2594,14 @@
         "item": [
           "1 Quartron\u0027s Eye"
         ],
-        "xp": [
-          "75000 XP"
-        ],
         "access": [
           "Access to Karoc Mine Annex"
         ],
         "emeralds": [
           "1408 Emeralds"
+        ],
+        "xp": [
+          "75000 XP"
         ]
       },
       "location": null
@@ -2616,11 +2623,11 @@
         "item": [
           "1 The Queen\u0027s Headpiece"
         ],
-        "xp": [
-          "7270000 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "7270000 XP"
         ]
       },
       "location": null
@@ -2642,11 +2649,11 @@
         "item": [
           "A gift from Likeru"
         ],
-        "xp": [
-          "300000 XP"
-        ],
         "emeralds": [
           "2560 Emeralds"
+        ],
+        "xp": [
+          "300000 XP"
         ]
       },
       "location": null
@@ -2670,14 +2677,14 @@
         "item": [
           "1 Creed Catalyst"
         ],
-        "xp": [
-          "30000000 XP"
-        ],
         "access": [
           "Access to the Canopy"
         ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "xp": [
+          "30000000 XP"
         ]
       },
       "location": null
@@ -2701,14 +2708,14 @@
         "item": [
           "1 Amplifier"
         ],
-        "xp": [
-          "18000000 XP"
-        ],
         "access": [
           "Access to The Steel Feather Fast Travel"
         ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "18000000 XP"
         ]
       },
       "location": null
@@ -2730,11 +2737,11 @@
         "item": [
           "1 Brown Horse"
         ],
-        "xp": [
-          "900 XP"
-        ],
         "access": [
           "Access to Ternaves Ranch"
+        ],
+        "xp": [
+          "900 XP"
         ]
       },
       "location": null
@@ -2753,11 +2760,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "40000 XP"
-        ],
         "emeralds": [
           "256 Emeralds"
+        ],
+        "xp": [
+          "40000 XP"
         ]
       },
       "location": null
@@ -2778,14 +2785,14 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "2000 XP"
-        ],
         "access": [
           "Access to the Alekin Village fast travel"
         ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "2000 XP"
         ]
       },
       "location": null
@@ -2806,11 +2813,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "550 XP"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "xp": [
+          "550 XP"
         ]
       },
       "location": null
@@ -2834,11 +2841,11 @@
         "item": [
           "1 Photon"
         ],
-        "xp": [
-          "275000 XP"
-        ],
         "emeralds": [
           "1600 Emeralds"
+        ],
+        "xp": [
+          "275000 XP"
         ]
       },
       "location": null
@@ -2860,11 +2867,11 @@
         "item": [
           "1 Purified Helmet of the Legends"
         ],
-        "xp": [
-          "550000 XP"
-        ],
         "access": [
           "Access to the Temple of the Legends"
+        ],
+        "xp": [
+          "550000 XP"
         ]
       },
       "location": null
@@ -2886,12 +2893,12 @@
         "item": [
           "1 Time Fragment"
         ],
-        "xp": [
-          "5650 XP"
-        ],
         "access": [
           "Access to Time Valley\u0027s Time Trouble bosses",
           "Access to Mysterious Obelisk fast travel"
+        ],
+        "xp": [
+          "5650 XP"
         ]
       },
       "location": null
@@ -2914,11 +2921,11 @@
           "Gnome\u0027s Ring",
           "Giant\u0027s Ring"
         ],
-        "xp": [
-          "500000 XP"
-        ],
         "emeralds": [
           "1920 Emeralds"
+        ],
+        "xp": [
+          "500000 XP"
         ]
       },
       "location": null
@@ -2945,14 +2952,14 @@
           "4 Tol Runes",
           "1 Ancient Dogun Crystal"
         ],
-        "xp": [
-          "4500000 XP"
-        ],
         "access": [
           "Access to The Canyon Colossus"
         ],
         "emeralds": [
           "12288 Emeralds"
+        ],
+        "xp": [
+          "4500000 XP"
         ]
       },
       "location": null
@@ -2971,11 +2978,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "1575000 XP"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "1575000 XP"
         ]
       },
       "location": null
@@ -2994,14 +3001,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "1450000 XP"
-        ],
         "access": [
           "Access to Bantisu Quarters"
         ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "1450000 XP"
         ]
       },
       "location": null
@@ -3020,11 +3027,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "4800 XP"
-        ],
         "emeralds": [
           "136 Emeralds"
+        ],
+        "xp": [
+          "4800 XP"
         ]
       },
       "location": null
@@ -3048,11 +3055,11 @@
         "item": [
           "1 Diverted Loyalty"
         ],
-        "xp": [
-          "13500000 XP"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "13500000 XP"
         ]
       },
       "location": null
@@ -3099,11 +3106,11 @@
         "item": [
           "1 Maxie\u0027s House Key"
         ],
-        "xp": [
-          "1750000 XP"
-        ],
         "emeralds": [
           "9152 Emeralds"
+        ],
+        "xp": [
+          "1750000 XP"
         ]
       },
       "location": null
@@ -3128,12 +3135,12 @@
           "1 Electro Mage\u0027s Boots",
           "1 Fallen Factory Key"
         ],
-        "xp": [
-          "3050000 XP"
-        ],
         "access": [
           "Access to the hot air balloon quick-travel",
           "Access to the Fallen Factory Dungeon"
+        ],
+        "xp": [
+          "3050000 XP"
         ]
       },
       "location": null
@@ -3185,14 +3192,14 @@
           "8 Speed Surges",
           "3 Corkian Amplifier I"
         ],
-        "xp": [
-          "3300000 XP"
-        ],
         "access": [
           "Access to the Workshop"
         ],
         "emeralds": [
           "12228 Emeralds"
+        ],
+        "xp": [
+          "3300000 XP"
         ]
       },
       "location": null
@@ -3211,11 +3218,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "5500000 XP"
-        ],
         "emeralds": [
           "20480 Emeralds"
+        ],
+        "xp": [
+          "5500000 XP"
         ]
       },
       "location": null
@@ -3234,15 +3241,15 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "2700000 XP"
-        ],
         "access": [
           "Access to fast travel between Thesead and Eltom",
           "Access to Juggler\u0027s fast travel to Thesead"
         ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "2700000 XP"
         ]
       },
       "location": null
@@ -3261,11 +3268,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "45000 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "45000 XP"
         ]
       },
       "location": null
@@ -3287,11 +3294,11 @@
         "item": [
           "1 Canyon Chart"
         ],
-        "xp": [
-          "1575000 XP"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "1575000 XP"
         ]
       },
       "location": null
@@ -3310,11 +3317,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "77500 XP"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "xp": [
+          "77500 XP"
         ]
       },
       "location": null
@@ -3336,11 +3343,11 @@
         "item": [
           "Vindicator"
         ],
-        "xp": [
-          "11000 XP"
-        ],
         "emeralds": [
           "384 Emeralds"
+        ],
+        "xp": [
+          "11000 XP"
         ]
       },
       "location": null
@@ -3381,11 +3388,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "5800000 XP"
-        ],
         "access": [
           "Access to the Tol rune exchange"
+        ],
+        "xp": [
+          "5800000 XP"
         ]
       },
       "location": null
@@ -3404,14 +3411,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "242500 XP"
-        ],
         "access": [
           "Access to magic tunnel fast-travel"
         ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "xp": [
+          "242500 XP"
         ]
       },
       "location": null
@@ -3430,14 +3437,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "140000 XP"
-        ],
         "access": [
           "Access to The Passage"
         ],
         "emeralds": [
           "256 Emeralds"
+        ],
+        "xp": [
+          "140000 XP"
         ]
       },
       "location": null
@@ -3461,11 +3468,11 @@
         "item": [
           "1 Espionage"
         ],
-        "xp": [
-          "19000000 XP"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "xp": [
+          "19000000 XP"
         ]
       },
       "location": null
@@ -3513,11 +3520,11 @@
           "3 Uth Runes",
           "1 Double Vision"
         ],
-        "xp": [
-          "1300000 XP"
-        ],
         "access": [
           "Access to Orphion\u0027s Nexus of Light"
+        ],
+        "xp": [
+          "1300000 XP"
         ]
       },
       "location": null
@@ -3538,11 +3545,11 @@
         ]
       },
       "rewards": {
-        "xp": [
-          "11000000 XP"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "xp": [
+          "11000000 XP"
         ]
       },
       "location": null
@@ -3584,8 +3591,8 @@
         "level": 54,
         "professionLevels": {
           "fishing": 20,
-          "woodcutting": 20,
-          "mining": 20
+          "mining": 20,
+          "woodcutting": 20
         },
         "quests": []
       },
@@ -3619,11 +3626,11 @@
         "item": [
           "1 Honoured Commander\u0027s Medal"
         ],
-        "xp": [
-          "34200000 XP"
-        ],
         "emeralds": [
           "34816 Emeralds"
+        ],
+        "xp": [
+          "34200000 XP"
         ]
       },
       "location": null
@@ -3645,11 +3652,11 @@
         "item": [
           "1 Dragon Hide Plate"
         ],
-        "xp": [
-          "800000 XP"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "xp": [
+          "800000 XP"
         ]
       },
       "location": null
@@ -3696,9 +3703,6 @@
         "item": [
           "6 Az Runes"
         ],
-        "xp": [
-          "100000 XP"
-        ],
         "access": [
           "Access to the Nest of the Grootslangs",
           "Access to Mastery Tomes",
@@ -3706,6 +3710,9 @@
         ],
         "emeralds": [
           "768 Emeralds"
+        ],
+        "xp": [
+          "100000 XP"
         ]
       },
       "location": null
@@ -3727,11 +3734,11 @@
         "item": [
           "1 Rubber Duck"
         ],
-        "xp": [
-          "14000000 XP"
-        ],
         "access": [
           "Access to the Roughworks Resource Mine"
+        ],
+        "xp": [
+          "14000000 XP"
         ]
       },
       "location": null
@@ -3753,11 +3760,11 @@
         "item": [
           "1 Champion Armour Set"
         ],
-        "xp": [
-          "925000 XP"
-        ],
         "emeralds": [
           "32768 Emeralds"
+        ],
+        "xp": [
+          "925000 XP"
         ]
       },
       "location": null
@@ -3799,14 +3806,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "500000 XP"
-        ],
         "access": [
           "Access to the Dernel Tribe shop"
         ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "xp": [
+          "500000 XP"
         ]
       },
       "location": null
@@ -3830,11 +3837,11 @@
         "item": [
           "1 Conviction"
         ],
-        "xp": [
-          "35000000 XP"
-        ],
         "emeralds": [
           "28672 Emeralds"
+        ],
+        "xp": [
+          "35000000 XP"
         ]
       },
       "location": null
@@ -3853,14 +3860,14 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "300 XP"
-        ],
         "access": [
           "Access to fast travel between Ragni and Detlas"
         ],
         "emeralds": [
           "55 Emeralds"
+        ],
+        "xp": [
+          "300 XP"
         ]
       },
       "location": null
@@ -3884,11 +3891,11 @@
         "item": [
           "Calamaro\u0027s Token/+Gernald\u0027s Amulet"
         ],
-        "xp": [
-          "34000 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "34000 XP"
         ]
       },
       "location": null
@@ -3907,11 +3914,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "10240000 XP"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "xp": [
+          "10240000 XP"
         ]
       },
       "location": null
@@ -3937,12 +3944,12 @@
           "1 Treasure Boots",
           "1 Gathering Rod T1"
         ],
+        "emeralds": [
+          "32 Emeralds"
+        ],
         "xp": [
           "550 XP",
           "50 Fishing XP"
-        ],
-        "emeralds": [
-          "32 Emeralds"
         ]
       },
       "location": null
@@ -3964,11 +3971,11 @@
         "item": [
           "1 Mummy\u0027s Rag"
         ],
-        "xp": [
-          "16600 XP"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "xp": [
+          "16600 XP"
         ]
       },
       "location": null
@@ -4015,11 +4022,11 @@
         "item": [
           "1 Purple Crystal Shard"
         ],
-        "xp": [
-          "50000 XP"
-        ],
         "emeralds": [
           "1536 Emeralds"
+        ],
+        "xp": [
+          "50000 XP"
         ]
       },
       "location": null
@@ -4068,11 +4075,11 @@
         "item": [
           "1 Royal Token of Gratitude"
         ],
-        "xp": [
-          "600000 XP"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "xp": [
+          "600000 XP"
         ]
       },
       "location": null
@@ -4094,12 +4101,12 @@
         "item": [
           "16 Zhight Money"
         ],
-        "xp": [
-          "95000 XP"
-        ],
         "access": [
           "Access to Zhight Grand Exchange",
           "Access to Zhight Treasure Tour"
+        ],
+        "xp": [
+          "95000 XP"
         ]
       },
       "location": null
@@ -7007,11 +7014,11 @@
         "quests": []
       },
       "rewards": {
-        "xp": [
-          "7495000 XP"
-        ],
         "emeralds": [
           "4 Emeralds"
+        ],
+        "xp": [
+          "7495000 XP"
         ]
       },
       "location": null
@@ -7388,34 +7395,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "A Burning Memory",
-      "specialInfo": "§bThe Great Bridge",
-      "description": "§7Corruption\u0027s grasp is tight around its most powerful assets. §a✔§7 Crossed The Great Bridge",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 60,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Fabled Items",
-          "Exclusive Ingredient",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "32000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Abandoned Sentinels",
       "specialInfo": "§bPlains of Ruin",
       "description": "§7The old custodians of Gavel now fail to differentiate friend and foe. Some proclaim them to be soldiers of the first men, still fighting a battle long after their creators died.",
@@ -7444,28 +7423,26 @@
     },
     {
       "type": "worldEvent",
-      "name": "Abandoned Sentinels",
-      "specialInfo": "§bPlains of Ruin",
-      "description": "§7The old custodians of Gavel now fail to differentiate friend and foe. Some proclaim them to be soldiers of the first men, still fighting a battle long after their creators died.",
+      "name": "Aeon Origin",
+      "specialInfo": "§bTime Valley",
+      "description": "§7Things of lost antiquity and impossible futures converge at a single point, entangled in the knotted threads of the Time Valley.",
       "length": "long",
       "lengthInfo": "",
       "difficulty": "hard",
       "requirements": {
-        "level": 75,
+        "level": 25,
         "professionLevels": {},
         "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
-          "Exclusive Item",
-          "Exclusive Ingredient",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key",
-          "Nii Rune"
+          "Exclusive Items",
+          "Decrepit Sewers Key",
+          "Infested Pit Key"
         ],
         "xp": [
-          "120000 XP"
+          "250 XP"
         ]
       },
       "location": null
@@ -7493,62 +7470,6 @@
         ],
         "xp": [
           "430000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Ahms Monuments",
-      "specialInfo": "§bJofash Docks",
-      "description": "§7Some archaic sculptures and effigies have resisted both time and The Fracturing.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 95,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Uth Rune",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "430000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "All Eyes on Me",
-      "specialInfo": "§bEyeball Forest",
-      "description": "§7The focus of their attention is set upon you.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 101,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Beyond"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredient",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "650000 XP"
         ]
       },
       "location": null
@@ -7613,172 +7534,110 @@
     },
     {
       "type": "worldEvent",
-      "name": "Apiary Hive",
-      "specialInfo": "§bMistwoods",
-      "description": "§7Symbiosis creates new opportunities for animals and people alike, as regular migrations of wasps and bees can be taken advantage of.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 115,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1300000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Autumn Poachers",
-      "specialInfo": "§bAuburn Forest",
-      "description": "§7Though most people in the Auburn Forest hold a respect for the nature around them, there are some that have no such reverence.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 105,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Home"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "900000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Autumn Poachers",
-      "specialInfo": "§bAuburn Forest",
-      "description": "§7Though most people in the Auburn Forest hold a respect for the nature around them, there are some that have no such reverence.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 105,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Home"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "900000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Biohazardous Bloom",
-      "specialInfo": "§bRoughworks",
-      "description": "§7The pollution of the Roughworks gives rise to mobile colonies of algae, slime, and septic detritus from the waterways. Cleaning it is a disgustingly necessary, and horrifically dangerous job.",
+      "name": "Approaching Raid",
+      "specialInfo": "§bRagni Plains",
+      "description": "§7Sieges from undead forces are all but uncommon to soldiers of Wynn.",
       "length": "medium",
       "lengthInfo": "",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "requirements": {
-        "level": 110,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1250000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Biohazardous Bloom",
-      "specialInfo": "§bRoughworks",
-      "description": "§7The pollution of the Roughworks gives rise to mobile colonies of algae, slime, and septic detritus from the waterways. Cleaning it is a disgustingly necessary, and horrifically dangerous job.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 110,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1250000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Blazing Combustion",
-      "specialInfo": "§bSouth Mesa Plateaus",
-      "description": "§7The heat of Corruption is great enough that even earth and stone burns. Some compare the way that the earth is scalded to the point of being seared to a rash, spreading its way across Wynn.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 43,
+        "level": 5,
         "professionLevels": {},
         "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Exclusive Ingredient",
-          "Sand-Swept Tomb Key",
-          "Ice Barrows Key"
+          "Exclusive Item",
+          "Decrepit Sewers Key",
+          "Infested Pit Key"
         ],
         "xp": [
-          "5300 XP"
+          "200 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Arachnid Ambush",
+      "specialInfo": "§bNivla Woods",
+      "description": "§7Some broods of spiders lie in wait for a meal to fall into their jaws. Those who stray from the path often end up as an arachnid\u0027s dinner.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 8,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Item",
+          "Decrepit Sewers Key",
+          "Infested Pit Key"
+        ],
+        "xp": [
+          "200 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Autumn Poachers",
+      "specialInfo": "§bAuburn Forest",
+      "description": "§7Though most people in the Auburn Forest hold a respect for the nature around them, there are some that have no such reverence.",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 105,
+        "professionLevels": {},
+        "quests": [
+          "§fA Journey Home"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Items",
+          "Exclusive Ingredients",
+          "Tol Rune",
+          "Ek Rune"
+        ],
+        "xp": [
+          "900000 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Biohazardous Bloom",
+      "specialInfo": "§bRoughworks",
+      "description": "§7The pollution of the Roughworks gives rise to mobile colonies of algae, slime, and septic detritus from the waterways. Cleaning it is a disgustingly necessary, and horrifically dangerous job.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 110,
+        "professionLevels": {},
+        "quests": [
+          "§fRevelations in Fall"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Items",
+          "Exclusive Ingredients",
+          "Tol Rune",
+          "Ek Rune"
+        ],
+        "xp": [
+          "3800000 XP"
         ]
       },
       "location": null
@@ -7894,33 +7753,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Bubbling Terrace",
-      "specialInfo": "§bMolten Heights Hot Springs",
-      "description": "§7At the fringes of the Molten Heights, uniquely curious creatures form where molten rock and boiling water collide.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 90,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Uth Rune",
-          "Exclusive Items",
-          "Tol Rune",
-          "Exclusive Ingredient"
-        ],
-        "xp": [
-          "330000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Canine Ambush",
       "specialInfo": "§bNesaak Forest",
       "description": "§7Some legends say that Bob\u0027s death has the native wolves of the Nesaak Tundra to blame, and while many would dispute the validity of this fable, there is no denying the sheer ferocity these prowling hunters possess.",
@@ -7942,62 +7774,6 @@
         ],
         "xp": [
           "5000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Canine Ambush",
-      "specialInfo": "§bNesaak Forest",
-      "description": "§7Some legends say that Bob\u0027s death has the native wolves of the Nesaak Tundra to blame, and while many would dispute the validity of this fable, there is no denying the sheer ferocity these prowling hunters possess.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 42,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredient",
-          "Ice Barrows Key",
-          "Undergrowth Ruins Key"
-        ],
-        "xp": [
-          "5000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Citadel Barracks",
-      "specialInfo": "§bAelumia Citadel",
-      "description": "§7The Gendarme are the Crown\u0027s most loyal soldiers, unflinchingly accepting orders. The most dangerous enemy is one unafraid to die for their cause.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "easy",
-      "requirements": {
-        "level": 117,
-        "professionLevels": {},
-        "quests": [
-          "§fEnsemble of Hope"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "2000000 XP"
         ]
       },
       "location": null
@@ -8062,29 +7838,53 @@
     },
     {
       "type": "worldEvent",
-      "name": "Colossi Ingrain",
-      "specialInfo": "§bCanyon of The Lost",
-      "description": "§7Ingrained in the earth, fragments of the Colossus wreak havoc in all corners of the crumbling land it oversees.",
+      "name": "Corrupted Spring",
+      "specialInfo": "§bUpper Roots of Corruption",
+      "description": "§7Cursed magma rises to the surface from deep within the root network of the Corruption.",
       "length": "medium",
       "lengthInfo": "",
       "difficulty": "hard",
       "requirements": {
-        "level": 85,
+        "level": 15,
         "professionLevels": {},
         "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
+          "Exclusive Items",
           "Exclusive Ingredient",
-          "Exclusive Item",
-          "Nii Rune",
-          "Uth Rune",
-          "Fallen Factory Key",
-          "Eldritch Outlook Key"
+          "Infested Pit Key",
+          "Timelost Sanctum Key"
         ],
         "xp": [
-          "230000 XP"
+          "400 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Dark Deacons",
+      "specialInfo": "§bTime Valley",
+      "description": "§7A mysterious cult is gathering inside a cave, whispering furtive secrets and dark incantations.",
+      "length": "short",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 15,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Item",
+          "Exclusive Ingredient",
+          "Infested Pit Key"
+        ],
+        "xp": [
+          "400 XP"
         ]
       },
       "location": null
@@ -8114,64 +7914,6 @@
         ],
         "xp": [
           "330000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Decommissioned War Machines",
-      "specialInfo": "§bCorkus Island, South",
-      "description": "§7Old machines built for battle have been repurposed by Antikythera in its campaign for alleged \"peace\".",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 90,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Ingredient",
-          "Exclusive Items",
-          "Uth Rune",
-          "Fallen Factory Key",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "330000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Desperate Ambush",
-      "specialInfo": "§bOlux Swamp",
-      "description": "§7A witch has been sighted in the swamp, toying with forces way beyond her control.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 56,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Exclusive Ingredient",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key",
-          "Nii Rune"
-        ],
-        "xp": [
-          "25000 XP"
         ]
       },
       "location": null
@@ -8228,7 +7970,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "700000 XP"
+          "230000 XP"
         ]
       },
       "location": null
@@ -8262,27 +8004,26 @@
     },
     {
       "type": "worldEvent",
-      "name": "Encroaching Ablation",
-      "specialInfo": "§bNesaak Forest Edge",
-      "description": "§7Corrupted forces gather to thaw Theorick\u0027s spell and push further into Nesaak.",
-      "length": "medium",
+      "name": "Encroaching Blaze",
+      "specialInfo": "§bNivla Woods Outskirts",
+      "description": "§7Corrupted forces gather to make the forests ash.",
+      "length": "long",
       "lengthInfo": "",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "requirements": {
-        "level": 46,
+        "level": 10,
         "professionLevels": {},
         "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Exclusive Ingredients",
-          "Ice Barrows Key",
-          "Undergrowth Ruins Key"
+          "Exclusive Items",
+          "Decrepit Sewers Key",
+          "Infested Pit Key"
         ],
         "xp": [
-          "7500 XP"
+          "250 XP"
         ]
       },
       "location": null
@@ -8316,139 +8057,108 @@
     },
     {
       "type": "worldEvent",
-      "name": "Encroaching Extinction",
-      "specialInfo": "§bDernel Jungle",
-      "description": "§7Corrupted forces gather to bring an end to all life. §a✔§7 Crossed The Great Bridge",
-      "length": "medium",
+      "name": "Encroaching Destruction",
+      "specialInfo": "§bDetlas Battlefield",
+      "description": "§7Corrupted forces gather to lay claim to their battlefields.",
+      "length": "long",
       "lengthInfo": "",
       "difficulty": "medium",
       "requirements": {
-        "level": 65,
+        "level": 15,
         "professionLevels": {},
         "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
-          "Exclusive Fabled Items",
-          "Exclusive Ingredient",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "50000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Encroaching Extinction",
-      "specialInfo": "§bDernel Jungle",
-      "description": "§7Corrupted forces gather to bring an end to all life. §a✔§7 Crossed The Great Bridge",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 65,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Fabled Items",
-          "Exclusive Ingredient",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "50000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Encroaching Reanimation",
-      "specialInfo": "§bAlmuj Desert",
-      "description": "§7Corrupted forces gather to pull the dead from the burning sands.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 30,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Sand-Swept Tomb Key",
-          "Ice Barrows Key"
-        ],
-        "xp": [
-          "4500 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Encroaching Reanimation",
-      "specialInfo": "§bAlmuj Desert",
-      "description": "§7Corrupted forces gather to pull the dead from the burning sands.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 30,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Sand-Swept Tomb Key",
-          "Ice Barrows Key"
-        ],
-        "xp": [
-          "4500 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Enraged Eagle",
-      "specialInfo": "§bCanyon of The Lost, South",
-      "description": "§7Territorial birds make explorers who wish to navigate the twisting paths of the Canyon of the Lost\u0027s jobs somehow even harder.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 85,
-        "professionLevels": {},
-        "quests": [
-          "§fThe Lost"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Ingredient",
           "Exclusive Items",
-          "Nii Rune",
-          "Uth Rune",
-          "Fallen Factory Key",
-          "Eldritch Outlook Key"
+          "Infested Pit Key",
+          "Timelost Sanctum Key",
+          "Underworld Crypt Key"
         ],
         "xp": [
-          "230000 XP"
+          "400 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Extinction",
+      "specialInfo": "§bDernel Jungle",
+      "description": "§7Corrupted forces gather to bring an end to all life. §a✔§7 Crossed The Great Bridge",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 65,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Fabled Items",
+          "Exclusive Ingredient",
+          "Undergrowth Ruins Key",
+          "Az Rune",
+          "Galleon\u0027s Graveyard Key"
+        ],
+        "xp": [
+          "150000 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Misery",
+      "specialInfo": "§bAncient Nemract",
+      "description": "§7Corrupted forces gather to revel in their conquest.",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 20,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Items",
+          "Infested Pit Key",
+          "Timelost Sanctum Key",
+          "Underworld Crypt Key"
+        ],
+        "xp": [
+          "400 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Encroaching Reanimation",
+      "specialInfo": "§bAlmuj Desert",
+      "description": "§7Corrupted forces gather to pull the dead from the burning sands.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 30,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Many Exclusive Items",
+          "Sand-Swept Tomb Key",
+          "Ice Barrows Key"
+        ],
+        "xp": [
+          "4500 XP"
         ]
       },
       "location": null
@@ -8515,64 +8225,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Failed Hunt",
-      "specialInfo": "§bNorth Mesa Plateaus",
-      "description": "§7The allure of wealth and pride draws in the foolhardy for what they believe is an easy hunt.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "easy",
-      "requirements": {
-        "level": 40,
-        "professionLevels": {},
-        "quests": [
-          "§fCanyon Condor"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Exclusive Ingredient",
-          "Sand-Swept Tomb Key",
-          "Ice Barrows Key"
-        ],
-        "xp": [
-          "3500 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Fossil Fighters",
-      "specialInfo": "§bMistwoods",
-      "description": "§7Saurians of the Mistwoods regularly gather, clashing over food and mates. The Mistwoods clans normally steer clear of these dangerous events, but sometimes the allure of the valuable Saurian parts is too great to ignore.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 115,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1500000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Fossil Fighters",
       "specialInfo": "§bMistwoods",
       "description": "§7Saurians of the Mistwoods regularly gather, clashing over food and mates. The Mistwoods clans normally steer clear of these dangerous events, but sometimes the allure of the valuable Saurian parts is too great to ignore.",
@@ -8631,29 +8283,26 @@
     },
     {
       "type": "worldEvent",
-      "name": "Glacial Training",
-      "specialInfo": "§bHighlands",
-      "description": "§7The rigorous training regimen of the Fruman military requires its recruits to be able to survive in even the harshest conditions.",
+      "name": "Haywire Defender",
+      "specialInfo": "§bMaltic Plains",
+      "description": "§7What instructions the old constructs were given have been long forgotten, and now they attack all that come across their path with indiscriminate hatred.",
       "length": "short",
       "lengthInfo": "",
       "difficulty": "medium",
       "requirements": {
-        "level": 118,
+        "level": 3,
         "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
+        "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
+          "Exclusive Item",
+          "Decrepit Sewers Key",
+          "Infested Pit Key"
         ],
         "xp": [
-          "2000000 XP"
+          "300 XP"
         ]
       },
       "location": null
@@ -8715,61 +8364,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Incomprehensible Cynosure",
-      "specialInfo": "§bRuined Olmic City",
-      "description": "§7Forfeit all reason and succumb to the ineffable things scraping against this world.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 100,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Beyond"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "600000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Infernal Caldera",
-      "specialInfo": "§bUpper Molten Heights",
-      "description": "§7Overpowering heat emanates from the top of this volcano, threatening to erupt.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 92,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Uth Rune",
-          "Exclusive Items",
-          "Tol Rune",
-          "Exclusive Ingredient"
-        ],
-        "xp": [
-          "350000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Infernal Caldera",
       "specialInfo": "§bUpper Molten Heights",
       "description": "§7Overpowering heat emanates from the top of this volcano, threatening to erupt.",
@@ -8826,35 +8420,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Karoshi Union",
-      "specialInfo": "§bRoughworks",
-      "description": "§7Ground under the wheel of infinite production, many industrial workers lose sight of themselves, the world around them, anything but the job before them.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 108,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1100000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Light Emissaries",
       "specialInfo": "§bThe Gateway to Light",
       "description": "§7With the encroaching decay, wardens of Light have taken it upon themselves to purge their lands of all foreign things.",
@@ -8876,60 +8441,6 @@
         ],
         "xp": [
           "72000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Light Emissaries",
-      "specialInfo": "§bThe Gateway to Light",
-      "description": "§7With the encroaching decay, wardens of Light have taken it upon themselves to purge their lands of all foreign things.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 70,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key",
-          "Nii Rune"
-        ],
-        "xp": [
-          "72000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Lonely Islet",
-      "specialInfo": "§bOcean",
-      "description": "§7Before the waves were calmed, the ocean was left unexplored for many years. Even now, there are lonely patches of land that remain undiscovered by all but the most savvy sailors.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 45,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredient",
-          "Ice Barrows Key",
-          "Undergrowth Ruins Key"
-        ],
-        "xp": [
-          "15000 XP"
         ]
       },
       "location": null
@@ -9017,117 +8528,57 @@
     },
     {
       "type": "worldEvent",
-      "name": "Mole Meet-Up",
-      "specialInfo": "§bHighlands",
-      "description": "§7Mountainous colonies of moles are thought to be responsible for regular avalanches in the snowiest parts of the highlands.",
+      "name": "Monument to Loss",
+      "specialInfo": "§bVoid Valley",
+      "description": "§7Sit long enough in the valley, and you will watch as reality is eaten away, piece by piece... until there is nothing left.",
+      "length": "short",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 101,
+        "professionLevels": {},
+        "quests": [
+          "§fA Journey Further"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Items",
+          "Exclusive Ingredients",
+          "Tol Rune",
+          "Eldritch Outlook Key"
+        ],
+        "xp": [
+          "650000 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Necromantic Site",
+      "specialInfo": "§bDetlas Suburbs",
+      "description": "§7The emergence of the Corruption in Wynn has turned once solemn graveyards into rotten armies.",
       "length": "medium",
       "lengthInfo": "",
-      "difficulty": "easy",
-      "requirements": {
-        "level": 119,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1500000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Monument to Loss",
-      "specialInfo": "§bVoid Valley",
-      "description": "§7Sit long enough in the valley, and you will watch as reality is eaten away, piece by piece... until there is nothing left.",
-      "length": "short",
-      "lengthInfo": "",
       "difficulty": "medium",
       "requirements": {
-        "level": 101,
+        "level": 18,
         "professionLevels": {},
-        "quests": [
-          "§fA Journey Further"
-        ]
+        "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
           "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Eldritch Outlook Key"
+          "Infested Pit Key",
+          "Timelost Sanctum Key",
+          "Underworld Crypt Key",
+          "Sand-Swept Tomb Key"
         ],
         "xp": [
-          "650000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Monument to Loss",
-      "specialInfo": "§bVoid Valley",
-      "description": "§7Sit long enough in the valley, and you will watch as reality is eaten away, piece by piece... until there is nothing left.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 101,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Further"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "650000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Otherworldly Exhibition",
-      "specialInfo": "§bUnknown Location",
-      "description": "§7Wounds in the world left by indomitable hunger create unseen passageways for strange and impossible things to wriggle their way into reality. The most deranged see beauty in this indescribable merging of existences.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 104,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Beyond",
-          "§fA Journey Further"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "800000 XP"
+          "1300 XP"
         ]
       },
       "location": null
@@ -9183,33 +8634,7 @@
           "Infested Pit Key"
         ],
         "xp": [
-          "450 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Overtaken Farm",
-      "specialInfo": "§bRagni Suburbs",
-      "description": "§7Scarecrows have begun scaring far more than pesky birds. Corruption has given these straw-men a newfound resentment for life.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 8,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Decrepit Sewers Key",
-          "Infested Pit Key"
-        ],
-        "xp": [
-          "450 XP"
+          "200 XP"
         ]
       },
       "location": null
@@ -9238,36 +8663,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "2500000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Palace Guards",
-      "specialInfo": "§bAelumia Citadel",
-      "description": "§7Aelumia\u0027s Grand Palace is guarded heavily. Fortunate few get to lay witness to its military parades. To be a rebel within those demonstrations is certain death.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 120,
-        "professionLevels": {},
-        "quests": [
-          "§fEnsemble of Hope"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "2500000 XP"
+          "8000000 XP"
         ]
       },
       "location": null
@@ -9296,36 +8692,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "2000000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Patrolling Soldiers",
-      "specialInfo": "§bHighlands",
-      "description": "§7Fruman military patrols are a regular sight in all regions of the province, led by the elite Wings to keep the population safe and in check.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 118,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "2000000 XP"
+          "5500000 XP"
         ]
       },
       "location": null
@@ -9353,61 +8720,6 @@
         ],
         "xp": [
           "72000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Peculiar Grotto",
-      "specialInfo": "§bLight Forest",
-      "description": "§7Fungal organisms are made wild and vibrant by Light, warping them into sentient, polychromatic growths.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "easy",
-      "requirements": {
-        "level": 70,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key",
-          "Nii Rune"
-        ],
-        "xp": [
-          "72000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Pestilential Downpour",
-      "specialInfo": "§bToxic Wastes",
-      "description": "§7Nuclear residue and bile coalesce in the clouds, and then rain down in an acidic shower of flesh-melting fluid. The wastes are cleansed in a torrent of vomit and radioactive effluent.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 102,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Further"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "730000 XP"
         ]
       },
       "location": null
@@ -9470,34 +8782,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Prelude to Annihilation",
-      "specialInfo": "§bThe Roots of Corruption",
-      "description": "§7Something from the other side roars through the portal with a hatred for all life. Annihilation is coming to the physical plane.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 105,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Emeralds",
-          "Various Runes",
-          "Powders",
-          "Exclusive Ingredients",
-          "Third Clarion",
-          "Corrupted Cache"
-        ],
-        "xp": [
-          "15000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Realmic Antigen",
       "specialInfo": "§bThe Realm of Light",
       "description": "§7The Realm\u0027s immune response sees all that is unfamiliar as disease to be cleansed.",
@@ -9522,38 +8806,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "200000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Realmic Antigen",
-      "specialInfo": "§bThe Realm of Light",
-      "description": "§7The Realm\u0027s immune response sees all that is unfamiliar as disease to be cleansed.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 85,
-        "professionLevels": {},
-        "quests": [
-          "§fThe Realm of Light"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Ingredient",
-          "Exclusive Item",
-          "Nii Rune",
-          "Uth Rune",
-          "Fallen Factory Key",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "200000 XP"
+          "550000 XP"
         ]
       },
       "location": null
@@ -9587,112 +8840,55 @@
     },
     {
       "type": "worldEvent",
-      "name": "Resting Grounds",
-      "specialInfo": "§bHouse of Twain",
-      "description": "§7Horror that haunts the House of Twain and crawls in from the frozen forests of Nesaak find rest in this cold, dead land.",
-      "length": "short",
+      "name": "Risen Return",
+      "specialInfo": "§bNemract Plains",
+      "description": "§7A true death is rare in Wynn, for the corruption forbids any real demise.",
+      "length": "long",
       "lengthInfo": "",
       "difficulty": "hard",
       "requirements": {
-        "level": 47,
+        "level": 20,
         "professionLevels": {},
         "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Exclusive Ingredients",
-          "Ice Barrows Key",
-          "Undergrowth Ruins Key"
-        ],
-        "xp": [
-          "23000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Rogue Wyrmling",
-      "specialInfo": "§bOlux Swamp",
-      "description": "§7A child of the Grootslang has gone rogue from its kin, wracked by decay.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 50,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Exclusive Ingredient",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "13000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Rogue Wyrmling",
-      "specialInfo": "§bOlux Swamp",
-      "description": "§7A child of the Grootslang has gone rogue from its kin, wracked by decay.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 50,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Exclusive Ingredient",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "13000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Royal Alchemists",
-      "specialInfo": "§bAelumia Citadel",
-      "description": "§7The Fruman regime is eager to display its advancements to the citadel\u0027s populace in order to ensure its people are not tempted into trying magic.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 119,
-        "professionLevels": {},
-        "quests": [
-          "§fEnsemble of Hope"
-        ]
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
           "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
+          "Infested Pit Key",
+          "Timelost Sanctum Key",
+          "Underworld Crypt Key"
         ],
         "xp": [
-          "2300000 XP"
+          "550 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Rogue Wyrmling",
+      "specialInfo": "§bOlux Swamp",
+      "description": "§7A child of the Grootslang has gone rogue from its kin, wracked by decay.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 50,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Item",
+          "Exclusive Ingredient",
+          "Undergrowth Ruins Key",
+          "Az Rune",
+          "Galleon\u0027s Graveyard Key"
+        ],
+        "xp": [
+          "40000 XP"
         ]
       },
       "location": null
@@ -9751,63 +8947,6 @@
         ],
         "xp": [
           "230000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Ruff \u0026 Tumble",
-      "specialInfo": "§bCanyon of The Lost, North",
-      "description": "§7The constantly shifting walls of The Canyon of the Lost leave the region prone to rockslides, uncovering old creatures of stone that were left slumbering in the earth.",
-      "length": "long",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 85,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Ingredient",
-          "Exclusive Item",
-          "Nii Rune",
-          "Uth Rune",
-          "Fallen Factory Key",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "230000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Shapes in the Dark",
-      "specialInfo": "§bRuined Olmic City",
-      "description": "§7Plunge yourself into a darkness darker than darkness, and let unspeakable things reveal themselves to you.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 101,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Beyond"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Eldritch Outlook Key"
-        ],
-        "xp": [
-          "600000 XP"
         ]
       },
       "location": null
@@ -9894,31 +9033,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Skittering Spiders",
-      "specialInfo": "§bNivla Woods",
-      "description": "§7A swarm of spiders have made a home among the mushrooms, deep in the Nivla Woods. §a✔§7 Offered to help Yahya",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "easy",
-      "requirements": {
-        "level": 6,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Decrepit Sewers Key"
-        ],
-        "xp": [
-          "200 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Slimy Schism",
       "specialInfo": "§bTroms Jungle",
       "description": "§7Slimes gather to congeal, curdle, and split into new oozes. The acrid smell of their sticky conclave is overpowering. §a✔§7 Crossed The Great Bridge",
@@ -9940,62 +9054,6 @@
         ],
         "xp": [
           "14000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Slimy Schism",
-      "specialInfo": "§bTroms Jungle",
-      "description": "§7Slimes gather to congeal, curdle, and split into new oozes. The acrid smell of their sticky conclave is overpowering. §a✔§7 Crossed The Great Bridge",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "easy",
-      "requirements": {
-        "level": 50,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Many Exclusive Items",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "14000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Stackpeak Pinnacle",
-      "specialInfo": "§bXima Valley",
-      "description": "§7The peaks of Stackpeak reach high above the clouds, where local avians fiercely guard their young.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 108,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Home"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1000000 XP"
         ]
       },
       "location": null
@@ -10053,36 +9111,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "3500000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Swampland Squabble",
-      "specialInfo": "§bFrog Bog",
-      "description": "§7The rumors milling around the bog keep all but the most adventurous and desperate in the Auburn region away from its muddy waters.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 105,
-        "professionLevels": {},
-        "quests": [
-          "§fA Journey Home"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "900000 XP"
+          "1200000 XP"
         ]
       },
       "location": null
@@ -10148,59 +9177,25 @@
     },
     {
       "type": "worldEvent",
-      "name": "Swashbuckling Brawl",
-      "specialInfo": "§bUndead Galleon",
-      "description": "§7Though these pirates are long past their prime, their shambling remains still follow the barked orders of their rotten captain.",
+      "name": "Tainted Shoreline",
+      "specialInfo": "§bPirate Bay Foreshore",
+      "description": "§7Corruption\u0027s grasp stretches to even the furthest bounds of the Wynn Province. Though it is a myth that Corruption cannot pass through great bodies of water like the ocean, the kernel of truth is that it struggles to cross the gap, to the relief of all who live off shore.",
       "length": "medium",
       "lengthInfo": "",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "requirements": {
-        "level": 50,
-        "professionLevels": {},
-        "quests": [
-          "§fIce Nations"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Fabled Items",
-          "Canned Sardines",
-          "Undergrowth Ruins Key",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key"
-        ],
-        "xp": [
-          "15000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Territorial Trolls",
-      "specialInfo": "§bCanyon of The Lost",
-      "description": "§7With the canyon ever-shifting, bands of Trolls that lay claim to certain regions must constantly migrate to stay within their borders.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 85,
+        "level": 24,
         "professionLevels": {},
         "quests": []
       },
       "rewards": {
         "item": [
           "Various Items and Ingredients",
-          "Exclusive Ingredient",
-          "Exclusive Item",
-          "Nii Rune",
-          "Uth Rune",
-          "Fallen Factory Key",
-          "Eldritch Outlook Key"
+          "Infested Pit Key",
+          "The Swordfish"
         ],
         "xp": [
-          "700000 XP"
+          "1000 XP"
         ]
       },
       "location": null
@@ -10265,35 +9260,6 @@
     },
     {
       "type": "worldEvent",
-      "name": "Tree-Top Cradle",
-      "specialInfo": "§bMistwoods",
-      "description": "§7Many birds native to the Highlands are not restricted by established borders like those below, and can often be found roosting amongst the tree-tops of the neighboring Mistwoods.",
-      "length": "short",
-      "lengthInfo": "",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 115,
-        "professionLevels": {},
-        "quests": [
-          "§fRevelations in Fall"
-        ]
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Items",
-          "Exclusive Ingredients",
-          "Tol Rune",
-          "Ek Rune"
-        ],
-        "xp": [
-          "1200000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
       "name": "Unsettling Encounters",
       "specialInfo": "§bKander Woods",
       "description": "§7From the decay of the earth, new leprous things grow from its rotten carcass.",
@@ -10309,61 +9275,6 @@
         "item": [
           "Various Items and Ingredients",
           "Exclusive Item",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key",
-          "Nii Rune"
-        ],
-        "xp": [
-          "72000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Unsettling Encounters",
-      "specialInfo": "§bKander Woods",
-      "description": "§7From the decay of the earth, new leprous things grow from its rotten carcass.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 70,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Az Rune",
-          "Galleon\u0027s Graveyard Key",
-          "Nii Rune"
-        ],
-        "xp": [
-          "72000 XP"
-        ]
-      },
-      "location": null
-    },
-    {
-      "type": "worldEvent",
-      "name": "Visit from Beyond",
-      "specialInfo": "§bHouse of Talor",
-      "description": "§7Emissaries of Darkness seek to incarcerate the damned, and bind their spirits to the world.",
-      "length": "medium",
-      "lengthInfo": "",
-      "difficulty": "hard",
-      "requirements": {
-        "level": 70,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items and Ingredients",
-          "Exclusive Item",
-          "Exclusive Ingredient",
           "Az Rune",
           "Galleon\u0027s Graveyard Key",
           "Nii Rune"
@@ -24530,6 +23441,8 @@
       },
       "rewards": {
         "item": [
+          "1 §f󐀂§dSynchro Core",
+          "1 §f󐀂§dHarden Core",
           "Various Items"
         ],
         "xp": [
@@ -24828,6 +23741,8 @@
       },
       "rewards": {
         "item": [
+          "1 §f󐀂§dOverload Core",
+          "1 §f󐀂§dHustle Core",
           "Various Items"
         ],
         "xp": [
@@ -24885,11 +23800,11 @@
           "1 §f󐀂§bSpiketop",
           "Various Items"
         ],
-        "xp": [
-          "340 XP"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "xp": [
+          "340 XP"
         ]
       },
       "location": {
@@ -24942,11 +23857,11 @@
         "item": [
           "Various Items"
         ],
-        "xp": [
-          "170 XP"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "xp": [
+          "170 XP"
         ]
       },
       "location": {
@@ -25216,11 +24131,11 @@
         "item": [
           "Various Items"
         ],
-        "xp": [
-          "170 XP"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "xp": [
+          "170 XP"
         ]
       },
       "location": {
@@ -26153,11 +25068,11 @@
           "1 §f󐀂§bHex-Master Anchor",
           "Various Items"
         ],
-        "xp": [
-          "1500 XP"
-        ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "xp": [
+          "1500 XP"
         ]
       },
       "location": {
@@ -26183,11 +25098,11 @@
         "item": [
           "Various Items"
         ],
-        "xp": [
-          "150 XP"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "xp": [
+          "150 XP"
         ]
       },
       "location": {
@@ -26376,6 +25291,8 @@
       "rewards": {
         "item": [
           "1 §f󐀂§dClockwork Manifold",
+          "1 §f󐀂§dOverload Core",
+          "1 §f󐀂§dHarden Core",
           "Various Items"
         ],
         "xp": [
@@ -26621,6 +25538,7 @@
       },
       "rewards": {
         "item": [
+          "1 §f󐀂§dMimic",
           "Various Items"
         ],
         "xp": [
@@ -27146,11 +26064,11 @@
           "1 §f󐀂§eBlank",
           "Various Items"
         ],
-        "xp": [
-          "40 XP"
-        ],
         "emeralds": [
           "13 Emeralds"
+        ],
+        "xp": [
+          "40 XP"
         ]
       },
       "location": {
@@ -27201,6 +26119,8 @@
       },
       "rewards": {
         "item": [
+          "1 §f󐀂§dDodge Core",
+          "1 §f󐀂§dHustle Core",
           "Various Items"
         ],
         "xp": [
@@ -28513,6 +27433,7 @@
       },
       "rewards": {
         "item": [
+          "1 §f󐀂§dLocked Away",
           "Various Items"
         ],
         "xp": [
@@ -28648,6 +27569,8 @@
       },
       "rewards": {
         "item": [
+          "1 §f󐀂§dSynchro Core",
+          "1 §f󐀂§dDodge Core",
           "Various Items"
         ],
         "xp": [
@@ -30388,5 +29311,375 @@
       }
     }
   ],
-  "mountEnclosure": []
+  "mountEnclosure": [],
+  "timeTrial": [
+    {
+      "type": "timeTrial",
+      "name": "Abyssal Aerobatics",
+      "specialInfo": "",
+      "description": "§7Deep in the Void, scavengers hunt through debris from the world above, and some have found traces of Wyverns, left only to wonder what they are. Maybe it\u0027d be nice to show them.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 97,
+        "professionLevels": {},
+        "quests": [
+          "§fOne Thousand Meters Under"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "8 §#430096ffGloomy Roses",
+          "1 §dFrying Pan",
+          "1 §bPrecious Mineral",
+          "1 §dMissing Coinage"
+        ],
+        "emeralds": [
+          "6290 Emeralds"
+        ],
+        "xp": [
+          "210900 XP"
+        ]
+      },
+      "location": {
+        "x": 14038,
+        "y": 117,
+        "z": -4200
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Autumnal Athletics",
+      "specialInfo": "",
+      "description": "§7Though poor, Auburn Forest is among Fruma\u0027s most beautiful regions. It\u0027s no surprise, then, that some have made hiking routes around it. You don\u0027t have the time for hiking, but maybe a time trial will do.",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 107,
+        "professionLevels": {},
+        "quests": [
+          "§fA Journey Home"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "1 §#20aa20ffPristine Liff Leaf",
+          "1 §#20aa20ffRipe Aureate Fruit",
+          "1 §#20aa20ffCherished Heirloom",
+          "1 §#20aa20ffExquisite Marsh Scale"
+        ],
+        "emeralds": [
+          "7170 Emeralds"
+        ],
+        "xp": [
+          "500000 XP"
+        ]
+      },
+      "location": {
+        "x": -2036,
+        "y": 11,
+        "z": -1351
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Black Road Runaround",
+      "specialInfo": "",
+      "description": "§7The horse-breeders of Ternaves love their work, but it still gets boring at times. Their solution? Competitions of speed!",
+      "length": "short",
+      "lengthInfo": "",
+      "difficulty": "easy",
+      "requirements": {
+        "level": 17,
+        "professionLevels": {},
+        "quests": [
+          "§fStable Story"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "Horse Saddle"
+        ],
+        "emeralds": [
+          "466 Emeralds"
+        ],
+        "xp": [
+          "380 XP"
+        ]
+      },
+      "location": {
+        "x": 831,
+        "y": 70,
+        "z": -1677
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Bremmyn Bustle",
+      "specialInfo": "",
+      "description": "§7The mountains of Bremmyn-Hierra are famous for their unusual shape, with many column-like peaks. Don\u0027t they look like they\u0027d be fun to weave a Wyvern around?",
+      "length": "short",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 88,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "emeralds": [
+          "5690 Emeralds"
+        ],
+        "xp": [
+          "138100 XP"
+        ]
+      },
+      "location": {
+        "x": 743,
+        "y": 178,
+        "z": -2231
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Dash Across the Dunes",
+      "specialInfo": "",
+      "description": "§7Many bandits have taken residence in the Almuj Desert, and among them, there is a pervasive gambling culture. If you can achieve a feat against their expectations, they may well have good rewards in store.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "easy",
+      "requirements": {
+        "level": 31,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "1 §f󐀂§dMercenary\u0027s Mail"
+        ],
+        "emeralds": [
+          "1244 Emeralds"
+        ],
+        "xp": [
+          "1600 XP"
+        ]
+      },
+      "location": {
+        "x": 1386,
+        "y": 84,
+        "z": -2175
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Fast-Paced Pilgrimage",
+      "specialInfo": "",
+      "description": "§7The Bovemists near Nemract have many an odd tradition, which, much to the ire of some in the military, often involve the dangerous Corrupted ruins nearby. It might be neat to take part, though.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 23,
+        "professionLevels": {},
+        "quests": [
+          "§fBrothers Return"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "1 §f󐀂§eBovine Charm"
+        ],
+        "emeralds": [
+          "640 Emeralds"
+        ],
+        "xp": [
+          "740 XP"
+        ]
+      },
+      "location": {
+        "x": 328,
+        "y": 48,
+        "z": -2209
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Hazardous Hike",
+      "specialInfo": "",
+      "description": "§7A challenge usually taken on by the elves to prove wit and bravery. Who ever said you need to do it on foot?",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 80,
+        "professionLevels": {},
+        "quests": [
+          "§fAldorei\u0027s Secret Part II"
+        ]
+      },
+      "rewards": {
+        "emeralds": [
+          "5066 Emeralds"
+        ],
+        "xp": [
+          "87200 XP"
+        ]
+      },
+      "location": {
+        "x": -239,
+        "y": 103,
+        "z": -4394
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Llevigar Leg Day",
+      "specialInfo": "",
+      "description": "§7Welcome to Gavel! This course will take you around the grand city of Llevigar, as well as its surroundings.",
+      "length": "short",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 40,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "1 §f󐀂§dHorse Hoof"
+        ],
+        "emeralds": [
+          "1934 Emeralds"
+        ],
+        "xp": [
+          "3300 XP"
+        ]
+      },
+      "location": {
+        "x": -2018,
+        "y": 43,
+        "z": -4822
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Rush Around the Ruins",
+      "specialInfo": "",
+      "description": "§7Time Valley\u0027s few residents enjoy taking strolls around the area\u0027s mysterious ruins. But has anyone ever tried doing it quickly?",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "easy",
+      "requirements": {
+        "level": 27,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "1 §f󐀂§dAberrant Clock"
+        ],
+        "emeralds": [
+          "934 Emeralds"
+        ],
+        "xp": [
+          "1080 XP"
+        ]
+      },
+      "location": {
+        "x": -303,
+        "y": 53,
+        "z": -1175
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Sky-High Soar",
+      "specialInfo": "",
+      "description": "§7In the Sky Islands, a strange updraft blows from the abyss, enabling Wyverns to fly freely. This, of course, has made them ideal for Time Trials.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 95,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "emeralds": [
+          "6233 Emeralds"
+        ],
+        "xp": [
+          "196300 XP"
+        ]
+      },
+      "location": {
+        "x": 1165,
+        "y": 184,
+        "z": -4547
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "South Canyon Competition",
+      "specialInfo": "",
+      "description": "§7The monks of Bantisu have mastered the winds, and they use this power to rescue lost adventurers in the Canyon. Sometimes, they just like to have fun with it, though.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 86,
+        "professionLevels": {},
+        "quests": [
+          "§fThe Canyon Guides"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "Wyvern Reins"
+        ],
+        "emeralds": [
+          "5532 Emeralds"
+        ],
+        "xp": [
+          "113500 XP"
+        ]
+      },
+      "location": {
+        "x": 492,
+        "y": 132,
+        "z": -4757
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Stygian Sprint",
+      "specialInfo": "",
+      "description": "§7The Silent Expanse amounts to a winding road, leading to the Portal. Thus, like any road, it\u0027s great for racing!",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 103,
+        "professionLevels": {},
+        "quests": [
+          "§fA Journey Further"
+        ]
+      },
+      "rewards": {
+        "emeralds": [
+          "6780 Emeralds"
+        ],
+        "xp": [
+          "350000 XP"
+        ]
+      },
+      "location": {
+        "x": 1322,
+        "y": 25,
+        "z": -677
+      }
+    }
+  ]
 }

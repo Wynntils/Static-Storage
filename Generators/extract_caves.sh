@@ -6,7 +6,7 @@ CONTENT_DIR=$BASE_DIR/Data-Storage/raw/content
 OUTPUT_DIR=$BASE_DIR/Reference
 
 mkdir -p $OUTPUT_DIR
-cat $CONTENT_DIR/content_book_dump.json | jq '.cave' | jq '.[].requirements |= .level' > $OUTPUT_DIR/caves.json
+cat $CONTENT_DIR/content_book_dump.json | jq '.cave | .[].requirements |= .level | .[].rewards |= ((.xp // []) + (.item // []))' > $OUTPUT_DIR/caves.json
 
 # Calculate md5sum of the new cave data
 MD5=$(md5sum $OUTPUT_DIR/caves.json | cut -d' ' -f1)
