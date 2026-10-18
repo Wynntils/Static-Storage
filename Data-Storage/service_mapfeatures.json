@@ -201,9 +201,9 @@
     "featureId": "alchemism-station-22",
     "categoryId": "wynntils:service:profession:alchemism",
     "location": {
-      "x": 104,
+      "x": 106,
       "y": 39,
-      "z": -2191
+      "z": -2193
     }
   },
   {
@@ -6672,9 +6672,9 @@
     "featureId": "potion-merchant-30",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
-      "x": 114,
-      "y": 40,
-      "z": -2172
+      "x": 104,
+      "y": 39,
+      "z": -2191
     }
   },
   {
