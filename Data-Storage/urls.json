@@ -127,7 +127,7 @@
   },
   {
     "id": "dataStaticCaveInfo",
-    "md5": "ef98c782956bef8cff07700b51c2bda4",
+    "md5": "a67d80084b2554e91cbc76d406a1c4a9",
     "path": "Reference/caves.json",
     "url": "https://cdn.wynntils.com/static/Reference/caves.json"
   },
@@ -139,13 +139,13 @@
   },
   {
     "id": "dataStaticCombatLocations",
-    "md5": "ba56eb8a6f7bdbea8d59b4c66f495b66",
+    "md5": "efa7ccca92fd8b6037339f0ffaa61019",
     "path": "Data-Storage/combat_locations.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/combat_locations.json"
   },
   {
     "id": "dataStaticCombatMapFeatures",
-    "md5": "de636b915381de0b27ccc75227c42eec",
+    "md5": "075bf5555407f17316fbf4dae15e670c",
     "path": "Reference/combat_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Reference/combat_mapfeatures.json"
   },
@@ -313,7 +313,7 @@
   },
   {
     "id": "dataStaticServiceMapFeatures",
-    "md5": "84a7903b18958a8e692fc93e4dc964bb",
+    "md5": "33a69fab4a86ca25bc88425e919a7519",
     "path": "Data-Storage/service_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/service_mapfeatures.json"
   },
@@ -325,7 +325,7 @@
   },
   {
     "id": "dataStaticServicesCrowdsourced",
-    "md5": "2e4503daa873788fec096c194781b4b8",
+    "md5": "b77e71fc7f8e816019f7c033c6810460",
     "path": "Data-Storage/services_crowdsourced.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/services_crowdsourced.json"
   },
