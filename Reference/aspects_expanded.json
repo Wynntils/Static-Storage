@@ -6699,7 +6699,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4.5%",
+                "text": "+4.75%",
                 "color": "#FFFFFF"
               },
               {
@@ -6726,7 +6726,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-2",
+                "text": "-1",
                 "color": "#FF5555"
               },
               {
@@ -6748,7 +6748,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+12%",
+                "text": "+6%",
                 "color": "#FFFFFF"
               },
               {
@@ -6775,7 +6775,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-2",
+                "text": "-1",
                 "color": "#FF5555"
               },
               {
@@ -6797,7 +6797,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+14%",
+                "text": "+8%",
                 "color": "#FFFFFF"
               },
               {
@@ -7876,7 +7876,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1.25s",
+                "text": "-0.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -7900,7 +7900,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1.25s",
+                "text": "-0.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -7944,7 +7944,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "-1.75s",
+                "text": "-0.75s",
                 "color": "#FFFFFF"
               },
               {
@@ -8907,7 +8907,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.25s",
+                "text": "+1s",
                 "color": "#FFFFFF"
               },
               {
@@ -8944,7 +8944,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2.25s",
+                "text": "+1.5s",
                 "color": "#FFFFFF"
               },
               {
@@ -8981,7 +8981,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s",
+                "text": "+2s",
                 "color": "#FFFFFF"
               },
               {
@@ -9300,11 +9300,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+2%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed.",
+                "text": " speed per cast",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " maximum speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -9324,11 +9338,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10%",
+                "text": "+3%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed.",
+                "text": " speed per cast",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+15%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " maximum speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -9348,11 +9376,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "+4%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed.",
+                "text": " speed per cast",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+20%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " maximum speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -9372,11 +9414,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "+5%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed.",
+                "text": " speed per cast",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " maximum speed.",
                 "color": "#AAAAAA"
               }
             ]
@@ -10897,7 +10953,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " grants ",
                 "color": "#AAAAAA"
               },
               {
@@ -10909,7 +10965,7 @@
                 "color": "#55FF55"
               },
               {
-                "text": "Resistance.",
+                "text": "Resistance while standing in it.",
                 "color": "#AAAAAA"
               }
             ]
@@ -10967,7 +11023,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " grants ",
                 "color": "#AAAAAA"
               },
               {
@@ -10979,7 +11035,7 @@
                 "color": "#55FF55"
               },
               {
-                "text": "Resistance.",
+                "text": "Resistance while standing in it.",
                 "color": "#AAAAAA"
               }
             ]
@@ -12613,15 +12669,41 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " is ",
+                "text": " has it's maximum duration increased",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+0.5%",
+                "text": "1s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " stronger.",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Weathering",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " duration is increased ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "1s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -12636,15 +12718,41 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " is ",
+                "text": " has it's maximum duration increased",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1%",
+                "text": "2s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " stronger.",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Weathering",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " duration is increased ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "2s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -12659,15 +12767,41 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " is ",
+                "text": " has it's maximum duration increased",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.5%",
+                "text": "3s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " stronger.",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Weathering",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " duration is increased ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "3s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -12682,15 +12816,41 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " is ",
+                "text": " has it's maximum duration increased",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2%",
+                "text": "4s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " stronger.",
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Weathering",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " duration is increased ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "4s",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
                 "color": "#AAAAAA"
               }
             ]
@@ -14405,7 +14565,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.15x",
+                "text": "1.10x",
                 "color": "#FFFFFF"
               },
               {
@@ -14429,7 +14589,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.2x",
+                "text": "1.15x",
                 "color": "#FFFFFF"
               },
               {
@@ -14453,7 +14613,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.25x",
+                "text": "1.20x",
                 "color": "#FFFFFF"
               },
               {
@@ -15909,7 +16069,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+N/A",
                 "color": "#FFFFFF"
               },
               {
@@ -15956,7 +16116,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+N/A",
                 "color": "#FFFFFF"
               },
               {
@@ -19907,7 +20067,7 @@
         }
       }
     },
-    "Aspect of the Tightrope Walk": {
+    "Aspect of the Unyielding": {
       "icon": {
         "format": "attribute",
         "value": {
@@ -19921,7 +20081,7 @@
         }
       },
       "internalName": "9bedcbeb",
-      "name": "Aspect of the Tightrope Walk",
+      "name": "Aspect of the Unyielding",
       "rarity": "fabled",
       "requiredClass": "warrior",
       "tiers": {
@@ -19934,15 +20094,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " activates at ",
+                "text": " stores ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4%",
+                "text": "+5%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " higher Health.",
+                "text": " of your maximum health.",
                 "color": "#AAAAAA"
               }
             ]
@@ -19958,15 +20118,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " activates at ",
+                "text": " stores ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+6%",
+                "text": "+8%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " higher Health.",
+                "text": " of your maximum health.",
                 "color": "#AAAAAA"
               }
             ]
@@ -19982,15 +20142,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " activates at ",
+                "text": " stores ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8%",
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " higher Health.",
+                "text": " of your maximum health.",
                 "color": "#AAAAAA"
               }
             ]
@@ -20371,7 +20531,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3% ",
+                "text": "+2% ",
                 "color": "#FFFFFF"
               },
               {

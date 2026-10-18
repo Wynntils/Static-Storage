@@ -3159,6 +3159,162 @@
     }
   },
   {
+    "featureId": "abyssal-aerobatics",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Abyssal Aerobatics",
+      "level": 97
+    },
+    "location": {
+      "x": 14038,
+      "y": 117,
+      "z": -4200
+    }
+  },
+  {
+    "featureId": "autumnal-athletics",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Autumnal Athletics",
+      "level": 107
+    },
+    "location": {
+      "x": -2036,
+      "y": 11,
+      "z": -1351
+    }
+  },
+  {
+    "featureId": "black-road-runaround",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Black Road Runaround",
+      "level": 17
+    },
+    "location": {
+      "x": 831,
+      "y": 70,
+      "z": -1677
+    }
+  },
+  {
+    "featureId": "bremmyn-bustle",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Bremmyn Bustle",
+      "level": 88
+    },
+    "location": {
+      "x": 743,
+      "y": 178,
+      "z": -2231
+    }
+  },
+  {
+    "featureId": "dash-across-the-dunes",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Dash Across the Dunes",
+      "level": 31
+    },
+    "location": {
+      "x": 1386,
+      "y": 84,
+      "z": -2175
+    }
+  },
+  {
+    "featureId": "fast-paced-pilgrimage",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Fast-Paced Pilgrimage",
+      "level": 23
+    },
+    "location": {
+      "x": 328,
+      "y": 48,
+      "z": -2209
+    }
+  },
+  {
+    "featureId": "hazardous-hike",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Hazardous Hike",
+      "level": 80
+    },
+    "location": {
+      "x": -239,
+      "y": 103,
+      "z": -4394
+    }
+  },
+  {
+    "featureId": "llevigar-leg-day",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Llevigar Leg Day",
+      "level": 40
+    },
+    "location": {
+      "x": -2018,
+      "y": 43,
+      "z": -4822
+    }
+  },
+  {
+    "featureId": "rush-around-the-ruins",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Rush Around the Ruins",
+      "level": 27
+    },
+    "location": {
+      "x": -303,
+      "y": 53,
+      "z": -1175
+    }
+  },
+  {
+    "featureId": "sky-high-soar",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Sky-High Soar",
+      "level": 95
+    },
+    "location": {
+      "x": 1165,
+      "y": 184,
+      "z": -4547
+    }
+  },
+  {
+    "featureId": "south-canyon-competition",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "South Canyon Competition",
+      "level": 86
+    },
+    "location": {
+      "x": 492,
+      "y": 132,
+      "z": -4757
+    }
+  },
+  {
+    "featureId": "stygian-sprint",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Stygian Sprint",
+      "level": 103
+    },
+    "location": {
+      "x": 1322,
+      "y": 25,
+      "z": -677
+    }
+  },
+  {
     "featureId": "uth-shrine",
     "categoryId": "wynntils:content:shrine",
     "attributes": {

@@ -45,19 +45,32 @@ fi
 # Also fix known invalid identification keys from the Wynncraft API.
 jq --slurpfile invalid_identifications "$DATA_STORAGE/invalid_identifications.json" '
     if type == "array" then
-        map({
-            key: (
-                (.displayName // .name // .internalName) as $baseName
-                | if $baseName == null then
-                    error("Missing displayName/name/internalName in gear payload")
-                  elif ((.internalName // "") | startswith("Masterwork ")) and ((.tier // "") == "mythic") then
-                    ("Masterwork " + $baseName)
-                  else
-                    $baseName
-                  end
-            ),
-            value: (del(.displayName))
-        }) | from_entries
+        map(
+            (.displayName // .name // .internalName) as $baseName
+            | if $baseName == null then
+                error("Missing displayName/name/internalName in gear payload")
+              elif ((.internalName // "") | startswith("Masterwork ")) and ((.tier // "") == "mythic") then
+                [
+                    {
+                        key: ("Masterwork " + ($baseName | gsub("֎"; ""))),
+                        value: (del(.displayName))
+                    },
+                    {
+                        key: ("Ascended " + ($baseName | gsub("֎"; ""))),
+                        value: (del(.displayName))
+                    }
+                ]
+              else
+                [
+                    {
+                        key: $baseName,
+                        value: (del(.displayName))
+                    }
+                ]
+              end
+        )
+        | add
+        | from_entries
     else
         .
     end
