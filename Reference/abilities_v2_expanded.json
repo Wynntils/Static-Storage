@@ -8687,7 +8687,7 @@
             }
           ]
         ],
-        "cost": 0,
+        "cost": 2,
         "willBlock": [],
         "blockedBy": [],
         "requiredAbility": null,
@@ -34809,7 +34809,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "5s",
+              "text": "1.5s",
               "color": "#FFFFFF"
             },
             {
@@ -34878,7 +34878,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "15s",
+              "text": "4s",
               "color": "#FFFFFF"
             }
           ]
@@ -36726,7 +36726,7 @@
           [],
           [
             {
-              "text": "Surviving after the effect ends",
+              "text": "Ending the effect with no stored damage",
               "color": "#AAAAAA"
             }
           ],
@@ -36751,7 +36751,13 @@
               "color": "#AA0000"
             },
             {
-              "text": ".",
+              "text": ",",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "otherwise you die.",
               "color": "#AAAAAA"
             }
           ],
