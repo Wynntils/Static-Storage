@@ -105,7 +105,7 @@
     "requirements": 2,
     "rewards": [
       "60 XP",
-      "1 §f󐀂§dUnidentified Leggings",
+      "1 §f󐀂§dDamasse",
       "Various Items"
     ],
     "location": {
@@ -451,6 +451,8 @@
     "requirements": 90,
     "rewards": [
       "400000 XP",
+      "1 §f󐀂§dSynchro Core",
+      "1 §f󐀂§dHarden Core",
       "Various Items"
     ],
     "location": {
@@ -616,7 +618,7 @@
     "type": "cave",
     "name": "Citadel Catacombs",
     "specialInfo": "",
-    "description": "§7Enter a forgotten watery realm at §f[-1505, 80, -733]§7.",
+    "description": "§7Old ruins carved into the side of the tableland Aelumia Citadel rests upon at §f[-1505, 80, -733]§7 have become the spawning ground for various unsavory creatures and foliage.",
     "length": "long",
     "lengthInfo": "3m",
     "difficulty": "medium",
@@ -661,6 +663,8 @@
     "requirements": 90,
     "rewards": [
       "400000 XP",
+      "1 §f󐀂§dOverload Core",
+      "1 §f󐀂§dHustle Core",
       "Various Items"
     ],
     "location": {
@@ -699,8 +703,7 @@
     "requirements": 9,
     "rewards": [
       "340 XP",
-      "64 Emeralds",
-      "1 §f󐀂§bUnidentified Helmet",
+      "1 §f󐀂§bSpiketop",
       "Various Items"
     ],
     "location": {
@@ -739,7 +742,6 @@
     "requirements": 6,
     "rewards": [
       "170 XP",
-      "64 Emeralds",
       "Various Items"
     ],
     "location": {
@@ -887,7 +889,7 @@
     "name": "Dead Man's Dugout",
     "specialInfo": "",
     "description": "§7The dead remains of pirates past live at §f[853, 37, -2448]",
-    "length": "medium",
+    "length": "long",
     "lengthInfo": "2m",
     "difficulty": "medium",
     "requirements": 25,
@@ -931,7 +933,6 @@
     "requirements": 6,
     "rewards": [
       "170 XP",
-      "64 Emeralds",
       "Various Items"
     ],
     "location": {
@@ -1155,7 +1156,7 @@
     "type": "cave",
     "name": "Entozoon Takeover",
     "specialInfo": "",
-    "description": "§7Giant parasites consume the remnants of a fallen redwood at §f[-1186, 49, -640]§7.",
+    "description": "§7Giant worms thrive on the rotting roots of an old redwood stump at §f[-1186, 49, -640]§7.",
     "length": "long",
     "lengthInfo": "4m",
     "difficulty": "hard",
@@ -1174,7 +1175,7 @@
   {
     "type": "cave",
     "name": "Estalis Gallery",
-    "specialInfo": "",
+    "specialInfo": "§aCave Complex",
     "description": "§7The members of House Estalis rarely leave their manor as of late, find out why at §f[-1323, 82, -912]§7.",
     "length": "long",
     "lengthInfo": "5m",
@@ -1282,7 +1283,7 @@
     "rewards": [
       "30000 XP",
       "1 §f󐀂§dClaws of Atypical Expanse",
-      "3 Az Runes",
+      "3 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -1593,7 +1594,6 @@
     "requirements": 7,
     "rewards": [
       "1500 XP",
-      "192 Emeralds",
       "1 §f󐀂§bHex-Master Anchor",
       "Various Items"
     ],
@@ -1614,7 +1614,6 @@
     "requirements": 11,
     "rewards": [
       "150 XP",
-      "64 Emeralds",
       "Various Items"
     ],
     "location": {
@@ -1634,7 +1633,7 @@
     "requirements": 45,
     "rewards": [
       "7000 XP",
-      "1 Az Rune",
+      "1 §#b0f3fcffAz Rune",
       "Various Items"
     ],
     "location": {
@@ -1654,6 +1653,7 @@
     "requirements": 41,
     "rewards": [
       "12000 XP",
+      "1 §f󐀂§dSnow Helmet",
       "Various Items"
     ],
     "location": {
@@ -1750,6 +1750,8 @@
     "rewards": [
       "400000 XP",
       "1 §f󐀂§dClockwork Manifold",
+      "1 §f󐀂§dOverload Core",
+      "1 §f󐀂§dHarden Core",
       "Various Items"
     ],
     "location": {
@@ -1780,7 +1782,7 @@
   {
     "type": "cave",
     "name": "Krisa Manor",
-    "specialInfo": "",
+    "specialInfo": "§aCave Complex",
     "description": "§7The members of House Krisa dedicate their lives to scholarly study. Discover their secrets at §f[-1366, 108, -1019]§7.",
     "length": "long",
     "lengthInfo": "5m",
@@ -1856,7 +1858,7 @@
   {
     "type": "cave",
     "name": "Liftal Castle",
-    "specialInfo": "",
+    "specialInfo": "§aCave Complex",
     "description": "§7The members of House Liftal train fiercely to qualify for the Wings military division. Challenge this brutish family at §f[-1443, 108, -1037]§7.",
     "length": "long",
     "lengthInfo": "6m",
@@ -1884,7 +1886,7 @@
     "rewards": [
       "22000 XP",
       "1 §f󐀂§dWater Lily",
-      "2 Az Runes",
+      "2 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -1923,6 +1925,7 @@
     "requirements": 100,
     "rewards": [
       "1000000 XP",
+      "1 §f󐀂§dMimic",
       "Various Items"
     ],
     "location": {
@@ -2000,7 +2003,7 @@
     "requirements": 53,
     "rewards": [
       "20000 XP",
-      "1 Az Rune",
+      "1 §#b0f3fcffAz Rune",
       "Various Items"
     ],
     "location": {
@@ -2117,7 +2120,7 @@
     "rewards": [
       "30000 XP",
       "1 §f󐀂§dSerpentine",
-      "2 Az Runes",
+      "2 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -2130,7 +2133,7 @@
     "type": "cave",
     "name": "Natural Sanctuary",
     "specialInfo": "",
-    "description": "§7The Canyons flora is more diverse than most realize, with sanctuaries of all sorts spread all throughout such as at §f[292, 25, -4554]§7.",
+    "description": "§7The Canyons flora is more diverse than most realize, with sanctuaries of all sorts spread all throughout, such as at §f[292, 25, -4554]§7.",
     "length": "medium",
     "lengthInfo": "1m35s",
     "difficulty": "medium",
@@ -2168,7 +2171,7 @@
     "type": "cave",
     "name": "Nesting Place",
     "specialInfo": "",
-    "description": "§7A Giant Redwood has brought many predatory eagles to nest at §f[-1542, 55, -551]§7.",
+    "description": "§7At §f[-1542, 55, -551]§7, a tall Redwood standing boldly at the boundary of the Mistwoods has become a dwelling place for eagles.",
     "length": "long",
     "lengthInfo": "2m",
     "difficulty": "medium",
@@ -2193,7 +2196,7 @@
     "difficulty": "hard",
     "requirements": 120,
     "rewards": [
-      "1500000 XP",
+      "7120000 XP",
       "1 §f󐀂§dStudhorn",
       "Various Items"
     ],
@@ -2293,7 +2296,6 @@
     "requirements": 1,
     "rewards": [
       "40 XP",
-      "13 Emeralds",
       "1 §f󐀂§eBlank",
       "Various Items"
     ],
@@ -2333,6 +2335,8 @@
     "requirements": 90,
     "rewards": [
       "400000 XP",
+      "1 §f󐀂§dDodge Core",
+      "1 §f󐀂§dHustle Core",
       "Various Items"
     ],
     "location": {
@@ -2409,6 +2413,7 @@
     "requirements": 45,
     "rewards": [
       "9000 XP",
+      "1 §f󐀂§dSnow Pants",
       "Various Items"
     ],
     "location": {
@@ -2428,7 +2433,7 @@
     "requirements": 10,
     "rewards": [
       "210 XP",
-      "1 §eWarmth",
+      "1 §f󐀂§eWarmth",
       "Various Items"
     ],
     "location": {
@@ -2582,7 +2587,7 @@
     "difficulty": "medium",
     "requirements": 117,
     "rewards": [
-      "1100000 XP",
+      "6250000 XP",
       "1 §f󐀂§bArachnid Effigy",
       "5 §#20aa20ffSaltpetres",
       "Various Items"
@@ -2681,7 +2686,7 @@
     "rewards": [
       "30000 XP",
       "1 §f󐀂§dSewer Slugger",
-      "3 Az Runes",
+      "3 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -2739,7 +2744,7 @@
     "requirements": 45,
     "rewards": [
       "20000 XP",
-      "2 Az Runes",
+      "2 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -2817,7 +2822,7 @@
     "rewards": [
       "30000 XP",
       "1 §f󐀂§dCoal Cadaver",
-      "2 Az Runes",
+      "2 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -2991,6 +2996,7 @@
     "requirements": 45,
     "rewards": [
       "10000 XP",
+      "1 §f󐀂§dSnow Tunic",
       "Various Items"
     ],
     "location": {
@@ -3022,7 +3028,7 @@
     "type": "cave",
     "name": "Sundial Sanctum",
     "specialInfo": "§aCave Complex",
-    "description": "§7Enter The Sanctum at §f[1062, 74, -1726]§7 if you dare",
+    "description": "§7Enter The Sanctum at §f[1062, 74, -1726]§7, if you dare",
     "length": "long",
     "lengthInfo": "15m",
     "difficulty": "hard",
@@ -3068,7 +3074,7 @@
     "requirements": 50,
     "rewards": [
       "15000 XP",
-      "1 Az Rune",
+      "1 §#b0f3fcffAz Rune",
       "Various Items"
     ],
     "location": {
@@ -3106,7 +3112,7 @@
     "difficulty": "hard",
     "requirements": 116,
     "rewards": [
-      "1000000 XP",
+      "6550000 XP",
       "Various Items"
     ],
     "location": {
@@ -3157,7 +3163,7 @@
     "type": "cave",
     "name": "The Barracks",
     "specialInfo": "",
-    "description": "§7Walk accross the tall bridges and find the knights within the Barracks at §f[-1641, 151, -964]",
+    "description": "§7Walk across the tall bridges and find the knights within the Barracks at §f[-1641, 151, -964]",
     "length": "long",
     "lengthInfo": "4m",
     "difficulty": "hard",
@@ -3259,6 +3265,7 @@
     "requirements": 100,
     "rewards": [
       "1000000 XP",
+      "1 §f󐀂§dLocked Away",
       "Various Items"
     ],
     "location": {
@@ -3328,7 +3335,7 @@
     "type": "cave",
     "name": "The Sacrificial Altar",
     "specialInfo": "§aBoss Cave",
-    "description": "§7Dark Cultists have gathered around an Altar in a cliffside cave around §f[-298, 39, -969]",
+    "description": "§7Cultists have gathered around a vexing altar and sacrifice power to it at §f[-298, 39, -969]",
     "length": "medium",
     "lengthInfo": "1m30s",
     "difficulty": "hard",
@@ -3354,6 +3361,8 @@
     "requirements": 90,
     "rewards": [
       "500000 XP",
+      "1 §f󐀂§dSynchro Core",
+      "1 §f󐀂§dDodge Core",
       "Various Items"
     ],
     "location": {
@@ -3451,7 +3460,7 @@
     "requirements": 50,
     "rewards": [
       "15000 XP",
-      "2 Az Runes",
+      "2 §#b0f3fcffAz Runes",
       "Various Items"
     ],
     "location": {
@@ -3482,7 +3491,7 @@
   {
     "type": "cave",
     "name": "Tree of Light",
-    "specialInfo": "",
+    "specialInfo": "§aTree",
     "description": "§7Many mysteries and creatures make their home in the great tree at §f[-893, 55, -6217]",
     "length": "long",
     "lengthInfo": "1m50s",
@@ -3520,7 +3529,7 @@
   {
     "type": "cave",
     "name": "Troll Tower",
-    "specialInfo": "",
+    "specialInfo": "§aTower",
     "description": "§7Climb the elusive troll tower at §f[1106, 86, -2870]",
     "length": "long",
     "lengthInfo": "2m",
@@ -3816,6 +3825,7 @@
     "requirements": 43,
     "rewards": [
       "7000 XP",
+      "1 §f󐀂§dSnow Boots",
       "Various Items"
     ],
     "location": {

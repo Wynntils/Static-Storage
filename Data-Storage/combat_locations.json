@@ -1642,5 +1642,106 @@
                 }
             }
         ]
+    },
+    {
+        "type": "Time Trials",
+        "locations": [
+            {
+                "name": "Abyssal Aerobatics",
+                "coordinates": {
+                    "x": 14038,
+                    "y": 117,
+                    "z": -4200
+                }
+            },
+            {
+                "name": "Autumnal Athletics",
+                "coordinates": {
+                    "x": -2036,
+                    "y": 11,
+                    "z": -1351
+                }
+            },
+            {
+                "name": "Black Road Runaround",
+                "coordinates": {
+                    "x": 831,
+                    "y": 70,
+                    "z": -1677
+                }
+            },
+            {
+                "name": "Bremmyn Bustle",
+                "coordinates": {
+                    "x": 743,
+                    "y": 178,
+                    "z": -2231
+                }
+            },
+            {
+                "name": "Dash Across the Dunes",
+                "coordinates": {
+                    "x": 1386,
+                    "y": 84,
+                    "z": -2175
+                }
+            },
+            {
+                "name": "Fast-Paced Pilgrimage",
+                "coordinates": {
+                    "x": 328,
+                    "y": 48,
+                    "z": -2209
+                }
+            },
+            {
+                "name": "Hazardous Hike",
+                "coordinates": {
+                    "x": -239,
+                    "y": 103,
+                    "z": -4394
+                }
+            },
+            {
+                "name": "Llevigar Leg Day",
+                "coordinates": {
+                    "x": -2018,
+                    "y": 43,
+                    "z": -4822
+                }
+            },
+            {
+                "name": "Rush Around the Ruins",
+                "coordinates": {
+                    "x": -303,
+                    "y": 53,
+                    "z": -1175
+                }
+            },
+            {
+                "name": "Sky-High Soar",
+                "coordinates": {
+                    "x": 1165,
+                    "y": 184,
+                    "z": -4547
+                }
+            },
+            {
+                "name": "South Canyon Competition",
+                "coordinates": {
+                    "x": 492,
+                    "y": 132,
+                    "z": -4757
+                }
+            },
+            {
+                "name": "Stygian Sprint",
+                "coordinates": {
+                    "x": 1322,
+                    "y": 25,
+                    "z": -677
+                }
+            }
+        ]
     }
 ]
