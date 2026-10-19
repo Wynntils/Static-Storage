@@ -58,6 +58,10 @@
         "mountStatIncreaseAmount": 8
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 8
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 4
       }
@@ -92,6 +96,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 4
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 4
       }
     ]
   },
@@ -101,6 +109,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 2
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 2
       },
       {
@@ -186,6 +198,10 @@
         "mountStatIncreaseAmount": 10
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 10
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 5
       }
@@ -220,6 +236,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 5
       }
     ]
   },
@@ -229,6 +249,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 2
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 2
       },
       {
@@ -314,6 +338,10 @@
         "mountStatIncreaseAmount": 12
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 12
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 5
       }
@@ -348,6 +376,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 5
       }
     ]
   },
@@ -357,6 +389,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 3
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 3
       },
       {
@@ -442,6 +478,10 @@
         "mountStatIncreaseAmount": 14
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 14
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 6
       }
@@ -476,6 +516,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 6
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 6
       }
     ]
   },
@@ -485,6 +529,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 3
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 3
       },
       {
@@ -570,6 +618,10 @@
         "mountStatIncreaseAmount": 16
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 16
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 6
       }
@@ -604,6 +656,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 6
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 6
       }
     ]
   },
@@ -613,6 +669,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 3
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 3
       },
       {
@@ -698,6 +758,10 @@
         "mountStatIncreaseAmount": 18
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 18
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 7
       }
@@ -732,6 +796,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 7
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 7
       }
     ]
   },
@@ -741,6 +809,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 4
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 4
       },
       {
@@ -826,6 +898,10 @@
         "mountStatIncreaseAmount": 20
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 20
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 8
       }
@@ -860,6 +936,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 8
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 8
       }
     ]
   },
@@ -869,6 +949,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 4
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 4
       },
       {
@@ -954,6 +1038,10 @@
         "mountStatIncreaseAmount": 22
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 22
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 8
       }
@@ -988,6 +1076,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 8
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 8
       }
     ]
   },
@@ -997,6 +1089,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 4
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 4
       },
       {
@@ -1082,6 +1178,10 @@
         "mountStatIncreaseAmount": 24
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 24
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 9
       }
@@ -1116,6 +1216,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 9
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 9
       }
     ]
   },
@@ -1125,6 +1229,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 4
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 4
       },
       {
@@ -1210,6 +1318,10 @@
         "mountStatIncreaseAmount": 26
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 26
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 9
       }
@@ -1244,6 +1356,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 9
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 9
       }
     ]
   },
@@ -1253,6 +1369,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 5
       },
       {
@@ -1338,6 +1458,10 @@
         "mountStatIncreaseAmount": 28
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 28
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 10
       }
@@ -1372,6 +1496,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 10
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 10
       }
     ]
   },
@@ -1381,6 +1509,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 5
       },
       {
@@ -1466,6 +1598,10 @@
         "mountStatIncreaseAmount": 29
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 29
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 10
       }
@@ -1500,6 +1636,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 10
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 10
       }
     ]
   },
@@ -1509,6 +1649,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 5
       },
       {
@@ -1594,6 +1738,10 @@
         "mountStatIncreaseAmount": 30
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 30
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 11
       }
@@ -1628,6 +1776,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 11
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 11
       }
     ]
   },
@@ -1637,6 +1789,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 5
       },
       {
@@ -1722,6 +1878,10 @@
         "mountStatIncreaseAmount": 31
       },
       {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 31
+      },
+      {
         "mountStat": "BOOST",
         "mountStatIncreaseAmount": 11
       }
@@ -1756,6 +1916,10 @@
       {
         "mountStat": "ALTITUDE",
         "mountStatIncreaseAmount": 11
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
+        "mountStatIncreaseAmount": 11
       }
     ]
   },
@@ -1765,6 +1929,10 @@
     "mountStats": [
       {
         "mountStat": "ALTITUDE",
+        "mountStatIncreaseAmount": 5
+      },
+      {
+        "mountStat": "JUMP_HEIGHT",
         "mountStatIncreaseAmount": 5
       },
       {
