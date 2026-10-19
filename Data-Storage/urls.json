@@ -282,6 +282,12 @@
     "url": "https://cdn.wynntils.com/static/Data-Storage/mount_colors.json"
   },
   {
+    "id": "dataStaticMountFood",
+    "md5": "a6483848b625bf71c00b0775eac8000b",
+    "path": "Data-Storage/mount_food.json",
+    "url": "https://cdn.wynntils.com/static/Data-Storage/mount_food.json"
+  },
+  {
     "id": "dataStaticPlaceMapFeatures",
     "md5": "cb890e5fa52b1b3e40f203f456ce9c26",
     "path": "Reference/place_mapfeatures.json",
@@ -449,11 +455,5 @@
   {
     "id": "linkWynntilsStatus",
     "url": "https://status.wynntils.com/"
-  },
-  {
-    "id": "dataStaticMountFood",
-    "md5": "",
-    "path": "Data-Storage/mount_food.json",
-    "url": "https://cdn.wynntils.com/static/Data-Storage/mount_food.json"
   }
 ]
