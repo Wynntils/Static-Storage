@@ -78,8 +78,8 @@
     "parts": [
       "Air Relic Boots",
       "Air Relic Chestplate",
-      "Air Relic Helmet",
-      "Air Relic Leggings"
+      "Air Relic Leggings",
+      "Air Relic Helmet"
     ]
   },
   "Ascension": {
@@ -132,9 +132,9 @@
     },
     "internalName": "bandit's",
     "parts": [
+      "Bandit's Knuckle",
       "Bandit's Bangle",
       "Bandit's Locket",
-      "Bandit's Knuckle",
       "Bandit's Ring"
     ]
   },
@@ -307,7 +307,9 @@
         }
       },
       "3": {
-        "major": [],
+        "major": [
+          "POLARITY"
+        ],
         "minor": {
           "healthRegen": 50,
           "healthRegenRaw": 150,
@@ -478,12 +480,12 @@
     "parts": [
       "Clock Boots",
       "Clock Mail",
-      "Time Ring",
-      "Clock Amulet",
-      "Watch Bracelet",
       "Clock Helm",
+      "Clock Amulet",
+      "Clockwork Ring",
       "Clock Leggings",
-      "Clockwork Ring"
+      "Watch Bracelet",
+      "Time Ring"
     ]
   },
   "Conquered Skies": {
@@ -666,29 +668,29 @@
       "Guard's Garment",
       "Sanguine Spaulder",
       "Ancient Jazerant",
-      "Bloodied Chaps",
-      "Bloodied Wreath",
-      "Brainy Beanie",
-      "Inclemency",
-      "Mummy's Talisman",
-      "Zombie Eye Pendant",
-      "Glaring Issue",
-      "Mesoskeleton",
-      "Purity Filter",
       "Brainbleed",
+      "Dogfight",
+      "Bloodied Wreath",
       "Jinxed Coif",
-      "Blazing Bangle",
-      "Glass Skin",
+      "Inclemency",
+      "Bloodied Chaps",
+      "Tainted Ruby",
+      "Brainy Beanie",
+      "Purity Filter",
       "Grisly Gauntlet",
       "Jagged Bone Necklace",
-      "Dogfight",
+      "Mummy's Talisman",
+      "Warsong",
+      "Rusted Cog",
       "Giant's Kneecap",
       "Crumbling Foundation",
+      "Glaring Issue",
+      "Mesoskeleton",
+      "Blazing Bangle",
+      "Glass Skin",
+      "Zombie Eye Pendant",
       "Cremation",
-      "Living Slime",
-      "Warsong",
-      "Tainted Ruby",
-      "Rusted Cog"
+      "Living Slime"
     ]
   },
   "Cosmic": {
@@ -805,11 +807,11 @@
     },
     "internalName": "desert",
     "parts": [
-      "Desert Wretch",
-      "Desert Sands",
-      "Desert Stalker",
       "Desert Winds",
-      "Desert Sepulcher"
+      "Desert Sepulcher",
+      "Desert Wretch",
+      "Desert Stalker",
+      "Desert Sands"
     ]
   },
   "Earth Relic": {
@@ -926,10 +928,10 @@
       "Empty Body",
       "Empty Heart",
       "Empty Mind",
-      "Empty Symphony",
-      "Empty Cadenza",
       "Empty Agony",
-      "Empty Joy"
+      "Empty Joy",
+      "Empty Cadenza",
+      "Empty Symphony"
     ]
   },
   "Firemoss": {
@@ -944,7 +946,9 @@
         }
       },
       "3": {
-        "major": [],
+        "major": [
+          "BLAZING_DENOUEMENT"
+        ],
         "minor": {
           "fireSpellDamage": 40,
           "healthRegenRaw": 265,
@@ -986,8 +990,8 @@
     },
     "internalName": "flashfire",
     "parts": [
-      "Flashfire Knuckle",
-      "Flashfire Gauntlet"
+      "Flashfire Gauntlet",
+      "Flashfire Knuckle"
     ]
   },
   "Forgotten Chronicles": {
@@ -1019,11 +1023,11 @@
     },
     "internalName": "forgotten chronicles",
     "parts": [
-      "Palimpsest",
-      "Valediction",
       "Messenger",
+      "Palimpsest",
+      "Clandestine",
       "Dormancy",
-      "Clandestine"
+      "Valediction"
     ]
   },
   "Ghostly": {
@@ -1125,8 +1129,8 @@
     },
     "internalName": "hallowynn 2016",
     "parts": [
-      "Trick",
-      "Treat"
+      "Treat",
+      "Trick"
     ]
   },
   "Horse": {
@@ -1137,9 +1141,9 @@
           "airDamage": 15,
           "combatExperience": 25,
           "earthDamage": 15,
-          "mainAttackDamage": 11,
-          "sprint": 25,
-          "sprintRegen": 50,
+          "mainAttackDamage": 25,
+          "sprint": 50,
+          "sprintRegen": 75,
           "walkSpeed": 17
         }
       }
@@ -1195,9 +1199,9 @@
     },
     "internalName": "jester",
     "parts": [
+      "Jester Ring",
       "Jester Necklace",
-      "Jester Bracelet",
-      "Jester Ring"
+      "Jester Bracelet"
     ]
   },
   "Kaerynn": {
@@ -1254,8 +1258,8 @@
     "parts": [
       "Leaf Boots",
       "Leaf Tunic",
-      "Leaf Cap",
-      "Leaf Pants"
+      "Leaf Pants",
+      "Leaf Cap"
     ]
   },
   "Liffmail": {
@@ -1456,12 +1460,12 @@
     "parts": [
       "Morph-Gold",
       "Morph-Steel",
+      "Morph-Emerald",
       "Morph-Stardust",
       "Morph-Amethyst",
-      "Morph-Ruby",
-      "Morph-Iron",
       "Morph-Topaz",
-      "Morph-Emerald"
+      "Morph-Iron",
+      "Morph-Ruby"
     ]
   },
   "Nether": {
@@ -1586,7 +1590,9 @@
         }
       },
       "3": {
-        "major": [],
+        "major": [
+          "FLORAL_DENOUEMENT"
+        ],
         "minor": {
           "fireDefence": -35,
           "jumpHeight": 2,
@@ -1634,7 +1640,9 @@
         }
       },
       "3": {
-        "major": [],
+        "major": [
+          "ROYAL_DENOUEMENT"
+        ],
         "minor": {
           "lootBonus": 20,
           "mainAttackRange": -20,
@@ -1691,8 +1699,8 @@
     "parts": [
       "Relic Boots",
       "Relic Chestplate",
-      "Relic Leggings",
-      "Relic Helmet"
+      "Relic Helmet",
+      "Relic Leggings"
     ]
   },
   "Saint's": {
@@ -1754,7 +1762,9 @@
         }
       },
       "3": {
-        "major": [],
+        "major": [
+          "PASTICHE_DENOUEMENT"
+        ],
         "minor": {
           "3rdSpellCost": -16,
           "damage": 25,
@@ -1777,7 +1787,7 @@
       "2": {
         "major": [],
         "minor": {
-          "poison": 800,
+          "poison": 150,
           "rawAgility": 10,
           "thorns": 20,
           "walkSpeed": 20
@@ -1845,7 +1855,7 @@
         "minor": {
           "healthRegen": 35,
           "jumpHeight": 1,
-          "poison": 2400,
+          "poison": 480,
           "rawHealth": 600,
           "thorns": 15,
           "walkSpeed": -6
@@ -1864,7 +1874,7 @@
         "major": [],
         "minor": {
           "healthRegenRaw": 150,
-          "poison": 9500,
+          "poison": 2375,
           "rawAgility": -5,
           "rawHealth": 1100,
           "rawStrength": 7,
@@ -1876,7 +1886,7 @@
         "major": [],
         "minor": {
           "healthRegenRaw": 350,
-          "poison": 21000,
+          "poison": 5250,
           "rawAgility": -10,
           "rawHealth": 2675,
           "rawStrength": 14,
@@ -1888,7 +1898,7 @@
         "major": [],
         "minor": {
           "healthRegenRaw": 700,
-          "poison": 56000,
+          "poison": 14000,
           "rawAgility": -15,
           "rawHealth": 5500,
           "rawStrength": 21,
@@ -1959,7 +1969,7 @@
         "major": [],
         "minor": {
           "combatExperience": 10,
-          "poison": 35,
+          "poison": 6,
           "rawAgility": 2,
           "rawDexterity": 2,
           "walkSpeed": 7
@@ -1969,7 +1979,7 @@
         "major": [],
         "minor": {
           "combatExperience": 25,
-          "poison": 130,
+          "poison": 22,
           "rawAgility": 6,
           "rawDexterity": 6,
           "walkSpeed": 19
@@ -1979,8 +1989,8 @@
     "internalName": "spider",
     "parts": [
       "Abdomen",
-      "Cephalothorax",
-      "Spinneret"
+      "Spinneret",
+      "Cephalothorax"
     ]
   },
   "Spore": {
@@ -1990,7 +2000,7 @@
         "minor": {
           "exploding": 25,
           "lifeSteal": 25,
-          "poison": 175
+          "poison": 29
         }
       }
     },
@@ -2037,10 +2047,10 @@
     },
     "internalName": "synch core",
     "parts": [
-      "Synchro Core",
-      "Overload Core",
       "Hustle Core",
+      "Overload Core",
       "Dodge Core",
+      "Synchro Core",
       "Harden Core"
     ]
   },
@@ -2159,16 +2169,18 @@
         "major": [],
         "minor": {
           "healthRegen": -25,
-          "poison": 6000,
+          "poison": 1500,
           "rawMainAttackDamage": 300,
           "walkSpeed": 10
         }
       },
       "3": {
-        "major": [],
+        "major": [
+          "CAUSTIC_DENOUEMENT"
+        ],
         "minor": {
           "healthRegen": -60,
-          "poison": 12000,
+          "poison": 3000,
           "rawAttackSpeed": 1,
           "rawMainAttackDamage": 600,
           "walkSpeed": 20,
@@ -2219,6 +2231,37 @@
       "Tribal Cap"
     ]
   },
+  "Twister": {
+    "bonuses": {
+      "2": {
+        "major": [],
+        "minor": {
+          "lifeSteal": 30,
+          "lootBonus": 10,
+          "mainAttackRange": 10,
+          "manaSteal": 3
+        }
+      },
+      "3": {
+        "major": [
+          "DUNERIDER"
+        ],
+        "minor": {
+          "4thSpellCost": -15,
+          "lifeSteal": 70,
+          "lootBonus": 20,
+          "mainAttackRange": 30,
+          "manaSteal": 10
+        }
+      }
+    },
+    "internalName": "twister",
+    "parts": [
+      "Sands of Time",
+      "Lustrous Sands",
+      "Glittering Heath"
+    ]
+  },
   "Ultramarine": {
     "bonuses": {
       "2": {
@@ -2259,8 +2302,8 @@
     "parts": [
       "Ultramarine Boots",
       "Ultramarine Cape",
-      "Ultramarine Belt",
-      "Ultramarine Crown"
+      "Ultramarine Crown",
+      "Ultramarine Belt"
     ]
   },
   "Uth": {
@@ -2354,7 +2397,9 @@
         }
       },
       "4": {
-        "major": [],
+        "major": [
+          "CORPSE_ARTISTRY"
+        ],
         "minor": {
           "healthRegen": 140,
           "healthRegenRaw": 200,
@@ -2484,10 +2529,10 @@
     },
     "internalName": "wynnterfest 2016",
     "parts": [
-      "Red Ornament",
+      "Yellow Ornament",
       "Green Ornament",
       "Blue Ornament",
-      "Yellow Ornament"
+      "Red Ornament"
     ]
   },
   "X-PM": {
@@ -2566,8 +2611,8 @@
     "parts": [
       "Fire Relic Boots",
       "Fire Relic Chestplate",
-      "Fire Relic Helmet",
-      "Fire Relic Leggings"
+      "Fire Relic Leggings",
+      "Fire Relic Helmet"
     ]
   },
   "gm": {
