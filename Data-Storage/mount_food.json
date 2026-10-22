@@ -1,1962 +1,1754 @@
-[
-  {
-    "resourceType": "INGOT",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 4
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 4
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 4
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 4
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 1,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 5
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 5
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 2
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 5
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 10,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 5
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 20,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 14
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 14
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 14
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 14
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 30,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 14
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 16
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 7
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 7
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 16
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 16
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 7
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 16
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 6
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 3
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 7
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 40,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 6
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 16
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 7
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 18
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 14
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 14
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 18
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 18
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 7
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 14
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 18
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 7
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 7
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 14
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 50,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 7
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 18
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 20
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 15
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 15
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 20
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 20
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 15
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 20
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 15
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 60,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 20
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 22
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 17
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 17
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 22
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 22
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 17
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 22
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 8
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 17
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 70,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 8
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 22
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 24
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 18
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 18
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 24
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 24
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 18
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 24
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 4
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 18
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 80,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 24
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 26
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 20
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 20
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 26
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 26
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 20
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 26
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 9
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 20
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 90,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 9
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 26
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 28
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 21
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 21
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 28
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 28
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 21
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 28
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 21
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 100,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 28
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 29
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 22
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 22
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 29
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 29
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 12
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 22
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 29
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 10
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 22
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 12
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 105,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 10
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 29
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 30
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 13
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 23
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 23
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 13
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 30
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 30
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 13
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 23
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 30
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 23
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 13
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 110,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 30
-      }
-    ]
-  },
-  {
-    "resourceType": "INGOT",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 31
-      }
-    ]
-  },
-  {
-    "resourceType": "GEM",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 13
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 23
-      }
-    ]
-  },
-  {
-    "resourceType": "PLANK",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 23
-      },
-      {
-        "mountStat": "TOUGHNESS",
-        "mountStatIncreaseAmount": 13
-      }
-    ]
-  },
-  {
-    "resourceType": "PAPER",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 31
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 31
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "STRING",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 13
-      },
-      {
-        "mountStat": "BOOST",
-        "mountStatIncreaseAmount": 23
-      }
-    ]
-  },
-  {
-    "resourceType": "GRAINS",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "SPEED",
-        "mountStatIncreaseAmount": 31
-      },
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 11
-      }
-    ]
-  },
-  {
-    "resourceType": "OIL",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "ALTITUDE",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "JUMP_HEIGHT",
-        "mountStatIncreaseAmount": 5
-      },
-      {
-        "mountStat": "HANDLING",
-        "mountStatIncreaseAmount": 23
-      },
-      {
-        "mountStat": "TRAINING",
-        "mountStatIncreaseAmount": 13
-      }
-    ]
-  },
-  {
-    "resourceType": "MEAT",
-    "level": 115,
-    "mountStats": [
-      {
-        "mountStat": "ACCELERATION",
-        "mountStatIncreaseAmount": 11
-      },
-      {
-        "mountStat": "ENERGY",
-        "mountStatIncreaseAmount": 31
-      }
-    ]
+{
+  "INGOT": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 14
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 16
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 7
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 18
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 20
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 22
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 24
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 26
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 28
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 29
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 30
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 31
+        }
+      ]
+    }
+  },
+  "GEM": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 7
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 14
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 15
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 17
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 18
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 20
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 21
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 22
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 13
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 23
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 13
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 23
+        }
+      ]
+    }
+  },
+  "PLANK": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 4
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 5
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 7
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 14
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 15
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 17
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 18
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 20
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 21
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 22
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 23
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 13
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 23
+        },
+        {
+          "mountStat": "TOUGHNESS",
+          "mountStatIncreaseAmount": 13
+        }
+      ]
+    }
+  },
+  "PAPER": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 4
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 5
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 5
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 14
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 14
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 16
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 16
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 18
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 18
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 7
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 20
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 20
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 22
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 22
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 24
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 24
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 26
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 26
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 28
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 28
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 29
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 29
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 30
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 30
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 31
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 31
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    }
+  },
+  "STRING": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 7
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 14
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 15
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 17
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 18
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 20
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 21
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 22
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 13
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 23
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 13
+        },
+        {
+          "mountStat": "BOOST",
+          "mountStatIncreaseAmount": 23
+        }
+      ]
+    }
+  },
+  "GRAINS": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 4
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 14
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 16
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 18
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 7
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 7
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 20
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 22
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 24
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 26
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 28
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 29
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 30
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "SPEED",
+          "mountStatIncreaseAmount": 31
+        },
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    }
+  },
+  "OIL": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 4
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 2
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 5
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 6
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 3
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 12
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 7
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 14
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 15
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 9
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 17
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 18
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 20
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 11
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 21
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 22
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 23
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 13
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "ALTITUDE",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "JUMP_HEIGHT",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "HANDLING",
+          "mountStatIncreaseAmount": 23
+        },
+        {
+          "mountStat": "TRAINING",
+          "mountStatIncreaseAmount": 13
+        }
+      ]
+    }
+  },
+  "MEAT": {
+    "1": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 4
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 8
+        }
+      ]
+    },
+    "10": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 10
+        }
+      ]
+    },
+    "20": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 5
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 12
+        }
+      ]
+    },
+    "30": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 14
+        }
+      ]
+    },
+    "40": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 6
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 16
+        }
+      ]
+    },
+    "50": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 7
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 18
+        }
+      ]
+    },
+    "60": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 20
+        }
+      ]
+    },
+    "70": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 8
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 22
+        }
+      ]
+    },
+    "80": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 24
+        }
+      ]
+    },
+    "90": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 9
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 26
+        }
+      ]
+    },
+    "100": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 28
+        }
+      ]
+    },
+    "105": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 10
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 29
+        }
+      ]
+    },
+    "110": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 30
+        }
+      ]
+    },
+    "115": {
+      "mountStats": [
+        {
+          "mountStat": "ACCELERATION",
+          "mountStatIncreaseAmount": 11
+        },
+        {
+          "mountStat": "ENERGY",
+          "mountStatIncreaseAmount": 31
+        }
+      ]
+    }
   }
-]
+}
