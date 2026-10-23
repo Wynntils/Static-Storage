@@ -142,14 +142,22 @@ def parse_html_to_json(html_string, default_color):
                 parts.append(create_part(plain_text, current_style))
                 plain_text = ""
 
+            banner_style = {"font": "banner/box"}
+            if "shadowColor" in current_style:
+                banner_style["shadowColor"] = current_style["shadowColor"]
+
             parts.extend([
-                {"text": COMMUNITY_EVENT_WINNER_BACKGROUND, "font": "banner/box", "color": current_style["color"]},
-                {"text": COMMUNITY_EVENT_WINNER_OFFSET, "font": "banner/box"},
-                {"text": COMMUNITY_EVENT_WINNER_FOREGROUND, "font": "banner/box", "color": "#000000"},
+                {"text": COMMUNITY_EVENT_WINNER_BACKGROUND, **banner_style, "color": current_style["color"]},
+                {"text": COMMUNITY_EVENT_WINNER_OFFSET, **banner_style},
+                {"text": COMMUNITY_EVENT_WINNER_FOREGROUND, **banner_style, "color": "#000000"},
             ])
 
         elif token.startswith("<sw:"):
-            continue
+            if plain_text:
+                parts.append(create_part(plain_text, current_style))
+                plain_text = ""
+
+            current_style["shadowColor"] = token[len("<sw:"):-1]
 
         else:
             plain_text += token
@@ -162,7 +170,7 @@ def parse_html_to_json(html_string, default_color):
 def create_part(text, style):
     part = {"text": text}
 
-    for key in ["bold", "italic", "underline", "strikethrough", "font", "color", "margin-left"]:
+    for key in ["bold", "italic", "underline", "strikethrough", "font", "color", "shadowColor", "margin-left"]:
         if key in style:
             if key == "font" and style[key] == "default":
                 continue
