@@ -56556,43 +56556,6 @@
           ],
           [
             {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFC251"
-            },
-            {
-              "text": " Fanatic",
-              "color": "#FFC251"
-            },
-            {
-              "text": ": ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "-15% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Resistance Bonus (",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": ") to Enemies",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
               "text": "",
               "font": "common",
               "color": "#FF55FF"
@@ -59269,7 +59232,7 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Overseer",
+        "requiredAbility": null,
         "requiredArchetype": {
           "name": "Summoner",
           "required": 6
