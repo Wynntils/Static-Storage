@@ -18212,7 +18212,7 @@
     "internalName": "Masterwork Inferno",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The Dogun God Garaheth was actually an immense fire demon occupying the bowels of Molten Heights. Although unwise, the Dwarves forged a demonic dagger using his tooth in celebration of his slaughter.</span>",
     "majorIds": {
-      "Molten Rebirth": "<span class='font-ascii' style='color:#AAAAAA'>Harvester additionally restores 1.5% health per leftover mark, increasing to 3% with devour.</span>"
+      "Molten Rebirth": "<span class='font-ascii' style='color:#AAAAAA'>Harvester additionally restores 1.5% health per mark, increasing to 3% with devour.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -18227,7 +18227,7 @@
     "jsonMajorIds": {
       "Molten Rebirth": [
         {
-          "text": "Harvester additionally restores 1.5% health per leftover mark, increasing to 3% with devour.",
+          "text": "Harvester additionally restores 1.5% health per mark, increasing to 3% with devour.",
           "color": "#AAAAAA"
         }
       ]
@@ -179515,7 +179515,7 @@
     "internalName": "Masterwork Inferno",
     "lore": "<span class='font-ascii' style='color:#AAAAAA'>The Dogun God Garaheth was actually an immense fire demon occupying the bowels of Molten Heights. Although unwise, the Dwarves forged a demonic dagger using his tooth in celebration of his slaughter.</span>",
     "majorIds": {
-      "Molten Rebirth": "<span class='font-ascii' style='color:#AAAAAA'>Harvester additionally restores 1.5% health per leftover mark, increasing to 3% with devour.</span>"
+      "Molten Rebirth": "<span class='font-ascii' style='color:#AAAAAA'>Harvester additionally restores 1.5% health per mark, increasing to 3% with devour.</span>"
     },
     "powderSlots": 3,
     "requirements": {
@@ -179530,7 +179530,7 @@
     "jsonMajorIds": {
       "Molten Rebirth": [
         {
-          "text": "Harvester additionally restores 1.5% health per leftover mark, increasing to 3% with devour.",
+          "text": "Harvester additionally restores 1.5% health per mark, increasing to 3% with devour.",
           "color": "#AAAAAA"
         }
       ]
