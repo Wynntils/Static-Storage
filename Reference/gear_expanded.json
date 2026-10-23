@@ -4342,15 +4342,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -6710,15 +6713,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -9827,15 +9833,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -12163,15 +12172,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -22571,15 +22583,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -32941,15 +32956,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -46973,15 +46991,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -87929,15 +87950,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -95120,15 +95144,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -103038,15 +103065,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -131205,15 +131235,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -133842,15 +133875,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -142705,15 +142741,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -149182,15 +149221,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -162593,15 +162635,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -175198,15 +175243,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -181652,15 +181700,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -205035,15 +205086,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -209492,15 +209546,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -210605,15 +210662,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -215420,15 +215480,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -226914,15 +226977,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -260212,15 +260278,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -261121,15 +261190,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -263696,15 +263768,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -281495,15 +281570,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -283170,15 +283248,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -288123,15 +288204,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -301476,15 +301560,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -310082,15 +310169,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
@@ -311430,15 +311520,18 @@
       {
         "text": "󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿󏿿",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#AAAAAA"
       },
       {
         "text": "󏾂",
-        "font": "banner/box"
+        "font": "banner/box",
+        "shadowColor": "#00000000"
       },
       {
         "text": "  ",
         "font": "banner/box",
+        "shadowColor": "#00000000",
         "color": "#000000"
       },
       {
