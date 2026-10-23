@@ -6,8 +6,22 @@ TAGS_TO_REMOVE = ["<black>", "<darkBlue>", "<darkGreen>", "<darkAqua>", "<darkRe
 
 CLASS_PATTERN = re.compile(r'class=["\'](.*?)["\']')
 STYLE_PATTERN = re.compile(r'style=["\'](.*?)["\']')
-TOKEN_PATTERN = re.compile(r'(<span[^>]*>|</span>|[^<]+)')
+TOKEN_PATTERN = re.compile(r'(<span[^>]*>|</span>|<banner:box:black:community event winner>|<sw:[^>]*>|[^<]+)')
 TAG_PATTERN = re.compile("|".join(map(re.escape, TAGS_TO_REMOVE)))
+
+COMMUNITY_EVENT_WINNER_BACKGROUND = (
+    "\ue060\U000cffff\ue032\U000cffff\ue03e\U000cffff\ue03c\U000cffff"
+    "\ue03c\U000cffff\ue044\U000cffff\ue03d\U000cffff\ue038\U000cffff"
+    "\ue043\U000cffff\ue048\U000cffff\ue061\U000cffff\ue034\U000cffff"
+    "\ue045\U000cffff\ue034\U000cffff\ue03d\U000cffff\ue043\U000cffff"
+    "\ue061\U000cffff\ue046\U000cffff\ue038\U000cffff\ue03d\U000cffff"
+    "\ue03d\U000cffff\ue034\U000cffff\ue041\U000cffff\ue062"
+)
+COMMUNITY_EVENT_WINNER_OFFSET = "\U000cff82"
+COMMUNITY_EVENT_WINNER_FOREGROUND = (
+    "\ue002\ue00e\ue00c\ue00c\ue014\ue00d\ue008\ue013\ue018 "
+    "\ue004\ue015\ue004\ue00d\ue013 \ue016\ue008\ue00d\ue00d\ue004\ue011"
+)
 
 COLOR_MAP = {
     "elements.neutral": "#FFAA00",
@@ -123,6 +137,20 @@ def parse_html_to_json(html_string, default_color):
 
             current_style = styles[-1]
 
+        elif token == "<banner:box:black:community event winner>":
+            if plain_text:
+                parts.append(create_part(plain_text, current_style))
+                plain_text = ""
+
+            parts.extend([
+                {"text": COMMUNITY_EVENT_WINNER_BACKGROUND, "font": "banner/box", "color": current_style["color"]},
+                {"text": COMMUNITY_EVENT_WINNER_OFFSET, "font": "banner/box"},
+                {"text": COMMUNITY_EVENT_WINNER_FOREGROUND, "font": "banner/box", "color": "#000000"},
+            ])
+
+        elif token.startswith("<sw:"):
+            continue
+
         else:
             plain_text += token
 
@@ -153,6 +181,10 @@ def process_file(input_path, output_path, type):
 
     if type == "gear":
         for item_data in data.values():
+            if "lore" in item_data:
+                cleaned = clean_html(item_data["lore"])
+                item_data["jsonLore"] = parse_html_to_json(cleaned, "#AAAAAA")
+
             if "majorIds" in item_data:
                 json_major_ids = {}
 
