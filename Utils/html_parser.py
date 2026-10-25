@@ -86,7 +86,9 @@ def parse_html_to_json(html_string, default_color):
                 font_classes = class_matcher.group(1).split()
                 for font_name in font_classes:
                     if font_name in FONT_NAMESPACES:
-                        new_style["font"] = FONT_NAMESPACES[font_name]
+                        # The API is currently bugged and makes unicode characters in old_fruman use the common font rather than keeping old_fruman
+                        if not (font_name == "font-common" and parent_style.get("font") == "language/old_fruman"):
+                            new_style["font"] = FONT_NAMESPACES[font_name]
                         break
 
             style_matcher = STYLE_PATTERN.search(token)
