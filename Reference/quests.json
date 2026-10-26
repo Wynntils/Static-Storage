@@ -1,5 +1,5 @@
 {
-  "???": {
+  "???֎": {
     "displayName": "???",
     "level": 80
   },
@@ -47,6 +47,10 @@
     "displayName": "Aldorei's Secret Part II",
     "level": 78
   },
+  "Aldorei^s Secret Part II": {
+    "displayName": "Aldorei's Secret Part II",
+    "level": 78
+  },
   "All Roads To Peace": {
     "displayName": "All Roads To Peace",
     "level": 64
@@ -66,6 +70,10 @@
   "Arachnids' Ascent": {
     "displayName": "Arachnids' Ascent",
     "level": 14
+  },
+  "Beneath The Depths": {
+    "displayName": "Beneath the Depths",
+    "level": 60
   },
   "Beneath the Depths": {
     "displayName": "Beneath the Depths",
@@ -107,7 +115,7 @@
     "displayName": "Cluck Cluck",
     "level": 23
   },
-  "Cook Assistant": {
+  "Cook Assistant֎": {
     "displayName": "Cook Assistant",
     "level": 3
   },
@@ -118,6 +126,10 @@
   "Cowfusion": {
     "displayName": "Cowfusion",
     "level": 86
+  },
+  "Craftmas Chaos": {
+    "displayName": "Craftmas Chaos",
+    "level": 30
   },
   "Creeper Infiltration": {
     "displayName": "Creeper Infiltration",
@@ -183,6 +195,10 @@
     "displayName": "Enzan's Brother",
     "level": 1
   },
+  "Eye of the Storm": {
+    "displayName": "Eye of the Storm",
+    "level": 72
+  },
   "Fallen Delivery": {
     "displayName": "Fallen Delivery",
     "level": 79
@@ -203,11 +219,11 @@
     "displayName": "Forbidden Prison",
     "level": 72
   },
-  "From the Bottom": {
+  "From The Bottom": {
     "displayName": "From the Bottom",
     "level": 81
   },
-  "From the Mountains": {
+  "From The Mountains": {
     "displayName": "From the Mountains",
     "level": 67
   },
@@ -227,6 +243,10 @@
     "displayName": "Green Gloop",
     "level": 31
   },
+  "Green Skinned Trouble": {
+    "displayName": "Green Skinned Trouble",
+    "level": 44
+  },
   "Haven Antiquity": {
     "displayName": "Haven Antiquity",
     "level": 70
@@ -239,19 +259,11 @@
     "displayName": "Hollow Serenity",
     "level": 73
   },
-  "Hunger of the Gerts Part I": {
-    "displayName": "Hunger of the Gerts Part I",
-    "level": 77
-  },
-  "Hunger of the Gerts Part II": {
-    "displayName": "Hunger of the Gerts Part II",
-    "level": 78
-  },
   "Ice Nations": {
     "displayName": "Ice Nations",
     "level": 40
   },
-  "Infested Plants": {
+  "Infested Plants֎": {
     "displayName": "Infested Plants",
     "level": 4
   },
@@ -335,7 +347,7 @@
     "displayName": "One Thousand Meters Under",
     "level": 95
   },
-  "Out of my Mind": {
+  "Out of my Mind֎": {
     "displayName": "Out of my Mind",
     "level": 63
   },
@@ -403,6 +415,10 @@
     "displayName": "Redbeard's Booty",
     "level": 61
   },
+  "Redbeard^s Booty": {
+    "displayName": "Redbeard's Booty",
+    "level": 61
+  },
   "Reincarnation": {
     "displayName": "Reincarnation",
     "level": 74
@@ -442,6 +458,10 @@
   "Supply and Delivery": {
     "displayName": "Supply and Delivery",
     "level": 16
+  },
+  "Suspended Flowers": {
+    "displayName": "Suspended Flowers",
+    "level": 14
   },
   "Taking the Tower": {
     "displayName": "Taking the Tower",
@@ -511,6 +531,14 @@
     "displayName": "The House of Twain",
     "level": 49
   },
+  "The Hunger of Gerts Part 1": {
+    "displayName": "Hunger of the Gerts Part I",
+    "level": 77
+  },
+  "The Hunger of Gerts Part 2": {
+    "displayName": "Hunger of the Gerts Part II",
+    "level": 78
+  },
   "The Lost": {
     "displayName": "The Lost",
     "level": 85
@@ -547,6 +575,10 @@
     "displayName": "The Qira Hive",
     "level": 80
   },
+  "The Realm of Light": {
+    "displayName": "The Realm of Light",
+    "level": 79
+  },
   "The Scarred Springs": {
     "displayName": "The Scarred Springs",
     "level": 108
@@ -575,7 +607,7 @@
     "displayName": "Through the Pipes",
     "level": 110
   },
-  "Tower of Ascension": {
+  "Tower Of Ascension": {
     "displayName": "Tower of Ascension",
     "level": 40
   },
