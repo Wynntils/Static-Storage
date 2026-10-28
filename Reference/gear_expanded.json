@@ -23902,7 +23902,7 @@
       }
     },
     "internalName": "Aviform",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Weightless as a fallen feather, yet lethal as a hawk’s descent. Its beveled edge reshapes the slipstream to cradle your form, tugging you through the air as you deliver strike after strike, movements blurring into a flurry of beating wings.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Weightless as a fallen feather, yet lethal as a hawk's descent. Its beveled edge reshapes the slipstream to cradle your form, tugging you through the air as you deliver strike after strike, movements blurring into a flurry of beating wings.</span>",
     "majorIds": {
       "Windsurf": "<span class='font-ascii' style='color:#AAAAAA'>Righting Reflex has 75% reduced fall speed, lasts twice as long, and is affected stronger by movement speed.</span>"
     },
@@ -23920,7 +23920,7 @@
     "type": "weapon",
     "jsonLore": [
       {
-        "text": "Weightless as a fallen feather, yet lethal as a hawk’s descent. Its beveled edge reshapes the slipstream to cradle your form, tugging you through the air as you deliver strike after strike, movements blurring into a flurry of beating wings.",
+        "text": "Weightless as a fallen feather, yet lethal as a hawk's descent. Its beveled edge reshapes the slipstream to cradle your form, tugging you through the air as you deliver strike after strike, movements blurring into a flurry of beating wings.",
         "color": "#AAAAAA"
       }
     ],
@@ -188957,7 +188957,7 @@
       }
     },
     "internalName": "Mesmerizing Madness",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Sink into infinite synchronous beats with the intricate rhythm of fractals and spirals and patterns, and patterns, and patterns that reach to the pulsating stars and then back to the ground where the people are dancing to songs they don't know under stars that turn ‘round, and around, and around, as the spiral is starting again . . .</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>Sink into infinite synchronous beats with the intricate rhythm of fractals and spirals and patterns, and patterns, and patterns that reach to the pulsating stars and then back to the ground where the people are dancing to songs they don't know under stars that turn 'round, and around, and around, as the spiral is starting again . . .</span>",
     "powderSlots": 2,
     "requirements": {
       "agility": 45,
@@ -188971,7 +188971,7 @@
     "type": "armour",
     "jsonLore": [
       {
-        "text": "Sink into infinite synchronous beats with the intricate rhythm of fractals and spirals and patterns, and patterns, and patterns that reach to the pulsating stars and then back to the ground where the people are dancing to songs they don't know under stars that turn ‘round, and around, and around, as the spiral is starting again . . .",
+        "text": "Sink into infinite synchronous beats with the intricate rhythm of fractals and spirals and patterns, and patterns, and patterns that reach to the pulsating stars and then back to the ground where the people are dancing to songs they don't know under stars that turn 'round, and around, and around, as the spiral is starting again . . .",
         "color": "#AAAAAA"
       }
     ]
@@ -212329,7 +212329,7 @@
       }
     },
     "internalName": "Paparazzi",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>They didn’t follow you this far to watch you survive.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>They didn't follow you this far to watch you survive.</span>",
     "majorIds": {
       "Seeking Totem": "<span class='font-ascii' style='color:#AAAAAA'>Totem moves towards you when wearing Mask of the Heretic.</span>"
     },
@@ -212345,7 +212345,7 @@
     "type": "weapon",
     "jsonLore": [
       {
-        "text": "They didn’t follow you this far to watch you survive.",
+        "text": "They didn't follow you this far to watch you survive.",
         "color": "#AAAAAA"
       }
     ],
@@ -314263,7 +314263,7 @@
       }
     },
     "internalName": "Tremorcaller",
-    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A blacksmith’s blow shapes steel - yours shape the very earth. Every strike is a hammerfall, leaving the ground dented and ringing like a struck anvil, its thud rolling deep through stone.</span>",
+    "lore": "<span class='font-ascii' style='color:#AAAAAA'>A blacksmith's blow shapes steel - yours shape the very earth. Every strike is a hammerfall, leaving the ground dented and ringing like a struck anvil, its thud rolling deep through stone.</span>",
     "majorIds": {
       "Dead Weight": "<span class='font-ascii' style='color:#AAAAAA'>Totem's horizontal velocity is greatly increased at the cost of vertical movement.</span>"
     },
@@ -314278,7 +314278,7 @@
     "type": "weapon",
     "jsonLore": [
       {
-        "text": "A blacksmith’s blow shapes steel - yours shape the very earth. Every strike is a hammerfall, leaving the ground dented and ringing like a struck anvil, its thud rolling deep through stone.",
+        "text": "A blacksmith's blow shapes steel - yours shape the very earth. Every strike is a hammerfall, leaving the ground dented and ringing like a struck anvil, its thud rolling deep through stone.",
         "color": "#AAAAAA"
       }
     ],
