@@ -1,34 +1,42 @@
 {
   "Aldorei^s Secret Part II": {
     "displayName": "Aldorei's Secret Part II",
-    "level": 78
+    "level": 78,
+    "removed": false
   },
   "Beneath The Depths": {
     "displayName": "Beneath the Depths",
-    "level": 60
+    "level": 60,
+    "removed": false
   },
   "Craftmas Chaos": {
 	"displayName": "Craftmas Chaos",
-	"level": 30
+	"level": 30,
+    "removed": true
   },  
   "Eye of the Storm": {
 	"displayName": "Eye of the Storm",
-	"level": 72
+	"level": 72,
+    "removed": true
   },
   "Green Skinned Trouble": {
 	"displayName": "Green Skinned Trouble",
-	"level": 44
+	"level": 44,
+    "removed": true
   },
   "Redbeard^s Booty": {
     "displayName": "Redbeard's Booty",
-    "level": 61
+    "level": 61,
+    "removed": false
   },
   "Suspended Flowers": {
 	"displayName": "Suspended Flowers",
-	"level": 14
+	"level": 14,
+    "removed": true
   },
   "The Realm of Light": {
 	"displayName": "The Realm of Light",
-	"level": 79
+	"level": 79,
+    "removed": false
   }
 }
