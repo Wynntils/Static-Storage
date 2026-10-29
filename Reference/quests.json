@@ -1,666 +1,832 @@
 {
   "???֎": {
     "displayName": "???",
-    "level": 80
+    "level": 80,
+    "removed": false
   },
   "A Grave Mistake": {
     "displayName": "A Grave Mistake",
-    "level": 50
+    "level": 50,
+    "removed": false
   },
   "A Hunter's Calling": {
     "displayName": "A Hunter's Calling",
-    "level": 103
+    "level": 103,
+    "removed": false
   },
   "A Journey Beyond": {
     "displayName": "A Journey Beyond",
-    "level": 100
+    "level": 100,
+    "removed": false
   },
   "A Journey Further": {
     "displayName": "A Journey Further",
-    "level": 101
+    "level": 101,
+    "removed": false
   },
   "A Journey Home": {
     "displayName": "A Journey Home",
-    "level": 104
+    "level": 104,
+    "removed": false
   },
   "A Marauder's Dues": {
     "displayName": "A Marauder's Dues",
-    "level": 83
+    "level": 83,
+    "removed": false
   },
   "A New Beginning": {
     "displayName": "A New Beginning",
-    "level": 105
+    "level": 105,
+    "removed": false
   },
   "A Sandy Scandal": {
     "displayName": "A Sandy Scandal",
-    "level": 32
+    "level": 32,
+    "removed": false
   },
   "Acquiring Credentials": {
     "displayName": "Acquiring Credentials",
-    "level": 74
+    "level": 74,
+    "removed": false
   },
   "Aldorei's Secret Part I": {
     "displayName": "Aldorei's Secret Part I",
-    "level": 74
+    "level": 74,
+    "removed": false
   },
   "Aldorei's Secret Part II": {
     "displayName": "Aldorei's Secret Part II",
-    "level": 78
+    "level": 78,
+    "removed": false
   },
   "Aldorei^s Secret Part II": {
     "displayName": "Aldorei's Secret Part II",
-    "level": 78
+    "level": 78,
+    "removed": false
   },
   "All Roads To Peace": {
     "displayName": "All Roads To Peace",
-    "level": 64
+    "level": 64,
+    "removed": false
   },
   "An Iron Heart Part I": {
     "displayName": "An Iron Heart Part I",
-    "level": 49
+    "level": 49,
+    "removed": false
   },
   "An Iron Heart Part II": {
     "displayName": "An Iron Heart Part II",
-    "level": 58
+    "level": 58,
+    "removed": false
   },
   "Apotheosis": {
     "displayName": "Apotheosis",
-    "level": 119
+    "level": 119,
+    "removed": false
   },
   "Arachnids' Ascent": {
     "displayName": "Arachnids' Ascent",
-    "level": 14
+    "level": 14,
+    "removed": false
   },
   "Beneath The Depths": {
     "displayName": "Beneath the Depths",
-    "level": 60
+    "level": 60,
+    "removed": false
   },
   "Beneath the Depths": {
     "displayName": "Beneath the Depths",
-    "level": 60
+    "level": 60,
+    "removed": false
   },
   "Beyond the Grave": {
     "displayName": "Beyond the Grave",
-    "level": 87
+    "level": 87,
+    "removed": false
   },
   "Blazing Retribution": {
     "displayName": "Blazing Retribution",
-    "level": 44
+    "level": 44,
+    "removed": false
   },
   "Bob's Lost Soul": {
     "displayName": "Bob's Lost Soul",
-    "level": 45
+    "level": 45,
+    "removed": false
   },
   "Brothers Return": {
     "displayName": "Brothers Return",
-    "level": 20
+    "level": 20,
+    "removed": false
   },
   "Burning Bonds": {
     "displayName": "Burning Bonds",
-    "level": 114
+    "level": 114,
+    "removed": false
   },
   "Canyon Condor": {
     "displayName": "Canyon Condor",
-    "level": 34
+    "level": 34,
+    "removed": false
   },
   "Celebrations in Smoke": {
     "displayName": "Celebrations in Smoke",
-    "level": 115
+    "level": 115,
+    "removed": false
   },
   "Clearing the Camps": {
     "displayName": "Clearing the Camps",
-    "level": 39
+    "level": 39,
+    "removed": false
   },
   "Cluck Cluck": {
     "displayName": "Cluck Cluck",
-    "level": 23
+    "level": 23,
+    "removed": false
   },
   "Cook Assistant֎": {
     "displayName": "Cook Assistant",
-    "level": 3
+    "level": 3,
+    "removed": false
   },
   "Corrupted Betrayal": {
     "displayName": "Corrupted Betrayal",
-    "level": 52
+    "level": 52,
+    "removed": false
   },
   "Cowfusion": {
     "displayName": "Cowfusion",
-    "level": 86
+    "level": 86,
+    "removed": false
   },
   "Craftmas Chaos": {
     "displayName": "Craftmas Chaos",
-    "level": 30
+    "level": 30,
+    "removed": true
   },
   "Creeper Infiltration": {
     "displayName": "Creeper Infiltration",
-    "level": 25
+    "level": 25,
+    "removed": false
   },
   "Crop Failure": {
     "displayName": "Crop Failure",
-    "level": 52
+    "level": 52,
+    "removed": false
   },
   "Dearly Departed": {
     "displayName": "Dearly Departed",
-    "level": 2
+    "level": 2,
+    "removed": false
   },
   "Death Whistle": {
     "displayName": "Death Whistle",
-    "level": 53
+    "level": 53,
+    "removed": false
   },
   "Deja Vu": {
     "displayName": "Deja Vu",
-    "level": 27
+    "level": 27,
+    "removed": false
   },
   "Desperate Metal": {
     "displayName": "Desperate Metal",
-    "level": 86
+    "level": 86,
+    "removed": false
   },
   "Dwarves and Doguns Part I": {
     "displayName": "Dwarves and Doguns Part I",
-    "level": 91
+    "level": 91,
+    "removed": false
   },
   "Dwarves and Doguns Part II": {
     "displayName": "Dwarves and Doguns Part II",
-    "level": 92
+    "level": 92,
+    "removed": false
   },
   "Dwarves and Doguns Part III": {
     "displayName": "Dwarves and Doguns Part III",
-    "level": 93
+    "level": 93,
+    "removed": false
   },
   "Dwarves and Doguns Part IV": {
     "displayName": "Dwarves and Doguns Part IV",
-    "level": 94
+    "level": 94,
+    "removed": false
   },
   "Dwelling Walls": {
     "displayName": "Dwelling Walls",
-    "level": 22
+    "level": 22,
+    "removed": false
   },
   "Echoes of Change": {
     "displayName": "Echoes of Change",
-    "level": 112
+    "level": 112,
+    "removed": false
   },
   "Elemental Exercise": {
     "displayName": "Elemental Exercise",
-    "level": 11
+    "level": 11,
+    "removed": false
   },
   "Ensemble of Hope": {
     "displayName": "Ensemble of Hope",
-    "level": 118
+    "level": 118,
+    "removed": false
   },
   "Enter the Dojo": {
     "displayName": "Enter the Dojo",
-    "level": 89
+    "level": 89,
+    "removed": false
   },
   "Enzan's Brother": {
     "displayName": "Enzan's Brother",
-    "level": 1
+    "level": 1,
+    "removed": false
   },
   "Eye of the Storm": {
     "displayName": "Eye of the Storm",
-    "level": 72
+    "level": 72,
+    "removed": true
   },
   "Fallen Delivery": {
     "displayName": "Fallen Delivery",
-    "level": 79
+    "level": 79,
+    "removed": false
   },
   "Fantastic Voyage": {
     "displayName": "Fantastic Voyage",
-    "level": 90
+    "level": 90,
+    "removed": false
   },
   "Fate of the Fallen": {
     "displayName": "Fate of the Fallen",
-    "level": 43
+    "level": 43,
+    "removed": false
   },
   "Flight in Distress": {
     "displayName": "Flight in Distress",
-    "level": 75
+    "level": 75,
+    "removed": false
   },
   "Forbidden Prison": {
     "displayName": "Forbidden Prison",
-    "level": 72
+    "level": 72,
+    "removed": false
   },
   "From The Bottom": {
     "displayName": "From the Bottom",
-    "level": 81
+    "level": 81,
+    "removed": false
   },
   "From The Mountains": {
     "displayName": "From the Mountains",
-    "level": 67
+    "level": 67,
+    "removed": false
   },
   "Frost Bite": {
     "displayName": "Frost Bite",
-    "level": 48
+    "level": 48,
+    "removed": false
   },
   "General's Orders": {
     "displayName": "General's Orders",
-    "level": 80
+    "level": 80,
+    "removed": false
   },
   "Grand Youth": {
     "displayName": "Grand Youth",
-    "level": 69
+    "level": 69,
+    "removed": false
   },
   "Green Gloop": {
     "displayName": "Green Gloop",
-    "level": 31
+    "level": 31,
+    "removed": false
   },
   "Green Skinned Trouble": {
     "displayName": "Green Skinned Trouble",
-    "level": 44
+    "level": 44,
+    "removed": true
   },
   "Haven Antiquity": {
     "displayName": "Haven Antiquity",
-    "level": 70
+    "level": 70,
+    "removed": false
   },
   "Heart of Llevigar": {
     "displayName": "Heart of Llevigar",
-    "level": 41
+    "level": 41,
+    "removed": false
   },
   "Hollow Serenity": {
     "displayName": "Hollow Serenity",
-    "level": 73
+    "level": 73,
+    "removed": false
   },
   "Ice Nations": {
     "displayName": "Ice Nations",
-    "level": 40
+    "level": 40,
+    "removed": false
   },
   "Infested Plants֎": {
     "displayName": "Infested Plants",
-    "level": 4
+    "level": 4,
+    "removed": false
   },
   "Jungle Fever": {
     "displayName": "Jungle Fever",
-    "level": 52
+    "level": 52,
+    "removed": false
   },
   "King's Recruit": {
     "displayName": "King's Recruit",
-    "level": 1
+    "level": 1,
+    "removed": false
   },
   "Kingdom of Sand": {
     "displayName": "Kingdom of Sand",
-    "level": 33
+    "level": 33,
+    "removed": false
   },
   "Lava Springs": {
     "displayName": "Lava Springs",
-    "level": 18
+    "level": 18,
+    "removed": false
   },
   "Lazarus Pit": {
     "displayName": "Lazarus Pit",
-    "level": 69
+    "level": 69,
+    "removed": false
   },
   "Lexdale Witch Trials": {
     "displayName": "Lexdale Witch Trials",
-    "level": 72
+    "level": 72,
+    "removed": false
   },
   "Lost Royalty": {
     "displayName": "Lost Royalty",
-    "level": 65
+    "level": 65,
+    "removed": false
   },
   "Lost Soles": {
     "displayName": "Lost Soles",
-    "level": 66
+    "level": 66,
+    "removed": false
   },
   "Lost Tower": {
     "displayName": "Lost Tower",
-    "level": 24
+    "level": 24,
+    "removed": false
   },
   "Lost in the Jungle": {
     "displayName": "Lost in the Jungle",
-    "level": 62
+    "level": 62,
+    "removed": false
   },
   "Maltic's Well": {
     "displayName": "Maltic's Well",
-    "level": 10
+    "level": 10,
+    "removed": false
   },
   "Master Piece": {
     "displayName": "Master Piece",
-    "level": 53
+    "level": 53,
+    "removed": false
   },
   "Meaningful Holiday": {
     "displayName": "Meaningful Holiday",
-    "level": 33
+    "level": 33,
+    "removed": false
   },
   "Memory Paranoia": {
     "displayName": "Memory Paranoia",
-    "level": 67
+    "level": 67,
+    "removed": false
   },
   "Misadventure on the Sea": {
     "displayName": "Misadventure on the Sea",
-    "level": 28
+    "level": 28,
+    "removed": false
   },
   "Mixed Feelings": {
     "displayName": "Mixed Feelings",
-    "level": 87
+    "level": 87,
+    "removed": false
   },
   "Murder Mystery": {
     "displayName": "Murder Mystery",
-    "level": 73
+    "level": 73,
+    "removed": false
   },
   "Mushroom Man": {
     "displayName": "Mushroom Man",
-    "level": 6
+    "level": 6,
+    "removed": false
   },
   "Off the Rails": {
     "displayName": "Off the Rails",
-    "level": 109
+    "level": 109,
+    "removed": false
   },
   "One Thousand Meters Under": {
     "displayName": "One Thousand Meters Under",
-    "level": 95
+    "level": 95,
+    "removed": false
   },
   "Out of my Mind֎": {
     "displayName": "Out of my Mind",
-    "level": 63
+    "level": 63,
+    "removed": false
   },
   "Overture to Despair": {
     "displayName": "Overture to Despair",
-    "level": 116
+    "level": 116,
+    "removed": false
   },
   "Pirate's Trove": {
     "displayName": "Pirate's Trove",
-    "level": 39
+    "level": 39,
+    "removed": false
   },
   "Pit of the Dead": {
     "displayName": "Pit of the Dead",
-    "level": 20
+    "level": 20,
+    "removed": false
   },
   "Point of No Return": {
     "displayName": "Point of No Return",
-    "level": 102
+    "level": 102,
+    "removed": false
   },
   "Potion Making": {
     "displayName": "Potion Making",
-    "level": 12
+    "level": 12,
+    "removed": false
   },
   "Purple and Blue": {
     "displayName": "Purple and Blue",
-    "level": 77
+    "level": 77,
+    "removed": false
   },
   "Queen's Recruit": {
     "displayName": "Queen's Recruit",
-    "level": 103
+    "level": 103,
+    "removed": false
   },
   "Realm of Light I - The Worm Holes": {
     "displayName": "The Worm Holes",
-    "level": 54
+    "level": 54,
+    "removed": false
   },
   "Realm of Light II - Taproot": {
     "displayName": "Taproot",
-    "level": 62
+    "level": 62,
+    "removed": false
   },
   "Realm of Light III - A Headless History": {
     "displayName": "A Headless History",
-    "level": 64
+    "level": 64,
+    "removed": false
   },
   "Realm of Light IV - Finding the Light": {
     "displayName": "Finding the Light",
-    "level": 71
+    "level": 71,
+    "removed": false
   },
   "Realm of Light V - The Realm of Light": {
     "displayName": "The Realm of Light",
-    "level": 79
+    "level": 79,
+    "removed": false
   },
   "Recipe For Disaster": {
     "displayName": "Recipe For Disaster",
-    "level": 96
+    "level": 96,
+    "removed": false
   },
   "Reclaiming the House": {
     "displayName": "Reclaiming the House",
-    "level": 61
+    "level": 61,
+    "removed": false
   },
   "Recover the Past": {
     "displayName": "Recover the Past",
-    "level": 25
+    "level": 25,
+    "removed": false
   },
   "Redbeard's Booty": {
     "displayName": "Redbeard's Booty",
-    "level": 61
+    "level": 61,
+    "removed": false
   },
   "Redbeard^s Booty": {
     "displayName": "Redbeard's Booty",
-    "level": 61
+    "level": 61,
+    "removed": false
   },
   "Reincarnation": {
     "displayName": "Reincarnation",
-    "level": 74
+    "level": 74,
+    "removed": false
   },
   "Revelations in Fall": {
     "displayName": "Revelations in Fall",
-    "level": 108
+    "level": 108,
+    "removed": false
   },
   "Rise of the Quartron": {
     "displayName": "Rise of the Quartron",
-    "level": 49
+    "level": 49,
+    "removed": false
   },
   "Royal Trials": {
     "displayName": "Royal Trials",
-    "level": 98
+    "level": 98,
+    "removed": false
   },
   "Shattered Minds": {
     "displayName": "Shattered Minds",
-    "level": 70
+    "level": 70,
+    "removed": false
   },
   "Shrouded in Mist": {
     "displayName": "Shrouded in Mist",
-    "level": 113
+    "level": 113,
+    "removed": false
   },
   "Solidarity of Steel": {
     "displayName": "Solidarity of Steel",
-    "level": 109
+    "level": 109,
+    "removed": false
   },
   "Stable Story": {
     "displayName": "Stable Story",
-    "level": 13
+    "level": 13,
+    "removed": false
   },
   "Star Thief": {
     "displayName": "Star Thief",
-    "level": 42
+    "level": 42,
+    "removed": false
   },
   "Supply and Delivery": {
     "displayName": "Supply and Delivery",
-    "level": 16
+    "level": 16,
+    "removed": false
   },
   "Suspended Flowers": {
     "displayName": "Suspended Flowers",
-    "level": 14
+    "level": 14,
+    "removed": true
   },
   "Taking the Tower": {
     "displayName": "Taking the Tower",
-    "level": 8
+    "level": 8,
+    "removed": false
   },
   "Temple of the Legends": {
     "displayName": "Temple of the Legends",
-    "level": 68
+    "level": 68,
+    "removed": false
   },
   "Tempo Town Trouble": {
     "displayName": "Tempo Town Trouble",
-    "level": 25
+    "level": 25,
+    "removed": false
   },
   "The Bigger Picture": {
     "displayName": "The Bigger Picture",
-    "level": 76
+    "level": 76,
+    "removed": false
   },
   "The Breaking Point": {
     "displayName": "The Breaking Point",
-    "level": 97
+    "level": 97,
+    "removed": false
   },
   "The Canary Calls": {
     "displayName": "The Canary Calls",
-    "level": 85
+    "level": 85,
+    "removed": false
   },
   "The Canyon Guides": {
     "displayName": "The Canyon Guides",
-    "level": 84
+    "level": 84,
+    "removed": false
   },
   "The Corrupted Village": {
     "displayName": "The Corrupted Village",
-    "level": 28
+    "level": 28,
+    "removed": false
   },
   "The Cursed One": {
     "displayName": "The Cursed One",
-    "level": 106
+    "level": 106,
+    "removed": false
   },
   "The Dark Descent": {
     "displayName": "The Dark Descent",
-    "level": 21
+    "level": 21,
+    "removed": false
   },
   "The Envoy Part I": {
     "displayName": "The Envoy Part I",
-    "level": 83
+    "level": 83,
+    "removed": false
   },
   "The Envoy Part II": {
     "displayName": "The Envoy Part II",
-    "level": 89
+    "level": 89,
+    "removed": false
   },
   "The Feathers Fly Part I": {
     "displayName": "The Feathers Fly Part I",
-    "level": 91
+    "level": 91,
+    "removed": false
   },
   "The Feathers Fly Part II": {
     "displayName": "The Feathers Fly Part II",
-    "level": 93
+    "level": 93,
+    "removed": false
   },
   "The Hero of Gavel": {
     "displayName": "The Hero of Gavel",
-    "level": 99
+    "level": 99,
+    "removed": false
   },
   "The Hidden City": {
     "displayName": "The Hidden City",
-    "level": 88
+    "level": 88,
+    "removed": false
   },
   "The House of Twain": {
     "displayName": "The House of Twain",
-    "level": 49
+    "level": 49,
+    "removed": false
   },
   "The Hunger of Gerts Part 1": {
     "displayName": "Hunger of the Gerts Part I",
-    "level": 77
+    "level": 77,
+    "removed": false
   },
   "The Hunger of Gerts Part 2": {
     "displayName": "Hunger of the Gerts Part II",
-    "level": 78
+    "level": 78,
+    "removed": false
   },
   "The Lost": {
     "displayName": "The Lost",
-    "level": 85
+    "level": 85,
+    "removed": false
   },
   "The Maiden Tower": {
     "displayName": "The Maiden Tower",
-    "level": 51
+    "level": 51,
+    "removed": false
   },
   "The Mercenary": {
     "displayName": "The Mercenary",
-    "level": 30
+    "level": 30,
+    "removed": false
   },
   "The Missing Piece": {
     "displayName": "The Missing Piece",
-    "level": 111
+    "level": 111,
+    "removed": false
   },
   "The Olmic Rune": {
     "displayName": "The Olmic Rune",
-    "level": 100
+    "level": 100,
+    "removed": false
   },
   "The Order of the Grook": {
     "displayName": "The Order of the Grook",
-    "level": 59
+    "level": 59,
+    "removed": false
   },
   "The Passage": {
     "displayName": "The Passage",
-    "level": 57
+    "level": 57,
+    "removed": false
   },
   "The Price of Ingenuity": {
     "displayName": "The Price of Ingenuity",
-    "level": 110
+    "level": 110,
+    "removed": false
   },
   "The Qira Hive": {
     "displayName": "The Qira Hive",
-    "level": 80
+    "level": 80,
+    "removed": false
   },
   "The Realm of Light": {
     "displayName": "The Realm of Light",
-    "level": 79
+    "level": 79,
+    "removed": false
   },
   "The Scarred Springs": {
     "displayName": "The Scarred Springs",
-    "level": 108
+    "level": 108,
+    "removed": false
   },
   "The Sewers of Ragni": {
     "displayName": "The Sewers of Ragni",
-    "level": 5
+    "level": 5,
+    "removed": false
   },
   "The Shadow of the Beast": {
     "displayName": "The Shadow of the Beast",
-    "level": 54
+    "level": 54,
+    "removed": false
   },
   "The Strong Survive": {
     "displayName": "The Strong Survive",
-    "level": 117
+    "level": 117,
+    "removed": false
   },
   "The Thanos Depository": {
     "displayName": "The Thanos Depository",
-    "level": 81
+    "level": 81,
+    "removed": false
   },
   "The Ultimate Weapon": {
     "displayName": "The Ultimate Weapon",
-    "level": 75
+    "level": 75,
+    "removed": false
   },
   "Through the Pipes": {
     "displayName": "Through the Pipes",
-    "level": 110
+    "level": 110,
+    "removed": false
   },
   "Tower Of Ascension": {
     "displayName": "Tower of Ascension",
-    "level": 40
+    "level": 40,
+    "removed": false
   },
   "Tribal Aggression": {
     "displayName": "Tribal Aggression",
-    "level": 35
+    "level": 35,
+    "removed": false
   },
   "Troubled Tribesmen": {
     "displayName": "Troubled Tribesmen",
-    "level": 73
+    "level": 73,
+    "removed": false
   },
   "True Colours": {
     "displayName": "True Colours",
-    "level": 115
+    "level": 115,
+    "removed": false
   },
   "Tunnel Trouble": {
     "displayName": "Tunnel Trouble",
-    "level": 6
+    "level": 6,
+    "removed": false
   },
   "Underice": {
     "displayName": "Underice",
-    "level": 43
+    "level": 43,
+    "removed": false
   },
   "Undersupply": {
     "displayName": "Undersupply",
-    "level": 107
+    "level": 107,
+    "removed": false
   },
   "Underwater": {
     "displayName": "Underwater",
-    "level": 9
+    "level": 9,
+    "removed": false
   },
   "Wrath of the Mummy": {
     "displayName": "Wrath of the Mummy",
-    "level": 36
+    "level": 36,
+    "removed": false
   },
   "WynnExcavation Site A": {
     "displayName": "WynnExcavation Site A",
-    "level": 35
+    "level": 35,
+    "removed": false
   },
   "WynnExcavation Site B": {
     "displayName": "WynnExcavation Site B",
-    "level": 46
+    "level": 46,
+    "removed": false
   },
   "WynnExcavation Site C": {
     "displayName": "WynnExcavation Site C",
-    "level": 55
+    "level": 55,
+    "removed": false
   },
   "WynnExcavation Site D": {
     "displayName": "WynnExcavation Site D",
-    "level": 70
+    "level": 70,
+    "removed": false
   },
   "Zhight Island": {
     "displayName": "Zhight Island",
-    "level": 55
+    "level": 55,
+    "removed": false
   }
 }

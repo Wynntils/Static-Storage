@@ -19,7 +19,8 @@ jq \
         key: ($internalNames[0][$quest.name] // $quest.name),
         value: {
           displayName: $quest.name,
-          level: $quest.requirements.level
+          level: $quest.requirements.level,
+          removed: false
         }
       })
     | from_entries
