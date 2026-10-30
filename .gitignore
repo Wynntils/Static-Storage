@@ -1,4 +1,5 @@
 .idea
+Utils/__pycache__
 # Uploaded resource pack for model data extraction
 /Generators/assets/
 # File containing local API key
