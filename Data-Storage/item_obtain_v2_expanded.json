@@ -4935,7 +4935,8 @@
       "type": "normalMobDrop"
     },
     {
-      "type": "lootChest"
+      "type": "lootChest",
+      "name": "between level 28 and 36"
     }
   ],
   "Shameful Greaves": [
