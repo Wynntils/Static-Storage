@@ -53,6 +53,30 @@
             "fingerprints": [
                 "4918908e2c891617ee71ca135251d6e17c610e40e7aa47670fd449b9a8dd3518"
             ]
+        },
+        "Ritual Circle": {
+            "textures": [
+                "e6b4d0f0923f5f13a865e69904e2f6ef75bd6e13e229dc0602a7507509e70ac7",
+                "f4c0d674f8a27ef8d56dfc4538d7c26199dfe3e62f649677a912335f30b92e7e",
+                "8f52657e39c47b3c95f01d3e3c7e63d0bef78a62eb1f21ba36450bd5dca0ab36",
+                "bcc151e7de8979df66529fc02833047cab88ad4591f9c737a52852fa608bf4b2",
+                "b658a2eca9e6e5b3e1989496fc5d9deb1494735bbe04347e3996ca9822eebc60",
+                "01dddfa1afb86f24deab5e5a49c4708ea4144e7de73b39d62dee0103390c1fd9",
+                "33af3a4c6b3b546e8e1ad92892efa571914d3065a41eb4b5473db9fc7c97b5f5",
+                "c803cb25f0ceb62e61acac009cdee6b8a41ba04417b990dd6b27069502cd2542",
+                "27267e40506f5184456d04fc37406b6925b7d5571d21ef9befca3dd105206250",
+                "ae64362d3978e81948dfe871339abab09fcca4f9905c728bcb6f605fd15badcb",
+                "8150200d01086aebf2d8b365a3532bfe15459eb72210a3e08b93d8815e5b73e3",
+                "07a1584cc0a0c0ca46b909bbc1d9a5973854e8bece466b5cf462adbdded46fdf",
+                "bc60a91552a2ed114d33e63a92b43a86b423b308633cd39cd34bd824970bc02a",
+                "435af08ec4273ea14fb345dad830c1bcecba163ec3ae11a20d11350fa75481db",
+                "dc984db797b8ce301ee956292906c13b437a7d80e6ace1d468d449222ec06a43",
+                "5aeb932224e9d4348535459bcc8238f8de0a505599530420d4eeb888705a6944",
+                "536c66cc12df4d0a7cedae053acf3a0f36dc686a4f42aba2a8d6a7727d2749a0",
+                "d048d9ceb1d956ac7b7d27ccf602fd23747c8ebbb7a76a831ea70051a1073772",
+                "c3f4bf3ae84019ea11cada374f811afb67495e0780d42690c2ae0b751454cb15"
+            ],
+            "fingerprints": []
         }
     }
 }
