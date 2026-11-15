@@ -25656,7 +25656,15 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " will have unlimited ammunition",
+              "text": " will have ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "5",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " additional range",
               "color": "#AAAAAA"
             }
           ],
@@ -60229,12 +60237,8 @@
               "color": "#99E9FF"
             },
             {
-              "text": " ",
+              "text": " Mask of the Heretic",
               "color": "#99E9FF"
-            },
-            {
-              "text": "Mask of the Heretic",
-              "color": "#55FFFF"
             },
             {
               "text": ", regenerate",
@@ -60302,8 +60306,13 @@
           ],
           [
             {
-              "text": "⌚ ",
-              "color": "#00AAAA"
+              "text": "",
+              "font": "common",
+              "color": "#4DFFC3"
+            },
+            {
+              "text": " ",
+              "color": "#4DFFC3"
             },
             {
               "text": "Cooldown: ",
@@ -64470,8 +64479,13 @@
           [],
           [
             {
-              "text": "⌚ ",
-              "color": "#00AAAA"
+              "text": "",
+              "font": "common",
+              "color": "#4DFFC3"
+            },
+            {
+              "text": " ",
+              "color": "#4DFFC3"
             },
             {
               "text": "Cooldown: ",
