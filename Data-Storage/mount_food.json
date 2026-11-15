@@ -1,1754 +1,788 @@
 {
   "INGOT": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 4,
+        "TOUGHNESS": 8
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 5,
+        "TOUGHNESS": 10
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 5,
+        "TOUGHNESS": 12
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 14
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 6,
+        "TOUGHNESS": 14
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 16
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 6,
+        "TOUGHNESS": 16
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 7
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 18
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 7,
+        "TOUGHNESS": 18
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 20
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 8,
+        "TOUGHNESS": 20
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 22
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 8,
+        "TOUGHNESS": 22
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 24
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 9,
+        "TOUGHNESS": 24
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 26
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 9,
+        "TOUGHNESS": 26
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 28
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 10,
+        "TOUGHNESS": 28
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 29
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 10,
+        "TOUGHNESS": 29
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 30
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 11,
+        "TOUGHNESS": 30
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 31
-        }
-      ]
+      "mountStats": {
+        "ENERGY": 11,
+        "TOUGHNESS": 31
+      }
     }
   },
   "GEM": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "SPEED": 4,
+        "ENERGY": 2,
+        "TRAINING": 6
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "SPEED": 5,
+        "ENERGY": 2,
+        "TRAINING": 8
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "SPEED": 6,
+        "ENERGY": 3,
+        "TRAINING": 9
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "SPEED": 6,
+        "ENERGY": 3,
+        "TRAINING": 11
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 7
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "SPEED": 7,
+        "ENERGY": 3,
+        "TRAINING": 12
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 14
-        }
-      ]
+      "mountStats": {
+        "SPEED": 8,
+        "ENERGY": 4,
+        "TRAINING": 14
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 15
-        }
-      ]
+      "mountStats": {
+        "SPEED": 9,
+        "ENERGY": 4,
+        "TRAINING": 15
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 17
-        }
-      ]
+      "mountStats": {
+        "SPEED": 10,
+        "ENERGY": 4,
+        "TRAINING": 17
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 18
-        }
-      ]
+      "mountStats": {
+        "SPEED": 10,
+        "ENERGY": 4,
+        "TRAINING": 18
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 20
-        }
-      ]
+      "mountStats": {
+        "SPEED": 11,
+        "ENERGY": 5,
+        "TRAINING": 20
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 21
-        }
-      ]
+      "mountStats": {
+        "SPEED": 12,
+        "ENERGY": 5,
+        "TRAINING": 21
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 22
-        }
-      ]
+      "mountStats": {
+        "SPEED": 12,
+        "ENERGY": 5,
+        "TRAINING": 22
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 13
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 23
-        }
-      ]
+      "mountStats": {
+        "SPEED": 13,
+        "ENERGY": 5,
+        "TRAINING": 23
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 13
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 23
-        }
-      ]
+      "mountStats": {
+        "SPEED": 13,
+        "ENERGY": 5,
+        "TRAINING": 23
+      }
     }
   },
   "PLANK": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 4
-        }
-      ]
+      "mountStats": {
+        "SPEED": 2,
+        "ACCELERATION": 6,
+        "TOUGHNESS": 4
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 5
-        }
-      ]
+      "mountStats": {
+        "SPEED": 2,
+        "ACCELERATION": 8,
+        "TOUGHNESS": 5
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "SPEED": 3,
+        "ACCELERATION": 9,
+        "TOUGHNESS": 6
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "SPEED": 3,
+        "ACCELERATION": 11,
+        "TOUGHNESS": 6
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 7
-        }
-      ]
+      "mountStats": {
+        "SPEED": 3,
+        "ACCELERATION": 12,
+        "TOUGHNESS": 7
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 14
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "SPEED": 4,
+        "ACCELERATION": 14,
+        "TOUGHNESS": 8
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 15
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "SPEED": 4,
+        "ACCELERATION": 15,
+        "TOUGHNESS": 9
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 17
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "SPEED": 4,
+        "ACCELERATION": 17,
+        "TOUGHNESS": 10
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 18
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "SPEED": 4,
+        "ACCELERATION": 18,
+        "TOUGHNESS": 10
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 20
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "SPEED": 5,
+        "ACCELERATION": 20,
+        "TOUGHNESS": 11
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 21
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "SPEED": 5,
+        "ACCELERATION": 21,
+        "TOUGHNESS": 12
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 22
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "SPEED": 5,
+        "ACCELERATION": 22,
+        "TOUGHNESS": 12
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 23
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 13
-        }
-      ]
+      "mountStats": {
+        "SPEED": 5,
+        "ACCELERATION": 23,
+        "TOUGHNESS": 13
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 23
-        },
-        {
-          "mountStat": "TOUGHNESS",
-          "mountStatIncreaseAmount": 13
-        }
-      ]
+      "mountStats": {
+        "SPEED": 5,
+        "ACCELERATION": 23,
+        "TOUGHNESS": 13
+      }
     }
   },
   "PAPER": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 4
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 8,
+        "ALTITUDE": 8,
+        "BOOST": 4
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 5
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 10,
+        "ALTITUDE": 10,
+        "BOOST": 5
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 5
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 12,
+        "ALTITUDE": 12,
+        "BOOST": 5
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 14
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 14
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 14,
+        "ALTITUDE": 14,
+        "BOOST": 6
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 16
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 16
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 16,
+        "ALTITUDE": 16,
+        "BOOST": 6
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 18
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 18
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 7
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 18,
+        "ALTITUDE": 18,
+        "BOOST": 7
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 20
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 20
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 20,
+        "ALTITUDE": 20,
+        "BOOST": 8
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 22
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 22
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 22,
+        "ALTITUDE": 22,
+        "BOOST": 8
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 24
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 24
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 24,
+        "ALTITUDE": 24,
+        "BOOST": 9
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 26
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 26
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 26,
+        "ALTITUDE": 26,
+        "BOOST": 9
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 28
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 28
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 28,
+        "ALTITUDE": 28,
+        "BOOST": 10
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 29
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 29
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 29,
+        "ALTITUDE": 29,
+        "BOOST": 10
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 30
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 30
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 30,
+        "ALTITUDE": 30,
+        "BOOST": 11
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 31
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 31
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 31,
+        "ALTITUDE": 31,
+        "BOOST": 11
+      }
     }
   },
   "STRING": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 2,
+        "HANDLING": 4,
+        "BOOST": 6
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 2,
+        "HANDLING": 5,
+        "BOOST": 8
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 3,
+        "HANDLING": 6,
+        "BOOST": 9
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 3,
+        "HANDLING": 6,
+        "BOOST": 11
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 7
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 3,
+        "HANDLING": 7,
+        "BOOST": 12
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 14
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 4,
+        "HANDLING": 8,
+        "BOOST": 14
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 15
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 4,
+        "HANDLING": 9,
+        "BOOST": 15
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 17
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 4,
+        "HANDLING": 10,
+        "BOOST": 17
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 18
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 4,
+        "HANDLING": 10,
+        "BOOST": 18
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 20
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "HANDLING": 11,
+        "BOOST": 20
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 21
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "HANDLING": 12,
+        "BOOST": 21
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 22
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "HANDLING": 12,
+        "BOOST": 22
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 13
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 23
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "HANDLING": 13,
+        "BOOST": 23
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 13
-        },
-        {
-          "mountStat": "BOOST",
-          "mountStatIncreaseAmount": 23
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "HANDLING": 13,
+        "BOOST": 23
+      }
     }
   },
   "GRAINS": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 4
-        }
-      ]
+      "mountStats": {
+        "SPEED": 8,
+        "JUMP_HEIGHT": 4,
+        "ALTITUDE": 4
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        }
-      ]
+      "mountStats": {
+        "SPEED": 10,
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        }
-      ]
+      "mountStats": {
+        "SPEED": 12,
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 14
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "SPEED": 14,
+        "JUMP_HEIGHT": 6,
+        "ALTITUDE": 6
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 16
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "SPEED": 16,
+        "JUMP_HEIGHT": 6,
+        "ALTITUDE": 6
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 18
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 7
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 7
-        }
-      ]
+      "mountStats": {
+        "SPEED": 18,
+        "JUMP_HEIGHT": 7,
+        "ALTITUDE": 7
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 20
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "SPEED": 20,
+        "JUMP_HEIGHT": 8,
+        "ALTITUDE": 8
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 22
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "SPEED": 22,
+        "JUMP_HEIGHT": 8,
+        "ALTITUDE": 8
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 24
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "SPEED": 24,
+        "JUMP_HEIGHT": 9,
+        "ALTITUDE": 9
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 26
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "SPEED": 26,
+        "JUMP_HEIGHT": 9,
+        "ALTITUDE": 9
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 28
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "SPEED": 28,
+        "JUMP_HEIGHT": 10,
+        "ALTITUDE": 10
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 29
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "SPEED": 29,
+        "JUMP_HEIGHT": 10,
+        "ALTITUDE": 10
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 30
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "SPEED": 30,
+        "JUMP_HEIGHT": 11,
+        "ALTITUDE": 11
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "SPEED",
-          "mountStatIncreaseAmount": 31
-        },
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "SPEED": 31,
+        "JUMP_HEIGHT": 11,
+        "ALTITUDE": 11
+      }
     }
   },
   "OIL": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 4
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 2,
+        "ALTITUDE": 2,
+        "HANDLING": 6,
+        "TRAINING": 4
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 2
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 5
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 2,
+        "ALTITUDE": 2,
+        "HANDLING": 8,
+        "TRAINING": 5
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 3,
+        "ALTITUDE": 3,
+        "HANDLING": 9,
+        "TRAINING": 6
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 6
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 3,
+        "ALTITUDE": 3,
+        "HANDLING": 11,
+        "TRAINING": 6
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 3
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 12
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 7
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 3,
+        "ALTITUDE": 3,
+        "HANDLING": 12,
+        "TRAINING": 7
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 14
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 4,
+        "ALTITUDE": 4,
+        "HANDLING": 14,
+        "TRAINING": 8
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 15
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 9
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 4,
+        "ALTITUDE": 4,
+        "HANDLING": 15,
+        "TRAINING": 9
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 17
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 4,
+        "ALTITUDE": 4,
+        "HANDLING": 17,
+        "TRAINING": 10
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 18
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 4,
+        "ALTITUDE": 4,
+        "HANDLING": 18,
+        "TRAINING": 10
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 20
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 11
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5,
+        "HANDLING": 20,
+        "TRAINING": 11
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 21
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5,
+        "HANDLING": 21,
+        "TRAINING": 12
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 22
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5,
+        "HANDLING": 22,
+        "TRAINING": 12
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 23
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 13
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5,
+        "HANDLING": 23,
+        "TRAINING": 13
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "ALTITUDE",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "JUMP_HEIGHT",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "HANDLING",
-          "mountStatIncreaseAmount": 23
-        },
-        {
-          "mountStat": "TRAINING",
-          "mountStatIncreaseAmount": 13
-        }
-      ]
+      "mountStats": {
+        "JUMP_HEIGHT": 5,
+        "ALTITUDE": 5,
+        "HANDLING": 23,
+        "TRAINING": 13
+      }
     }
   },
   "MEAT": {
     "1": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 4
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 8
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 4,
+        "ENERGY": 8
+      }
     },
     "10": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 10
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "ENERGY": 10
+      }
     },
     "20": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 5
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 12
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 5,
+        "ENERGY": 12
+      }
     },
     "30": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 14
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 6,
+        "ENERGY": 14
+      }
     },
     "40": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 6
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 16
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 6,
+        "ENERGY": 16
+      }
     },
     "50": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 7
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 18
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 7,
+        "ENERGY": 18
+      }
     },
     "60": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 20
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 8,
+        "ENERGY": 20
+      }
     },
     "70": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 8
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 22
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 8,
+        "ENERGY": 22
+      }
     },
     "80": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 24
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 9,
+        "ENERGY": 24
+      }
     },
     "90": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 9
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 26
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 9,
+        "ENERGY": 26
+      }
     },
     "100": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 28
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 10,
+        "ENERGY": 28
+      }
     },
     "105": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 10
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 29
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 10,
+        "ENERGY": 29
+      }
     },
     "110": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 30
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 11,
+        "ENERGY": 30
+      }
     },
     "115": {
-      "mountStats": [
-        {
-          "mountStat": "ACCELERATION",
-          "mountStatIncreaseAmount": 11
-        },
-        {
-          "mountStat": "ENERGY",
-          "mountStatIncreaseAmount": 31
-        }
-      ]
+      "mountStats": {
+        "ACCELERATION": 11,
+        "ENERGY": 31
+      }
     }
   }
 }
