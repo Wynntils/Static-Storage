@@ -1,787 +1,787 @@
 {
-  "INGOT": {
+  "ingot": {
     "1": {
       "mountStats": {
-        "ENERGY": 4,
-        "TOUGHNESS": 8
+        "energy": 4,
+        "toughness": 8
       }
     },
     "10": {
       "mountStats": {
-        "ENERGY": 5,
-        "TOUGHNESS": 10
+        "energy": 5,
+        "toughness": 10
       }
     },
     "20": {
       "mountStats": {
-        "ENERGY": 5,
-        "TOUGHNESS": 12
+        "energy": 5,
+        "toughness": 12
       }
     },
     "30": {
       "mountStats": {
-        "ENERGY": 6,
-        "TOUGHNESS": 14
+        "energy": 6,
+        "toughness": 14
       }
     },
     "40": {
       "mountStats": {
-        "ENERGY": 6,
-        "TOUGHNESS": 16
+        "energy": 6,
+        "toughness": 16
       }
     },
     "50": {
       "mountStats": {
-        "ENERGY": 7,
-        "TOUGHNESS": 18
+        "energy": 7,
+        "toughness": 18
       }
     },
     "60": {
       "mountStats": {
-        "ENERGY": 8,
-        "TOUGHNESS": 20
+        "energy": 8,
+        "toughness": 20
       }
     },
     "70": {
       "mountStats": {
-        "ENERGY": 8,
-        "TOUGHNESS": 22
+        "energy": 8,
+        "toughness": 22
       }
     },
     "80": {
       "mountStats": {
-        "ENERGY": 9,
-        "TOUGHNESS": 24
+        "energy": 9,
+        "toughness": 24
       }
     },
     "90": {
       "mountStats": {
-        "ENERGY": 9,
-        "TOUGHNESS": 26
+        "energy": 9,
+        "toughness": 26
       }
     },
     "100": {
       "mountStats": {
-        "ENERGY": 10,
-        "TOUGHNESS": 28
+        "energy": 10,
+        "toughness": 28
       }
     },
     "105": {
       "mountStats": {
-        "ENERGY": 10,
-        "TOUGHNESS": 29
+        "energy": 10,
+        "toughness": 29
       }
     },
     "110": {
       "mountStats": {
-        "ENERGY": 11,
-        "TOUGHNESS": 30
+        "energy": 11,
+        "toughness": 30
       }
     },
     "115": {
       "mountStats": {
-        "ENERGY": 11,
-        "TOUGHNESS": 31
+        "energy": 11,
+        "toughness": 31
       }
     }
   },
-  "GEM": {
+  "gem": {
     "1": {
       "mountStats": {
-        "SPEED": 4,
-        "ENERGY": 2,
-        "TRAINING": 6
+        "speed": 4,
+        "energy": 2,
+        "training": 6
       }
     },
     "10": {
       "mountStats": {
-        "SPEED": 5,
-        "ENERGY": 2,
-        "TRAINING": 8
+        "speed": 5,
+        "energy": 2,
+        "training": 8
       }
     },
     "20": {
       "mountStats": {
-        "SPEED": 6,
-        "ENERGY": 3,
-        "TRAINING": 9
+        "speed": 6,
+        "energy": 3,
+        "training": 9
       }
     },
     "30": {
       "mountStats": {
-        "SPEED": 6,
-        "ENERGY": 3,
-        "TRAINING": 11
+        "speed": 6,
+        "energy": 3,
+        "training": 11
       }
     },
     "40": {
       "mountStats": {
-        "SPEED": 7,
-        "ENERGY": 3,
-        "TRAINING": 12
+        "speed": 7,
+        "energy": 3,
+        "training": 12
       }
     },
     "50": {
       "mountStats": {
-        "SPEED": 8,
-        "ENERGY": 4,
-        "TRAINING": 14
+        "speed": 8,
+        "energy": 4,
+        "training": 14
       }
     },
     "60": {
       "mountStats": {
-        "SPEED": 9,
-        "ENERGY": 4,
-        "TRAINING": 15
+        "speed": 9,
+        "energy": 4,
+        "training": 15
       }
     },
     "70": {
       "mountStats": {
-        "SPEED": 10,
-        "ENERGY": 4,
-        "TRAINING": 17
+        "speed": 10,
+        "energy": 4,
+        "training": 17
       }
     },
     "80": {
       "mountStats": {
-        "SPEED": 10,
-        "ENERGY": 4,
-        "TRAINING": 18
+        "speed": 10,
+        "energy": 4,
+        "training": 18
       }
     },
     "90": {
       "mountStats": {
-        "SPEED": 11,
-        "ENERGY": 5,
-        "TRAINING": 20
+        "speed": 11,
+        "energy": 5,
+        "training": 20
       }
     },
     "100": {
       "mountStats": {
-        "SPEED": 12,
-        "ENERGY": 5,
-        "TRAINING": 21
+        "speed": 12,
+        "energy": 5,
+        "training": 21
       }
     },
     "105": {
       "mountStats": {
-        "SPEED": 12,
-        "ENERGY": 5,
-        "TRAINING": 22
+        "speed": 12,
+        "energy": 5,
+        "training": 22
       }
     },
     "110": {
       "mountStats": {
-        "SPEED": 13,
-        "ENERGY": 5,
-        "TRAINING": 23
+        "speed": 13,
+        "energy": 5,
+        "training": 23
       }
     },
     "115": {
       "mountStats": {
-        "SPEED": 13,
-        "ENERGY": 5,
-        "TRAINING": 23
+        "speed": 13,
+        "energy": 5,
+        "training": 23
       }
     }
   },
-  "PLANK": {
+  "plank": {
     "1": {
       "mountStats": {
-        "SPEED": 2,
-        "ACCELERATION": 6,
-        "TOUGHNESS": 4
+        "speed": 2,
+        "acceleration": 6,
+        "toughness": 4
       }
     },
     "10": {
       "mountStats": {
-        "SPEED": 2,
-        "ACCELERATION": 8,
-        "TOUGHNESS": 5
+        "speed": 2,
+        "acceleration": 8,
+        "toughness": 5
       }
     },
     "20": {
       "mountStats": {
-        "SPEED": 3,
-        "ACCELERATION": 9,
-        "TOUGHNESS": 6
+        "speed": 3,
+        "acceleration": 9,
+        "toughness": 6
       }
     },
     "30": {
       "mountStats": {
-        "SPEED": 3,
-        "ACCELERATION": 11,
-        "TOUGHNESS": 6
+        "speed": 3,
+        "acceleration": 11,
+        "toughness": 6
       }
     },
     "40": {
       "mountStats": {
-        "SPEED": 3,
-        "ACCELERATION": 12,
-        "TOUGHNESS": 7
+        "speed": 3,
+        "acceleration": 12,
+        "toughness": 7
       }
     },
     "50": {
       "mountStats": {
-        "SPEED": 4,
-        "ACCELERATION": 14,
-        "TOUGHNESS": 8
+        "speed": 4,
+        "acceleration": 14,
+        "toughness": 8
       }
     },
     "60": {
       "mountStats": {
-        "SPEED": 4,
-        "ACCELERATION": 15,
-        "TOUGHNESS": 9
+        "speed": 4,
+        "acceleration": 15,
+        "toughness": 9
       }
     },
     "70": {
       "mountStats": {
-        "SPEED": 4,
-        "ACCELERATION": 17,
-        "TOUGHNESS": 10
+        "speed": 4,
+        "acceleration": 17,
+        "toughness": 10
       }
     },
     "80": {
       "mountStats": {
-        "SPEED": 4,
-        "ACCELERATION": 18,
-        "TOUGHNESS": 10
+        "speed": 4,
+        "acceleration": 18,
+        "toughness": 10
       }
     },
     "90": {
       "mountStats": {
-        "SPEED": 5,
-        "ACCELERATION": 20,
-        "TOUGHNESS": 11
+        "speed": 5,
+        "acceleration": 20,
+        "toughness": 11
       }
     },
     "100": {
       "mountStats": {
-        "SPEED": 5,
-        "ACCELERATION": 21,
-        "TOUGHNESS": 12
+        "speed": 5,
+        "acceleration": 21,
+        "toughness": 12
       }
     },
     "105": {
       "mountStats": {
-        "SPEED": 5,
-        "ACCELERATION": 22,
-        "TOUGHNESS": 12
+        "speed": 5,
+        "acceleration": 22,
+        "toughness": 12
       }
     },
     "110": {
       "mountStats": {
-        "SPEED": 5,
-        "ACCELERATION": 23,
-        "TOUGHNESS": 13
+        "speed": 5,
+        "acceleration": 23,
+        "toughness": 13
       }
     },
     "115": {
       "mountStats": {
-        "SPEED": 5,
-        "ACCELERATION": 23,
-        "TOUGHNESS": 13
+        "speed": 5,
+        "acceleration": 23,
+        "toughness": 13
       }
     }
   },
-  "PAPER": {
+  "paper": {
     "1": {
       "mountStats": {
-        "JUMP_HEIGHT": 8,
-        "ALTITUDE": 8,
-        "BOOST": 4
+        "jumpHeight": 8,
+        "altitude": 8,
+        "boost": 4
       }
     },
     "10": {
       "mountStats": {
-        "JUMP_HEIGHT": 10,
-        "ALTITUDE": 10,
-        "BOOST": 5
+        "jumpHeight": 10,
+        "altitude": 10,
+        "boost": 5
       }
     },
     "20": {
       "mountStats": {
-        "JUMP_HEIGHT": 12,
-        "ALTITUDE": 12,
-        "BOOST": 5
+        "jumpHeight": 12,
+        "altitude": 12,
+        "boost": 5
       }
     },
     "30": {
       "mountStats": {
-        "JUMP_HEIGHT": 14,
-        "ALTITUDE": 14,
-        "BOOST": 6
+        "jumpHeight": 14,
+        "altitude": 14,
+        "boost": 6
       }
     },
     "40": {
       "mountStats": {
-        "JUMP_HEIGHT": 16,
-        "ALTITUDE": 16,
-        "BOOST": 6
+        "jumpHeight": 16,
+        "altitude": 16,
+        "boost": 6
       }
     },
     "50": {
       "mountStats": {
-        "JUMP_HEIGHT": 18,
-        "ALTITUDE": 18,
-        "BOOST": 7
+        "jumpHeight": 18,
+        "altitude": 18,
+        "boost": 7
       }
     },
     "60": {
       "mountStats": {
-        "JUMP_HEIGHT": 20,
-        "ALTITUDE": 20,
-        "BOOST": 8
+        "jumpHeight": 20,
+        "altitude": 20,
+        "boost": 8
       }
     },
     "70": {
       "mountStats": {
-        "JUMP_HEIGHT": 22,
-        "ALTITUDE": 22,
-        "BOOST": 8
+        "jumpHeight": 22,
+        "altitude": 22,
+        "boost": 8
       }
     },
     "80": {
       "mountStats": {
-        "JUMP_HEIGHT": 24,
-        "ALTITUDE": 24,
-        "BOOST": 9
+        "jumpHeight": 24,
+        "altitude": 24,
+        "boost": 9
       }
     },
     "90": {
       "mountStats": {
-        "JUMP_HEIGHT": 26,
-        "ALTITUDE": 26,
-        "BOOST": 9
+        "jumpHeight": 26,
+        "altitude": 26,
+        "boost": 9
       }
     },
     "100": {
       "mountStats": {
-        "JUMP_HEIGHT": 28,
-        "ALTITUDE": 28,
-        "BOOST": 10
+        "jumpHeight": 28,
+        "altitude": 28,
+        "boost": 10
       }
     },
     "105": {
       "mountStats": {
-        "JUMP_HEIGHT": 29,
-        "ALTITUDE": 29,
-        "BOOST": 10
+        "jumpHeight": 29,
+        "altitude": 29,
+        "boost": 10
       }
     },
     "110": {
       "mountStats": {
-        "JUMP_HEIGHT": 30,
-        "ALTITUDE": 30,
-        "BOOST": 11
+        "jumpHeight": 30,
+        "altitude": 30,
+        "boost": 11
       }
     },
     "115": {
       "mountStats": {
-        "JUMP_HEIGHT": 31,
-        "ALTITUDE": 31,
-        "BOOST": 11
+        "jumpHeight": 31,
+        "altitude": 31,
+        "boost": 11
       }
     }
   },
-  "STRING": {
+  "string": {
     "1": {
       "mountStats": {
-        "ACCELERATION": 2,
-        "HANDLING": 4,
-        "BOOST": 6
+        "acceleration": 2,
+        "handling": 4,
+        "boost": 6
       }
     },
     "10": {
       "mountStats": {
-        "ACCELERATION": 2,
-        "HANDLING": 5,
-        "BOOST": 8
+        "acceleration": 2,
+        "handling": 5,
+        "boost": 8
       }
     },
     "20": {
       "mountStats": {
-        "ACCELERATION": 3,
-        "HANDLING": 6,
-        "BOOST": 9
+        "acceleration": 3,
+        "handling": 6,
+        "boost": 9
       }
     },
     "30": {
       "mountStats": {
-        "ACCELERATION": 3,
-        "HANDLING": 6,
-        "BOOST": 11
+        "acceleration": 3,
+        "handling": 6,
+        "boost": 11
       }
     },
     "40": {
       "mountStats": {
-        "ACCELERATION": 3,
-        "HANDLING": 7,
-        "BOOST": 12
+        "acceleration": 3,
+        "handling": 7,
+        "boost": 12
       }
     },
     "50": {
       "mountStats": {
-        "ACCELERATION": 4,
-        "HANDLING": 8,
-        "BOOST": 14
+        "acceleration": 4,
+        "handling": 8,
+        "boost": 14
       }
     },
     "60": {
       "mountStats": {
-        "ACCELERATION": 4,
-        "HANDLING": 9,
-        "BOOST": 15
+        "acceleration": 4,
+        "handling": 9,
+        "boost": 15
       }
     },
     "70": {
       "mountStats": {
-        "ACCELERATION": 4,
-        "HANDLING": 10,
-        "BOOST": 17
+        "acceleration": 4,
+        "handling": 10,
+        "boost": 17
       }
     },
     "80": {
       "mountStats": {
-        "ACCELERATION": 4,
-        "HANDLING": 10,
-        "BOOST": 18
+        "acceleration": 4,
+        "handling": 10,
+        "boost": 18
       }
     },
     "90": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "HANDLING": 11,
-        "BOOST": 20
+        "acceleration": 5,
+        "handling": 11,
+        "boost": 20
       }
     },
     "100": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "HANDLING": 12,
-        "BOOST": 21
+        "acceleration": 5,
+        "handling": 12,
+        "boost": 21
       }
     },
     "105": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "HANDLING": 12,
-        "BOOST": 22
+        "acceleration": 5,
+        "handling": 12,
+        "boost": 22
       }
     },
     "110": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "HANDLING": 13,
-        "BOOST": 23
+        "acceleration": 5,
+        "handling": 13,
+        "boost": 23
       }
     },
     "115": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "HANDLING": 13,
-        "BOOST": 23
+        "acceleration": 5,
+        "handling": 13,
+        "boost": 23
       }
     }
   },
-  "GRAINS": {
+  "grains": {
     "1": {
       "mountStats": {
-        "SPEED": 8,
-        "JUMP_HEIGHT": 4,
-        "ALTITUDE": 4
+        "speed": 8,
+        "jumpHeight": 4,
+        "altitude": 4
       }
     },
     "10": {
       "mountStats": {
-        "SPEED": 10,
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5
+        "speed": 10,
+        "jumpHeight": 5,
+        "altitude": 5
       }
     },
     "20": {
       "mountStats": {
-        "SPEED": 12,
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5
+        "speed": 12,
+        "jumpHeight": 5,
+        "altitude": 5
       }
     },
     "30": {
       "mountStats": {
-        "SPEED": 14,
-        "JUMP_HEIGHT": 6,
-        "ALTITUDE": 6
+        "speed": 14,
+        "jumpHeight": 6,
+        "altitude": 6
       }
     },
     "40": {
       "mountStats": {
-        "SPEED": 16,
-        "JUMP_HEIGHT": 6,
-        "ALTITUDE": 6
+        "speed": 16,
+        "jumpHeight": 6,
+        "altitude": 6
       }
     },
     "50": {
       "mountStats": {
-        "SPEED": 18,
-        "JUMP_HEIGHT": 7,
-        "ALTITUDE": 7
+        "speed": 18,
+        "jumpHeight": 7,
+        "altitude": 7
       }
     },
     "60": {
       "mountStats": {
-        "SPEED": 20,
-        "JUMP_HEIGHT": 8,
-        "ALTITUDE": 8
+        "speed": 20,
+        "jumpHeight": 8,
+        "altitude": 8
       }
     },
     "70": {
       "mountStats": {
-        "SPEED": 22,
-        "JUMP_HEIGHT": 8,
-        "ALTITUDE": 8
+        "speed": 22,
+        "jumpHeight": 8,
+        "altitude": 8
       }
     },
     "80": {
       "mountStats": {
-        "SPEED": 24,
-        "JUMP_HEIGHT": 9,
-        "ALTITUDE": 9
+        "speed": 24,
+        "jumpHeight": 9,
+        "altitude": 9
       }
     },
     "90": {
       "mountStats": {
-        "SPEED": 26,
-        "JUMP_HEIGHT": 9,
-        "ALTITUDE": 9
+        "speed": 26,
+        "jumpHeight": 9,
+        "altitude": 9
       }
     },
     "100": {
       "mountStats": {
-        "SPEED": 28,
-        "JUMP_HEIGHT": 10,
-        "ALTITUDE": 10
+        "speed": 28,
+        "jumpHeight": 10,
+        "altitude": 10
       }
     },
     "105": {
       "mountStats": {
-        "SPEED": 29,
-        "JUMP_HEIGHT": 10,
-        "ALTITUDE": 10
+        "speed": 29,
+        "jumpHeight": 10,
+        "altitude": 10
       }
     },
     "110": {
       "mountStats": {
-        "SPEED": 30,
-        "JUMP_HEIGHT": 11,
-        "ALTITUDE": 11
+        "speed": 30,
+        "jumpHeight": 11,
+        "altitude": 11
       }
     },
     "115": {
       "mountStats": {
-        "SPEED": 31,
-        "JUMP_HEIGHT": 11,
-        "ALTITUDE": 11
+        "speed": 31,
+        "jumpHeight": 11,
+        "altitude": 11
       }
     }
   },
-  "OIL": {
+  "oil": {
     "1": {
       "mountStats": {
-        "JUMP_HEIGHT": 2,
-        "ALTITUDE": 2,
-        "HANDLING": 6,
-        "TRAINING": 4
+        "jumpHeight": 2,
+        "altitude": 2,
+        "handling": 6,
+        "training": 4
       }
     },
     "10": {
       "mountStats": {
-        "JUMP_HEIGHT": 2,
-        "ALTITUDE": 2,
-        "HANDLING": 8,
-        "TRAINING": 5
+        "jumpHeight": 2,
+        "altitude": 2,
+        "handling": 8,
+        "training": 5
       }
     },
     "20": {
       "mountStats": {
-        "JUMP_HEIGHT": 3,
-        "ALTITUDE": 3,
-        "HANDLING": 9,
-        "TRAINING": 6
+        "jumpHeight": 3,
+        "altitude": 3,
+        "handling": 9,
+        "training": 6
       }
     },
     "30": {
       "mountStats": {
-        "JUMP_HEIGHT": 3,
-        "ALTITUDE": 3,
-        "HANDLING": 11,
-        "TRAINING": 6
+        "jumpHeight": 3,
+        "altitude": 3,
+        "handling": 11,
+        "training": 6
       }
     },
     "40": {
       "mountStats": {
-        "JUMP_HEIGHT": 3,
-        "ALTITUDE": 3,
-        "HANDLING": 12,
-        "TRAINING": 7
+        "jumpHeight": 3,
+        "altitude": 3,
+        "handling": 12,
+        "training": 7
       }
     },
     "50": {
       "mountStats": {
-        "JUMP_HEIGHT": 4,
-        "ALTITUDE": 4,
-        "HANDLING": 14,
-        "TRAINING": 8
+        "jumpHeight": 4,
+        "altitude": 4,
+        "handling": 14,
+        "training": 8
       }
     },
     "60": {
       "mountStats": {
-        "JUMP_HEIGHT": 4,
-        "ALTITUDE": 4,
-        "HANDLING": 15,
-        "TRAINING": 9
+        "jumpHeight": 4,
+        "altitude": 4,
+        "handling": 15,
+        "training": 9
       }
     },
     "70": {
       "mountStats": {
-        "JUMP_HEIGHT": 4,
-        "ALTITUDE": 4,
-        "HANDLING": 17,
-        "TRAINING": 10
+        "jumpHeight": 4,
+        "altitude": 4,
+        "handling": 17,
+        "training": 10
       }
     },
     "80": {
       "mountStats": {
-        "JUMP_HEIGHT": 4,
-        "ALTITUDE": 4,
-        "HANDLING": 18,
-        "TRAINING": 10
+        "jumpHeight": 4,
+        "altitude": 4,
+        "handling": 18,
+        "training": 10
       }
     },
     "90": {
       "mountStats": {
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5,
-        "HANDLING": 20,
-        "TRAINING": 11
+        "jumpHeight": 5,
+        "altitude": 5,
+        "handling": 20,
+        "training": 11
       }
     },
     "100": {
       "mountStats": {
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5,
-        "HANDLING": 21,
-        "TRAINING": 12
+        "jumpHeight": 5,
+        "altitude": 5,
+        "handling": 21,
+        "training": 12
       }
     },
     "105": {
       "mountStats": {
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5,
-        "HANDLING": 22,
-        "TRAINING": 12
+        "jumpHeight": 5,
+        "altitude": 5,
+        "handling": 22,
+        "training": 12
       }
     },
     "110": {
       "mountStats": {
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5,
-        "HANDLING": 23,
-        "TRAINING": 13
+        "jumpHeight": 5,
+        "altitude": 5,
+        "handling": 23,
+        "training": 13
       }
     },
     "115": {
       "mountStats": {
-        "JUMP_HEIGHT": 5,
-        "ALTITUDE": 5,
-        "HANDLING": 23,
-        "TRAINING": 13
+        "jumpHeight": 5,
+        "altitude": 5,
+        "handling": 23,
+        "training": 13
       }
     }
   },
-  "MEAT": {
+  "meat": {
     "1": {
       "mountStats": {
-        "ACCELERATION": 4,
-        "ENERGY": 8
+        "acceleration": 4,
+        "energy": 8
       }
     },
     "10": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "ENERGY": 10
+        "acceleration": 5,
+        "energy": 10
       }
     },
     "20": {
       "mountStats": {
-        "ACCELERATION": 5,
-        "ENERGY": 12
+        "acceleration": 5,
+        "energy": 12
       }
     },
     "30": {
       "mountStats": {
-        "ACCELERATION": 6,
-        "ENERGY": 14
+        "acceleration": 6,
+        "energy": 14
       }
     },
     "40": {
       "mountStats": {
-        "ACCELERATION": 6,
-        "ENERGY": 16
+        "acceleration": 6,
+        "energy": 16
       }
     },
     "50": {
       "mountStats": {
-        "ACCELERATION": 7,
-        "ENERGY": 18
+        "acceleration": 7,
+        "energy": 18
       }
     },
     "60": {
       "mountStats": {
-        "ACCELERATION": 8,
-        "ENERGY": 20
+        "acceleration": 8,
+        "energy": 20
       }
     },
     "70": {
       "mountStats": {
-        "ACCELERATION": 8,
-        "ENERGY": 22
+        "acceleration": 8,
+        "energy": 22
       }
     },
     "80": {
       "mountStats": {
-        "ACCELERATION": 9,
-        "ENERGY": 24
+        "acceleration": 9,
+        "energy": 24
       }
     },
     "90": {
       "mountStats": {
-        "ACCELERATION": 9,
-        "ENERGY": 26
+        "acceleration": 9,
+        "energy": 26
       }
     },
     "100": {
       "mountStats": {
-        "ACCELERATION": 10,
-        "ENERGY": 28
+        "acceleration": 10,
+        "energy": 28
       }
     },
     "105": {
       "mountStats": {
-        "ACCELERATION": 10,
-        "ENERGY": 29
+        "acceleration": 10,
+        "energy": 29
       }
     },
     "110": {
       "mountStats": {
-        "ACCELERATION": 11,
-        "ENERGY": 30
+        "acceleration": 11,
+        "energy": 30
       }
     },
     "115": {
       "mountStats": {
-        "ACCELERATION": 11,
-        "ENERGY": 31
+        "acceleration": 11,
+        "energy": 31
       }
     }
   }
