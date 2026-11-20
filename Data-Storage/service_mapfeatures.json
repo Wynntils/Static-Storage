@@ -6735,13 +6735,22 @@
     "featureId": "potion-merchant-37",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
+      "x": 786,
+      "y": 71,
+      "z": -1610
+    }
+  },
+  {
+    "featureId": "potion-merchant-38",
+    "categoryId": "wynntils:service:merchant:potion",
+    "location": {
       "x": 807,
       "y": 75,
       "z": -5108
     }
   },
   {
-    "featureId": "potion-merchant-38",
+    "featureId": "potion-merchant-39",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 862,
@@ -6750,7 +6759,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-39",
+    "featureId": "potion-merchant-40",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 922,
@@ -6759,7 +6768,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-40",
+    "featureId": "potion-merchant-41",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 923,
@@ -6768,7 +6777,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-41",
+    "featureId": "potion-merchant-42",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 992,
@@ -6777,7 +6786,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-42",
+    "featureId": "potion-merchant-43",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1014,
@@ -6786,7 +6795,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-43",
+    "featureId": "potion-merchant-44",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1099,
@@ -6795,7 +6804,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-44",
+    "featureId": "potion-merchant-45",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1121,
@@ -6804,7 +6813,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-45",
+    "featureId": "potion-merchant-46",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1267,
@@ -6813,7 +6822,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-46",
+    "featureId": "potion-merchant-47",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1278,
@@ -6822,7 +6831,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-47",
+    "featureId": "potion-merchant-48",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1377,
@@ -6831,7 +6840,7 @@
     }
   },
   {
-    "featureId": "potion-merchant-48",
+    "featureId": "potion-merchant-49",
     "categoryId": "wynntils:service:merchant:potion",
     "location": {
       "x": 1413,
@@ -7392,18 +7401,18 @@
     "featureId": "scroll-merchant-26",
     "categoryId": "wynntils:service:merchant:scroll",
     "location": {
-      "x": 797,
-      "y": 75,
-      "z": -5110
+      "x": 793,
+      "y": 71,
+      "z": -1584
     }
   },
   {
     "featureId": "scroll-merchant-27",
     "categoryId": "wynntils:service:merchant:scroll",
     "location": {
-      "x": 852,
-      "y": 71,
-      "z": -1623
+      "x": 797,
+      "y": 75,
+      "z": -5110
     }
   },
   {

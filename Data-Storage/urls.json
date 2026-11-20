@@ -325,7 +325,7 @@
   },
   {
     "id": "dataStaticServiceMapFeatures",
-    "md5": "33a69fab4a86ca25bc88425e919a7519",
+    "md5": "5cca45c5ecac62ae06dc39e299eec077",
     "path": "Data-Storage/service_mapfeatures.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/service_mapfeatures.json"
   },
@@ -337,7 +337,7 @@
   },
   {
     "id": "dataStaticServicesCrowdsourced",
-    "md5": "b77e71fc7f8e816019f7c033c6810460",
+    "md5": "3206e067c3b71bc6b3e563e7575bcb3c",
     "path": "Data-Storage/services_crowdsourced.json",
     "url": "https://cdn.wynntils.com/static/Data-Storage/services_crowdsourced.json"
   },
