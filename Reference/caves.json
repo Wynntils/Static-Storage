@@ -1664,6 +1664,44 @@
   },
   {
     "type": "cave",
+    "name": "Interconnected Incomprehensibility",
+    "specialInfo": "§eCave Complex",
+    "description": "§7A desperate call from the void. They're distant. They're lonely. They want to be heard at §f[598, 93, -295]",
+    "length": "long",
+    "lengthInfo": "5m",
+    "difficulty": "hard",
+    "requirements": 100,
+    "rewards": [
+      "1000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 598,
+      "y": 93,
+      "z": -295
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Irtitack Infestation",
+    "specialInfo": "",
+    "description": "§7Strange noises can be heard underneath. Avoid getting your organs stolen in this long abandoned prison at §f[496, 89, -483]",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 100,
+    "rewards": [
+      "1000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 496,
+      "y": 89,
+      "z": -483
+    }
+  },
+  {
+    "type": "cave",
     "name": "Jade Well",
     "specialInfo": "",
     "description": "§7At §f[-799, 44, -608]§7 lies a temple well that goes deep into the jade laden ground",
@@ -3509,6 +3547,25 @@
   },
   {
     "type": "cave",
+    "name": "Tributary Waterfall",
+    "specialInfo": "",
+    "description": "§7Animated water beings have formed in an odd cave nearby §f[536, 31, -5363]",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 85,
+    "rewards": [
+      "230000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 536,
+      "y": 31,
+      "z": -5363
+    }
+  },
+  {
+    "type": "cave",
     "name": "Troll Burrows",
     "specialInfo": "",
     "description": "§7A large gathering of trolls are peacefully minding their business a bit too close to Thesead at §f[858, 81, -5198]",
@@ -3562,6 +3619,25 @@
       "x": -560,
       "y": 80,
       "z": -959
+    }
+  },
+  {
+    "type": "cave",
+    "name": "Uncovered Excavation",
+    "specialInfo": "",
+    "description": "§7Should it have remained hidden? Something has uncovered this archaic mining excavation at §f[669, 85, -606]",
+    "length": "medium",
+    "lengthInfo": "1m30s",
+    "difficulty": "medium",
+    "requirements": 100,
+    "rewards": [
+      "1000000 XP",
+      "Various Items"
+    ],
+    "location": {
+      "x": 669,
+      "y": 85,
+      "z": -606
     }
   },
   {
@@ -3657,25 +3733,6 @@
       "x": -2121,
       "y": 61,
       "z": -802
-    }
-  },
-  {
-    "type": "cave",
-    "name": "Watery Waterfall",
-    "specialInfo": "",
-    "description": "§7Animated water beings have formed in an odd cave nearby §f[536, 31, -5363]",
-    "length": "medium",
-    "lengthInfo": "1m30s",
-    "difficulty": "medium",
-    "requirements": 85,
-    "rewards": [
-      "230000 XP",
-      "Various Items"
-    ],
-    "location": {
-      "x": 536,
-      "y": 31,
-      "z": -5363
     }
   },
   {
