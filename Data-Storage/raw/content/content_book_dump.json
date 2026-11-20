@@ -106,11 +106,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to the Silent Expanse"
-        ],
         "emeralds": [
           "12288 Emeralds"
+        ],
+        "access": [
+          "Access to the Silent Expanse"
         ],
         "xp": [
           "6000000 XP"
@@ -134,12 +134,12 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "20480 Emeralds"
+        ],
         "access": [
           "Access to the Eldritch Outlook Dungeon",
           "Access to The Nameless Anomaly"
-        ],
-        "emeralds": [
-          "20480 Emeralds"
         ],
         "xp": [
           "7500000 XP"
@@ -163,14 +163,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "20480 Emeralds"
+        ],
         "item": [
           "15300000 XP Point"
         ],
         "access": [
           "Access to the Auburn Forest"
-        ],
-        "emeralds": [
-          "20480 Emeralds"
         ]
       },
       "location": null
@@ -189,11 +189,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Access through the gate to Thesead"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "item": [
+          "Access through the gate to Thesead"
         ],
         "xp": [
           "1375000 XP"
@@ -266,14 +266,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "768 Emeralds"
+        ],
         "item": [
           "1 Gavellian Passport"
         ],
         "access": [
           "Access to the Letvus Elevator"
-        ],
-        "emeralds": [
-          "768 Emeralds"
         ],
         "xp": [
           "300000 XP"
@@ -295,11 +295,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to Aldorei Valley Proper"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "access": [
+          "Access to Aldorei Valley Proper"
         ],
         "xp": [
           "512500 XP"
@@ -323,15 +323,15 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "10240 Emeralds"
+        ],
         "item": [
           "1 Kaerynn\u0027s Mind",
           "1 Kaerynn\u0027s Body"
         ],
         "access": [
           "Access to Juggler\u0027s fast travel to Aldorei Town"
-        ],
-        "emeralds": [
-          "10240 Emeralds"
         ],
         "xp": [
           "1200000 XP"
@@ -357,11 +357,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Upgraded Orc Mask"
-        ],
         "emeralds": [
           "3072 Emeralds"
+        ],
+        "item": [
+          "1 Upgraded Orc Mask"
         ],
         "xp": [
           "350000 XP"
@@ -383,11 +383,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Mechanical Reactor"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "item": [
+          "1 Mechanical Reactor"
         ],
         "xp": [
           "42000 XP"
@@ -437,15 +437,15 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "32768 Emeralds"
+        ],
         "item": [
           "4 Ek Runes",
           "1 Shattershard"
         ],
         "access": [
           "Access to the Wartorn Palace"
-        ],
-        "emeralds": [
-          "32768 Emeralds"
         ],
         "xp": [
           "45000000 XP"
@@ -519,11 +519,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Raging Wind"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "item": [
+          "Raging Wind"
         ],
         "xp": [
           "2100000 XP"
@@ -545,11 +545,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Hide of Poxper"
-        ],
         "emeralds": [
           "512 Emeralds"
+        ],
+        "item": [
+          "Hide of Poxper"
         ],
         "xp": [
           "38000 XP"
@@ -597,11 +597,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to the Saint\u0027s Row Graveyard"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "access": [
+          "Access to the Saint\u0027s Row Graveyard"
         ],
         "xp": [
           "3300 XP"
@@ -623,14 +623,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "21600 Emeralds"
+        ],
         "item": [
           "1 Medallion"
         ],
         "access": [
           "Access to Aldwell Sanctuary"
-        ],
-        "emeralds": [
-          "21600 Emeralds"
         ],
         "xp": [
           "24000000 XP"
@@ -652,11 +652,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to Rymek elevators"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "access": [
+          "Access to Rymek elevators"
         ],
         "xp": [
           "21000 XP"
@@ -747,12 +747,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "28 Emeralds"
+        ],
         "item": [
           "1 Waist Apron",
           "Ability to use First Steps"
-        ],
-        "emeralds": [
-          "28 Emeralds"
         ],
         "xp": [
           "250 XP"
@@ -774,12 +774,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "1024 Emeralds"
+        ],
         "item": [
           "1 Undergrowth Ruins Key",
           "1 Slykaar\u0027s Heart"
-        ],
-        "emeralds": [
-          "1024 Emeralds"
         ],
         "xp": [
           "87725 XP"
@@ -849,11 +849,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "5 Oat Strings and Grains"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "item": [
+          "5 Oat Strings and Grains"
         ],
         "xp": [
           "57500 XP"
@@ -924,11 +924,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Familiar Essence"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "item": [
+          "1 Familiar Essence"
         ],
         "xp": [
           "5500 XP"
@@ -950,11 +950,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Mech Core"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "item": [
+          "1 Mech Core"
         ],
         "xp": [
           "1580000 XP"
@@ -1061,11 +1061,11 @@
         ]
       },
       "rewards": {
-        "access": [
-          "Access to the Ingredient shop in Maex"
-        ],
         "emeralds": [
           "20480 Emeralds"
+        ],
+        "access": [
+          "Access to the Ingredient shop in Maex"
         ],
         "xp": [
           "6000000 XP"
@@ -1112,11 +1112,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Mutiny"
-        ],
         "emeralds": [
           "28672 Emeralds"
+        ],
+        "item": [
+          "1 Mutiny"
         ],
         "xp": [
           "25000000 XP"
@@ -1140,11 +1140,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "Ragon\u0027s Bracelet"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "item": [
+          "Ragon\u0027s Bracelet"
         ],
         "xp": [
           "1250 XP"
@@ -1168,14 +1168,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "16384 Emeralds"
+        ],
         "item": [
           "1 Dimachaerus"
         ],
         "access": [
           "Access to Aelumia Citadel"
-        ],
-        "emeralds": [
-          "16384 Emeralds"
         ],
         "xp": [
           "41000000 XP"
@@ -1243,11 +1243,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to Gawrick\u0027s Experimental Scrolls"
-        ],
         "emeralds": [
           "6144 Emeralds"
+        ],
+        "access": [
+          "Access to Gawrick\u0027s Experimental Scrolls"
         ],
         "xp": [
           "1300000 XP"
@@ -1269,11 +1269,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Pendant of Prosperity"
-        ],
         "emeralds": [
           "6144 Emeralds"
+        ],
+        "item": [
+          "1 Pendant of Prosperity"
         ],
         "xp": [
           "3100000 XP"
@@ -1376,11 +1376,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Various Ingredients"
-        ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "item": [
+          "Various Ingredients"
         ],
         "xp": [
           "740000 XP"
@@ -1402,12 +1402,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "4096 Emeralds"
+        ],
         "item": [
           "40 Platinum Ingot",
           "1 Troll Hair"
-        ],
-        "emeralds": [
-          "4096 Emeralds"
         ],
         "xp": [
           "750000 XP"
@@ -1452,11 +1452,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Glaciate"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "item": [
+          "1 Glaciate"
         ],
         "xp": [
           "61000 XP"
@@ -1524,11 +1524,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to the Glassblowing Merchant"
-        ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "access": [
+          "Access to the Glassblowing Merchant"
         ],
         "xp": [
           "9500 XP"
@@ -1573,11 +1573,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Generator Amulet"
-        ],
         "emeralds": [
           "224 Emeralds"
+        ],
+        "item": [
+          "1 Generator Amulet"
         ],
         "xp": [
           "24500 XP"
@@ -1599,11 +1599,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 The Siren\u0027s Call"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "item": [
+          "1 The Siren\u0027s Call"
         ],
         "xp": [
           "735000 XP"
@@ -1670,14 +1670,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "256 Emeralds"
+        ],
         "item": [
           "1 Climbing Helmet"
         ],
         "access": [
           "Access to the Dujgon Blacksmith"
-        ],
-        "emeralds": [
-          "256 Emeralds"
         ],
         "xp": [
           "25000 XP"
@@ -1699,11 +1699,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Ability to use Waist Apron"
-        ],
         "emeralds": [
           "32 Emeralds"
+        ],
+        "item": [
+          "Ability to use Waist Apron"
         ],
         "xp": [
           "270 XP"
@@ -1725,11 +1725,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Undergrowth Ruins Key"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "item": [
+          "1 Undergrowth Ruins Key"
         ],
         "xp": [
           "86250 XP"
@@ -1751,14 +1751,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "6 Emeralds"
+        ],
         "item": [
           "1 Ragni Teleportation Scroll"
         ],
         "access": [
           "Access to the Province of Wynn"
-        ],
-        "emeralds": [
-          "6 Emeralds"
         ],
         "xp": [
           "35 XP"
@@ -1780,12 +1780,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "192 Emeralds"
+        ],
         "item": [
           "1 Sand-Swept Tomb Dungeon Key",
           "1 Hashr\u0027s Crown"
-        ],
-        "emeralds": [
-          "192 Emeralds"
         ],
         "xp": [
           "10000 XP"
@@ -1807,11 +1807,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to Bremminglar\u0027s Healer Shop"
-        ],
         "emeralds": [
           "192 Emeralds"
+        ],
+        "access": [
+          "Access to Bremminglar\u0027s Healer Shop"
         ],
         "xp": [
           "4000 XP"
@@ -1833,11 +1833,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Lazarus Brace"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "item": [
+          "1 Lazarus Brace"
         ],
         "xp": [
           "500000 XP"
@@ -1859,11 +1859,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to the Lexdale Accessory Merchant"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "access": [
+          "Access to the Lexdale Accessory Merchant"
         ],
         "xp": [
           "650000 XP"
@@ -1910,11 +1910,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "Sodeta Boots"
-        ],
         "emeralds": [
           "1152 Emeralds"
+        ],
+        "item": [
+          "Sodeta Boots"
         ],
         "xp": [
           "352000 XP"
@@ -2051,11 +2051,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Ring of Generosity"
-        ],
         "emeralds": [
           "1536 Emeralds"
+        ],
+        "item": [
+          "Ring of Generosity"
         ],
         "xp": [
           "375000 XP"
@@ -2077,12 +2077,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "Various Emeralds"
+        ],
         "item": [
           "Passes to Selchar from the Seaskipper are now free",
           "Various Ingredients"
-        ],
-        "emeralds": [
-          "Various Emeralds"
         ],
         "xp": [
           "8500 XP"
@@ -2127,11 +2127,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Detective\u0027s Ring"
-        ],
         "emeralds": [
           "3072 Emeralds"
+        ],
+        "item": [
+          "1 Detective\u0027s Ring"
         ],
         "xp": [
           "350000 XP"
@@ -2178,11 +2178,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to the Fruman Underground"
-        ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "access": [
+          "Access to the Fruman Underground"
         ],
         "xp": [
           "12390000 XP"
@@ -2204,14 +2204,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "8192 Emeralds"
+        ],
         "item": [
           "1 Ominous Wind"
         ],
         "access": [
           "Access to the Void"
-        ],
-        "emeralds": [
-          "8192 Emeralds"
         ],
         "xp": [
           "5500000 XP"
@@ -2233,11 +2233,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Troms Kid Badge"
-        ],
         "emeralds": [
           "1024 Emeralds"
+        ],
+        "item": [
+          "Troms Kid Badge"
         ],
         "xp": [
           "300000 XP"
@@ -2261,11 +2261,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Concord Protocol"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "item": [
+          "1 Concord Protocol"
         ],
         "xp": [
           "35000000 XP"
@@ -2430,14 +2430,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "4096 Emeralds"
+        ],
         "item": [
           "Apron"
         ],
         "access": [
           "Access to Juggler\u0027s fast travel to Ahmsord"
-        ],
-        "emeralds": [
-          "4096 Emeralds"
         ],
         "xp": [
           "4200000 XP"
@@ -2482,12 +2482,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "1024 Emeralds"
+        ],
         "item": [
           "6 Ability Shards",
           "1 Shattered Memory Shard"
-        ],
-        "emeralds": [
-          "1024 Emeralds"
         ],
         "xp": [
           "7000 XP"
@@ -2562,14 +2562,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "24576 Emeralds"
+        ],
         "item": [
           "1 Sureshot"
         ],
         "access": [
           "Access to the Roughworks"
-        ],
-        "emeralds": [
-          "24576 Emeralds"
         ],
         "xp": [
           "17000000 XP"
@@ -2591,14 +2591,14 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "1408 Emeralds"
+        ],
         "item": [
           "1 Quartron\u0027s Eye"
         ],
         "access": [
           "Access to Karoc Mine Annex"
-        ],
-        "emeralds": [
-          "1408 Emeralds"
         ],
         "xp": [
           "75000 XP"
@@ -2620,11 +2620,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 The Queen\u0027s Headpiece"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "item": [
+          "1 The Queen\u0027s Headpiece"
         ],
         "xp": [
           "7270000 XP"
@@ -2646,11 +2646,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "A gift from Likeru"
-        ],
         "emeralds": [
           "2560 Emeralds"
+        ],
+        "item": [
+          "A gift from Likeru"
         ],
         "xp": [
           "300000 XP"
@@ -2674,14 +2674,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "16384 Emeralds"
+        ],
         "item": [
           "1 Creed Catalyst"
         ],
         "access": [
           "Access to the Canopy"
-        ],
-        "emeralds": [
-          "16384 Emeralds"
         ],
         "xp": [
           "30000000 XP"
@@ -2705,14 +2705,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "8192 Emeralds"
+        ],
         "item": [
           "1 Amplifier"
         ],
         "access": [
           "Access to The Steel Feather Fast Travel"
-        ],
-        "emeralds": [
-          "8192 Emeralds"
         ],
         "xp": [
           "18000000 XP"
@@ -2785,11 +2785,11 @@
         ]
       },
       "rewards": {
-        "access": [
-          "Access to the Alekin Village fast travel"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "access": [
+          "Access to the Alekin Village fast travel"
         ],
         "xp": [
           "2000 XP"
@@ -2838,11 +2838,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Photon"
-        ],
         "emeralds": [
           "1600 Emeralds"
+        ],
+        "item": [
+          "1 Photon"
         ],
         "xp": [
           "275000 XP"
@@ -2917,12 +2917,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "1920 Emeralds"
+        ],
         "item": [
           "Gnome\u0027s Ring",
           "Giant\u0027s Ring"
-        ],
-        "emeralds": [
-          "1920 Emeralds"
         ],
         "xp": [
           "500000 XP"
@@ -2948,15 +2948,15 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "12288 Emeralds"
+        ],
         "item": [
           "4 Tol Runes",
           "1 Ancient Dogun Crystal"
         ],
         "access": [
           "Access to The Canyon Colossus"
-        ],
-        "emeralds": [
-          "12288 Emeralds"
         ],
         "xp": [
           "4500000 XP"
@@ -3001,11 +3001,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to Bantisu Quarters"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "access": [
+          "Access to Bantisu Quarters"
         ],
         "xp": [
           "1450000 XP"
@@ -3052,11 +3052,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Diverted Loyalty"
-        ],
         "emeralds": [
           "8192 Emeralds"
+        ],
+        "item": [
+          "1 Diverted Loyalty"
         ],
         "xp": [
           "13500000 XP"
@@ -3103,11 +3103,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Maxie\u0027s House Key"
-        ],
         "emeralds": [
           "9152 Emeralds"
+        ],
+        "item": [
+          "1 Maxie\u0027s House Key"
         ],
         "xp": [
           "1750000 XP"
@@ -3187,6 +3187,9 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "12228 Emeralds"
+        ],
         "item": [
           "16 Bipedal Springs",
           "8 Speed Surges",
@@ -3194,9 +3197,6 @@
         ],
         "access": [
           "Access to the Workshop"
-        ],
-        "emeralds": [
-          "12228 Emeralds"
         ],
         "xp": [
           "3300000 XP"
@@ -3241,12 +3241,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "4096 Emeralds"
+        ],
         "access": [
           "Access to fast travel between Thesead and Eltom",
           "Access to Juggler\u0027s fast travel to Thesead"
-        ],
-        "emeralds": [
-          "4096 Emeralds"
         ],
         "xp": [
           "2700000 XP"
@@ -3291,11 +3291,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Canyon Chart"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "item": [
+          "1 Canyon Chart"
         ],
         "xp": [
           "1575000 XP"
@@ -3340,11 +3340,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Vindicator"
-        ],
         "emeralds": [
           "384 Emeralds"
+        ],
+        "item": [
+          "Vindicator"
         ],
         "xp": [
           "11000 XP"
@@ -3411,11 +3411,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to magic tunnel fast-travel"
-        ],
         "emeralds": [
           "Various Emeralds"
+        ],
+        "access": [
+          "Access to magic tunnel fast-travel"
         ],
         "xp": [
           "242500 XP"
@@ -3437,11 +3437,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to The Passage"
-        ],
         "emeralds": [
           "256 Emeralds"
+        ],
+        "access": [
+          "Access to The Passage"
         ],
         "xp": [
           "140000 XP"
@@ -3465,11 +3465,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Espionage"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "item": [
+          "1 Espionage"
         ],
         "xp": [
           "19000000 XP"
@@ -3591,8 +3591,8 @@
         "level": 54,
         "professionLevels": {
           "fishing": 20,
-          "mining": 20,
-          "woodcutting": 20
+          "woodcutting": 20,
+          "mining": 20
         },
         "quests": []
       },
@@ -3623,11 +3623,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Honoured Commander\u0027s Medal"
-        ],
         "emeralds": [
           "34816 Emeralds"
+        ],
+        "item": [
+          "1 Honoured Commander\u0027s Medal"
         ],
         "xp": [
           "34200000 XP"
@@ -3649,11 +3649,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Dragon Hide Plate"
-        ],
         "emeralds": [
           "4096 Emeralds"
+        ],
+        "item": [
+          "1 Dragon Hide Plate"
         ],
         "xp": [
           "800000 XP"
@@ -3700,6 +3700,9 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "768 Emeralds"
+        ],
         "item": [
           "6 Az Runes"
         ],
@@ -3707,9 +3710,6 @@
           "Access to the Nest of the Grootslangs",
           "Access to Mastery Tomes",
           "Access to the Resource Tunnels"
-        ],
-        "emeralds": [
-          "768 Emeralds"
         ],
         "xp": [
           "100000 XP"
@@ -3757,11 +3757,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Champion Armour Set"
-        ],
         "emeralds": [
           "32768 Emeralds"
+        ],
+        "item": [
+          "1 Champion Armour Set"
         ],
         "xp": [
           "925000 XP"
@@ -3806,11 +3806,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to the Dernel Tribe shop"
-        ],
         "emeralds": [
           "2048 Emeralds"
+        ],
+        "access": [
+          "Access to the Dernel Tribe shop"
         ],
         "xp": [
           "500000 XP"
@@ -3834,11 +3834,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Conviction"
-        ],
         "emeralds": [
           "28672 Emeralds"
+        ],
+        "item": [
+          "1 Conviction"
         ],
         "xp": [
           "35000000 XP"
@@ -3860,11 +3860,11 @@
         "quests": []
       },
       "rewards": {
-        "access": [
-          "Access to fast travel between Ragni and Detlas"
-        ],
         "emeralds": [
           "55 Emeralds"
+        ],
+        "access": [
+          "Access to fast travel between Ragni and Detlas"
         ],
         "xp": [
           "300 XP"
@@ -3888,11 +3888,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "Calamaro\u0027s Token/+Gernald\u0027s Amulet"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "item": [
+          "Calamaro\u0027s Token/+Gernald\u0027s Amulet"
         ],
         "xp": [
           "34000 XP"
@@ -3939,13 +3939,13 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "32 Emeralds"
+        ],
         "item": [
           "1 Breathing Helmet I",
           "1 Treasure Boots",
           "1 Gathering Rod T1"
-        ],
-        "emeralds": [
-          "32 Emeralds"
         ],
         "xp": [
           "550 XP",
@@ -3968,11 +3968,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 Mummy\u0027s Rag"
-        ],
         "emeralds": [
           "128 Emeralds"
+        ],
+        "item": [
+          "1 Mummy\u0027s Rag"
         ],
         "xp": [
           "16600 XP"
@@ -4019,11 +4019,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Purple Crystal Shard"
-        ],
         "emeralds": [
           "1536 Emeralds"
+        ],
+        "item": [
+          "1 Purple Crystal Shard"
         ],
         "xp": [
           "50000 XP"
@@ -4072,11 +4072,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 Royal Token of Gratitude"
-        ],
         "emeralds": [
           "16384 Emeralds"
+        ],
+        "item": [
+          "1 Royal Token of Gratitude"
         ],
         "xp": [
           "600000 XP"
@@ -4113,6 +4113,30 @@
     }
   ],
   "miniQuest": [
+    {
+      "type": "miniQuest",
+      "name": "A Sticky Situation",
+      "specialInfo": "",
+      "description": "§7Speak to Barnabas at §f[-1689, 140, -746]§7, or find Mowa in the Royal University",
+      "length": "short",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 118,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "xp": [
+          "8625000 XP"
+        ]
+      },
+      "location": {
+        "x": -1689,
+        "y": 140,
+        "z": -746
+      }
+    },
     {
       "type": "miniQuest",
       "name": "Collect Liff Leaves",
@@ -7388,7 +7412,7 @@
           "Galleon\u0027s Graveyard Key"
         ],
         "xp": [
-          "32000 XP"
+          "100000 XP"
         ]
       },
       "location": null
@@ -7442,7 +7466,7 @@
           "Infested Pit Key"
         ],
         "xp": [
-          "250 XP"
+          "600 XP"
         ]
       },
       "location": null
@@ -7608,7 +7632,36 @@
           "Ek Rune"
         ],
         "xp": [
-          "900000 XP"
+          "2800000 XP"
+        ]
+      },
+      "location": null
+    },
+    {
+      "type": "worldEvent",
+      "name": "Autumn Poachers",
+      "specialInfo": "§bAuburn Forest",
+      "description": "§7Though most people in the Auburn Forest hold a respect for the nature around them, there are some that have no such reverence.",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 105,
+        "professionLevels": {},
+        "quests": [
+          "§fA Journey Home"
+        ]
+      },
+      "rewards": {
+        "item": [
+          "Various Items and Ingredients",
+          "Exclusive Items",
+          "Exclusive Ingredients",
+          "Tol Rune",
+          "Ek Rune"
+        ],
+        "xp": [
+          "2800000 XP"
         ]
       },
       "location": null
@@ -7637,7 +7690,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "3800000 XP"
+          "1250000 XP"
         ]
       },
       "location": null
@@ -7913,7 +7966,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "330000 XP"
+          "1000000 XP"
         ]
       },
       "location": null
@@ -7997,7 +8050,7 @@
           "Undergrowth Ruins Key"
         ],
         "xp": [
-          "7500 XP"
+          "23000 XP"
         ]
       },
       "location": null
@@ -8105,7 +8158,7 @@
           "Galleon\u0027s Graveyard Key"
         ],
         "xp": [
-          "150000 XP"
+          "50000 XP"
         ]
       },
       "location": null
@@ -8132,7 +8185,7 @@
           "Underworld Crypt Key"
         ],
         "xp": [
-          "400 XP"
+          "1000 XP"
         ]
       },
       "location": null
@@ -8158,7 +8211,7 @@
           "Ice Barrows Key"
         ],
         "xp": [
-          "4500 XP"
+          "1500 XP"
         ]
       },
       "location": null
@@ -8189,7 +8242,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "230000 XP"
+          "700000 XP"
         ]
       },
       "location": null
@@ -8218,7 +8271,7 @@
           "Ice Barrows Key"
         ],
         "xp": [
-          "3500 XP"
+          "11000 XP"
         ]
       },
       "location": null
@@ -8302,7 +8355,7 @@
           "Infested Pit Key"
         ],
         "xp": [
-          "300 XP"
+          "150 XP"
         ]
       },
       "location": null
@@ -8357,7 +8410,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "600000 XP"
+          "1800000 XP"
         ]
       },
       "location": null
@@ -8467,7 +8520,7 @@
           "Undergrowth Ruins Key"
         ],
         "xp": [
-          "15000 XP"
+          "5000 XP"
         ]
       },
       "location": null
@@ -8492,7 +8545,7 @@
           "Tol Rune"
         ],
         "xp": [
-          "1250000 XP"
+          "420000 XP"
         ]
       },
       "location": null
@@ -8578,7 +8631,7 @@
           "Sand-Swept Tomb Key"
         ],
         "xp": [
-          "1300 XP"
+          "450 XP"
         ]
       },
       "location": null
@@ -8663,7 +8716,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "8000000 XP"
+          "2500000 XP"
         ]
       },
       "location": null
@@ -8692,7 +8745,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "5500000 XP"
+          "2000000 XP"
         ]
       },
       "location": null
@@ -8719,7 +8772,7 @@
           "Nii Rune"
         ],
         "xp": [
-          "72000 XP"
+          "220000 XP"
         ]
       },
       "location": null
@@ -8806,7 +8859,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "550000 XP"
+          "200000 XP"
         ]
       },
       "location": null
@@ -8833,7 +8886,7 @@
           "Undergrowth Ruins Key"
         ],
         "xp": [
-          "23000 XP"
+          "7500 XP"
         ]
       },
       "location": null
@@ -9111,7 +9164,7 @@
           "Ek Rune"
         ],
         "xp": [
-          "1200000 XP"
+          "3500000 XP"
         ]
       },
       "location": null
@@ -9170,7 +9223,7 @@
           "Galleon\u0027s Graveyard Key"
         ],
         "xp": [
-          "15000 XP"
+          "45000 XP"
         ]
       },
       "location": null
@@ -9224,7 +9277,7 @@
           "Eldritch Outlook Key"
         ],
         "xp": [
-          "700000 XP"
+          "230000 XP"
         ]
       },
       "location": null
@@ -23796,12 +23849,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "64 Emeralds"
+        ],
         "item": [
           "1 §f󐀂§bSpiketop",
           "Various Items"
-        ],
-        "emeralds": [
-          "64 Emeralds"
         ],
         "xp": [
           "340 XP"
@@ -23854,11 +23907,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Various Items"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "item": [
+          "Various Items"
         ],
         "xp": [
           "170 XP"
@@ -24128,11 +24181,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Various Items"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "item": [
+          "Various Items"
         ],
         "xp": [
           "170 XP"
@@ -25064,12 +25117,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "192 Emeralds"
+        ],
         "item": [
           "1 §f󐀂§bHex-Master Anchor",
           "Various Items"
-        ],
-        "emeralds": [
-          "192 Emeralds"
         ],
         "xp": [
           "1500 XP"
@@ -25095,11 +25148,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "Various Items"
-        ],
         "emeralds": [
           "64 Emeralds"
+        ],
+        "item": [
+          "Various Items"
         ],
         "xp": [
           "150 XP"
@@ -25165,6 +25218,60 @@
         "x": -118,
         "y": 71,
         "z": -923
+      }
+    },
+    {
+      "type": "cave",
+      "name": "Interconnected Incomprehensibility",
+      "specialInfo": "§eCave Complex",
+      "description": "§7A desperate call from the void. They\u0027re distant. They\u0027re lonely. They want to be heard at §f[598, 93, -295]",
+      "length": "long",
+      "lengthInfo": "5m",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 100,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items"
+        ],
+        "xp": [
+          "1000000 XP"
+        ]
+      },
+      "location": {
+        "x": 598,
+        "y": 93,
+        "z": -295
+      }
+    },
+    {
+      "type": "cave",
+      "name": "Irtitack Infestation",
+      "specialInfo": "",
+      "description": "§7Strange noises can be heard underneath. Avoid getting your organs stolen in this long abandoned prison at §f[496, 89, -483]",
+      "length": "medium",
+      "lengthInfo": "1m30s",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 100,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items"
+        ],
+        "xp": [
+          "1000000 XP"
+        ]
+      },
+      "location": {
+        "x": 496,
+        "y": 89,
+        "z": -483
       }
     },
     {
@@ -26060,12 +26167,12 @@
         "quests": []
       },
       "rewards": {
+        "emeralds": [
+          "13 Emeralds"
+        ],
         "item": [
           "1 §f󐀂§eBlank",
           "Various Items"
-        ],
-        "emeralds": [
-          "13 Emeralds"
         ],
         "xp": [
           "40 XP"
@@ -27777,6 +27884,33 @@
     },
     {
       "type": "cave",
+      "name": "Tributary Waterfall",
+      "specialInfo": "",
+      "description": "§7Animated water beings have formed in an odd cave nearby §f[536, 31, -5363]",
+      "length": "medium",
+      "lengthInfo": "1m30s",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 85,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items"
+        ],
+        "xp": [
+          "230000 XP"
+        ]
+      },
+      "location": {
+        "x": 536,
+        "y": 31,
+        "z": -5363
+      }
+    },
+    {
+      "type": "cave",
       "name": "Troll Burrows",
       "specialInfo": "",
       "description": "§7A large gathering of trolls are peacefully minding their business a bit too close to Thesead at §f[858, 81, -5198]",
@@ -27854,6 +27988,33 @@
         "x": -560,
         "y": 80,
         "z": -959
+      }
+    },
+    {
+      "type": "cave",
+      "name": "Uncovered Excavation",
+      "specialInfo": "",
+      "description": "§7Should it have remained hidden? Something has uncovered this archaic mining excavation at §f[669, 85, -606]",
+      "length": "medium",
+      "lengthInfo": "1m30s",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 100,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "item": [
+          "Various Items"
+        ],
+        "xp": [
+          "1000000 XP"
+        ]
+      },
+      "location": {
+        "x": 669,
+        "y": 85,
+        "z": -606
       }
     },
     {
@@ -27989,33 +28150,6 @@
         "x": -2121,
         "y": 61,
         "z": -802
-      }
-    },
-    {
-      "type": "cave",
-      "name": "Watery Waterfall",
-      "specialInfo": "",
-      "description": "§7Animated water beings have formed in an odd cave nearby §f[536, 31, -5363]",
-      "length": "medium",
-      "lengthInfo": "1m30s",
-      "difficulty": "medium",
-      "requirements": {
-        "level": 85,
-        "professionLevels": {},
-        "quests": []
-      },
-      "rewards": {
-        "item": [
-          "Various Items"
-        ],
-        "xp": [
-          "230000 XP"
-        ]
-      },
-      "location": {
-        "x": 536,
-        "y": 31,
-        "z": -5363
       }
     },
     {
@@ -29172,6 +29306,26 @@
   "lootrunCamp": [
     {
       "type": "lootrunCamp",
+      "name": "Canyon of the Lost Excursion (North)",
+      "specialInfo": "",
+      "description": "",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 89,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {},
+      "location": {
+        "x": 574,
+        "y": 79,
+        "z": -5018
+      }
+    },
+    {
+      "type": "lootrunCamp",
       "name": "Canyon of the Lost Excursion (South)",
       "specialInfo": "",
       "description": "",
@@ -29316,7 +29470,7 @@
     {
       "type": "timeTrial",
       "name": "Abyssal Aerobatics",
-      "specialInfo": "",
+      "specialInfo": "§aWyverns",
       "description": "§7Deep in the Void, scavengers hunt through debris from the world above, and some have found traces of Wyverns, left only to wonder what they are. Maybe it\u0027d be nice to show them.",
       "length": "medium",
       "lengthInfo": "",
@@ -29329,14 +29483,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "6290 Emeralds"
+        ],
         "item": [
           "8 §#430096ffGloomy Roses",
           "1 §dFrying Pan",
           "1 §bPrecious Mineral",
           "1 §dMissing Coinage"
-        ],
-        "emeralds": [
-          "6290 Emeralds"
         ],
         "xp": [
           "210900 XP"
@@ -29351,7 +29505,7 @@
     {
       "type": "timeTrial",
       "name": "Autumnal Athletics",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7Though poor, Auburn Forest is among Fruma\u0027s most beautiful regions. It\u0027s no surprise, then, that some have made hiking routes around it. You don\u0027t have the time for hiking, but maybe a time trial will do.",
       "length": "long",
       "lengthInfo": "",
@@ -29364,14 +29518,14 @@
         ]
       },
       "rewards": {
+        "emeralds": [
+          "7170 Emeralds"
+        ],
         "item": [
           "1 §#20aa20ffPristine Liff Leaf",
           "1 §#20aa20ffRipe Aureate Fruit",
           "1 §#20aa20ffCherished Heirloom",
           "1 §#20aa20ffExquisite Marsh Scale"
-        ],
-        "emeralds": [
-          "7170 Emeralds"
         ],
         "xp": [
           "500000 XP"
@@ -29386,7 +29540,7 @@
     {
       "type": "timeTrial",
       "name": "Black Road Runaround",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7The horse-breeders of Ternaves love their work, but it still gets boring at times. Their solution? Competitions of speed!",
       "length": "short",
       "lengthInfo": "",
@@ -29399,11 +29553,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "Horse Saddle"
-        ],
         "emeralds": [
           "466 Emeralds"
+        ],
+        "item": [
+          "Horse Saddle (1 per account)"
         ],
         "xp": [
           "380 XP"
@@ -29418,7 +29572,7 @@
     {
       "type": "timeTrial",
       "name": "Bremmyn Bustle",
-      "specialInfo": "",
+      "specialInfo": "§aWyverns",
       "description": "§7The mountains of Bremmyn-Hierra are famous for their unusual shape, with many column-like peaks. Don\u0027t they look like they\u0027d be fun to weave a Wyvern around?",
       "length": "short",
       "lengthInfo": "",
@@ -29445,7 +29599,7 @@
     {
       "type": "timeTrial",
       "name": "Dash Across the Dunes",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7Many bandits have taken residence in the Almuj Desert, and among them, there is a pervasive gambling culture. If you can achieve a feat against their expectations, they may well have good rewards in store.",
       "length": "medium",
       "lengthInfo": "",
@@ -29456,11 +29610,12 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 §f󐀂§dMercenary\u0027s Mail"
-        ],
         "emeralds": [
           "1244 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§dMercenary\u0027s Mail",
+          "1 Hearty Kibble"
         ],
         "xp": [
           "1600 XP"
@@ -29475,7 +29630,7 @@
     {
       "type": "timeTrial",
       "name": "Fast-Paced Pilgrimage",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7The Bovemists near Nemract have many an odd tradition, which, much to the ire of some in the military, often involve the dangerous Corrupted ruins nearby. It might be neat to take part, though.",
       "length": "medium",
       "lengthInfo": "",
@@ -29488,11 +29643,12 @@
         ]
       },
       "rewards": {
-        "item": [
-          "1 §f󐀂§eBovine Charm"
-        ],
         "emeralds": [
           "640 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§eBovine Charm",
+          "1 Hearty Kibble"
         ],
         "xp": [
           "740 XP"
@@ -29507,7 +29663,7 @@
     {
       "type": "timeTrial",
       "name": "Hazardous Hike",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7A challenge usually taken on by the elves to prove wit and bravery. Who ever said you need to do it on foot?",
       "length": "medium",
       "lengthInfo": "",
@@ -29523,6 +29679,9 @@
         "emeralds": [
           "5066 Emeralds"
         ],
+        "item": [
+          "1 Hearty Kibble II"
+        ],
         "xp": [
           "87200 XP"
         ]
@@ -29535,8 +29694,68 @@
     },
     {
       "type": "timeTrial",
+      "name": "Hyloch Hustle",
+      "specialInfo": "§eAdasaurs",
+      "description": "§7Come one, come all, and tour the pinnacle of Fruma\u0027s grandiose plateau! Just be sure to watch out for the peacocks.",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 116,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "emeralds": [
+          "8700 Emeralds"
+        ],
+        "item": [
+          "1 Hearty Kibble III"
+        ],
+        "xp": [
+          "3000000 XP"
+        ]
+      },
+      "location": {
+        "x": -1312,
+        "y": 107,
+        "z": -1320
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Lexdale Lumber",
+      "specialInfo": "§eAdasaurs",
+      "description": "§7Kander Forest\u0027s ditches and cliffs might make for a fun experience with an Adasaur!",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 115,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "emeralds": [
+          "8400 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§dBloodthirst Bracelet"
+        ],
+        "xp": [
+          "2750000 XP"
+        ]
+      },
+      "location": {
+        "x": -633,
+        "y": 62,
+        "z": -5462
+      }
+    },
+    {
+      "type": "timeTrial",
       "name": "Llevigar Leg Day",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7Welcome to Gavel! This course will take you around the grand city of Llevigar, as well as its surroundings.",
       "length": "short",
       "lengthInfo": "",
@@ -29547,11 +29766,11 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 §f󐀂§dHorse Hoof"
-        ],
         "emeralds": [
           "1934 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§dHorse Hoof"
         ],
         "xp": [
           "3300 XP"
@@ -29565,8 +29784,38 @@
     },
     {
       "type": "timeTrial",
+      "name": "Mistwood March",
+      "specialInfo": "§eAdasaurs",
+      "description": "§7The lurking mist has crept from the depths of the wood. What creatures live in the shadows? And can you outrun them?",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "hard",
+      "requirements": {
+        "level": 114,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "emeralds": [
+          "8100 Emeralds"
+        ],
+        "item": [
+          "Adasaur Harness (1 per account)"
+        ],
+        "xp": [
+          "2500000 XP"
+        ]
+      },
+      "location": {
+        "x": -1178,
+        "y": 62,
+        "z": -729
+      }
+    },
+    {
+      "type": "timeTrial",
       "name": "Rush Around the Ruins",
-      "specialInfo": "",
+      "specialInfo": "§aHorses",
       "description": "§7Time Valley\u0027s few residents enjoy taking strolls around the area\u0027s mysterious ruins. But has anyone ever tried doing it quickly?",
       "length": "medium",
       "lengthInfo": "",
@@ -29577,11 +29826,12 @@
         "quests": []
       },
       "rewards": {
-        "item": [
-          "1 §f󐀂§dAberrant Clock"
-        ],
         "emeralds": [
           "934 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§dAberrant Clock",
+          "1 Hearty Kibble"
         ],
         "xp": [
           "1080 XP"
@@ -29596,7 +29846,7 @@
     {
       "type": "timeTrial",
       "name": "Sky-High Soar",
-      "specialInfo": "",
+      "specialInfo": "§aWyverns",
       "description": "§7In the Sky Islands, a strange updraft blows from the abyss, enabling Wyverns to fly freely. This, of course, has made them ideal for Time Trials.",
       "length": "medium",
       "lengthInfo": "",
@@ -29609,6 +29859,9 @@
       "rewards": {
         "emeralds": [
           "6233 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§dWyvern Mantle"
         ],
         "xp": [
           "196300 XP"
@@ -29623,7 +29876,7 @@
     {
       "type": "timeTrial",
       "name": "South Canyon Competition",
-      "specialInfo": "",
+      "specialInfo": "§aWyverns",
       "description": "§7The monks of Bantisu have mastered the winds, and they use this power to rescue lost adventurers in the Canyon. Sometimes, they just like to have fun with it, though.",
       "length": "medium",
       "lengthInfo": "",
@@ -29636,11 +29889,11 @@
         ]
       },
       "rewards": {
-        "item": [
-          "Wyvern Reins"
-        ],
         "emeralds": [
           "5532 Emeralds"
+        ],
+        "item": [
+          "Wyvern Reins (1 per account)"
         ],
         "xp": [
           "113500 XP"
@@ -29655,13 +29908,13 @@
     {
       "type": "timeTrial",
       "name": "Stygian Sprint",
-      "specialInfo": "",
+      "specialInfo": "§aAdasaurs",
       "description": "§7The Silent Expanse amounts to a winding road, leading to the Portal. Thus, like any road, it\u0027s great for racing!",
       "length": "long",
       "lengthInfo": "",
       "difficulty": "medium",
       "requirements": {
-        "level": 103,
+        "level": 120,
         "professionLevels": {},
         "quests": [
           "§fA Journey Further"
@@ -29669,16 +29922,78 @@
       },
       "rewards": {
         "emeralds": [
-          "6780 Emeralds"
+          "8192 Emeralds"
         ],
         "xp": [
-          "350000 XP"
+          "3750000 XP"
         ]
       },
       "location": {
         "x": 1322,
         "y": 25,
         "z": -677
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Swampyard Scramble",
+      "specialInfo": "§eHorses",
+      "description": "§7The roads of the Olux Swamp wind wildly, which could make for an interesting race track, if you could avoid getting stuck in the mud.",
+      "length": "long",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 55,
+        "professionLevels": {},
+        "quests": [
+          "§fThe Worm Holes"
+        ]
+      },
+      "rewards": {
+        "emeralds": [
+          "3114 Emeralds"
+        ],
+        "item": [
+          "1 Hearty Kibble"
+        ],
+        "xp": [
+          "15380 XP"
+        ]
+      },
+      "location": {
+        "x": -1567,
+        "y": 60,
+        "z": -5596
+      }
+    },
+    {
+      "type": "timeTrial",
+      "name": "Volcanic Venture",
+      "specialInfo": "§eWyverns",
+      "description": "§7The histories of Dwarves and Dragons are deeply intertwined, and so Dwarves have a great admiration for the beasts and their kin. As such, Wyvern racing has made itself a popular sport in some corners of Dwarven society.",
+      "length": "medium",
+      "lengthInfo": "",
+      "difficulty": "medium",
+      "requirements": {
+        "level": 92,
+        "professionLevels": {},
+        "quests": []
+      },
+      "rewards": {
+        "emeralds": [
+          "5922 Emeralds"
+        ],
+        "item": [
+          "1 §f󐀂§dWyvern Claw"
+        ],
+        "xp": [
+          "152200 XP"
+        ]
+      },
+      "location": {
+        "x": 1461,
+        "y": 45,
+        "z": -5301
       }
     }
   ]

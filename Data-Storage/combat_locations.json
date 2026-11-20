@@ -1586,6 +1586,14 @@
         "type": "Lootrun Camps",
         "locations":[
             {
+                "name": "Canyon of the Lost Excursion (North)",
+                "coordinates": {
+                    "x": 574,
+                    "y": 79,
+                    "z": -5018
+                }
+            },
+            {
                 "name": "Canyon of the Lost Excursion (South)",
                 "coordinates": {
                     "x": 578,
@@ -1740,6 +1748,46 @@
                     "x": 1322,
                     "y": 25,
                     "z": -677
+                }
+            },
+            {
+                "name": "Hyloch Hustle",
+                "coordinates": {
+                    "x": -1312,
+                    "y": 107,
+                    "z": -1320
+                }
+            },
+            {
+                "name": "Lexdale Lumber",
+                "coordinates": {
+                    "x": -633,
+                    "y": 62,
+                    "z": -5462
+                }
+            },
+            {
+                "name": "Mistwood March",
+                "coordinates": {
+                    "x": -1178,
+                    "y": 62,
+                    "z": -729
+                }
+            },
+            {
+                "name": "Swampyard Scramble",
+                "coordinates": {
+                    "x": -1567,
+                    "y": 60,
+                    "z": -5596
+                }
+            },
+            {
+                "name": "Volcanic Venture",
+                "coordinates": {
+                    "x": 1461,
+                    "y": 45,
+                    "z": -5301
                 }
             }
         ]
