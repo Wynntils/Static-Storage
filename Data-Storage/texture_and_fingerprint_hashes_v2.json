@@ -8,7 +8,7 @@
         },
         "reskin": {
             "textures": [
-                "test"
+                "97a615beb9ec4c755f8b66dd703f056f00c6c55188ab0cf420825a11702a88dd"
             ],
             "fingerprints": []
         }
@@ -21,7 +21,9 @@
             "fingerprints": []
         },
         "reskin": {
-            "textures": [],
+            "textures": [
+                "90862185b00a9dde5089944a90460835008b4e302bd97aa501ba848a4e29b709"
+            ],
             "fingerprints": []
         }
     },
@@ -33,7 +35,9 @@
             "fingerprints": []
         },
         "reskin": {
-            "textures": [],
+            "textures": [
+                "9704916dbd9ecdf6d96f19d1597239ae3c01e724f5ea452870d0dc948a858876"
+            ],
             "fingerprints": []
         }
     },
@@ -42,10 +46,6 @@
             "textures": [
                 "03ef681add633b538ebc1b0d89ba9775840a9b823246c99583b4d4d763a0d6b0"
             ],
-            "fingerprints": []
-        },
-        "reskin": {
-            "textures": [],
             "fingerprints": []
         }
     },
@@ -57,7 +57,9 @@
             "fingerprints": []
         },
         "reskin": {
-            "textures": [],
+            "textures": [
+                "8ac27e9143b4eb58106434e4274f411fb9046082dc4fd0c8cd2035be6c0c035b"
+            ],
             "fingerprints": []
         }
     },
@@ -66,10 +68,6 @@
             "textures": [
                 "0a347b9ece55a7c131d926bb1c27caa63cb32c1d17d9fa2f057d373c1634cb5c"
             ],
-            "fingerprints": []
-        },
-        "reskin": {
-            "textures": [],
             "fingerprints": []
         }
     },
@@ -81,7 +79,9 @@
             "fingerprints": []
         },
         "reskin": {
-            "textures": [],
+            "textures": [
+                "32bc08727e972f2f0bb707964a6846314f7112859fdb3c7b4d3ab98999a8410f"
+            ],
             "fingerprints": []
         }
     }
