@@ -366,6 +366,12 @@
     "url": "https://cdn.wynntils.com/static/Data-Storage/texture_and_fingerprint_hashes.json"
   },
   {
+    "id": "dataStaticTextureAndFingerprintHashesV2",
+    "md5": "1b9de715e007ee5dcf036ed5f8fd9ec3",
+    "path": "Data-Storage/texture_and_fingerprint_hashes_v2.json",
+    "url": "https://cdn.wynntils.com/static/Data-Storage/texture_and_fingerprint_hashes_v2.json"
+  },
+  {
     "id": "dataStaticTomes",
     "md5": "635bd5225b0b64df780526ab4ff0e4ad",
     "path": "Reference/tomes.json",
