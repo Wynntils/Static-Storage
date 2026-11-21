@@ -822,7 +822,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "35",
+              "text": "40",
               "color": "#FFFFFF"
             }
           ],
@@ -841,7 +841,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "15% ",
+              "text": "20% ",
               "color": "#FFFFFF"
             },
             {
@@ -883,7 +883,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "0.6s",
+              "text": "2s",
               "color": "#FFFFFF"
             }
           ]
@@ -972,7 +972,7 @@
           "col": 4
         },
         "connections": [
-          15
+          13
         ]
       },
       {
@@ -1248,8 +1248,8 @@
         },
         "connections": [
           9,
-          13,
-          14
+          14,
+          15
         ]
       },
       {
@@ -1427,11 +1427,100 @@
         },
         "connections": [
           16,
-          15
+          13,
+          18
         ]
       },
       {
         "id": 13,
+        "name": "Air Mastery",
+        "formattedName": "§f§lAir Mastery",
+        "abilityTreeNodeType": "whiteAbilityLocked",
+        "description": [
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Increase your base damage",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "from all Air attacks.",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "Air Damage: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+3-4",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "Air Damage: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+15%",
+              "color": "#FFFFFF"
+            }
+          ]
+        ],
+        "cost": 1,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": null,
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetypeInfo": {
+          "archetype": "Riftwalker",
+          "color": "#60c5cdff"
+        },
+        "location": {
+          "page": 3,
+          "row": 1,
+          "col": 4
+        },
+        "connections": [
+          18
+        ]
+      },
+      {
+        "id": 14,
         "name": "Fire Mastery",
         "formattedName": "§f§lFire Mastery",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -1515,12 +1604,12 @@
           "col": 6
         },
         "connections": [
-          14,
+          15,
           17
         ]
       },
       {
-        "id": 14,
+        "id": 15,
         "name": "Thunder Mastery",
         "formattedName": "§f§lThunder Mastery",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -1605,94 +1694,6 @@
         },
         "connections": [
           17
-        ]
-      },
-      {
-        "id": 15,
-        "name": "Air Mastery",
-        "formattedName": "§f§lAir Mastery",
-        "abilityTreeNodeType": "whiteAbilityLocked",
-        "description": [
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "Increase your base damage",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "from all Air attacks.",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": " ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Air Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+3-4",
-              "color": "#FFFFFF"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": " ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Air Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+15%",
-              "color": "#FFFFFF"
-            }
-          ]
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": null,
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetypeInfo": {
-          "archetype": "Riftwalker",
-          "color": "#60c5cdff"
-        },
-        "location": {
-          "page": 3,
-          "row": 2,
-          "col": 4
-        },
-        "connections": [
-          18
         ]
       },
       {
@@ -2249,7 +2250,7 @@
         "location": {
           "page": 3,
           "row": 4,
-          "col": 4
+          "col": 3
         },
         "connections": [
           21
@@ -3481,7 +3482,6 @@
         },
         "connections": [
           29,
-          27,
           30
         ]
       },
@@ -3847,7 +3847,9 @@
         },
         "connections": [
           30,
+          26,
           34,
+          28,
           31
         ]
       },
@@ -4110,8 +4112,7 @@
           "col": 8
         },
         "connections": [
-          31,
-          27
+          31
         ]
       },
       {
@@ -4419,7 +4420,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "10s",
+              "text": "15s",
               "color": "#FFFFFF"
             },
             {
@@ -4529,7 +4530,6 @@
         },
         "connections": [
           36,
-          34,
           37
         ]
       },
@@ -4599,6 +4599,7 @@
           "col": 4
         },
         "connections": [
+          33,
           37,
           41,
           38,
@@ -5524,15 +5525,14 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " ",
-              "color": "#AAAAAA"
+              "text": " "
             },
             {
               "text": "will deal damage ",
               "color": "#AAAAAA"
             },
             {
-              "text": "25%",
+              "text": "33%",
               "color": "#FFFFFF"
             }
           ],
@@ -5563,7 +5563,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+50%",
+              "text": "+60%",
               "color": "#FFFFFF"
             },
             {
@@ -5627,7 +5627,7 @@
               "color": "#555555"
             },
             {
-              "text": "+10%",
+              "text": "+20%",
               "color": "#555555"
             },
             {
@@ -5711,7 +5711,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "20% ",
+              "text": "25% ",
               "color": "#FFFFFF"
             },
             {
@@ -5734,7 +5734,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "1.2s",
+              "text": "3s",
               "color": "#FFFFFF"
             }
           ],
@@ -5753,7 +5753,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "1.5s ",
+              "text": "3.3s ",
               "color": "#FFFFFF"
             },
             {
@@ -6216,7 +6216,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+30% ",
+              "text": "+35% ",
               "color": "#FFFFFF"
             },
             {
@@ -6248,7 +6248,7 @@
               "color": "#555555"
             },
             {
-              "text": "+20%",
+              "text": "+25%",
               "color": "#555555"
             },
             {
@@ -6333,7 +6333,7 @@
           ],
           [
             {
-              "text": "10s ",
+              "text": "15s ",
               "color": "#FFFFFF"
             },
             {
@@ -6367,7 +6367,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "150% ",
+              "text": "160% ",
               "color": "#FFFFFF"
             },
             {
@@ -6399,7 +6399,7 @@
               "color": "#555555"
             },
             {
-              "text": "120%",
+              "text": "125%",
               "color": "#555555"
             },
             {
@@ -6431,7 +6431,7 @@
               "color": "#555555"
             },
             {
-              "text": "30%",
+              "text": "35%",
               "color": "#555555"
             },
             {
@@ -6871,7 +6871,7 @@
           ],
           [
             {
-              "text": "each time you cast a spell. (Max 40%)",
+              "text": "each time you cast a spell. (Max 30%)",
               "color": "#AAAAAA"
             }
           ],
@@ -6896,7 +6896,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+8% ",
+              "text": "+6% ",
               "color": "#FFFFFF"
             },
             {
@@ -6919,8 +6919,12 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "2s",
+              "text": "2s ",
               "color": "#FFFFFF"
+            },
+            {
+              "text": "(Per Stack)",
+              "color": "#555555"
             }
           ]
         ],
@@ -6928,7 +6932,10 @@
         "willBlock": [],
         "blockedBy": [],
         "requiredAbility": "Heal",
-        "requiredArchetype": null,
+        "requiredArchetype": {
+          "name": "Arcanist",
+          "required": 5
+        },
         "requiredLevel": 0,
         "archetypeInfo": {
           "archetype": "Arcanist",
@@ -6941,6 +6948,7 @@
         },
         "connections": [
           51,
+          48,
           52
         ]
       },
@@ -6998,7 +7006,6 @@
         },
         "connections": [
           52,
-          47,
           53
         ]
       },
@@ -7327,7 +7334,6 @@
         },
         "connections": [
           55,
-          51,
           56
         ]
       },
@@ -7397,6 +7403,7 @@
           "col": 5
         },
         "connections": [
+          50,
           56
         ]
       },
@@ -7916,7 +7923,7 @@
           ],
           [
             {
-              "text": "(You lose 20% Walk Speed Bonus every second",
+              "text": "(You lose 16% Walk Speed Bonus every second",
               "color": "#555555"
             }
           ],
@@ -7947,7 +7954,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+10% ",
+              "text": "+8% ",
               "color": "#FFFFFF"
             },
             {
@@ -7955,7 +7962,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "(per 1s, +140% Max)",
+              "text": "(per 1s, +100% Max)",
               "color": "#555555"
             }
           ],
@@ -8214,7 +8221,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "10%",
+              "text": "4%",
               "color": "#FFFFFF"
             },
             {
@@ -8273,7 +8280,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+4%",
+              "text": "+2.25%",
               "color": "#FFFFFF"
             },
             {
@@ -8281,7 +8288,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "(per 10% Walk Speed)",
+              "text": "(per 4% Walk Speed)",
               "color": "#555555"
             }
           ]
@@ -8940,8 +8947,7 @@
           "col": 2
         },
         "connections": [
-          65,
-          63
+          65
         ]
       },
       {
@@ -9003,6 +9009,7 @@
           "col": 4
         },
         "connections": [
+          62,
           67,
           66
         ]
@@ -9616,7 +9623,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "250%",
+              "text": "200%",
               "color": "#FFFFFF"
             },
             {
@@ -9624,7 +9631,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "10s",
+              "text": "15s",
               "color": "#FFFFFF"
             }
           ],
@@ -9966,7 +9973,9 @@
           "row": 4,
           "col": 5
         },
-        "connections": []
+        "connections": [
+          71
+        ]
       },
       {
         "id": 71,
@@ -10253,7 +10262,6 @@
           "col": 7
         },
         "connections": [
-          70,
           76,
           73
         ]
@@ -11386,7 +11394,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+30% ",
+              "text": "+35% ",
               "color": "#FFFFFF"
             },
             {
@@ -11418,7 +11426,7 @@
               "color": "#555555"
             },
             {
-              "text": "+20%",
+              "text": "+25%",
               "color": "#555555"
             },
             {
@@ -11792,7 +11800,7 @@
           ],
           [
             {
-              "text": "25%",
+              "text": "20%",
               "color": "#FFFFFF"
             },
             {
@@ -12333,6 +12341,18 @@
               "color": "#AAAAAA"
             }
           ],
+          [
+            {
+              "text": "(Wisp can only hit the same",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "enemy once every 0.1s.)",
+              "color": "#555555"
+            }
+          ],
           [],
           [
             {
@@ -12349,7 +12369,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "300% ",
+              "text": "400% ",
               "color": "#FFFFFF"
             },
             {
@@ -12381,7 +12401,7 @@
               "color": "#555555"
             },
             {
-              "text": "200%",
+              "text": "275%",
               "color": "#555555"
             },
             {
@@ -12413,7 +12433,7 @@
               "color": "#555555"
             },
             {
-              "text": "100%",
+              "text": "125%",
               "color": "#555555"
             },
             {
@@ -12459,7 +12479,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "2.5 Blocks ",
+              "text": "3 Blocks ",
               "color": "#FFFFFF"
             },
             {
@@ -15672,7 +15692,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "40% ",
+              "text": "50% ",
               "color": "#FFFFFF"
             },
             {
@@ -15704,7 +15724,7 @@
               "color": "#555555"
             },
             {
-              "text": "30%",
+              "text": "35%",
               "color": "#555555"
             },
             {
@@ -15736,7 +15756,7 @@
               "color": "#555555"
             },
             {
-              "text": "10%",
+              "text": "15%",
               "color": "#555555"
             },
             {
@@ -15759,7 +15779,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "40% ",
+              "text": "30% ",
               "color": "#FFFFFF"
             },
             {
@@ -15791,7 +15811,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "5s",
+              "text": "4s",
               "color": "#FFFFFF"
             }
           ],
@@ -15860,13 +15880,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " will leave a trail of",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "fire for ",
+              "text": " will leave a trail of fire for ",
               "color": "#AAAAAA"
             },
             {
@@ -15874,17 +15888,23 @@
               "color": "#FFFFFF"
             },
             {
-              "text": ". Enemies that walk",
+              "text": ".",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "into it take damage every ",
+              "text": "Enemies that walk into it or get hit by the bomb",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "are ignited, taking damage every ",
               "color": "#AAAAAA"
             },
             {
-              "text": "0.4s",
+              "text": "0.6s",
               "color": "#FFFFFF"
             },
             {
@@ -15913,7 +15933,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "50% ",
+              "text": "45% ",
               "color": "#FFFFFF"
             },
             {
@@ -15977,12 +15997,35 @@
               "color": "#555555"
             },
             {
-              "text": "20%",
+              "text": "15%",
               "color": "#555555"
             },
             {
               "text": ")",
               "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Area of Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "0.8 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
             }
           ],
           [
@@ -16000,7 +16043,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "6s",
+              "text": "3s",
               "color": "#FFFFFF"
             }
           ],
@@ -16235,9 +16278,9 @@
         ],
         "cost": 2,
         "willBlock": [
-          "Arrow Hurricane",
+          "Transience",
           "Windstorm",
-          "Transience"
+          "Arrow Hurricane"
         ],
         "blockedBy": [],
         "requiredAbility": "Arrow Storm",
@@ -16421,25 +16464,6 @@
           ],
           [
             {
-              "text": "",
-              "font": "common",
-              "color": "#00AA00"
-            },
-            {
-              "text": " ",
-              "color": "#00AA00"
-            },
-            {
-              "text": "Range: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "6 Blocks",
-              "color": "#FFFFFF"
-            }
-          ],
-          [
-            {
               "text": "",
               "font": "common",
               "color": "#FF55FF"
@@ -16454,6 +16478,25 @@
             },
             {
               "text": "60s",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AA00"
+            },
+            {
+              "text": " ",
+              "color": "#00AA00"
+            },
+            {
+              "text": "Range: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "6 Blocks",
               "color": "#FFFFFF"
             }
           ]
@@ -16509,11 +16552,11 @@
           ],
           [
             {
-              "text": "a ",
+              "text": "an ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Trap",
+              "text": "Explosive Trap",
               "color": "#55FFFF"
             },
             {
@@ -16648,6 +16691,25 @@
             {
               "text": ")",
               "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "30s",
+              "color": "#FFFFFF"
             }
           ],
           [
@@ -17021,21 +17083,21 @@
           ],
           [
             {
-              "text": "If a ",
+              "text": "If an ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Trap",
+              "text": "Explosive Trap",
               "color": "#55FFFF"
             },
             {
-              "text": " is nearby, enemies are",
+              "text": " is nearby,",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "pulled towards it instead.",
+              "text": "enemies are pulled towards it instead.",
               "color": "#AAAAAA"
             }
           ],
@@ -17051,7 +17113,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Heart Shatter",
+              "text": "Arrow Bomb",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -17081,7 +17143,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+40% ",
+              "text": "+20% ",
               "color": "#FFFFFF"
             },
             {
@@ -17113,7 +17175,7 @@
               "color": "#555555"
             },
             {
-              "text": "+40%",
+              "text": "+20%",
               "color": "#555555"
             },
             {
@@ -17465,29 +17527,6 @@
           ],
           [
             {
-              "text": "",
-              "font": "common",
-              "color": "#00AAAA"
-            },
-            {
-              "text": " ",
-              "color": "#00AAAA"
-            },
-            {
-              "text": "Area of Effect: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "6 Blocks ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(Circle-Shaped)",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
               "text": "",
               "font": "common",
               "color": "#FFFF55"
@@ -17535,6 +17574,29 @@
             {
               "text": "0.5s",
               "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Area of Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "6 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
             }
           ],
           [
@@ -17592,7 +17654,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Traps",
+              "text": "Explosive Traps",
               "color": "#55FFFF"
             },
             {
@@ -17610,7 +17672,7 @@
           ],
           [
             {
-              "text": "for every second it\u0027s active. ",
+              "text": "for every second they are active. ",
               "color": "#AAAAAA"
             },
             {
@@ -17630,7 +17692,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Traps",
+              "text": "Explosive Traps",
               "color": "#55FFFF"
             },
             {
@@ -17638,7 +17700,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+1",
+              "text": "+2",
               "color": "#FFFFFF"
             },
             {
@@ -17710,22 +17772,13 @@
           [],
           [
             {
-              "text": "Holding ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Shift",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": " while casting",
+              "text": "Sneaking while casting will",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "will pull any enemy you hit.",
+              "text": "pull any enemy you hit.",
               "color": "#AAAAAA"
             }
           ],
@@ -17750,7 +17803,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "30 Blocks",
+              "text": "35 Blocks",
               "color": "#FFFFFF"
             }
           ]
@@ -17838,9 +17891,9 @@
       },
       {
         "id": 35,
-        "name": "Murder Flock",
-        "formattedName": "§#99e9ffff§lMurder Flock",
-        "abilityTreeNodeType": "blueAbilityLocked",
+        "name": "Controlled Blast",
+        "formattedName": "§#ffe14dff§lControlled Blast",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           [
             {
@@ -17850,164 +17903,83 @@
           ],
           [
             {
-              "text": "Basaltic Trap",
+              "text": "Your ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Explosive Traps",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " will not be triggered by",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "enemies until ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Patient Hunter",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": " summons a ",
+              "text": " is fully charged",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "and will not get replaced by new ones.",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Sneaking will allow you to select an area.",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Cast ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Crow",
+              "text": "Arrow Bomb",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " while sneaking to",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "detonate all ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Explosive Traps",
               "color": "#55FFFF"
             },
             {
-              "text": " upon detonation that",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "will peck at aggressive enemies every ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "0.9s",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ". ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "(Max 2)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "Damaged enemies will be distracted for ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "0.2s",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
+              "text": " inside of it.",
               "color": "#AAAAAA"
             }
           ],
           [
             {
               "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "80% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(of your DPS)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "80%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFFF55"
-            },
-            {
-              "text": " ",
-              "color": "#FFFF55"
-            },
-            {
-              "text": "Effect: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Blindness (",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": ") to Enemies",
-              "color": "#FFFFFF"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#00AAAA"
-            },
-            {
-              "text": " ",
-              "color": "#00AAAA"
-            },
-            {
-              "text": "Vision: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "18 Blocks ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(Circle-Shaped)",
               "color": "#AAAAAA"
             }
           ],
@@ -18022,19 +17994,61 @@
               "color": "#FF55FF"
             },
             {
-              "text": "Duration: ",
+              "text": "Trap Duration: ",
               "color": "#AAAAAA"
             },
             {
-              "text": "12s",
+              "text": "-10s",
+              "color": "#FF5555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AA00"
+            },
+            {
+              "text": " ",
+              "color": "#00AA00"
+            },
+            {
+              "text": "Range: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "40 Blocks",
               "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Area of Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "6 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
             }
           ]
         ],
-        "cost": 2,
+        "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Basaltic Trap",
+        "requiredAbility": null,
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -18231,7 +18245,10 @@
         "requiredAbility": "Phantom Ray",
         "requiredArchetype": null,
         "requiredLevel": 0,
-        "archetypeInfo": null,
+        "archetypeInfo": {
+          "archetype": "Sharpshooter",
+          "color": "#eb3dfeff"
+        },
         "location": {
           "page": 4,
           "row": 5,
@@ -18447,7 +18464,7 @@
           42,
           43,
           39,
-          46
+          45
         ]
       },
       {
@@ -18473,11 +18490,11 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "2 ",
+              "text": "2",
               "color": "#FFFFFF"
             },
             {
-              "text": "additional",
+              "text": " additional",
               "color": "#AAAAAA"
             }
           ],
@@ -18610,7 +18627,10 @@
         "requiredAbility": null,
         "requiredArchetype": null,
         "requiredLevel": 0,
-        "archetypeInfo": null,
+        "archetypeInfo": {
+          "archetype": "Trapper",
+          "color": "#87dd47ff"
+        },
         "location": {
           "page": 5,
           "row": 1,
@@ -18618,16 +18638,16 @@
         },
         "connections": [
           43,
-          46,
+          45,
           40,
-          44
+          46
         ]
       },
       {
         "id": 40,
         "name": "Ivyroot Mamba",
-        "formattedName": "§#99e9ffff§lIvyroot Mamba",
-        "abilityTreeNodeType": "blueAbilityLocked",
+        "formattedName": "§#f747c2ff§lIvyroot Mamba",
+        "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           [
             {
@@ -18656,13 +18676,13 @@
           ],
           [
             {
-              "text": "disappearing that will spit weakening",
+              "text": "disappearing that will spit venom at",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "venom at aggressive enemies every ",
+              "text": "aggressive enemies every ",
               "color": "#AAAAAA"
             },
             {
@@ -18680,7 +18700,19 @@
           ],
           [
             {
-              "text": "Enemies will be weakened for ",
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Enemies splashed by the venom will be weakened",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "and take increased poison damage for ",
               "color": "#AAAAAA"
             },
             {
@@ -18745,11 +18777,7 @@
               "color": "#555555"
             },
             {
-              "text": "90%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
+              "text": "90%)",
               "color": "#555555"
             }
           ],
@@ -18777,11 +18805,7 @@
               "color": "#555555"
             },
             {
-              "text": "30%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
+              "text": "30%)",
               "color": "#555555"
             }
           ],
@@ -18804,11 +18828,7 @@
               "color": "#FFFFFF"
             },
             {
-              "text": " ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Damage Bonus (",
+              "text": " Damage Bonus (",
               "color": "#AAAAAA"
             },
             {
@@ -18823,24 +18843,25 @@
           ],
           [
             {
-              "text": "",
-              "font": "common",
-              "color": "#00AAAA"
+              "text": "             ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
             },
             {
-              "text": " ",
-              "color": "#00AAAA"
-            },
-            {
-              "text": "Vision: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "12 Blocks ",
+              "text": "-10% ",
               "color": "#FFFFFF"
             },
             {
-              "text": "(Circle-Shaped)",
+              "text": "Poison Resistance (",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": ") to Enemies",
               "color": "#AAAAAA"
             }
           ],
@@ -18861,6 +18882,52 @@
             {
               "text": "10s",
               "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AA00"
+            },
+            {
+              "text": " ",
+              "color": "#00AA00"
+            },
+            {
+              "text": "Vision: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "12 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Splash Radius: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "4 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
             }
           ]
         ],
@@ -18883,9 +18950,9 @@
           "col": 6
         },
         "connections": [
-          44,
+          46,
           49,
-          45
+          44
         ]
       },
       {
@@ -19035,7 +19102,7 @@
           "col": 8
         },
         "connections": [
-          45,
+          44,
           40,
           50
         ]
@@ -19054,15 +19121,11 @@
           ],
           [
             {
-              "text": "Hitting an enemy will give you a brief buff",
+              "text": "Hitting an enemy will give you a brief buff of",
               "color": "#AAAAAA"
             }
           ],
           [
-            {
-              "text": "of ",
-              "color": "#AAAAAA"
-            },
             {
               "text": "+1% ",
               "color": "#FFFFFF"
@@ -19072,21 +19135,26 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+15%",
+              "text": "12",
               "color": "#FFFFFF"
             },
             {
-              "text": " per second. ",
+              "text": " times per second. ",
               "color": "#AAAAAA"
             },
             {
-              "text": "(Max +60%)",
+              "text": "(Max +50%)",
               "color": "#555555"
             }
           ],
+          [],
           [
             {
-              "text": "-5%",
+              "text": "Lose ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "4%",
               "color": "#FFFFFF"
             },
             {
@@ -19094,7 +19162,21 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "the bonus decays every second.",
+              "text": "the bonus each second after",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "not hitting enemies for ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "2",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " seconds.",
               "color": "#AAAAAA"
             }
           ]
@@ -19276,61 +19358,6 @@
       },
       {
         "id": 44,
-        "name": "Rocket Jump",
-        "formattedName": "§#ffe14dff§lRocket Jump",
-        "abilityTreeNodeType": "yellowAbilityLocked",
-        "description": [
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "Arrow Bomb",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "\u0027s recoil is increased, and",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "its self-damage is reduced to ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "1%",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
-              "color": "#AAAAAA"
-            }
-          ]
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Arrow Bomb",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetypeInfo": {
-          "archetype": "Trapper",
-          "color": "#87dd47ff"
-        },
-        "location": {
-          "page": 5,
-          "row": 2,
-          "col": 5
-        },
-        "connections": []
-      },
-      {
-        "id": 45,
         "name": "Scorched Earth",
         "formattedName": "§f§lScorched Earth",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -19348,7 +19375,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": " becomes much stronger.",
+              "text": " deals more damage and covers a larger area.",
               "color": "#AAAAAA"
             }
           ],
@@ -19373,7 +19400,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+15% ",
+              "text": "+30% ",
               "color": "#FFFFFF"
             },
             {
@@ -19405,7 +19432,7 @@
               "color": "#555555"
             },
             {
-              "text": "+10%",
+              "text": "+20%",
               "color": "#555555"
             },
             {
@@ -19437,12 +19464,306 @@
               "color": "#555555"
             },
             {
-              "text": "+5%",
+              "text": "+10%",
               "color": "#555555"
             },
             {
               "text": ")",
               "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Area of Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+0.4 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
+            }
+          ]
+        ],
+        "cost": 1,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Fire Creep",
+        "requiredArchetype": null,
+        "requiredLevel": 0,
+        "archetypeInfo": {
+          "archetype": "Trapper",
+          "color": "#87dd47ff"
+        },
+        "location": {
+          "page": 5,
+          "row": 2,
+          "col": 7
+        },
+        "connections": []
+      },
+      {
+        "id": 45,
+        "name": "Mana Trap",
+        "formattedName": "§#99e9ffff§lMana Trap",
+        "abilityTreeNodeType": "blueAbilityLocked",
+        "description": [
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Your ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Traps",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " will give you ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "2 ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "Mana when they",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "activate, scaling with ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Patient Hunter",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": ".",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Increase your maximum ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Explosive Traps",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " by ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+3",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ".",
+              "color": "#AAAAAA"
+            }
+          ]
+        ],
+        "cost": 2,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Basaltic Trap",
+        "requiredArchetype": {
+          "name": "Trapper",
+          "required": 5
+        },
+        "requiredLevel": 0,
+        "archetypeInfo": {
+          "archetype": "Trapper",
+          "color": "#87dd47ff"
+        },
+        "location": {
+          "page": 5,
+          "row": 3,
+          "col": 3
+        },
+        "connections": [
+          46,
+          48
+        ]
+      },
+      {
+        "id": 46,
+        "name": "Murder Flock",
+        "formattedName": "§#f747c2ff§lMurder Flock",
+        "abilityTreeNodeType": "purpleAbilityLocked",
+        "description": [
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Basaltic Trap",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " summons a ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Crow",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " upon detonation that",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "will peck at aggressive enemies every ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "0.9s",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ". ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "(Max 2)",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "Damaged enemies will be distracted for ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "0.2s",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ".",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Total Damage: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "80% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS)",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFAA00"
+            },
+            {
+              "text": " ",
+              "color": "#FFAA00"
+            },
+            {
+              "text": "Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "80%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFFF55"
+            },
+            {
+              "text": " ",
+              "color": "#FFFF55"
+            },
+            {
+              "text": "Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Blindness (",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": ") to Enemies",
+              "color": "#FFFFFF"
             }
           ],
           [
@@ -19460,64 +19781,35 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+2s",
+              "text": "12s",
               "color": "#FFFFFF"
-            }
-          ]
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Fire Creep",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetypeInfo": {
-          "archetype": "Sharpshooter",
-          "color": "#eb3dfeff"
-        },
-        "location": {
-          "page": 5,
-          "row": 2,
-          "col": 7
-        },
-        "connections": []
-      },
-      {
-        "id": 46,
-        "name": "More Traps",
-        "formattedName": "§f§lMore Traps",
-        "abilityTreeNodeType": "whiteAbilityLocked",
-        "description": [
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "Increase your maximum ",
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Vision: ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Traps",
-              "color": "#55FFFF"
-            },
-            {
-              "text": " by ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+3",
+              "text": "18 Blocks ",
               "color": "#FFFFFF"
             },
             {
-              "text": ".",
+              "text": "(Circle-Shaped)",
               "color": "#AAAAAA"
             }
           ]
         ],
-        "cost": 1,
+        "cost": 2,
         "willBlock": [],
         "blockedBy": [],
         "requiredAbility": "Basaltic Trap",
@@ -19530,7 +19822,7 @@
         "location": {
           "page": 5,
           "row": 3,
-          "col": 3
+          "col": 5
         },
         "connections": [
           48
@@ -19656,6 +19948,25 @@
           [],
           [
             {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "3s",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
               "text": "",
               "font": "common",
               "color": "#00AAAA"
@@ -19675,25 +19986,6 @@
             {
               "text": "(Circle-Shaped)",
               "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF55FF"
-            },
-            {
-              "text": " ",
-              "color": "#FF55FF"
-            },
-            {
-              "text": "Duration: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "3s",
-              "color": "#FFFFFF"
             }
           ]
         ],
@@ -19861,16 +20153,7 @@
               "color": "#FFFFFF"
             },
             {
-              "text": "(of your DPS, for ",
-              "color": "#555555"
-            },
-            {
-              "text": "Arrow Shield",
-              "underline": true,
-              "color": "#555555"
-            },
-            {
-              "text": ")",
+              "text": "(of your DPS, for Arrow Shield)",
               "color": "#555555"
             }
           ],
@@ -19894,15 +20177,7 @@
               "color": "#FFAA00"
             },
             {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+30%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
+              "text": "Damage: +30%)",
               "color": "#555555"
             }
           ],
@@ -19954,16 +20229,7 @@
               "color": "#FFFFFF"
             },
             {
-              "text": "(of your DPS, for ",
-              "color": "#555555"
-            },
-            {
-              "text": "Guardian Angels",
-              "underline": true,
-              "color": "#555555"
-            },
-            {
-              "text": ", per shot)",
+              "text": "(of your DPS, for Guardian Angels, per shot)",
               "color": "#555555"
             }
           ],
@@ -19987,15 +20253,7 @@
               "color": "#FFAA00"
             },
             {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+10%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
+              "text": "Damage: +10%)",
               "color": "#555555"
             }
           ]
@@ -20183,7 +20441,7 @@
           ],
           [
             {
-              "text": "speed buff.",
+              "text": "speed buff to you.",
               "color": "#AAAAAA"
             }
           ],
@@ -20215,7 +20473,7 @@
               "color": "#00AAAA"
             },
             {
-              "text": ") to Allies",
+              "text": ") to Self",
               "color": "#AAAAAA"
             }
           ],
@@ -20299,9 +20557,9 @@
       },
       {
         "id": 53,
-        "name": "Homing Shots",
-        "formattedName": "§#99e9ffff§lHoming Shots",
-        "abilityTreeNodeType": "blueAbilityLocked",
+        "name": "Rocket Jump",
+        "formattedName": "§#ffe14dff§lRocket Jump",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           [
             {
@@ -20311,38 +20569,39 @@
           ],
           [
             {
-              "text": "Your ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Main Attack",
+              "text": "Arrow Bomb",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": " arrows will follow nearby",
+              "text": "\u0027s recoil is increased, and",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "enemies and will be unaffected by gravity.",
+              "text": "its self-damage is reduced to ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "1%",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ".",
               "color": "#AAAAAA"
             }
           ]
         ],
-        "cost": 2,
+        "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": null,
-        "requiredArchetype": {
-          "name": "Sharpshooter",
-          "required": 2
-        },
+        "requiredAbility": "Arrow Bomb",
+        "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
-          "archetype": "Sharpshooter",
-          "color": "#eb3dfeff"
+          "archetype": "Trapper",
+          "color": "#87dd47ff"
         },
         "location": {
           "page": 5,
@@ -20404,8 +20663,8 @@
       },
       {
         "id": 55,
-        "name": "Mana Trap",
-        "formattedName": "§#ff4545ff§lMana Trap",
+        "name": "Rusted Maw",
+        "formattedName": "§#ff4545ff§lRusted Maw",
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           [
@@ -20416,44 +20675,74 @@
           ],
           [
             {
-              "text": "Your ",
+              "text": "Casting ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Traps",
+              "text": "Arrow Shield",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " launches a ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Bear Trap",
+              "color": "#55FFFF"
+            }
+          ],
+          [
+            {
+              "text": "that clamps down on enemies when activated,",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "locking them in place, damaging them and",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "inflicting ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+4s",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " of ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Bleeding",
               "color": "#55FFFF"
             },
             {
-              "text": " will give you ",
+              "text": " ",
               "color": "#AAAAAA"
             },
             {
-              "text": "0.5 ",
-              "color": "#FFFFFF"
+              "text": "",
+              "font": "common",
+              "color": "#F93131"
             },
             {
-              "text": "Mana",
+              "text": " ",
               "color": "#AAAAAA"
+            },
+            {
+              "text": "(Max 6s)",
+              "color": "#555555"
             }
           ],
           [
             {
-              "text": "per second and ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "10 ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Mana",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "when they explode.",
-              "color": "#AAAAAA"
+              "text": "(Max 1 Trap)",
+              "color": "#555555"
             }
           ],
           [
@@ -20464,19 +20753,23 @@
           ],
           [
             {
-              "text": "Increase your maximum ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Traps",
+              "text": "Bleeding",
               "color": "#55FFFF"
             },
             {
-              "text": " by ",
+              "text": " "
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#F93131"
+            },
+            {
+              "text": " enemies take damage every ",
               "color": "#AAAAAA"
             },
             {
-              "text": "+1",
+              "text": "0.5s",
               "color": "#FFFFFF"
             },
             {
@@ -20492,26 +20785,71 @@
           ],
           [
             {
-              "text": "",
+              "text": "",
               "font": "common",
-              "color": "#66E6FF"
+              "color": "#FF5555"
             },
             {
               "text": " ",
-              "color": "#66E6FF"
+              "color": "#FF5555"
             },
             {
-              "text": "Mana Cost: ",
+              "text": "Total Damage: ",
               "color": "#AAAAAA"
             },
             {
-              "text": "+10",
-              "color": "#FF5555"
+              "text": "400% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS)",
+              "color": "#555555"
             }
           ],
           [
             {
-              "text": "",
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFAA00"
+            },
+            {
+              "text": " ",
+              "color": "#FFAA00"
+            },
+            {
+              "text": "Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "335%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
               "font": "common",
               "color": "#00AA00"
             },
@@ -20520,11 +20858,163 @@
               "color": "#00AA00"
             },
             {
-              "text": "Range: ",
+              "text": "Earth: ",
+              "color": "#555555"
+            },
+            {
+              "text": "65%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Total Damage: ",
               "color": "#AAAAAA"
             },
             {
-              "text": "16 Blocks",
+              "text": "60% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS, from Bleeding)",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFAA00"
+            },
+            {
+              "text": " ",
+              "color": "#FFAA00"
+            },
+            {
+              "text": "Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "60%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFFF55"
+            },
+            {
+              "text": " ",
+              "color": "#FFFF55"
+            },
+            {
+              "text": "Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "100% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "Slowness (",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": ") to Enemies",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "1.5s",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
+              "color": "#00AAAA"
+            },
+            {
+              "text": "Area of Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "2.5 Blocks ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(Circle-Shaped)",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#4DFFC3"
+            },
+            {
+              "text": " ",
+              "color": "#4DFFC3"
+            },
+            {
+              "text": "Cooldown: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "3s",
               "color": "#FFFFFF"
             }
           ]
@@ -20532,10 +21022,10 @@
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Basaltic Trap",
+        "requiredAbility": "Arrow Shield",
         "requiredArchetype": {
           "name": "Trapper",
-          "required": 6
+          "required": 5
         },
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -20883,9 +21373,9 @@
       },
       {
         "id": 59,
-        "name": "Vigilant Sentinels",
-        "formattedName": "§#99e9ffff§lVigilant Sentinels",
-        "abilityTreeNodeType": "blueAbilityLocked",
+        "name": "Bouncing Bomb",
+        "formattedName": "§#f747c2ff§lBouncing Bomb",
+        "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           [
             {
@@ -20895,259 +21385,54 @@
           ],
           [
             {
-              "text": "Increase ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Guardian Angels",
+              "text": "Arrow Bomb",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027 range and damage.",
+              "text": " will travel ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "20%",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " slower and",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "bounce once when hitting a block or enemy.",
               "color": "#AAAAAA"
             }
           ],
           [],
           [
             {
-              "text": "Casting ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Arrow Shield",
+              "text": "Implosion",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": " while ",
+              "text": "\u0027s pull is ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Guardian Angels",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": " are active",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "will also cast ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Buckshot",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": ". Increase ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Buckshot",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "\u0027s damage.",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+30% ",
+              "text": "30%",
               "color": "#FFFFFF"
             },
             {
-              "text": "(of your DPS, for ",
-              "color": "#555555"
-            },
-            {
-              "text": "Guardian Angels",
-              "underline": true,
-              "color": "#555555"
-            },
-            {
-              "text": ", per shot)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+25%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Fire: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+5%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#00AA00"
-            },
-            {
-              "text": " ",
-              "color": "#00AA00"
-            },
-            {
-              "text": "Range: ",
+              "text": " weaker.",
               "color": "#AAAAAA"
-            },
-            {
-              "text": "+3 Blocks",
-              "color": "#FFFFFF"
-            }
-          ],
-          [],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+3% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(of your DPS, for ",
-              "color": "#555555"
-            },
-            {
-              "text": "Buckshot",
-              "underline": true,
-              "color": "#555555"
-            },
-            {
-              "text": ", per arrow)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+3%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
             }
           ]
         ],
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Guardian Angels",
+        "requiredAbility": null,
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -21177,7 +21462,7 @@
           ],
           [
             {
-              "text": "Arrow Shield",
+              "text": "Arrow Storm",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -21273,6 +21558,25 @@
           ],
           [
             {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "15s",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
               "text": "",
               "font": "common",
               "color": "#00AAAA"
@@ -21292,25 +21596,6 @@
             {
               "text": "(Circle-Shaped)",
               "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF55FF"
-            },
-            {
-              "text": " ",
-              "color": "#FF55FF"
-            },
-            {
-              "text": "Duration: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "60s",
-              "color": "#FFFFFF"
             }
           ]
         ],
@@ -21486,84 +21771,16 @@
           ],
           [
             {
-              "text": "dealing reduced damage after piercing.",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "(Damage is dealt as ",
-              "color": "#555555"
-            },
-            {
-              "text": "Main Attack",
-              "underline": true,
-              "color": "#555555"
-            },
-            {
-              "text": " Damage)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
+              "text": "dealing ",
               "color": "#AAAAAA"
             },
             {
-              "text": "-150% ",
+              "text": "20%",
               "color": "#FF5555"
             },
             {
-              "text": "(after piercing)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "-150%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
+              "text": " less damage to secondary targets.",
+              "color": "#AAAAAA"
             }
           ]
         ],
@@ -21855,9 +22072,9 @@
       },
       {
         "id": 65,
-        "name": "Bouncing Bomb",
-        "formattedName": "§#f747c2ff§lBouncing Bomb",
-        "abilityTreeNodeType": "purpleAbilityLocked",
+        "name": "Vigilant Sentinels",
+        "formattedName": "§#99e9ffff§lVigilant Sentinels",
+        "abilityTreeNodeType": "blueAbilityLocked",
         "description": [
           [
             {
@@ -21867,34 +22084,259 @@
           ],
           [
             {
-              "text": "Arrow Bomb",
+              "text": "Increase ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Guardian Angels",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": " will travel ",
+              "text": "\u0027 range and damage.",
+              "color": "#AAAAAA"
+            }
+          ],
+          [],
+          [
+            {
+              "text": "Casting ",
               "color": "#AAAAAA"
             },
             {
-              "text": "20%",
-              "color": "#FFFFFF"
+              "text": "Arrow Shield",
+              "underline": true,
+              "color": "#AAAAAA"
             },
             {
-              "text": " slower and",
+              "text": " while ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Guardian Angels",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " are active",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "bounce once when hitting a block or enemy.",
+              "text": "will also cast ",
               "color": "#AAAAAA"
+            },
+            {
+              "text": "Buckshot",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": ". Increase ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Buckshot",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "\u0027s damage.",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Total Damage: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+30% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS, for ",
+              "color": "#555555"
+            },
+            {
+              "text": "Guardian Angels",
+              "underline": true,
+              "color": "#555555"
+            },
+            {
+              "text": ", per shot)",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFAA00"
+            },
+            {
+              "text": " ",
+              "color": "#FFAA00"
+            },
+            {
+              "text": "Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "+25%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Fire: ",
+              "color": "#555555"
+            },
+            {
+              "text": "+5%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AA00"
+            },
+            {
+              "text": " ",
+              "color": "#00AA00"
+            },
+            {
+              "text": "Range: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+3 Blocks",
+              "color": "#FFFFFF"
+            }
+          ],
+          [],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Total Damage: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+3% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS, for ",
+              "color": "#555555"
+            },
+            {
+              "text": "Buckshot",
+              "underline": true,
+              "color": "#555555"
+            },
+            {
+              "text": ", per arrow)",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFAA00"
+            },
+            {
+              "text": " ",
+              "color": "#FFAA00"
+            },
+            {
+              "text": "Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "+3%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
             }
           ]
         ],
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": null,
+        "requiredAbility": "Guardian Angels",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -21908,7 +22350,8 @@
         },
         "connections": [
           70,
-          66
+          66,
+          71
         ]
       },
       {
@@ -21977,7 +22420,7 @@
           "col": 4
         },
         "connections": [
-          72,
+          71,
           68
         ]
       },
@@ -22049,16 +22492,15 @@
         "connections": [
           68,
           66,
-          72,
           73,
           69
         ]
       },
       {
         "id": 68,
-        "name": "Hookshot",
-        "formattedName": "§f§lHookshot",
-        "abilityTreeNodeType": "whiteAbilityLocked",
+        "name": "Homing Shots",
+        "formattedName": "§#ffe14dff§lHoming Shots",
+        "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           [
             {
@@ -22068,63 +22510,38 @@
           ],
           [
             {
-              "text": "Increases your ",
+              "text": "Your ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Grappling Hook",
+              "text": "Main Attack",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": "\u0027s",
+              "text": " arrows will follow nearby",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "range, speed and strength.",
+              "text": "enemies and will be unaffected by gravity.",
               "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#00AA00"
-            },
-            {
-              "text": " ",
-              "color": "#00AA00"
-            },
-            {
-              "text": "Range: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+8 Blocks",
-              "color": "#FFFFFF"
             }
           ]
         ],
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Grappling Hook",
+        "requiredAbility": null,
         "requiredArchetype": {
-          "name": "Trapper",
+          "name": "Sharpshooter",
           "required": 2
         },
         "requiredLevel": 0,
         "archetypeInfo": {
-          "archetype": "Trapper",
-          "color": "#87dd47ff"
+          "archetype": "Sharpshooter",
+          "color": "#eb3dfeff"
         },
         "location": {
           "page": 6,
@@ -22314,12 +22731,113 @@
         },
         "connections": [
           76,
-          79,
+          78,
           74
         ]
       },
       {
         "id": 71,
+        "name": "Minefield",
+        "formattedName": "§f§lMinefield",
+        "abilityTreeNodeType": "whiteAbilityLocked",
+        "description": [
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Increases your maximum ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Explosive Traps",
+              "color": "#55FFFF"
+            }
+          ],
+          [
+            {
+              "text": "by ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+3",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " and maximum ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Bear Traps",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " by ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+1",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ".",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": " ",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Grape Bomb",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " gains ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+1",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " grape.",
+              "color": "#AAAAAA"
+            }
+          ]
+        ],
+        "cost": 1,
+        "willBlock": [],
+        "blockedBy": [],
+        "requiredAbility": "Grape Bomb",
+        "requiredArchetype": {
+          "name": "Trapper",
+          "required": 2
+        },
+        "requiredLevel": 0,
+        "archetypeInfo": {
+          "archetype": "Trapper",
+          "color": "#87dd47ff"
+        },
+        "location": {
+          "page": 7,
+          "row": 1,
+          "col": 3
+        },
+        "connections": [
+          72,
+          75
+        ]
+      },
+      {
+        "id": 72,
         "name": "Beast Lore",
         "formattedName": "§f§lBeast Lore",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -22376,77 +22894,24 @@
           ],
           [
             {
-              "text": "Increase the damage of your ",
+              "text": "Increase your maximum ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Hound",
+              "text": "Hounds",
               "color": "#55FFFF"
+            },
+            {
+              "text": " by ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+1",
+              "color": "#FFFFFF"
             },
             {
               "text": ".",
               "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+40% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(of your DPS)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+40%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
             }
           ]
         ],
@@ -22468,189 +22933,10 @@
         "location": {
           "page": 7,
           "row": 1,
-          "col": 3
-        },
-        "connections": [
-          75
-        ]
-      },
-      {
-        "id": 72,
-        "name": "Tangled Traps",
-        "formattedName": "§#f747c2ff§lTangled Traps",
-        "abilityTreeNodeType": "purpleAbilityLocked",
-        "description": [
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "Your ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Traps",
-              "color": "#55FFFF"
-            },
-            {
-              "text": " will be connected by a rope",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "that deals damage to enemies every ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "0.2s",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "Grape Bomb",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": " gains ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+1",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": " grape.",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "40% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(of your DPS)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "20%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": " ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Air: ",
-              "color": "#555555"
-            },
-            {
-              "text": "20%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
-          ]
-        ],
-        "cost": 2,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Basaltic Trap",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetypeInfo": {
-          "archetype": "Trapper",
-          "color": "#87dd47ff"
-        },
-        "location": {
-          "page": 7,
-          "row": 1,
           "col": 5
         },
         "connections": [
-          75,
-          71
+          75
         ]
       },
       {
@@ -22770,7 +23056,7 @@
           "col": 7
         },
         "connections": [
-          78
+          77
         ]
       },
       {
@@ -22838,8 +23124,8 @@
       },
       {
         "id": 75,
-        "name": "Chilling Snare",
-        "formattedName": "§#ff4545ff§lChilling Snare",
+        "name": "Tangled Traps",
+        "formattedName": "§#ff4545ff§lTangled Traps",
         "abilityTreeNodeType": "redAbilityLocked",
         "description": [
           [
@@ -22850,36 +23136,29 @@
           ],
           [
             {
-              "text": "Attach an icy snare to ",
+              "text": "Your ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Basaltic Trap",
-              "underline": true,
-              "color": "#AAAAAA"
+              "text": "Explosive Traps",
+              "color": "#55FFFF"
             },
             {
-              "text": ",",
+              "text": " will be connected by barbed wires",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "drastically inhibiting and damaging nearby",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "enemies every ",
+              "text": "that gradually slow and damage enemies every ",
               "color": "#AAAAAA"
             },
             {
-              "text": "0.2s",
+              "text": "0.25s",
               "color": "#FFFFFF"
             },
             {
-              "text": " after it detonates.",
+              "text": ".",
               "color": "#AAAAAA"
             }
           ],
@@ -22891,23 +23170,30 @@
           ],
           [
             {
-              "text": "Increase your maximum ",
+              "text": "The wires scale with ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Traps",
-              "color": "#55FFFF"
-            },
-            {
-              "text": " by ",
+              "text": "Patient Hunter",
+              "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": "+1",
+              "text": " and will",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "linger for ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "2s",
               "color": "#FFFFFF"
             },
             {
-              "text": ".",
+              "text": " after the trap is detonated.",
               "color": "#AAAAAA"
             }
           ],
@@ -22932,7 +23218,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "50% ",
+              "text": "60% ",
               "color": "#FFFFFF"
             },
             {
@@ -22964,7 +23250,7 @@
               "color": "#555555"
             },
             {
-              "text": "40%",
+              "text": "45%",
               "color": "#555555"
             },
             {
@@ -22983,20 +23269,20 @@
               "color": "#555555"
             },
             {
-              "text": "",
+              "text": "",
               "font": "common",
-              "color": "#55FFFF"
+              "color": "#FFFFFF"
             },
             {
               "text": " ",
-              "color": "#55FFFF"
+              "color": "#FFFFFF"
             },
             {
-              "text": "Water: ",
+              "text": "Damage: ",
               "color": "#555555"
             },
             {
-              "text": "10%",
+              "text": "15%",
               "color": "#555555"
             },
             {
@@ -23015,11 +23301,11 @@
               "color": "#FFFF55"
             },
             {
-              "text": "Effects: ",
+              "text": "Effect: ",
               "color": "#AAAAAA"
             },
             {
-              "text": "10% ",
+              "text": "4% ",
               "color": "#FFFFFF"
             },
             {
@@ -23032,31 +23318,12 @@
               "color": "#FF5555"
             },
             {
-              "text": ") to Enemies, per hit ",
+              "text": ") to Enemies ",
               "color": "#AAAAAA"
             },
             {
-              "text": "(Max 90%)",
+              "text": "(Max 40%)",
               "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF55FF"
-            },
-            {
-              "text": " ",
-              "color": "#FF55FF"
-            },
-            {
-              "text": "Duration: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "5s",
-              "color": "#FFFFFF"
             }
           ],
           [
@@ -23074,30 +23341,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "7 Blocks ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(Circle-Shaped)",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#4DFFC3"
-            },
-            {
-              "text": " ",
-              "color": "#4DFFC3"
-            },
-            {
-              "text": "Cooldown: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "12s",
+              "text": "1 Block",
               "color": "#FFFFFF"
             }
           ]
@@ -23108,7 +23352,7 @@
         "requiredAbility": "Basaltic Trap",
         "requiredArchetype": {
           "name": "Trapper",
-          "required": 11
+          "required": 12
         },
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -23121,9 +23365,9 @@
           "col": 4
         },
         "connections": [
+          79,
           77,
-          78,
-          81
+          80
         ]
       },
       {
@@ -23190,95 +23434,6 @@
       },
       {
         "id": 77,
-        "name": "Swift Primer",
-        "formattedName": "§f§lSwift Primer",
-        "abilityTreeNodeType": "whiteAbilityLocked",
-        "description": [
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "Patient Hunter",
-              "underline": true,
-              "color": "#AAAAAA"
-            },
-            {
-              "text": " will increase its damage by ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+10%",
-              "color": "#FFFFFF"
-            }
-          ],
-          [
-            {
-              "text": "per second, and increase its Max Damage by ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+100%",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "Increase your maximum ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Traps",
-              "color": "#55FFFF"
-            },
-            {
-              "text": " by ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+1",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
-              "color": "#AAAAAA"
-            }
-          ]
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Patient Hunter",
-        "requiredArchetype": null,
-        "requiredLevel": 0,
-        "archetypeInfo": {
-          "archetype": "Trapper",
-          "color": "#87dd47ff"
-        },
-        "location": {
-          "page": 7,
-          "row": 3,
-          "col": 3
-        },
-        "connections": [
-          80
-        ]
-      },
-      {
-        "id": 78,
         "name": "Crepuscular Ray",
         "formattedName": "§#ff4545ff§lCrepuscular Ray",
         "abilityTreeNodeType": "redAbilityLocked",
@@ -23514,12 +23669,12 @@
           "col": 7
         },
         "connections": [
-          81,
-          82
+          80,
+          81
         ]
       },
       {
-        "id": 79,
+        "id": 78,
         "name": "Transience",
         "formattedName": "§#99e9ffff§lTransience",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -23558,15 +23713,15 @@
           "col": 1
         },
         "connections": [
-          83,
-          86,
-          80
+          82,
+          79,
+          85
         ]
       },
       {
-        "id": 80,
-        "name": "Snow Storm",
-        "formattedName": "§#ffe14dff§lSnow Storm",
+        "id": 79,
+        "name": "Barbed Barrage",
+        "formattedName": "§#ffe14dff§lBarbed Barrage",
         "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           [
@@ -23577,7 +23732,101 @@
           ],
           [
             {
-              "text": "Enemies near you will be slowed down.",
+              "text": "Your ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Arrow Storm",
+              "underline": true,
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " now inflicts enemies",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "with ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Bleeding ",
+              "color": "#55FFFF"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#F93131"
+            },
+            {
+              "text": " ",
+              "color": "#F93131"
+            },
+            {
+              "text": "for ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+0.5s",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " per hit.",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": " (Max 6s).",
+              "color": "#555555"
+            }
+          ],
+          [],
+          [
+            {
+              "text": "Bleeding",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#F93131"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "enemies take damage every ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "0.5s",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ",",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "take increased damage from your ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "Beasts",
+              "color": "#55FFFF"
+            },
+            {
+              "text": ",",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "and are prioritized by them.",
               "color": "#AAAAAA"
             }
           ],
@@ -23585,6 +23834,61 @@
             {
               "text": " ",
               "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF5555"
+            },
+            {
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Total Damage: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "60% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS, from Bleeding)",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFAA00"
+            },
+            {
+              "text": " ",
+              "color": "#FFAA00"
+            },
+            {
+              "text": "Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "60%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
             }
           ],
           [
@@ -23602,62 +23906,40 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "30% ",
+              "text": "+20% ",
               "color": "#FFFFFF"
             },
             {
-              "text": "Slowness (",
+              "text": "Damage Bonus to Pets",
               "color": "#AAAAAA"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": ") to Enemies",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#00AA00"
-            },
-            {
-              "text": " ",
-              "color": "#00AA00"
-            },
-            {
-              "text": "Range: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "3 Blocks",
-              "color": "#FFFFFF"
             }
           ]
         ],
         "cost": 1,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": null,
-        "requiredArchetype": null,
+        "requiredAbility": "Arrow Storm",
+        "requiredArchetype": {
+          "name": "Trapper",
+          "required": 3
+        },
         "requiredLevel": 0,
-        "archetypeInfo": null,
+        "archetypeInfo": {
+          "archetype": "Trapper",
+          "color": "#87dd47ff"
+        },
         "location": {
           "page": 7,
           "row": 4,
-          "col": 4
+          "col": 3
         },
         "connections": [
-          86,
-          84
+          85,
+          83
         ]
       },
       {
-        "id": 81,
+        "id": 80,
         "name": "Cheaper Arrow Bomb II",
         "formattedName": "§f§lCheaper Arrow Bomb II",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -23722,12 +24004,12 @@
           "col": 6
         },
         "connections": [
-          80,
-          84
+          79,
+          83
         ]
       },
       {
-        "id": 82,
+        "id": 81,
         "name": "More Focus II",
         "formattedName": "§f§lMore Focus II",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -23786,11 +24068,11 @@
           "col": 8
         },
         "connections": [
-          85
+          84
         ]
       },
       {
-        "id": 83,
+        "id": 82,
         "name": "Wild Light",
         "formattedName": "§#f747c2ff§lWild Light",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -23855,43 +24137,39 @@
           "col": 0
         },
         "connections": [
-          86,
-          91
+          85,
+          90
         ]
       },
       {
-        "id": 84,
-        "name": "Fimbulwinter",
-        "formattedName": "§#f747c2ff§lFimbulwinter",
+        "id": 83,
+        "name": "Garrote",
+        "formattedName": "§#f747c2ff§lGarrote",
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           [],
           [
             {
-              "text": "Enemies take additional damage after standing",
+              "text": "Enemies take ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "100%",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": " increased damage from",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "inside of ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Chilling Snare",
+              "text": "Tangled Traps",
               "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": " for ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "2s",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
+              "text": " when it reaches maximum slow.",
               "color": "#AAAAAA"
             }
           ],
@@ -23907,7 +24185,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Traps",
+              "text": "Explosive Traps",
               "color": "#55FFFF"
             },
             {
@@ -23915,112 +24193,19 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+1",
+              "text": "+2",
               "color": "#FFFFFF"
             },
             {
               "text": ".",
               "color": "#AAAAAA"
             }
-          ],
-          [
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FF5555"
-            },
-            {
-              "text": " ",
-              "color": "#FF5555"
-            },
-            {
-              "text": "Total Damage: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+1200% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "(of your DPS)",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#FFAA00"
-            },
-            {
-              "text": " ",
-              "color": "#FFAA00"
-            },
-            {
-              "text": "Damage: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+800%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
-          ],
-          [
-            {
-              "text": "  ",
-              "color": "#AAAAAA",
-              "margin-left": "large"
-            },
-            {
-              "text": "(",
-              "color": "#555555"
-            },
-            {
-              "text": "",
-              "font": "common",
-              "color": "#55FFFF"
-            },
-            {
-              "text": " ",
-              "color": "#55FFFF"
-            },
-            {
-              "text": "Water: ",
-              "color": "#555555"
-            },
-            {
-              "text": "+400%",
-              "color": "#555555"
-            },
-            {
-              "text": ")",
-              "color": "#555555"
-            }
           ]
         ],
         "cost": 2,
         "willBlock": [],
         "blockedBy": [],
-        "requiredAbility": "Chilling Snare",
+        "requiredAbility": "Tangled Traps",
         "requiredArchetype": null,
         "requiredLevel": 0,
         "archetypeInfo": {
@@ -24033,11 +24218,11 @@
           "col": 5
         },
         "connections": [
-          87
+          86
         ]
       },
       {
-        "id": 85,
+        "id": 84,
         "name": "Warding Wisps",
         "formattedName": "§#99e9ffff§lWarding Wisps",
         "abilityTreeNodeType": "blueAbilityLocked",
@@ -24284,13 +24469,13 @@
           "col": 8
         },
         "connections": [
-          88,
-          90,
-          94
+          87,
+          89,
+          92
         ]
       },
       {
-        "id": 86,
+        "id": 85,
         "name": "Shrieking Arrows",
         "formattedName": "§f§lShrieking Arrows",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -24541,13 +24726,12 @@
           "col": 2
         },
         "connections": [
-          91,
-          87,
-          92
+          90,
+          86
         ]
       },
       {
-        "id": 87,
+        "id": 86,
         "name": "Overgrowth",
         "formattedName": "§f§lOvergrowth",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -24624,14 +24808,13 @@
           "col": 4
         },
         "connections": [
-          92,
-          97,
-          88,
-          89
+          95,
+          87,
+          88
         ]
       },
       {
-        "id": 88,
+        "id": 87,
         "name": "Quick Draw",
         "formattedName": "§#f747c2ff§lQuick Draw",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -24717,11 +24900,11 @@
           "col": 6
         },
         "connections": [
-          89
+          88
         ]
       },
       {
-        "id": 89,
+        "id": 88,
         "name": "Sniffer Dog",
         "formattedName": "§#f747c2ff§lSniffer Dog",
         "abilityTreeNodeType": "purpleAbilityLocked",
@@ -24805,7 +24988,7 @@
         "connections": []
       },
       {
-        "id": 90,
+        "id": 89,
         "name": "Repel",
         "formattedName": "§#ffe14dff§lRepel",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -24968,11 +25151,11 @@
           "col": 7
         },
         "connections": [
-          93
+          91
         ]
       },
       {
-        "id": 91,
+        "id": 90,
         "name": "Pyrotechnics",
         "formattedName": "§#ffe14dff§lPyrotechnics",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -25225,61 +25408,11 @@
           "col": 1
         },
         "connections": [
-          95
+          93
         ]
       },
       {
-        "id": 92,
-        "name": "Canine Colleague",
-        "formattedName": "§f§lCanine Colleague",
-        "abilityTreeNodeType": "whiteAbilityLocked",
-        "description": [
-          [],
-          [
-            {
-              "text": "Increase your maximum ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Hounds",
-              "color": "#55FFFF"
-            },
-            {
-              "text": " by ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+1",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": ".",
-              "color": "#AAAAAA"
-            }
-          ]
-        ],
-        "cost": 1,
-        "willBlock": [],
-        "blockedBy": [],
-        "requiredAbility": "Call of the Hound",
-        "requiredArchetype": {
-          "name": "Trapper",
-          "required": 12
-        },
-        "requiredLevel": 0,
-        "archetypeInfo": {
-          "archetype": "Trapper",
-          "color": "#87dd47ff"
-        },
-        "location": {
-          "page": 8,
-          "row": 4,
-          "col": 3
-        },
-        "connections": []
-      },
-      {
-        "id": 93,
+        "id": 91,
         "name": "Mael\u0027s Quiver",
         "formattedName": "§f§lMael\u0027s Quiver",
         "abilityTreeNodeType": "whiteAbilityLocked",
@@ -25415,11 +25548,11 @@
           "col": 6
         },
         "connections": [
-          96
+          94
         ]
       },
       {
-        "id": 94,
+        "id": 92,
         "name": "Repositioning",
         "formattedName": "§#ffe14dff§lRepositioning",
         "abilityTreeNodeType": "yellowAbilityLocked",
@@ -25462,19 +25595,11 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+80% ",
+              "text": "+60% ",
               "color": "#FFFFFF"
             },
             {
-              "text": "Walk Speed (",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "➲",
-              "color": "#00AAAA"
-            },
-            {
-              "text": ") to Self",
+              "text": "Walk Speed to Self",
               "color": "#AAAAAA"
             }
           ],
@@ -25514,12 +25639,12 @@
           "col": 8
         },
         "connections": [
-          93,
-          96
+          91,
+          94
         ]
       },
       {
-        "id": 95,
+        "id": 93,
         "name": "Angelic Ascension",
         "formattedName": "§#ac22acff§lAngelic Ascension",
         "abilityTreeNodeType": "boltslingerUltimateLocked",
@@ -25872,7 +25997,7 @@
         "connections": []
       },
       {
-        "id": 96,
+        "id": 94,
         "name": "The Twilight Zone",
         "formattedName": "§#ac22acff§lThe Twilight Zone",
         "abilityTreeNodeType": "sharpshooterUltimateLocked",
@@ -26358,7 +26483,7 @@
         "connections": []
       },
       {
-        "id": 97,
+        "id": 95,
         "name": "Extinction Event",
         "formattedName": "§#ac22acff§lExtinction Event",
         "abilityTreeNodeType": "trapperUltimateLocked",
@@ -26416,7 +26541,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Chilling Snares",
+              "text": "Rusted Maws",
               "underline": true,
               "color": "#AAAAAA"
             },
@@ -26597,7 +26722,7 @@
         "requiredAbility": null,
         "requiredArchetype": {
           "name": "Trapper",
-          "required": 16
+          "required": 17
         },
         "requiredLevel": 90,
         "archetypeInfo": {
@@ -27181,7 +27306,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "(Max 20%)",
+              "text": "(Max 15%)",
               "color": "#555555"
             }
           ],
@@ -29653,8 +29778,12 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "75%",
+              "text": "75% ",
               "color": "#FFFFFF"
+            },
+            {
+              "text": "(of your DPS)",
+              "color": "#555555"
             }
           ],
           [
@@ -31456,8 +31585,12 @@
               "color": "#AA0000"
             },
             {
-              "text": ". (Max +55%)",
+              "text": ". ",
               "color": "#AAAAAA"
+            },
+            {
+              "text": "(Max +55%)",
+              "color": "#555555"
             }
           ]
         ],
@@ -31518,7 +31651,7 @@
           ],
           [
             {
-              "text": "(Max 20 activations within 4s.)",
+              "text": "(Max 20 activations within 4s)",
               "color": "#555555"
             }
           ],
@@ -31930,7 +32063,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+20%",
+              "text": "+15%",
               "color": "#FFFFFF"
             },
             {
@@ -34456,7 +34589,7 @@
           ],
           [
             {
-              "text": "Increases the damage and mana cost",
+              "text": "Increases the damage and Mana cost",
               "color": "#AAAAAA"
             }
           ],
@@ -37243,8 +37376,12 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "Invincibility (",
+              "text": "Invincibility ",
               "color": "#FFFFFF"
+            },
+            {
+              "text": "(",
+              "color": "#AAAAAA"
             },
             {
               "text": "☗",
@@ -37252,7 +37389,7 @@
             },
             {
               "text": ") to Allies",
-              "color": "#FFFFFF"
+              "color": "#AAAAAA"
             }
           ],
           [
@@ -37619,7 +37756,7 @@
           [
             {
               "text": "(Max +150%)",
-              "color": "#AAAAAA"
+              "color": "#555555"
             }
           ]
         ],
@@ -37765,19 +37902,23 @@
               "color": "#AAAAAA"
             },
             {
-              "text": ". (Max 5)",
+              "text": ". ",
               "color": "#AAAAAA"
+            },
+            {
+              "text": "(Max 5)",
+              "color": "#555555"
             }
           ],
           [
             {
               "text": "(Damage is dealt as ",
-              "color": "#555555"
+              "color": "#AAAAAA"
             },
             {
               "text": "Main Attack Damage",
               "underline": true,
-              "color": "#555555"
+              "color": "#AAAAAA"
             },
             {
               "text": ")",
@@ -38105,8 +38246,12 @@
               "color": "#FFFFFF"
             },
             {
-              "text": ". (Max 5)",
+              "text": ". ",
               "color": "#AAAAAA"
+            },
+            {
+              "text": "(Max 5)",
+              "color": "#555555"
             }
           ],
           [],
@@ -48805,7 +48950,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+2 ",
+              "text": "+3 ",
               "color": "#FFFFFF"
             },
             {
@@ -48841,6 +48986,12 @@
             {
               "text": "you consume with your abilities.",
               "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "(Max 30 Mana per second)",
+              "color": "#555555"
             }
           ]
         ],
@@ -50405,7 +50556,21 @@
               "color": "#FFFFFF"
             },
             {
-              "text": "Mana.",
+              "text": "Mana and increase",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "Mana gain maximum per second by ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+20",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": ".",
               "color": "#AAAAAA"
             }
           ]
@@ -50498,25 +50663,17 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+50% ",
+              "text": "+35% ",
               "color": "#FFFFFF"
             },
             {
-              "text": "Walk Speed (",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "➲",
-              "color": "#00AAAA"
-            },
-            {
-              "text": ")",
+              "text": "Walk Speed after",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "after hitting a successful ",
+              "text": "hitting a successful ",
               "color": "#AAAAAA"
             },
             {
@@ -50836,29 +50993,13 @@
           [],
           [
             {
-              "text": "Gain ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "+20% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Walk Speed (",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "➲",
-              "color": "#00AAAA"
-            },
-            {
-              "text": ")",
+              "text": "Gain a speed boost after",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "after losing a ",
+              "text": "losing a ",
               "color": "#AAAAAA"
             },
             {
@@ -50876,6 +51017,29 @@
             }
           ],
           [],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FFFF55"
+            },
+            {
+              "text": " ",
+              "color": "#FFFF55"
+            },
+            {
+              "text": "Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "+25% ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "Walk Speed to Self",
+              "color": "#AAAAAA"
+            }
+          ],
           [
             {
               "text": "",
@@ -54454,7 +54618,13 @@
           ],
           [
             {
-              "text": "will deal damage around you.",
+              "text": "summons a log that barrels forward,",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "damaging and slowing enemies it hits.",
               "color": "#AAAAAA"
             }
           ],
@@ -54548,6 +54718,48 @@
           ],
           [
             {
+              "text": "",
+              "font": "common",
+              "color": "#FFFF55"
+            },
+            {
+              "text": " ",
+              "color": "#FFFF55"
+            },
+            {
+              "text": "Effect: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "30% Slowness ",
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "to Enemies",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "3s",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
               "text": "",
               "font": "common",
               "color": "#00AAAA"
@@ -54561,12 +54773,31 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "4.5 Blocks ",
+              "text": "4 Blocks ",
               "color": "#FFFFFF"
             },
             {
-              "text": "(Circle-Shaped)",
+              "text": "(Rectangle-Shaped)",
               "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AA00"
+            },
+            {
+              "text": " ",
+              "color": "#00AA00"
+            },
+            {
+              "text": "Range: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "15 Blocks",
+              "color": "#FFFFFF"
             }
           ]
         ],
@@ -55563,7 +55794,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+50% ",
+              "text": "+40% ",
               "color": "#FFFFFF"
             },
             {
@@ -55952,8 +56183,8 @@
       },
       {
         "id": 26,
-        "name": "Stagnation",
-        "formattedName": "§#ffe14dff§lStagnation",
+        "name": "Rollback",
+        "formattedName": "§#ffe14dff§lRollback",
         "abilityTreeNodeType": "yellowAbilityLocked",
         "description": [
           [
@@ -55964,71 +56195,113 @@
           ],
           [
             {
-              "text": "Enemies hit by ",
+              "text": "Nature\u0027s Jolt",
+              "underline": true,
               "color": "#AAAAAA"
             },
             {
-              "text": "Nature\u0027s Jolt",
-              "underline": true,
+              "text": " rolls back after hitting",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "will be slowed down.",
+              "text": "a block or reaching maximum range,",
+              "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "hitting enemies on the way back.",
               "color": "#AAAAAA"
             }
           ],
           [],
           [
             {
-              "text": "",
-              "font": "common",
-              "color": "#FFFF55"
-            },
-            {
-              "text": " ",
-              "color": "#FFFF55"
-            },
-            {
-              "text": "Effect: ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "40% ",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": "Slowness (",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "",
+              "text": "",
               "font": "common",
               "color": "#FF5555"
             },
             {
-              "text": ") to Enemies",
-              "color": "#AAAAAA"
+              "text": " ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "Total Damage: ",
+              "color": "#555555"
+            },
+            {
+              "text": "-30% ",
+              "color": "#FF5555"
+            },
+            {
+              "text": "(of your DPS)",
+              "color": "#555555"
             }
           ],
           [
             {
-              "text": "",
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
               "font": "common",
-              "color": "#FF55FF"
+              "color": "#FFAA00"
             },
             {
               "text": " ",
-              "color": "#FF55FF"
+              "color": "#FFAA00"
             },
             {
-              "text": "Duration: ",
-              "color": "#AAAAAA"
+              "text": "Damage: ",
+              "color": "#555555"
             },
             {
-              "text": "3s",
-              "color": "#FFFFFF"
+              "text": "-20%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
+            }
+          ],
+          [
+            {
+              "text": "  ",
+              "color": "#AAAAAA",
+              "margin-left": "large"
+            },
+            {
+              "text": "(",
+              "color": "#555555"
+            },
+            {
+              "text": "",
+              "font": "common",
+              "color": "#00AA00"
+            },
+            {
+              "text": " ",
+              "color": "#00AA00"
+            },
+            {
+              "text": "Earth: ",
+              "color": "#555555"
+            },
+            {
+              "text": "-10%",
+              "color": "#555555"
+            },
+            {
+              "text": ")",
+              "color": "#555555"
             }
           ]
         ],
@@ -59975,7 +60248,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "20%",
+              "text": "8%",
               "color": "#FFFFFF"
             },
             {
@@ -60228,7 +60501,7 @@
           [],
           [
             {
-              "text": "When entering the ",
+              "text": "Entering the ",
               "color": "#AAAAAA"
             },
             {
@@ -60237,43 +60510,39 @@
               "color": "#99E9FF"
             },
             {
-              "text": " Mask of the Heretic",
+              "text": " ",
               "color": "#99E9FF"
             },
             {
-              "text": ", regenerate",
+              "text": "Mask of the Heretic",
+              "color": "#55FFFF"
+            },
+            {
+              "text": " restores ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "25%",
+              "color": "#FFFFFF"
+            }
+          ],
+          [
+            {
+              "text": "of your Mana and grants a walk speed boost",
               "color": "#AAAAAA"
             }
           ],
           [
             {
-              "text": "30%",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": " of your ",
+              "text": "that starts decaying over ",
               "color": "#AAAAAA"
             },
             {
-              "text": "Mana",
+              "text": "6s",
               "color": "#FFFFFF"
             },
             {
-              "text": ", and gain a large ",
-              "color": "#AAAAAA"
-            },
-            {
-              "text": "Walk Speed",
-              "color": "#FFFFFF"
-            },
-            {
-              "text": " ",
-              "color": "#AAAAAA"
-            }
-          ],
-          [
-            {
-              "text": "boost that decays over ",
+              "text": " after ",
               "color": "#AAAAAA"
             },
             {
@@ -60288,7 +60557,12 @@
           [],
           [
             {
-              "text": "✧ ",
+              "text": "",
+              "font": "common",
+              "color": "#FFFF55"
+            },
+            {
+              "text": " ",
               "color": "#FFFF55"
             },
             {
@@ -60296,12 +60570,31 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+120% ",
+              "text": "+60%",
               "color": "#FFFFFF"
             },
             {
-              "text": "Walk Speed to self",
+              "text": " Walk Speed to Self",
               "color": "#AAAAAA"
+            }
+          ],
+          [
+            {
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
+              "color": "#FF55FF"
+            },
+            {
+              "text": "Duration: ",
+              "color": "#AAAAAA"
+            },
+            {
+              "text": "12s",
+              "color": "#FFFFFF"
             }
           ],
           [
@@ -60908,7 +61201,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+1 ",
+              "text": "+2 ",
               "color": "#FFFFFF"
             },
             {
@@ -61373,7 +61666,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+8% ",
+              "text": "+4% ",
               "color": "#FFFFFF"
             },
             {
@@ -61397,7 +61690,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+3% ",
+              "text": "+2% ",
               "color": "#FFFFFF"
             },
             {
@@ -61408,7 +61701,12 @@
           [],
           [
             {
-              "text": "⌛ ",
+              "text": "",
+              "font": "common",
+              "color": "#FF55FF"
+            },
+            {
+              "text": " ",
               "color": "#FF55FF"
             },
             {
@@ -61420,13 +61718,18 @@
               "color": "#FFFFFF"
             },
             {
-              "text": "(per stack)",
+              "text": "(Per Stack)",
               "color": "#555555"
             }
           ],
           [
             {
-              "text": "☀ ",
+              "text": "",
+              "font": "common",
+              "color": "#00AAAA"
+            },
+            {
+              "text": " ",
               "color": "#00AAAA"
             },
             {
@@ -61887,7 +62190,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+40% ",
+              "text": "+30% ",
               "color": "#FFFFFF"
             },
             {
@@ -62177,11 +62480,11 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+3",
+              "text": "+2.25",
               "color": "#FFFFFF"
             },
             {
-              "text": " mana.",
+              "text": " Mana.",
               "color": "#AAAAAA"
             }
           ],
@@ -62797,7 +63100,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "+20% ",
+              "text": "+15% ",
               "color": "#FFFFFF"
             },
             {
@@ -62913,7 +63216,7 @@
           ],
           [
             {
-              "text": "5",
+              "text": "4",
               "color": "#FFFFFF"
             },
             {
@@ -64403,8 +64706,8 @@
       },
       {
         "id": 87,
-        "name": "Overcharge",
-        "formattedName": "§#f747c2ff§lOvercharge",
+        "name": "Encore",
+        "formattedName": "§#f747c2ff§lEncore",
         "abilityTreeNodeType": "purpleAbilityLocked",
         "description": [
           [],
@@ -65006,7 +65309,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "15s",
+              "text": "10s",
               "color": "#FFFFFF"
             }
           ]
@@ -65562,7 +65865,7 @@
               "color": "#AAAAAA"
             },
             {
-              "text": "1s",
+              "text": "2s",
               "color": "#FFFFFF"
             },
             {
