@@ -561,6 +561,33 @@
       },
       "name": "Blind Burrow",
       "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 598,
+        "y": 93,
+        "z": -295
+      },
+      "name": "Interconnected Incomprehensibility",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 680,
+        "y": 76,
+        "z": -606
+      },
+      "name": "Uncovered Excavation",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 496,
+        "y": 86,
+        "z": -482
+      },
+      "name": "Irtitack Infestation",
+      "taskType": "loot"
     }
   ],
   "skyIslandsExploration": [
@@ -916,6 +943,170 @@
       },
       "name": "Seismic Bore Hole",
       "taskType": "loot"
+    }
+  ],
+  "canyonOfTheLostExcursionNorth": [
+    {
+      "location": {
+        "x": 604,
+        "y": 27,
+        "z": -5074
+      },
+      "name": "Abyssal Shine",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 828,
+        "y": 45,
+        "z": -5353
+      },
+      "name": "Blaze Springs",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 645,
+        "y": 88,
+        "z": -5328
+      },
+      "name": "Broodmother's Bestiary",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 600,
+        "y": 37,
+        "z": -5266
+      },
+      "name": "Cyclonic Spirit Trap",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 506,
+        "y": 78,
+        "z": -5299
+      },
+      "name": "Deserter's Camp",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 715,
+        "y": 47,
+        "z": -5495
+      },
+      "name": "Gorgon Gorge",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 411,
+        "y": 39,
+        "z": -5168
+      },
+      "name": "Plasmatic Gouge",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 858,
+        "y": 77,
+        "z": -5198
+      },
+      "name": "Troll Burrows",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 536,
+        "y": 27,
+        "z": -5363
+      },
+      "name": "Tributary Waterfall",
+      "taskType": "loot"
+    },
+    {
+      "location": {
+        "x": 396,
+        "y": 32,
+        "z": -5479
+      },
+      "name": "Training Exercise",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 701,
+        "y": 208,
+        "z": -5203
+      },
+      "name": "Flock Gathering",
+      "taskType": "slay"
+    },
+    {
+      "location": {
+        "x": 524,
+        "y": 31,
+        "z": -5449
+      },
+      "name": "Black & White",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 1015,
+        "y": 39,
+        "z": -5287
+      },
+      "name": "Entombed Elementals",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 727,
+        "y": 45,
+        "z": -5301
+      },
+      "name": "Tuff & Rumble",
+      "taskType": "target"
+    },
+    {
+      "location": {
+        "x": 679,
+        "y": 78,
+        "z": -4982
+      },
+      "name": "Canary's Recall",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 241,
+        "y": 119,
+        "z": -5218
+      },
+      "name": "Ozoth Poachers",
+      "taskType": "defend"
+    },
+    {
+      "location": {
+        "x": 984,
+        "y": 98,
+        "z": -5420
+      },
+      "name": "Eltom Discoverers",
+      "taskType": "destroy"
+    },
+    {
+      "location": {
+        "x": 462,
+        "y": 67,
+        "z": -5292
+      },
+      "name": "Impending Eviction",
+      "taskType": "destroy"
     }
   ],
   "theFrumaForayWest": [
