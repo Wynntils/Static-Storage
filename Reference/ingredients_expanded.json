@@ -21529,6 +21529,59 @@
     "tier": "TIER_1",
     "type": "ingredient"
   },
+  "Contorted Stone": {
+    "consumableOnlyIDs": {
+      "charges": 0,
+      "duration": 0
+    },
+    "emblem": "square",
+    "icon": {
+      "format": "skin",
+      "value": "7840b87d52271d2a755dedc82877e0ed3df67dcc42ea479ec146176b02779a5"
+    },
+    "identifications": {
+      "healthRegenRaw": {
+        "max": -21,
+        "min": -49,
+        "raw": -49
+      },
+      "rawEarthMainAttackDamage": {
+        "max": 50,
+        "min": 40,
+        "raw": 40
+      },
+      "rawStrength": {
+        "max": 12,
+        "min": 9,
+        "raw": 9
+      }
+    },
+    "ingredientPositionModifiers": {
+      "above": 0,
+      "left": 0,
+      "notTouching": 0,
+      "right": 0,
+      "touching": 0,
+      "under": 0
+    },
+    "internalName": "Contorted Stone",
+    "itemOnlyIDs": {
+      "agilityRequirement": 0,
+      "defenceRequirement": 0,
+      "dexterityRequirement": 0,
+      "durabilityModifier": -155000,
+      "intelligenceRequirement": 0,
+      "strengthRequirement": 0
+    },
+    "requirements": {
+      "level": 97,
+      "skills": [
+        "weaponsmithing"
+      ]
+    },
+    "tier": "TIER_3",
+    "type": "ingredient"
+  },
   "Contraband Absinthe": {
     "consumableOnlyIDs": {
       "charges": 0,
@@ -82565,6 +82618,57 @@
       ]
     },
     "tier": "TIER_1",
+    "type": "ingredient"
+  },
+  "Ominous Pearl": {
+    "consumableOnlyIDs": {
+      "charges": 0,
+      "duration": -94
+    },
+    "emblem": "square",
+    "icon": {
+      "format": "attribute",
+      "value": {
+        "customModelData": {
+          "rangeDispatch": [
+            2327
+          ]
+        },
+        "id": "minecraft:potion",
+        "name": "ingredient.ominousPearl"
+      }
+    },
+    "identifications": {
+      "combatExperience": {
+        "max": 6,
+        "min": 4,
+        "raw": 4
+      }
+    },
+    "ingredientPositionModifiers": {
+      "above": 0,
+      "left": 0,
+      "notTouching": 0,
+      "right": 0,
+      "touching": 0,
+      "under": 0
+    },
+    "internalName": "Ominous Pearl",
+    "itemOnlyIDs": {
+      "agilityRequirement": 0,
+      "defenceRequirement": 0,
+      "dexterityRequirement": 0,
+      "durabilityModifier": 0,
+      "intelligenceRequirement": 0,
+      "strengthRequirement": 0
+    },
+    "requirements": {
+      "level": 97,
+      "skills": [
+        "alchemism"
+      ]
+    },
+    "tier": "TIER_0",
     "type": "ingredient"
   },
   "Optic Fiber": {
