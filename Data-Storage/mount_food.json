@@ -1,788 +1,2750 @@
-{
-  "ingot": {
-    "1": {
-      "mountStats": {
-        "energy": 4,
-        "toughness": 8
+[
+  {
+    "resourceType": "ingot",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 4
+      },
+      "toughness": {
+        "current": 0,
+        "max": 8
       }
     },
-    "10": {
-      "mountStats": {
-        "energy": 5,
-        "toughness": 10
-      }
-    },
-    "20": {
-      "mountStats": {
-        "energy": 5,
-        "toughness": 12
-      }
-    },
-    "30": {
-      "mountStats": {
-        "energy": 6,
-        "toughness": 14
-      }
-    },
-    "40": {
-      "mountStats": {
-        "energy": 6,
-        "toughness": 16
-      }
-    },
-    "50": {
-      "mountStats": {
-        "energy": 7,
-        "toughness": 18
-      }
-    },
-    "60": {
-      "mountStats": {
-        "energy": 8,
-        "toughness": 20
-      }
-    },
-    "70": {
-      "mountStats": {
-        "energy": 8,
-        "toughness": 22
-      }
-    },
-    "80": {
-      "mountStats": {
-        "energy": 9,
-        "toughness": 24
-      }
-    },
-    "90": {
-      "mountStats": {
-        "energy": 9,
-        "toughness": 26
-      }
-    },
-    "100": {
-      "mountStats": {
-        "energy": 10,
-        "toughness": 28
-      }
-    },
-    "105": {
-      "mountStats": {
-        "energy": 10,
-        "toughness": 29
-      }
-    },
-    "110": {
-      "mountStats": {
-        "energy": 11,
-        "toughness": 30
-      }
-    },
-    "115": {
-      "mountStats": {
-        "energy": 11,
-        "toughness": 31
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "gem": {
-    "1": {
-      "mountStats": {
-        "speed": 4,
-        "energy": 2,
-        "training": 6
+  {
+    "resourceType": "ingot",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "toughness": {
+        "current": 0,
+        "max": 10
       }
     },
-    "10": {
-      "mountStats": {
-        "speed": 5,
-        "energy": 2,
-        "training": 8
-      }
-    },
-    "20": {
-      "mountStats": {
-        "speed": 6,
-        "energy": 3,
-        "training": 9
-      }
-    },
-    "30": {
-      "mountStats": {
-        "speed": 6,
-        "energy": 3,
-        "training": 11
-      }
-    },
-    "40": {
-      "mountStats": {
-        "speed": 7,
-        "energy": 3,
-        "training": 12
-      }
-    },
-    "50": {
-      "mountStats": {
-        "speed": 8,
-        "energy": 4,
-        "training": 14
-      }
-    },
-    "60": {
-      "mountStats": {
-        "speed": 9,
-        "energy": 4,
-        "training": 15
-      }
-    },
-    "70": {
-      "mountStats": {
-        "speed": 10,
-        "energy": 4,
-        "training": 17
-      }
-    },
-    "80": {
-      "mountStats": {
-        "speed": 10,
-        "energy": 4,
-        "training": 18
-      }
-    },
-    "90": {
-      "mountStats": {
-        "speed": 11,
-        "energy": 5,
-        "training": 20
-      }
-    },
-    "100": {
-      "mountStats": {
-        "speed": 12,
-        "energy": 5,
-        "training": 21
-      }
-    },
-    "105": {
-      "mountStats": {
-        "speed": 12,
-        "energy": 5,
-        "training": 22
-      }
-    },
-    "110": {
-      "mountStats": {
-        "speed": 13,
-        "energy": 5,
-        "training": 23
-      }
-    },
-    "115": {
-      "mountStats": {
-        "speed": 13,
-        "energy": 5,
-        "training": 23
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "plank": {
-    "1": {
-      "mountStats": {
-        "speed": 2,
-        "acceleration": 6,
-        "toughness": 4
+  {
+    "resourceType": "ingot",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "toughness": {
+        "current": 0,
+        "max": 12
       }
     },
-    "10": {
-      "mountStats": {
-        "speed": 2,
-        "acceleration": 8,
-        "toughness": 5
-      }
-    },
-    "20": {
-      "mountStats": {
-        "speed": 3,
-        "acceleration": 9,
-        "toughness": 6
-      }
-    },
-    "30": {
-      "mountStats": {
-        "speed": 3,
-        "acceleration": 11,
-        "toughness": 6
-      }
-    },
-    "40": {
-      "mountStats": {
-        "speed": 3,
-        "acceleration": 12,
-        "toughness": 7
-      }
-    },
-    "50": {
-      "mountStats": {
-        "speed": 4,
-        "acceleration": 14,
-        "toughness": 8
-      }
-    },
-    "60": {
-      "mountStats": {
-        "speed": 4,
-        "acceleration": 15,
-        "toughness": 9
-      }
-    },
-    "70": {
-      "mountStats": {
-        "speed": 4,
-        "acceleration": 17,
-        "toughness": 10
-      }
-    },
-    "80": {
-      "mountStats": {
-        "speed": 4,
-        "acceleration": 18,
-        "toughness": 10
-      }
-    },
-    "90": {
-      "mountStats": {
-        "speed": 5,
-        "acceleration": 20,
-        "toughness": 11
-      }
-    },
-    "100": {
-      "mountStats": {
-        "speed": 5,
-        "acceleration": 21,
-        "toughness": 12
-      }
-    },
-    "105": {
-      "mountStats": {
-        "speed": 5,
-        "acceleration": 22,
-        "toughness": 12
-      }
-    },
-    "110": {
-      "mountStats": {
-        "speed": 5,
-        "acceleration": 23,
-        "toughness": 13
-      }
-    },
-    "115": {
-      "mountStats": {
-        "speed": 5,
-        "acceleration": 23,
-        "toughness": 13
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "paper": {
-    "1": {
-      "mountStats": {
-        "jumpHeight": 8,
-        "altitude": 8,
-        "boost": 4
+  {
+    "resourceType": "ingot",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 6
+      },
+      "toughness": {
+        "current": 0,
+        "max": 14
       }
     },
-    "10": {
-      "mountStats": {
-        "jumpHeight": 10,
-        "altitude": 10,
-        "boost": 5
-      }
-    },
-    "20": {
-      "mountStats": {
-        "jumpHeight": 12,
-        "altitude": 12,
-        "boost": 5
-      }
-    },
-    "30": {
-      "mountStats": {
-        "jumpHeight": 14,
-        "altitude": 14,
-        "boost": 6
-      }
-    },
-    "40": {
-      "mountStats": {
-        "jumpHeight": 16,
-        "altitude": 16,
-        "boost": 6
-      }
-    },
-    "50": {
-      "mountStats": {
-        "jumpHeight": 18,
-        "altitude": 18,
-        "boost": 7
-      }
-    },
-    "60": {
-      "mountStats": {
-        "jumpHeight": 20,
-        "altitude": 20,
-        "boost": 8
-      }
-    },
-    "70": {
-      "mountStats": {
-        "jumpHeight": 22,
-        "altitude": 22,
-        "boost": 8
-      }
-    },
-    "80": {
-      "mountStats": {
-        "jumpHeight": 24,
-        "altitude": 24,
-        "boost": 9
-      }
-    },
-    "90": {
-      "mountStats": {
-        "jumpHeight": 26,
-        "altitude": 26,
-        "boost": 9
-      }
-    },
-    "100": {
-      "mountStats": {
-        "jumpHeight": 28,
-        "altitude": 28,
-        "boost": 10
-      }
-    },
-    "105": {
-      "mountStats": {
-        "jumpHeight": 29,
-        "altitude": 29,
-        "boost": 10
-      }
-    },
-    "110": {
-      "mountStats": {
-        "jumpHeight": 30,
-        "altitude": 30,
-        "boost": 11
-      }
-    },
-    "115": {
-      "mountStats": {
-        "jumpHeight": 31,
-        "altitude": 31,
-        "boost": 11
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "string": {
-    "1": {
-      "mountStats": {
-        "acceleration": 2,
-        "handling": 4,
-        "boost": 6
+  {
+    "resourceType": "ingot",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 6
+      },
+      "toughness": {
+        "current": 0,
+        "max": 16
       }
     },
-    "10": {
-      "mountStats": {
-        "acceleration": 2,
-        "handling": 5,
-        "boost": 8
-      }
-    },
-    "20": {
-      "mountStats": {
-        "acceleration": 3,
-        "handling": 6,
-        "boost": 9
-      }
-    },
-    "30": {
-      "mountStats": {
-        "acceleration": 3,
-        "handling": 6,
-        "boost": 11
-      }
-    },
-    "40": {
-      "mountStats": {
-        "acceleration": 3,
-        "handling": 7,
-        "boost": 12
-      }
-    },
-    "50": {
-      "mountStats": {
-        "acceleration": 4,
-        "handling": 8,
-        "boost": 14
-      }
-    },
-    "60": {
-      "mountStats": {
-        "acceleration": 4,
-        "handling": 9,
-        "boost": 15
-      }
-    },
-    "70": {
-      "mountStats": {
-        "acceleration": 4,
-        "handling": 10,
-        "boost": 17
-      }
-    },
-    "80": {
-      "mountStats": {
-        "acceleration": 4,
-        "handling": 10,
-        "boost": 18
-      }
-    },
-    "90": {
-      "mountStats": {
-        "acceleration": 5,
-        "handling": 11,
-        "boost": 20
-      }
-    },
-    "100": {
-      "mountStats": {
-        "acceleration": 5,
-        "handling": 12,
-        "boost": 21
-      }
-    },
-    "105": {
-      "mountStats": {
-        "acceleration": 5,
-        "handling": 12,
-        "boost": 22
-      }
-    },
-    "110": {
-      "mountStats": {
-        "acceleration": 5,
-        "handling": 13,
-        "boost": 23
-      }
-    },
-    "115": {
-      "mountStats": {
-        "acceleration": 5,
-        "handling": 13,
-        "boost": 23
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "grains": {
-    "1": {
-      "mountStats": {
-        "speed": 8,
-        "jumpHeight": 4,
-        "altitude": 4
+  {
+    "resourceType": "ingot",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 7
+      },
+      "toughness": {
+        "current": 0,
+        "max": 18
       }
     },
-    "10": {
-      "mountStats": {
-        "speed": 10,
-        "jumpHeight": 5,
-        "altitude": 5
-      }
-    },
-    "20": {
-      "mountStats": {
-        "speed": 12,
-        "jumpHeight": 5,
-        "altitude": 5
-      }
-    },
-    "30": {
-      "mountStats": {
-        "speed": 14,
-        "jumpHeight": 6,
-        "altitude": 6
-      }
-    },
-    "40": {
-      "mountStats": {
-        "speed": 16,
-        "jumpHeight": 6,
-        "altitude": 6
-      }
-    },
-    "50": {
-      "mountStats": {
-        "speed": 18,
-        "jumpHeight": 7,
-        "altitude": 7
-      }
-    },
-    "60": {
-      "mountStats": {
-        "speed": 20,
-        "jumpHeight": 8,
-        "altitude": 8
-      }
-    },
-    "70": {
-      "mountStats": {
-        "speed": 22,
-        "jumpHeight": 8,
-        "altitude": 8
-      }
-    },
-    "80": {
-      "mountStats": {
-        "speed": 24,
-        "jumpHeight": 9,
-        "altitude": 9
-      }
-    },
-    "90": {
-      "mountStats": {
-        "speed": 26,
-        "jumpHeight": 9,
-        "altitude": 9
-      }
-    },
-    "100": {
-      "mountStats": {
-        "speed": 28,
-        "jumpHeight": 10,
-        "altitude": 10
-      }
-    },
-    "105": {
-      "mountStats": {
-        "speed": 29,
-        "jumpHeight": 10,
-        "altitude": 10
-      }
-    },
-    "110": {
-      "mountStats": {
-        "speed": 30,
-        "jumpHeight": 11,
-        "altitude": 11
-      }
-    },
-    "115": {
-      "mountStats": {
-        "speed": 31,
-        "jumpHeight": 11,
-        "altitude": 11
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "oil": {
-    "1": {
-      "mountStats": {
-        "jumpHeight": 2,
-        "altitude": 2,
-        "handling": 6,
-        "training": 4
+  {
+    "resourceType": "ingot",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 8
+      },
+      "toughness": {
+        "current": 0,
+        "max": 20
       }
     },
-    "10": {
-      "mountStats": {
-        "jumpHeight": 2,
-        "altitude": 2,
-        "handling": 8,
-        "training": 5
-      }
-    },
-    "20": {
-      "mountStats": {
-        "jumpHeight": 3,
-        "altitude": 3,
-        "handling": 9,
-        "training": 6
-      }
-    },
-    "30": {
-      "mountStats": {
-        "jumpHeight": 3,
-        "altitude": 3,
-        "handling": 11,
-        "training": 6
-      }
-    },
-    "40": {
-      "mountStats": {
-        "jumpHeight": 3,
-        "altitude": 3,
-        "handling": 12,
-        "training": 7
-      }
-    },
-    "50": {
-      "mountStats": {
-        "jumpHeight": 4,
-        "altitude": 4,
-        "handling": 14,
-        "training": 8
-      }
-    },
-    "60": {
-      "mountStats": {
-        "jumpHeight": 4,
-        "altitude": 4,
-        "handling": 15,
-        "training": 9
-      }
-    },
-    "70": {
-      "mountStats": {
-        "jumpHeight": 4,
-        "altitude": 4,
-        "handling": 17,
-        "training": 10
-      }
-    },
-    "80": {
-      "mountStats": {
-        "jumpHeight": 4,
-        "altitude": 4,
-        "handling": 18,
-        "training": 10
-      }
-    },
-    "90": {
-      "mountStats": {
-        "jumpHeight": 5,
-        "altitude": 5,
-        "handling": 20,
-        "training": 11
-      }
-    },
-    "100": {
-      "mountStats": {
-        "jumpHeight": 5,
-        "altitude": 5,
-        "handling": 21,
-        "training": 12
-      }
-    },
-    "105": {
-      "mountStats": {
-        "jumpHeight": 5,
-        "altitude": 5,
-        "handling": 22,
-        "training": 12
-      }
-    },
-    "110": {
-      "mountStats": {
-        "jumpHeight": 5,
-        "altitude": 5,
-        "handling": 23,
-        "training": 13
-      }
-    },
-    "115": {
-      "mountStats": {
-        "jumpHeight": 5,
-        "altitude": 5,
-        "handling": 23,
-        "training": 13
-      }
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
     }
   },
-  "meat": {
-    "1": {
-      "mountStats": {
-        "acceleration": 4,
-        "energy": 8
+  {
+    "resourceType": "ingot",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 8
+      },
+      "toughness": {
+        "current": 0,
+        "max": 22
       }
     },
-    "10": {
-      "mountStats": {
-        "acceleration": 5,
-        "energy": 10
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "ingot",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 9
+      },
+      "toughness": {
+        "current": 0,
+        "max": 24
       }
     },
-    "20": {
-      "mountStats": {
-        "acceleration": 5,
-        "energy": 12
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "ingot",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 9
+      },
+      "toughness": {
+        "current": 0,
+        "max": 26
       }
     },
-    "30": {
-      "mountStats": {
-        "acceleration": 6,
-        "energy": 14
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "ingot",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 10
+      },
+      "toughness": {
+        "current": 0,
+        "max": 28
       }
     },
-    "40": {
-      "mountStats": {
-        "acceleration": 6,
-        "energy": 16
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "ingot",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 10
+      },
+      "toughness": {
+        "current": 0,
+        "max": 29
       }
     },
-    "50": {
-      "mountStats": {
-        "acceleration": 7,
-        "energy": 18
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "ingot",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 11
+      },
+      "toughness": {
+        "current": 0,
+        "max": 30
       }
     },
-    "60": {
-      "mountStats": {
-        "acceleration": 8,
-        "energy": 20
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "ingot",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "energy": {
+        "current": 0,
+        "max": 11
+      },
+      "toughness": {
+        "current": 0,
+        "max": 31
       }
     },
-    "70": {
-      "mountStats": {
-        "acceleration": 8,
-        "energy": 22
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 4
+      },
+      "energy": {
+        "current": 0,
+        "max": 2
+      },
+      "training": {
+        "current": 0,
+        "max": 6
       }
     },
-    "80": {
-      "mountStats": {
-        "acceleration": 9,
-        "energy": 24
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 5
+      },
+      "energy": {
+        "current": 0,
+        "max": 2
+      },
+      "training": {
+        "current": 0,
+        "max": 8
       }
     },
-    "90": {
-      "mountStats": {
-        "acceleration": 9,
-        "energy": 26
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 6
+      },
+      "energy": {
+        "current": 0,
+        "max": 3
+      },
+      "training": {
+        "current": 0,
+        "max": 9
       }
     },
-    "100": {
-      "mountStats": {
-        "acceleration": 10,
-        "energy": 28
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 6
+      },
+      "energy": {
+        "current": 0,
+        "max": 3
+      },
+      "training": {
+        "current": 0,
+        "max": 11
       }
     },
-    "105": {
-      "mountStats": {
-        "acceleration": 10,
-        "energy": 29
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 7
+      },
+      "energy": {
+        "current": 0,
+        "max": 3
+      },
+      "training": {
+        "current": 0,
+        "max": 12
       }
     },
-    "110": {
-      "mountStats": {
-        "acceleration": 11,
-        "energy": 30
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 8
+      },
+      "energy": {
+        "current": 0,
+        "max": 4
+      },
+      "training": {
+        "current": 0,
+        "max": 14
       }
     },
-    "115": {
-      "mountStats": {
-        "acceleration": 11,
-        "energy": 31
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 9
+      },
+      "energy": {
+        "current": 0,
+        "max": 4
+      },
+      "training": {
+        "current": 0,
+        "max": 15
       }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 10
+      },
+      "energy": {
+        "current": 0,
+        "max": 4
+      },
+      "training": {
+        "current": 0,
+        "max": 17
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 10
+      },
+      "energy": {
+        "current": 0,
+        "max": 4
+      },
+      "training": {
+        "current": 0,
+        "max": 18
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 11
+      },
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "training": {
+        "current": 0,
+        "max": 20
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 12
+      },
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "training": {
+        "current": 0,
+        "max": 21
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 12
+      },
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "training": {
+        "current": 0,
+        "max": 22
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 13
+      },
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "training": {
+        "current": 0,
+        "max": 23
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "gem",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 13
+      },
+      "energy": {
+        "current": 0,
+        "max": 5
+      },
+      "training": {
+        "current": 0,
+        "max": 23
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 2
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 6
+      },
+      "toughness": {
+        "current": 0,
+        "max": 4
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 2
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 8
+      },
+      "toughness": {
+        "current": 0,
+        "max": 5
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 3
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 9
+      },
+      "toughness": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 3
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 11
+      },
+      "toughness": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 3
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 12
+      },
+      "toughness": {
+        "current": 0,
+        "max": 7
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 4
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 14
+      },
+      "toughness": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 4
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 15
+      },
+      "toughness": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 4
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 17
+      },
+      "toughness": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 4
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 18
+      },
+      "toughness": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 5
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 20
+      },
+      "toughness": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 5
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 21
+      },
+      "toughness": {
+        "current": 0,
+        "max": 12
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 5
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 22
+      },
+      "toughness": {
+        "current": 0,
+        "max": 12
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 5
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 23
+      },
+      "toughness": {
+        "current": 0,
+        "max": 13
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "plank",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 5
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 23
+      },
+      "toughness": {
+        "current": 0,
+        "max": 13
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 8
+      },
+      "altitude": {
+        "current": 0,
+        "max": 8
+      },
+      "boost": {
+        "current": 0,
+        "max": 4
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 10
+      },
+      "altitude": {
+        "current": 0,
+        "max": 10
+      },
+      "boost": {
+        "current": 0,
+        "max": 5
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 12
+      },
+      "altitude": {
+        "current": 0,
+        "max": 12
+      },
+      "boost": {
+        "current": 0,
+        "max": 5
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 14
+      },
+      "altitude": {
+        "current": 0,
+        "max": 14
+      },
+      "boost": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 16
+      },
+      "altitude": {
+        "current": 0,
+        "max": 16
+      },
+      "boost": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 18
+      },
+      "altitude": {
+        "current": 0,
+        "max": 18
+      },
+      "boost": {
+        "current": 0,
+        "max": 7
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 20
+      },
+      "altitude": {
+        "current": 0,
+        "max": 20
+      },
+      "boost": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 22
+      },
+      "altitude": {
+        "current": 0,
+        "max": 22
+      },
+      "boost": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 24
+      },
+      "altitude": {
+        "current": 0,
+        "max": 24
+      },
+      "boost": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 26
+      },
+      "altitude": {
+        "current": 0,
+        "max": 26
+      },
+      "boost": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 28
+      },
+      "altitude": {
+        "current": 0,
+        "max": 28
+      },
+      "boost": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 29
+      },
+      "altitude": {
+        "current": 0,
+        "max": 29
+      },
+      "boost": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 30
+      },
+      "altitude": {
+        "current": 0,
+        "max": 30
+      },
+      "boost": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "paper",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 31
+      },
+      "altitude": {
+        "current": 0,
+        "max": 31
+      },
+      "boost": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 2
+      },
+      "handling": {
+        "current": 0,
+        "max": 4
+      },
+      "boost": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 2
+      },
+      "handling": {
+        "current": 0,
+        "max": 5
+      },
+      "boost": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 3
+      },
+      "handling": {
+        "current": 0,
+        "max": 6
+      },
+      "boost": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 3
+      },
+      "handling": {
+        "current": 0,
+        "max": 6
+      },
+      "boost": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 3
+      },
+      "handling": {
+        "current": 0,
+        "max": 7
+      },
+      "boost": {
+        "current": 0,
+        "max": 12
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 8
+      },
+      "boost": {
+        "current": 0,
+        "max": 14
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 9
+      },
+      "boost": {
+        "current": 0,
+        "max": 15
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 10
+      },
+      "boost": {
+        "current": 0,
+        "max": 17
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 10
+      },
+      "boost": {
+        "current": 0,
+        "max": 18
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 11
+      },
+      "boost": {
+        "current": 0,
+        "max": 20
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 12
+      },
+      "boost": {
+        "current": 0,
+        "max": 21
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 12
+      },
+      "boost": {
+        "current": 0,
+        "max": 22
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 13
+      },
+      "boost": {
+        "current": 0,
+        "max": 23
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "string",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 13
+      },
+      "boost": {
+        "current": 0,
+        "max": 23
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 8
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 4
+      },
+      "altitude": {
+        "current": 0,
+        "max": 4
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 10
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 12
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 14
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 6
+      },
+      "altitude": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 16
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 6
+      },
+      "altitude": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 18
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 7
+      },
+      "altitude": {
+        "current": 0,
+        "max": 7
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 20
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 8
+      },
+      "altitude": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 22
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 8
+      },
+      "altitude": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 24
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 9
+      },
+      "altitude": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 26
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 9
+      },
+      "altitude": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 28
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 10
+      },
+      "altitude": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 29
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 10
+      },
+      "altitude": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 30
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 11
+      },
+      "altitude": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "grains",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 31
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 11
+      },
+      "altitude": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 2
+      },
+      "altitude": {
+        "current": 0,
+        "max": 2
+      },
+      "handling": {
+        "current": 0,
+        "max": 6
+      },
+      "training": {
+        "current": 0,
+        "max": 4
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 2
+      },
+      "altitude": {
+        "current": 0,
+        "max": 2
+      },
+      "handling": {
+        "current": 0,
+        "max": 8
+      },
+      "training": {
+        "current": 0,
+        "max": 5
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 3
+      },
+      "altitude": {
+        "current": 0,
+        "max": 3
+      },
+      "handling": {
+        "current": 0,
+        "max": 9
+      },
+      "training": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 3
+      },
+      "altitude": {
+        "current": 0,
+        "max": 3
+      },
+      "handling": {
+        "current": 0,
+        "max": 11
+      },
+      "training": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 3
+      },
+      "altitude": {
+        "current": 0,
+        "max": 3
+      },
+      "handling": {
+        "current": 0,
+        "max": 12
+      },
+      "training": {
+        "current": 0,
+        "max": 7
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 4
+      },
+      "altitude": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 14
+      },
+      "training": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 4
+      },
+      "altitude": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 15
+      },
+      "training": {
+        "current": 0,
+        "max": 9
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 4
+      },
+      "altitude": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 17
+      },
+      "training": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 4
+      },
+      "altitude": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 18
+      },
+      "training": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 20
+      },
+      "training": {
+        "current": 0,
+        "max": 11
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 21
+      },
+      "training": {
+        "current": 0,
+        "max": 12
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 22
+      },
+      "training": {
+        "current": 0,
+        "max": 12
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 23
+      },
+      "training": {
+        "current": 0,
+        "max": 13
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "oil",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "jumpHeight": {
+        "current": 0,
+        "max": 5
+      },
+      "altitude": {
+        "current": 0,
+        "max": 5
+      },
+      "handling": {
+        "current": 0,
+        "max": 23
+      },
+      "training": {
+        "current": 0,
+        "max": 13
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 1,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 4
+      },
+      "energy": {
+        "current": 0,
+        "max": 8
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 10,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "energy": {
+        "current": 0,
+        "max": 10
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 20,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 5
+      },
+      "energy": {
+        "current": 0,
+        "max": 12
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 30,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 6
+      },
+      "energy": {
+        "current": 0,
+        "max": 14
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 40,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 6
+      },
+      "energy": {
+        "current": 0,
+        "max": 16
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 50,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 7
+      },
+      "energy": {
+        "current": 0,
+        "max": 18
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 60,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 8
+      },
+      "energy": {
+        "current": 0,
+        "max": 20
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 70,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 8
+      },
+      "energy": {
+        "current": 0,
+        "max": 22
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 80,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 9
+      },
+      "energy": {
+        "current": 0,
+        "max": 24
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 90,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 9
+      },
+      "energy": {
+        "current": 0,
+        "max": 26
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 10
+      },
+      "energy": {
+        "current": 0,
+        "max": 28
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 105,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 10
+      },
+      "energy": {
+        "current": 0,
+        "max": 29
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 110,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 11
+      },
+      "energy": {
+        "current": 0,
+        "max": 30
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": "meat",
+    "level": 115,
+    "energy": 0,
+    "stats": {
+      "acceleration": {
+        "current": 0,
+        "max": 11
+      },
+      "energy": {
+        "current": 0,
+        "max": 31
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": -1
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 100,
+    "energy": 0,
+    "stats": {},
+    "maxStats": {
+      "speed": 1,
+      "acceleration": 1,
+      "jumpHeight": 1,
+      "altitude": 1,
+      "energy": 1,
+      "handling": 1,
+      "toughness": 1,
+      "boost": 1,
+      "training": 1
+    },
+    "feedingTime": {
+      "timestamp": 86400000
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 100,
+    "energy": 0,
+    "stats": {
+      "speed": {
+        "current": 3,
+        "max": 0
+      },
+      "acceleration": {
+        "current": 3,
+        "max": 0
+      },
+      "jumpHeight": {
+        "current": 3,
+        "max": 0
+      },
+      "altitude": {
+        "current": 3,
+        "max": 0
+      },
+      "energy": {
+        "current": 3,
+        "max": 0
+      },
+      "handling": {
+        "current": 3,
+        "max": 0
+      },
+      "toughness": {
+        "current": 3,
+        "max": 0
+      },
+      "boost": {
+        "current": 3,
+        "max": 0
+      },
+      "training": {
+        "current": 3,
+        "max": 0
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": 21600000
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 0,
+    "energy": 40,
+    "stats": {},
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": 180000
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 100,
+    "energy": 100,
+    "stats": {},
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": 180000
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 0,
+    "energy": 80,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 2
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 2
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 2
+      },
+      "altitude": {
+        "current": 0,
+        "max": 2
+      },
+      "energy": {
+        "current": 0,
+        "max": 2
+      },
+      "handling": {
+        "current": 0,
+        "max": 2
+      },
+      "toughness": {
+        "current": 0,
+        "max": 2
+      },
+      "boost": {
+        "current": 0,
+        "max": 2
+      },
+      "training": {
+        "current": 0,
+        "max": 2
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": 28800000
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 50,
+    "energy": 80,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 4
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 4
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 4
+      },
+      "altitude": {
+        "current": 0,
+        "max": 4
+      },
+      "energy": {
+        "current": 0,
+        "max": 4
+      },
+      "handling": {
+        "current": 0,
+        "max": 4
+      },
+      "toughness": {
+        "current": 0,
+        "max": 4
+      },
+      "boost": {
+        "current": 0,
+        "max": 4
+      },
+      "training": {
+        "current": 0,
+        "max": 4
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": 28800000
+    }
+  },
+  {
+    "resourceType": null,
+    "level": 100,
+    "energy": 80,
+    "stats": {
+      "speed": {
+        "current": 0,
+        "max": 6
+      },
+      "acceleration": {
+        "current": 0,
+        "max": 6
+      },
+      "jumpHeight": {
+        "current": 0,
+        "max": 6
+      },
+      "altitude": {
+        "current": 0,
+        "max": 6
+      },
+      "energy": {
+        "current": 0,
+        "max": 6
+      },
+      "handling": {
+        "current": 0,
+        "max": 6
+      },
+      "toughness": {
+        "current": 0,
+        "max": 6
+      },
+      "boost": {
+        "current": 0,
+        "max": 6
+      },
+      "training": {
+        "current": 0,
+        "max": 6
+      }
+    },
+    "maxStats": {},
+    "feedingTime": {
+      "timestamp": 28800000
     }
   }
-}
+]
