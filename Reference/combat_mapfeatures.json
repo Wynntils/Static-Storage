@@ -494,6 +494,19 @@
     }
   },
   {
+    "featureId": "canyon-of-the-lost-excursion-north",
+    "categoryId": "wynntils:content:lootrun-camp",
+    "attributes": {
+      "label": "Canyon of the Lost Excursion (North)",
+      "level": 89
+    },
+    "location": {
+      "x": 574,
+      "y": 79,
+      "z": -5018
+    }
+  },
+  {
     "featureId": "canyon-of-the-lost-excursion-south",
     "categoryId": "wynntils:content:lootrun-camp",
     "attributes": {
@@ -1700,6 +1713,32 @@
       "x": -118,
       "y": 71,
       "z": -923
+    }
+  },
+  {
+    "featureId": "interconnected-incomprehensibility",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Interconnected Incomprehensibility",
+      "level": 100
+    },
+    "location": {
+      "x": 598,
+      "y": 93,
+      "z": -295
+    }
+  },
+  {
+    "featureId": "irtitack-infestation",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Irtitack Infestation",
+      "level": 100
+    },
+    "location": {
+      "x": 496,
+      "y": 89,
+      "z": -483
     }
   },
   {
@@ -2938,6 +2977,19 @@
     }
   },
   {
+    "featureId": "tributary-waterfall",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Tributary Waterfall",
+      "level": 85
+    },
+    "location": {
+      "x": 536,
+      "y": 31,
+      "z": -5363
+    }
+  },
+  {
     "featureId": "troll-burrows",
     "categoryId": "wynntils:content:cave",
     "attributes": {
@@ -2974,6 +3026,19 @@
       "x": -560,
       "y": 80,
       "z": -959
+    }
+  },
+  {
+    "featureId": "uncovered-excavation",
+    "categoryId": "wynntils:content:cave",
+    "attributes": {
+      "label": "Uncovered Excavation",
+      "level": 100
+    },
+    "location": {
+      "x": 669,
+      "y": 85,
+      "z": -606
     }
   },
   {
@@ -3039,19 +3104,6 @@
       "x": -2121,
       "y": 61,
       "z": -802
-    }
-  },
-  {
-    "featureId": "watery-waterfall",
-    "categoryId": "wynntils:content:cave",
-    "attributes": {
-      "label": "Watery Waterfall",
-      "level": 85
-    },
-    "location": {
-      "x": 536,
-      "y": 31,
-      "z": -5363
     }
   },
   {
@@ -3250,6 +3302,32 @@
     }
   },
   {
+    "featureId": "hyloch-hustle",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Hyloch Hustle",
+      "level": 116
+    },
+    "location": {
+      "x": -1312,
+      "y": 107,
+      "z": -1320
+    }
+  },
+  {
+    "featureId": "lexdale-lumber",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Lexdale Lumber",
+      "level": 115
+    },
+    "location": {
+      "x": -633,
+      "y": 62,
+      "z": -5462
+    }
+  },
+  {
     "featureId": "llevigar-leg-day",
     "categoryId": "wynntils:content:time-trial",
     "attributes": {
@@ -3260,6 +3338,19 @@
       "x": -2018,
       "y": 43,
       "z": -4822
+    }
+  },
+  {
+    "featureId": "mistwood-march",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Mistwood March",
+      "level": 114
+    },
+    "location": {
+      "x": -1178,
+      "y": 62,
+      "z": -729
     }
   },
   {
@@ -3306,12 +3397,38 @@
     "categoryId": "wynntils:content:time-trial",
     "attributes": {
       "label": "Stygian Sprint",
-      "level": 103
+      "level": 120
     },
     "location": {
       "x": 1322,
       "y": 25,
       "z": -677
+    }
+  },
+  {
+    "featureId": "swampyard-scramble",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Swampyard Scramble",
+      "level": 55
+    },
+    "location": {
+      "x": -1567,
+      "y": 60,
+      "z": -5596
+    }
+  },
+  {
+    "featureId": "volcanic-venture",
+    "categoryId": "wynntils:content:time-trial",
+    "attributes": {
+      "label": "Volcanic Venture",
+      "level": 92
+    },
+    "location": {
+      "x": 1461,
+      "y": 45,
+      "z": -5301
     }
   },
   {

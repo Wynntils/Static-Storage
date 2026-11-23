@@ -1,0 +1,88 @@
+{
+    "Mantle": {
+        "base": {
+            "textures": [
+                "e1642ce27ab672f742af2395275c55f8433a466d6fc6c28c9f201d83659f9891"
+            ],
+            "fingerprints": []
+        },
+        "reskin": {
+            "textures": [
+                "97a615beb9ec4c755f8b66dd703f056f00c6c55188ab0cf420825a11702a88dd"
+            ],
+            "fingerprints": []
+        }
+    },
+    "Broken Mantle": {
+        "base": {
+            "textures": [
+                "5bf5e7d069f3239325a67824f2d58c496f2caf89cd19c87c8bc381a6fd18489d"
+            ],
+            "fingerprints": []
+        },
+        "reskin": {
+            "textures": [
+                "90862185b00a9dde5089944a90460835008b4e302bd97aa501ba848a4e29b709"
+            ],
+            "fingerprints": []
+        }
+    },
+    "Guardian Angels": {
+        "base": {
+            "textures": [
+                "dc24efe75918338d3f2f9bac61a48c632ed270f96c0e0a36f4f3c740520d57a5"
+            ],
+            "fingerprints": []
+        },
+        "reskin": {
+            "textures": [
+                "9704916dbd9ecdf6d96f19d1597239ae3c01e724f5ea452870d0dc948a858876"
+            ],
+            "fingerprints": []
+        }
+    },
+    "Angelic Ascension Guardian Angels": {
+        "base": {
+            "textures": [
+                "03ef681add633b538ebc1b0d89ba9775840a9b823246c99583b4d4d763a0d6b0"
+            ],
+            "fingerprints": []
+        }
+    },
+    "Arrow Shield": {
+        "base": {
+            "textures": [
+                "ac92d13b690ddfbc013bba1134b2e1b56e04c2a865b2532a873c55be15b4a15e"
+            ],
+            "fingerprints": []
+        },
+        "reskin": {
+            "textures": [
+                "8ac27e9143b4eb58106434e4274f411fb9046082dc4fd0c8cd2035be6c0c035b"
+            ],
+            "fingerprints": []
+        }
+    },
+    "Judrajim": {
+        "base": {
+            "textures": [
+                "0a347b9ece55a7c131d926bb1c27caa63cb32c1d17d9fa2f057d373c1634cb5c"
+            ],
+            "fingerprints": []
+        }
+    },
+    "Ritual Circle": {
+        "base": {
+            "textures": [
+                "2e86808b18b23d60c58e736e6e3b0e977dceabfdbbee13c6639ea1c6cd6bdcc7"
+            ],
+            "fingerprints": []
+        },
+        "reskin": {
+            "textures": [
+                "32bc08727e972f2f0bb707964a6846314f7112859fdb3c7b4d3ab98999a8410f"
+            ],
+            "fingerprints": []
+        }
+    }
+}

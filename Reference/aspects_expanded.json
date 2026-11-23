@@ -1199,63 +1199,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " deals additional damage.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
+                "text": " has reduced spread and gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+25% ",
+                "text": "+0.5 ",
                 "color": "#FFFFFF"
               },
               {
-                "text": "(of your DPS)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FFAA00"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FFAA00"
+                "color": "#00AAAA"
               },
               {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "+25%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
+                "text": "Area of Effect.",
+                "color": "#AAAAAA"
               }
             ]
           ],
@@ -1270,83 +1232,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " deals additional damage.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Grape Bomb",
-                "underline": true,
+                "text": " has reduced spread and gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
+                "text": "+1 ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " grape.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FF5555"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF5555"
+                "color": "#00AAAA"
               },
               {
-                "text": "Total Damage: ",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "+25% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "(of your DPS)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "+25%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
@@ -1361,83 +1265,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " deals additional damage.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "Grape Bomb",
-                "underline": true,
+                "text": " has reduced spread and gains ",
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+1",
+                "text": "+1.25 ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " grape.",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "",
+                "text": "",
                 "font": "common",
-                "color": "#FF5555"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF5555"
+                "color": "#00AAAA"
               },
               {
-                "text": "Total Damage: ",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "+45% ",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": "(of your DPS)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "+45%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
@@ -1864,6 +1710,44 @@
                 "color": "#AAAAAA"
               },
               {
+                "text": "+2%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " faster and its",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "maximum walk speed is increased by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+8%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Frenzy",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " builds walk speed ",
+                "color": "#AAAAAA"
+              },
+              {
                 "text": "+3%",
                 "color": "#FFFFFF"
               },
@@ -1878,7 +1762,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10%",
+                "text": "+12%",
                 "color": "#FFFFFF"
               },
               {
@@ -1887,9 +1771,9 @@
               }
             ]
           ],
-          "threshold": 1
+          "threshold": 15
         },
-        "2": {
+        "3": {
           "description": [
             [
               {
@@ -1925,177 +1809,7 @@
               }
             ]
           ],
-          "threshold": 15
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Frenzy",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": " builds walk speed ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+5%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": " faster and its",
-                "color": "#AAAAAA"
-              }
-            ],
-            [
-              {
-                "text": "maximum walk speed is increased by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+20%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
           "threshold": 75
-        }
-      }
-    },
-    "Aspect of the Barley-Woven": {
-      "icon": {
-        "format": "attribute",
-        "value": {
-          "customModelData": {
-            "rangeDispatch": [
-              52
-            ]
-          },
-          "id": "minecraft:potion",
-          "name": "abilityTree.aspectArcher"
-        }
-      },
-      "internalName": "443604b4",
-      "name": "Aspect of the Barley-Woven",
-      "rarity": "legendary",
-      "requiredClass": "archer",
-      "tiers": {
-        "1": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Grappling Hook",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s range by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+10%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 1
-        },
-        "2": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Grappling Hook",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s range by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+18%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 5
-        },
-        "3": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Grappling Hook",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s range by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+26%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 30
-        },
-        "4": {
-          "description": [
-            [
-              {
-                "text": "Increase ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "Grappling Hook",
-                "underline": true,
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "'s range by ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "+30%",
-                "color": "#FFFFFF"
-              },
-              {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ]
-          ],
-          "threshold": 150
         }
       }
     },
@@ -2396,11 +2110,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s weakness effect by ",
+                "text": "'s weakness and poison vulnerability effects by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2%",
+                "text": "+3%",
                 "color": "#FFFFFF"
               },
               {
@@ -2454,6 +2168,10 @@
               {
                 "text": "+25%",
                 "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
               }
             ],
             [
@@ -2482,11 +2200,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s weakness effect by ",
+                "text": "'s weakness and poison vulnerability effects by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3%",
+                "text": "+4%",
                 "color": "#FFFFFF"
               },
               {
@@ -2540,6 +2258,10 @@
               {
                 "text": "+25%",
                 "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
               }
             ],
             [
@@ -2568,7 +2290,13 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "'s weakness effect by ",
+                "text": "'s weakness and poison",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "vulnerability effects by ",
                 "color": "#AAAAAA"
               },
               {
@@ -2606,6 +2334,234 @@
             ]
           ],
           "threshold": 75
+        }
+      }
+    },
+    "Aspect of the Getaway": {
+      "icon": {
+        "format": "attribute",
+        "value": {
+          "customModelData": {
+            "rangeDispatch": [
+              52
+            ]
+          },
+          "id": "minecraft:potion",
+          "name": "abilityTree.aspectArcher"
+        }
+      },
+      "internalName": "443604b4",
+      "name": "Aspect of the Getaway",
+      "rarity": "legendary",
+      "requiredClass": "archer",
+      "tiers": {
+        "1": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+10%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Escape",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s velocity by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "12%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 1
+        },
+        "2": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+18%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Escape",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s velocity by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "18%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 5
+        },
+        "3": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+26%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Escape",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s velocity by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "22%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 30
+        },
+        "4": {
+          "description": [
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Grappling Hook",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s range by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+30%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Increase ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Escape",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "'s velocity by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "25%",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": ".",
+                "color": "#AAAAAA"
+              }
+            ]
+          ],
+          "threshold": 150
         }
       }
     },
@@ -2909,7 +2865,7 @@
         }
       }
     },
-    "Aspect of the North Wind": {
+    "Aspect of the Pincushion": {
       "icon": {
         "format": "attribute",
         "value": {
@@ -2923,7 +2879,7 @@
         }
       },
       "internalName": "41514620",
-      "name": "Aspect of the North Wind",
+      "name": "Aspect of the Pincushion",
       "rarity": "legendary",
       "requiredClass": "archer",
       "tiers": {
@@ -2931,29 +2887,20 @@
           "description": [
             [
               {
-                "text": "Snow Storm",
+                "text": "Buckshot",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " spews ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1",
+                "text": "+9",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " Range.",
+                "text": " arrows.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2964,29 +2911,20 @@
           "description": [
             [
               {
-                "text": "Snow Storm",
+                "text": "Buckshot",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " spews ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+1.75",
+                "text": "+16",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " Range.",
+                "text": " arrows.",
                 "color": "#AAAAAA"
               }
             ]
@@ -2997,29 +2935,20 @@
           "description": [
             [
               {
-                "text": "Snow Storm",
+                "text": "Buckshot",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " spews ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2.5",
+                "text": "+21",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " Range.",
+                "text": " arrows.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3030,29 +2959,20 @@
           "description": [
             [
               {
-                "text": "Snow Storm",
+                "text": "Buckshot",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " spews ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3",
+                "text": "+25",
                 "color": "#FFFFFF"
               },
               {
-                "text": " ",
-                "color": "#AAAAAA"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#00AA00"
-              },
-              {
-                "text": " Range.",
+                "text": " arrows.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3823,20 +3743,20 @@
           "description": [
             [
               {
-                "text": "Patient Hunter",
+                "text": "Tangled Traps",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " deal damage ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10% ",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "damage per second.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3847,27 +3767,27 @@
           "description": [
             [
               {
-                "text": "Patient Hunter",
+                "text": "Tangled Traps",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " deal damage ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10% ",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "damage per second.",
+                "text": " faster.",
                 "color": "#AAAAAA"
               }
             ],
             [],
             [
               {
-                "text": "Chilling Snare",
+                "text": "Rusted Maw",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -3876,20 +3796,24 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s ",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
-                "text": "",
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
                 "font": "common",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
-                "text": "Duration.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -3900,27 +3824,54 @@
           "description": [
             [
               {
-                "text": "Patient Hunter",
+                "text": "Tangled Traps",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " deal damage ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15% ",
+                "text": "+25%",
                 "color": "#FFFFFF"
               },
               {
-                "text": "damage per second.",
+                "text": " faster",
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and gain ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+0.5",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AAAA"
+              },
+              {
+                "text": " ",
+                "color": "#00AAAA"
+              },
+              {
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ],
             [],
             [
               {
-                "text": "Chilling Snare",
+                "text": "Rusted Maw",
                 "underline": true,
                 "color": "#AAAAAA"
               },
@@ -3929,20 +3880,24 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3s ",
+                "text": "+1",
                 "color": "#FFFFFF"
               },
               {
-                "text": "",
+                "text": " ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "",
                 "font": "common",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
                 "text": " ",
-                "color": "#FF55FF"
+                "color": "#00AAAA"
               },
               {
-                "text": "Duration.",
+                "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
             ]
@@ -8473,7 +8428,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+3%",
                 "color": "#FFFFFF"
               },
               {
@@ -9296,25 +9251,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " grants ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+2%",
+                "text": "+1% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed per cast",
+                "text": "walk speed per",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and ",
+                "text": "cast and ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10%",
+                "text": "+5%",
                 "color": "#FFFFFF"
               },
               {
@@ -9334,25 +9289,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " grants ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+3%",
+                "text": "+2% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed per cast",
+                "text": "walk speed per",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and ",
+                "text": "cast and ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+15%",
+                "text": "+10%",
                 "color": "#FFFFFF"
               },
               {
@@ -9372,25 +9327,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " grants ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+4%",
+                "text": "+3% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed per cast",
+                "text": "walk speed per",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and ",
+                "text": "cast and ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+20%",
+                "text": "+15%",
                 "color": "#FFFFFF"
               },
               {
@@ -9410,25 +9365,25 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " gains ",
+                "text": " grants ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+4% ",
                 "color": "#FFFFFF"
               },
               {
-                "text": " speed per cast",
+                "text": "walk speed per",
                 "color": "#AAAAAA"
               }
             ],
             [
               {
-                "text": "and ",
+                "text": "cast and ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+25%",
+                "text": "+20%",
                 "color": "#FFFFFF"
               },
               {
@@ -11252,6 +11207,35 @@
                 "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Frost Dragon's Breath",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " ",
+                "color": "#00AA00"
+              },
+              {
+                "text": "Range.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 1
@@ -11292,6 +11276,35 @@
               },
               {
                 "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Frost Dragon's Breath",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+1.75 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " ",
+                "color": "#00AA00"
+              },
+              {
+                "text": "Range.",
                 "color": "#AAAAAA"
               }
             ]
@@ -11336,6 +11349,35 @@
                 "text": "Area of Effect.",
                 "color": "#AAAAAA"
               }
+            ],
+            [],
+            [
+              {
+                "text": "Frost Dragon's Breath",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.25 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " ",
+                "color": "#00AA00"
+              },
+              {
+                "text": "Range.",
+                "color": "#AAAAAA"
+              }
             ]
           ],
           "threshold": 30
@@ -11376,6 +11418,35 @@
               },
               {
                 "text": "Area of Effect.",
+                "color": "#AAAAAA"
+              }
+            ],
+            [],
+            [
+              {
+                "text": "Frost Dragon's Breath",
+                "underline": true,
+                "color": "#AAAAAA"
+              },
+              {
+                "text": " gains ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "+2.5 ",
+                "color": "#FFFFFF"
+              },
+              {
+                "text": "",
+                "font": "common",
+                "color": "#00AA00"
+              },
+              {
+                "text": " ",
+                "color": "#00AA00"
+              },
+              {
+                "text": "Range.",
                 "color": "#AAAAAA"
               }
             ]
@@ -11983,15 +12054,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " spawns ",
+                "text": " lasts ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30%",
+                "text": "+3s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " more wisps.",
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ],
@@ -12069,15 +12140,15 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": " spawns ",
+                "text": " lasts ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+30%",
+                "text": "+3s",
                 "color": "#FFFFFF"
               },
               {
-                "text": " more wisps.",
+                "text": " longer.",
                 "color": "#AAAAAA"
               }
             ],
@@ -12513,7 +12584,7 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " and ",
+                "text": ", ",
                 "color": "#AAAAAA"
               },
               {
@@ -12521,7 +12592,16 @@
                 "color": "#55FFFF"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Nature's Jolt",
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " move ",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -12548,7 +12628,7 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " and ",
+                "text": ", ",
                 "color": "#AAAAAA"
               },
               {
@@ -12556,7 +12636,16 @@
                 "color": "#55FFFF"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Nature's Jolt",
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " move ",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -12583,7 +12672,7 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " and ",
+                "text": ", ",
                 "color": "#AAAAAA"
               },
               {
@@ -12591,7 +12680,16 @@
                 "color": "#55FFFF"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Nature's Jolt",
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " move ",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -12618,7 +12716,7 @@
                 "color": "#55FFFF"
               },
               {
-                "text": " and ",
+                "text": ", ",
                 "color": "#AAAAAA"
               },
               {
@@ -12626,7 +12724,16 @@
                 "color": "#55FFFF"
               },
               {
+                "text": " and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Nature's Jolt",
+                "color": "#AAAAAA"
+              },
+              {
                 "text": " move ",
+                "underline": true,
                 "color": "#AAAAAA"
               },
               {
@@ -14565,11 +14672,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.10x",
+                "text": "10%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " as strong.",
+                "text": " stronger.",
                 "color": "#AAAAAA"
               }
             ]
@@ -14589,11 +14696,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.15x",
+                "text": "15%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " as strong.",
+                "text": " stronger.",
                 "color": "#AAAAAA"
               }
             ]
@@ -14613,11 +14720,11 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "1.20x",
+                "text": "20%",
                 "color": "#FFFFFF"
               },
               {
-                "text": " as strong.",
+                "text": " stronger.",
                 "color": "#AAAAAA"
               }
             ]
@@ -16127,72 +16234,44 @@
             [],
             [
               {
-                "text": "Increase the damage of your ",
+                "text": "Increase the ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "Ritual Circle",
+                "text": "Static",
+                "color": "#55FFFF"
+              },
+              {
+                "text": " consumed by ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Aura",
+                "underline": true,
+                "color": "#AAAAAA"
+              }
+            ],
+            [
+              {
+                "text": "and ",
+                "color": "#AAAAAA"
+              },
+              {
+                "text": "Zealot's Bolts",
                 "underline": true,
                 "color": "#AAAAAA"
               },
               {
-                "text": ".",
-                "color": "#AAAAAA"
-              }
-            ],
-            [],
-            [
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FF5555"
-              },
-              {
-                "text": " ",
-                "color": "#FF5555"
-              },
-              {
-                "text": "Total Damage: ",
+                "text": " by ",
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10% ",
+                "text": "+5",
                 "color": "#FFFFFF"
               },
               {
-                "text": "(of your DPS)",
-                "color": "#555555"
-              }
-            ],
-            [
-              {
-                "text": "  ",
+                "text": ".",
                 "color": "#AAAAAA"
-              },
-              {
-                "text": "(",
-                "color": "#555555"
-              },
-              {
-                "text": "",
-                "font": "common",
-                "color": "#FFAA00"
-              },
-              {
-                "text": " ",
-                "color": "#FFAA00"
-              },
-              {
-                "text": "Damage: ",
-                "color": "#555555"
-              },
-              {
-                "text": "+10%",
-                "color": "#555555"
-              },
-              {
-                "text": ")",
-                "color": "#555555"
               }
             ]
           ],
@@ -20098,7 +20177,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+5%",
+                "text": "+8%",
                 "color": "#FFFFFF"
               },
               {
@@ -20122,7 +20201,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+8%",
+                "text": "+12%",
                 "color": "#FFFFFF"
               },
               {
@@ -20146,7 +20225,7 @@
                 "color": "#AAAAAA"
               },
               {
-                "text": "+10%",
+                "text": "+15%",
                 "color": "#FFFFFF"
               },
               {
